@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.5"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <recordInfo>
+      <recordIdentifier source="CoBA">OSGC-000-000-022-999</recordIdentifier>
+      <recordCreationDate encoding="w3cdtf">2016-08-01</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2016-08-08</recordChangeDate>
+      <recordContentSource>NCAR Library and Archives</recordContentSource>
+      <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                framework.</recordOrigin>
+      <recordOrigin>This record was transformed using the following
+                files: osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                osm-article-to-mods.xsl.</recordOrigin>
+      <languageOfCataloging>
+         <languageTerm type="text">English</languageTerm>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <titleInfo>
+      <title>Numerical simulation of precipitation formation in the case orographically induced convective cloud: Comparison of the results of bin and bulk microphysical schemes</title>
+   </titleInfo>
+   <name type="personal">
+      <namePart type="given">No&#233;mi</namePart>
+      <namePart type="family">Sarkadi</namePart>
+      <displayForm>No&#233;mi Sarkadi</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="given">Istv&#225;n</namePart>
+      <namePart type="family">Geresdi</namePart>
+      <displayForm>Istv&#225;n Geresdi</displayForm>
+      <role>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+   </name>
+
+   <typeOfResource>text</typeOfResource>
+   <genre authority="marcgt">article!</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">2016-11-01</dateIssued>
+      <publisher>Elsevier Ltd.</publisher>
+   </originInfo>
+   <language>
+      <languageTerm type="code" authority="rfc5646">en</languageTerm>
+   </language>
+   <abstract lang="eng">In this study, results of bulk and bin microphysical schemes are compared in the case of idealized simulations of pre-frontal orographic clouds with enhanced embedded convection. The description graupel formation by intensive riming of snowflakes was improved compared to prior versions of each scheme. Two methods of graupel melting coincident with collisions with water drops were considered: (1) all simulated melting and collected water drops increase the amount of melted water on the surface of graupel particles with no shedding permitted; (2) also no shedding permitted due to melting, but the collision with the water drops can induce shedding from the surface of the graupel particles. The results of the numerical experiments show: (i) The bin schemes generate graupel particles more efficiently by riming than the bulk scheme does; the intense riming of snowflakes was the most dominant process for the graupel formation. (ii) The collision-induced shedding significantly affects the evolution of the size distribution of graupel particles and water drops below the melting level. (iii) The three microphysical schemes gave similar values for the domain integrated surface precipitation, but the patterns reveal meaningful differences. (iv) Sensitivity tests using the bulk scheme show that the depth of the melting layer is sensitive to the description of the terminal velocity of the melting snow. (v) Comparisons against Convair-580 flight measurements suggest that the bin schemes simulate well the evolution of the pristine ice particles and liquid drops, while some inaccuracy can occur in the description of snowflakes riming. (vi) The bin scheme with collision-induced shedding reproduced well the quantitative characteristics of the observed bright band.</abstract>
+   <relatedItem type="host">
+      <titleInfo>
+         <title>Atmospheric Research</title>
+      </titleInfo>
+      <part>
+         <detail type="volume">
+            <number>180</number>
+         </detail>
+         <extent unit="page">
+            <start>241</start>
+            <end>261</end>
+            <list>241-261</list>
+         </extent>
+      </part>
+   </relatedItem>
+   <extension>
+      <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">Refereed</osm:classification>
+   </extension>
+   <extension>
+      <osm:collaboration xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">UCAR and University</osm:collaboration>
+   </extension>
+   <extension>
+      <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">articles</osm:collectionKey>
+   </extension>
+   <relatedItem type="isReferencedBy">
+      <identifier type="uri">http://dx.doi.org/10.1016/j.atmosres.2016.04.010</identifier>
+   </relatedItem>
+   <identifier type="ark">ark:/85065/d7jd4zf5</identifier>
+   <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-022-999</identifier>
+   <identifier type="doi">10.1016/j.atmosres.2016.04.010</identifier>
+   <accessCondition type="use and reproduction">Copyright 2016 Elsevier.</accessCondition>
+</mods>

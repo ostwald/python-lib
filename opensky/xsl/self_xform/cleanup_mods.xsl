@@ -4,7 +4,7 @@
                 xmlns:mods="http://www.loc.gov/mods/v3"
                 xmlns="http://www.loc.gov/mods/v3"
                 exclude-result-prefixes="mods">
-    <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes" media-type="text/xml"/>
+    <xsl:output method="xml" version="1.0" omit-xml-declaration="yes" encoding="UTF-8" indent="yes" media-type="text/xml"/>
     <xsl:strip-space elements="*"/>
     <xsl:template match="*[not(node())]"/>
     <xsl:template match="node() | @*">
@@ -33,7 +33,7 @@
         </name>
     </xsl:template>
 
-    <!-- make sure no other name has useage attribute -->
+    <!-- make sure no other name has usage attribute -->
     <xsl:template match="/mods:mods/mods:name[position()>1]">
         <name>
             <xsl:copy-of select="@*[name()!='usage']"/>

@@ -3,7 +3,7 @@ self-transform path on Clone: sites/all/modules/islandora_xml_forms/builder/self
 """
 from opensky.xsl import transform, ET
 
-xml = 'mods_1.xml'
+xml = 'foo.xml'
 xsl = 'cleanup_mods.xsl'
 # # xsl = 'islandora_cleanup_mods_extended.xsl'
 #
