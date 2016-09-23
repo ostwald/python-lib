@@ -1,0 +1,1551 @@
+Oct 10, 2007 5:52:39 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 10, 2007 5:52:39 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:52:40 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:52:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2227 ms
+Oct 10, 2007 5:52:40 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 10, 2007 5:52:40 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 10, 2007 5:52:40 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 10, 2007 5:52:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 5:52:42 PM MDT NDRServlet starting
+Oct 10, 2007 5:52:42 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 5:52:42 PM MDT SetupServlet starting
+Oct 10, 2007 5:52:42 PM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 5:52:42 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 5:52:42 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 5:52:42 PM MDT SetupServlet completed.
+
+Oct 10, 2007 5:52:42 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 5:52:42 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 5:52:46 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 5:52:46 PM MDT Outputting debug info
+Oct 10, 2007 5:52:46 PM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 5:52:46 PM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 5:52:46 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 5:52:46 PM MDT Starting up RepositoryManager
+Oct 10, 2007 5:52:46 PM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 5:52:46 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Oct 10, 2007 5:52:47 PM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 5:52:47 PM MDT rm.init() successful...
+Oct 10, 2007 5:52:47 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 5:52:47 PM MDT DDSServlet started.
+
+
+Oct 10, 2007 5:52:47 PM MDT OAIProviderServlet starting
+Oct 10, 2007 5:52:47 PM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 5:52:47 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 5:52:47 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 10, 2007 5:52:47 PM MDT OAIProviderServlet initialized.
+Oct 10, 2007 5:52:50 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (8 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+java.lang.NullPointerException
+	at org.dlese.dpc.xml.schema.ComplexType.<init>(ComplexType.java:66)
+	at org.dlese.dpc.xml.schema.SchemaReader.getTypeDefs(SchemaReader.java:366)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:205)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.<init>(DefinitionMiner.java:97)
+	at org.dlese.dpc.xml.schema.SchemaHelper.init(SchemaHelper.java:156)
+	at org.dlese.dpc.xml.schema.SchemaHelper.<init>(SchemaHelper.java:142)
+	at org.dlese.dpc.schemedit.MetaDataFramework.loadSchemaHelper(MetaDataFramework.java:451)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.load(FrameworkRegistry.java:121)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.<init>(FrameworkRegistry.java:84)
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:127)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+NewFieldInfoMap: FieldInfoMap initialized - 6 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 2 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with sample.xml
+CollectionRegistry: registered sample (prefix: )
+
+"collectionRegistry" initialized with 1 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /prod/tools/dlesetest/devel/dcs/exported
+Oct 10, 2007 5:53:22 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry: initializeIDGenerators WARNING: collectionConfig not found for collect
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+initialized repositoryService
+Oct 10, 2007 5:53:27 PM MDT SchemEditServlet initialized.
+
+Oct 10, 2007 5:53:27 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 5:53:27 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 5:53:27 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 5:53:27 PM MDT SchemaViewerServlet starting
+Oct 10, 2007 5:53:27 PM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 5:53:28 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:53:28 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:53:28 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 10, 2007 5:53:28 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/34  config=null
+Oct 10, 2007 5:53:28 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 10, 2007 5:53:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 48162 ms
+
+Oct 10, 2007 5:53:37 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/browse/home.do
+	 queryString: null
+	 servletPath: /browse/home.do
+
+
+SessionRegistry: sessionBean is null && session is active for id: 9E6F20551C74CB6D041BEA45E305C150
+SessionRegistry: registered sessionBean: 9E6F20551C74CB6D041BEA45E305C150
+SchemEditUtils: Filtered Request Parameters
+RepositoryService: Role not provided -- returning all sets
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 10, 2007 5:53:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 10, 2007 5:53:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 10, 2007 5:53:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 10, 2007 5:53:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 10, 2007 5:53:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 10, 2007 5:53:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 10, 2007 5:54:02 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/manage/collections.do
+	 queryString: null
+	 servletPath: /manage/collections.do
+
+
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+
+Oct 10, 2007 5:54:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/manage-styles.css
+
+Oct 10, 2007 5:54:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/manage/collections.do
+	 queryString: command=new
+	 servletPath: /manage/collections.do
+
+
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+	command: new
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry: initializeIDGenerators WARNING: collectionConfig not found for collect
+
+Oct 10, 2007 5:54:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/admin/admin.do
+	 queryString: page=index
+	 servletPath: /admin/admin.do
+
+
+Oct 10, 2007 5:54:11 PM MDT DCSAdminForm() 
+SchemEditUtils: Filtered Request Parameters
+	page: index
+
+Oct 10, 2007 5:54:12 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/file_folder2.gif
+
+Oct 10, 2007 5:54:15 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/admin/admin.do
+	 queryString: null
+	 servletPath: /admin/admin.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	command: Reindex All
+Oct 10, 2007 5:54:15 PM MDT DCSAdminAction: Running command Reindex All
+Oct 10, 2007 5:54:15 PM MDT SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/lucene_index' - creating a new one...
+Oct 10, 2007 5:54:15 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 5:54:15 PM MDT SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/dup_items_index/lucene_index' - creating a new one...
+Oct 10, 2007 5:54:15 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry:  ... config file NOT found, using default to build new one
+CollectionRegistry: registered collect (prefix: )
+
+DcsDataManager: creating formatDir: /prod/tools/dlesetest/devel/dcs/records/dcs_data/dlese_collect
+DcsDataManager: creating collectDir: /prod/tools/dlesetest/devel/dcs/records/dcs_data/dlese_collect/collect
+RepositoryService: getXMLDocReader() indexed record not found for id: DCS-COLLECTION-000-000-000-001
+Oct 10, 2007 5:54:16 PM MDT FileIndexingService: synchDirectory adding 1 files and removing 0 files
+
+Oct 10, 2007 5:54:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/admin/admin.do
+	 queryString: command=showIndexingMessages
+	 servletPath: /admin/admin.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	command: showIndexingMessages
+Oct 10, 2007 5:54:19 PM MDT DCSAdminAction: Running command showIndexingMessages
+Oct 10, 2007 5:54:24 PM MDT FileIndexingService: synchDirectory adding 1 files and removing 1 files
+Oct 10, 2007 5:54:29 PM MDT IndexingObserver: * Indexing Completed: Completed indexing 1 directories successfully. Total time 5.522 seconds. Total number of items in index: 1 *
+Oct 10, 2007 5:54:29 PM MDT IndexingObserver: Reinitializing idManager
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+IDGenerator: Current ID = 0 for 
+
+Oct 10, 2007 5:54:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/admin/admin.do
+	 queryString: command=showIndexingMessages
+	 servletPath: /admin/admin.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	command: showIndexingMessages
+Oct 10, 2007 5:54:42 PM MDT DCSAdminAction: Running command showIndexingMessages
+
+Oct 10, 2007 5:54:46 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/admin/admin.do
+	 queryString: page=index
+	 servletPath: /admin/admin.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	page: index
+
+Oct 10, 2007 5:54:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/manage/collections.do
+	 queryString: null
+	 servletPath: /manage/collections.do
+
+
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+
+Oct 10, 2007 5:54:57 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/manage/collections.do
+	 queryString: command=new
+	 servletPath: /manage/collections.do
+
+
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+	command: new
+
+Oct 10, 2007 5:55:24 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/manage/collections.do
+	 queryString: status=Accessioned&policyUrl=http%3A%2F%2FpolicyUrl.net&policyType=Collection+scope&fullTitle=My+Collection&shortTitle=My+Collection&formatOfRecords=adn&idPrefix=MY&termsOfUse=&termsOfUseURI=&copyright=&serviceName=&command=submit
+	 servletPath: /manage/collections.do
+
+
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+	idPrefix: MY
+	policyUrl: http://policyUrl.net
+	shortTitle: My Collection
+	command: submit
+	status: Accessioned
+	policyType: Collection scope
+	fullTitle: My Collection
+	formatOfRecords: adn
+CollectionRegistry: isDuplicatePrefix() key: null  prefix: MY
+MetaDataFramework: about to put collectionKey with collectionKey goes here to /collectionRecord/access/key
+MetaDataFramework: about to put policyUrl with policyUrl goes here to /collectionRecord/general/policies/policy/@url
+MetaDataFramework: about to put fullTitle with fullTitle goes here to /collectionRecord/general/fullTitle
+MetaDataFramework: about to put description with description goes here to /collectionRecord/general/description
+MetaDataFramework: about to put shortTitle with shortTitle goes here to /collectionRecord/general/shortTitle
+MetaDataFramework: about to put dateCreated with 2007-10-10 to /collectionRecord/approval/collectionStatuses/collectionStatus/@date
+MetaDataFramework: about to put accessionStatus with accessionStatus goes here to /collectionRecord/approval/collectionStatuses/collectionStatus/@state
+MetaDataFramework: about to put policyType with policyType goes here to /collectionRecord/general/policies/policy/@type
+MetaDataFramework: about to put id with -000-000-000-001 to /collectionRecord/metaMetadata/catalogEntries/catalog/@entry
+MetaDataFramework: about to put formatOfRecords with formatOfRecords goes here to /collectionRecord/access/key/@libraryFormat
+CollectionRegistry: collectionConfig for "1192060366473" not found
+CollectionRegistry:  ... config file NOT found, using default to build new one
+CollectionRegistry: registered 1192060366473 (prefix: )
+
+CollectionConfig: setting xmlFormat to adn
+CollectionConfigReader: setIdPrefix(): MY
+CollectionConfigReader: 	 sanity check: idPrefix: MY
+RepositoryService: getXMLDocReader() indexed record not found for id: -000-000-000-001
+java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.action.CollectionServicesAction.createCollection(CollectionServicesAction.java:839)
+	at org.dlese.dpc.schemedit.action.CollectionServicesAction.execute(CollectionServicesAction.java:240)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.dlese.dpc.schemedit.RequestProcessor.process(RequestProcessor.java:89)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.dlese.dpc.schemedit.ActionServlet.process(ActionServlet.java:110)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at org.dlese.dpc.schemedit.ActionServlet.doGet(ActionServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.dlese.dpc.schemedit.security.access.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+Oct 10, 2007 5:55:25 PM MDT FileIndexingService: synchDirectory adding 1 files and removing 0 files
+Oct 10, 2007 6:00:40 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 2 DcsDataRecords from cache
+Oct 10, 2007 6:00:40 PM MDT SchemEditServlet stopped
+Oct 10, 2007 6:00:40 PM MDT NDRServlet: destroy() ...
+Oct 10, 2007 6:00:40 PM MDT NDRServlet stopped
+Oct 10, 2007 6:00:40 PM MDT SetupServlet: destroy() ...
+Oct 10, 2007 6:00:40 PM MDT SetupServlet stopped
+Oct 10, 2007 6:00:40 PM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 6:00:40 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 10, 2007 6:00:40 PM MDT MetadataVocabServlet stopped.
+java.io.InterruptedIOException: operation interrupted
+Oct 10, 2007 6:00:40 PM MDT RepositoryManager destroy()
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+Oct 10, 2007 6:00:40 PM MDT OAIProviderServlet stopped
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+Oct 10, 2007 6:00:40 PM MDT RepositoryManager destroy()
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+
+
+Oct 10, 2007 6:00:40 PM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 6:00:40 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: unregistering Session Bean for 9E6F20551C74CB6D041BEA45E305C150
+SessionBean: destroying sessionBean for 9E6F20551C74CB6D041BEA45E305C150
+SessionRegistry: destroy
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 9E6F20551C74CB6D041BEA45E305C150 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3019)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session 9E6F20551C74CB6D041BEA45E305C150 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3019)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+
+[WARN] schemedit] - Cannot serialize session attribute csForm for session 9E6F20551C74CB6D041BEA45E305C150 <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3019)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4166)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3025)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3019)
+	... 7 more
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4166)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3025)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3019)
+	... 7 more
+
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 6:00:42 PM MDT NDRServlet starting
+Oct 10, 2007 6:00:42 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 6:00:42 PM MDT SetupServlet starting
+Oct 10, 2007 6:00:42 PM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 6:00:42 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 6:00:42 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 6:00:42 PM MDT SetupServlet completed.
+
+Oct 10, 2007 6:00:42 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 6:00:42 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 6:00:46 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 6:00:46 PM MDT Outputting debug info
+Oct 10, 2007 6:00:47 PM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 6:00:47 PM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 6:00:47 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 6:00:47 PM MDT Starting up RepositoryManager
+Oct 10, 2007 6:00:47 PM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 6:00:47 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 2 entries.
+Oct 10, 2007 6:00:47 PM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 6:00:47 PM MDT rm.init() successful...
+Oct 10, 2007 6:00:47 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 6:00:48 PM MDT DDSServlet started.
+
+
+Oct 10, 2007 6:00:48 PM MDT OAIProviderServlet starting
+Oct 10, 2007 6:00:48 PM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 6:00:48 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 6:00:48 PM MDT OAIProviderServlet initialized.
+Oct 10, 2007 6:00:48 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+Oct 10, 2007 6:00:48 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (8 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+java.lang.NullPointerException
+	at org.dlese.dpc.xml.schema.ComplexType.<init>(ComplexType.java:66)
+	at org.dlese.dpc.xml.schema.SchemaReader.getTypeDefs(SchemaReader.java:366)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:205)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.<init>(DefinitionMiner.java:97)
+	at org.dlese.dpc.xml.schema.SchemaHelper.init(SchemaHelper.java:156)
+	at org.dlese.dpc.xml.schema.SchemaHelper.<init>(SchemaHelper.java:142)
+	at org.dlese.dpc.schemedit.MetaDataFramework.loadSchemaHelper(MetaDataFramework.java:451)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.load(FrameworkRegistry.java:121)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.<init>(FrameworkRegistry.java:84)
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:127)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3025)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+NewFieldInfoMap: FieldInfoMap initialized - 6 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 4 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with sample.xml
+CollectionRegistry: registered sample (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with 1192060366473.xml
+CollectionRegistry: registered 1192060366473 (prefix: MY)
+
+"collectionRegistry" initialized with 3 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /prod/tools/dlesetest/devel/dcs/exported
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+Oct 10, 2007 6:01:25 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 1 for 
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+initialized repositoryService
+Oct 10, 2007 6:01:33 PM MDT SchemEditServlet initialized.
+
+Oct 10, 2007 6:01:33 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 6:01:33 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 6:01:33 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 6:01:33 PM MDT SchemaViewerServlet starting
+Oct 10, 2007 6:01:33 PM MDT SchemaViewerServlet initialized.
+
+Oct 10, 2007 6:01:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/manage/collections.do
+	 queryString: status=Accessioned&policyUrl=http%3A%2F%2FpolicyUrl.net&policyType=Collection+scope&fullTitle=My+Collection&shortTitle=My+Collection&formatOfRecords=adn&idPrefix=MY&termsOfUse=&termsOfUseURI=&copyright=&serviceName=&command=submit
+	 servletPath: /manage/collections.do
+
+
+SessionRegistry: sessionBean is null && session is active for id: 351FC551E128112D496B5F5609F8ED66
+SessionRegistry: registered sessionBean: 351FC551E128112D496B5F5609F8ED66
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+	idPrefix: MY
+	policyUrl: http://policyUrl.net
+	shortTitle: My Collection
+	command: submit
+	status: Accessioned
+	policyType: Collection scope
+	fullTitle: My Collection
+	formatOfRecords: adn
+CollectionRegistry: isDuplicatePrefix() key: null  prefix: MY
+[ERROR] [jsp] - Servlet.service() for servlet jsp threw exception <javax.servlet.jsp.JspException: Failed to obtain specified collection>javax.servlet.jsp.JspException: Failed to obtain specified collection
+	at org.apache.struts.taglib.html.OptionsCollectionTag.doStartTag(OptionsCollectionTag.java:176)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005foptionsCollection_005f0(create_005fcollection_jsp.java:944)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005fselect_005f0(create_005fcollection_jsp.java:915)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005fform_005f0(create_005fcollection_jsp.java:611)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005fhtml_005f0(create_005fcollection_jsp.java:452)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspService(create_005fcollection_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1063)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:386)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:229)
+	at org.dlese.dpc.schemedit.RequestProcessor.process(RequestProcessor.java:89)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.dlese.dpc.schemedit.ActionServlet.process(ActionServlet.java:110)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at org.dlese.dpc.schemedit.ActionServlet.doGet(ActionServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.dlese.dpc.schemedit.security.access.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+
+Oct 10, 2007 6:01:42 PM MDT DCS RequestProcessor: process caught exception: Failed to obtain specified collection
+org.apache.jasper.JasperException: Failed to obtain specified collection
+	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:371)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1063)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:386)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:229)
+	at org.dlese.dpc.schemedit.RequestProcessor.process(RequestProcessor.java:89)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.dlese.dpc.schemedit.ActionServlet.process(ActionServlet.java:110)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at org.dlese.dpc.schemedit.ActionServlet.doGet(ActionServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.dlese.dpc.schemedit.security.access.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+[ERROR] [action] - Servlet.service() for servlet action threw exception <javax.servlet.jsp.JspException: Failed to obtain specified collection>javax.servlet.jsp.JspException: Failed to obtain specified collection
+	at org.apache.struts.taglib.html.OptionsCollectionTag.doStartTag(OptionsCollectionTag.java:176)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005foptionsCollection_005f0(create_005fcollection_jsp.java:944)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005fselect_005f0(create_005fcollection_jsp.java:915)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005fform_005f0(create_005fcollection_jsp.java:611)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspx_meth_html_005fhtml_005f0(create_005fcollection_jsp.java:452)
+	at org.apache.jsp.manage.create_005fcollection_jsp._jspService(create_005fcollection_jsp.java:146)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.apache.struts.action.RequestProcessor.doForward(RequestProcessor.java:1063)
+	at org.apache.struts.action.RequestProcessor.processForwardConfig(RequestProcessor.java:386)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:229)
+	at org.dlese.dpc.schemedit.RequestProcessor.process(RequestProcessor.java:89)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1194)
+	at org.dlese.dpc.schemedit.ActionServlet.process(ActionServlet.java:110)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at org.dlese.dpc.schemedit.ActionServlet.doGet(ActionServlet.java:139)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.dlese.dpc.schemedit.security.access.AuthorizationFilter.doFilter(AuthorizationFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+
+
+Oct 10, 2007 6:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/browse/home.do
+	 queryString: null
+	 servletPath: /browse/home.do
+
+
+SessionRegistry: sessionBean is null && session is active for id: 12572319AD049660FE39B4E5450E40F5
+SessionRegistry: registered sessionBean: 12572319AD049660FE39B4E5450E40F5
+SchemEditUtils: Filtered Request Parameters
+RepositoryService: Role not provided -- returning all sets
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 10, 2007 6:01:53 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/record_op/adn.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/record_op/adn.do
+	 queryString: collection=1192060366473&command=new
+	 servletPath: /record_op/adn.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	command: new
+	collection: 1192060366473
+
+Oct 10, 2007 6:02:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/record_op/adn.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/record_op/adn.do
+	 queryString: collection=1192060366473&primaryUrl=http%3A%2F%2Fdlese.org&title=DLESE&command=submit
+	 servletPath: /record_op/adn.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	primaryUrl: http://dlese.org
+	command: submit
+	collection: 1192060366473
+	title: DLESE
+CreateADNRecordAction: submit
+	primaryUrl: http://dlese.org
+	validatedUrl: null
+
+RepositoryService: getDups
+Oct 10, 2007 6:02:19 PM MDT SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '((collection:0*) AND collection:01192060366473) AND urlenc:httpx58x47x47dlesex46org)': Encountered ")" at line 1, column 83.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+Oct 10, 2007 6:02:19 PM MDT SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '((collection:0*) AND collection:01192060366473) AND urlMirrorsEncoded:httpx58x47x47dlesex46org)': Encountered ")" at line 1, column 94.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+CreateADNRecordAction: validation found 0 errors
+CreateADNRecordAction: checking sims
+Oct 10, 2007 6:02:19 PM MDT SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '((collection:0*) AND collection:01192060366473) AND urlMirrorsEncoded:httpx58x47x47dlesex46org*)': Encountered ")" at line 1, column 95.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+CreateADNRecordAction: handleNewRecordRequest
+MetaDataFramework: about to put statusOf with Accessioned to /itemRecord/metaMetadata/statusOf/@status
+MetaDataFramework: about to put title with title goes here to /itemRecord/general/title
+MetaDataFramework: about to put termsOfUse with termsOfUse goes here to /itemRecord/metaMetadata/termsOfUse
+MetaDataFramework: about to put description with description goes here to /itemRecord/general/description
+MetaDataFramework: about to put metaLanguage with en to /itemRecord/metaMetadata/language
+MetaDataFramework: about to put url with url goes here to /itemRecord/technical/online/primaryURL
+MetaDataFramework: about to put termsOfUseURI with termsOfUseURI goes here to /itemRecord/metaMetadata/termsOfUse/@URI
+MetaDataFramework: about to put dateCreated with 2007-10-10 to /itemRecord/metaMetadata/dateInfo/@created
+MetaDataFramework: about to put id with MY-000-000-000-001 to /itemRecord/metaMetadata/catalogEntries/catalog/@entry
+MetaDataFramework: about to put copyright with copyright goes here to /itemRecord/metaMetadata/copyright
+
+RepositoryService: saveNewRecord()
+DcsDataManager: creating formatDir: /prod/tools/dlesetest/devel/dcs/records/dcs_data/adn
+DcsDataManager: creating collectDir: /prod/tools/dlesetest/devel/dcs/records/dcs_data/adn/1192060366473
+schemaNS_URI: http://www.w3.org/2001/XMLSchema
+RepositoryService: getXMLDocReader() indexed record not found for id: MY-000-000-000-001
+
+RepositoryWriter: writeRecord() id: MY-000-000-000-001
+Oct 10, 2007 6:02:21 PM MDT Saving record id: MY-000-000-000-001
+RepositoryService: getXMLDocReader() indexed record not found for id: MY-000-000-000-001
+
+Oct 10, 2007 6:02:22 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrow_right.gif
+
+Oct 10, 2007 6:02:24 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/editor/edit.do
+	 queryString: command=edit&recId=MY-000-000-000-001
+	 servletPath: /editor/edit.do
+
+
+RepositoryService: Role not provided -- returning all sets
+SchemEditUtils: Filtered Request Parameters
+	command: edit
+	recId: MY-000-000-000-001
+SessionRegistry: session 12572319AD049660FE39B4E5450E40F5 attempting to lock record MY-000-000-000-001 ... Success
+
+Oct 10, 2007 6:02:29 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/autoform-styles.css
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/scriptaculous.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/builder.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/effects.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/dragdrop.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/controls.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/slider.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/metadata-editor-support.js
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrowup.gif
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/questionMarkWhite.gif
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/closed.gif
+
+Oct 10, 2007 6:02:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/opened.gif
+
+Oct 10, 2007 6:03:41 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/editor/edit.do
+	 queryString: null
+	 servletPath: /editor/edit.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	command: save
+	xmlFormat: adn
+	currentPage: general
+	recId: MY-000-000-000-001
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+DCSSchemEditAction: DCSSchemEditAction.putRecord()
+
+DCSSchemEditAction: Calling repositoryService.saveEditedRecord()
+
+RepositoryService: saveEditedRecord ()
+RepositoryWriter: writeRecord()
+
+RepositoryWriter: writeRecord() id: MY-000-000-000-001
+Oct 10, 2007 6:03:41 PM MDT Saving record id: MY-000-000-000-001
+DcsDataFileIndexingPlugin: 	URL: http://dlese.org
+DCSSchemEditAction:  ... returned from repositoryService.saveEditedRecord()
+DCSSchemEditAction:  ... returned from putRecord()
+
+Oct 10, 2007 6:03:50 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/editor/edit.do
+	 queryString: null
+	 servletPath: /editor/edit.do
+
+
+SchemEditUtils: Filtered Request Parameters
+	command: guardedExit
+	pathArg: forwardToCaller
+	xmlFormat: adn
+	currentPage: general
+	recId: MY-000-000-000-001
+SessionRegistry: session 12572319AD049660FE39B4E5450E40F5 attempting to release lock on record MY-000-000-000-001 ... Success
+
+Oct 10, 2007 6:03:50 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/browse/home.do
+	 queryString: null
+	 servletPath: /browse/home.do
+
+
+SchemEditUtils: Filtered Request Parameters
+RepositoryService: Role not provided -- returning all sets
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 10, 2007 6:12:49 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/
+	 queryString: null
+	 servletPath: /index.jsp
+
+
+Oct 10, 2007 6:12:49 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/browse/home.do
+	 queryString: null
+	 servletPath: /browse/home.do
+
+
+SchemEditUtils: Filtered Request Parameters
+RepositoryService: Role not provided -- returning all sets
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+SessionRegistry: unregistering Session Bean for 351FC551E128112D496B5F5609F8ED66
+SessionRegistry: unregistering Session Bean for 12572319AD049660FE39B4E5450E40F5
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Reloading vocab instance 'MetadataVocab'
+Oct 11, 2007 7:31:40 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 11, 2007 7:34:27 AM MDT about to notifyListeners via MetadataVocabOPML
+Oct 11, 2007 7:34:27 AM MDT notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+Reloading vocab instance 'MetadataVocab'
+Oct 11, 2007 7:35:30 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 11, 2007 7:35:32 AM MDT about to notifyListeners via MetadataVocabOPML
+Oct 11, 2007 7:35:32 AM MDT notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+
+Oct 11, 2007 3:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/browse/home.do
+	 queryString: null
+	 servletPath: /browse/home.do
+
+
+SessionRegistry: sessionBean is null && session is active for id: 197AA69E777DE1081FA9F4083818E1AC
+SessionRegistry: registered sessionBean: 197AA69E777DE1081FA9F4083818E1AC
+SchemEditUtils: Filtered Request Parameters
+RepositoryService: Role not provided -- returning all sets
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 11, 2007 3:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 11, 2007 3:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 11, 2007 3:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 11, 2007 3:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 11, 2007 3:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+SessionRegistry: unregistering Session Bean for 197AA69E777DE1081FA9F4083818E1AC
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Reloading vocab instance 'MetadataVocab'
+Oct 12, 2007 4:05:43 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Error loading vocabulary:
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:157)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:382)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:509)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:231)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:304)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:316)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:817)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:769)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:694)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:938)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.load(LoadMetadataOPML.java:137)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.getMetadataVocabInstance(LoadMetadataOPML.java:95)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.loadVocabs(MetadataVocabServlet.java:100)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:87)
+Oct 12, 2007 4:09:28 PM MDT about to notifyListeners via MetadataVocabOPML
+Oct 12, 2007 4:09:28 PM MDT notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Reloading vocab instance 'MetadataVocab'
+Oct 12, 2007 4:53:13 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 12, 2007 4:53:15 PM MDT about to notifyListeners via MetadataVocabOPML
+Oct 12, 2007 4:53:15 PM MDT notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+12/10/2007 17:03:30 12980 jsvc error: Service did not exit cleanly

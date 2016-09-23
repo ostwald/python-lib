@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dcsDataRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd">
+  <recordID>TAAAS-000-000-000-008</recordID>
+  <isValid/>
+  <statusEntries>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>Record Created</statusNote>
+      <editor>ginger</editor>
+      <changeDate>2010-02-18T15:36:25Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2010-03-03T17:30:53Z</lastTouchDate>
+  <ndrHandle/>
+  <validationReport>NOT VALID: Error: cvc-pattern-valid: Value '' is not facet-valid with respect to pattern '(http://|https://|ftp://)+([a-zA-Z0-9])+([\-\.]{1}[a-zA-Z0-9]+)*\.[a-zA-Z]{2,5}((:[0-9]{1,5})?/.*)?' for type 'urlType'. Error: cvc-type.3.1.3: The value '' of element 'url' is not valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Entirely, Partially]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'resAddrGoal' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Explicitly, Not explicitly, but resource could be used to address the learning goal.]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'learnGoalEvidence' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'makeObservation' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'comprehensible' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'engaging' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'efficient' must have no element [children], and the value must be valid.</validationReport>
+  <lastEditor>molina</lastEditor>
+  <ndrInfo>
+    <syncError></syncError>
+  </ndrInfo>
+</dcsDataRecord>

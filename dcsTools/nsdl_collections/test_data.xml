@@ -1,0 +1,955 @@
+<ncsCollections timestamp="2010-06-18T09:56:58Z">
+  <collection>
+    <title>Wolfram Research</title>
+    <recordID>NSDL-COLLECTION-000-003-112-004</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090819181249822T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-004</setSpec>
+  </collection>
+  <collection>
+    <title>Plant and Soil Sciences eLibrary</title>
+    <recordID>NSDL-COLLECTION-000-003-111-999</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20090610130332680T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-999</setSpec>
+  </collection>
+  <collection>
+    <title>Michigan Online Resources for Educators (MORE)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-974</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20080902164645924T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-974</setSpec>
+  </collection>
+  <collection>
+    <title>Exploring Earth Investigations</title>
+    <recordID>NSDL-COLLECTION-000-003-111-972</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20080701144650617T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-972</setSpec>
+  </collection>
+  <collection>
+    <title>Biological Sciences Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-903</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203737583T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-903</setSpec>
+  </collection>
+  <collection>
+    <title>Math Forum</title>
+    <recordID>NSDL-COLLECTION-4794</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002124657491T</metadataProvider>
+    <setSpec>mathforum</setSpec>
+  </collection>
+  <collection>
+    <title>Broadening Participation in Computing (BPC)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-965</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080619113330315T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-965</setSpec>
+  </collection>
+  <collection>
+    <title>National Academies Press</title>
+    <recordID>NSDL-COLLECTION-498755</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002130036432T</metadataProvider>
+    <setSpec>498755</setSpec>
+  </collection>
+  <collection>
+    <title>Starting Point: Teaching Entry Level Geoscience</title>
+    <recordID>NSDL-COLLECTION-380602</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125235700T</metadataProvider>
+    <setSpec>380602</setSpec>
+  </collection>
+  <collection>
+    <title>STEM Education and Educational Technology Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-915</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317191332909T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-915</setSpec>
+  </collection>
+  <collection>
+    <title>Internet Scout Project</title>
+    <recordID>NSDL-COLLECTION-4721</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002124944900T</metadataProvider>
+    <setSpec>internetscout</setSpec>
+  </collection>
+  <collection>
+    <title>The Instructional Architect</title>
+    <recordID>NSDL-COLLECTION-000-003-111-990</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20090327142117901T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-990</setSpec>
+  </collection>
+  <collection>
+    <title>SMILE Pathway: Science and Math Activities in One Search</title>
+    <recordID>NSDL-COLLECTION-000-003-112-013</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20100408101459740T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-013</setSpec>
+  </collection>
+  <collection>
+    <title>Paleontological Research Institution (PRI) - Museum of the Earth</title>
+    <recordID>NSDL-COLLECTION-000-003-111-985</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090224114652534T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-985</setSpec>
+  </collection>
+  <collection>
+    <title>Social Sciences Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-913</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203723188T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-913</setSpec>
+  </collection>
+  <collection>
+    <title>NASA Earth Science Reviewed Collection</title>
+    <recordID>NSDL-COLLECTION-2802786</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20070215120025658T</metadataProvider>
+    <setSpec>2802786</setSpec>
+  </collection>
+  <collection>
+    <title>Curricular Resource Library (cURL): Earth and Environmental Sciences</title>
+    <recordID>NSDL-COLLECTION-475993</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125922496T</metadataProvider>
+    <setSpec>475993</setSpec>
+  </collection>
+  <collection>
+    <title>Integration of Nanotechnology into Civil Engineering</title>
+    <recordID>NSDL-COLLECTION-000-003-111-987</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090224114653858T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-987</setSpec>
+  </collection>
+  <collection>
+    <title>Animal Diversity Web</title>
+    <recordID>NSDL-COLLECTION-441531</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002125611206T</metadataProvider>
+    <setSpec>441531</setSpec>
+  </collection>
+  <collection>
+    <title>Geosciences Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-908</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203730630T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-908</setSpec>
+  </collection>
+  <collection>
+    <title>Simplified Image Management and Processing Learning Environment for Science (SIMPLE Science)</title>
+    <recordID>NSDL-COLLECTION-2827371</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20070411155729676T</metadataProvider>
+    <setSpec>2827371</setSpec>
+  </collection>
+  <collection>
+    <title>Scientific Visualization Studio</title>
+    <recordID>NSDL-COLLECTION-456144</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125759008T</metadataProvider>
+    <setSpec>456144</setSpec>
+  </collection>
+  <collection>
+    <title>New York State Earth Science Instructional Collection</title>
+    <recordID>NSDL-COLLECTION-1539790</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130945313T</metadataProvider>
+    <setSpec>1539790</setSpec>
+  </collection>
+  <collection>
+    <title>Digital Library of Indigenous Science Resources (DLISR )</title>
+    <recordID>NSDL-COLLECTION-1539789</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130943279T</metadataProvider>
+    <setSpec>1539789</setSpec>
+  </collection>
+  <collection>
+    <title>Health Sciences Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-909</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203729279T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-909</setSpec>
+  </collection>
+  <collection>
+    <title>Earthquake Education Environment (E3)</title>
+    <recordID>NSDL-COLLECTION-2918931</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20070716180033630T</metadataProvider>
+    <setSpec>2918931</setSpec>
+  </collection>
+  <collection>
+    <title>DragonflyTV</title>
+    <recordID>NSDL-COLLECTION-000-003-112-007</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090914175217695T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-007</setSpec>
+  </collection>
+  <collection>
+    <title>NASA Earth and Space Science Education Collection</title>
+    <recordID>NSDL-COLLECTION-2802835</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20070206153700977T</metadataProvider>
+    <setSpec>2802835</setSpec>
+  </collection>
+  <collection>
+    <title>GLOBE Teacher's Guide</title>
+    <recordID>NSDL-COLLECTION-475995</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125924766T</metadataProvider>
+    <setSpec>475995</setSpec>
+  </collection>
+  <collection>
+    <title>Beyond Penguins and Polar Bears: An Online Magazine for K-5 Teachers</title>
+    <recordID>NSDL-COLLECTION-000-003-111-989</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090325164605718T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-989</setSpec>
+  </collection>
+  <collection>
+    <title>Tomorrow's Professor Mailing List</title>
+    <recordID>NSDL-COLLECTION-000-003-111-969</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080619124148863T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-969</setSpec>
+  </collection>
+  <collection>
+    <title>Mathematics Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-911</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203725840T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-911</setSpec>
+  </collection>
+  <collection>
+    <title>NSDL Science Refreshers</title>
+    <recordID>NSDL-COLLECTION-000-003-112-012</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20100408101445679T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-012</setSpec>
+  </collection>
+  <collection>
+    <title>Space Sciences Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-914</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203721859T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-914</setSpec>
+  </collection>
+  <collection>
+    <title>Gender and Science Digital Library (GSDL)</title>
+    <recordID>NSDL-COLLECTION-3111283</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125053266T</metadataProvider>
+    <setSpec>genderscience</setSpec>
+  </collection>
+  <collection>
+    <title>NSDL Expert Voices</title>
+    <recordID>NSDL-COLLECTION-2666311</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20061207181243233T</metadataProvider>
+    <setSpec>2666311</setSpec>
+  </collection>
+  <collection>
+    <title>Interactive Matrix Algebra Modules</title>
+    <recordID>NSDL-COLLECTION-000-003-111-994</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090603150755373T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-994</setSpec>
+  </collection>
+  <collection>
+    <title>DLESE: Digital Library for Earth System Education</title>
+    <recordID>NSDL-COLLECTION-4743</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002124900610T</metadataProvider>
+    <setSpec>dlese.org</setSpec>
+  </collection>
+  <collection>
+    <title>NOAA Environmental Visualization Program</title>
+    <recordID>NSDL-COLLECTION-2634331</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131209983T</metadataProvider>
+    <setSpec>2634331</setSpec>
+  </collection>
+  <collection>
+    <title>Reciprocal Net: A Distributed Crystallography Network for Researchers, Students, and the General Public</title>
+    <recordID>NSDL-COLLECTION-369642</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002125222111T</metadataProvider>
+    <setSpec>369642</setSpec>
+  </collection>
+  <collection>
+    <title>Teach the Earth</title>
+    <recordID>NSDL-COLLECTION-2669651</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061129120249860T</metadataProvider>
+    <setSpec>2669651</setSpec>
+  </collection>
+  <collection>
+    <title>WFI Only Test Collection</title>
+    <recordID>NSDL-COLLECTION-000-003-112-010</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20100316155014434T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-010</setSpec>
+  </collection>
+  <collection>
+    <title>DLESE Collections</title>
+    <recordID>NSDL-COLLECTION-2955038</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20071019180030460T</metadataProvider>
+    <setSpec>2955038</setSpec>
+  </collection>
+  <collection>
+    <title>Engineering and Technology Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-906</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203733249T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-906</setSpec>
+  </collection>
+  <collection>
+    <title>Hiroshima and Nagasaki Remembered</title>
+    <recordID>NSDL-COLLECTION-1550790</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131022764T</metadataProvider>
+    <setSpec>1550790</setSpec>
+  </collection>
+  <collection>
+    <title>Educational Benchmarks Collection</title>
+    <recordID>NSDL-COLLECTION-3111258</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131108195T</metadataProvider>
+    <setSpec>2063768</setSpec>
+  </collection>
+  <collection>
+    <title>Bridge-NOAA Collection</title>
+    <recordID>NSDL-COLLECTION-2954993</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20071019180026223T</metadataProvider>
+    <setSpec>2954993</setSpec>
+  </collection>
+  <collection>
+    <title>American Museum of Natural History</title>
+    <recordID>NSDL-COLLECTION-2606450</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131157272T</metadataProvider>
+    <setSpec>2606450</setSpec>
+  </collection>
+  <collection>
+    <title>Advances in Engineering Education: A Journal of Engineering Education Applications</title>
+    <recordID>NSDL-COLLECTION-000-003-111-964</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080616180617784T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-964</setSpec>
+  </collection>
+  <collection>
+    <title>MY NASA DATA: Mentoring and Inquiry using NASA Data on Atmospheric and Earth Science for Teachers and Amateurs</title>
+    <recordID>NSDL-COLLECTION-2634351</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131212021T</metadataProvider>
+    <setSpec>2634351</setSpec>
+  </collection>
+  <collection>
+    <title>Education Place: Houghton Mifflin Science</title>
+    <recordID>NSDL-COLLECTION-1429133</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20080317203657821T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-1429133</setSpec>
+  </collection>
+  <collection>
+    <title>Pr2ove-It</title>
+    <recordID>NSDL-COLLECTION-000-003-111-968</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080619121428212T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-968</setSpec>
+  </collection>
+  <collection>
+    <title>Choosing and Using DLESE</title>
+    <recordID>NSDL-COLLECTION-2954992</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20071019180023773T</metadataProvider>
+    <setSpec>2954992</setSpec>
+  </collection>
+  <collection>
+    <title>Consortium for the Advancement of Undergraduate Statistics Education (CAUSE)</title>
+    <recordID>NSDL-COLLECTION-1419676</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002130753221T</metadataProvider>
+    <setSpec>1419676</setSpec>
+  </collection>
+  <collection>
+    <title>VaNTH-ERC for Bioengineering Educational Technologies</title>
+    <recordID>NSDL-COLLECTION-000-003-111-970</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080619124937137T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-970</setSpec>
+  </collection>
+  <collection>
+    <title>Centers for Ocean Sciences Education Excellence (COSEE)</title>
+    <recordID>NSDL-COLLECTION-1539788</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130941147T</metadataProvider>
+    <setSpec>1539788</setSpec>
+  </collection>
+  <collection>
+    <title>NSDL Web Seminars</title>
+    <recordID>NSDL-COLLECTION-000-003-111-977</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080902164656277T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-977</setSpec>
+  </collection>
+  <collection>
+    <title>PRISMS: Phenomena and Representations for the Instruction of Science in Middle School</title>
+    <recordID>NSDL-COLLECTION-000-003-111-936</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20080410133519990T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-936</setSpec>
+  </collection>
+  <collection>
+    <title>Physics Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-912</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203724507T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-912</setSpec>
+  </collection>
+  <collection>
+    <title>Middle School Portal: Math and Science Pathways (MSP2)</title>
+    <recordID>NSDL-COLLECTION-1007936</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20061002130512109T</metadataProvider>
+    <setSpec>1007936</setSpec>
+  </collection>
+  <collection>
+    <title>Online Psychology Laboratory (OPL)</title>
+    <recordID>NSDL-COLLECTION-1541648</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131000417T</metadataProvider>
+    <setSpec>1541648</setSpec>
+  </collection>
+  <collection>
+    <title>Microbial Life Educational Resources</title>
+    <recordID>NSDL-COLLECTION-1030947</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130555774T</metadataProvider>
+    <setSpec>1030947</setSpec>
+  </collection>
+  <collection>
+    <title>Resources for Educational Benchmarks</title>
+    <recordID>NSDL-COLLECTION-000-003-111-949</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080418181713201T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-949</setSpec>
+  </collection>
+  <collection>
+    <title>AMSER: Applied Math and Science Education Repository</title>
+    <recordID>NSDL-COLLECTION-2859008</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20070507210022271T</metadataProvider>
+    <setSpec>2859008</setSpec>
+  </collection>
+  <collection>
+    <title>Atomic Archive</title>
+    <recordID>NSDL-COLLECTION-920106</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130324820T</metadataProvider>
+    <setSpec>920106</setSpec>
+  </collection>
+  <collection>
+    <title>COMET Program Collection</title>
+    <recordID>NSDL-COLLECTION-3111902</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20080116000016877T</metadataProvider>
+    <setSpec>3111902</setSpec>
+  </collection>
+  <collection>
+    <title>General Science and STEM Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-907</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203731985T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-907</setSpec>
+  </collection>
+  <collection>
+    <title>Fun Works . . . for Careers You Never Knew Existed</title>
+    <recordID>NSDL-COLLECTION-1468455</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130855513T</metadataProvider>
+    <setSpec>1468455</setSpec>
+  </collection>
+  <collection>
+    <title>Community Assessment of Renewable Energy and Sustainability (CARES)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-991</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090408151702423T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-991</setSpec>
+  </collection>
+  <collection>
+    <title>DLESE News and Opportunities</title>
+    <recordID>NSDL-COLLECTION-2954994</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20071019180028154T</metadataProvider>
+    <setSpec>2954994</setSpec>
+  </collection>
+  <collection>
+    <title>Analytical Sciences Digital Library (ASDL)</title>
+    <recordID>NSDL-COLLECTION-316878</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002124957731T</metadataProvider>
+    <setSpec>316878</setSpec>
+  </collection>
+  <collection>
+    <title>Engineering and Business for Sustainability (EBS)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-992</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090408151651542T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-992</setSpec>
+  </collection>
+  <collection>
+    <title>History of Science and Technology Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-910</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203727197T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-910</setSpec>
+  </collection>
+  <collection>
+    <title>Chemistry Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-904</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203736132T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-904</setSpec>
+  </collection>
+  <collection>
+    <title>NEEDS: National Engineering Education System - Engineering Pathway</title>
+    <recordID>NSDL-COLLECTION-4709</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002124929765T</metadataProvider>
+    <setSpec>needs</setSpec>
+  </collection>
+  <collection>
+    <title>TeachEngineering: Resources for K-12</title>
+    <recordID>NSDL-COLLECTION-928276</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130326847T</metadataProvider>
+    <setSpec>928276</setSpec>
+  </collection>
+  <collection>
+    <title>Atmospheric Visualization Collection (AVC)</title>
+    <recordID>NSDL-COLLECTION-3110821</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125045261T</metadataProvider>
+    <setSpec>AVC</setSpec>
+  </collection>
+  <collection>
+    <title>Math Images</title>
+    <recordID>NSDL-COLLECTION-000-003-112-003</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090813150229961T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-003</setSpec>
+  </collection>
+  <collection>
+    <title>ChemCases: General Chemistry Case Studies</title>
+    <recordID>NSDL-COLLECTION-1550868</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131024887T</metadataProvider>
+    <setSpec>1550868</setSpec>
+  </collection>
+  <collection>
+    <title>Digital Water Education Library (DWEL)</title>
+    <recordID>NSDL-COLLECTION-380599</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125246610T</metadataProvider>
+    <setSpec>380599</setSpec>
+  </collection>
+  <collection>
+    <title>Computer Science and Information Technology Gateways and Resources</title>
+    <recordID>NSDL-COLLECTION-000-003-111-905</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080317203734720T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-905</setSpec>
+  </collection>
+  <collection>
+    <title>Bridge: Sea Grant Ocean Sciences Resources Center</title>
+    <recordID>NSDL-COLLECTION-2667291</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061129120231838T</metadataProvider>
+    <setSpec>2667291</setSpec>
+  </collection>
+  <collection>
+    <title>Access Excellence @ The National Health Museum: The Site for Health and Bioscience Teachers and Learners</title>
+    <recordID>NSDL-COLLECTION-439881</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002125426838T</metadataProvider>
+    <setSpec>439881</setSpec>
+  </collection>
+  <collection>
+    <title>MatDL: Materials Digital Library Pathway</title>
+    <recordID>NSDL-COLLECTION-433248</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002125309994T</metadataProvider>
+    <setSpec>433248</setSpec>
+  </collection>
+  <collection>
+    <title>ExploreLearning: Interactive Math and Science Simulations</title>
+    <recordID>NSDL-COLLECTION-000-003-112-006</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090904131228646T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-006</setSpec>
+  </collection>
+  <collection>
+    <title>CSERD: Computational Science Education Reference Desk</title>
+    <recordID>NSDL-COLLECTION-432568</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002125301706T</metadataProvider>
+    <setSpec>432568</setSpec>
+  </collection>
+  <collection>
+    <title>iLumina Digital Library</title>
+    <recordID>NSDL-COLLECTION-297940</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002124738843T</metadataProvider>
+    <setSpec>iLumina</setSpec>
+  </collection>
+  <collection>
+    <title>TeachingWithData.org</title>
+    <recordID>NSDL-COLLECTION-000-003-112-011</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20100408101417656T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-011</setSpec>
+  </collection>
+  <collection>
+    <title>Trinity Remembered. The Trinity Test: Historic Documents, Photos, and Videos</title>
+    <recordID>NSDL-COLLECTION-1550789</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131020726T</metadataProvider>
+    <setSpec>1550789</setSpec>
+  </collection>
+  <collection>
+    <title>Alsos Digital Library for Nuclear Issues</title>
+    <recordID>NSDL-COLLECTION-4699</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002124817433T</metadataProvider>
+    <setSpec>alsos</setSpec>
+  </collection>
+  <collection>
+    <title>Science of Winter</title>
+    <recordID>NSDL-COLLECTION-000-003-112-002</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090730110108747T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-002</setSpec>
+  </collection>
+  <collection>
+    <title>Educational Multimedia Visualization Center (EMVC)</title>
+    <recordID>NSDL-COLLECTION-476082</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125926908T</metadataProvider>
+    <setSpec>476082</setSpec>
+  </collection>
+  <collection>
+    <title>Chemical Education Digital Library (ChemEd DL)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-983</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20081210151850617T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-983</setSpec>
+  </collection>
+  <collection>
+    <title>Harvard-Smithsonian Digital Video Library</title>
+    <recordID>NSDL-COLLECTION-843818</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002130156433T</metadataProvider>
+    <setSpec>843818</setSpec>
+  </collection>
+  <collection>
+    <title>ACM Women in Computing</title>
+    <recordID>NSDL-COLLECTION-000-003-111-963</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080616172939862T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-963</setSpec>
+  </collection>
+  <collection>
+    <title>Electronic Environmental Resources Library (eERL)</title>
+    <recordID>NSDL-COLLECTION-443865</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125732844T</metadataProvider>
+    <setSpec>443865</setSpec>
+  </collection>
+  <collection>
+    <title>Teachers' Domain: Multimedia Resources for the Classroom and Professional Development</title>
+    <recordID>NSDL-COLLECTION-316957</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125157253T</metadataProvider>
+    <setSpec>316957</setSpec>
+  </collection>
+  <collection>
+    <title>On the Cutting Edge: Professional Development for Geoscience Faculty</title>
+    <recordID>NSDL-COLLECTION-380601</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125238050T</metadataProvider>
+    <setSpec>380601</setSpec>
+  </collection>
+  <collection>
+    <title>International Journal of Engineering Education</title>
+    <recordID>NSDL-COLLECTION-000-003-111-967</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080619120825051T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-967</setSpec>
+  </collection>
+  <collection>
+    <title>Visionlearning</title>
+    <recordID>NSDL-COLLECTION-441521</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125557727T</metadataProvider>
+    <setSpec>441521</setSpec>
+  </collection>
+  <collection>
+    <title>Earth Exploration Toolbook: Step-by-Step Guides for Investigating Earth System Data</title>
+    <recordID>NSDL-COLLECTION-380604</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002125233306T</metadataProvider>
+    <setSpec>380604</setSpec>
+  </collection>
+  <collection>
+    <title>BiosciEdNet (BEN): Digital Library Portal for Teaching and Learning in the Biological Sciences</title>
+    <recordID>NSDL-COLLECTION-3111259</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20070618152029897T</metadataProvider>
+    <setSpec>BEN</setSpec>
+  </collection>
+  <collection>
+    <title>TRUST Academy Online</title>
+    <recordID>NSDL-COLLECTION-000-003-111-984</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090209112545206T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-984</setSpec>
+  </collection>
+  <collection>
+    <title>National Middle School Association</title>
+    <recordID>NSDL-COLLECTION-000-003-112-008</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20091124124936530T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-008</setSpec>
+  </collection>
+  <collection>
+    <title>Center for Sustainable Engineering (CSE)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-966</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20080619115825145T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-966</setSpec>
+  </collection>
+  <collection>
+    <title>Rapid Prototyping Instructional Delivery Support</title>
+    <recordID>NSDL-COLLECTION-000-003-111-947</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20080418155921239T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-947</setSpec>
+  </collection>
+  <collection>
+    <title>Environmental Science Activities for the 21st Century</title>
+    <recordID>NSDL-COLLECTION-2634352</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20061002131214046T</metadataProvider>
+    <setSpec>2634352</setSpec>
+  </collection>
+  <collection>
+    <title>National Science Foundation (NSF) Special Reports</title>
+    <recordID>NSDL-COLLECTION-000-003-111-993</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat></nativeFormat>
+    <metadataProvider>2200/20090409125730094T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-993</setSpec>
+  </collection>
+  <collection>
+    <title>National Science Teachers Association (NSTA) Learning Center</title>
+    <recordID>NSDL-COLLECTION-2725791</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20070521105329941T</metadataProvider>
+    <setSpec>2725791</setSpec>
+  </collection>
+  <collection>
+    <title>ComPADRE: Resources for Physics and Astronomy Education</title>
+    <recordID>NSDL-COLLECTION-439869</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc_1_02</nativeFormat>
+    <metadataProvider>2200/20061002125408670T</metadataProvider>
+    <setSpec>439869</setSpec>
+  </collection>
+  <collection>
+    <title>Earth System Science Informal Education Network (ESSIEN)</title>
+    <recordID>NSDL-COLLECTION-2827374</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>nsdl_dc</nativeFormat>
+    <metadataProvider>2200/20070411155738153T</metadataProvider>
+    <setSpec>2827374</setSpec>
+  </collection>
+  <collection>
+    <title>Exploratorium Digital Library: Learning Resources Collection</title>
+    <recordID>NSDL-COLLECTION-1550888</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002131026992T</metadataProvider>
+    <setSpec>1550888</setSpec>
+  </collection>
+  <collection>
+    <title>Connected Curriculum Project (CCP)</title>
+    <recordID>NSDL-COLLECTION-000-003-111-978</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090224114645569T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-978</setSpec>
+  </collection>
+  <collection>
+    <title>Demos With Positive Impact</title>
+    <recordID>NSDL-COLLECTION-000-003-111-979</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090224114648872T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-979</setSpec>
+  </collection>
+  <collection>
+    <title>MathDL: Loci</title>
+    <recordID>NSDL-COLLECTION-1477460</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061129151320354T</metadataProvider>
+    <setSpec>1477460</setSpec>
+  </collection>
+  <collection>
+    <title>MathDL: MAA Writing Awards</title>
+    <recordID>NSDL-COLLECTION-27007</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20061002125007661T</metadataProvider>
+    <setSpec>MathDL</setSpec>
+  </collection>
+  <collection>
+    <title>National Curve Bank</title>
+    <recordID>NSDL-COLLECTION-000-003-111-981</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090224114650183T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-981</setSpec>
+  </collection>
+  <collection>
+    <title>Virtual Laboratories in Probability and Statistics</title>
+    <recordID>NSDL-COLLECTION-000-003-111-980</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>oai_dc</nativeFormat>
+    <metadataProvider>2200/20090224114651434T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-111-980</setSpec>
+  </collection>
+  <collection>
+    <title>Secondary MSP2 Collection</title>
+    <recordID>NSDL-COLLECTION-000-003-112-014</recordID>
+    <ncsStatus>NCSFinalStatus</ncsStatus>
+    <nativeFormat>msp2</nativeFormat>
+    <metadataProvider>2200/20100602133420447T</metadataProvider>
+    <setSpec>ncs-NSDL-COLLECTION-000-003-112-014</setSpec>
+  </collection>
+</ncsCollections>
+

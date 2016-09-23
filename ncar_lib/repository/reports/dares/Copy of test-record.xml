@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nldr.library.ucar.edu/metadata/osm" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>OSGC-000-000-000-048</recordID>
+    <recordDate>2008-05-06</recordDate>
+    <pubName type="Journal/magazine/periodical">Journal of the Royal Statistical Society: Series C</pubName>
+    <volume>57</volume>
+    <issue>3</issue>
+    <pageSpan>293-321</pageSpan>
+    <title type="Article">A multiresolution census algorithm for calculating vortex statistics in turbulent flows</title>
+    <abstract>The fundamental equations that model turbulent flow do not provide much insight into the size and shape of observed turbulent structures. We investigate the efficient and accurate representation of structures in two-dimensional turbulence by applying statistical models directly to the simulated vorticity field. Rather than extract the coherent portion of the image from the background variation, as in the classical signal-plus-noise model, we present a model for individual vortices using the non-decimated discrete wavelet transform. A template image, which is supplied by the user, provides the features to be extracted from the vorticity field. By transforming the vortex template into the wavelet domain, specific characteristics that are present in the template, such as size and symmetry, are broken down into components that are associated with spatial frequencies. Multivariate multiple linear regression is used to fit the vortex template to the vorticity field in the wavelet domain. Since all levels of the template decomposition may be used to model each level in the field decomposition, the resulting model need not be identical to the template. Application to a vortex census algorithm that records quantities of interest (such as size, peak amplitude and circulation) as the vorticity field evolves is given. The multiresolution census algorithm extracts coherent structures of all shapes and sizes in simulated vorticity fields and can reproduce known physical scaling laws when processing a set of vorticity fields that evolve over time.</abstract>
+    <keyword>Multivariate multiple linear regression</keyword>
+    <keyword>Non-decimated discrete wavelet transform</keyword>
+    <keyword>Penalized likelihood</keyword>
+    <keyword>Turbulence</keyword>
+    <keyword>Vorticity</keyword>
+  </general>
+  <resources>
+    <relation type="Is published" version="Publisher&apos;s final" url="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2007.00614.x/abstract"/>
+  </resources>
+  <contributors>
+    <person order="1" role="Author">
+      <lastName>Whitcher</lastName>
+      <firstName>Brandon</firstName>
+    </person>
+    <person order="2" role="Author">
+      <lastName>Lee</lastName>
+      <firstName>Thomas</firstName>
+      <middleName>C</middleName>
+      <secondMiddleName>M</secondMiddleName>
+      <affiliation>
+        <instName>Colorado State University</instName>
+      </affiliation>
+    </person>
+    <person order="3" role="Author">
+      <lastName>Weiss</lastName>
+      <firstName>Jeffrey</firstName>
+      <middleName>B</middleName>
+      <affiliation>
+        <instName>University of Colorado at Boulder</instName>
+      </affiliation>
+    </person>
+    <person PUBSid="101618" UCARid="11341" order="4" role="Author">
+      <lastName>Hoar</lastName>
+      <firstName>Timothy</firstName>
+      <middleName>J</middleName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision>
+      </affiliation>
+    </person>
+    <person PUBSid="102821" UCARid="444" order="5" role="Author">
+      <lastName>Nychka</lastName>
+      <firstName>Douglas</firstName>
+      <middleName>W</middleName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision>
+      </affiliation>
+    </person>
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Published</status>
+    <classification>Refereed</classification>
+    <idNumber type="PUBID">200259</idNumber>
+    <idNumber type="DOI">10.1111/j.1467-9876.207.00614.x</idNumber>
+    <collaboration>UCAR, University and Other</collaboration>
+    <fundingSource>NSF only</fundingSource>
+    <fundingEntity grantNumber="DMS98-15344">National Science Foundation (NSF)</fundingEntity>
+    <fundingEntity grantNumber="DMS93-12686">National Science Foundation (NSF)</fundingEntity>
+    <fundingEntity grantNumber="0203901">National Science Foundation (NSF)</fundingEntity>
+  </classify>
+  <coverage>
+    <date type="Fiscal">2008</date>
+    <date type="Published">2008-06</date>
+  </coverage>
+  <rights>
+    <copyrightNotice holder="Publisher" type="UCAR Open Access Policy">Copyright 2008 the Royal Statistical Society</copyrightNotice>
+  </rights>
+</record>
+
+
+
+
+
+
+
+          
+

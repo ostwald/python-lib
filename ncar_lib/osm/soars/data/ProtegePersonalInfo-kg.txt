@@ -1,0 +1,130 @@
+ProtegeID	LastName	FirstName	MiddleName	Sufix	ProgramStatus	UniversityEntry	UniversityAffiliation	TwoYear	Plaque	PlaqueDate
+102	Abbas	Sharon			Failed to Meet Requirements	"Pennsylvania State University (University Park, PA"	TRUE	FALSE	FALSE	
+103	Adame	Erick			Alum		FALSE	FALSE	FALSE	
+105	Aguilar	Theresa			Eligible	"Texas Tech University (Lubbock, TX)"	TRUE	FALSE	FALSE	
+106	Ajayi	Samuel			Alum		FALSE	FALSE	FALSE	
+107	Benton	Kanika			Voluntarily Left Program		FALSE	FALSE	FALSE	
+108	Blazer	Cherelle			Alum		FALSE	FALSE	FALSE	
+109	Bliss	Shaan			Alum		FALSE	FALSE	FALSE	
+110	Burt	Melissa			Alum	"Millersville University (Millersville, PA)"	FALSE	FALSE	FALSE	
+111	Cameron	Marques			Current	"Norfolk State University (Norfolk, VA)"	FALSE	FALSE	FALSE	
+112	Cancel	Roberto		III	Failed to Meet Requirements		FALSE	FALSE	FALSE	
+113	Carwell	Shauntel			Voluntarily Left Program	"Xavier University (New Orleans, LA)"	FALSE	FALSE	FALSE	
+114	Castro	Christopher			Alum		FALSE	FALSE	FALSE	
+115	Cespedes	Roque	Vincio			"University of Miami (Coral Gables, FL)"	FALSE	FALSE	FALSE	
+116	Chan	Rebecca 	Kit Ying		Alum	"Plymouth State University (Plymouth, MA)"	FALSE	FALSE	TRUE	09/25/2006
+117	Chavez	Rachel					FALSE	FALSE	FALSE	
+118	Church	Andrew			Alum		FALSE	FALSE	FALSE	
+119	Clarke	Karl	Chevon			"Hunter College (New York, NY)"	FALSE	FALSE	FALSE	
+120	Cofield	Naressa			Alum		FALSE	FALSE	FALSE	
+121	Coleman	D	Matthew		Alum		FALSE	FALSE	TRUE	08/08/2005
+122	Colon Pagan	Ian Carlos			Current	"University of Puerto Rico (Rio Piedras, PR)"	FALSE	FALSE	FALSE	
+123	Connolly-Brown	Eowyn				"Cornell University (Ithaca, NY)"	TRUE	FALSE	FALSE	
+124	Craft	Tanya			Voluntarily Left Program		FALSE	FALSE	FALSE	
+125	Datulayta	Pauline			Alum		FALSE	FALSE	FALSE	
+126	Davis	Janel	Cobb		Alum		FALSE	FALSE	FALSE	
+127	Diaz	Karen			Current	"Polytechnic Univ of Puerto Rico (San Juan, PR)"	FALSE	FALSE	FALSE	
+128	Diaz	Sandra	Leticia		Current	"Texas A&M University (College Station, TX)"	TRUE	FALSE	FALSE	
+129	Diaz-Lopez	Jazmin			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+130	Didlake	Anthony		Jr	Alum	"Yale University (New Haven, CT)"	TRUE	FALSE	FALSE	
+131	Dollen-Musgrave	Kate			Alum		FALSE	FALSE	TRUE	12/01/2006
+132	Drevon	Atzel			Alum		FALSE	FALSE	FALSE	
+133	Dunn	Michelle			Voluntarily Left Program	"Cornell University (Ithaca, NY)"	TRUE	FALSE	FALSE	
+134	Edwards	Braxton			Alum		FALSE	FALSE	FALSE	
+135	Edwards	Catherine			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+136	Etsitty	Carl			Alum		FALSE	FALSE	FALSE	
+137	Fernandez	Alisha			Current	"University of Colorado, Boulder (Boulder, CO)"	TRUE	FALSE	FALSE	
+138	Forbes	Shanna-Shaye			Alum	"University of Houston - Downtown (Houston, TX)"	TRUE	FALSE	FALSE	
+139	Franco	Quindi			Alum		FALSE	FALSE	FALSE	
+140	Gavin	Douglas			Current		FALSE	FALSE	FALSE	
+141	Gonzalez	Alex			Current	"Pennsylvania State University (University Park, PA"	TRUE	FALSE	FALSE	
+142	Goodman	Keith		Jr	Eligible		FALSE	FALSE	FALSE	
+143	Goyea	Olusegun			Eligible		FALSE	FALSE	FALSE	
+144	Green	Kevin			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+145	Greene	Jamila			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+146	Harper	Bret			Alum		FALSE	FALSE	TRUE	10/01/2007
+147	Heard	Preston			Alum		FALSE	FALSE	FALSE	
+148	Hence	Deanna			Alum		FALSE	FALSE	FALSE	
+149	Hermack	Karen	Mozealous		Alum		FALSE	FALSE	FALSE	
+150	Hernandez	Michael	Kevin		Current		FALSE	FALSE	FALSE	
+151	Hill	Brandeis			Alum		FALSE	FALSE	TRUE	03/31/2004
+152	Holland	Lacey			Alum		FALSE	FALSE	FALSE	
+153	Hudman	Rynda			Alum		FALSE	FALSE	TRUE	10/01/2007
+154	Johnson	Michael			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+155	Johnson	Theresa			Alum		FALSE	FALSE	FALSE	
+156	Jones Jr.	McArthur			Current	"Millersville University (Millersville, PA)"	FALSE	FALSE	FALSE	
+157	Kelly	Resa			Alum		FALSE	FALSE	TRUE	10/08/2004
+158	Lebbie	Anthony			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+159	Levy	Lorenza			Alum		FALSE	FALSE	TRUE	10/08/2004
+160	Lowe	Paul			Alum		FALSE	FALSE	TRUE	04/05/2004
+161	Mann	Clarence			Eligible	"Morehouse College (Alanta, GA)"	FALSE	FALSE	FALSE	
+162	Martinez	Maribel			Alum		FALSE	FALSE	TRUE	10/08/2004
+163	Mata	Ramiro			Current		FALSE	FALSE	FALSE	
+164	Mattis	Damian			Alum		FALSE	FALSE	TRUE	
+165	Mayo	Talea			Eligible	"Grambling State University (Grambling, LA)"	FALSE	FALSE	FALSE	
+166	Medina	Carlos			Alum		FALSE	FALSE	FALSE	
+167	Morris	Imani			Eligible	"Jackson State University (Jackson, MS)"	FALSE	FALSE	FALSE	
+168	Morrison	Okason			Alum		FALSE	FALSE	FALSE	
+169	Munoz	Ernesto			Alum		FALSE	FALSE	TRUE	08/08/2005
+170	Murillo	Shirley			Alum		FALSE	FALSE	FALSE	
+171	Navarro	Bradley			Alum		FALSE	FALSE	TRUE	05/13/2004
+172	Navarro	Fabiola					FALSE	FALSE	FALSE	
+173	Ngo	Nicole			Current		FALSE	FALSE	FALSE	
+174	Nkwocha	Ukchukwu			Voluntarily Left Program		FALSE	FALSE	FALSE	
+175	Noble	Erik			Alum		FALSE	FALSE	TRUE	10/10/2006
+176	Orozco	Marco			Alum	"California State University, LA (Los Angeles, CA)"	FALSE	FALSE	FALSE	
+177	Pardo Rodriquez	Lumari			Current	Universidad Interamericana de Puerto Rico (San Ger	FALSE	FALSE	FALSE	
+178	Pauzauskie	Dana			Current	"University of Kansas (Lawrence, KS)"	FALSE	FALSE	FALSE	
+179	Perez-Suarez	Sharon			Alum		FALSE	FALSE	FALSE	
+180	Petersen	Paneen			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+181	Pitter	Shanna			Alum		FALSE	FALSE	TRUE	01/25/2006
+182	Powers	Darnell			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+183	Price	Amanda			Alum		FALSE	FALSE	TRUE	01/26/2006
+184	Price	Jennifer			Alum		FALSE	FALSE	FALSE	
+185	Reed	Aisha			Alum	"Jackson State University (Jackson, MS)"	FALSE	FALSE	TRUE	09/15/2006
+186	Reynolds	Amber			Alum		FALSE	FALSE	TRUE	01/10/2007
+187	Rios	Andro			Alum		FALSE	FALSE	FALSE	
+188	Rivale	Stephanie			Alum		FALSE	FALSE	FALSE	
+189	De Rivera Rivera	Garymar 			Eligible	"University of Puerto Rico (Mayaguez, PR)"	FALSE	FALSE	FALSE	
+190	Rivera	Monica			Alum		FALSE	FALSE	TRUE	05/13/2004
+191	Rivera Rivera	Nancy			Alum	"University of Puerto Rico (Mayaguez, PR)"	FALSE	FALSE	TRUE	01/10/2007
+192	Rivera-Rios	Waleska			Alum		FALSE	FALSE	TRUE	10/08/2004
+193	Rodriguez	Ismael			Alum		FALSE	FALSE	TRUE	01/25/2006
+194	Rodriguez	Yarice			Alum	"Hunter College (New York, NY)"	FALSE	FALSE	TRUE	01/10/2007
+195	Rodriguez-Manzanet	Luna			Current	"University of Puerto Rico (Rio Piedras, PR)"	FALSE	FALSE	FALSE	
+196	Wood	Yasmin			Voluntarily Left Program		FALSE	FALSE	FALSE	
+197	Rosenzweig	Bernice			Alum	"Rutgers University (New Brunswick, NJ)"	TRUE	FALSE	FALSE	
+198	Rossiter	Dione			Alum		FALSE	FALSE	FALSE	
+199	Sands	J	Summer		Alum		FALSE	FALSE	FALSE	
+200	Santiago	Zobeida	Ocasio		Alum		FALSE	FALSE	FALSE	
+201	Searles	ZiZi				"Sonoma State University (Rohnert Park, CA)"	FALSE	FALSE	FALSE	
+202	Silva	Armand			Current	"Pennsylvania State University (University Park, PA"	TRUE	FALSE	FALSE	
+203	Singleton	Tamara			Alum		FALSE	FALSE	TRUE	08/08/2005
+204	Smith	Thomas			Failed to Meet Requirements		FALSE	FALSE	FALSE	
+205	Spence	Nichole			Voluntarily Left Program		FALSE	FALSE	FALSE	
+206	Stevens	Kiesha			Alum		FALSE	FALSE	FALSE	
+207	Suarez Gonzalez	Darilis			Alum		FALSE	FALSE	FALSE	
+208	Tahchawwickah Butler	Chahta	Nochona			"Haskell Indian Nations University (Lawrence, KS)"	FALSE	FALSE	FALSE	
+209	Tessendorf	Sarah			Alum	"University of Nebraska (Lincoln, NE)"	TRUE	FALSE	TRUE	
+210	Kahn-Thornbrugh	Casey			Alum		FALSE	FALSE	TRUE	01/01/2007
+211	Trent	Kimberly			Current	"Yale University (New Haven, CT)"	TRUE	FALSE	FALSE	
+212	Ueyama	Rei			Alum		FALSE	FALSE	TRUE	02/25/2005
+213	Vigh	Jonathan			Alum		FALSE	FALSE	TRUE	03/04/2005
+214	Villanueva-Birriel	Cecille			Current	"University of Puerto Rico (Rio Piedras, PR)"	FALSE	FALSE	FALSE	
+215	Vincent-Finley	Rachel			Alum		FALSE	FALSE	TRUE	03/31/2004
+216	Waldman	Marcus			Current	"Unversity of Colorado, Boulder (Boulder, CO)"	TRUE	FALSE	FALSE	
+217	Walford Thompson	Segayle			Alum		FALSE	FALSE	FALSE	
+218	Walter	Marcus	Dean		Current	"Pennsylvania State University (University Park, PA"	TRUE	FALSE	FALSE	
+219	Wang	Julien			Eligible	"John Hopkins University (Baltimore, MD)"	TRUE	FALSE	FALSE	
+220	Webb	Christina			Alum		FALSE	FALSE	TRUE	10/08/2004
+221	Williams	Christopher			Current	"Georgia Institute of Technology (Atlanta, GA)"	TRUE	FALSE	FALSE	
+222	Yanchilina	Anastasia			Current	"Creighton University (Omaha, NE)"	FALSE	FALSE	FALSE	
+223	Zabel	Jennifer			Alum		FALSE	FALSE	FALSE	
+224	Zauscher	Melanie			Alum		FALSE	FALSE	FALSE	
+225	Boone	Graylen			Eligible	North Carolina State University	TRUE	FALSE	FALSE	
+226	Detweiler	Raymond			Eligible	Ball State University	FALSE	FALSE	FALSE	
+227	Goode	Sharome			Eligible	University of Central Oklahoma	FALSE	FALSE	FALSE	
+228	Menchaca	Maximo			Current	University of Illinois Urbana - Champaign	TRUE	FALSE	FALSE	
+229	Pollak	Daniel			Current	Pennsylvania State University - University Park	TRUE	FALSE	FALSE	
+230	Paulus	Matthew			Current	Embry-Riddle Aeronautical University - Prescott	FALSE	FALSE	FALSE	
+231	Vincente	Vanessa			Current	Valparaiso University	FALSE	FALSE	FALSE	

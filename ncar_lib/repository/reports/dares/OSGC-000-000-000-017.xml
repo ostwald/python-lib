@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>OSGC-000-000-000-017</recordID>
+    <recordDate>2010-06-30</recordDate>
+    <pubName type="Proceedings">13th Conference on Mesoscale Processes</pubName>
+    <pageTotal>1</pageTotal>
+    <title type="Poster">DART/WRF: A community mesoscale ensemble data assimilation facility</title>
+    <abstract>The Data Assimilation Research Testbed (DART) provides open-source, state-of-the-art software tools for ensemble data assimilation. DART includes interfaces that allow it to be used with regional, global, nested, and single-column domains with the latest releases of NCAR's Weather and Research Forecasting (WRF) model. DART can assimilate in-situ observations as well as radar reflectivity, radar radial velocity, GPS radio occultation, tropical storm position and intensity, and QuikSCAT winds. DART includes adaptive inflation, localization, and observation thinning tools that can produce high-quality, computationally efficient ensemble assimilations on a variety of parallel computing platforms. DART comes with an assortment of analysis tools that facilitate evaluating forecast quality, model systematic error, and the sensitivity of forecasts to initial conditions. Sample results are shown for ensemble analysis and prediction of convection over the United States and tropical storms in the Pacific and Atlantic.</abstract>
+  </general>
+  <contributors>
+    <person order="1" role="Author">
+      <lastName>Anderson</lastName>
+      <firstName>J</firstName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe):Data Assimilation Research Section (DARES)</instDivision>
+      </affiliation>
+    </person>
+
+    <person order="4" role="Author">
+      <lastName>Romine</lastName>
+      <firstName>G</firstName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe):Data Assimilation Research Section (DARES)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision>
+      </affiliation>
+    </person>
+    <organization role="Meeting sponsor">
+      <affiliation>
+        <instName>American Meteorological Society</instName>
+      </affiliation>
+    </organization>
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Published</status>
+    <classification>Refereed</classification>
+    <idNumber type="PUBID">201217</idNumber>
+    <collaboration>UCAR only</collaboration>
+  </classify>
+  <coverage>
+    <date type="Fiscal">2009</date>
+    <date type="Published">2009-08</date>
+    <dateRange end="2009-08-20" start="2009-08-17" type="Meeting"/>
+    <location city="Salt Lake City" country="US" state="US-UT" type="Meeting"/>
+  </coverage>
+  <rights>
+    <copyrightNotice holder="Publisher" type="UCAR Open Access Policy">Copyright blah blah</copyrightNotice>
+  </rights>
+  <resources>
+    <primaryAsset url="http://nldr.library.ucar.edu/collections/osgc/image_201217.pdf">
+      <size>10.55 MB</size>
+      <mimeType>application/pdf</mimeType>
+      <version>Publisher's final</version>
+    </primaryAsset>
+    <relation type="Is published" url="http://ams.confex.com/ams/13Meso/techprogram/paper_154888.htm" version="Publisher's final"/>
+  </resources>
+</record>
+
+
+
+
+
+
+          
+

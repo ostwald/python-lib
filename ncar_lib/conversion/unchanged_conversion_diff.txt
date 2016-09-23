@@ -1,0 +1,104 @@
+Processing 620 ids
+IdList (callback)   preprocessing: 0
+------------------------------------
+
+
+-------------------------
+TECH-NOTE-000-000-000-318 (DR000318)
+
+library_dc:instDivision
+  current
+	'Scientific Computing Division'
+	'Scientific Computing Division (SCD)'
+  converted
+	'Scientific Computing Division (SCD)'
+	
+=================
+THESE ERRORS ARE ALL OF THE SAME TYPE:
+
+webcat record:
+publisher: Scientific Computing Division
+scientificDivision: Scientific Computing Division
+
+in conversion, the existing scientificDivision is written to
+instDiv field, and THEN publisher got mapped:
+to
+instName: National Center for Atmospheric Research (NCAR)
+instDiv: Scientific Computing Division (SCD)
+
+the new value of instDiv overwrote the original value.
+
+Fix: LOOK again at "handlePublisher"
+- use addFieldValues
+- account for mulitple values of instName
+================================================
+ 
+-------------------------
+TECH-NOTE-000-000-000-545 (DR000545)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'
+
+-------------------------
+TECH-NOTE-000-000-000-546 (DR000546)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'
+
+-------------------------
+TECH-NOTE-000-000-000-547 (DR000547)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'
+
+-------------------------
+TECH-NOTE-000-000-000-548 (DR000548)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'
+
+-------------------------
+TECH-NOTE-000-000-000-549 (DR000549)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'
+
+-------------------------
+TECH-NOTE-000-000-000-550 (DR000550)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'
+
+-------------------------
+TECH-NOTE-000-000-000-576 (DR000576)
+
+library_dc:instDivision
+  current
+	'Mesoscale and Microscale Meteorology Division'
+	'Weather Research Program. Environmental Research Laboratories.'
+  converted
+	'Weather Research Program. Environmental Research Laboratories.'

@@ -1,0 +1,61 @@
+"""
+updater
+
+/Users/ostwald/devel/python/python-lib/ncar_lib/repository/updates/inst_div_4_2012/record_manager.py
+"""
+import os, sys
+from record_manager import MyRecordManager
+from inst_div_searcher import InstDivSearcher
+from data_reader import DataTable, DataRecord
+from JloXml import XmlUtils
+
+class Updater:
+	
+	data_path = 'division-name-changes.txt'
+	person_field = 'record/contributors/person/affiliation/instDivision'
+	org_field = 'record/contributors/organization/affiliation/instDivision'
+	
+	def __init__ (self):
+		self.dataTable = DataTable (self.data_path)
+		
+		for dataRecord in self.dataTable:
+			before = dataRecord.before
+			after = dataRecord.after
+			
+			for xpath in [self.person_field, self.org_field]:
+			
+				searcher = InstDivSearcher (before)
+				for result in searcher:
+					osmRecord = result.payload
+					print osmRecord
+					updateOsmRecord (osmRecord, before, after)
+					print osmRecord
+					
+					return
+		
+# field: 'record/contributors/person/affiliation/instDivision'
+def updateOsmRecord (osmRecord, before, after):
+	person_field = 'record/contributors/person/affiliation/instDivision'
+	org_field = 'record/contributors/organization/affiliation/instDivision'
+	
+	for xpath in [person_field, org_field]:
+		nodes = osmRecord.selectNodes (osmRecord.dom, xpath)
+		for node in nodes:
+			value = XmlUtils.getText(node)
+			print value
+			if value == before:
+				XmlUtils.setText(node, after)
+				print '- before: %s, after: %s\n' % (before, XmlUtils.getText(node))
+		
+def fooberry  ():
+	mgr = MyRecordManager()
+
+	osmRecord = mgr.getRemoteRecord ("OSGC-000-000-001-021-f");
+	before = 'Research Aviation Facility (RAF)'
+	after = "FOOBERRY"
+	updateOsmRecord (osmRecord, before, after)
+	# print osmRecord
+				
+if __name__ == '__main__':
+	updater = Updater()
+	# fooberry()

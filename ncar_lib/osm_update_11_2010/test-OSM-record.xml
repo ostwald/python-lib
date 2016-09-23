@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 rel. 3 sp1 (http://www.altova.com) by Jonathan Ostwald (University Corporation for Atmospheric Research) -->
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nldr.library.ucar.edu/metadata/osm" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+	<general>
+		<recordID>AMS-PUBS-000-000-000-011</recordID>
+		<recordDate>2004-04-01</recordDate>
+		<pubName type="Journal/magazine/periodical">Monthly Weather Review</pubName>
+		<volume>132</volume>
+		<issue>4</issue>
+		<pageSpan>897-914</pageSpan>
+		<title type="Article">A three-dimensional (3DVAR) variational data assimilation system for MM5: Implementation and initial results</title>
+		<abstract>A limited-area three-dimensional variational data assimilation (3DVAR) system applicable to both synoptic and mesoscale numerical weather prediction is described. The system is designed for use in time-critical real- time applications and is freely available to the data assimilation community for general research. The unique features of this implementation of 3DVAR include (a) an analysis space represented by recursive filters and truncated eigenmodes of the background error covariance matrix, (b) the inclusion of a cyclostrophic term in 3DVAR's explicit mass-wind balance equation, and (c) the use of the software architecture of the Weather Research and Forecast (WRF) model to permit efficient performance on distributed-memory platforms. The 3DVAR system is applied to a multiresolution, nested-domain forecast system. Resolution and seasonal- dependent background error statistics are presented. A typhoon bogusing case study is performed to illustrate the 3DVAR response to a single surface pressure observation and its subsequent impact on numerical forecasts of the fifth-generation Pennsylvania State University-National Center for Atmospheric Research Mesoscale Model (MM5). Results are also presented from an initial real-time MM5-based application of 3DVAR.</abstract>
+	</general>
+	<resources>
+		<primaryAsset type="Has version" url="http://nldr.library.ucar.edu/collections/ams-pubs/ams_pubs_103235.pdf">
+			<size>3.07 MB</size>
+			<mimeType>application/pdf</mimeType>
+			<version>Publisher's final</version>
+		</primaryAsset>
+		<relation type="Is published" url="http://journals.ametsoc.org/doi/abs/10.1175/1520-0493(2004)132&lt;0897%3AATVDAS&gt;2.0.CO%3B2" mimeType="text/html"/>
+	</resources>
+	<contributors>
+		<person role="Author" order="1" UCARid="16284" PUBSid="100002">
+			<lastName>Barker</lastName>
+			<firstName>Dale</firstName>
+			<middleName>M</middleName>
+			<instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+			<instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL)</instDivision>
+			<instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision>
+			<instDivision2>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision2>
+		</person>
+		<person role="Author">
+			<lastName>Crackle</lastName>
+			<instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision>
+		</person>
+		<person role="Author">
+			<lastName>Foobery</lastName>
+			<instName2>A. Deepak Publishing</instName2>
+			<instProject>Developmental Testbed Center</instProject>
+			<instProject2>Joint Numerical Testbed</instProject2>
+
+			<instName3>Aase Grafiske A/S</instName3>
+						<instDivision3>Aeronomy Laboratory</instDivision3>
+		</person>
+		<organization role="Author">
+			<instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision>
+		</organization>
+	</contributors>
+	<classify>
+		<language>en</language>
+		<status>Published</status>
+		<classification>Refereed</classification>
+		<idNumber type="PUBID">103235</idNumber>
+		<collaboration>UCAR only</collaboration>
+	</classify>
+	<coverage>
+		<date type="Fiscal">2004</date>
+		<date type="Published">2004-04</date>
+	</coverage>
+	<rights>
+		<copyrightNotice holder="Publisher" type="UCAR Open Access Policy">Copyright 2004 American Meteorological Society (AMS). Permission to use figures, tables, and brief excerpts from this work in scientific and educational works is hereby granted provided that the source is acknowledged. Any use of material in this work that is determined to be "fair use" under Section 107 of the U.S. Copyright Act or that satisfies the conditions specified in Section 108 of the U.S. Copyright Act (17 USC §108, as revised by P.L. 94-553) does not require the AMS's permission. Republication, systematic reproduction, posting in electronic form on servers, or other uses of this material, except as exempted by the above statement, requires written permission or a license form the AMS. Additional details are provided in the AMS Copyright Policy, available on the AMS Web site located at (http://www.ametsoc.org/AMS) or from the AMS at 617-227-2425 or copyright@ametsoc.org.</copyrightNotice>
+	</rights>
+</record>

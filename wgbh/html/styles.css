@@ -1,0 +1,36 @@
+.node {
+	margin:3px 5px 0px 25px;
+}
+
+.widget, .no-widget {
+	padding:0px 5px 0px 0px;
+	width:11px;
+}
+
+.node_body {
+	/* border:1px green dashed; */
+}
+
+.label.over {
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.category {
+	font-size:18px;
+	font-weight:bold;
+}
+
+.term {
+	font-weight:bold;
+}
+
+h1 {
+	margin-bottom:0px;
+	text-align:center;
+}
+
+.blurb {
+	margin:10px 0px 10px 0px;
+	text-align:center;
+}

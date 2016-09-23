@@ -1,0 +1,391 @@
+MappingException Id not found for 'dr1'
+exceptions.Exception library_dc rec not found for dr1
+Skipping 'NCAR Technical Notes 461-480'
+Skipping 'NCAR Technical Notes 401-420'
+
+	None folder	Climate of the upper air : Southern Hemisphere. Vol. 1.
+DR000653	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 1
+DR000654	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 2
+DR000655	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 3
+DR000656	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 4
+DR000657	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 5
+DR000658	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 6
+DR000659	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 7
+DR000660	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 8
+DR000661	NAVAIR 50-1C-55	Climate of the Upper Air : Southern Hemisphere : Volume 1 : Temperatures, Dew Points, and Heights at Selected Pressure Levels. Part 9
+
+	None folder	Climate of the upper air : Southern Hemisphere. Vol. 4.
+DR000722	NAVAIR 50-1C-58	Climate of the Upper Air : Southern Hemisphere. Volume 4 : Selected Meridional Cross Sections of Temperature, Dew Point, and Height. Part 1
+DR000723	NAVAIR 50-1C-58	Climate of the Upper Air : Southern Hemisphere. Volume 4 : Selected Meridional Cross Sections of Temperature, Dew Point, and Height. Part 2
+
+DR000080	NCAR/TN-6+EDD folder	Aircraft and instrumentation in atmospheric research
+DR000002	NCAR/TN-6+EDD	Aircraft and Instrumentation in Atmospheric Research PART 1
+DR000081	NCAR/TN-6+EDD	Aircraft and Instrumentation in Atmospheric Research PART 2
+
+DR000082	NCAR/TN-8+PROC folder	Seminar on possible responses of weather phenomena to variable extra-terrestrial influences
+DR000083	None	Seminar on Possible Responses of Weather Phenomena to Variable Extra-Terrestrial Influences PART 1
+DR000084	None	Seminar on Possible Responses of Weather Phenomena to Variable Extra-Terrestrial Influences - PART 2
+
+DR000085	NCAR/TN-10+STR folder	Two years of regular ozone soundings over Boulder, Colorado.
+DR000086	NCAR/TN-10+STR	Two Years of Regular Ozone Soundings Over Boulder, Colorado - PART 1
+DR000087	NCAR/TN-10+STR	Two Years of Regular Ozone Soundings Over Boulder, Colorado - PART 2
+
+DR000088	NCAR/TN-11+PROC folder	Satellite data in meteorological research
+DR000089	NCAR/TN-11+PROC	Satellite Data in Meteorological Research PART 1
+DR000090	NCAR/TN-11+PROC	Satellite Data in Meteorological Research PART 2
+DR000091	NCAR/TN-11+PROC	Satellite Data in Meteorological Research PART 3
+DR000092	NCAR/TN-11+PROC	Satellite Data in Meteorological Research PART 4
+
+DR000093	NCAR/TN-21+EDD folder	Balloon stress-band analysis
+DR000094	NCAR/TN-21+EDD	Balloon Stress-Band Analysis PART 1
+DR000095	None	Balloon Stress-Band Analysis PART 2
+
+DR000096	NCAR/TN-22+PROC folder	On atmospheric simulation: a colloquium
+DR000097	NCAR/TN-22+PROC	On Atmospheric Simulation: A Colloquium PART 1
+DR000098	NCAR/TN-22+PROC	On Atmospheric Simulation: A Colloquium PART 2
+
+DR000099	NCAR/TN-24+PROC folder	Thermal convection: a colloquium, sponsored by the NCAR Advanced Study Program, 5 July to 12 Aug. 1966
+DR000100	NCAR/TN-24+PROC	Thermal Convection: A Colloquium, Sponsored by the NCAR Advanced Study Program, 5 July to 12 August, 1966 - PART 1
+DR000101	NCAR/TN-24+PROC	Thermal Convection: A Colloquium, Sponsored by the NCAR Advanced Study Program, 5 July to 12 August, 1966 - PART 2
+DR000102	NCAR/TN-24+PROC	Thermal Convection: A Colloquium, Sponsored by the NCAR Advanced Study Program, 5 July to 12 August, 1966 - PART 3
+
+DR000103	NCAR/TN-29+PROC folder	Proceedings of the atmospheric research aircraft instrumentation workshop & symp, Nov. 17-18, 1966
+DR000104	NCAR/TN-29+PROC	Proceedings of the Atmospheric Research Aircraft Instrumentation Workshop and Symposium, November 17-18, 1966 Oklahoma City, Oklahoma PART 1
+DR000105	NCAR/TN-29+PROC	Proceedings of the Atmospheric Research Aircraft Instrumentation Workshop and Symposium, November 17-18, 1966 Oklahoma City, Oklahoma PART 2
+
+	NCAR/TN-34+STR folder	GHOST Balloon Data Vol. III: Balloon 34J.
+DR000613	None	GHOST Balloon Data Vol. III: Balloon 34J. Part 1
+DR000614	None	GHOST Balloon Data Vol. III: Balloon 34J. Part 2
+
+	NCAR/TN-34+STR folder	GHOST Balloon Data Vol. II: Balloon 28x.
+DR000611	None	GHOST Balloon Data Vol. II:  Balloon 28x. Part 1
+DR000612	None	GHOST Balloon Data Vol. II: Balloon 28x. Part 2
+
+	NCAR/TN-34+STR folder	GHOST Balloon Data Vol. VIII: Balloon 60TA.
+DR000619	None	GHOST Balloon Data Vol. VIII: Balloon 60TA. Part 1
+DR000620	None	GHOST Balloon Data Vol. VIII: Balloon 60TA. Part 2
+
+	NCAR/TN-34+STR folder	GHOST Balloon Data Vol. IX: Balloon 70K.
+DR000617	None	GHOST Balloon Data Vol. IX: Balloon 70K. Part 1
+DR000618	None	GHOST Balloon Data Vol. IX: Balloon 70K. Part 2
+
+	NCAR/TN-34+STR folder	GHOST Balloon Data Vol. IV: Balloon 40B.
+DR000615	None	GHOST Balloon Data Vol. IV: Balloon 40B. Part 1
+DR000616	None	GHOST Balloon Data Vol. IV: Balloon 40B. Part 2
+
+	NCAR/TN-35+STR folder	A Catalogue of Meteorological Data Obtained During the Line Islands Experiment February-April 1967.
+DR000724	NCAR/TN-35+STR	Catalogue of Meteorological Data Obtained During the Line Islands Experiment February-April 1967. Part 1
+DR000725	NCAR/TN-35+STR	Catalogue of Meteorological Data Obtained During the Line Islands Experiment February-April 1967. Part 2
+DR000726	NCAR/TN-35+STR	Catalogue of Meteorological Data Obtained During the Line Islands Experiment February-April 1967. Part 3
+DR000727	NCAR/TN-35+STR	A Catalogue of Meteorological Data Obtained During the Line Islands Experiment February-April 1967. Part 4
+DR000728	NCAR/TN-35+STR	A Catalogue of Meteorological Data Obtained During the Line Islands Experiment February-April 1967. Part 5 - Appendices
+
+DR000110	NCAR/TN-43+PROC folder	Internal gravity and acoustic waves - a colloquium.
+DR000109	NCAR/TN-43+PROC	Internal Gravity and Acoustic Waves - a Colloquium Part 1
+DR000111	NCAR/TN-43+PROC	Internal Gravity and Acoustic Waves - a Colloquium
+
+DR000107	NCAR/TN-55+STR folder	Rawinsonde data obtained during the Line Islands Experiment.
+DR000106	NCAR/TN-55+STR	Rawinsonde Data Obtained During the Line Islands Experiment. Volume I. Data Reduction Procedures and Thermodynamic Data
+DR000112	NCAR/TN-55+STR	Rawinsonde Data Obtained During the Line Islands Experiment. Volume II: Wind Data
+
+	NCAR/TN-57+STR folder	Climate of the upper air : Southern Hemisphere. Vol. 2.
+DR000720	NCAR/TN-57+STR	Climate of the Upper Air : Southern Hemisphere. Volume 2 : Zonal Geostrophic Winds. Part 1
+DR000721	NCAR/TN-57+STR	Climate of the Upper Air : Southern Hemisphere. Volume 2 : Zonal Geostrophic Winds. Part 2
+
+	NCAR/TN-58+STR folder	Climate of the upper air : Southern Hemisphere. Vol. 3.
+DR000663	NCAR/TN-58+STR	Climate of the Upper Air : Southern Hemisphere. Volume 3 : Vector Mean Geostrophic Winds - Isogon and Isotach Analyses. Part 1
+DR000664	NCAR/TN-58+STR	Climate of the Upper Air : Southern Hemisphere. Volume 3 : Vector Mean Geostrophic Winds - Isogon and Isotach Analyses. Part 2
+DR000665	NCAR/TN-58+STR	Climate of the Upper Air : Southern Hemisphere. Volume 3 : Vector Mean Geostrophic Winds - Isogon and Isotach Analyses. Part 3
+DR000666	NCAR/TN-58+STR	Climate of the Upper Air : Southern Hemisphere. Volume 3 : Vector Mean Geostrophic Winds - Isogon and Isotach Analyses. Part 4
+DR000667	NCAR/TN-58+STR	Climate of the Upper Air : Southern Hemisphere. Volume 3 : Vector Mean Geostrophic Winds - Isogon and Isotach Analyses. Part 5
+
+DR000113	NCAR/TN-68+PROC folder	Particulate models: their validity and application; a workshop held at the N.C.A.R
+DR000114	NCAR/TN-68+PROC	Particulate Models: Their Validity and Application; A Workshop Held at the National Center for Atmospheric Research, Boulder, Colorado, 21 August 1970 Part 1
+DR000115	NCAR/TN-68+PROC	Particulate Models: Their Validity and Application; A Workshop Held at the National Center for Atmospheric Research, Boulder, Colorado, 21 August 1970 Part 2
+
+	NCAR/TN-72+STR folder	Data catalog for the 1970 Colorado lee wave observational program.
+DR000621	NCAR/TN-72+STR	Data Catalog for the 1970 Colorado Lee Wave Observational Program Part 1
+DR000622	NCAR/TN-72+STR	Data Catalog for the 1970 Colorado Lee Wave Observational Program Part 2
+DR000623	NCAR/TN-72+STR	Data Catalog for the 1970 Colorado Lee Wave Observational Program Part 3
+
+DR000116	NCAR/TN-75/2 folder	NHRE symposium/workshop on hail : Estes Park, Colorado Sep. 21-28 1975.
+DR000117	NCAR/TN-75/2	NHRE Symposium/workshop on Hail : Estes Park, Colorado Sep. 21-28 1975
+DR000118	NCAR/TN-75/2	NHRE Symposium/workshop on Hail : Estes Park, Colorado Sep. 21-28 1975. Part 2
+DR000119	NCAR/TN-75/2	NHRE Symposium/workshop on Hail : Estes Park, Colorado Sep. 21-28 1975. Part 3
+DR000120	NCAR/TN-75/2	NHRE Symposium/workshop on Hail : Estes Park, Colorado Sep. 21-28 1975. Part 4
+DR000121	NCAR/TN-75/2	NHRE Symposium/workshop on Hail : Estes Park, Colorado Sep. 21-28 1975. Part 5
+
+DR000122	NCAR/TN-77+STR folder	Collection efficiency tables for membrane filters used in the sampling & analysis of aerosols...
+DR000078	NCAR/TN-77+STR	Volume 1 - Techniques and Discussion
+DR000123	NCAR/TN-77+STR	Volume II: Tables, Collection Effeciency as a Function of Filter Face Velocity
+DR000124	NCAR/TN-77+STR	Volume II: Tbls, Coll. Effeciency as a Function of Filter Face Velocity
+DR000125	NCAR/TN-77+STR	Volume III, Part 1: Tables, Collection Effeciency as a Function of Aerosol Particle Radius
+DR000126	NCAR/TN-77+STR	Volume III, Part 2: Tables, Collection Effeciency as a Function of Aerosol Particle Radius
+
+DR000171	NCAR/TN-85+STR folder	Microfilm atlas of magnetic fields in the solar corona. -Text Only-See next category for gen. field mps
+
+	NCAR/TN-86+STR folder	Chemical (Atmospheric) and Biological Measurements in Panama. Vol. 1: General part 1.
+DR000172	NCAR/TN-86+STR	Chemical (Atmospheric) and Biological Measurements in Panama. Vol. 1: General  Part 1
+DR000173	NCAR/TN-86+STR	Chemical (Atmospheric) and Biological Measurements in Panama. Vol. 1: General: Part 2
+
+DR000251	NCAR/TN-99+IA folder	Scientific ballooning handbook.
+DR000252	NCAR/TN-99+IA	Scientific Ballooning Handbook. Part 1
+DR000253	NCAR/TN-99+IA	Scientific Ballooning Handbook. Part 2
+
+	NCAR/TN-105+IA folder	NCAR software support library.
+DR000245	NCAR/TN-105+IA	NCAR Software Support Library, Volume 1
+DR000246	NCAR/TN-105+IA	NCAR Software Support Library, Volume 2
+DR000247	NCAR/TN-105+IA	NCAR Software Support Library, Volume 3
+
+	NCAR/TN-106+IA folder	User's guide to NCAR computing facility.
+DR000248	NCAR/TN-106+IA	User's Guide to NCAR Computing Facility. Part 1
+DR000249	NCAR/TN-106+IA	User's Guide to NCAR Computing Facility. Part 2
+
+DR000257	NCAR/TN-113+STR folder	Atlas of the global dstribution of total ozone July 1957 - June 1967.
+DR000258	NCAR/TN-113+STR	Atlas of the Global Dstribution of Total Ozone July 1957 - June 1967. Part 1
+DR000259	NCAR/TN-113+STR	Atlas of the Global Dstribution of Total Ozone July 1957 - June 1967. Part 2
+
+	NCAR/TN-118+STR folder	The mean circulation of the tropical and subtropical atmosphere-July.
+DR000736	NCAR/TN-118+STR	The Mean Circulation of the Tropical and Subtropical Atmosphere-July. Part 1
+DR000737	NCAR/TN-118+STR	The Mean Circulation of the Tropical and Subtropical Atmosphere-July. Part 2
+DR000738	NCAR/TN-118+STR	The Mean Circulation of the Tropical and Subtropical Atmosphere-July. Part 3
+DR000739	NCAR/TN-118+STR	The Mean Circulation of the Tropical and Subtropical Atmosphere-July. Part 4
+
+DR000260	NCAR/TN-120+EDD folder	Central pacific VLF signal survey and omega wind error predictions.
+DR000261	NCAR/TN-120+EDD	Central Pacific VLF Signal Survey and Omega Wind Error Predictions. Part 1
+DR000262	NCAR/TN-120+EDD	Central Pacific VLF Signal Survey and Omega Wind Error Predictions. Part 2
+
+DR000263	NCAR/TN-122+STR folder	A study of synoptic and mesoscale interaction over the GATE ship network:  4-5-6 September 1974.
+DR000264	NCAR/TN-122+STR	A Study of Synoptic and Mesoscale Interaction Over the GATE Ship Network: 4-5-6 September 1974. Part 1
+DR000265	NCAR/TN-122+STR	A Study of Synoptic and Mesoscale Interaction Over the GATE Ship Network: 4-5-6 Sept. 1974. Part 2
+
+DR000254	NCAR/TN-123+STR folder	Jan. & July simulation exps with the 2.5 latitude-longitude ver. of the NCAR GCM.
+DR000255	NCAR/TN-123+STR	January and July Simulation Experiments With the 2.5 Latitude-longitude Version of the NCAR General Circulation Model.  Vol. 1, Text
+DR000256	NCAR/TN-123+STR	January and July Simulation Experiments With the 2.5 Latitude-longitude Version of the NCAR General Circulation Model. Vol. 2 -- Figures
+
+DR000298	NCAR/TN-148+STR folder	National hail research Experiment data catalog (1972-1976).
+DR000299	NCAR/TN-148+STR	National Hail Research Experiment Data Catalog (1972-1976). Part 1
+DR000300	NCAR/TN-148+STR	National Hail Research Experiment Data Catalog (1972-1976). Part 2
+DR000301	NCAR/TN-148+STR	National Hail Research Experiment Data Catalog (1972-1976). Part 3
+
+DR000303	NCAR-TN-166+IA folder	The SCD graphics utilites.
+DR000304	NCAR-TN-166+IA	The SCD Graphics Utilites. Part 1
+DR000305	NCAR-TN-166+IA	The SCD Graphics Utilites. Part 2
+
+	NCAR/TN-168+STR folder	Summer MONEX U.S. Research Flight Missions, May-July 1979.
+DR000624	NCAR/TN-168+STR	Summer MONEX U.S. Research Flight Missions, May-July 1979. Part 1
+DR000625	NCAR/TN-168+STR	Summer MONEX U.S. Research Flight Missions, May-July 1979. Part 2
+
+	NCAR/TN-184+STR folder	Case studies on convective storms / case study 10, 22 July 1975
+DR000338	NCAR/TN-184+STR	Case Studies on Convective Storms / Case Study 10, 22 July 1975 : Mature Storm Study / a Conceptual Model Synthesized From Microphysical and Dynamic Observations of a Multicell Thunderstorm
+DR000339	NCAR/TN-184+STR	Case Studies on Convective Storms / Case Study 10, 22 July 1975 : Mature Storm Study / a Conceptual Model Synthesized From Microphysical and Dynamic Observations of a Multicell Thunderstorm. Pt. 2
+
+	NCAR/TN-192+IA folder	NCAR software catalog
+DR000345	NCAR/TN-192+IA	NCAR Software Catalog. Part 1
+DR000346	NCAR/TN-192+IA	NCAR Software Catalog. Part 2
+
+	NCAR/TN-202+STR folder	Joint solar dynamics project data summary 1982 / v. I:  Chromospheric & coronal observations.
+DR000356	NCAR/TN-202+STR	Joint Solar Dynamics Project Data Summary 14 June - 13 August 1982 / Volume I:  Chromospheric and Coronal Observations. Part 1
+DR000357	NCAR/TN-202+STR	Joint Solar Dynamics Project Data Summary 14 June - 13 August 1982 / Volume I:  Chromospheric and Coronal Observations. Part 2
+DR000358	NCAR/TN-202+STR	Joint Solar Dynamics Project Data Summary 14 June - 13 August 1982 / Volume I:  Chromospheric and Coronal Observations. Part 3
+DR000359	NCAR/TN-202+STR	Joint Solar Dynamics Project Data Summary 14 June - 13 August 1982 / Volume I:  Chromospheric and Coronal Observations. Part 4
+
+	NCAR/TN-208+IA folder	GenPro : GEN scientific data Processor ; user guide, relearse 1.0.
+DR000399	NCAR/TN-208+IA	GenPro : GEN Scientific Data Processor ; User Guide, Relearse 1.0. Part 1
+DR000400	NCAR/TN-208+IA	GenPro : GEN Scientific Data Processor ; User Guide, Release 1.0. Part 2
+
+	NCAR/TN-209+IA folder	GenPro : GEN scientific data Processor ; reference manual, release 1.0.
+DR000401	NCAR/TN-209+IA	GenPro : GEN Scientific Data Processor ; Reference Manual, Release 1.0. Part 1
+DR000402	NCAR/TN-209+IA	GenPro : GEN Scientific Data Processor ; Reference Manual, Release 1.0. Part 2
+DR000403	NCAR/TN-209+IA	GenPro : GEN Scientific Data Processor ; Reference Manual, Release 1.0. Part 3
+
+	NCAR/TN-214+STR folder	Regional acid deposition:  models and physical processes.
+DR000404	NCAR/TN-214+STR	Regional Acid Deposition:  Models and Physical Processes. Part 1
+DR000405	NCAR/TN-214+STR	Regional Acid Deposition:  Models and Physical Processes. Part 2
+
+	NCAR/TN-227+STR folder	Studies in climate.
+DR000406	NCAR/TN-227+STR	Studies in Climate. Part 1
+DR000407	NCAR/TN-227+STR	Studies in Climate. Part 2
+
+DR000483	NCAR/TN-237+IA folder	Instructor's handbook on meteorological instrumentation.
+DR000484	NCAR/TN-237+IA	Instructor's Handbook on Meteorological Instrumentation. Part 1
+
+This report, in PDF format, is in 2 parts.	NCAR/TN-241+STR folder	Atlas of simultaneous occurrence of different cloud types over land.
+DR000627	NCAR/TN-241+STR	Atlas of Simultaneous Occurrence of Different Cloud Types Over Land. Part 2
+
+DR000434	NCAR/TN-242+STR folder	Annual cycle pt. I: annual variation of surface temp. over the United States & Canada.
+DR000435	NCAR/TN-242+STR	The Annual Cycle Part I : The Annual Variation of Surface Temperature Over the United States and Canada. Part 1
+DR000436	NCAR/TN-242+STR	The Annual Cycle Part I : The Annual Variation of Surface Temperature Over the United States and Canada. Part 2
+DR000437	NCAR/TN-242+STR	The Annual Cycle Part I : The Annual Variation of Surface Temperature Over the United States and Canada. Part 3
+
+DR000441	NCAR/TN-243+STR folder	Annual cycle pt. II: annual variation of precipitation over the United States & Canada.
+DR000439	NCAR/TN-243+STR	The Annual Cycle Part II : The Annual Variation of Precipitation Over the United States and Canada. Part 1
+DR000438	NCAR/TN-243+STR	The Annual Cycle Part II : The Annual Variation of Precipitation Over the United States and Canada. Part 2
+DR000440	NCAR/TN-243+STR	The Annual Cycle Part II : The Annual Variation of Precipitation Over the United States and Canada. Part 3
+
+DR000486	NCAR/TN-267+IA folder	The NCAR GKS-compatible graphics system.
+DR000487	NCAR/TN-267+IA	The NCAR GKS-compatible Graphics System. Part 1
+DR000488	NCAR/TN-267+IA	The NCAR GKS-compatible Graphics System. Part 2
+DR000489	NCAR/TN-267+IA	The NCAR GKS-compatible Graphics System. Part 3
+
+DR000443	NCAR/TN-269+STR folder	Climat. atlas:  1950-79 surf. air temp., precip., sea-level pressure, & sea-surf. temp. (45 S-90 N).
+DR000444	NCAR/TN-269+STR	Climatological Atlas:  1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 1
+DR000445	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 2
+DR000446	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 3
+DR000447	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 4
+DR000448	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 5
+DR000449	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 6
+DR000450	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 7
+DR000451	NCAR/TN-269+STR	Climatological Atlas: 1950-1979 Surface Air Temperature, Precipitation, Sea-level Pressure, and Sea-surface Temperature (45 S-90 N). Part 8
+
+	NCAR/TN-273+STR folder	Global distribution of total cloud cover and cloud type amounts over land.
+DR000628	NCAR/TN-273+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over Land. Part 1
+DR000629	NCAR/TN-273+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over Land. Part 2
+
+DR000490	NCAR/TN-283+IA folder	NCAR graphics user's guide : Version 2.00.
+DR000491	None	NCAR Graphics User's Guide : Version 2.00. Part 1
+DR000492	None	NCAR Graphics User's Guide : Version 2.00. Part 2
+DR000493	None	NCAR Graphics User's Guide : Version 2.00. Part 3
+
+	NCAR/TN-286+IA folder	Users' Guide To NCAR CCM1.
+DR000602	NCAR/TN-286+IA	Users' Guide to NCAR CCM1
+DR000603	NCAR/TN-286+IA	Users' Guide to NCAR CCM1 - UNICOS Version
+DR000604	NCAR/TN-286+IA	Addenda to Users' Guide to NCAR CCM1
+
+DR000538	NCAR/TN-290+IA folder	CCM Modular Processor Users' Guide (Version PROC02).
+DR000539	NCAR/TN-290+IA	CCM Modular Processor Users' Guide (Version PROC02). Part 1
+DR000540	NCAR/TN-290+IA	CCM Modular Processor Users' Guide (Version PROC02). Part 2
+
+DR000541	NCAR/TN-295+STR folder	Global atmospheric circulation statistics, 1000-1 mb.
+DR000542	NCAR/TN-295+STR	Global Atmospheric Circulation Statistics, 1000-1 Mb. Part 1
+DR000543	NCAR/TN-295+STR	Global Atmospheric Circulation Statistics, 1000-1 Mb. Part 2
+
+DR000452	NCAR/TN-300+STR folder	ECMWF global analyses 1979-1986: circulation statistics and data evaluation.
+DR000457	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 1
+DR000458	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 2
+DR000459	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 3
+DR000460	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 4
+DR000461	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 5
+DR000462	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 6
+DR000463	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 7
+DR000464	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 8
+DR000465	NCAR/TN-300+STR	ECMWF Global Analyses 1979-1986: Circulation Statistics and Data Evaluation. Part 9
+
+DR000544	NCAR/TN-305+STR folder	Taiwan area mesoscale experiment: daily operations summary.
+DR000545	NCAR/TN-305+STR	Taiwan Area Mesoscale Experiment: Daily Operations Summary. Part 1
+DR000546	NCAR/TN-305+STR	Taiwan Area Mesoscale Experiment: Daily Operations Summary. Part 2
+DR000547	NCAR/TN-305+STR	Taiwan Area Mesoscale Experiment: Daily Operations Summary. Part 3
+DR000548	NCAR/TN-305+STR	Taiwan Area Mesoscale Experiment: Daily Operations Summary. Part 4
+DR000549	NCAR/TN-305+STR	Taiwan Area Mesoscale Experiment: Daily Operations Summary. Part 5
+DR000550	NCAR/TN-305+STR	Taiwan Area Mesoscale Experiment: Daily Operations Summary. Part 6
+
+	NCAR/TN-306+STR folder	Proceedings of the sixth international solar wind conference.  Volume 1.
+DR000630	NCAR/TN-306+STR	Proceedings of the Sixth International Solar Wind Conference. Volume 1. Part 1
+DR000631	NCAR/TN-306+STR	Proceedings of the Sixth International Solar Wind Conference. Volume 1. Part 2
+DR000632	NCAR/TN-306+STR	Proceedings of the Sixth International Solar Wind Conference. Volume 1. Part 3
+
+	NCAR/TN-306+STR folder	Proceedings of the sixth international solar wind conference. Volume 2.
+DR000633	NCAR/TN-306+STR	Proceedings of the Sixth International Solar Wind Conference. Volume 2. Part 1
+DR000634	NCAR/TN-306+STR	Proceedings of the Sixth International Solar Wind Conference. Volume 2. Part 2
+DR000635	NCAR/TN-306+STR	Proceedings of the Sixth International Solar Wind Conference. Volume 2. Part 3
+
+DR000551	NCAR/TN-307+STR folder	Spatial coherence retrievals of cloud prop. fire marine stratocumulus IFO, June 29-July 19, 1987.
+DR000552	NCAR/TN-307+STR	Spatial Coherence Retrievals of Cloud Properties for the Fire Marine Stratocumulus IFO, June 29-July 19, 1987. Part 1
+DR000553	NCAR/TN-307+STR	Spatial Coherence Retrievals of Cloud Properties for the Fire Marine Stratocumulus IFO, June 29-July 19, 1987
+DR000554	NCAR/TN-307+STR	Spatial Coherence Retrievals of Cloud Properties for the Fire Marine Stratocumulus IFO, June 29-July 19, 1987
+
+DR000466	NCAR/TN-317+STR folder	Global distribution of total cloud cover and cloud type amounts over the ocean.
+DR000467	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 1
+DR000468	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 2
+DR000469	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 3
+DR000470	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 4
+DR000471	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 5
+DR000472	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 6
+DR000473	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 7
+DR000474	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 8
+DR000475	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 9
+DR000476	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 10
+DR000477	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 11
+DR000478	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 12
+DR000479	NCAR/TN-317+STR	Global Distribution of Total Cloud Cover and Cloud Type Amounts Over the Ocean. Part 13
+
+DR000555	NCAR/TN-319+STR folder	Flux and sounding data from the NCAR King Air aircraft during HAPEX.
+DR000556	NCAR/TN-319+STR	Flux and Sounding Data From the NCAR King Air Aircraft During HAPEX. Part 1
+DR000557	NCAR/TN-319+STR	Flux and Sounding Data From the NCAR King Air Aircraft During HAPEX. Part 2
+DR000558	NCAR/TN-319+STR	Flux and Sounding Data From the NCAR King Air Aircraft During HAPEX. Part 3
+
+DR000587	NCAR/TN-321+IA folder	The UserDoc Collection / Introductory. The Primer : Version 2.2.
+DR000589	NCAR/TN-321+IA	The UserDoc Collection : Version 2.2. Updates to Primer
+DR000590	NCAR/TN-321+IA	The UserDoc Collection : Version 2.2. Telenet Logon Procedure
+DR000591	NCAR/TN-321+IA	The UserDoc Collection : Version 2.2. Mass Storage System: MEXPORT and MIMPORT
+
+	NCAR/TN-333+STR folder	NCAR master mechanism of the gas phase chemistry - Version 2.0.
+DR000144	NCAR/TN-333+STR	The NCAR Master Mechanism of the Gas Phase Chemistry - Version 2.0. Part 1
+DR000396	NCAR/TN-333+STR	The NCAR Master Mechanism of the Gas Phase Chemistry - Version 2.0. Part 2
+
+	NCAR/TN-341+STR folder	NCAR graphics guide to new utilities: Version 3.00.
+DR000636	NCAR/TN-341+STR	NCAR Graphics Guide to New Utilities: Version 3.00. Part 1
+DR000637	NCAR/TN-341+STR	NCAR Graphics Guide to New Utilities: Version 3.00. Part 2
+DR000638	NCAR/TN-341+STR	NCAR Graphics Guide to New Utilities: Version 3.00. Part 3
+
+	NCAR/TN-345+STR folder	A Global monthly sea surface temperature climatology.
+DR000156	NCAR/TN-345+STR	A Global Monthly Sea Surface Temperature Climatology. Part 1
+DR000397	NCAR/TN-345+STR	A Global Monthly Sea Surface Temperature Climatology. Part 2
+
+	NCAR/TN-362+IA folder	Meeting review: airborne aerosol inlet workshop 27-28 February and 1 March 1991.
+DR000170	NCAR/TN-362+IA	Meeting Review: Airborne Aerosol Inlet Workshop 27-28 February and 1 March 1991. Part 1
+DR000398	NCAR/TN-362+IA	Meeting Review: Airborne Aerosol Inlet Workshop 27-28 February and 1 March 1991. Part 2
+
+	NCAR/TN-366+STR folder	Global atmospheric circulation statistics, 1000-1 mb.
+DR000177	NCAR/TN-366+STR	Global Atmospheric Circulation Statistics, 1000-1 Mb. Part 1
+DR000605	NCAR/TN-366+STR	Global Atmospheric Circulation Statistics, 1000-1 Mb. Part 1
+
+	NCAR/TN-368+STR folder	Point correlations of geopotential height and temperature at 30 mb and between 500 mb and 30 mb.
+DR000179	NCAR/TN-368+STR	Point Correlations of Geopotential Height and Temperature at 30 Mb and Between 500 Mb and 30 Mb. Part 1
+DR000606	NCAR/TN-368+STR	Point Correlations of Geopotential Height and Temperature at 30 Mb and Between 500 Mb and 30 Mb. Part 2
+
+	NCAR/TN-369+STR folder	A revised and expanded catalogue of mass ejections observed by the Solar Maximum Mission coronagraph.
+DR000180	NCAR/TN-369+STR	A Revised and Expanded Catalogue of Mass Ejections Observed by the Solar Maximum Mission Coronagraph. Part 1
+DR000710	NCAR/TN-369+STR	A Revised and Expanded Catalogue of Mass Ejections Observed by the Solar Maximum Mission Coronagraph. Part 2
+
+	NCAR/TN-373+STR folder	Global analyses from ECMWF and atlas of 1000 to 10 mb circulation statistics.
+DR000184	NCAR/TN-373+STR	Global Analyses From ECMWF and Atlas of 1000 to 10 Mb Circulation Statistics. Part 1
+DR000607	NCAR/TN-373+STR	Global Analyses From ECMWF and Atlas of 1000 to 10 Mb Circulation Statistics. Part 2
+
+	NCAR/TN-379+IA folder	User's guide to NCAR CCM2
+DR000190	NCAR/TN-379+IA	User's Guide to NCAR CCM2. Part 1
+DR000608	NCAR/TN-379+IA	User's Guide to NCAR CCM2. Part 2
+
+	NCAR/TN-381+IA folder	A User's guide to the Penn State/NCAR mesoscale modeling system.
+DR000192	NCAR/TN-381+IA	A User's Guide to the Penn State/NCAR Mesoscale Modeling System. Part 1
+DR000609	NCAR/TN-381+IA	A User's Guide to the Penn State/NCAR Mesoscale Modeling System. Part 2,
+
+	NCAR/TN-384+IA folder	CCM Processor Users' Guide (UNICOS Version).
+DR000195	NCAR/TN-384+IA	CCM Processor Users' Guide (UNICOS Version). Part 1
+DR000610	NCAR/TN-384+IA	CCM Processor Users' Guide (UNICOS Version) Part 2
+
+DR000480	NCAR/TN-395+STR folder	Comparison of NCAR community climate model (CCM) climates.
+DR000211	NCAR/TN-395+STR	Comparison of NCAR Community Climate Model (CCM) Climates. Part 1
+DR000481	NCAR/TN-395+STR	Comparison of NCAR Community Climate Model (CCM) Climates. Part 2
+DR000482	NCAR/TN-395+STR	Comparison of NCAR Community Climate Model (CCM) Climates. Part 3
+
+	NCAR/TN-430+STR folder	Evaluation of the atmospheric and hydrological cycle in the NCEP reanalyses.
+DR000365	NCAR/TN-430+STR	Evaluation of the Atmospheric and Hydrological Cycle in the NCEP Reanalyses. Part 1
+DR000366	NCAR/TN-430+STR	Evaluation of the Atmospheric and Hydrological Cycle in the NCEP Reanalyses. Part 2
+DR000367	NCAR/TN-430+STR	Evaluation of the Atmospheric and Hydrological Cycle in the NCEP Reanalyses. Part 3
+DR000368	NCAR/TN-430+STR	Evaluation of the Atmospheric and Hydrological Cycle in the NCEP Reanalyses. Part 4
+DR000369	NCAR/TN-430+STR	Evaluation of the Atmospheric and Hydrological Cycle in the NCEP Reanalyses. Part 5
+DR000370	NCAR/TN-430+STR	Evaluation of the Atmospheric and Hydrological Cycle in the NCEP Reanalyses. Part 6
+
+	NCAR/TN-433+PROC folder	Harry van Loon symposium, studies in climate II.
+DR000371	NCAR/TN-433+PROC	Harry Van Loon Symposium, Studies in Climate II. Part 1
+DR000372	NCAR/TN-433+PROC	Harry Van Loon Symposium, Studies in Climate II. Part 2
+
+	NCAR/TN-444+STR folder	Pulse compression for phased array weather radars.
+DR000639	NCAR/TN-444+STR	Pulse Compression for Phased Array Weather Radars. Part 1
+DR000640	NCAR/TN-444+STR	Pulse Compression for Phased Array Weather Radars. Part 2
+
+	NCAR/TN-448+STR folder	Radar data & climatological stats associated w/ warm season precip episodes over the continental U.S.
+DR000373	NCAR/TN-448+STR	Radar Data and Climatological Statistics Associated With Warm Season Precipitation Episodes Over the Continental U.S. Pt. 1.PDF
+DR000374	NCAR/TN-448+STR	Radar Data and Climatological Statistics Associated With Warm Season Precipitation Episodes Over the Continental U.S. Pt. 2
+DR000375	NCAR/TN-448+STR	Radar Data and Climatological Statistics Associated With Warm Season Precipitation Episodes Over the Continental U.S

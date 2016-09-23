@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dlsciences.org/frameworks/teach" xsi:schemaLocation="http://www.dlsciences.org/frameworks/teach http://www.dlsciences.org/frameworks/teach/1.00/schemas/teach.xsd">
+  <recordID>DPS-TG-000-000-010-151</recordID>
+  <date created="2011-03-25"/>
+  <annotatedID type="CCS">EC-000-000-010-172</annotatedID>
+  <title>Chemical Interactions: Activity 7: Balancing the Rusting Reaction</title>
+  <classPeriods>1</classPeriods>
+  <instructionalTag globalSymbol="+">DPS guideline: + essential learning, must grade</instructionalTag>
+  <instructionalTag>Drawer 2</instructionalTag>
+  <assessments>
+    <identifier type="CCS" label="Chemical Interactions: Activity 7: Practice Sheet Question 1a" order="1">ASSESS-000-000-010-823</identifier>
+    <identifier type="CCS" order="2" label="Chemical Interactions: Activity 7: Practice Sheet Question 1b">ASSESS-000-000-010-824</identifier>
+  </assessments>
+  <curatorNotes>
+    <version>IAT Interactions in Physical Science 1st Edition</version>
+  </curatorNotes>
+  <contributors>
+    <contributor role="Author" date="2010-07-23" share="true">
+      <organization>
+        <instName>It's About Time, Inc.</instName>
+      </organization>
+    </contributor>
+    <contributor role="Author" date="2010-07-23" share="true">
+      <organization>
+        <instName>American Geological Institute (AGI)</instName>
+      </organization>
+    </contributor>
+  </contributors>
+</teach>

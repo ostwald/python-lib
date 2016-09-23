@@ -1,0 +1,192 @@
+# NOTE:
+# asset-000-000-000-002 - asset-000-000-000-031
+# found for both technotes and ASR, but the technotes assets are mapped
+# from original DR numbers, whereas the ASR assets are NOT
+
+asset-000-000-000-002 - 2 results found
+	 asr / ASR-000-000-000-002
+	 technotes / TECH-NOTE-000-000-000-002 !!
+asset-000-000-000-003 - 2 results found
+	 asr / ASR-000-000-000-003
+	 technotes / TECH-NOTE-000-000-000-003 !!
+asset-000-000-000-004 - 2 results found
+	 asr / ASR-000-000-000-004
+	 technotes / TECH-NOTE-000-000-000-004 !!
+asset-000-000-000-005 - 2 results found
+	 asr / ASR-000-000-000-005
+	 technotes / TECH-NOTE-000-000-000-005
+asset-000-000-000-006 - 2 results found
+	 asr / ASR-000-000-000-006
+	 technotes / TECH-NOTE-000-000-000-006
+asset-000-000-000-007 - 2 results found
+	 asr / ASR-000-000-000-007
+	 technotes / TECH-NOTE-000-000-000-007
+asset-000-000-000-008 - 2 results found
+	 asr / ASR-000-000-000-008
+	 technotes / TECH-NOTE-000-000-000-008
+asset-000-000-000-009 - 2 results found
+	 asr / ASR-000-000-000-009
+	 technotes / TECH-NOTE-000-000-000-009
+asset-000-000-000-010 - 2 results found
+	 asr / ASR-000-000-000-010
+	 technotes / TECH-NOTE-000-000-000-010 !!
+asset-000-000-000-011 - 2 results found
+	 asr / ASR-000-000-000-011
+	 technotes / TECH-NOTE-000-000-000-011
+asset-000-000-000-012 - 2 results found
+	 asr / ASR-000-000-000-012
+	 technotes / TECH-NOTE-000-000-000-012
+asset-000-000-000-013 - 2 results found
+	 asr / ASR-000-000-000-013
+	 technotes / TECH-NOTE-000-000-000-013
+asset-000-000-000-014 - 2 results found
+	 asr / ASR-000-000-000-014
+	 technotes / TECH-NOTE-000-000-000-014
+asset-000-000-000-015 - 2 results found
+	 asr / ASR-000-000-000-015
+	 technotes / TECH-NOTE-000-000-000-015
+asset-000-000-000-016 - 2 results found
+	 asr / ASR-000-000-000-016
+	 technotes / TECH-NOTE-000-000-000-016
+asset-000-000-000-017 - 2 results found
+	 asr / ASR-000-000-000-017
+	 technotes / TECH-NOTE-000-000-000-017 !!
+asset-000-000-000-018 - 2 results found
+	 asr / ASR-000-000-000-018
+	 technotes / TECH-NOTE-000-000-000-018
+asset-000-000-000-019 - 2 results found
+	 asr / ASR-000-000-000-019
+	 technotes / TECH-NOTE-000-000-000-019
+asset-000-000-000-020 - 2 results found
+	 asr / ASR-000-000-000-020
+	 technotes / TECH-NOTE-000-000-000-020
+asset-000-000-000-021 - 2 results found
+	 asr / ASR-000-000-000-021
+	 technotes / TECH-NOTE-000-000-000-021
+asset-000-000-000-022 - 2 results found
+	 asr / ASR-000-000-000-022
+	 technotes / TECH-NOTE-000-000-000-022 !!
+asset-000-000-000-023 - 2 results found
+	 asr / ASR-000-000-000-023
+	 technotes / TECH-NOTE-000-000-000-023
+asset-000-000-000-024 - 2 results found
+	 asr / ASR-000-000-000-024
+	 technotes / TECH-NOTE-000-000-000-024
+asset-000-000-000-025 - 2 results found
+	 asr / ASR-000-000-000-025
+	 technotes / TECH-NOTE-000-000-000-025
+asset-000-000-000-026 - 2 results found
+	 asr / ASR-000-000-000-026
+	 technotes / TECH-NOTE-000-000-000-026
+asset-000-000-000-027 - 2 results found
+	 asr / ASR-000-000-000-027
+	 technotes / TECH-NOTE-000-000-000-027
+asset-000-000-000-028 - 2 results found
+	 asr / ASR-000-000-000-028
+	 technotes / TECH-NOTE-000-000-000-028
+asset-000-000-000-029 - 2 results found
+	 asr / ASR-000-000-000-029
+	 technotes / TECH-NOTE-000-000-000-029
+asset-000-000-000-030 - 2 results found
+	 asr / ASR-000-000-000-030
+	 technotes / TECH-NOTE-000-000-000-030
+asset-000-000-000-031 - 2 results found
+	 asr / ASR-000-000-000-031
+	 technotes / TECH-NOTE-000-000-000-031
+asset-000-000-000-032 - 2 results found
+	 asr / ASR-000-000-000-032
+	 technotes / TECH-NOTE-000-000-000-032
+asset-000-000-000-033 - 2 results found
+	 asr / ASR-000-000-000-033
+	 technotes / TECH-NOTE-000-000-000-033  !!
+asset-000-000-000-051 - no results found ("Beyond ALT text : making the Web easy to use for users with disabilities")
+	--> see MONOGRAPH-000-000-000-051
+asset-000-000-000-280 - no results found
+	--> see MONOGRAPH-000-000-000-280
+asset-000-000-000-355 - no results found
+    --> TECH-NOTE-000-000-000-626 ("otherAsset" for 626, 467)
+asset-000-000-000-363 - no results found
+	--> HIST-000-000-000-004 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-363.pdf)
+asset-000-000-000-364 - no results found
+	--> HIST-000-000-000-004 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-364.pdf)
+asset-000-000-000-394 - no results found
+	--> NHRE-000-000-000-001 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-394.pdf)
+asset-000-000-000-642 - 2 results found
+	 monographs / MONOGRAPH-000-000-000-784
+	 ncar-books / NAB-000-000-000-027
+	 --> These are both legitimate and both catalog the same book!
+asset-000-000-000-670 - no results found
+	--> MONOGRAPH-000-000-000-670 (cataloged as OtherAsset: http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-670.pdf)
+asset-000-000-000-730 - ASN Jan 77 - Mar 78 - part 2
+	--> ASR-000-000-000-017 (Asset Renamed)
+asset-000-000-000-731 -  Annual Scientific Report April 1978-March 1979. Part 1
+	--> ASR-000-000-000-018 (Asset Renamed)
+asset-000-000-000-732 -  Annual Scientific Report April 1978-March 1979. Part 2.  
+	--> ASR-000-000-000-018 (Asset Renamed)
+asset-000-000-000-733 - Annual scientific report January 1977 - March 1978. Part 1.  
+	--> ASR-000-000-000-019 (Asset Renamed)
+asset-000-000-000-734 - Annual Scientific Report January - December 1979. Part 1
+	--> ASR-000-000-000-017 (Asset Renamed)
+asset-000-000-000-735 - no results found
+asset-000-000-000-740 - Annual Scientific Report January - December 1980. Part 1
+	--> ASR-000-000-000-020 (Asset Renamed)
+asset-000-000-000-741 - no results found
+asset-000-000-000-742 - Annual Scientific Report January - December 1981. Part 1
+	--> ASR-000-000-000-021 (Asset Renamed)
+asset-000-000-000-743 - no results found
+asset-000-000-000-744 - Annual Scientific Report January - September 1982. Part 1.
+	--> ASR-000-000-000-022 (Asset Renamed)
+asset-000-000-000-745 - no results found
+asset-000-000-000-746 - Annual Scientific Report Fiscal Year 1983. Part 1.
+	--> ASR-000-000-000-023 (Asset Renamed)
+asset-000-000-000-747 - no results found
+asset-000-000-000-748 - Annual Scientific Report Fiscal Year 1984. Part 1.
+	--> ASR-000-000-000-024 (Asset Renamed)
+asset-000-000-000-749 - no results found
+asset-000-000-000-750 - Annual Scientific Report Fiscal Year 1985. Part 1.
+	--> ASR-000-000-000-025 (Asset Renamed)
+asset-000-000-000-751 - no results found
+asset-000-000-000-752 - Annual Scientific Report Fiscal Year 1986. Part 1.
+	--> ASR-000-000-000-026 (Asset Renamed)
+asset-000-000-000-753 - no results found
+asset-000-000-000-754 - Annual Scientific Report Fiscal Year 1987. Part 1.
+	--> ASR-000-000-000-027 (Asset Renamed)
+asset-000-000-000-755 - no results found
+asset-000-000-000-756 - Annual Scientific Report Fiscal Year 1988. Part 1.
+	--> ASR-000-000-000-028 (Asset Renamed)
+asset-000-000-000-757 - no results found
+asset-000-000-000-758 - Annual Scientific Report Fiscal Year 1989. Part 1.
+	--> ASR-000-000-000-029 (Asset Renamed)
+asset-000-000-000-759 - no results found
+asset-000-000-000-760 - no results found
+asset-000-000-000-761 - no results found
+asset-000-000-000-762 - Annual Scientific Report Fiscal Year 1990. Part 1.
+	--> ASR-000-000-000-030 (Asset Renamed)
+asset-000-000-000-763 - no results found
+asset-000-000-000-764 - no results found
+asset-000-000-000-765 - Annual Scientific Report Fiscal Year 1991. Part 1.
+	--> ASR-000-000-000-031 (Asset Renamed)
+asset-000-000-000-766 - no results found
+asset-000-000-000-767 - no results found
+asset-000-000-000-768 - Annual Scientific Report Fiscal Year 1992. Part 1.
+	--> ASR-000-000-000-032 (Asset Renamed)
+asset-000-000-000-769 - no results found
+asset-000-000-000-770 - no results found
+asset-000-000-000-771 - Annual Scientific Report Fiscal Year 1993. Part 1.
+--> ASR-000-000-000-033 (Asset Renamed)
+asset-000-000-000-772 - no results found
+asset-000-000-000-773 - no results found
+asset-000-000-000-784 - 2 results found  Weather for outdoorsmen by Walter F. Dabberdt. Part 1.
+	( DUP of DUP Noted above! This is two parts, DR000784, DR000642)
+	 monographs / MONOGRAPH-000-000-000-784
+	 ncar-books / NAB-000-000-000-027
+	 
+asset-000-000-000-792 - no results found (THESIS) (NCAR CT - 176 - Turbulent intermittency in the Langrangian-averaged alpha model.)
+asset-000-000-000-838 -  The National Center for Atmospheric Research: an architectural masterpiece / Lucy Warner, author. Part 2. pages 15 - 30
+	--> HIST-000-000-000-003 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-837.pdf)
+asset-000-000-000-841 - Reports of Research and Facilities Programs 1962. 
+	--> ASR-000-000-000-002 (asset renamed to http://nldr.library.ucar.edu/collections/asr/asset-000-000-000-002.pdf)
+asset-000-000-000-842 - Reports of Research and Facilities Programs 1963.
+    --> ASR-000-000-000-003 (asset renamed)
+asset-000-000-000-843 - Reports of Research and Facilities Programs 1964.   	 
+	--> ASR-000-000-000-004 (asset renamed) 

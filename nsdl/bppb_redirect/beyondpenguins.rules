@@ -1,0 +1,986 @@
+RewriteCond %{QUERY_STRING} topic=use
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/terms-of-use/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=stories
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/stories-for-students/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=standards
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/standards/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=funding
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/funded-by-nsf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=September2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=October2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=October2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=November2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=May2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=May2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=March2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=March2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=June2010
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=June2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=January2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=February2010
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=February2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=December2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=December2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=August2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=August2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=April2010
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=April2009
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contributors&date=April2008
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contributors/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=contact
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/contact/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} topic=about
+RewriteRule ^/information.php http://beyondpenguins.ehe.osu.edu/about/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/rocks-and-minerals-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/teacher-tools-that-integrate-technology-wikis/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/the-basics-of-rocks-and-minerals-and-polar-geology/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/common-misconceptions-about-rocks-and-minerals/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/determining-importance-helping-students-recognize-important-points-in-content-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/teaching-science-to-students-with-visual-impairments/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/differentiating-science-and-literacy-content-with-beyond-penguins-and-polar-bears/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/hands-on-science-and-literacy-activities-about-rocks-and-minerals/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/reader-of-the-rocks/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/rocks-and-minerals-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/magnetism-mountains-and-moving-plates-tales-of-a-polar-geologist/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/the-hole-in-the-pole-gang/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/using-rock-swaps-to-teach-about-geographic-diversity/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/rock-hunting-with-children/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=September2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/rocks-and-minerals/rocks-and-minerals-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/peoples-of-the-arctic-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/epals-students-collaborating-on-weather-climate-change-and-more/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/peoples-under-the-arctic-sky/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/storytime-the-boy-who-found-the-light-podcast-episode-8/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/real-reading-begins-with-metacognition/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/ell-2-0-making-the-most-of-the-web/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/culturally-responsive-teaching/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/lessons-and-activities-about-arctic-peoples/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/a-house-of-snow-and-ice/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/fruitful-collaboration-western-science-and-native-ways-of-knowing/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/arctic-survival-skills-traditional-inuit-games/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/peoples-of-the-arctic-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/peoples-of-the-arctic/peoples-of-the-arctic-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/energy-and-the-polar-environment-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/tapping-in-to-professional-development-virtual-communities-of-practice/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/solar-energy-albedo-and-the-polar-regions/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/common-misconceptions-about-light-heat-and-the-sun/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/note-taking-enhancing-the-ability-to-comprehend-nonfiction-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/what-works-teaching-literacy-skills-to-english-language-learners/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/questioning-techniques-research-based-strategies-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/hands-on-science-and-literacy-activities-about-solar-energy/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/the-shiniest-moon/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/energy-and-the-polar-environment-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/going-with-the-floe-a-one-time-drifter/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/focusing-in-on-polar-bear-habitat-loss-through-a-media-lens/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/teaching-about-natural-resources-and-energy-sources/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/the-relevance-of-after-school-science-programs-for-students-and-teachers-alike/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!knowledge
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/natural-resources-at-the-poles-a-story-of-controversy-and-debate/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!development
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/teaching-about-energy-the-need-project/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/energy-and-the-polar-environment-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=October2008&departmentid=curriculum&columnid=curriculum!activities
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/energy-and-the-polar-environment/taking-action-energy-efficiency-at-home-and-at-school/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=professional&columnid=professional!planning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/planning-a-polar-festival/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/writing-science-themed-poetry-in-the-elementary-grades/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/hands-on-science-activities-for-your-polar-festival/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/stories-for-students/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/polar-festivals-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=field&columnid=field!resources
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/resources-and-activities-from-polar-research-projects/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/polar-arts-and-crafts/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/local-partnerships-getting-the-community-involved-in-your-festival/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=November2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-festivals/polar-festivals-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/polar-oceans-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/podcasts-in-the-elementary-classroom-tools-for-teachers-and-students/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/podcasts-in-the-elementary-classroom-tools-for-teachers-and-students-2/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/poles-apart-a-tale-of-two-oceans/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/deep-sea-thinking-exploring-the-worlds-ocean-podcast-episode-6/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/common-misconceptions-about-oceans/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/active-participation-ensuring-student-engagement/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/bibliotherapy-helping-students-one-book-at-a-time/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/performance-assessments-a-marine-example/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/hands-on-lessons-and-activities-about-oceans/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/a-whale-of-an-ocean/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/polar-oceans-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/uncharted-territory-on-the-arctic-seafloor/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/as-big-as-the-ocean-creating-murals/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-oceans/polar-oceans-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/polar-patterns-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/teacher-tools-that-integrate-technology-rubistar-and-pbl-project-checklists/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/understanding-seasonal-change-polar-extremes-in-seasons-and-the-aurora-content-knowledge-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/common-misconceptions-about-day-and-night-seasons/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/cause-and-effect-relationships-in-play-picture-books-and-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/equity-in-elementary-science-education-meeting-the-needs-of-gifted-students/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/using-discrepant-events-in-elementary-classrooms/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/investigating-the-cause-and-effect-relationships-of-seasonal-change/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/the-aurora-fire-in-the-sky/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/polar-patterns-virtual-bookshelf? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/studying-the-aurora-australis-from-antarctica/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/the-aurora-inspiration-for-art-and-poetry-integration/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=May2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-patterns-day-night-and-seasons/polar-patterns-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/polar-plants-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/plants-of-the-arctic-and-antarctic/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/the-lowdown-on-climate-change-podcast-episode-4/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/common-misconceptions-about-plants/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/organizing-research-reports/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/creating-an-equitable-classroom-through-establishing-respect/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/assessment-strategies-rubrics/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/hands-on-lessons-and-activities-about-plants/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/partners/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/polar-plants-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/antarctica-geologists-find-a-balmy-day-on-the-lake-14-million-years-ago/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/feed-me/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/pressing-plants-connecting-science-art-and-the-natural-world/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-plants/polar-plants-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/a-sense-of-place-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/using-webcams-to-bring-the-polar-regions-into-your-classroom? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/developing-your-own-sense-of-place-about-the-polar-regions-2? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/common-misconceptions-about-the-polar-regions-geography-and-mapping? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/identifying-similarities-and-differences? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/planning-instruction-for-all-students-universal-design-for-learning/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/activities-for-identifying-similarities-and-differences? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/science-and-literacy-lessons-to-develop-a-polar-sense-of-place? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/the-top-and-bottom-of-the-world? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/a-sense-of-place-virtual-bookshelf-2? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/remote-sensing-makes-sense-in-the-polar-regions? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=curriculum&columnid=curriculum!work
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/where-im-from-poems-making-connections-to-home? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/science-and-literacy-points-on-the-golden-compass? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/taking-a-sense-of-place-beyond-geography-and-science? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/from-a-science-center-or-museum-near-you-the-iglo-project? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=March2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/a-sense-of-place/a-sense-of-place-virtual-bookshelf-2/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/climate-change-and-the-polar-regions-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/utilizing-digital-media-to-enhance-teaching-and-learning/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/climate-literacy-in-the-elementary-classroom/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/no-gloom-no-doom-teaching-about-climate-without-scaring-your-students-podcast-episode-12/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/climate-misconceptions-a-top-10-list/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/summarizing-and-synthesizing-whats-the-difference/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/creating-equitable-and-just-classrooms-with-the-teaching-tolerance-project/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/3260/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/a-new-model-of-science-curricula-and-instruction/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/lessons-and-activities-to-build-the-foundations-for-climate-literacy/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/people-of-the-whale/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/climate-change-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/climate-science-what-we-need-to-know/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/beyond-data-collection-analysis-and-identification-of-patterns/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2010&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/climate-change-and-the-polar-regions/climate-change-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/weather-and-climate-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/teacher-tools-that-integrate-technology-publishing-on-the-web/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/weather-and-climate-the-short-and-the-long-of-it/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/common-misconceptions-about-polar-weather-and-climate/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/vocabulary-development-and-nonlinguistic-representations-how-can-science-help/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/vocabulary-development-strategies-for-english-language-learners/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/weather-stations-teaching-the-science-and-technology-standard/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/hands-on-science-and-literacy-lessons-about-weather-and-climate/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/antarctica-king-of-cold/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/weather-and-climate-from-home-to-the-poles-virtual-bookshelf? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/serendipitous-science-an-unexpected-discovery/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/arctic-weather-dramas/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/integrating-science-and-math-data-analysis-and-weather/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/free-podcasts-on-climate-and-climate-change/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=June2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/weather-and-climate-from-home-to-the-poles/weather-and-climate-from-home-to-the-poles-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/polar-mammals-unit-outlines? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/100-free-web-tools-for-elementary-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/what-is-a-mammal-answers-from-ross-macphee/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/why-polar-bears-dont-eat-penguins-podcast-episode-2/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/common-misconceptions-about-mammals/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/listening-comprehension-skills-for-elementary-students/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/curriculum-compacting/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/book-arts-a-creative-means-to-promote-learning/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/science-and-literacy-lessons-about-mammals/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/white-wolf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/mammals-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/what-killed-the-mammoths-ross-macphee-looks-for-answers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/why-include-art-in-a-mammal-unit/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=January2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-mammals/mammals-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/polar-explorers-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/voicethread-a-collaborative-tool-to-integrate-language-arts-and-science/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/who-got-there-first-the-north-pole-controversies/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/ive-tried-everything-strategies-for-working-with-kids-with-attention-disorders-podcast-episode-10/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/differentiating-at-the-nonfiction-cafe/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.nsdl.org/issue/column.php?date=February2010&departmentid=professional&columnid=professional!equity [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/3055/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/effort-praise-and-achievement-what-research-says-to-the-elementary-teacher/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/lessons-and-activities-about-exploration/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/two-miles-below/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/polar-explorers-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/the-boy-scout-at-the-bottom-of-the-world/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/exploration-comes-to-life-with-orienteering-geocaching/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2010&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/polar-explorers/polar-explorers-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/arctic-and-antarctic-birds-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/integrating-technology-social-networking/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/how-do-birds-stay-warm/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/birdwatchers-delight-birds-and-inquiry-learning-podcast-episode-3/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/common-misconceptions-about-birds/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/questioning-to-understand-content-area-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/strategies-to-engage-boys-in-reading-and-the-girls-too/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/kids-becoming-scientists-through-schoolyard-inquiry/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=literacy&columnid=literacy!work
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/students-research-bird-behavior-in-cold-weather/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/hands-on-science-and-literacy-lessons-about-birds/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/the-dance-of-life/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/birds-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/nunavut-canada-the-sounds-and-the-silence/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/project-feederwatch-integrating-real-time-science-and-math/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=February2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/arctic-and-anarctic-birds/birds-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/keeping-warm-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/its-elementary-blogging-with-young-learners/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/cool-facts-about-heat/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/warm-blankets-and-cold-breezes-podcast-episode-9/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/common-misconceptions-about-heat-and-insulation/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/creating-readers-theater-scripts-from-informational-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/adhd-current-research-and-teaching-strategies-for-reading-and-writing/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=literacy&columnid=literacy!work
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/snow-shelters-and-long-underwear-project-based-polar-learning/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/lessons-and-activities-about-heat-and-insulation/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/at-home-in-the-cold/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/keeping-warm-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/researchers-on-ice/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/seeing-temperature-through-color/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/keeping-warm/keeping-warm-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/earths-changing-surface-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/integrating-technology-interactive-whiteboards/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/the-forces-that-change-the-face-of-earth/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/a-walk-through-the-earth-volcanoes-and-earthquakes-podcast-episode-1/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/common-misconceptions-about-weathering-erosion-volcanoes-and-earthquakes/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/getting-students-engaged-in-nonfiction-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/discovering-science-through-art-based-activities/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/cooperative-learning-an-oldie-but-a-goodie/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/hands-on-science-and-literacy-activities-about-erosion-volcanoes-and-earthquakes/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/the-heart-of-erebus/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/our-changing-earth-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/mt-erebus-then-and-now/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/developing-map-skills-through-earth-science-activities/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/watch-listen-and-learn-online-multimedia-resources-on-earthquakes-and-volcanoes/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=December2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/earths-changing-surface/our-changing-earth-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/icebergs-and-glaciers-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/touching-the-future-using-ipod-touch-devices-in-elementary-classrooms/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/glaciers-earths-rivers-of-ice/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/density-in-the-making-the-changing-face-of-polar-glaciers-and-icebergs-podcast-episode-7/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/common-misconceptions-about-icebergs-and-glaciers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/visualizing-to-understand-content-area-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/some-ideas-for-instructing-students-with-autism-spectrum-disorders/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=literacy&columnid=literacy!work
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/ice-ice-baby/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/hands-on-lessons-and-activities-about-glaciers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/ice-sculptures/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/icebergs-and-glaciers-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/taking-a-glaciers-pulse/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/titanic-and-the-bad-boy-iceberg/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/using-icebergs-to-teach-buoyancy-and-density/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=curriculum&columnid=curriculum!knowledge
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/all-about-icebergs/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/icebergs-and-glaciers/icebergs-and-glaciers-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/water-ice-and-snow-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/teacher-tools-that-integrate-technology-educational-blogging/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/reconsidering-the-water-cycle-in-the-context-of-the-polar-regions? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/common-misconceptions-about-states-and-changes-of-matter-and-the-water-cycle/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/science-notebooks-integrating-investigations/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/the-polar-express-delivers-equity-in-the-kindergarten-classroom/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/professional-bookshelf-resources-for-teachers? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/science-notebooks-and-writing-workshops-helping-students-organize-information/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/the-water-cycle-and-the-polar-regions-hands-on-science-and-literacy/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/growing-floaters-and-shrinking-sinkers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/water-snow-and-ice-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/snow-to-ice-to-water-melt-ponds-moulins-and-surging-glaciers? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/titanic-and-the-bad-boy-iceberg/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/water-dance-integrating-science-literacy-art-and-movement/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/american-museum-of-natural-history-exhibit-on-water-and-additional-resources/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=August2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/water-ice-and-snow/water-snow-and-ice-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/science-at-the-poles-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/a-storyteller-and-teacher-takes-a-digital-dive/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/unlocking-the-climate-history-captured-in-ice/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/of-snow-forts-and-frostbite-learning-to-work-and-play-at-the-poles-podcast-episode-11/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/teaching-students-to-think-about-text/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/language-based-learning-disorders-symptoms-and-teaching-strategies/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/ideas-for-organizing-your-teaching/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/hands-on-activities-that-simulate-polar-science/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/life-on-the-ice-cube/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/science-at-the-poles-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/investigating-west-antarctica-then-and-now/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/planning-polar-expeditions-integrates-math-science-and-geography/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2010&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/science-at-the-poles/science-at-the-poles-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/tundra-unit-outlines/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/social-bookmarking-the-power-of-diigo/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/life-in-the-tundra/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!podcast
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/whats-for-dinner-teaching-arctic-food-chains-podcast-episode-5/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/common-misconceptions-about-biomes-and-ecosystems/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/we-have-our-organizer-now-what-writing-research-reports/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/what-works-encouraging-girls-in-math-and-science/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/professional-bookshelf-resources-for-teachers/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/the-learning-cycle-in-elementary-science/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/hands-on-lessons-and-activities-about-the-tundra-and-ecosystems/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/a-tundra-tale/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/tundra-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/counting-graylings-on-the-tundra/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/modeling-ecosystems-integrating-science-literacy-and-art/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2009&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/tundra-life-in-the-polar-extremes/tundra-virtual-bookshelf/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!unitplans
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/learning-from-the-polar-past-unit-outlines? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!technology
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/connecting-classrooms-sharing-real-data? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!science
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/geologic-time-fossils-and-archaeology-content-knowledge-for-teachers? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!misconceptions
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/common-misconceptions-about-fossils-and-the-history-of-the-polar-regions? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!literacy
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/teacher-resources-for-making-inferences-using-context-clues? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!equity
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/teaching-the-science-standards-tools-for-visual-and-kinesthetic-learners? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=professional&columnid=professional!assessment
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/updating-the-k-w-l-brings-the-focus-back-to-literacy-evidential-thinking? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=literacy&columnid=literacy!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=literacy&columnid=literacy!feature
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/dinos-in-the-dark? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=literacy&columnid=literacy!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/learning-from-the-polar-past-virtual-bookshelf? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=field&columnid=field!researcher
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/a-dinosaur-cast-in-stone? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=curriculum&columnid=curriculum!pop
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/issue/learning-from-the-polar-past/jules-verne-early-arctic-explorer-superstars? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=curriculum&columnid=curriculum!lessons
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/issue/learning-from-the-polar-past/what-is-the-difference-activities-to-teach-paleontology-and-archaeology? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=curriculum&columnid=curriculum!learning
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/connections-to-the-past-and-present-the-arctic-studies-center? [R=permanent,L]
+
+RewriteCond %{QUERY_STRING} date=April2008&departmentid=curriculum&columnid=curriculum!bookshelf
+RewriteRule ^/issue/column.php http://beyondpenguins.ehe.osu.edu/learning-from-the-polar-past/learning-from-the-polar-past-virtual-bookshelf/? [R=permanent,L]
+
+RewriteRule ^/podcast/index.php http://beyondpenguins.ehe.osu.edu/podcasts/? [R=permanent,L]
+
+RewriteRule ^/browse/index.php http://beyondpenguins.ehe.osu.edu/browse-columns? [R=permanent,L]
+
+RewriteRule ^/archive.php http://beyondpenguins.ehe.osu.edu/archive/? [R=permanent,L]

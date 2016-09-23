@@ -1,0 +1,45 @@
+0    INFO  asn.AsnServlet  - Mar 26, 2008 6:30:24 PM MDT AsnServlet starting
+3346 INFO  asn.AsnServlet  - Mar 26, 2008 6:30:27 PM MDT AsnServlet completed.
+
+48756 INFO  action.AsnServiceAction  - processing GetStandard request
+48760 INFO  action.AsnServiceAction  - placing standard http://purl.org/ASN/resources/S10071BC into form
+48760 INFO  action.AsnServiceAction  - 	id: http://purl.org/ASN/resources/S10071BC
+48760 INFO  action.AsnServiceAction  - 	text1B (K-2) #3 Describing things as accurately as possible is important in science because it enables people to compare their observations with those of others.
+60219157 INFO  action.AsnServiceAction  - processing GetStandard request
+60344130 INFO  action.AsnServiceAction  - processing GetStandard request
+60344131 INFO  action.AsnServiceAction  - placing standard http://purl.org/ASN/resources/S103ECDA into form
+60344131 INFO  action.AsnServiceAction  - 	id: http://purl.org/ASN/resources/S103ECDA
+60344131 INFO  action.AsnServiceAction  - 	text6. evidence is used (for example: fossils, rock layers, ice
+cores, radiometric dating) to investigate how Earth
+has changed or remained constant over short and
+long periods of time (for example: Mount St. Helen’s'
+eruption, Pangaea, and geologic time)
+
+60365729 INFO  action.AsnServiceAction  - processing GetStandard request
+60365730 INFO  action.AsnServiceAction  - placing standard http://purl.org/ASN/resources/S103ECDA into form
+60365730 INFO  action.AsnServiceAction  - 	id: http://purl.org/ASN/resources/S103ECDA
+60365730 INFO  action.AsnServiceAction  - 	text6. evidence is used (for example: fossils, rock layers, ice
+cores, radiometric dating) to investigate how Earth
+has changed or remained constant over short and
+long periods of time (for example: Mount St. Helen’s'
+eruption, Pangaea, and geologic time)
+
+60398938 INFO  action.AsnServiceAction  - processing GetStandard request
+60398940 INFO  action.AsnServiceAction  - placing standard http://purl.org/ASN/resources/S103ECDA into form
+60398940 INFO  action.AsnServiceAction  - 	id: http://purl.org/ASN/resources/S103ECDA
+60398940 INFO  action.AsnServiceAction  - 	text6. evidence is used (for example: fossils, rock layers, ice
+cores, radiometric dating) to investigate how Earth
+has changed or remained constant over short and
+long periods of time (for example: Mount St. Helen’s'
+eruption, Pangaea, and geologic time)
+
+60435646 INFO  action.AsnServiceAction  - processing GetStandard request
+60435647 INFO  action.AsnServiceAction  - placing standard http://purl.org/ASN/resources/S103ECDA into form
+60435648 INFO  action.AsnServiceAction  - 	id: http://purl.org/ASN/resources/S103ECDA
+60435648 INFO  action.AsnServiceAction  - 	text6. evidence is used (for example: fossils, rock layers, ice
+cores, radiometric dating) to investigate how Earth
+has changed or remained constant over short and
+long periods of time (for example: Mount St. Helen’s'
+eruption, Pangaea, and geologic time)
+
+71924046 INFO  asn.AsnServlet  - destroy() ...

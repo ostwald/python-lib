@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nldr.library.ucar.edu/metadata/osm" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>OSM-000-000-000-001</recordID>
+    <recordDate>2010-06-03</recordDate>
+    <volume>234</volume>
+    <issue>4</issue>
+    <pages>1-99</pages>
+    <title type="Book review">My fine publication</title>
+    <description>i have a description AND an asset</description>
+    <abstract>i have an abstract</abstract>
+  </general>
+  <contributors>
+    <person role="Author">
+      <lastName>Smith</lastName>
+      <firstName>J</firstName>
+    </person>
+    <person role="Contributor" order="2">
+      <lastName>Jones</lastName>
+      <firstName>S</firstName>
+    </person>
+  </contributors>
+  <classify>
+    <language/>
+    <classification/>
+  </classify>
+  <rights>
+    <copyrightNotice type="" holder=""/>
+  </rights>
+  <resources>
+    <primaryAsset type="Is published" url="http://nldr.library.ucar.edu/collections/soars/2001_Kelly_Resa.pdf">
+      <title>primary asset #1</title>
+    </primaryAsset>
+    <primaryAsset type="Has image" url="http://foo.gif">
+      <title>primary Asset image</title>
+    </primaryAsset>
+    <otherAsset type="Has image" url="http://whatever.com">
+      <title>other asset #1</title>
+    </otherAsset>
+    <relation type="" description="here it is" url="http://google.com"/>
+  </resources>
+  <coverage>
+    <date type="Published">2010-01-01</date>
+  </coverage>
+</record>

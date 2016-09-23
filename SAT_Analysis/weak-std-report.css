@@ -1,0 +1,61 @@
+body, td {
+	font-size:10pt;
+	font-family:arial;
+}
+
+h1 {
+	text-align:center;
+	margin:0px;
+}
+
+h2 {
+	text-align:center;
+	margin:0px 0px 5px 0px;
+	font-style:italic;
+}
+
+.blurb {
+	text-align:center;
+	margin:0px 0px 15px 0px;
+	font-style:italic;
+}
+
+.nses-std-table, .state-std-table {
+	border-collapse:collapse;
+	border:thin blue solid;
+}
+
+.state-std-table {
+	margin-bottom:20px;
+}
+
+.id, .group, .relevance, .gradeLevel {
+	font-size:8pt;
+	text-align:center;
+	width:60px;
+}
+
+.benchmark {
+	width:40%;
+}
+
+.nses-std-table TH, .nses-std-table TD,
+.state-std-table TH, .state-std-table TD {
+	padding:3px;
+	border:1px blue solid;
+}
+
+TH  {
+	font-size:8pt;
+	text-align:center;
+	background-color:#dbdbe9;
+}
+
+.nses-std-table TH {
+	color:white;
+	background-color:#6a6a7a;
+}
+
+.nses-std-table TD {
+
+}

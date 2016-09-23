@@ -1,0 +1,420 @@
+Oct 10, 2007 11:03:23 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 10, 2007 11:03:23 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 11:03:24 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 11:03:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2377 ms
+Oct 10, 2007 11:03:24 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 10, 2007 11:03:24 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 10, 2007 11:03:24 AM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 10, 2007 11:03:26 AM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+Oct 10, 2007 11:03:27 AM org.apache.catalina.core.StandardContext processTlds
+SEVERE: Error reading tld listeners java.io.EOFException
+java.io.EOFException
+	at java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2228)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:2694)
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:761)
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:277)
+	at org.apache.catalina.startup.TldConfig.processCache(TldConfig.java:389)
+	at org.apache.catalina.startup.TldConfig.execute(TldConfig.java:290)
+	at org.apache.catalina.core.StandardContext.processTlds(StandardContext.java:4307)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4144)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 11:03:27 AM MDT NDRServlet starting
+Oct 10, 2007 11:03:27 AM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 11:03:27 AM MDT SetupServlet starting
+Oct 10, 2007 11:03:27 AM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 11:03:27 AM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 11:03:27 AM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 11:03:27 AM MDT SetupServlet completed.
+
+Oct 10, 2007 11:03:27 AM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 11:03:27 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 11:03:31 AM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 11:03:31 AM MDT Outputting debug info
+Oct 10, 2007 11:03:32 AM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 11:03:32 AM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 11:03:32 AM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 11:03:32 AM MDT Starting up RepositoryManager
+Oct 10, 2007 11:03:32 AM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 11:03:32 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Oct 10, 2007 11:03:33 AM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 11:03:33 AM MDT rm.init() successful...
+Oct 10, 2007 11:03:33 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 11:03:33 AM MDT DDSServlet started.
+
+
+Oct 10, 2007 11:03:33 AM MDT OAIProviderServlet starting
+Oct 10, 2007 11:03:33 AM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 11:03:33 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 11:03:33 AM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 10, 2007 11:03:33 AM MDT OAIProviderServlet initialized.
+Oct 10, 2007 11:03:35 AM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 1) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+"frameworkRegistry" initialized with 1 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+
+ ********* Servlet initialization error: null
+Oct 10, 2007 11:03:53 AM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 11:03:53 AM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 11:03:53 AM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+AccessManager: no guardedPath found for: /admin/admin
+AccessManager: no guardedPath found for: /admin/data-provider-info
+AccessManager: no guardedPath found for: /admin/editor_admin
+AccessManager: no guardedPath found for: /admin/oai/oaisearch
+AccessManager: no guardedPath found for: /admin/query
+AccessManager: no guardedPath found for: /admin/report
+AccessManager: no guardedPath found for: /admin/reporting/report
+AccessManager: no guardedPath found for: /admin/repository_info-validate
+AccessManager: no guardedPath found for: /admin/repository_info-view
+AccessManager: no guardedPath found for: /admin/roles/accessManager
+AccessManager: no guardedPath found for: /admin/update_repository_info
+AccessManager: no guardedPath found for: /browse/display
+AccessManager: no guardedPath found for: /browse/home
+AccessManager: no guardedPath found for: /browse/query
+AccessManager: no guardedPath found for: /browse/static
+AccessManager: no guardedPath found for: /browse/view
+AccessManager: no guardedPath found for: /dcs_data/dcs_data
+AccessManager: no guardedPath found for: /editor/collection_config
+AccessManager: no guardedPath found for: /editor/edit
+AccessManager: no guardedPath found for: /editor/framework_config
+AccessManager: no guardedPath found for: /logoff
+AccessManager: no guardedPath found for: /logon
+AccessManager: no guardedPath found for: /manage/collectionAccessManager
+AccessManager: no guardedPath found for: /manage/collections
+AccessManager: no guardedPath found for: /manage/sessions
+AccessManager: no guardedPath found for: /manage/userManager
+AccessManager: no guardedPath found for: /ndr/ndr
+AccessManager: no guardedPath found for: /oai2-0
+AccessManager: no guardedPath found for: /record_op/adn
+AccessManager: no guardedPath found for: /record_op/batch
+AccessManager: no guardedPath found for: /record_op/single
+AccessManager: no guardedPath found for: /record_op/status
+AccessManager: no guardedPath found for: /schema/schema
+AccessManager: no guardedPath found for: /services/dcsws1-0
+AccessManager: no guardedPath found for: /services/ddsws1-0
+AccessManager: no guardedPath found for: /services/ddsws1-1
+AccessManager: no guardedPath found for: /services/recommend
+AccessManager: no guardedPath found for: /user/userInfo
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 11:03:55 AM MDT SchemaViewerServlet starting
+Oct 10, 2007 11:03:55 AM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 11:03:56 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 11:03:56 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 11:03:56 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 10, 2007 11:03:56 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/89  config=null
+Oct 10, 2007 11:03:56 AM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 10, 2007 11:03:56 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 31925 ms
+Oct 10, 2007 11:19:07 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+destroy() ...
+java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.SchemEditServlet.destroy(SchemEditServlet.java:383)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1360)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1688)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4350)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3019)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+Oct 10, 2007 11:19:07 AM MDT SchemEditServlet stopped
+Oct 10, 2007 11:19:07 AM MDT NDRServlet: destroy() ...
+Oct 10, 2007 11:19:07 AM MDT NDRServlet stopped
+Oct 10, 2007 11:19:07 AM MDT SetupServlet: destroy() ...
+Oct 10, 2007 11:19:07 AM MDT SetupServlet stopped
+Oct 10, 2007 11:19:07 AM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 11:19:07 AM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 10, 2007 11:19:07 AM MDT MetadataVocabServlet stopped.
+java.io.InterruptedIOException: operation interrupted
+Oct 10, 2007 11:19:07 AM MDT RepositoryManager destroy()
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+Oct 10, 2007 11:19:07 AM MDT OAIProviderServlet stopped
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Oct 10, 2007 11:19:07 AM MDT RepositoryManager destroy()
+
+
+Oct 10, 2007 11:19:07 AM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 11:19:07 AM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 11:19:10 AM MDT NDRServlet starting
+Oct 10, 2007 11:19:10 AM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 11:19:10 AM MDT SetupServlet starting
+Oct 10, 2007 11:19:10 AM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 11:19:10 AM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 11:19:10 AM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 11:19:10 AM MDT SetupServlet completed.
+
+Oct 10, 2007 11:19:10 AM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 11:19:10 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 11:19:14 AM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 11:19:14 AM MDT Outputting debug info
+Oct 10, 2007 11:19:15 AM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 11:19:15 AM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 11:19:15 AM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 11:19:15 AM MDT Starting up RepositoryManager
+Oct 10, 2007 11:19:15 AM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 11:19:15 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Oct 10, 2007 11:19:15 AM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 11:19:15 AM MDT rm.init() successful...
+Oct 10, 2007 11:19:15 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 11:19:16 AM MDT DDSServlet started.
+
+
+Oct 10, 2007 11:19:16 AM MDT OAIProviderServlet starting
+Oct 10, 2007 11:19:16 AM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 11:19:16 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 11:19:16 AM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 10, 2007 11:19:17 AM MDT OAIProviderServlet initialized.
+Oct 10, 2007 11:19:21 AM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 1) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+"frameworkRegistry" initialized with 1 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+
+ ********* Servlet initialization error: null
+java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:167)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3025)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+Oct 10, 2007 11:19:36 AM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 11:19:36 AM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 11:19:36 AM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+AccessManager: no guardedPath found for: /admin/admin
+AccessManager: no guardedPath found for: /admin/data-provider-info
+AccessManager: no guardedPath found for: /admin/editor_admin
+AccessManager: no guardedPath found for: /admin/oai/oaisearch
+AccessManager: no guardedPath found for: /admin/query
+AccessManager: no guardedPath found for: /admin/report
+AccessManager: no guardedPath found for: /admin/reporting/report
+AccessManager: no guardedPath found for: /admin/repository_info-validate
+AccessManager: no guardedPath found for: /admin/repository_info-view
+AccessManager: no guardedPath found for: /admin/roles/accessManager
+AccessManager: no guardedPath found for: /admin/update_repository_info
+AccessManager: no guardedPath found for: /browse/display
+AccessManager: no guardedPath found for: /browse/home
+AccessManager: no guardedPath found for: /browse/query
+AccessManager: no guardedPath found for: /browse/static
+AccessManager: no guardedPath found for: /browse/view
+AccessManager: no guardedPath found for: /dcs_data/dcs_data
+AccessManager: no guardedPath found for: /editor/collection_config
+AccessManager: no guardedPath found for: /editor/edit
+AccessManager: no guardedPath found for: /editor/framework_config
+AccessManager: no guardedPath found for: /logoff
+AccessManager: no guardedPath found for: /logon
+AccessManager: no guardedPath found for: /manage/collectionAccessManager
+AccessManager: no guardedPath found for: /manage/collections
+AccessManager: no guardedPath found for: /manage/sessions
+AccessManager: no guardedPath found for: /manage/userManager
+AccessManager: no guardedPath found for: /ndr/ndr
+AccessManager: no guardedPath found for: /oai2-0
+AccessManager: no guardedPath found for: /record_op/adn
+AccessManager: no guardedPath found for: /record_op/batch
+AccessManager: no guardedPath found for: /record_op/single
+AccessManager: no guardedPath found for: /record_op/status
+AccessManager: no guardedPath found for: /schema/schema
+AccessManager: no guardedPath found for: /services/dcsws1-0
+AccessManager: no guardedPath found for: /services/ddsws1-0
+AccessManager: no guardedPath found for: /services/ddsws1-1
+AccessManager: no guardedPath found for: /services/recommend
+AccessManager: no guardedPath found for: /user/userInfo
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 11:19:38 AM MDT SchemaViewerServlet starting
+Oct 10, 2007 11:19:38 AM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 11:25:03 AM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 11:25:03 AM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 11:25:04 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.SchemEditServlet.destroy(SchemEditServlet.java:384)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1360)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1688)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4350)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+Oct 10, 2007 11:25:04 AM MDT SchemEditServlet stopped
+Oct 10, 2007 11:25:04 AM MDT NDRServlet: destroy() ...
+Oct 10, 2007 11:25:04 AM MDT NDRServlet stopped
+Oct 10, 2007 11:25:04 AM MDT SetupServlet: destroy() ...
+Oct 10, 2007 11:25:04 AM MDT SetupServlet stopped
+Oct 10, 2007 11:25:04 AM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 11:25:04 AM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 10, 2007 11:25:04 AM MDT MetadataVocabServlet stopped.
+java.io.InterruptedIOException: operation interrupted
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+Oct 10, 2007 11:25:04 AM MDT RepositoryManager destroy()
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Oct 10, 2007 11:25:04 AM MDT OAIProviderServlet stopped
+Oct 10, 2007 11:25:04 AM MDT RepositoryManager destroy()
+
+
+Oct 10, 2007 11:25:04 AM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 11:25:04 AM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Oct 10, 2007 11:25:04 AM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 11:25:04 AM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 11:25:04 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

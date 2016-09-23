@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<term xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/vocabs http://test.nldr.library.ucar.edu/metadata/vocabs/vocabs.xsd" xmlns="http://nldr.library.ucar.edu/metadata/vocabs" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<recordID/>
+	<recordsAffected/>
+	<action>
+		<keep/>
+	</action>
+</term>

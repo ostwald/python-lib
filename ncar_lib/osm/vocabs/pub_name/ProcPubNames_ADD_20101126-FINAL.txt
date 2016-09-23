@@ -1,0 +1,80 @@
+Correct	Incorrect	Add to	Notes	Original Order
+"14th Conference on Aviation, Range, and Aerospace Meteorology"	", 14th Conference on Aviation, Range and Aerospace Meteorology"			1
+"14th Conference on Aviation, Range, and Aerospace Meteorology"	". Liu, J. Knievel, and G. Y. Jumper. Estimates of Cn2 from numerical weather prediction model output. Proceedings of the 14th Conference on Aviation, Range, and Aerospace Meteorology"			2
+11th Annual WRF Users' Workshop	11th WRF User?s Workshop	OSGC-000-000-000-972	hand-searched	4
+"14th Conference on Aviation, Range, and Aerospace Meteorology"	"14th Conference on Aviation, Range and Aerospace Meteorology"			5
+"14th Conference on Aviation, Range, and Aerospace Meteorology"	"14th Symposium on Integrated Observing and Assimilation Systems for the Atmosphere, Oceans, and Land Surface"			7
+"14th Symposium on Integrated Observing and Assimilation Systems for the Atmosphere, Oceans and Land Surface (IOAS-AOLS)"	"14th Symposium on Integrated Observing and Assimilation Systems for the Atmosphere, Oceans, and Land Surface"			48
+"17th Conference on Air-Sea Interaction, 17th Conference on Satellite Meteorology and Oceanography, Ninth Conference on Coastal Atmospheric and Oceanic Prediction and Processes"	17th Conference on Satellite Meteorology and Oceanography			8
+29th Conference on Agricultural and Forest Meteorology 19th Symposium on Boundary Layers and Turbulence Ninth Symposium on the Urban Environment	19th Symposium on Boundary Layers and Turbulence			9
+U.S. EPA's 2010 National Air Quality Conference	"2010 National Air Quality Conferences: Air Quality Forecasting, Mapping, and Monitoring Communicating Air Quality"			10
+Memorie della Societa Astronomica Italiana	"25th NSO Workshop ""Chromospheric Structure and Dynamics. From Old Wisdom to New Insights"", Memorie della Societa' Astronomica Italiana"			46
+2nd AIAA Atmospheric and Space Environments Conference	2nd AIAA Atmospheric and Space Environment Conf			12
+2nd AIAA Atmospheric and Space Environments Conference	2nd AIAA Atmospheric and Space Environment Conf.			13
+Fifth International Symposium on Computational Wind Engineering	5th International Symposium on Computational Wind Engineering			14
+Ninth Conference on Artificial Intelligence and its Applications to the Environmental Sciences	8th Conference on Artificial Intelligence Applications to Environmental Science			15
+Ninth Conference on Artificial Intelligence and its Applications to the Environmental Sciences	8th Conference on Artificial Intelligence Applications to Environmental Science A Probabilistic Global Turbulence Nowcast and Forecast System			16
+"2010 Ninth International Symposium on Distributed Computing and Applications to Business, Engineering and Science"	"9th International Symposium on Distributed Computing and Applications to Business, Engineeering and Science (DCABES)"			17
+215th American Astronomical Society Meeting	"AAS Meeting #215, #424.15; Bulletin of the American Astronomical Society"			18
+215th American Astronomical Society Meeting	"American Astronomical Society, AAS Meeting #215"			19
+216th American Astronomical Society Meeting	"American Astronomical Society, AAS Meeting #216"			20
+Fifth International Symposium on Computational Wind Engineering	Computational Wind Engineering			21
+EGU General Assembly 2010	EGU-2010 Assembly			22
+HDF and HDF-EOS Workshop XIV	HDFEOS Workshop XIV		added 11/26 per jamaica	
+IAU Symposium 271: Astrophysical Dynamics - from Stars to Galaxies	"Proc. IAU Symposium 271, ""Astrophysical Dynamics, from Stars to Galaxies"	OSGC-000-000-000-790	hand-searched	23
+Memorie della Societa Astronomica Italiana	Proceedings article for NSO Workshop #25			25
+Memorie della Societa Astronomica Italiana	"Proceedings article for NSO Workshop #25 ""Chromospheric Structure and Dynamics"	OSGC-000-000-000-771	hand-searched	24
+11th LCI International Conference on High-Performance Clustered Computing	Proceedings of the 11th LCI International Conference on High- Performance Clustered Computing			26
+GCE '09 Proceedings of the 5th Grid Computing Environments Workshop 	Proceedings of the 5th Grid Computing Environments Workshop			47
+90th American Meteorological Society Annual Meeting	Proceedings of the 90th AMS Annual Meeting/14th IOAS-AOLS	"OSGC-000-000-001-276
+OSGC-000-000-001-262
+OSGC-000-000-001-261"		27
+BACIMO Conference 2010	Proceedings of the BACIMO Conference			28
+BACIMO Conference 2010	Proceedings of the BACIMO conference			29
+4th HELAS International Conference	Proceedings of the Fourth HELAS International Conference			30
+4th HELAS International Conference	Proceedings of the HELAS IV International Conference			31
+4th HELAS International Conference	Proceedings of the HELAS IV meeting			32
+4th HELAS International Conference	Proceedings of the HELAS-IV International Conference			33
+Quality and Reliability of Large-Eddy Simulations II	Proceedings of the Quality and Reliability of Large-Eddy Simulations II 2009 Workshop			34
+Proceedings of SPIE: Software and Cyberinfrastructure for Astronomy	"Proceedings of the SPIE, Software and Cyberinfrastructure for Astronomy"			35
+National Radio Science Meeting	Proceedings of the URSI National Radio Science Meeting	OSGC-000-000-001-273		36
+Proceedings of the National Technical Meeting	Proceeings of the 2009 National Technical Meeting of the Institute of Navigation			45
+SOHO-23: Understanding a Peculiar Solar Minimum	SOHO-23: Understanding a Peculiar Solar Minimum ASP Conference Series			37
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21	"Solar and Stellar Variability: Impact on Earth and Planets, Proceedings of the International Astronomical Union, IAU Symposium"			38
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21	Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21 ASP Conference Series			39
+Memorie della Societa Astronomica Italiana	The Proceedings of the 25th NSO Workshop on Chromospheric Structure and Dynamics			40
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding	THE SECOND HINODE SCIENCE MEETING ASP Conference Series			41
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding	The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding ASP Conference Series			42
+Twelfth International Solar Wind Conference	"Twelfth International Solar Wind Conference, AIP"			43
+Twelfth International Solar Wind Conference	"Twelfth International Solar Wind Conference, AIP Conference Proceedings"			44
+"American Geophysical Union, Fall Meeting 2009"		OSGC-000-000-001-272		49
+29th Conference on Hurricanes and Tropical Meteorology				51
+4th Federal Interagency Hydrologic Modeling Conference				
+Proceedings of the 5th Grid Computing Environments Workshop				
+Proceedings of SPIE				
+29th Conference on Agricultural and Forest Meteorology 19th Symposium on Boundary Layers and Turbulence Ninth Symposium on the Urban Environment		"OSGC-000-000-001-250
+OSGC-000-000-001-267"		
+34th Conference on Radar Meteorology		"OSGC-000-000-001-275
+OSGC-000-000-001-274
+OSGC-000-000-001-270
+OSGC-000-000-001-269
+OSGC-000-000-001-207
+OSGC-000-000-001-245
+OSGC-000-000-001-249
+OSGC-000-000-001-242
+OSGC-000-000-001-243
+OSGC-000-000-001-251     "		
+15th Conference on Applied Climatology/13th Symposium on Meteorological Observations and Instrumentation		"OSGC-000-000-001-264
+OSGC-000-000-001-241 "		
+"8th International Symposium on Tropospheric Profiling: Integration of Needs, Technologies and Applications"		"OSGC-000-000-001-268
+OSGC-000-000-001-266
+OSGC-000-000-001-265
+OSGC-000-000-001-240 "		
+6th European Conference on Radar in Meteorology and Hydrology		"OSGC-000-000-001-263
+OSGC-000-000-001-247"		
+2nd SoWMEX/TiMREX Science Workshop		"OSGC-000-000-001-260
+OSGC-000-000-001-259"		
+LACSEA 2009 Eleventh Topical Meeting		OSGC-000-000-001-244		
+25th International Laser Radar Conference		OSGC-000-000-001-239		
+5th European Conference on Severe Storms		OSGC-000-000-001-248		
+Optical Turbulence: Astronomy Meets Meteorology				

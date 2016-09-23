@@ -1,0 +1,7 @@
+alias d 'python changedRecordDiffs.py'
+alias t 'python fieldValueTally.py'
+alias m 'python massagingProcessor.py'
+alias r 'python reporter.py'
+alias mrt 'python massagedRecordsTally.py'
+alias an 'python accessionNumMappings.py'
+

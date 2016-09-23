@@ -1,0 +1,1060 @@
+Oct 10, 2007 1:11:17 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 10, 2007 1:11:17 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 1:11:18 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 1:11:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2087 ms
+Oct 10, 2007 1:11:19 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 10, 2007 1:11:19 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 10, 2007 1:11:19 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 10, 2007 1:11:20 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 1:11:21 PM MDT NDRServlet starting
+Oct 10, 2007 1:11:21 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 1:11:21 PM MDT SetupServlet starting
+Oct 10, 2007 1:11:21 PM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 1:11:21 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 1:11:21 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 1:11:21 PM MDT SetupServlet completed.
+
+Oct 10, 2007 1:11:21 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 1:11:21 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 1:11:25 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 1:11:25 PM MDT Outputting debug info
+Oct 10, 2007 1:11:25 PM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 1:11:25 PM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 1:11:25 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 1:11:25 PM MDT Starting up RepositoryManager
+Oct 10, 2007 1:11:25 PM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 1:11:25 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Oct 10, 2007 1:11:26 PM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 1:11:26 PM MDT rm.init() successful...
+Oct 10, 2007 1:11:26 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 1:11:26 PM MDT DDSServlet started.
+
+
+Oct 10, 2007 1:11:26 PM MDT OAIProviderServlet starting
+Oct 10, 2007 1:11:26 PM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 1:11:26 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 1:11:26 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 10, 2007 1:11:26 PM MDT OAIProviderServlet initialized.
+Oct 10, 2007 1:11:26 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (8 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+java.lang.NullPointerException
+	at org.dlese.dpc.xml.schema.ComplexType.<init>(ComplexType.java:66)
+	at org.dlese.dpc.xml.schema.SchemaReader.getTypeDefs(SchemaReader.java:366)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:205)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.<init>(DefinitionMiner.java:97)
+	at org.dlese.dpc.xml.schema.SchemaHelper.init(SchemaHelper.java:156)
+	at org.dlese.dpc.xml.schema.SchemaHelper.<init>(SchemaHelper.java:142)
+	at org.dlese.dpc.schemedit.MetaDataFramework.loadSchemaHelper(MetaDataFramework.java:451)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.load(FrameworkRegistry.java:121)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.<init>(FrameworkRegistry.java:84)
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:127)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+NewFieldInfoMap: FieldInfoMap initialized - 6 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /prod/tools/dlesetest/devel/dcs/exported
+Oct 10, 2007 1:12:01 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry: initializeIDGenerators WARNING: collectionConfig not found for collect
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+initialized repositoryService
+Oct 10, 2007 1:12:05 PM MDT SchemEditServlet initialized.
+
+Oct 10, 2007 1:12:05 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 1:12:05 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 1:12:05 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+
+AccessManager: config document: 
+<struts-config>
+  <form-beans>
+    <form-bean name="sef" type="org.dlese.dpc.schemedit.action.form.SchemEditForm"/>
+    <form-bean name="svf" type="org.dlese.dpc.xml.schema.action.form.SchemaViewerForm"/>
+    <form-bean name="adminForm" type="org.dlese.dpc.schemedit.action.form.SchemEditAdminForm"/>
+    <form-bean name="browseForm" type="org.dlese.dpc.schemedit.action.form.DCSBrowseForm"/>
+    <form-bean name="csForm" type="org.dlese.dpc.schemedit.action.form.CollectionServicesForm"/>
+    <form-bean name="carForm" type="org.dlese.dpc.schemedit.action.form.CreateADNRecordForm"/>
+    <form-bean name="sessionsForm" type="org.dlese.dpc.schemedit.action.form.SessionsForm"/>
+    <form-bean name="srForm" type="org.dlese.dpc.schemedit.action.form.StaticRecordForm"/>
+    <form-bean name="queryForm" type="org.dlese.dpc.schemedit.action.form.DCSQueryForm"/>
+    <form-bean name="reportForm" type="org.dlese.dpc.dds.action.form.DDSAdminQueryForm"/>
+    <form-bean name="def" type="org.dlese.dpc.dds.action.form.DDSEditRecordForm"/>
+    <form-bean name="daf" type="org.dlese.dpc.schemedit.action.form.DCSAdminForm"/>
+    <form-bean name="drf" type="org.dlese.dpc.dds.action.form.DDSReportingForm"/>
+    <form-bean name="raf" type="org.dlese.dpc.repository.action.form.RepositoryAdminForm"/>
+    <form-bean name="rf" type="org.dlese.dpc.repository.action.form.RepositoryForm"/>
+    <form-bean name="repositoryInfoForm" type="org.dlese.dpc.repository.action.form.RepositoryInfoForm"/>
+    <form-bean name="opsf" type="org.dlese.dpc.oai.provider.action.form.OaiPmhSearchForm"/>
+    <form-bean name="df" type="org.dlese.dpc.services.dds.action.form.DDSServicesForm"/>
+    <form-bean name="df11" type="org.dlese.dpc.services.dds.action.form.DDSServicesForm_1_1"/>
+    <form-bean name="dcssf" type="org.dlese.dpc.services.dcs.action.form.DCSServicesForm"/>
+    <form-bean name="recForm" type="org.dlese.dpc.services.dcs.action.form.RecommenderForm"/>
+    <form-bean name="statusForm" type="org.dlese.dpc.schemedit.action.form.StatusForm"/>
+    <form-bean name="viewForm" type="org.dlese.dpc.schemedit.action.form.DCSViewForm"/>
+    <form-bean name="bof" type="org.dlese.dpc.schemedit.action.form.BatchOperationsForm"/>
+    <form-bean name="rof" type="org.dlese.dpc.schemedit.action.form.RecordOperationsForm"/>
+    <form-bean name="ndrForm" type="org.dlese.dpc.schemedit.ndr.action.form.NDRForm"/>
+    <form-bean name="logonForm" type="org.dlese.dpc.schemedit.security.action.form.LogonForm"/>
+    <form-bean name="amForm" type="org.dlese.dpc.schemedit.security.action.form.AccessManagerForm"/>
+    <form-bean name="umForm" type="org.dlese.dpc.schemedit.security.action.form.UserManagerForm"/>
+    <form-bean name="caForm" type="org.dlese.dpc.schemedit.security.action.form.CollectionAccessForm"/>
+    <form-bean name="userForm" type="org.dlese.dpc.schemedit.security.action.form.UserInfoForm"/>
+  </form-beans>
+  <global-forwards>
+    <forward name="welcome_reporting" path="/admin/reporting/report.do"/>
+    <forward name="best.practices" path="/lib/best_practices.jsp"/>
+    <forward name="dcsData" path="/lib/dcs-data.jsp"/>
+    <forward name="view.xml" path="/lib/view-xml.jsp"/>
+    <forward name="browse.query" path="/browse/searching/search.jsp"/>
+    <forward name="error.page" path="/error.jsp"/>
+    <forward name="update.repository.info" path="/admin/oai/repository_info_form.jsp"/>
+    <forward name="success" path="/browse/home.do" redirect="true"/>
+    <forward name="logoff" path="/logoff.do"/>
+    <forward name="logon" path="/logon.jsp"/>
+  </global-forwards>
+  <action-mappings>
+    <action path="/browse/home" type="org.dlese.dpc.schemedit.action.DCSBrowseAction" scope="session" name="browseForm">
+      <forward name="browse.home" path="/browse/home.jsp"/>
+    </action>
+    <action path="/browse/query" type="org.dlese.dpc.schemedit.action.DCSQueryAction" scope="session" name="queryForm"/>
+    <action path="/browse/view" type="org.dlese.dpc.schemedit.action.DCSViewAction" scope="session" name="viewForm" validate="true" input="/browse/viewing/full_view.jsp">
+      <forward name="view.record" path="/browse/viewing/full_view.jsp"/>
+      <forward name="collection.config.display" path="/admin/config/view_collection_config.jsp"/>
+    </action>
+    <action path="/browse/view" type="org.dlese.dpc.schemedit.action.DCSViewAction" scope="session" name="viewForm" validate="true" input="/browse/viewing/full_view.jsp">
+      <forward name="view.record" path="/browse/viewing/full_view.jsp"/>
+      <forward name="collection.config.display" path="/admin/config/view_collection_config.jsp"/>
+    </action>
+    <action path="/browse/static" type="org.dlese.dpc.schemedit.action.StaticRecordAction" scope="session" name="srForm">
+      <forward name="static.record" path="/browse/static/static-record.jsp"/>
+    </action>
+    <action path="/record_op/status" type="org.dlese.dpc.schemedit.action.StatusAction" name="statusForm" scope="session" validate="true" input="/record_op/edit_status.jsp">
+      <forward name="edit.status" path="/record_op/edit_status.jsp"/>
+    </action>
+    <action path="/record_op/single" type="org.dlese.dpc.schemedit.action.RecordOperationsAction" scope="session" name="rof">
+      <forward name="move.record" path="/record_op/move_record.jsp"/>
+    </action>
+    <action path="/record_op/adn" type="org.dlese.dpc.schemedit.action.CreateADNRecordAction" name="carForm" scope="session" validate="false" input="/record_op/create_adn.jsp">
+      <forward name="adn.create" path="/record_op/create_adn.jsp"/>
+      <forward name="browse.home" path="/browse/home.do"/>
+      <forward name="adn.confirm" path="/record_op/create_adn_confirm.jsp"/>
+    </action>
+    <action path="/record_op/batch" type="org.dlese.dpc.schemedit.action.BatchOperationsAction" scope="session" name="bof">
+      <forward name="batch.move.records" path="/record_op/batch_move_records.jsp"/>
+      <forward name="batch.delete.records" path="/record_op/batch_delete_records.jsp"/>
+      <forward name="batch.status.change" path="/record_op/batch_status_change.jsp"/>
+    </action>
+    <action path="/dcs_data/dcs_data" type="org.dlese.dpc.schemedit.action.DcsDataAction" scope="session" name="sef" validate="true" input="/dcs_data/editorMaster.jsp">
+      <forward name="dcs_data.index" path="/dcs_data/dcsdata-index.jsp"/>
+      <forward name="editor" path="/dcs_data/editorMaster.jsp"/>
+    </action>
+    <action path="/admin/editor_admin" type="org.dlese.dpc.schemedit.action.SchemEditAdminAction" scope="session" name="adminForm" validate="true" input="/admin/editing/editor-admin.jsp">
+      <forward name="admin" path="/admin/editing/editor-admin.jsp"/>
+    </action>
+    <action path="/editor/edit" type="org.dlese.dpc.schemedit.action.DCSSchemEditAction" scope="session" name="sef" validate="true" input="/edit/editorMaster.jsp">
+      <forward name="editor" path="/editor/editorMaster.jsp"/>
+    </action>
+    <action path="/schema/schema" type="org.dlese.dpc.xml.schema.action.SchemaViewerAction" scope="session" name="svf" validate="false">
+      <forward name="schema.index" path="/schema/schema-index.jsp"/>
+      <forward name="schema.report" path="/schema/report.jsp"/>
+    </action>
+    <action path="/editor/framework_config" type="org.dlese.dpc.schemedit.action.FrameworkConfigAction" scope="session" name="sef" validate="true" input="/editor/framework_config/editorMaster.jsp">
+      <forward name="framework_config.index" path="/editor/framework_config/framework-config-index.jsp"/>
+      <forward name="editor" path="/editor/framework_config/editorMaster.jsp"/>
+    </action>
+    <action path="/editor/collection_config" type="org.dlese.dpc.schemedit.action.CollectionConfigAction" scope="session" name="sef" validate="true" input="/editor/collection_config/editorMaster.jsp">
+      <forward name="collection_config.index" path="/admin/admin.do?page=collections"/>
+      <forward name="collection.settings" path="/admin/admin.do?page=collections" redirect="true"/>
+      <forward name="editor" path="/editor/collection_config/editorMaster.jsp"/>
+    </action>
+    <action path="/admin/admin" type="org.dlese.dpc.schemedit.action.DCSAdminAction" scope="session" name="daf" validate="true" input="/admin/edit_collections_settings.jsp">
+      <forward name="dcs.admin.settings" path="/admin/admin_settings.jsp"/>
+      <forward name="edit.repository.settings" path="/admin/edit_collections_settings.jsp"/>
+      <forward name="collection.settings" path="/admin/config/collection_settings.jsp"/>
+      <forward name="editors.settings" path="/admin/config/editors_settings.jsp"/>
+      <forward name="services.settings" path="/admin/config/services_settings.jsp"/>
+      <forward name="index.settings" path="/admin/config/index_settings.jsp"/>
+      <forward name="access.settings" path="/admin/config/access_settings.jsp"/>
+      <forward name="debug" path="/admin/config/debug.jsp"/>
+    </action>
+    <action path="/admin/reporting/report" type="org.dlese.dpc.dds.action.DDSReportingAction" name="drf" scope="session" validate="false">
+      <forward name="ddsreporting.termcount" path="/admin/reporting/TermCount.jsp"/>
+      <forward name="ddsreporting.viewstems" path="/admin/reporting/ViewStems.jsp"/>
+      <forward name="ddsreporting.index" path="/admin/reporting/index_page.jsp"/>
+      <forward name="ddsreporting.putrecord" path="/admin/reporting/PutRecord.jsp"/>
+    </action>
+    <action path="/admin/query" type="org.dlese.dpc.schemedit.action.DCSQueryAction" scope="session" name="queryForm" validate="true" input="/admin/searching/search.jsp">
+      <forward name="simple.query" path="/admin/searching/search.jsp"/>
+    </action>
+    <action path="/admin/report" type="org.dlese.dpc.dds.action.DDSAdminQueryAction" scope="request" name="reportForm" validate="true" input="/admin/searching/search.jsp">
+      <forward name="report.query" path="/admin/reports.jsp"/>
+      <forward name="weblogreport.query" path="/admin/reports.jsp"/>
+    </action>
+    <action path="/manage/collections" type="org.dlese.dpc.schemedit.action.CollectionServicesAction" name="csForm" scope="session" validate="false" input="/admin/create_collection.jsp">
+      <forward name="create.collection.input" path="/manage/create_collection.jsp"/>
+      <forward name="manage.collections" path="/manage/manage_collections.jsp"/>
+      <forward name="confirm.page" path="/manage/create_collection_confirm.jsp"/>
+      <forward name="export.collection" path="/manage/export_collection.jsp"/>
+      <forward name="export.reports" path="/manage/export_reports.jsp"/>
+      <forward name="validate.collection" path="/manage/validate_collection.jsp"/>
+      <forward name="validation.reports" path="/manage/validation_reports.jsp"/>
+    </action>
+    <action path="/manage/userManager" type="org.dlese.dpc.schemedit.security.action.UserManagerAction" name="umForm" scope="request" validate="true" input="/manage/access/manage-users.jsp">
+      <forward name="manage.users" path="/manage/access/manage-users.jsp"/>
+      <forward name="user.access" path="/manage/access/user-access.jsp"/>
+    </action>
+    <action path="/manage/collectionAccessManager" type="org.dlese.dpc.schemedit.security.action.CollectionAccessAction" name="caForm" scope="request" validate="false">
+      <forward name="collection.access" path="/manage/access/collection-access.jsp"/>
+      <forward name="edit.collection.access" path="/manage/access/edit-collection-access.jsp"/>
+    </action>
+    <action path="/manage/sessions" type="org.dlese.dpc.schemedit.action.SessionsAction" name="sessionsForm" scope="request" validate="false">
+      <forward name="manage.sessions" path="/manage/sessions.jsp"/>
+    </action>
+    <action path="/services/ddsws1-0" type="org.dlese.dpc.services.dds.action.DDSServicesAction" name="df" scope="request" validate="false">
+      <forward name="ddsservices.UrlCheck" path="/services/ddsws1-0/UrlCheck.jsp"/>
+      <forward name="ddsservices.GetRecord" path="/services/ddsws1-0/GetRecord.jsp"/>
+      <forward name="ddsservices.Search" path="/services/ddsws1-0/Search.jsp"/>
+      <forward name="ddsservices.ListXmlFormats" path="/services/ddsws1-0/ListXmlFormats.jsp"/>
+      <forward name="ddsservices.ListCollections" path="/services/ddsws1-0/ListCollections.jsp"/>
+      <forward name="ddsservices.ListVocabEntries" path="/services/ddsws1-0/ListVocabEntries.jsp"/>
+      <forward name="ddsservices.ServiceInfo" path="/services/ddsws1-0/ServiceInfo.jsp"/>
+      <forward name="ddsservices.error" path="/services/ddsws1-0/errors.jsp"/>
+      <forward name="ddsservices.disabled" path="/services/ddsws1-0/disabled.jsp"/>
+    </action>
+    <action path="/services/ddsws1-1" type="org.dlese.dpc.services.dds.action.DDSServicesAction_1_1" name="df11" scope="request" validate="false">
+      <forward name="ddsservices.UrlCheck" path="/services/ddsws1-1/UrlCheck.jsp"/>
+      <forward name="ddsservices.GetRecord" path="/services/ddsws1-1/GetRecord.jsp"/>
+      <forward name="ddsservices.Search" path="/services/ddsws1-1/Search.jsp"/>
+      <forward name="ddsservices.ListXmlFormats" path="/services/ddsws1-1/ListXmlFormats.jsp"/>
+      <forward name="ddsservices.ListCollections" path="/services/ddsws1-1/ListCollections.jsp"/>
+      <forward name="ddsservices.ListVocabEntries" path="/services/ddsws1-1/ListVocabEntries.jsp"/>
+      <forward name="ddsservices.ServiceInfo" path="/services/ddsws1-1/ServiceInfo.jsp"/>
+      <forward name="ddsservices.error" path="/services/ddsws1-1/errors.jsp"/>
+      <forward name="ddsservices.disabled" path="/services/ddsws1-1/disabled.jsp"/>
+    </action>
+    <action path="/services/dcsws1-0" type="org.dlese.dpc.services.dcs.action.DCSServicesAction" name="dcssf" scope="request" validate="false">
+      <forward name="dcsservices.GetId" path="/services/dcsws1-0/GetId.jsp"/>
+      <forward name="dcsservices.PutRecord" path="/services/dcsws1-0/PutRecord.jsp"/>
+      <forward name="dcsservices.UrlCheck" path="/services/dcsws1-0/UrlCheck.jsp"/>
+      <forward name="dcsservices.ExportCollection" path="/services/dcsws1-0/ExportCollection.jsp"/>
+      <forward name="dcsservices.error" path="/services/dcsws1-0/errors.jsp"/>
+      <forward name="dcsservices.disabled" path="/services/dcsws1-0/disabled.jsp"/>
+    </action>
+    <action path="/services/recommend" type="org.dlese.dpc.services.dcs.action.RecommenderAction" name="recForm" scope="request" validate="false">
+      <forward name="dcsservices.RecommendResource" path="/services/recommend/RecommendResource.jsp"/>
+      <forward name="dcsservices.RecommendCollection" path="/services/recommend/RecommendCollection.jsp"/>
+      <forward name="dcsservices.error" path="/services/recommend/errors.jsp"/>
+      <forward name="dcsservices.disabled" path="/services/recommend/disabled.jsp"/>
+    </action>
+    <action path="/oai2-0" type="org.dlese.dpc.repository.action.RepositoryAction" name="rf" scope="request" validate="false">
+      <forward name="oaipmh.Identify" path="/services/oai2-0/Identify.jsp"/>
+      <forward name="oaipmh.ListSets" path="/services/oai2-0/ListSets.jsp"/>
+      <forward name="oaipmh.ListIdentifiers" path="/services/oai2-0/ListIdentifiers.jsp"/>
+      <forward name="oaipmh.ListMetadataFormats" path="/services/oai2-0/ListMetadataFormats.jsp"/>
+      <forward name="oaipmh.ListRecords" path="/services/oai2-0/ListRecords.jsp"/>
+      <forward name="oaipmh.GetRecord" path="/services/oai2-0/GetRecord.jsp"/>
+      <forward name="oaipmh.error" path="/services/oai2-0/errors.jsp"/>
+      <forward name="oaipmh.disabled" path="/services/oai2-0/disabled.jsp"/>
+      <forward name="error.500" path="/WEB-INF/error_pages/error_page_500.jsp"/>
+    </action>
+    <action path="/admin/data-provider-info" type="org.dlese.dpc.repository.action.RepositoryAdminAction" scope="request" name="raf" validate="true" input="edit.repository.settings">
+      <forward name="display.repository.settings" path="/admin/oai/repository_administration.jsp"/>
+      <forward name="edit.repository.settings" path="/admin/oai/response_length_form.jsp"/>
+    </action>
+    <action path="/admin/repository_info-view" forward="/admin/oai/repository_info_form.jsp"/>
+    <action path="/admin/update_repository_info" forward="/admin/data-provider-info.do"/>
+    <action path="/admin/repository_info-validate" type="org.apache.struts.actions.ForwardAction" name="repositoryInfoForm" scope="request" parameter="/admin/data-provider-info.do" validate="true" input="input">
+      <forward name="input" path="/admin/repository_info-view.do"/>
+    </action>
+    <action path="/admin/oai/oaisearch" type="org.dlese.dpc.oai.provider.action.OaiPmhSearchAction" scope="session" name="opsf" validate="true" input="/admin/oai/oai_explorer.jsp">
+      <forward name="oaipmh.search" path="/admin/oai/oai_explorer.jsp"/>
+    </action>
+    <action path="/admin/roles/accessManager" type="org.dlese.dpc.schemedit.security.action.AccessManagerAction" name="amForm" scope="request" validate="false">
+      <forward name="edit.access" path="/admin/roles/edit-access.jsp"/>
+    </action>
+    <action path="/user/userInfo" type="org.dlese.dpc.schemedit.security.action.UserInfoAction" name="userForm" scope="request" input="/user/edit-user.jsp">
+      <forward name="edit-user" path="/user/edit-user.jsp"/>
+    </action>
+    <action path="/logoff" type="org.dlese.dpc.schemedit.security.action.LogoffAction">
+      <forward name="success" path="/index.jsp"/>
+    </action>
+    <action path="/logon" type="org.dlese.dpc.schemedit.security.action.LogonAction" name="logonForm" scope="request" input="/logon.jsp"/>
+    <action path="/ndr/ndr" type="org.dlese.dpc.schemedit.ndr.action.NDRAction" scope="session" name="ndrForm" validate="false">
+      <forward name="collections.home" path="/browse/home.do"/>
+      <forward name="ndr.confirm.load" path="/ndr/load_collection_confirm.jsp"/>
+      <forward name="ndr.report" path="/ndr/export_report.jsp"/>
+      <forward name="ndr.sync.report" path="/ndr/sync_report.jsp"/>
+      <forward name="proxy.response" path="/ndr/proxy_response.jsp"/>
+      <forward name="ndr.explorer" path="/ndr/ndr_explorer.jsp"/>
+      <forward name="sat.explorer" path="/ndr/sat_explorer.jsp"/>
+      <forward name="ndr.manage" path="/ndr/manage_ndr_collections.jsp"/>
+      <forward name="ndr.browse" path="/ndr/browse_ndr_collections.jsp"/>
+    </action>
+  </action-mappings>
+  <controller maxFileSize="2M" processorClass="org.dlese.dpc.schemedit.RequestProcessor"/>
+  <message-resources null="false" parameter="ApplicationResources"/>
+  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+    <set-property property="pathnames" value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+    <set-property property="stopOnFirstError" value="true"/>
+  </plug-in>
+</struts-config>
+
+AccessManager: configureGuardedPaths()
+AccessManager: 	 processing 0 guardedPathNodes
+AccessManager: alignActionsToGuardedPaths
+
+AccessManager:  matchGuardedPath with path: "/admin/admin.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/admin
+
+AccessManager:  matchGuardedPath with path: "/admin/data-provider-info.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/data-provider-info
+
+AccessManager:  matchGuardedPath with path: "/admin/editor_admin.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/editor_admin
+
+AccessManager:  matchGuardedPath with path: "/admin/oai/oaisearch.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/oai/oaisearch
+
+AccessManager:  matchGuardedPath with path: "/admin/query.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/query
+
+AccessManager:  matchGuardedPath with path: "/admin/report.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/report
+
+AccessManager:  matchGuardedPath with path: "/admin/reporting/report.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/reporting/report
+
+AccessManager:  matchGuardedPath with path: "/admin/repository_info-validate.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/repository_info-validate
+
+AccessManager:  matchGuardedPath with path: "/admin/repository_info-view.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/repository_info-view
+
+AccessManager:  matchGuardedPath with path: "/admin/roles/accessManager.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/roles/accessManager
+
+AccessManager:  matchGuardedPath with path: "/admin/update_repository_info.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /admin/update_repository_info
+
+AccessManager:  matchGuardedPath with path: "/browse/display.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /browse/display
+
+AccessManager:  matchGuardedPath with path: "/browse/home.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /browse/home
+
+AccessManager:  matchGuardedPath with path: "/browse/query.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /browse/query
+
+AccessManager:  matchGuardedPath with path: "/browse/static.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /browse/static
+
+AccessManager:  matchGuardedPath with path: "/browse/view.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /browse/view
+
+AccessManager:  matchGuardedPath with path: "/dcs_data/dcs_data.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /dcs_data/dcs_data
+
+AccessManager:  matchGuardedPath with path: "/editor/collection_config.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /editor/collection_config
+
+AccessManager:  matchGuardedPath with path: "/editor/edit.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /editor/edit
+
+AccessManager:  matchGuardedPath with path: "/editor/framework_config.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /editor/framework_config
+
+AccessManager:  matchGuardedPath with path: "/logoff.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /logoff
+
+AccessManager:  matchGuardedPath with path: "/logon.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /logon
+
+AccessManager:  matchGuardedPath with path: "/manage/collectionAccessManager.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /manage/collectionAccessManager
+
+AccessManager:  matchGuardedPath with path: "/manage/collections.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /manage/collections
+
+AccessManager:  matchGuardedPath with path: "/manage/sessions.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /manage/sessions
+
+AccessManager:  matchGuardedPath with path: "/manage/userManager.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /manage/userManager
+
+AccessManager:  matchGuardedPath with path: "/ndr/ndr.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /ndr/ndr
+
+AccessManager:  matchGuardedPath with path: "/oai2-0.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /oai2-0
+
+AccessManager:  matchGuardedPath with path: "/record_op/adn.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /record_op/adn
+
+AccessManager:  matchGuardedPath with path: "/record_op/batch.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /record_op/batch
+
+AccessManager:  matchGuardedPath with path: "/record_op/single.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /record_op/single
+
+AccessManager:  matchGuardedPath with path: "/record_op/status.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /record_op/status
+
+AccessManager:  matchGuardedPath with path: "/schema/schema.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /schema/schema
+
+AccessManager:  matchGuardedPath with path: "/services/dcsws1-0.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /services/dcsws1-0
+
+AccessManager:  matchGuardedPath with path: "/services/ddsws1-0.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /services/ddsws1-0
+
+AccessManager:  matchGuardedPath with path: "/services/ddsws1-1.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /services/ddsws1-1
+
+AccessManager:  matchGuardedPath with path: "/services/recommend.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /services/recommend
+
+AccessManager:  matchGuardedPath with path: "/user/userInfo.do"
+AccessManager:  found 0 matches
+
+AccessManager: bestMatch
+AccessManager: 	 returning null
+AccessManager: no guardedPath found for: /user/userInfo
+AccessManager: alignActionsToGuardedPaths
+
+AccessManager:  matchGuardedPath with path: "/admin/admin.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/data-provider-info.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/editor_admin.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/oai/oaisearch.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/query.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/report.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/reporting/report.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/repository_info-validate.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/repository_info-view.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/roles/accessManager.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/admin/update_repository_info.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/browse/display.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/browse/home.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/browse/query.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/browse/static.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/browse/view.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/dcs_data/dcs_data.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/editor/collection_config.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/editor/edit.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/editor/framework_config.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/logoff.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/logon.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/manage/collectionAccessManager.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/manage/collections.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/manage/sessions.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/manage/userManager.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/ndr/ndr.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/oai2-0.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/record_op/adn.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/record_op/batch.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/record_op/single.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/record_op/status.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/schema/schema.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/services/dcsws1-0.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/services/ddsws1-0.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/services/ddsws1-1.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/services/recommend.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+
+AccessManager:  matchGuardedPath with path: "/user/userInfo.do"
+AccessManager: 	 a candidate!
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@53c0d
+AccessManager: accessManager intitialized
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 1:12:06 PM MDT SchemaViewerServlet starting
+Oct 10, 2007 1:12:06 PM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 1:12:06 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 1:12:07 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 1:12:07 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 10, 2007 1:12:07 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/36  config=null
+Oct 10, 2007 1:12:07 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 10, 2007 1:12:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 48567 ms
+Oct 10, 2007 1:17:29 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 1:17:29 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 1:17:30 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 0 DcsDataRecords from cache
+Oct 10, 2007 1:17:30 PM MDT SchemEditServlet stopped
+Oct 10, 2007 1:17:30 PM MDT NDRServlet: destroy() ...
+Oct 10, 2007 1:17:30 PM MDT NDRServlet stopped
+Oct 10, 2007 1:17:30 PM MDT SetupServlet: destroy() ...
+Oct 10, 2007 1:17:30 PM MDT SetupServlet stopped
+Oct 10, 2007 1:17:30 PM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 1:17:30 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+java.io.InterruptedIOException: operation interrupted
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Oct 10, 2007 1:17:30 PM MDT MetadataVocabServlet stopped.
+Oct 10, 2007 1:17:30 PM MDT RepositoryManager destroy()
+Oct 10, 2007 1:17:30 PM MDT OAIProviderServlet stopped
+Oct 10, 2007 1:17:30 PM MDT RepositoryManager destroy()
+
+
+Oct 10, 2007 1:17:30 PM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 1:17:30 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Oct 10, 2007 1:17:31 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 1:17:31 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 1:17:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

@@ -1,0 +1,56 @@
+#source: https://docs.google.com/document/d/19VusnkXC-6q7mNeOb7zC-WcGNjgofYIEnHPqJbUu6TI
+!Current collection key					Human-readable label
+asr							Annual Reports
+ipcc							IPCC Collection
+staff							Staff Notes
+info							Information Releases
+wor							Walt Roberts Papers
+hao							High Altitude Observ. Records
+lie							Line Islands Exp. Records
+nhre							Nat’l Hail Research Exp. Records
+atd							Atmos. Tech. Div. Records
+natlballoonfac						Nat’l Balloon Fac. Records
+unpc							NCAR Newsletters 
+mesalab						Mesa Lab History
+scdnewsletter						Scientific Comp. Div. Records
+twerle							TWERLE Records
+srm							Solar Research Memos
+vinlally							Vin Lally Papers
+ucar							UCAR Records
+jkuettner						Kuettner Papers
+gate							GATE Records
+unid							Unidata Records
+fgge							FGGE Records
+unoh							NCAR/UCAR Oral History
+ams							AMS Oral History
+cimg							UCAR Image Gallery
+wwashington						W. Washington Papers
+comm							Communications
+							
+
+!(new) keys for research materials			Human-readable
+soars							SOARS Collection
+siparcs							SIParCS Collection
+dcerc							DCERC Collection
+technotes						NCAR Technical Notes
+conference						Posters & Presentations
+articles						Journal Articles
+proceedings						Published Proceedings
+manuals						User Guides & Manuscripts
+dataviz						Data Visualizations
+books							Books & Bk Chapters
+
+
+!(new) keys for archives				Human-readable
+wcas							Weather/Climate Assessment Records
+gtpr							Geophysical Turbulence Records
+ucarbd							UCAR Members Meeting Records
+
+!language	human-readable
+ en	English
+ es	Spanish
+ fr	French
+ de	German
+ it	Italian
+ nl	Dutch
+ zh	Chinese

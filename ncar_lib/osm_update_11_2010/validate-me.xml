@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:osm="http://nldr.library.ucar.edu/metadata/osm" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://test.nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+<general>
+<recordID>ASR-000-000-000-016</recordID>
+<recordDate>2009-12-09</recordDate>
+<title type="Report">Annual Scientific Report Fiscal Year 1976</title>
+<altTitle>NAR 76</altTitle>
+<altTitle>ASR 76</altTitle>
+<altTitle>UCAR/NCAR Annual Report Fiscal Year 1976</altTitle>
+<description>This document reports on the research directed at the five research objectives 1) To extend the range and quality of weather prediction from the present limits to about one week, 2) To understand climatic trends and their causes, 3) To increase knowledge of those aspects of severe storms that will improve both prediction and warning capability and evaluations of the possibilities for modification, 4) To understand solar processes and their influence on the interplanetary medium, and 5) To determine trends in and influences on air quality. NCAR’s research strategies and emphases are summarized. Staff Publications and UCAR/NCAR Corporate Financial Summary for Fiscal Year 1976 are listed.</description>
+</general>
+<resources>
+<primaryAsset type="Is published" url="http://nldr.library.ucar.edu/collections/asr/asset-000-000-000-016.pdf">
+<size>35.63 MB</size>
+<mimeType>application/pdf</mimeType>
+</primaryAsset>
+</resources>
+<contributors>
+<organization role="Author">
+
+<affiliation><instName>National Center for Atmospheric Research (NCAR)</instName></affiliation></organization>
+<organization role="Author">
+
+<affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></organization>
+<organization role="Publisher">
+
+<affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></organization>
+</contributors>
+<classify>
+<language>en</language>
+<status>Published</status>
+<classification>Non-refereed</classification>
+</classify>
+<coverage>
+<date type="Published">1976</date>
+<date type="Digitized">2007</date>
+</coverage>
+<rights>
+<copyrightNotice holder="UCAR" type="UCAR ownership" url="http://www.ucar.edu/legal/terms_of_use.shtml">Copyright 1976 University Corporation for Atmospheric Research (UCAR). The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the NCAR Library Terms of Use.</copyrightNotice>
+</rights>
+</record>

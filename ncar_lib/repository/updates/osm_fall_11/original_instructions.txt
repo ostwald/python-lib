@@ -1,0 +1,75 @@
+"""
+this package will use a "repository walker" that traverses the repository structure,
+visiting collections and performing an operation on that collection (e.g., filter by framework),
+as well as operations on metadata (e.g., updateCopyright()).
+
+We can see what the context is at this point or when we need to implement an operation
+that could use to one of the objects thus far created (e.g., the walker itself) without having to
+pass them along as references. (maybe not so important, but interesting just to see the stack).
+
+Anyhoo, below is a list of tasks that we want to accomplish. Most/all can be written as operations
+on osm_metadata_records.
+ 
+
+
+Tasks:
+1. On submission form, stop writing values for /record/resources/relation/@type
+(DONE!)
+
+2. Update /record/resources/relation/@type = "Has image" records:
+	
+	a. For each entry, move the contents of /record/resources/relation/@title and
+@description to a new /record/resource/description field. The description field
+should have the title content, then a colon followed by description content. If
+there is only description content and no title content, skip the title content
+and colon.
+
+3. Update /record/resources/relation/@type = "Is published" , "Is referenced
+by", "Is related", "Is replaced by", "References", "Unknown" records: 
+
+a. For each entry, delete the contents of /record/resources/relation/@type and
+remove the attribute because it is optional.
+
+4. For FY2011, provide a list for missing assets on refereed publications. So if
+/record/classify/classification = "Refereed" and /record/coverage/fiscalYear =
+"2011" and /record/resources/primaryAsset/@url is blank, then create a that
+includes: 
+	1) record id, 
+	2) title, 
+	3)all authors, 
+	4) UCAR authors and their divisions.
+
+5. Update /record/rights/copyrightNotice/@type = "Public domain", "Publisher",
+"UCAR Open Access Policy", "UCAR Ownership", "Unknown".
+
+a. For each entry, delete the contents of /record/rights/copyrightNotice/@type and remove the
+attribute because it is optional.
+
+6. Update /record/rights/copyrightNotice when /record/general/title/@type =
+"Presentation/webcast" or "Poster" or "Newsletter"  
+
+a. For each entry, make the contents of /record/rights/copyrightNotice be: 
+
+	 Copyright. All rights reserved. University Corporation for Atmospheric
+	 Research (UCAR). The user is granted the right to use this resource for
+	 non-commercial, non-profit research, or educational purposes only, as are
+	 more fully described in the NCAR Library Terms of Use.
+
+b. For each entry, make the contents of 
+	/record/rights/copyrightNotice/@URL
+	be:
+	http://www.ucar.edu/legal/terms_of_use.shtml
+
+7. Update /record/rights/copyrightNotice when /record/general/title/@type =
+"Interactive resource"
+
+a. For each entry, make the contents of
+/record/rights/copyrightNotice
+be: 
+
+	Please consult the resource directly for copyright information.
+
+8. After the updates to the type fields on relation and copyrightNotice, then
+Katy's updates these vocabs to be the smaller number of agreed upon terms.
+"""
+

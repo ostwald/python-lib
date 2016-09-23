@@ -1,0 +1,136 @@
+A chromospheric conundrum?	OSGC-000-000-000-546	Final	
+A chromospheric conundrum?	OSGC-000-000-000-551	Deaccessioned	dup of OSGC-000-000-000-546
+A comparison of statistical and dynamical downscaling of winter precipitation over complex terrain	OSGC-000-000-000-276	Holding	Cannot locate abstract/pdf anywhere online. Emailed Gutmann.
+A comparison of statistical and dynamical downscaling of winter precipitation over complex terrain	OSGC-000-000-001-006	Deaccessioned	dup of OSGC-000-000-000-276
+A conservative semi-Lagrangian multi-tracer transport scheme (CSLAM) on the cubed-sphere grid	OSGC-000-000-000-172	Final	
+A conservative semi-Lagrangian multi-tracer transport scheme (CSLAM) on the cubed-sphere grid	OSGC-000-000-000-038	Deaccessioned	dup of OSGC-000-000-000-172
+A four-dimensional velocity dealiasing technique using rapidly updated analysis in a variational doppler radar data assimilation system	OSGC-000-000-000-121	Final	Rights QA by Jones.
+A four-dimensional velocity dealiasing technique using rapidly updated analysis in a variational doppler radar data assimilation system	OSGC-000-000-001-027	Deaccessioned	Duplicate Record.
+A global climatology of wind-wave interaction	OSGC-000-000-000-286	Deaccessioned	dup of OSGC-000-000-000-116
+A global climatology of wind-wave interaction	OSGC-000-000-000-116	Final	
+A global comparison of carbon monoxide profiles and column amounts from Tropospheric Emission Spectrometer (TES) and Measurements of Pollution in the Troposphere (MOPITT)	OSGC-000-000-000-176	Final	Rights by Jones.
+A global comparison of carbon monoxide profiles and column amounts from Tropospheric Emission Spectrometer (TES) and Measurements of Pollution in the Troposphere (MOPITT)	OSGC-000-000-000-229	Deaccessioned	dup of OSGC-000-000-000-176
+A reanalysis system for the generation of mesoscale climatographies	OSGC-000-000-001-009	Deaccessioned	dup of OSGC-000-000-001-007
+A reanalysis system for the generation of mesoscale climatographies	OSGC-000-000-001-007	Final	
+A satellite observation system simulation experiment for carbon monoxide in the lowermost troposphere	OSGC-000-000-000-226	Final	Rights QA by Jones.
+A satellite observation system simulation experiment for carbon monoxide in the lowermost troposphere	OSGC-000-000-000-223	Deaccessioned	dup of OSGC-000-000-000-226
+Aircraft-induced hole punch and canal clouds: Inadvertent cloud seeding	OSGC-000-000-000-122	Deaccessioned	
+Aircraft-induced hole punch and canal clouds: Inadvertent cloud seeding	OSGC-000-000-000-201	Final	Rights QA by Jones.
+Application of a subfilter-scale flux model over the ocean using OHATS field data	OSGC-000-000-000-287	Final	
+Application of a subfilter-scale flux model over the ocean using OHATS field data	OSGC-000-000-000-269	Deaccessioned	dup of OSGC-000-000-000-287
+Asian Monsoon Transport of Pollution to the Stratosphere	OSGC-000-000-000-845	Deaccessioned	dup of OSGC-000-000-000-154
+Asian Monsoon Transport of Pollution to the Stratosphere	OSGC-000-000-000-203	Deaccessioned	
+Atmospheric chemistry of an Antarctic volcanic plume	OSGC-000-000-000-205	Final	Rights QA by Jones.
+Atmospheric chemistry of an Antarctic volcanic plume	OSGC-000-000-000-829	Deaccessioned	dup of OSGC-000-000-000-205
+Atmospheric chemistry of isopropyl formate and tert-butyl formate	OSGC-000-000-000-217	Final	Rights by Jones.
+Atmospheric chemistry of isopropyl formate and tert-butyl formate	OSGC-000-000-000-842	Deaccessioned	dup of OSGC-000-000-000-217
+Atmospheric chemistry results from the ANTCI 2005 Antarctic plateau airborne study	OSGC-000-000-000-206	Final	Rights QA by Jones.
+Atmospheric chemistry results from the ANTCI 2005 Antarctic plateau airborne study	OSGC-000-000-000-893	Deaccessioned	dup of OSGC-000-000-000-206
+Biogenic emission measurement and inventories determination of biogenic emissions in the eastern United States and Texas and comparison with biogenic emission inventories	OSGC-000-000-000-148	Final	
+Biogenic emission measurement and inventories determination of biogenic emissions in the eastern United States and Texas and comparison with biogenic emission inventories	OSGC-000-000-000-901	Deaccessioned	dup of OSGC-000-000-000-148
+COSMIC Data Analysis and Archival Center: Status and Challenges	OSGC-000-000-001-166	Holding	
+COSMIC Data Analysis and Archival Center: Status and Challenges	OSGC-000-000-001-123	Holding	
+COSMIC: Constellation Observing System for Meteorology, Ionosphere and Climate: Overview, status, and results	OSGC-000-000-000-196	Holding	
+COSMIC: Constellation Observing System for Meteorology, Ionosphere and Climate: Overview, status, and results	OSGC-000-000-001-152	Holding	
+COSMIC: Constellation Observing System for Meteorology, Ionosphere and Climate: Status and Results with Emphasis on the Ionosphere	OSGC-000-000-001-175	Holding	
+COSMIC: Constellation Observing System for Meteorology, Ionosphere and Climate: Status and Results with Emphasis on the Ionosphere	OSGC-000-000-001-181	Holding	
+Can the Weddell Sea anomaly and related phenomena be explained by conjugate effects?	OSGC-000-000-001-121	Holding	
+Can the Weddell Sea anomaly and related phenomena be explained by conjugate effects?	OSGC-000-000-000-301	Deaccessioned	dup of OSGC-000-000-001-121
+Chemical evolution of volatile organic compounds in the outflow of the Mexico City Metropolitan area	OSGC-000-000-000-389	Deaccessioned	dup of OSGC-000-000-000-387
+Chemical evolution of volatile organic compounds in the outflow of the Mexico City Metropolitan area	OSGC-000-000-000-487	Deaccessioned	dup of OSGC-000-000-000-387
+Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring	OSGC-000-000-000-561	Final	
+Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring	OSGC-000-000-001-204	In Progress	person 3 needs instname Unvi of Leeds; person 7, 8, 9, 10, 11 need instname CA Inst of Tech
+Closing the dimethyl sulfide budget in the tropical marine boundary layer during the Pacific Atmospheric Sulfur Experiment	OSGC-000-000-000-326	Final	
+Closing the dimethyl sulfide budget in the tropical marine boundary layer during the Pacific Atmospheric Sulfur Experiment	OSGC-000-000-000-110	Final	
+Cloud processing of internal mixed aerosol: A numerical study using a bin aerosol-microphysics scheme coupled with WRF	OSGC-000-000-000-258	Deaccessioned	dup of OSGC-000-000-000-257
+Cloud processing of internal mixed aerosol: A numerical study using a bin aerosol-microphysics scheme coupled with WRF	OSGC-000-000-000-257	Final	
+Comparisons between pseudospectral and radial basis function derivative approximations	OSGC-000-000-000-009	Final	
+Comparisons between pseudospectral and radial basis function derivative approximations	OSGC-000-000-000-178	Final	Rights by Jones.
+Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data	OSGC-000-000-001-243	Final	
+Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data	OSGC-000-000-001-264	Final	
+Data assimilation retrieval of electron density profiles from radio occultation measurements	OSGC-000-000-001-289	Holding	
+Data assimilation retrieval of electron density profiles from radio occultation measurements	OSGC-000-000-001-380	Holding	Nowak record
+Description and evaluation of the Model for Ozone and Related chemical Tracers, version 4 (MOZART-4)	OSGC-000-000-000-142	Final	affils done. looks good.
+Description and evaluation of the Model for Ozone and Related chemical Tracers, version 4 (MOZART-4)	OSGC-000-000-000-560	Deaccessioned	dup of OSGC-000-000-000-142
+Effects of aerosol solubility and regeneration on warm-phase orographic clouds and precipitation simulated by a detailed bin microphysical scheme	OSGC-000-000-000-255	Final	still needs affils
+Effects of aerosol solubility and regeneration on warm-phase orographic clouds and precipitation simulated by a detailed bin microphysical scheme	OSGC-000-000-000-259	Deaccessioned	Three dups (keeping 255) OSGC-000-000-000-255 OSGC-000-000-000-259 OSGC-000-000-000-264 OSGC-000-000-000-268
+Effects of aerosol solubility and regeneration on warm-phase orographic clouds and precipitation simulated by a detailed bin microphysical scheme	OSGC-000-000-000-268	Deaccessioned	Three dups (keeping 255) OSGC-000-000-000-255 OSGC-000-000-000-259 OSGC-000-000-000-264 OSGC-000-000-000-268
+Emerging methods for atmospheric numerical modeling	OSGC-000-000-000-600	Needs Rights	
+Emerging methods for atmospheric numerical modeling	OSGC-000-000-000-252	Deaccessioned	dup of OSGC-000-000-000-600
+Estimates of Cn2 from numerical weather prediction model output and comparison with thermosonde data	OSGC-000-000-000-438	Deaccessioned	This journal does not exist - I believe this is the same as OSGC-000-000-000-999
+Estimates of Cn2 from numerical weather prediction model output and comparison with thermosonde data	OSGC-000-000-000-999	In Progress	
+FORMOSAT-3/COSMIC Constellation Spacecraft System Performance: After One Year in Orbit	OSGC-000-000-001-133	Holding	
+FORMOSAT-3/COSMIC Constellation Spacecraft System Performance: After One Year in Orbit	OSGC-000-000-001-180	Holding	
+Fire dynamics during the 20th century simulated by the Community Land Model	OSGC-000-000-000-147	Final	
+Fire dynamics during the 20th century simulated by the Community Land Model	OSGC-000-000-001-094	Deaccessioned	dup of OSGC-000-000-000-147
+Increasing springtime ozone mixing ratios in the free troposphere over western North America	OSGC-000-000-000-671	Final	
+Increasing springtime ozone mixing ratios in the free troposphere over western North America	OSGC-000-000-001-165	Final Review	persons 11 and 12 need instname CA Inst of Tech (or Jet Propulsion Laboratory, California Institute of Technology); and person 13 needs instname Univ of Washington - Bothell
+Influence of Bering Strait flow and North Atlantic circulation on glacial sea-level changes	OSGC-000-000-000-158	Final	
+Influence of Bering Strait flow and North Atlantic circulation on glacial sea-level changes	OSGC-000-000-000-881	Deaccessioned	dup of OSGC-000-000-000-158
+Intercomparison of aerosol-cloud-precipitation interactions in stratiform orographic mixed-phase clouds	OSGC-000-000-000-260	Deaccessioned	dup of OSGC-000-000-000-272
+Intercomparison of aerosol-cloud-precipitation interactions in stratiform orographic mixed-phase clouds	OSGC-000-000-000-256	Deaccessioned	dup of OSGC-000-000-000-272
+Intercomparison of aerosol-cloud-precipitation interactions in stratiform orographic mixed-phase clouds	OSGC-000-000-000-272	Final	still need affils
+LEO-LEO Simulation and Retrieval Chain	OSGC-000-000-001-313	Holding	
+LEO-LEO Simulation and Retrieval Chain	OSGC-000-000-001-316	Holding	Nowak Record
+Longitudinal variation of tides in the MLT region: 1. Tides driven by tropospheric net radiative heating	OSGC-000-000-000-951	Deaccessioned	dup of OSGC-000-000-000-540
+Longitudinal variation of tides in the MLT region: 1. Tides driven by tropospheric net radiative heating	OSGC-000-000-000-540	Final	
+Longitudinal variation of tides in the MLT region: 2. Relative effects of solar radiative and latent heating	OSGC-000-000-000-537	Deaccessioned	dup of OSGC-000-000-000-949
+Longitudinal variation of tides in the MLT region: 2. Relative effects of solar radiative and latent heating	OSGC-000-000-000-949	Final	
+Numerical simulation of radial cloud bands within the upper-level outflow of an observed mesoscale convective system	OSGC-000-000-000-702	Deaccessioned	dup of OSGC-000-000-000-186
+Numerical simulation of radial cloud bands within the upper-level outflow of an observed mesoscale convective system	OSGC-000-000-000-396	Deaccessioned	dup of OSGC-000-000-000-186
+Numerical simulation of radial cloud bands within the upper-level outflow of an observed mesoscale convective system	OSGC-000-000-000-186	Final	Trier ATD?  Should this be MMM?
+Numerical simulations of low-CAPE flows over a mountain ridge	OSGC-000-000-000-128	Deaccessioned	Dup of OSGC-000-000-000-283.
+Numerical simulations of low-CAPE flows over a mountain ridge	OSGC-000-000-000-283	Final	needs an affil
+Numerical simulations of the three-dimensional distribution of polar mesospheric clouds and comparisons with Cloud Imaging and Particle Size (CIPS) experiment and the Solar Occultation For Ice Experiment (SOFIE) observations	OSGC-000-000-000-253	Final	
+Numerical simulations of the three-dimensional distribution of polar mesospheric clouds and comparisons with Cloud Imaging and Particle Size (CIPS) experiment and the Solar Occultation For Ice Experiment (SOFIE) observations	OSGC-000-000-000-210	Deaccessioned	dup of OSGC-000-000-000-253
+Observational constraints on the global atmospheric budget of ethanol	OSGC-000-000-000-212	Final	need only Millet > U of Minn
+Observational constraints on the global atmospheric budget of ethanol	OSGC-000-000-000-804	Deaccessioned	dup of OSGC-000-000-000-212
+Overview and characterization of retrievals of temperature, pressure, and atmospheric constituents from the High Resolution Dynamics Limb Sounder (HIRDLS) measurements	OSGC-000-000-000-171	Final	Rights QA by Jones.
+Overview and characterization of retrievals of temperature, pressure, and atmospheric constituents from the High Resolution Dynamics Limb Sounder (HIRDLS) measurements	OSGC-000-000-000-215	Final	
+Precise Orbit Determination and Radio Occultation Retrieval Processing at the UCAR CDAAC: Overview and Results	OSGC-000-000-001-383	Holding	Nowak record
+Precise Orbit Determination and Radio Occultation Retrieval Processing at the UCAR CDAAC: Overview and Results	OSGC-000-000-001-298	Holding	Nowak record
+Predicting lightning potential on different time scales at the White Sands Missile Range	OSGC-000-000-000-861	Final	
+Predicting lightning potential on different time scales at the White Sands Missile Range	OSGC-000-000-000-862	Holding	Attn Jamaica
+Processing Radio Occultation Data by Full Spectrum Inversion Techniques: An Overview and Recent Developments	OSGC-000-000-001-335	Holding	Nowak record
+Processing Radio Occultation Data by Full Spectrum Inversion Techniques: An Overview and Recent Developments	OSGC-000-000-001-141	Holding	
+Quantifying carbon-nitrogen feedbacks in the Community Land Model (CLM4)	OSGC-000-000-000-151	Final	Rights by Jones.
+Quantifying carbon-nitrogen feedbacks in the Community Land Model (CLM4)	OSGC-000-000-000-697	Final	
+Radio Occultation Data Processing at the COSMIC Data Analysis and Archival Center (CDAAC)	OSGC-000-000-000-335	Holding	
+Radio Occultation Data Processing at the COSMIC Data Analysis and Archival Center (CDAAC)	OSGC-000-000-001-360	Holding	
+Rapid formation of isoprene photo-oxidation products observed in Amazonia	OSGC-000-000-000-478	Deaccessioned	dup of OSGC-000-000-000-169
+Rapid formation of isoprene photo-oxidation products observed in Amazonia	OSGC-000-000-000-169	Final	
+Relationships between tropical sea surface temperature and top-of-atmosphere radiation	OSGC-000-000-000-152	Final	Rights by Jones.
+Relationships between tropical sea surface temperature and top-of-atmosphere radiation	OSGC-000-000-000-146	Deaccessioned	
+Requesting use of National Science Foundation facilities for education	OSGC-000-000-001-261	Final	
+Requesting use of National Science Foundation facilities for education	OSGC-000-000-001-272	Final	
+Review of the formulation of present-generation stratospheric chemistry-climate models and associated external forcings	OSGC-000-000-000-476	Final	
+Review of the formulation of present-generation stratospheric chemistry-climate models and associated external forcings	OSGC-000-000-000-827	Deaccessioned	duplicate of osgc-000-000-000-426
+Role of the atmospheric mean state on the initiation of the Madden-Julian oscillation in a tropical channel model	OSGC-000-000-000-480	Final	
+Role of the atmospheric mean state on the initiation of the Madden-Julian oscillation in a tropical channel model	OSGC-000-000-000-457	Final	
+Simulation of present day and 21st century energy budgets of the southern oceans	OSGC-000-000-000-145	Final	
+Simulation of present day and 21st century energy budgets of the southern oceans	OSGC-000-000-000-155	Deaccessioned	Dup of OSGC-000-000-000-145.
+Simulation of seasonal snowfall over Colorado	OSGC-000-000-000-502	Final	
+Simulation of seasonal snowfall over Colorado	OSGC-000-000-001-082	Deaccessioned	dup of OSGC-000-000-000-502
+Spatial model fitting for large datasets with applications to climate and microarray problems	OSGC-000-000-000-377	Deaccessioned	dup of OSGC-000-000-000-080
+Spatial model fitting for large datasets with applications to climate and microarray problems	OSGC-000-000-000-080	Final	
+Statistical modeling of hot spells and heat waves	OSGC-000-000-000-445	Needs Rights	
+Statistical modeling of hot spells and heat waves	OSGC-000-000-000-625	Deaccessioned	dup of OSGC-000-000-000-445
+Statistical optimization of radio occultation data with dynamical estimation of error covariances	OSGC-000-000-001-317	Holding	Nowak Record
+Statistical optimization of radio occultation data with dynamical estimation of error covariances	OSGC-000-000-001-312	Holding	
+Statistics of extremes in climate change	OSGC-000-000-000-633	Deaccessioned	dup of OSGC-000-000-000-446
+Statistics of extremes in climate change	OSGC-000-000-000-446	Final	
+Studies of inertio-gravity waves on midlatitude beta-plane without the traditional approximation	OSGC-000-000-000-095	Final	Rights by Jones.
+Studies of inertio-gravity waves on midlatitude beta-plane without the traditional approximation	OSGC-000-000-000-452	Deaccessioned	dup of OSGC-000-000-000-095
+Surface in situ datasets for marine climatological applications	OSGC-000-000-000-168	Final	Removed pdf, as we have not yet heard back from the publisher.
+Surface in situ datasets for marine climatological applications	OSGC-000-000-000-507	Needs Rights	
+The asteroseismic potential of Kepler: First results for solar-type stars	OSGC-000-000-001-099	Holding	At 94 authors, the DCS is overburdened and threatens to crash my browser. Still 17 to go...
+The asteroseismic potential of Kepler: First results for solar-type stars	OSGC-000-000-001-097	Deaccessioned	dup of OSGC-000-000-001-099
+The ecological theory of climate models	OSGC-000-000-000-144	Final	
+The ecological theory of climate models	OSGC-000-000-000-735	Deaccessioned	dup
+Toward the analysis of waves in the solar atmosphere based on NLTE spectral synthesis from 3D MHD simulations	OSGC-000-000-001-385	Final Review	Needs to add instName - 
+Istituto Nazionale di Astrofisica
+Toward the analysis of waves in the solar atmosphere based on NLTE spectral synthesis from 3D MHD simulations	OSGC-000-000-000-771	Needs Rights	Also needs pubName - National Solar Observatory Workshop
+Uncertainties of estimates of inertia-gravity energy in the atmosphere. Part II: Large-scale equatorial waves	OSGC-000-000-000-568	Final	
+Uncertainties of estimates of inertia-gravity energy in the atmosphere. Part II: Large-scale equatorial waves	OSGC-000-000-000-006	Final	Rights QA by Jones.
+test	OSGC-000-000-001-256	Deaccessioned	
+test	OSGC-000-000-001-258	Deaccessioned	

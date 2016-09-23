@@ -1,0 +1,453 @@
+Jul 11, 2008 8:46:18 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Jul 11, 2008 8:46:18 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jul 11, 2008 8:46:19 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jul 11, 2008 8:46:19 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2328 ms
+Jul 11, 2008 8:46:19 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jul 11, 2008 8:46:19 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Jul 11, 2008 8:46:19 AM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+
+Jul 11, 2008 8:46:20 AM MDT SetupServlet starting
+ SetupServlet: collectionRecordsLocation: /global/nfs/dlese_data/dcs/records/dlese_collect
+ SetupServlet: collectionConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+ SetupServlet: frameworkConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+ SetupServlet: logo: DLESE_logo_sm.gif
+Jul 11, 2008 8:46:20 AM MDT SetupServlet completed.
+
+Jul 11, 2008 8:46:20 AM MDT Initializing MetadataServlet for 'MetadataVocab'
+Jul 11, 2008 8:46:20 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Jul 11, 2008 8:46:26 AM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Jul 11, 2008 8:46:26 AM MDT Outputting debug info
+Jul 11, 2008 8:46:26 AM MDT Using collection-level metadata files located at /global/nfs/dlese_data/dcs/records/dlese_collect/collect
+Jul 11, 2008 8:46:26 AM MDT Using ADN metadata files located at /global/nfs/dlese_data/dcs/records
+Jul 11, 2008 8:46:26 AM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Jul 11, 2008 8:46:26 AM MDT Starting up RepositoryManager
+Jul 11, 2008 8:46:26 AM MDT loading props file: RepositoryManager.properties
+Jul 11, 2008 8:46:26 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 19195 entries.
+Jul 11, 2008 8:46:29 AM MDT rm.init() successful...
+Jul 11, 2008 8:46:29 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Jul 11, 2008 8:46:29 AM MDT DDSServlet started.
+
+
+Jul 11, 2008 8:46:29 AM MDT OAIProviderServlet starting
+Jul 11, 2008 8:46:29 AM MDT OAIProviderServlet: Outputting debug info
+Jul 11, 2008 8:46:29 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Jul 11, 2008 8:46:29 AM MDT OAIProviderServlet initialized.
+Jul 11, 2008 8:46:29 AM MDT SchemEditServlet starting!
+instanceName: DCS
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (4 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (5 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (8 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 54 files from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with sample.xml
+CollectionRegistry: registered sample (prefix: )
+
+"collectionRegistry" initialized with 53 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 52 collections found in index
+IDGenerator: Current ID = 20 for TEST
+Jul 11, 2008 8:47:09 AM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2112 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+Jul 11, 2008 8:47:14 AM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 2120 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 69 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10322 for DLESE
+IDGenerator: Current ID = 90 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13516 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 345 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 32 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2408 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 894 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 21 for SIMPLE
+IDGenerator: Current ID = 8 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 164 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 28 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: startAutoExportTimer
+RepositoryService: autoExport timer is scheduled to start Fri, Jul 11, 2008 7:00 PM MDT, and run every 1440 minutes, 0 seconds.
+initialized repositoryService
+Adding plugin: org.dlese.dpc.schemedit.ndr.writer.NdrRepositoryWriterPlugin
+Jul 11, 2008 8:47:33 AM MDT SchemEditServlet initialized.
+
+Jul 11, 2008 8:47:33 AM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Jul 11, 2008 8:47:33 AM MDT CasaaServlet: Casaa Service is disabled
+Jul 11, 2008 8:47:33 AM MDT CasaaServlet completed.
+
+Jul 11, 2008 8:47:33 AM MDT NDRServlet starting
+Jul 11, 2008 8:47:33 AM MDT NDRServlet: NDRServlet not enabled: ndrServiceEnabled was not configured as "true"
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: configuring AccessManager from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/auth/access.xml
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/dcs_data/dcs_data"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logoff"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logon"
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Jul 11, 2008 8:47:34 AM MDT SchemaViewerServlet starting
+Jul 11, 2008 8:47:34 AM MDT SchemaViewerServlet initialized.
+Jul 11, 2008 8:47:35 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jul 11, 2008 8:47:35 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jul 11, 2008 8:47:35 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.102:10119
+Jul 11, 2008 8:47:35 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/42  config=null
+Jul 11, 2008 8:47:36 AM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Jul 11, 2008 8:47:36 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 77029 ms
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Reloading vocab instance 'MetadataVocab'
+Jul 11, 2008 9:56:26 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Error loading vocabulary:
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:157)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:388)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:523)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:231)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:304)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:321)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:813)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:765)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:690)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:934)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.load(LoadMetadataOPML.java:137)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.getMetadataVocabInstance(LoadMetadataOPML.java:95)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.loadVocabs(MetadataVocabServlet.java:100)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:87)
+Jul 11, 2008 9:56:26 AM MDT about to notifyListeners via MetadataVocabOPML
+Jul 11, 2008 9:56:26 AM MDT notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+Reloading vocab instance 'MetadataVocab'
+Jul 11, 2008 9:57:37 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Jul 11, 2008 9:57:42 AM MDT about to notifyListeners via MetadataVocabOPML
+Jul 11, 2008 9:57:42 AM MDT notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+Jul 11, 2008 10:49:42 AM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jul 11, 2008 10:49:42 AM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jul 11, 2008 10:49:43 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 0 DcsDataRecords from cache
+Jul 11, 2008 10:49:45 AM MDT SchemEditServlet stopped
+Jul 11, 2008 10:49:45 AM MDT NDRServlet: destroy() ...
+Jul 11, 2008 10:49:45 AM MDT NDRServlet stopped
+ SetupServlet: destroy() ...
+Jul 11, 2008 10:49:45 AM MDT SetupServlet stopped
+Jul 11, 2008 10:49:45 AM MDT CasaaServlet: destroy() ...
+Jul 11, 2008 10:49:45 AM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Jul 11, 2008 10:49:45 AM MDT MetadataVocabServlet stopped.
+Jul 11, 2008 10:49:45 AM MDT RepositoryManager destroy()
+Jul 11, 2008 10:49:45 AM MDT OAIProviderServlet stopped
+Jul 11, 2008 10:49:45 AM MDT RepositoryManager destroy()
+
+
+Jul 11, 2008 10:49:45 AM MDT DDSServlet stopped.
+
+
+Jul 11, 2008 10:49:45 AM MDT SchemaViewerServlet stopped
+contextDestroyed()
+Jul 11, 2008 10:49:46 AM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jul 11, 2008 10:49:46 AM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jul 11, 2008 10:49:46 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

@@ -1,0 +1,663 @@
+Value	UI Label	Place Name
+AA	US - Armed Forces Americas	Armed Forces Americas
+AB	CA - Alberta	Alberta
+AC	BR - Acre	Acre
+ACT	AU - Australian Capital Territory	Australian Capital Territory
+AE	US - Armed Forces Middle East	Armed Forces Middle East
+AG	IT - Agrigento	Agrigento
+AGS	MX - Aguascalientes	Aguascalientes
+AK	US - ALASKA	ALASKA
+AL	US - ALABAMA	ALABAMA
+AM	BR - Amazonas	Amazonas
+AN	IT - Ancona	Ancona
+AO	IT - Aosta / Aoste	Aosta / Aoste
+AP	US - Armed Forces Pacific	Armed Forces Pacific
+AQ	IT - L'Aquila	L'Aquila
+AR	US - ARKANSAS	ARKANSAS
+AS	US - AMERICAN SAMOA	AMERICAN SAMOA
+AT	IT - Asti	Asti
+AV	IT - Avellino	Avellino
+AZ	US - ARIZONA	ARIZONA
+Agra	IN - Agra District	Agra District
+Ahme	IN - Ahmednagar District	Ahmednagar District
+Aich	JP - Aichi	Aichi
+Aiza	IN - Aizawl District	Aizawl District
+Ajme	IN - Ajmer District	Ajmer District
+Akit	JP - Akita	Akita
+Akol	IN - Akola District	Akola District
+Alap	IN - Alappuzha District	Alappuzha District
+Alav	ES - Alava	Alava
+Alba	ES - Albacate	Albacate
+Alic	ES - Alicante	Alicante
+Alig	IN - Aligarh District	Aligarh District
+Alla	IN - Allahabad District	Allahabad District
+Alme	ES - Almeria	Almeria
+Almo	IN - Almora District	Almora District
+Alwa	IN - Alwar District	Alwar District
+Amar	IN - Amaravati District	Amaravati District
+Amba	IN - Ambala District	Ambala District
+Amri	IN - Amritsar District	Amritsar District
+Anda	IN - Andaman and Nicobar Islands	Andaman and Nicobar Islands
+Andh	IN - Andhra Pradesh	Andhra Pradesh
+Anhu	CN - Anhui	Anhui
+Aomo	JP - Aomori	Aomori
+Arun	IN - Arunachal Pradesh	Arunachal Pradesh
+Assa	IN - Assam	Assam
+Auck	NZ - Auckland	Auckland
+Avil	ES - Avila	Avila
+BA	IT - Bari	Bari
+BC	CA - British Columbia	British Columbia
+BCN	MX - Baja California Norte	Baja California Norte
+BCS	MX - Baja California Sur	Baja California Sur
+BG	IT - Bergamo	Bergamo
+BI	IT - Biella	Biella
+BL	IT - Belluno	Belluno
+BN	IT - Benevento	Benevento
+BO	IT - Bologna	Bologna
+BR	IT - Brindisi	Brindisi
+BS	IT - Brescia	Brescia
+BZ	IT - Bolzano / Bolzen	Bolzano / Bolzen
+Bada	ES - Badajoz	Badajoz
+Bagh	IN - Baghpat District	Baghpat District
+Bala	IN - Balasore District	Balasore District
+Balr	IN - Balram Pur District	Balram Pur District
+Bang	IN - Bangalore Urban District	Bangalore Urban District
+Bank	IN - Bankura District	Bankura District
+Bara	IN - Baran District	Baran District
+Barc	ES - Barcelona	Barcelona
+Bard	IN - Barddhaman District	Barddhaman District
+Bare	IN - Bareilly District	Bareilly District
+Bay	NZ - Bay of Plenty	Bay of Plenty
+Bedf	GB - Bedfordshire	Bedfordshire
+Beij	CN - Beijing	Beijing
+Belg	IN - Belgaum District	Belgaum District
+Bell	IN - Bellary District	Bellary District
+Berk	GB - Berkshire	Berkshire
+Bhar	IN - Bharuch District	Bharuch District
+Bhav	IN - Bhavnagar District	Bhavnagar District
+Bhil	IN - Bhilwara District	Bhilwara District
+Bhop	IN - Bhopal District	Bhopal District
+Biha	IN - Bihar	Bihar
+Bija	IN - Bijapur District	Bijapur District
+Bijn	IN - Bijnor District	Bijnor District
+Bika	IN - Bikaner District	Bikaner District
+Boka	IN - Bokaro District	Bokaro District
+Bord	GB - Borders	Borders
+Buck	GB - Buckinghamshire	Buckinghamshire
+Bund	IN - Bundi District	Bundi District
+Burg	ES - Burgos	Burgos
+CA	US - CALIFORNIA	CALIFORNIA
+CAM	MX - Campeche	Campeche
+CB	IT - Campobasso	Campobasso
+CE	IT - Caserta	Caserta
+CH	IT - Chieti	Chieti
+CHIH	MX - Chihuahua	Chihuahua
+CHIS	MX - Chiapas	Chiapas
+CL	IT - Caltanisetta	Caltanisetta
+CN	IT - Cuneo	Cuneo
+CO	US - COLORADO	COLORADO
+COAH	MX - Coahuila	Coahuila
+COL	MX - Colima	Colima
+CR	IT - Cremona	Cremona
+CS	IT - Cosenza	Cosenza
+CT	US - CONNECTICUT	CONNECTICUT
+CZ	IT - Catanzaro	Catanzaro
+Cace	ES - Caceres	Caceres
+Cadi	ES - Cadiz	Cadiz
+Calc	IN - Calcutta District	Calcutta District
+Camb	GB - Cambridgeshire	Cambridgeshire
+Cant	NZ - Canterbury	Canterbury
+Carl	IE - Carlow	Carlow
+Cast	ES - Castellon	Castellon
+Cava	IE - Cavan	Cavan
+Cavi	PH - Cavite	Cavite
+Cebu	PH - Cebu	Cebu
+Cent	GB - Central	Central
+Chan	IN - Chandigarh	Chandigarh
+Chat	NZ - Chatham Islands	Chatham Islands
+Chen	IN - Chennai District	Chennai District
+Ches	GB - Cheshire	Cheshire
+Chha	IN - Chhattisgarh	Chhattisgarh
+Chib	JP - Chiba	Chiba
+Chid	IN - Chidambaranar District	Chidambaranar District
+Chit	IN - Chittoor District	Chittoor District
+Chon	CN - Chongqing	Chongqing
+Chur	IN - Churachandpur District	Churachandpur District
+Clar	IE - Clare	Clare
+Clev	GB - Cleveland	Cleveland
+Clwy	GB - Clwyd	Clwyd
+Coim	IN - Coimbatore District	Coimbatore District
+Conn	IE - Connemara	Connemara
+Cork	IE - Cork	Cork
+Corn	GB - Cornwall	Cornwall
+Cots	GB - Cotswolds	Cotswolds
+Coun	GB - County Tyrone	County Tyrone
+Cuen	ES - Cuenca	Cuenca
+Cumb	GB - Cumbria	Cumbria
+Cutt	IN - Cuttack District	Cuttack District
+DC	US - DISTRICT OF COLUMBIA	DISTRICT OF COLUMBIA
+DE	US - DELAWARE	DELAWARE
+DF	MX - Distrito Federal	Distrito Federal
+DGO	MX - Durango	Durango
+DR	NL - Drenthe	Drenthe
+Dadr	IN - Dadra District	Dadra District
+Daks	IN - Dakshina Kannada District	Dakshina Kannada District
+Dama	IN - Daman and Diu	Daman and Diu
+Darj	IN - Darjiling District	Darjiling District
+Dava	PH - Davao del Sur	Davao del Sur
+Dehr	IN - Dehradun District	Dehradun District
+Delh	IN - Delhi	Delhi
+Derb	GB - Derbyshire	Derbyshire
+Devo	GB - Devon	Devon
+Dewa	IN - Dewas District	Dewas District
+Dhan	IN - Dhanbad District	Dhanbad District
+Dhar	IN - Dharwad District	Dharwad District
+Dind	IN - Dindigul-Anna District	Dindigul
+Done	IE - Donegal	Donegal
+Dors	GB - Dorset	Dorset
+Dubl	IE - Dublin	Dublin
+Dumf	GB - Dumfries and Galloway	Dumfries and Galloway
+Dung	IN - Dungarpur District	Dungarpur District
+Durh	GB - Durham	Durham
+Dyfe	GB - Dyfed	Dyfed
+EN	IT - Enna	Enna
+ES	BR - Espirito Santo	Espirito Santo
+East	IN - East Sikkim District	East Sikkim District
+Ehim	JP - Ehime	Ehime
+Erna	IN - Ernakulum District	Ernakulum District
+Esse	GB - Essex	Essex
+FE	IT - Ferrara	Ferrara
+FG	IT - Foggia	Foggia
+FI	IT - Firenze	Firenze
+FL	US - FLORIDA	FLORIDA
+FLD	NL - Flevopolder	Flevopolder
+FM	US - FEDERATED STATES OF MICRONESIA	FEDERATED STATES OF MICRONESIA
+FO	IT - Forl√¨	Forl√¨
+FR	NL - Friesland	Friesland
+Faiz	IN - Faizabad District	Faizabad District
+Fari	IN - Faridabad District	Faridabad District
+Fate	IN - Fatehgarh Sahib District	Fatehgarh Sahib District
+Fife	GB - Fife	Fife
+Fuji	CN - Fujian	Fujian
+Fuku	JP - Fukushima	Fukushima
+GA	US - GEORGIA	GEORGIA
+GE	IT - Genova	Genova
+GLD	NL - Gelderland	Gelderland
+GN	NL - Groningen	Groningen
+GO	IT - Gorizia	Gorizia
+GR	IT - Grosseto	Grosseto
+GRO	MX - Guerrero	Guerrero
+GTO	MX - Guanajuato	Guanajuato
+GU	US - GUAM	GUAM
+Galw	IE - Galway	Galway
+Gand	IN - Gandhinagar District	Gandhinagar District
+Ganj	IN - Ganjam District	Ganjam District
+Gans	CN - Gansu	Gansu
+Gaut	IN - Gautam Budh Nagar District	Gautam Budh Nagar District
+Gaya	IN - Gaya District	Gaya District
+Ghaz	IN - Ghaziabad District	Ghaziabad District
+Gifu	JP - Gifu	Gifu
+Giro	ES - Girona	Girona
+Gisb	NZ - Gisborne	Gisborne
+Glou	GB - Gloucestershire	Gloucestershire
+Goa	IN - Goa	Goa
+Gora	IN - Gorakhpur District	Gorakhpur District
+Gram	GB - Grampian	Grampian
+Gran	ES - Granada	Granada
+Grea	IN - Greater Mumbai District	Greater Mumbai District
+Guad	ES - Guadalajara	Guadalajara
+Guan	CN - Guangxi	Guangxi
+Guip	ES - Guipuzcoa	Guipuzcoa
+Guiz	CN - Guizhou	Guizhou
+Guja	IN - Gujarat	Gujarat
+Gulb	IN - Gulbarga District	Gulbarga District
+Gunm	JP - Gunma	Gunma
+Gunt	IN - Guntur District	Guntur District
+Gurg	IN - Gurgaon District	Gurgaon District
+Gwal	IN - Gwalior District	Gwalior District
+Gwen	GB - Gwent	Gwent
+Gwyn	GB - Gwynedd County	Gwynedd County
+HGO	MX - Hidalgo	Hidalgo
+HI	US - HAWAII	HAWAII
+Hain	CN - Hainan	Hainan
+Hamp	GB - Hampshire	Hampshire
+Haor	IN - Haora District	Haora District
+Hari	IN - Haridwar District	Haridwar District
+Hary	IN - Haryana	Haryana
+Hawk	NZ - Hawkes Bay	Hawkes Bay
+Haza	IN - Hazaribag District	Hazaribag District
+Hebe	CN - Hebei	Hebei
+Heil	CN - Heilongjiang	Heilongjiang
+Hena	CN - Henan	Henan
+Here	GB - Herefordshire	Herefordshire
+Hert	GB - Hertfordshire	Hertfordshire
+High	GB - Highlands and Islands	Highlands and Islands
+Hima	IN - Himachal Pradesh	Himachal Pradesh
+Hiro	JP - Hiroshima	Hiroshima
+Hisa	IN - Hisar District	Hisar District
+Hokk	JP - Hokkaido	Hokkaido
+Hong	CN - Hong Kong	Hong Kong
+Hube	CN - Hubei	Hubei
+Huel	ES - Huelva	Huelva
+Hues	ES - Huesca	Huesca
+Hugl	IN - Hugli District	Hugli District
+Humb	GB - Humberside	Humberside
+Huna	CN - Hunan	Hunan
+Hyog	JP - Hyogo	Hyogo
+IA	US - IOWA	IOWA
+ID	US - IDAHO	IDAHO
+IL	US - ILLINOIS	ILLINOIS
+IM	IT - Imperia	Imperia
+IN	US - INDIANA	INDIANA
+IS	IT - Isernia	Isernia
+Ibar	JP - Ibaraki	Ibaraki
+Iduk	IN - Idukki District	Idukki District
+Ifug	PH - Ifugao	Ifugao
+Iloc	PH - Ilocos Sur	Ilocos Sur
+Iloi	PH - Iloilo	Iloilo
+Imph	IN - Imphal District	Imphal District
+Indo	IN - Indore District	Indore District
+Inne	CN - Inner Mongolia	Inner Mongolia
+Isab	PH - Isabela	Isabela
+Ishi	JP - Ishikawa	Ishikawa
+Isle	GB - Isles of Scilly	Isles of Scilly
+Iwat	JP - Iwate	Iwate
+JAL	MX - Jalisco	Jalisco
+Jaba	IN - Jabalpur District	Jabalpur District
+Jaip	IN - Jaipur District	Jaipur District
+Jais	IN - Jaisalmer District	Jaisalmer District
+Jala	IN - Jalandhar District	Jalandhar District
+Jamm	IN - Jammu and Kashmir	Jammu and Kashmir
+Jamn	IN - Jamnagar District	Jamnagar District
+Jhar	IN - Jharsuguda District	Jharsuguda District
+Jhun	IN - Jhunjhunun District	Jhunjhunun District
+Jian	CN - Jiangxi	Jiangxi
+Jili	CN - Jilin	Jilin
+Jind	IN - Jind District	Jind District
+Jodh	IN - Jodhpur District	Jodhpur District
+Joho	MY - Johor	Johor
+Juna	IN - Junagadh District	Junagadh District
+Jyot	IN - Jyotiba Phule Nagar District	Jyotiba Phule Nagar District
+KR	IT - Crotone	Crotone
+KS	US - KANSAS	KANSAS
+KY	US - KENTUCKY	KENTUCKY
+Kach	IN - Kachchh District	Kachchh District
+Kaer	AT - Kaernten	Kaernten
+Kaga	JP - Kagawa	Kagawa
+Kala	IN - Kalahandi District	Kalahandi District
+Kama	IN - Kamarajar District	Kamarajar District
+Kamr	IN - Kamrup District	Kamrup District
+Kana	JP - Kanagawa	Kanagawa
+Kang	IN - Kangra District	Kangra District
+Kann	IN - Kannur District	Kannur District
+Kanp	IN - Kanpur Dehat District	Kanpur Dehat District
+Kapu	IN - Kapurthala District	Kapurthala District
+Karn	IN - Karnataka	Karnataka
+Karu	IN - Karur District	Karur District
+Keda	MY - Kedah	Kedah
+Kela	MY - Kelantan	Kelantan
+Kent	GB - Kent	Kent
+Kera	IN - Kerala	Kerala
+Kerr	IE - Kerry	Kerry
+Kham	IN - Khammam District	Khammam District
+Khed	IN - Kheda District	Kheda District
+Khur	IN - Khurda District	Khurda District
+Kild	IE - Kildare	Kildare
+Kilk	IE - Kilkenny	Kilkenny
+Koch	JP - Kochi	Kochi
+Kolh	IN - Kolhapur District	Kolhapur District
+Koll	IN - Kollam District	Kollam District
+Kota	IN - Kota District	Kota District
+Kott	IN - Kottayam District	Kottayam District
+Kozh	IN - Kozhikode District	Kozhikode District
+Kris	IN - Krishna District	Krishna District
+Kual	MY - Kuala Lumpur	Kuala Lumpur
+Kull	IN - Kullu District	Kullu District
+Kuma	JP - Kumamoto	Kumamoto
+Kush	IN - Kushinagar District	Kushinagar District
+Kyot	JP - Kyoto	Kyoto
+LA	US - LOUISIANA	LOUISIANA
+LB	NL - Limburg	Limburg
+LC	IT - Lecco	Lecco
+LE	IT - Lecce	Lecce
+LI	IT - Livorno	Livorno
+LO	IT - Lodi	Lodi
+LT	IT - Latina	Latina
+LU	IT - Lucca	Lucca
+La C	ES - La Coruna	La Coruna
+La U	PH - La Union	La Union
+Lada	IN - Ladakh District	Ladakh District
+Lagu	PH - Laguna	Laguna
+Lake	GB - Lake District	Lake District
+Laks	IN - Lakshadweep Islands	Lakshadweep Islands
+Lana	PH - Lanao del Sur	Lanao del Sur
+Lanc	GB - Lancashire	Lancashire
+Laoi	IE - Laois	Laois
+Las	ES - Las Palmas	Las Palmas
+Leic	GB - Leicestershire	Leicestershire
+Leit	IE - Leitrim	Leitrim
+Leon	ES - Leon	Leon
+Leri	ES - Lerida	Lerida
+Leyt	PH - Leyte	Leyte
+Liao	CN - Liaoning	Liaoning
+Lime	IE - Limerick	Limerick
+Linc	GB - Lincolnshire	Lincolnshire
+Long	IE - Longford	Longford
+Loth	GB - Lothian	Lothian
+Lout	IE - Louth	Louth
+Lowe	IN - Lower Subansiri District	Lower Subansiri District
+Luck	IN - Lucknow District	Lucknow District
+Ludh	IN - Ludhiana District	Ludhiana District
+Lugo	ES - Lugo	Lugo
+MA	US - MASSACHUSETTS	MASSACHUSETTS
+MB	CA - Manitoba	Manitoba
+MC	IT - Macerata	Macerata
+MD	US - MARYLAND	MARYLAND
+ME	US - MAINE	MAINE
+MEX	MX - Estado de Mexico	Estado de Mexico
+MG	BR - Minas Gerais	Minas Gerais
+MH	US - MARSHALL ISLANDS	MARSHALL ISLANDS
+MI	US - MICHIGAN	MICHIGAN
+MICH	MX - Michoacan	Michoacan
+MN	US - MINNESOTA	MINNESOTA
+MO	US - MISSOURI	MISSOURI
+MOR	MX - Morelos	Morelos
+MP	US - NORTHERN MARIANA ISLANDS	NORTHERN MARIANA ISLANDS
+MS	US - MISSISSIPPI	MISSISSIPPI
+MT	US - MONTANA	MONTANA
+Maca	CN - Macau	Macau
+Madh	IN - Madhya Pradesh	Madhya Pradesh
+Madu	IN - Madurai District	Madurai District
+Maha	IN - Maharashtra	Maharashtra
+Mahe	IN - Mahesena District	Mahesena District
+Mala	IN - Malappuram District	Malappuram District
+Mana	NZ - Manawatu-Wanganui	Manawatu
+Mand	IN - Mandya District	Mandya District
+Mani	IN - Manipur	Manipur
+Mari	PH - Marinduque	Marinduque
+Marl	NZ - Marlborough	Marlborough
+Masb	PH - Masbate	Masbate
+Math	IN - Mathura District	Mathura District
+Mayo	IE - Mayo	Mayo
+Meat	IE - Meath	Meath
+Meda	IN - Medak District	Medak District
+Medi	IN - Medinipur District	Medinipur District
+Meer	IN - Meerut District	Meerut District
+Megh	IN - Meghalaya	Meghalaya
+Mela	MY - Melaka	Melaka
+Mers	GB - Merseyside	Merseyside
+Metr	PH - Metropolitan Manila Area	Metropolitan Manila Area
+Mid	GB - Mid Glamorgan	Mid Glamorgan
+Mie	JP - Mie	Mie
+Mind	PH - Mindoro Oriental	Mindoro Oriental
+Misa	PH - Misamis Oriental	Misamis Oriental
+Miya	JP - Miyazaki	Miyazaki
+Mizo	IN - Mizoram	Mizoram
+Mona	IE - Monaghan	Monaghan
+Mora	IN - Moradabad District	Moradabad District
+NA	IT - Napoli	Napoli
+NAY	MX - Nayarit	Nayarit
+NB	NL - Noord-Brabant	Noord
+NC	US - NORTH CAROLINA	NORTH CAROLINA
+ND	US - NORTH DAKOTA	NORTH DAKOTA
+NE	US - NEBRASKA	NEBRASKA
+NH	US - NEW HAMPSHIRE	NEW HAMPSHIRE
+NJ	US - NEW JERSEY	NEW JERSEY
+NL	MX - Nuevo Leon	Nuevo Leon
+NM	US - NEW MEXICO	NEW MEXICO
+NO	IT - Novara	Novara
+NS	CA - Nova Scotia	Nova Scotia
+NSW	AU - New South Wales	New South Wales
+NT	CA - Northwest Territories	Northwest Territories
+NU	IT - Nuoro	Nuoro
+NV	US - NEVADA	NEVADA
+NY	US - NEW YORK	NEW YORK
+Naga	JP - Nagasaki	Nagasaki
+Nagp	IN - Nagpur District	Nagpur District
+Nain	IN - Nainital District	Nainital District
+Nara	JP - Nara	Nara
+Nash	IN - Nashik District	Nashik District
+Nege	MY - Negeri Sembilan	Negeri Sembilan
+Negr	PH - Negros Oriental	Negros Oriental
+Nell	IN - Nellore District	Nellore District
+Nels	NZ - Nelson	Nelson
+Nied	AT - Niederoesterreich	Niederoesterreich
+Niig	JP - Niigata	Niigata
+Nilg	IN - Nilgiri District	Nilgiri District
+Ning	CN - Ningxia	Ningxia
+Norf	GB - Norfolk	Norfolk
+Nort	PH - Northern Samar	Northern Samar
+Nott	GB - Nottinghamshire	Nottinghamshire
+Nuev	PH - Nueva Vizcaya	Nueva Vizcaya
+OAX	MX - Oaxaca	Oaxaca
+OH	US - OHIO	OHIO
+OK	US - OKLAHOMA	OKLAHOMA
+ON	CA - Ontario	Ontario
+OR	US - OREGON	OREGON
+OV	NL - Overijssel	Overijssel
+Ober	AT - Oberoesterreich	Oberoesterreich
+Offa	IE - Offaly	Offaly
+Oita	JP - Oita	Oita
+Okay	JP - Okayama	Okayama
+Okin	JP - Okinawa	Okinawa
+Oren	ES - Orense	Orense
+Oris	IN - Orissa	Orissa
+Osak	JP - Osaka	Osaka
+Otag	NZ - Otago	Otago
+Oxfo	GB - Oxfordshire	Oxfordshire
+PA	US - PENNSYLVANIA	PENNSYLVANIA
+PC	IT - Piacenza	Piacenza
+PD	IT - Padova	Padova
+PE	IT - Pescara	Pescara
+PG	IT - Perugia	Perugia
+PI	IT - Pisa	Pisa
+PN	IT - Pordenone	Pordenone
+PO	IT - Prato	Prato
+PR	US - PUERTO RICO	PUERTO RICO
+PS	IT - Pesaro-Urbino	Pesaro
+PT	IT - Pistoia	Pistoia
+PUE	MX - Puebla	Puebla
+PV	IT - Pavia	Pavia
+PW	US - PALAU	PALAU
+PZ	IT - Potenza	Potenza
+Paha	MY - Pahang	Pahang
+Pala	PH - Palawan	Palawan
+Pamp	PH - Pampanga	Pampanga
+Pang	PH - Pangasinan	Pangasinan
+Pani	IN - Panipat District	Panipat District
+Path	IN - Pathanamthitta District	Pathanamthitta District
+Pati	IN - Patiala District	Patiala District
+Patn	IN - Patna District	Patna District
+Paur	IN - Pauri Garhwal District	Pauri Garhwal District
+Pena	MY - Penang	Penang
+Pera	MY - Perak	Perak
+Peri	IN - Periyar District	Periyar District
+Perl	MY - Perlis	Perlis
+Pith	IN - Pithora Garh District	Pithora Garh District
+Pond	IN - Pondicherry	Pondicherry
+Pont	ES - Pontevedra	Pontevedra
+Powy	GB - Powys	Powys
+Prak	IN - Prakasam District	Prakasam District
+Pune	IN - Pune District	Pune District
+Punj	IN - Punjab	Punjab
+Purb	IN - Purbi Singhbhum District	Purbi Singhbhum District
+Puri	IN - Puri District	Puri District
+Puru	IN - Puruliya District	Puruliya District
+Putr	MY - Putrajaya	Putrajaya
+QC	CA - Quebec	Quebec
+QLD	AU - Queensland	Queensland
+QRO	MX - Quer√©taro	Quer√©taro
+QROO	MX - Quintana Roo	Quintana Roo
+Quez	PH - Quezon	Quezon
+RA	IT - Ravenna	Ravenna
+RC	IT - Reggio di Calabria	Reggio di Calabria
+RE	IT - Reggio nell'Emilia	Reggio nell'Emilia
+RG	IT - Ragusa	Ragusa
+RI	US - RHODE ISLAND	RHODE ISLAND
+RJ	BR - Rio de Janeiro	Rio de Janeiro
+RM	IT - Roma	Roma
+RN	IT - Rimini	Rimini
+RO	IT - Rovigo	Rovigo
+RR	BR - Roraima	Roraima
+RS	BR - Rio Grande do Sul	Rio Grande do Sul
+Raig	IN - Raigad District	Raigad District
+Raip	IN - Raipur District	Raipur District
+Raja	IN - Rajasthan	Rajasthan
+Rajk	IN - Rajkot District	Rajkot District
+Rajn	IN - Rajnandgaon District	Rajnandgaon District
+Rama	IN - Ramanathapuram District	Ramanathapuram District
+Ranc	IN - Ranchi District	Ranchi District
+Rang	IN - Rangareddy District	Rangareddy District
+Ratn	IN - Ratnagiri District	Ratnagiri District
+Riza	PH - Rizal	Rizal
+Roht	IN - Rohtak District	Rohtak District
+Romb	PH - Romblon	Romblon
+Rosc	IE - Roscommon	Roscommon
+Rupn	IN - Rupnagar District	Rupnagar District
+Rutl	GB - Rutland	Rutland
+SA	IT - Salerno	Salerno
+SC	US - SOUTH CAROLINA	SOUTH CAROLINA
+SD	US - SOUTH DAKOTA	SOUTH DAKOTA
+SE	BR - Sergipe	Sergipe
+SI	IT - Siena	Siena
+SIN	MX - Sinaloa	Sinaloa
+SK	CA - Saskatchewan	Saskatchewan
+SLP	MX - San Luis Potosi	San Luis Potosi
+SO	IT - Sondrio	Sondrio
+SON	MX - Sonora	Sonora
+SP	IT - La Spezia	La Spezia
+SR	IT - Siracusa	Siracusa
+SS	IT - Sassari	Sassari
+SV	IT - Savona	Savona
+Saba	MY - Sabah	Sabah
+Saga	JP - Saga	Saga
+Saha	IN - Saharanpur District	Saharanpur District
+Sait	JP - Saitama	Saitama
+Sala	ES - Salamanca	Salamanca
+Sale	IN - Salem District	Salem District
+Salz	AT - Salzburg	Salzburg
+Sama	PH - Samar	Samar
+Sang	IN - Sangli District	Sangli District
+Sant	ES - Santa Cruz de Tenerife	Santa Cruz de Tenerife
+Sara	PH - Sarangani	Sarangani
+Sata	IN - Satara District	Satara District
+Satn	IN - Satna District	Satna District
+Sawa	IN - Sawai Madhopur District	Sawai Madhopur District
+Sego	ES - Segovia	Segovia
+Sela	MY - Selangor	Selangor
+Sevi	ES - Sevilla	Sevilla
+Shaa	CN - Shaanxi	Shaanxi
+Shan	IE - Shannon	Shannon
+Shig	JP - Shiga	Shiga
+Shim	JP - Shimane	Shimane
+Shiz	JP - Shizuoka	Shizuoka
+Shro	GB - Shropshire	Shropshire
+Sich	CN - Sichuan	Sichuan
+Sidh	IN - Sidhi District	Sidhi District
+Sikk	IN - Sikkim	Sikkim
+Sirs	IN - Sirsa District	Sirsa District
+Slig	IE - Sligo	Sligo
+Sola	IN - Solapur District	Solapur District
+Some	GB - Somerset	Somerset
+Soni	IN - Sonitpur District	Sonitpur District
+Sors	PH - Sorsogon	Sorsogon
+Sout	PH - Southern Leyte	Southern Leyte
+Srin	IN - Srinagar District	Srinagar District
+Staf	GB - Staffordshire	Staffordshire
+Stra	GB - Strathclyde	Strathclyde
+Suff	GB - Suffolk	Suffolk
+Sura	IN - Surat District	Surat District
+Sure	IN - Surendranagar District	Surendranagar District
+Suri	PH - Surigao del Sur	Surigao del Sur
+Surr	GB - Surrey	Surrey
+TA	IT - Taranto	Taranto
+TAB	MX - Tabasco	Tabasco
+TAMP	MX - Tamaulipas	Tamaulipas
+TAS	AU - Tasmania	Tasmania
+TE	IT - Teramo	Teramo
+TLAX	MX - Tlaxcala	Tlaxcala
+TN	US - TENNESSEE	TENNESSEE
+TO	IT - Torino	Torino
+TP	IT - Trapani	Trapani
+TR	IT - Terni	Terni
+TS	IT - Trieste	Trieste
+TV	IT - Treviso	Treviso
+TX	US - TEXAS	TEXAS
+Tami	IN - Tamil Nadu	Tamil Nadu
+Tara	NZ - Taranaki	Taranaki
+Tarl	PH - Tarlac	Tarlac
+Tarr	ES - Tarragona	Tarragona
+Tasm	NZ - Tasman	Tasman
+Tays	GB - Tayside	Tayside
+Tehr	IN - Tehri Garhwal District	Tehri Garhwal District
+Tere	MY - Terengganu	Terengganu
+Teru	ES - Teruel	Teruel
+Than	IN - Thanjavur District	Thanjavur District
+Thir	IN - Thiruvannamalai-Sambuvarayar District	Thiruvannamalai
+Thri	IN - Thrissur District	Thrissur District
+Tian	CN - Tianjin	Tianjin
+Tibe	CN - Tibet	Tibet
+Tipp	IE - Tipperary	Tipperary
+Tiro	AT - Tirol	Tirol
+Tiru	IN - Tirunelveli-Kottabomman District	Tirunelveli
+Toch	JP - Tochigi	Tochigi
+Toku	JP - Tokushima	Tokushima
+Toky	JP - Tokyo	Tokyo
+Tole	ES - Toledo	Toledo
+Tott	JP - Tottori	Tottori
+Toya	JP - Toyama	Toyama
+Trip	IN - Tripura	Tripura
+Tyne	GB - Tyne and Wear	Tyne and Wear
+UD	IT - Udine	Udine
+UT	US - UTAH	UTAH
+Udha	IN - Udham Singh Nagar District	Udham Singh Nagar District
+Utta	IN - Uttaranchal	Uttaranchal
+VA	US - VIRGINIA	VIRGINIA
+VB	IT - Verbania	Verbania
+VC	IT - Vercelli	Vercelli
+VE	IT - Venezia	Venezia
+VER	MX - Veracruz	Veracruz
+VI	US - VIRGIN ISLANDS	VIRGIN ISLANDS
+VIC	AU - Victoria	Victoria
+VR	IT - Verona	Verona
+VT	US - VERMONT	VERMONT
+VV	IT - Vibo Valentia	Vibo Valentia
+Vado	IN - Vadodara District	Vadodara District
+Vale	ES - Valencia	Valencia
+Vall	ES - Valladolid	Valladolid
+Vals	IN - Valsad District	Valsad District
+Vara	IN - Varanasi District	Varanasi District
+Vilu	IN - Viluppuram District	Viluppuram District
+Vish	IN - Vishakhapatnam District	Vishakhapatnam District
+Vizc	ES - Vizcaya	Vizcaya
+Vora	AT - Vorarlberg	Vorarlberg
+WA	US - WASHINGTON	WASHINGTON
+WI	US - WISCONSIN	WISCONSIN
+WV	US - WEST VIRGINIA	WEST VIRGINIA
+WY	US - WYOMING	WYOMING
+Waik	NZ - Waikato	Waikato
+Waka	JP - Wakayama	Wakayama
+Wara	IN - Warangal District	Warangal District
+Warw	GB - Warwickshire	Warwickshire
+Wate	IE - Waterford	Waterford
+Waya	IN - Wayanad District	Wayanad District
+Wein	AT - Wein	Wein
+Well	NZ - Wellington	Wellington
+West	NZ - West Coast	West Coast
+Wexf	IE - Wexford	Wexford
+Wick	IE - Wicklow	Wicklow
+Wilt	GB - Wiltshire	Wiltshire
+Worc	GB - Worcestershire	Worcestershire
+Xinj	CN - Xinjiang	Xinjiang
+YT	CA - Yukon	Yukon
+YUC	MX - Yucatan	Yucatan
+Yama	JP - Yamanashi	Yamanashi
+Yamu	IN - Yamunanagar District	Yamunanagar District
+York	GB - Yorkshire	Yorkshire
+Yunn	CN - Yunnan	Yunnan
+ZAC	MX - Zacatecas	Zacatecas
+ZH	NL - Zuid-Holland	Zuid
+ZLD	NL - Zeeland	Zeeland
+Zamb	PH - Zamboanga del Sur	Zamboanga del Sur
+Zara	ES - Zaragoza	Zaragoza
+Zhej	CN - Zhejiang	Zhejiang

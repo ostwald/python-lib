@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSkyWebService>
+   <Search>
+      <resultInfo>
+         <query>
+            <param name="output">xml</param>
+            <param name="q">upid:"2775"</param>
+            <param name="start">0</param>
+            <param name="sort">date desc</param>
+            <param name="rows">10</param>
+            <param name="facet">true</param>
+         </query>
+         <response>
+            <numFound>1</numFound>
+            <numResults>1</numResults>
+            <start>0</start>
+         </response>
+      </resultInfo>
+
+      <results>
+         <result>
+            <head>
+               <upid> 7721 </upid>
+               <upid> 2775 </upid>
+               <keyDate> 2011-02-01T00:00:00Z </keyDate>
+               <keyDateYMD> 2011-02-01 </keyDateYMD>
+               <nldrCitableUrl>
+                  http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-003-570 </nldrCitableUrl>
+               <keyDateYear> 2011 </keyDateYear>
+               <PID> articles:10787 </PID>
+               <ark> ark:/85065/d7qn679d </ark>
+               <doi> 10.1002/asi.21437 </doi>
+            </head>
+            <metadata>
+
+               <mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5"
+                  xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+                  <recordInfo>
+                     <recordIdentifier source="CoBA">OSGC-000-000-003-570</recordIdentifier>
+                     <recordCreationDate encoding="w3cdtf">2011-08-25</recordCreationDate>
+                     <recordChangeDate encoding="w3cdtf">2015-10-09</recordChangeDate>
+                     <recordContentSource>NCAR Library and Archives</recordContentSource>
+                     <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                        framework.</recordOrigin>
+                     <recordOrigin>This record was transformed using the following files:
+                        osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                        osm-article-to-mods.xsl.</recordOrigin>
+                     <languageOfCataloging>
+                        <languageTerm type="text">English</languageTerm>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                     </languageOfCataloging>
+                  </recordInfo>
+                  <titleInfo>
+                     <title>Computer-assisted asssignment of educational standards using natural
+                        language processing</title>
+                  </titleInfo>
+                  <name type="personal" valueURI="7721" authorityURI="https://people.ucar.edu"
+                     authority="UCAR People Database" usage="primary">
+                     <namePart type="given">Holly</namePart>
+                     <namePart type="family">Devaul</namePart>
+                     <displayForm>Holly Devaul</displayForm>
+                     <role>
+                        <roleTerm type="text" authority="marcrelator">author</roleTerm>
+                        <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                     </role>
+                     <affiliation>University Corporation For Atmospheric Research (UCAR):UCAR
+                        Community Programs (UCP):Digital Learning Sciences (DLS)</affiliation>
+                  </name>
+                  <name type="personal">
+                     <namePart type="given">Anne</namePart>
+                     <namePart type="given">R.</namePart>
+                     <namePart type="family">Diekema</namePart>
+                     <displayForm>Anne R. Diekema</displayForm>
+                     <role>
+                        <roleTerm type="text" authority="marcrelator">author</roleTerm>
+                        <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                     </role>
+                  </name>
+                  <name type="personal" valueURI="2775" authorityURI="https://people.ucar.edu"
+                     authority="UCAR People Database">
+                     <namePart type="given">Jonathan</namePart>
+                     <namePart type="given">L.</namePart>
+                     <namePart type="family">Ostwald</namePart>
+                     <displayForm>Jonathan L. Ostwald</displayForm>
+                     <role>
+                        <roleTerm type="text" authority="marcrelator">author</roleTerm>
+                        <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                     </role>
+                     <affiliation>University Corporation For Atmospheric Research (UCAR):UCAR
+                        Community Programs (UCP):Digital Learning Sciences (DLS)</affiliation>
+                  </name>
+                  <typeOfResource>text</typeOfResource>
+                  <genre authority="marcgt">article</genre>
+                  <originInfo>
+                     <dateIssued encoding="w3cdtf" keyDate="yes">2011-02-01</dateIssued>
+                     <publisher>John Wiley &amp; Sons</publisher>
+                  </originInfo>
+                  <language>
+                     <languageTerm type="code" authority="rfc5646">en</languageTerm>
+                  </language>
+                  <abstract lang="eng">Educational standards are a central focus of the current
+                     educational system in the United States, underpinning educational practice,
+                     curriculum design, teacher professional development, and high-stakes testing
+                     and assessment. Digital library users have requested that this information be
+                     accessible in association with digital learning resources to support teaching
+                     and learning as well as accountability requirements. Providing this information
+                     is complex because of the variability and number of standards documents in use
+                     at the national, state, and local level. This article describes a cataloging
+                     tool that aids catalogers in the assignment of standards metadata to digital
+                     library resources, using natural language processing techniques. The research
+                     explores whether the standards suggestor service would suggest the same
+                     standards as a human, whether relevant standards are ranked appropriately in
+                     the result set, and whether the relevance of the suggested assignments improve
+                     when, in addition to resource content, metadata is included in the query to the
+                     cataloging tool. The article also discusses how this service might streamline
+                     the cataloging workflow.</abstract>
+                  <subject authority="osm-keyword">
+                     <topic>Digital Learning Sciences Publications</topic>
+                  </subject>
+                  <relatedItem type="host">
+                     <titleInfo>
+                        <title>Journal of the American Society for Information Science and
+                           Technology</title>
+                     </titleInfo>
+                     <part>
+                        <detail type="volume">
+                           <number>62</number>
+                        </detail>
+                        <detail type="issue">
+                           <number>2</number>
+                        </detail>
+                        <extent unit="page">
+                           <start>395</start>
+                           <end>405</end>
+                           <list>395-405</list>
+                        </extent>
+                        <extent unit="pages">
+                           <total>11</total>
+                        </extent>
+                     </part>
+                  </relatedItem>
+                  <extension>
+                     <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm"
+                        >Refereed</osm:classification>
+                  </extension>
+                  <extension>
+                     <osm:collaboration xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">UCAR
+                        and University</osm:collaboration>
+                  </extension>
+                  <extension>
+                     <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm"
+                        >articles</osm:collectionKey>
+                  </extension>
+                  <relatedItem type="isReferencedBy">
+                     <identifier type="uri">http://dx.doi.org/10.1002/asi.21437</identifier>
+                  </relatedItem>
+                  <identifier type="uri" displayLabel="Legacy citable URL"
+                     >http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-003-570</identifier>
+                  <identifier type="doi">10.1002/asi.21437</identifier>
+                  <identifier type="wos">000286687300013</identifier>
+                  <identifier type="ark">ark:/85065/d7qn679d</identifier>
+                  <accessCondition type="use and reproduction">Copyright 2011 John Wiley &amp;
+                     Sons.</accessCondition>
+               </mods>
+            </metadata>
+         </result>
+      </results>
+   </Search>
+</OpenSkyWebService>

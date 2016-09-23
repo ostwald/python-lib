@@ -1,0 +1,112 @@
+#!/usr/bin/env python
+
+"""
+this is the command-line script that produces vocab reports
+
+"""
+
+import os, sys
+
+class CommandError (Exception):
+	pass
+	
+class SimpleCommandError (CommandError):
+	"""
+	does not display usage data
+	"""
+		
+collection_params = {
+	'instname' : {
+		'vocabUrl' : 'http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/vocabs/instName.xsd',
+		'typeName' : 'instNameType',
+		'vocab_field' : [
+				'/key//record/contributors/person/affiliation/instName',
+				'/key//record/contributors/organization/affiliation/instName'
+			]
+	},
+	
+	'eventname' : {
+		'vocabUrl' : 'http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/vocabs/eventName.xsd',
+		'typeName' : 'eventNameType',
+		'vocab_field' : '/key//record/general/eventName'
+		},
+		
+		
+	'fundingentity' : {
+		'vocabUrl' : 'http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/vocabs/fundingEntity.xsd',
+		'typeName' : 'fundingEntityType',
+		'vocab_field' : '/key//record/classify/fundingEntity'
+		},	
+		
+	'pubname' : [
+		{
+			'vocabUrl' : 'http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/vocabs/pubName.xsd',
+			'typeName' : 'pubNameType',
+			'vocab_field' : '/key//record/general/pubName'
+		},
+		{
+			'vocabUrl' : 'http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/vocabs/NCARbookPubName.xsd',
+			'typeName' : 'NCARbookType',
+			'vocab_field' : '/key//record/general/pubName'
+		}
+	]
+}
+
+usage = """\nUSAGE: vocab_reporter vocab dest [showNonOccuringVocabs]
+  
+    Example: vocab_reporter instName . (writes instName report to the current directory, omitting non-occuring vocabs)
+    Example: vocab_reporter instName . true (writes instName report to the current directory, including non-occuring vocabs)
+    Example: vocab_reporter instName /users/smith/reports (writes report to named directory, omitting non-occuring vocabs)
+  
+	Example: vocab_reporter [help] - prints this message
+  
+   Avaliable vocabs:
+      %s
+""" % '\n      '.join(collection_params.keys())
+
+if __name__ == "__main__":
+	try:
+		if len(sys.argv) < 2:
+			raise CommandError, "vocab (e.g., 'instname') is required"
+		collection = sys.argv[1].lower()
+		if collection == 'help':
+			raise CommandError
+			
+		if not collection in collection_params.keys():
+			raise SimpleCommandError, 'Unknown vocab: %s' % collection
+			
+		if len (sys.argv) < 3:
+			raise CommandError, "dest is required (use '.' for current directory"
+			
+		dest = os.path.join (os.getcwd(), sys.argv[2])
+				
+		if not os.path.isdir (dest):
+			raise SimpleCommandError, "dest must be to a directory"
+			
+		threshold = None
+		if len (sys.argv) > 3:
+			if sys.argv[3] == 'true':
+				threshold = 0
+			
+	except CommandError, err:
+		# print 'err class: %s' % err.__class__.__name__
+		msg = str(err)
+		if msg is not None and msg.strip():
+			print 'ERROR: ', msg
+		if not isinstance (err, SimpleCommandError):
+			print usage
+
+		sys.exit()
+		
+	print "\n========================="
+	print 'calling vocab_reporter: vocab: %s, dest: %s' % (collection, dest)
+		
+	sys.path.insert (0, '/home/ostwald/python-lib')
+	from ncar_lib.repository.reports.vocabs import VocabUsageReporter, MergingVocabUsageReporter
+	
+	params = collection_params[collection]
+	if type(params) == type([]):
+		reporter = MergingVocabUsageReporter(params, collection, threshold)
+	else:
+		reporter = VocabUsageReporter (params['vocabUrl'], params['typeName'], params['vocab_field'], threshold)
+	reporter.makeReport(dest)

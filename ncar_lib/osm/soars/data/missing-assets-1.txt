@@ -1,0 +1,239 @@
+6 : Hurricane &Tropical Storm Impacts over the South Florida Metropolitan Area: mortality & government
+	getAsset: no asset found for "Colon Pagan, Ian Carlos (2007)"
+	assetID: 2007_Colon_Pagan_Ian.pdf
+
+13 : The Daily Cycle of Winds at Estacion Obispo, Mexico, during the North American Monsoon
+	getAsset: no asset found for "Jones Jr., McArthur (2007)"
+	assetID: 2007_Jones_McArthur.pdf
+
+15 : Imrpoving Data Quality when Sampling Oxygen-18 Isotopes in Atmospheric Carbon Dioxide
+	getAsset: no asset found for "Pardo Rodriquez, Lumari (2007)"
+	assetID: 2007_Pardo_Lumari.pdf
+
+16 : Transport & Dispersion Model Sensitivity to Input Winds and Source Location
+	getAsset: no asset found for "Rodriguez-Manzanet, Luna (2007)"
+	assetID: 2007_Rodriguez_Manzanet_Luna.pdf
+
+26 : A comparison of large-scale influences on tropical cyclogenesis in the Eastern Pacific
+	getAsset: no asset found for "Didlake, Anthony (2006)"
+	assetID: 2005_Didlake_Anthony.pdf
+
+33 : Comparison of CHAMP Radio Occultations with Global Model Forecasts: 2005 Hurricane Season
+	getAsset: more than one asset found for "Hernandez, Michael (2006)"
+	assetID: 2006_Hernandez_Michael.pdf
+
+39 : Meteorological conditions of extreme dust events in the Chihuahuan desert region of the United States and Mexico
+	getAsset: no asset found for "Rivera Rivera, Nancy (2006)"
+	assetID: 2006_Rivera_Nancy.pdf
+
+40 : Assessing the Precision of GPS Radio Occultation
+	getAsset: no asset found for "Rodriguez-Manzanet, Luna (2006)"
+	assetID: 2006_Rodriguez_Luna.pdf
+
+60 : Characterization of dust storms sources in southwestern U.S. and northern Mexico using remote sensing imagery
+	getAsset: no asset found for "Rivera Rivera, Nancy (2005)"
+	assetID: 2005_Rivera_Nancy.pdf
+
+62 : The Assesssment of Sand Dune Mobility from 1980 through 2004 on the Moenkopi Plateau of the Navajo Nation
+	getAsset: no asset found for "Kahn-Thornbrugh, Casey (2005)"
+	assetID: 2005_Thornbrugh_Casey.pdf
+
+83 : Analysis of the anthropogenic contribution to mineral aerosols
+	getAsset: no asset found for "De Rivera Rivera, Garymar (2004)"
+	assetID: 2004_De_Rivera_Rivera_Garymar.pdf
+
+84 : Heigth Corrections of Lower Tropospheric Wind Profiles
+	getAsset: no asset found for "Rivera Rivera, Nancy (2004)"
+	assetID: 2004_Rivera_Nancy.pdf
+
+97 : Testing and Modification of Two Infrared Gas Analyzers for CO2 Measurement
+	getAsset: no asset found for "Goyea, Olusegun (2003)"
+	assetID: 2003_Goyea _Olusegun.pdf
+
+104 : Numerical Simulation of the Formation of Hurricane Gabrielle (2001)
+	getAsset: no asset found for "Dollen-Musgrave, Kate (2003)"
+	assetID: 2002_Dollen_Kate.pdf
+
+110 : Contributing to the Prediction of Coastal Flooding: Simulating Wave Heights and Directions along the Coast of Barrow, Alaska
+	getAsset: no asset found for "Kahn-Thornbrugh, Casey (2003)"
+	assetID: 2003_Thornbrugh_Casey.pdf
+
+112 : Planetary Boundary Layer Heights: Lidar and Radiosonde Based Observations
+	getAsset: no asset found for "Walford Thompson, Segayle (2003)"
+	assetID: 2003_Walford_Segayle.pdf
+
+118 : Analysis of Ozone and Meteorological Balloon Profile Data from Summit, Greenland
+	getAsset: no asset found for "De Rivera Rivera, Garymar (2002)"
+	assetID: 2002_ De_Rivera_Rivera_Garymar.pdf
+
+119 : Numerical Simulation of the Transformation of the Pre-Hurricane Gabrielle (2001) Disturbance into a Warm-Core System
+	getAsset: no asset found for "Dollen-Musgrave, Kate (2002)"
+	assetID: 2002_Dollen_Kate.pdf
+
+130 : Analysis of Seasonal and Diurnal Trends in Surface Ozone Concentrations from Arctic Research Sites (Summit/Greenland; Barrow/Alaska)
+	getAsset: no asset found for "Rivera Rivera, Nancy (2002)"
+	assetID: 2002_Rivera_Nancy.pdf
+
+131 : Dependence of Oxidant Formation on NOx in the Atmosphere of Mexico City
+	getAsset: no asset found for "Sands, J (2002)"
+	assetID: 2002_Sand_Summer.pdf
+
+134 : Predicting High-Wind Events impacting Barrow, Alaska through Analysis of Past Regional Sea-Level Pressure Patterns
+	getAsset: no asset found for "Kahn-Thornbrugh, Casey (2002)"
+	assetID: 2002_Thornbrugh_Casey.pdf
+
+136 : Analysis of Moist Processes using TRMM satellite data and NASA's Global Climate Model
+	getAsset: no asset found for "Walford Thompson, Segayle (2002)"
+	assetID: 2002_Walford_Segayle.pdf
+
+141 : Using Ensemble Forecasting to Estimate the Background Error Covariance for Data Assimilation
+	getAsset: no asset found for "Dollen-Musgrave, Kate (2001)"
+	assetID: 2001_Dollen_Kate.pdf
+
+143 : An Empirical Model of Ground Based Magnetometer Data for the Study of Electric Currents in the Ionosphere over the Polar Region
+	getAsset: more than one asset found for "Johnson, Michael (2001)"
+	assetID: 2001_Johnson_Michael.pdf
+
+144 : Tethered Balloon Measurements of Boundary Layer Ozone Profiles Over the Amazon Rainforest
+	getAsset: more than one asset found for "Johnson, Theresa (2001)"
+	assetID: 2001_Johnson_Theresa.pdf
+
+145 : The Effective Use of Qualitative Methods in Establishing Best Practices in an Academic Bridge Program
+	getAsset: no asset found for "Kelly, Resa (2001)"
+	assetID: 
+
+148 : Comparing two perturbation methods for ensemble forecasting in the case of an anomaly regime shift: Part 1
+	getAsset: more than one asset found for "Navarro, Bradley (2001)"
+	assetID: 2001_Navarro_Bradley.pdf
+
+149 : MOPITT Observations of CO Near and Far From Urban/Industrial Regions
+	getAsset: more than one asset found for "Navarro, Fabiola (2001)"
+	assetID: 2001_Navarro_Fabiola.pdf
+
+153 : Estimating Snowfall Rates using Polarimetric Radar Data
+	getAsset: more than one asset found for "Rodriguez, Yarice (2001)"
+	assetID: 2001_Rodriguez_Yarice.pdf
+
+154 : Isoprene-Producing Bacteria in the Rhizosphere
+	getAsset: no asset found for "Wood, Yasmin (2001)"
+	assetID: 
+
+158 : Are America's Cities Ready for the Hot Times Ahead?
+	getAsset: no asset found for "Kahn-Thornbrugh, Casey (2001)"
+	assetID: 2001_Thornbrugh_Casey.pdf
+
+159 : Comparing Properties of Cirrus Clouds in the Tropics and Mid-latitudes
+	getAsset: no asset found for "Walford Thompson, Segayle (2001)"
+	assetID: 2001_Walford_Segayle.pdf
+
+161 : Modeling wildfire behavior and analyzing emissions
+	getAsset: no asset found for "Cameron, Marques (2009)"
+	assetID: 
+
+163 : Decrease in the summer rainfall of the southern United States coast and the Caribbean due to climate change
+	getAsset: no asset found for "Cespedes, Roque (2009)"
+	assetID: 
+
+165 : A citizen science campaign encouraging urban forest professionals to engage the public in the collection of tree phenological data
+	getAsset: no asset found for "Clarke, Karl (2009)"
+	assetID: 
+
+166 : Comparison of water vapor measurements from GPS atmospheric remote sensing techniques
+	getAsset: no asset found for "Colon Pagan, Ian Carlos (2008)"
+	assetID: 2008_Colon-Pagan_Ian.pdf
+
+167 : Orographic effects on rainfall induced by the passage of tropical cyclones over mountainous islands.  Part 1:  The effect of cloud microphysics
+	getAsset: no asset found for "Colon Pagan, Ian Carlos (2009)"
+	assetID: 
+
+169 : Effects of meteorology on particle transport at the Storm Peak Laboratory (SPL)
+	getAsset: more than one asset found for "Diaz, Karen (2008)"
+	assetID: 2008_Diaz_Karen.pdf
+
+170 : Analysis of daily monssonal wind circulations in the lower troposphere over Estacion Obispo, Mexico, using wind profilers and the Gulf Surge Index
+	getAsset: more than one asset found for "Diaz, Sandra (2008)"
+	assetID: 2008_Diaz_Sandra.pdf
+
+173 : Reconsidering the role of Rossby waves in the Madden-Julian Oscillation (MJO)
+	getAsset: no asset found for "Gonzalez, Alex (2009)"
+	assetID: 
+
+174 : A statistical comparison of vertical Total Electron Content (TEC) from three ionospheric models
+	getAsset: no asset found for "Jones Jr., McArthur (2008)"
+	assetID: 2008_Jones_McArthur.pdf
+
+175 : Eliassen-Palm fluxes of the diurnal tides from Whole Atmospheric Community Climate Model-Extended (WACCM-X)
+	getAsset: no asset found for "Jones Jr., McArthur (2009)"
+	assetID: 
+
+176 : Modeling Antarctica
+	getAsset: no asset found for "Mata, Ramiro (2008)"
+	assetID: 
+
+179 : Different ways of knowing:  Exploring traditional ecological knowledge and climate modeling for the Turtle Mountains, North Dakota
+	getAsset: no asset found for "Pauzauskie, Dana (2009)"
+	assetID: 
+
+180 : Urban transport and dispersion sensitivity ot wind direction and source location
+	getAsset: no asset found for "Rodriguez-Manzanet, Luna (2008)"
+	assetID: 
+
+182 : Analyzing soil moisture and runoff variability in the Manitou Springs Experiemental Forest
+	getAsset: no asset found for "Tahchawwickah Butler, Chahta (2008)"
+	assetID: 
+
+183 : Propagation of precipitating trade wind cumulus clouds using detailed radar images from the RICO Project
+	getAsset: no asset found for "Villanueva-Birriel, Cecille (2008)"
+	assetID: 2008_Villanueva_Cecille.pdf
+
+185 : Re-examination of Northeast United States drought trends and characteristics
+	getAsset: no asset found for "Walter, Marcus (2009)"
+	assetID: 
+
+187 : Poleward moisture transport by recurving tropical cyclones and its effect on mid-latitude precipitation
+	getAsset: no asset found for "Boone, Graylen (2009)"
+	assetID: 
+
+188 : The effects of cloud cover on photosynthesis in a sub-alpine forest ecosystem focusing on Niwot Ridge, Colorado
+	getAsset: no asset found for "Detweiler, Raymond (2009)"
+	assetID: 
+
+189 : Evaluating the effects of latent heating in tropical cyclone Sinlaku's extratroplical transition using ARW and energetics analysis
+	getAsset: no asset found for "Hernandez, Michael (2009)"
+	assetID: 
+
+190 : A higher order tracer transport scheme for icosahedral hexagonal grid
+	getAsset: no asset found for "Menchaca, Maximo (2009)"
+	assetID: 
+
+191 : Climatology of precipitation in West Africa through observational studies
+	getAsset: no asset found for "Morris, Imani (2009)"
+	assetID: 
+
+192 : The effects of convective clouds on vertical scalar transport using a numerically simulated flow field
+	getAsset: no asset found for "Ngo, Nicole (2009)"
+	assetID: 
+
+193 : Lightning activity in Atlantic tropical cyclones:  Using the Long-range Lightnin Detection Network (LLDN)
+	getAsset: no asset found for "Pardo Rodriquez, Lumari (2009)"
+	assetID: 
+
+194 : Comparison of the VORTRAC retrieved structure of Hurricane Danny (1997) to prior analyses
+	getAsset: no asset found for "Paulus, Matthew (2009)"
+	assetID: 
+
+195 : Flash floods:  a spatial and temporal analysis.  A case study of the March 2008 flash floods in southwestern Missouri
+	getAsset: no asset found for "Pollak, Daniel (2009)"
+	assetID: 
+
+196 : The reslationship between sea breezes and rainfall along western Mexico during the North American Monsoon
+	getAsset: no asset found for "Vincente, Vanessa (2009)"
+	assetID: 
+
+197 : Model analysis of 27-day solar induced variability of chemical dynamics in the equatorial upper and middle atmosphere
+	getAsset: no asset found for "Yanchilina, Anastasia (2009)"
+	assetID: 
+
+198 : Comparison of ABL heights derived from COSMIC RO and the RUC Model
+	getAsset: no asset found for "Goode, Sharome (2009)"
+	assetID: 

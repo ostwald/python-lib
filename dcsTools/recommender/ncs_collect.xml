@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://ns.nsdl.org/ncs" 
+	xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_collect/1.02/schemas/ncs-collect.xsd">
+  <general>
+    <recordID>NCR-000-000-000-018</recordID>
+    <url>http://qper.com/flimk</url>
+    <title>All About Butterflies</title>
+    <description>Test collection for butterfly identification</description>
+
+    <subjects>
+      <gemSubject>Health</gemSubject>
+      <gemSubject>Mathematics</gemSubject>
+    </subjects>
+    <languages>
+      <code>en</code>
+    </languages>
+
+  </general>
+  <educational>
+    <educationLevels>
+      <nsdlEdLevel>Early Elementary</nsdlEdLevel>
+      <nsdlEdLevel>Elementary School</nsdlEdLevel>
+      <nsdlEdLevel>Upper Elementary</nsdlEdLevel>
+      <nsdlEdLevel>Elementary School</nsdlEdLevel>
+
+    </educationLevels>
+    <types>
+      <dcmiType>Collection</dcmiType>
+    </types>
+  </educational>
+  <collection>
+    <date>2007-07-05</date>
+    <brandURL>http://nsdl.org/brands/NCR-000-000-000-018.jpg</brandURL>
+
+    <imageHeight>30</imageHeight>
+    <imageWidth>100</imageWidth>
+    <altText/>
+    <contacts>
+      <contact email="sclark@ucar.edu" name="Sharon"/>
+    </contacts>
+    <ingest>
+      <direct>asdf</direct>
+
+    </ingest>
+  </collection>
+</record>
+
+
+
+
+
+
+
+          
+
+

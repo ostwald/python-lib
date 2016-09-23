@@ -1,0 +1,51 @@
+<ShapeComponents shape="Line">
+	<Geom IX="0">
+		<NoFill>0</NoFill>
+		<NoLine>0</NoLine>
+		<MoveTo IX="1">
+			<X F="Width*0.000000"></X>
+			<Y F="Height*1.000000"></Y>
+		</MoveTo>
+		<LineTo IX="2">
+			<X F="Width*1.000000"></X>
+			<Y F="Height*1.000000"></Y>
+		</LineTo>
+		<LineTo IX="3">
+			<X F="Width*1.000000"></X>
+			<Y F="Height*0.000000"></Y>
+		</LineTo>
+		<LineTo IX="4">
+			<X F="Width*0.000000"></X>
+			<Y F="Height*0.000000"></Y>
+		</LineTo>
+		<LineTo IX="5">
+			<X F="Width*0.000000"></X>
+			<Y F="Height*1.000000"></Y>
+		</LineTo>
+	</Geom>
+	
+	<Connections>
+		<Connection ID="0">
+			<X F="Width*0.500000"></X>
+			<Y F="Height*0.000000"></Y>
+			<Type>0</Type>
+		</Connection>
+		<Connection ID="1">
+			<X F="Width*0.500000"></X>
+			<Y F="Height*1.000000"></Y>
+			<Type>0</Type>
+		</Connection>
+		<Connection ID="2">
+			<X F="Width*1.000000"></X>
+			<Y F="Height*0.500000"></Y>
+			<Type>0</Type>
+		</Connection>
+		<Connection ID="3">
+			<X F="Width*0.000000"></X>
+			<Y F="Height*0.500000"></Y>
+			<Type>0</Type>
+		</Connection>
+	</Connections>
+	
+</ShapeComponents>
+

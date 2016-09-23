@@ -1,0 +1,1 @@
+from ncs.NcsCollectRecord import NCSCollectRecord

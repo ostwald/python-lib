@@ -1,0 +1,18 @@
+Bad Term	Good Term
+Journal of Geophysical Research - Atmospheres	Journal of Geophysical Research-Atmospheres
+Journal of Geophysical Research - Biogeosciences	Journal of Geophysical Research-Biogeosciences
+Journal of Geophysical Research - Earth Surface	Journal of Geophysical Research-Earth Surface
+Journal of Geophysical Research - Oceans	Journal of Geophysical Research-Oceans
+Journal of Geophysical Research - Planets	Journal of Geophysical Research-Planets
+Journal of Geophysical Research - Solid Earth	Journal of Geophysical Research-Solid Earth
+Journal of Geophysical Research - Space Physics	Journal of Geophysical Research-Space Physics
+Journal of Geophysical Research-atmospheres	Journal of Geophysical Research-Atmospheres
+Journal of Geophysical Research-biogeosciences	Journal of Geophysical Research-Biogeosciences
+Journal of Geophysical Research-earth Surface	Journal of Geophysical Research-Earth Surface
+Journal of Geophysical Research-oceans	Journal of Geophysical Research-Oceans
+Journal of Geophysical Research-oceans and Atmospheres	Journal of Geophysical Research-Oceans and Atmospheres
+Journal of Geophysical Research-planets	Journal of Geophysical Research-Planets
+Journal of Geophysical Research-solid Earth	Journal of Geophysical Research-Solid Earth
+Journal of Geophysical Research-solid Earth and Planets	Journal of Geophysical Research-Solid Earth and Planets
+Journal of Geophysical Research-space Physics	Journal of Geophysical Research-Space Physics
+Journal of hazardous materials	Journal of Hazardous Materials

@@ -1,0 +1,166 @@
+body, td {
+	font-family: arial;
+	font-size:80%;
+	/* overflow-y: hidden; */
+}
+
+h1 {
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#align-popup {
+	position:absolute;
+	border:black 1px solid;
+	padding:10px;
+	/* width:80%; */
+	margin:3px;
+	background-color:white;
+	z-index:5;
+}
+
+.hierarchy {
+/*	width:100%;
+ 	height:100%;
+	overflow-y:scroll;  */
+}
+
+.highlight {
+	background-color:#f1f1b8;
+}
+
+.widget {
+	border:none;
+	height:11px;
+	width:11px;
+}
+
+.std-file {
+	font-family: arial;
+	text-align:left;
+	font-style:italic;
+	margin-bottom:10px;
+}
+
+.tool-bar {
+	width:100%;
+	border-top:blue 1px solid;
+	border-bottom:blue 1px solid;
+	text-align:center;
+	margin-bottom:10px;
+	padding:3px;
+}
+	
+.tool-bar-button {
+	margin:0px 3px 0px 3px;
+}
+
+.doc-title {
+	font-weight: bold;
+	font-size:150%;
+}
+
+.doc-description {
+	margin:5px 30px 10px 30px;
+}
+
+.std-id, .std-id a {
+	text-align:right;
+	font-size:.9em;
+	color:None;
+    font-family:verdana, arial;
+    font-weight:normal;
+	white-space:nowrap;
+}
+
+
+.node-text {
+ 	position:relative;
+	top:-13px;
+	left:25px;
+	margin-right:25px;
+	/* border:thin green dotted; */
+}
+
+#stats-overlay {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:200px;
+	height:15px;
+	display:none;
+	background-color:black;
+	opacity:0.;
+	z-index:2;
+}
+
+.std-stats {
+	position:relative;
+	top:-13px;
+	left:-8px;
+	border:2px black inset;
+	width:150px;
+	background-color:#ffffcc;
+	opacity:1.0;
+	z-index:1;
+	padding-left:25px;
+	display:none;
+}
+
+.widget {
+	position:relative;
+	top:0;
+	left:-6px;
+	width:12px;
+	z-index:3;
+	/* border:red thin dotted; */
+}
+
+.box {
+	border:1px solid white;
+/* 	border-top:1px solid white;
+	border-bottom:1px solid white;
+	border-right:1px solid white; */
+	border-left:1px #cccccc solid; 
+}
+
+/* adjust li and ul for embedded standards formatting */
+
+.std-content ul {
+	margin:4px 0px 4px 0px;
+} 
+
+.std-content ul li {
+	margin:2px 0px 2px 20px;
+} 
+
+
+.root-level, .level-0, .level-1, .level-2, .level-3, .level-4, .level-5 {
+	margin-left:25;
+	font-family:arial;
+}
+
+/* pop-up styles */
+.align-text {
+	font-family:helvetica; 
+	color:blue;
+	padding:5px;
+	border:blue 1px solid;
+}
+.closer {text-align:center; margin:20px 0px 0px 0px}
+.instr {font-size:10pt;text-align:center; margin:10px 0px 0px 0px}
+
+/* toc styles */
+
+.toc-link {
+	padding:1px;
+}
+
+.current-link {
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	padding:2px;
+}
+

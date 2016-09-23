@@ -1,0 +1,827 @@
+118 specs found
+
+14th Conference on Aviation, Range, and Aerospace Meteorology
+ - OSGC-000-000-000-812
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-812.xml
+wrote to OSGC-000-000-000-812 (osgc)
+
+14th Conference on Aviation, Range, and Aerospace Meteorology
+ - OSGC-000-000-000-848
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-848.xml
+wrote to OSGC-000-000-000-848 (osgc)
+
+14th Conference on Aviation, Range, and Aerospace Meteorology
+ - OSGC-000-000-000-874
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-874.xml
+wrote to OSGC-000-000-000-874 (osgc)
+
+14th Conference on Aviation, Range, and Aerospace Meteorology
+ - OSGC-000-000-000-873
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-873.xml
+wrote to OSGC-000-000-000-873 (osgc)
+
+14th Conference on Aviation, Range, and Aerospace Meteorology
+ - OSGC-000-000-000-864
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-864.xml
+wrote to OSGC-000-000-000-864 (osgc)
+
+14th Symposium on Integrated Observing and Assimilation Systems for the Atmosphere, Oceans and Land Surface (IOAS-AOLS)
+ - OSGC-000-000-000-864
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-864.xml
+wrote to OSGC-000-000-000-864 (osgc)
+
+17th Conference on Air-Sea Interaction, 17th Conference on Satellite Meteorology and Oceanography, Ninth Conference on Coastal Atmospheric and Oceanic Prediction and Processes
+ - OSGC-000-000-000-977
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-977.xml
+wrote to OSGC-000-000-000-977 (osgc)
+
+29th Conference on Agricultural and Forest Meteorology 19th Symposium on Boundary Layers and Turbulence Ninth Symposium on the Urban Environment
+ - OSGC-000-000-000-957
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-957.xml
+wrote to OSGC-000-000-000-957 (osgc)
+
+U.S. EPA's 2010 National Air Quality Conference
+ - OSGC-000-000-000-870
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-870.xml
+wrote to OSGC-000-000-000-870 (osgc)
+
+2nd AIAA Atmospheric and Space Environments Conference
+ - OSGC-000-000-000-970
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-970.xml
+wrote to OSGC-000-000-000-970 (osgc)
+
+2nd AIAA Atmospheric and Space Environments Conference
+ - OSGC-000-000-000-869
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-869.xml
+wrote to OSGC-000-000-000-869 (osgc)
+
+2nd AIAA Atmospheric and Space Environments Conference
+ - OSGC-000-000-000-875
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-875.xml
+wrote to OSGC-000-000-000-875 (osgc)
+
+Fifth International Symposium on Computational Wind Engineering
+ - OSGC-000-000-000-865
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-865.xml
+wrote to OSGC-000-000-000-865 (osgc)
+
+Fifth International Symposium on Computational Wind Engineering
+ - OSGC-000-000-000-837
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-837.xml
+wrote to OSGC-000-000-000-837 (osgc)
+
+Fifth International Symposium on Computational Wind Engineering
+ - OSGC-000-000-000-835
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-835.xml
+wrote to OSGC-000-000-000-835 (osgc)
+
+Ninth Conference on Artificial Intelligence and its Applications to the Environmental Sciences
+ - OSGC-000-000-000-962
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-962.xml
+wrote to OSGC-000-000-000-962 (osgc)
+
+Ninth Conference on Artificial Intelligence and its Applications to the Environmental Sciences
+ - OSGC-000-000-000-967
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-967.xml
+wrote to OSGC-000-000-000-967 (osgc)
+
+2010 Ninth International Symposium on Distributed Computing and Applications to Business, Engineering and Science
+ - OSGC-000-000-000-383
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-383.xml
+wrote to OSGC-000-000-000-383 (osgc)
+
+215th American Astronomical Society Meeting
+ - OSGC-000-000-000-795
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-795.xml
+wrote to OSGC-000-000-000-795 (osgc)
+
+215th American Astronomical Society Meeting
+ - OSGC-000-000-000-718
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-718.xml
+wrote to OSGC-000-000-000-718 (osgc)
+
+215th American Astronomical Society Meeting
+ - OSGC-000-000-000-720
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-720.xml
+wrote to OSGC-000-000-000-720 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-358
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-358.xml
+wrote to OSGC-000-000-000-358 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-805
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-805.xml
+wrote to OSGC-000-000-000-805 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-763
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-763.xml
+wrote to OSGC-000-000-000-763 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-793
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-793.xml
+wrote to OSGC-000-000-000-793 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-315
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-315.xml
+wrote to OSGC-000-000-000-315 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-809
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-809.xml
+wrote to OSGC-000-000-000-809 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-792
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-792.xml
+wrote to OSGC-000-000-000-792 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-527
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-527.xml
+wrote to OSGC-000-000-000-527 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-730
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-730.xml
+wrote to OSGC-000-000-000-730 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-766
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-766.xml
+wrote to OSGC-000-000-000-766 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-764
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-764.xml
+wrote to OSGC-000-000-000-764 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-533
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-533.xml
+wrote to OSGC-000-000-000-533 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-765
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-765.xml
+wrote to OSGC-000-000-000-765 (osgc)
+
+216th American Astronomical Society Meeting
+ - OSGC-000-000-000-526
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-526.xml
+wrote to OSGC-000-000-000-526 (osgc)
+
+EGU General Assembly 2010
+ - OSGC-000-000-000-867
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-867.xml
+wrote to OSGC-000-000-000-867 (osgc)
+
+EGU General Assembly 2010
+ - OSGC-000-000-000-866
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-866.xml
+wrote to OSGC-000-000-000-866 (osgc)
+
+HDF and HDF-EOS Workshop XIV
+ - OSGC-000-000-000-657
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-657.xml
+wrote to OSGC-000-000-000-657 (osgc)
+
+11th LCI International Conference on High-Performance Clustered Computing
+ - OSGC-000-000-000-661
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-661.xml
+wrote to OSGC-000-000-000-661 (osgc)
+
+GCE '09 Proceedings of the 5th Grid Computing Environments Workshop
+ - OSGC-000-000-000-658
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-658.xml
+wrote to OSGC-000-000-000-658 (osgc)
+
+90th American Meteorological Society Annual Meeting
+ - OSGC-000-000-000-959
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-959.xml
+wrote to OSGC-000-000-000-959 (osgc)
+
+BACIMO Conference 2010
+ - OSGC-000-000-000-964
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-964.xml
+wrote to OSGC-000-000-000-964 (osgc)
+
+BACIMO Conference 2010
+ - OSGC-000-000-000-960
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-960.xml
+wrote to OSGC-000-000-000-960 (osgc)
+
+BACIMO Conference 2010
+ - OSGC-000-000-000-965
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-965.xml
+wrote to OSGC-000-000-000-965 (osgc)
+
+BACIMO Conference 2010
+ - OSGC-000-000-000-974
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-974.xml
+wrote to OSGC-000-000-000-974 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-756
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-756.xml
+wrote to OSGC-000-000-000-756 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-753
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-753.xml
+wrote to OSGC-000-000-000-753 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-750
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-750.xml
+wrote to OSGC-000-000-000-750 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-754
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-754.xml
+wrote to OSGC-000-000-000-754 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-755
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-755.xml
+wrote to OSGC-000-000-000-755 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-739
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-739.xml
+wrote to OSGC-000-000-000-739 (osgc)
+
+4th HELAS International Conference
+ - OSGC-000-000-000-749
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-749.xml
+wrote to OSGC-000-000-000-749 (osgc)
+
+Quality and Reliability of Large-Eddy Simulations II
+ - OSGC-000-000-000-689
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-689.xml
+wrote to OSGC-000-000-000-689 (osgc)
+
+Proceedings of SPIE: Software and Cyberinfrastructure for Astronomy
+ - OSGC-000-000-000-607
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-607.xml
+wrote to OSGC-000-000-000-607 (osgc)
+
+National Radio Science Meeting
+ - OSGC-000-000-000-966
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-966.xml
+wrote to OSGC-000-000-000-966 (osgc)
+
+SOHO-23: Understanding a Peculiar Solar Minimum
+ - OSGC-000-000-000-791
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-791.xml
+wrote to OSGC-000-000-000-791 (osgc)
+
+SOHO-23: Understanding a Peculiar Solar Minimum
+ - OSGC-000-000-000-290
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-290.xml
+wrote to OSGC-000-000-000-290 (osgc)
+
+SOHO-23: Understanding a Peculiar Solar Minimum
+ - OSGC-000-000-000-532
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-532.xml
+wrote to OSGC-000-000-000-532 (osgc)
+
+SOHO-23: Understanding a Peculiar Solar Minimum
+ - OSGC-000-000-000-356
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-356.xml
+wrote to OSGC-000-000-000-356 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-780
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-780.xml
+wrote to OSGC-000-000-000-780 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-529
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-529.xml
+wrote to OSGC-000-000-000-529 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-370
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-370.xml
+wrote to OSGC-000-000-000-370 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-799
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-799.xml
+wrote to OSGC-000-000-000-799 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-724
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-724.xml
+wrote to OSGC-000-000-000-724 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-798
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-798.xml
+wrote to OSGC-000-000-000-798 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-366
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-366.xml
+wrote to OSGC-000-000-000-366 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-369
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-369.xml
+wrote to OSGC-000-000-000-369 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-781
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-781.xml
+wrote to OSGC-000-000-000-781 (osgc)
+
+Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21
+ - OSGC-000-000-000-811
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-811.xml
+wrote to OSGC-000-000-000-811 (osgc)
+
+Memorie della Societa Astronomica Italiana
+ - OSGC-000-000-000-316
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-316.xml
+wrote to OSGC-000-000-000-316 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-768
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-768.xml
+wrote to OSGC-000-000-000-768 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-814
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-814.xml
+wrote to OSGC-000-000-000-814 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-622
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-622.xml
+wrote to OSGC-000-000-000-622 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-320
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-320.xml
+wrote to OSGC-000-000-000-320 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-363
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-363.xml
+wrote to OSGC-000-000-000-363 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-703
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-703.xml
+wrote to OSGC-000-000-000-703 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-293
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-293.xml
+wrote to OSGC-000-000-000-293 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-294
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-294.xml
+wrote to OSGC-000-000-000-294 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-321
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-321.xml
+wrote to OSGC-000-000-000-321 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-619
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-619.xml
+wrote to OSGC-000-000-000-619 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-364
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-364.xml
+wrote to OSGC-000-000-000-364 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-586
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-586.xml
+wrote to OSGC-000-000-000-586 (osgc)
+
+The Second Hinode Science Meeting: Beyond Discovery-Toward Understanding
+ - OSGC-000-000-000-775
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-775.xml
+wrote to OSGC-000-000-000-775 (osgc)
+
+Twelfth International Solar Wind Conference
+ - OSGC-000-000-001-076
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-076.xml
+wrote to OSGC-000-000-001-076 (osgc)
+
+Twelfth International Solar Wind Conference
+ - OSGC-000-000-001-075
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-075.xml
+wrote to OSGC-000-000-001-075 (osgc)
+
+11th Annual WRF Users' Workshop
+ - OSGC-000-000-000-972
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-972.xml
+wrote to OSGC-000-000-000-972 (osgc)
+
+IAU Symposium 271: Astrophysical Dynamics - from Stars to Galaxies
+ - OSGC-000-000-000-790
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-790.xml
+wrote to OSGC-000-000-000-790 (osgc)
+
+Memorie della Societa Astronomica Italiana
+ - OSGC-000-000-000-771
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-000-771.xml
+wrote to OSGC-000-000-000-771 (osgc)
+
+90th American Meteorological Society Annual Meeting
+ - OSGC-000-000-001-276
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-276.xml
+wrote to OSGC-000-000-001-276 (osgc)
+
+90th American Meteorological Society Annual Meeting
+ - OSGC-000-000-001-262
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-262.xml
+wrote to OSGC-000-000-001-262 (osgc)
+
+90th American Meteorological Society Annual Meeting
+ - OSGC-000-000-001-261
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-261.xml
+wrote to OSGC-000-000-001-261 (osgc)
+
+National Radio Science Meeting
+ - OSGC-000-000-001-273
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-273.xml
+wrote to OSGC-000-000-001-273 (osgc)
+
+American Geophysical Union, Fall Meeting 2009
+ - OSGC-000-000-001-272
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-272.xml
+wrote to OSGC-000-000-001-272 (osgc)
+
+29th Conference on Agricultural and Forest Meteorology 19th Symposium on Boundary Layers and Turbulence Ninth Symposium on the Urban Environment
+ - OSGC-000-000-001-250
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-250.xml
+wrote to OSGC-000-000-001-250 (osgc)
+
+29th Conference on Agricultural and Forest Meteorology 19th Symposium on Boundary Layers and Turbulence Ninth Symposium on the Urban Environment
+ - OSGC-000-000-001-267
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-267.xml
+wrote to OSGC-000-000-001-267 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-275
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-275.xml
+wrote to OSGC-000-000-001-275 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-274
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-274.xml
+wrote to OSGC-000-000-001-274 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-270
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-270.xml
+wrote to OSGC-000-000-001-270 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-269
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-269.xml
+wrote to OSGC-000-000-001-269 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-207
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-207.xml
+wrote to OSGC-000-000-001-207 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-245
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-245.xml
+wrote to OSGC-000-000-001-245 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-249
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-249.xml
+wrote to OSGC-000-000-001-249 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-242
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-242.xml
+wrote to OSGC-000-000-001-242 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-243
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-243.xml
+wrote to OSGC-000-000-001-243 (osgc)
+
+34th Conference on Radar Meteorology
+ - OSGC-000-000-001-251
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-251.xml
+wrote to OSGC-000-000-001-251 (osgc)
+
+15th Conference on Applied Climatology/13th Symposium on Meteorological Observations and Instrumentation
+ - OSGC-000-000-001-264
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-264.xml
+wrote to OSGC-000-000-001-264 (osgc)
+
+15th Conference on Applied Climatology/13th Symposium on Meteorological Observations and Instrumentation
+ - OSGC-000-000-001-241
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-241.xml
+wrote to OSGC-000-000-001-241 (osgc)
+
+8th International Symposium on Tropospheric Profiling: Integration of Needs, Technologies and Applications
+ - OSGC-000-000-001-268
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-268.xml
+wrote to OSGC-000-000-001-268 (osgc)
+
+8th International Symposium on Tropospheric Profiling: Integration of Needs, Technologies and Applications
+ - OSGC-000-000-001-266
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-266.xml
+wrote to OSGC-000-000-001-266 (osgc)
+
+8th International Symposium on Tropospheric Profiling: Integration of Needs, Technologies and Applications
+ - OSGC-000-000-001-265
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-265.xml
+wrote to OSGC-000-000-001-265 (osgc)
+
+8th International Symposium on Tropospheric Profiling: Integration of Needs, Technologies and Applications
+ - OSGC-000-000-001-240
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-240.xml
+wrote to OSGC-000-000-001-240 (osgc)
+
+6th European Conference on Radar in Meteorology and Hydrology
+ - OSGC-000-000-001-263
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-263.xml
+wrote to OSGC-000-000-001-263 (osgc)
+
+6th European Conference on Radar in Meteorology and Hydrology
+ - OSGC-000-000-001-247
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-247.xml
+wrote to OSGC-000-000-001-247 (osgc)
+
+2nd SoWMEX/TiMREX Science Workshop
+ - OSGC-000-000-001-260
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-260.xml
+wrote to OSGC-000-000-001-260 (osgc)
+
+2nd SoWMEX/TiMREX Science Workshop
+ - OSGC-000-000-001-259
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-259.xml
+wrote to OSGC-000-000-001-259 (osgc)
+
+LACSEA 2009 Eleventh Topical Meeting
+ - OSGC-000-000-001-244
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-244.xml
+wrote to OSGC-000-000-001-244 (osgc)
+
+25th International Laser Radar Conference
+ - OSGC-000-000-001-239
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-239.xml
+wrote to OSGC-000-000-001-239 (osgc)
+
+5th European Conference on Severe Storms
+ - OSGC-000-000-001-248
+ - osgc
+ - osm
+unable to chmod on /tomcat/library_data/dcs/records/osm/osgc/OSGC-000-000-001-248.xml
+wrote to OSGC-000-000-001-248 (osgc)

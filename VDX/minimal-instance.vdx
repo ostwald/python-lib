@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument xmlns="http://schemas.microsoft.com/visio/2003/core">
+    <PrintSetup>
+        <PaperWidth>8.499999629126656</PaperWidth>
+        <PaperHeight>11</PaperHeight>
+        <PrintLandscape>0</PrintLandscape>
+        <PageLeftMargin>0.25</PageLeftMargin>
+        <PageRightMargin>0.25</PageRightMargin>
+        <PageTopMargin>0.25</PageTopMargin>
+        <PageBottomMargin>0.5694444444444444</PageBottomMargin>
+        <PrintCenteredH>1</PrintCenteredH>
+        <PrintCenteredV>1</PrintCenteredV>
+    </PrintSetup>
+    <Pages>
+        <Page ID="0" NameU="Canvas 1">
+            <PageSheet>
+                <PageProps>
+                    <PageScale>1</PageScale>
+                    <DrawingScale>1</DrawingScale>
+                    <PageWidth>7.999999629126655</PageWidth>
+                    <PageHeight>10.18055555555556</PageHeight>
+                </PageProps>
+            </PageSheet>
+            <Shapes>
+                <Shape ID="1" Type="Shape" Name="Rectangle No Fill No Fill.1">
+                    <XForm>
+                        <Angle>-0</Angle>
+                        <!--Pin locates (center of rotation) in relation to the origin of its parent-->
+                        <PinX>2.75</PinX>
+                        <PinY>7.180555555555555</PinY>
+                        <Width>1.5</Width>
+                        <Height>1</Height>
+                        
+                        <!--LocPin locates shapes pin (center of rotation) relative to origin of shape (typically F="width*0.5")-->
+                        <LocPinX>0.75</LocPinX>
+                        <LocPinY>0.5</LocPinY>
+                    </XForm>
+                    <Line>
+                    	<LinePattern>1</LinePattern>
+                        <LineWeight>0.0138</LineWeight>
+                        <LineColor>#0F7FFF</LineColor>
+                        <LineColorTrans>0</LineColorTrans>
+                        <Rounding>0</Rounding>
+                    </Line>
+                    <Geom IX="0">
+                        <NoFill>0</NoFill>
+                        <NoLine>0</NoLine>
+                        <MoveTo IX="1">
+                            <X F="Width*0.000000">0</X>
+                            <Y F="Height*1.000000">1</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*1.000000">1.5</X>
+                            <Y F="Height*1.000000">1</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.000000">1.5</X>
+                            <Y F="Height*0.000000">0</Y>
+                        </LineTo>
+                        <LineTo IX="4">
+                            <X F="Width*0.000000">0</X>
+                            <Y F="Height*0.000000">0</Y>
+                        </LineTo>
+                        <LineTo IX="5">
+                            <X F="Width*0.000000">0</X>
+                            <Y F="Height*1.000000">1</Y>
+                        </LineTo>
+                    </Geom>
+                </Shape>
+
+            </Shapes>
+            <Connects/>
+        </Page>
+    </Pages>
+</VisioDocument>
+

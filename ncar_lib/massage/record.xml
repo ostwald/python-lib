@@ -1,0 +1,66 @@
+<library_dc:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:library_dc="http://www.dlsciences.org/frameworks/library_dc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dlsciences.org/frameworks/library_dc http://www.dlsciences.org/frameworks/library_dc/1.0/schemas/library_dc.xsd">
+    <library_dc:recordID>
+        TECH-NOTE-000-000-000-834
+    </library_dc:recordID>
+    <library_dc:URL>
+        http://nldr.library.ucar.edu/collections/technotes/TECH-NOTE-000-000-000-834.pdf
+    </library_dc:URL>
+    <library_dc:issue>
+        NCAR/TN-470+STR
+    </library_dc:issue>
+    <dc:title>
+        Low Energy Auroral Electron and Ion Hemispheric Power After NOAA and DMSP Intersatellite Adjustments by Barbara A. Emery, David S. Evans, M. Sue Greer, Ernest Holeman, Katharine Kadinsky-Cade, Frederick J. Rich, Weibin Xu
+    </dc:title>
+    <library_dc:altTitle>
+        Low Energy Auroral Electron and Ion Hemispheric Power After NOAA and DMSP Intersatellite Adjustments
+    </library_dc:altTitle>
+    <dc:creator>
+        Emery, Barbara A.
+    </dc:creator>
+    <dc:contributor>
+        Evans, David S.
+    </dc:contributor>
+    <dc:contributor>
+        Greer, M. Sue
+    </dc:contributor>
+    <dc:contributor>
+        Holeman, Ernest
+    </dc:contributor>
+    <dc:contributor>
+        Kadinsky-Cade, Katharine
+    </dc:contributor>
+    <dc:contributor>
+        Rich, Frederick J.
+    </dc:contributor>
+    <dc:contributor>
+        Xu, Weibin
+    </dc:contributor>
+    <dc:date>
+        2006
+    </dc:date>
+    <dc:date/>
+    <library_dc:date_digitized>
+        2006
+    </library_dc:date_digitized>
+    <dc:subject>
+        Electron hemispheric power
+    </dc:subject>
+    <library_dc:instName>
+        National Center for Atmospheric Research (NCAR)
+    </library_dc:instName>
+    <library_dc:instDivision>
+        High Altitude Observatory (HAO)
+    </library_dc:instDivision>
+    <library_dc:libraryType>
+        REPORT
+    </library_dc:libraryType>
+    <dc:format>
+        PDF File, 2990 KB
+    </dc:format>
+    <dc:language>
+        English
+    </dc:language>
+    <dc:rights>
+        All uses of library resources, including the digitized collections, should be consistent with U.S. Copyright Law.
+    </dc:rights>
+</library_dc:record>

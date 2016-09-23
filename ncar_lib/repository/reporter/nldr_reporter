@@ -1,0 +1,130 @@
+#!/usr/bin/env python
+"""
+commands
+- report -props File <query> <columns>
+- report 
+"""
+import os, sys, inspect
+import optparse
+from ncar_lib.repository.reporter import Properties
+from ncar_lib.repository.reporter import Reporter, ReportResult
+from ncar_lib.repository.reporter import OsmReporter, OsmReportResult
+
+verbose = 0
+
+def getCommandLineArgs ():
+	"""
+	returns (options, args)
+	"""
+	# parser = argparse.ArgumentParser(description='NLDR Report Generator')
+	parser = optparse.OptionParser()
+
+	parser.add_option('-c',  '--columns',
+		action='store_true', 
+		dest="columns", 
+		default=False,
+		help="display the columns available for specified report")
+
+	parser.add_option('-p',  '--properties',
+		action="store", 
+		dest="properties", 
+		help="path to report properties file",
+		default="")
+	
+	return parser.parse_args()
+	
+	
+def getAbsolutePath (pathArg):
+	if not pathArg:
+		return None
+	if pathArg[0] == '/':
+		return pathArg
+	else:
+		return os.path.join(os.getcwd(), pathArg)
+
+
+def handleCommandLineArgs (commandLineArgs):
+	"""
+	a props file is required.
+	a -c flag causes columns to be displayed
+	when a report.file.path property is defined, write tab delimited there
+	otherwise print tabdelimited report to screen
+	"""
+	if verbose:
+		print '\n%s' % commandLineArgs
+	
+	options = commandLineArgs[0] # a dict
+	args = commandLineArgs[1] # a list
+		
+	if options.properties:
+		propsFile = getAbsolutePath(options.properties)
+		if verbose:
+			print 'make report with', propsFile
+		
+		try:
+			props = Properties (propsFile)
+			outputFile = getAbsolutePath(props.getProperty('report.file.path'))
+			try:
+				searcherVerbose = props.getProperty('searcher.verbose', None)
+				if searcherVerbose is not None:
+					Reporter.searcher_class.verbose = int(searcherVerbose)
+					OsmReporter.searcher_class.verbose = int(searcherVerbose)
+			except Exception, e:
+				print 'Could not handle searcher.verbose: %s' % e
+				sys.exit()
+				
+			try:
+				searcherNumToFetch = props.getProperty('searcher.numToFetch', None)
+				if searcherNumToFetch is not None:
+					Reporter.searcher_class.numToFetch = int(searcherNumToFetch)
+					OsmReporter.searcher_class.numToFetch = int(searcherNumToFetch)
+			except:
+				print 'Could not handle searcher.numToFetch: %s' % e
+				sys.exit()
+			
+		except Exception, e:
+			# print dir (e)
+			print 'Properties file exception: %s' % e
+			print '!!exiting!!'
+			sys.exit()
+		try:
+			reportXmlFormat = props.getProperty('xmlFormat')
+			if reportXmlFormat == 'osm':
+				reporter = OsmReporter(propsFile)
+			else:
+				reporter = Reporter(propsFile)
+	
+			if options.columns:
+				
+				print '\nAvailable columns for framework = %s' % reportXmlFormat
+				result = reporter.results[0]
+				
+				skip_properties = [
+					'recordXml', 'encoding'
+				]
+				for property, value in vars(result).iteritems():
+					# print '--- %s (%s)' % (property, type(value))
+					if property not in skip_properties and \
+					   (type(value) == type ('') or type(value) == type (u'')):
+						print '- ',property
+				
+			elif outputFile:
+				reporter.writeTabDelimited (outpath=outputFile)
+			else:
+				if 1:
+					print reporter.getTabDelimited()
+			
+		except KeyError, e:
+			print 'Reporter error: %s' % e
+	else:
+		if verbose:
+			print commandLineArgs
+		
+if __name__ == '__main__':
+	commandLineArgs = getCommandLineArgs()
+	print 'commandLineArgs: %s, %s' % commandLineArgs
+	if 0:
+		for item in commandLineArgs:
+			print '%s (%s)' % (item, type(item))
+	handleCommandLineArgs (getCommandLineArgs())
+

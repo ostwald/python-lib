@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nldr.library.ucar.edu/metadata/osm" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>OSGC-000-000-000-680</recordID>
+    <recordDate>2010-10-27</recordDate>
+    <pubName type="Proceedings">American Geophysical Union, Fall Meeting 2009</pubName>
+    <title type="Abstract">Eliassen-Palm fluxes of the diurnal tides from the whole atmosphere community climate model-extended (WACCM-X)</title>
+    <abstract>Through perturbation interactions with the zonal mean flow, the migrating diurnal tide and the diurnal eastward 3 (DE3) tide are fundamental to a holistic understanding of the atmospheric dynamics at mesosphere lower thermosphere (MLT) and low ionospheric altitudes. Previous tidal studies have noted the semiannual variability associated with the migrating diurnal tide and the DE3 tide, which maximize around equinox and minimize around solstice. Seasonally varying source and dissipation regions and/or wind structures are believed to cause the differences in the maximum amplitudes experienced between the two equinoxes. Utilizing monthly averaged output from the Whole Atmosphere Community Climate Model-Extended (WACCM-X), this study is among the first to apply this model to a diagnostic examination of the sources and sinks of tidal momentum and document the associated seasonal variability. From the averaged amplitudes obtained during March and September, the WACCM-X replicates the observed seasonal variability associated with the migrating diurnal tide and the DE3 tide. Calculating the divergence of the Eliassen-Palm Flux (EP Flux) for the migrating diurnal tide revealed robust seasonal variation which may be linked to differential solar heating of ozone in the stratosphere. Seasonal variation in the tropospheric sources of the DE3 tidal momentum alone does not appear to explain the semiannual variability observed in the tidal amplitudes. This study provides a better understanding of the seasonal variation in the generation and dissipation mechanisms of the migrating diurnal tide and the DE3 tide.</abstract>
+    <keyword>PLANETARY SCIENCES: FLUID PLANETS / Tidal forces, [7959] SPACE WEATHER / Models</keyword>
+  </general>
+  <contributors>
+    <person UCARid="14966" order="1" role="Author">
+      <lastName>Jones</lastName>
+      <firstName>McArthur</firstName>
+      <suffix>Jr.</suffix>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):Corporate Affairs (CA)</instDivision>
+      </affiliation>
+    </person>
+    <person UCARid="4046" order="2" role="Author">
+      <lastName>Liu</lastName>
+      <firstName>Hanli</firstName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision>
+      </affiliation>
+    </person>
+    <person UCARid="12020" order="3" role="Author">
+      <lastName>Richmond</lastName>
+      <firstName>Arthur</firstName>
+      <middleName>D</middleName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision>
+      </affiliation>
+    </person>
+    <person UCARid="1657" order="1" role="Submitter">
+      <lastName>Knack</lastName>
+      <firstName>Amy</firstName>
+      <contactInfo email="knack@ucar.edu" phone="303-497-2174"/>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision>
+      </affiliation>
+    </person>
+    <organization role="Publisher">
+      <affiliation>
+        <instName>American Geophysical Union</instName>
+      </affiliation>
+    </organization>
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Published</status>
+    <classification>Non-refereed</classification>
+    <idNumber type="Citation/Article">2009AGUFMSA53A1246J</idNumber>
+    <collaboration>UCAR only</collaboration>
+  </classify>
+  <rights>
+    <copyrightNotice type="UCAR Open Access Policy" holder="Publisher">An edited version of this paper was published by AGU. Copyright 2009 American Geophysical Union.</copyrightNotice>
+  </rights>
+  <resources>
+    <relation type="Is published" url="http://adsabs.harvard.edu/abs/2009AGUFMSA53A1246J" version="Publisher&apos;s final"/>
+  </resources>
+  <coverage>
+    <date type="Published">2009-12-01</date>
+    <date type="Fiscal">2010</date>
+    <dateRange end="2009-12-18" start="2009-12-14" type="Meeting"/>
+    <location city="San Francisco" country="US" state="US-CA" type="Meeting"/>
+    <location city="Washington" country="US" state="US-DC" type="Publisher"/>
+  </coverage>
+</record>

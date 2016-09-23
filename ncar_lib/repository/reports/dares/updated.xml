@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>OSGC-000-000-001-725</recordID>
+    <recordDate>2011-04-12</recordDate>
+    <title type="Presentation/webcast">Ensemble storm-scale data assimilation and prediction for severe convective storms</title>
+    <abstract>Considerable challenges remain in understanding and predicting the initiation and subsequent evolution of high impact convective weather events, particularly in the vicinity of complex terrain. Forecasters often rely on trends in observations and personal experience for short-term prediction since model forecast guidance at the temporal and spatial scales relevant to convective forecasting is often poor and/or cumbersome to interpret. As such, significant opportunities for improving guidance from storm-scale ensemble forecasts should exist where atmospheric conditions are rapidly evolving such as during convective initiation. A WRF-DART (Weather Research and Forecasting - Data Assimilation Research Testbed) 50-member ensemble assimilation system has been developed with both meso- and storm-scale probabilistic analyses and forecasts to demonstrate current and future capabilities for storm-scale prediction. A retrospective period of 4-17 June 2009 is examined with 3-hourly meso-scale ensemble analysis (15-km horizontal grid spacing) on a CONUS domain with continuous cycling, which provides initial and boundary conditions for regional storm-scale analyses (3-km horizontal grid spacing) centered near the Colorado Front Range. This retrospective period corresponds to a period of active weather and data collection by the Verification of the Origins of Rotation in Tornadoes Experiment 2 (VORTEX2). On the storm-scale domain, continuous assimilation of conventional Doppler radar observations for one hour precedes ensemble forecasts extending out six hours, with ensemble forecasts every three hours from 15-00Z daily. Control deterministic forecasts, drawn from the meso-scale analysis member with a ‘best fit' to the ensemble mean at the start of the forecast period, are also spawned during each ensemble forecast period. A core component of improving short-term prediction of high impact weather is the development of tools and methods for practical interpretation of high-resolution probabilistic guidance from convection resolving ensemble forecasts. The latest results from this effort will be presented.</abstract>
+  </general>
+  <contributors>
+    <person UCARid="11025" order="1" role="Author">
+      <lastName>Dowell</lastName>
+      <firstName>David</firstName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision>
+      </affiliation>
+    </person>
+    <person UCARid="16205" order="2" role="Author">
+      
+      
+      
+    <lastName>Romine</lastName><firstName>Glen</firstName><contactInfo email="romine@ucar.edu"/><affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        
+        
+        
+        
+        
+      <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe):Data Assimilation Research Section (DARES)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision></affiliation></person>
+    <person UCARid="9671" order="3" role="Author">
+      <lastName>Snyder</lastName>
+      <firstName>Chris</firstName>
+      <middleName>M</middleName>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL):Mesoscale and Microscale Meteorology Division (MMM)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe):Data Assimilation Research Section (DARES)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</instDivision>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision>
+      </affiliation>
+    </person>
+    <person UCARid="13587" order="1" role="Submitter">
+      <lastName>Gentile</lastName>
+      <firstName>Silvia</firstName>
+      <contactInfo email="sgentile@ucar.edu" phone="303-497-2480"/>
+      <affiliation>
+        <instName>University Corporation for Atmospheric Research (UCAR)</instName>
+        <instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Institute for Mathematics Applied to the Geosciences (IMAGe)</instDivision>
+      </affiliation>
+    </person>
+    <organization role="Meeting sponsor">
+      <affiliation>
+        <instName>American Meteorological Society</instName>
+      </affiliation>
+    </organization>
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Presented</status>
+    <classification>Non-refereed</classification>
+    <collaboration>UCAR only</collaboration>
+  </classify>
+  <rights>
+    <copyrightNotice holder="Author" type="UCAR Open Access Policy">Copyright 2010 Author(s)</copyrightNotice>
+    <notesToCurator>General Info Notes: Session 9: Numerical Weather Prediction: Overview of Modeling/Assimilation Systems Paper 9.5</notesToCurator>
+    <notesToCurator>Publishing Info and Upload Notes: http://ams.confex.com/ams/25SLS/techprogram/session_25097.htm</notesToCurator>
+  </rights>
+  <resources>
+    <primaryAsset order="1" url="http://nldr.library.ucar.edu/collections/osgc/OSGC-000-000-001-725.pdf">
+      <size>1.4 MB</size>
+      <mimeType>application/pdf</mimeType>
+      <version>Postprint</version>
+    </primaryAsset>
+    <relation mimeType="text/html" type="Has version" url="http://ams.confex.com/ams/25SLS/techprogram/paper_176121.htm"/>
+  </resources>
+  <coverage>
+    <date type="Presented">2010-10-12</date>
+    <date type="Fiscal">2011</date>
+    <dateRange end="2010-10-14" start="2010-10-11" type="Meeting"/>
+    <location city="Denver" country="US" state="US-CO" type="Meeting"/>
+  </coverage>
+</record>

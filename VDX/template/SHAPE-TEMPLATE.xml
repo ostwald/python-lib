@@ -1,0 +1,73 @@
+<Shape ID="" Type="Shape" Name="">
+	<XForm>
+		<Angle>-0</Angle>
+		<!--Pin locates (center of rotation) in relation to the origin of its parent-->
+		<PinX></PinX>
+		<PinY></PinY>
+		<Width></Width>
+		<Height></Height>
+		
+		<!--LocPin locates shapes pin (center of rotation) relative to origin of shape (typically F="width*0.5")-->		
+        <!-- <LocPinX></LocPinX> -->
+		<!-- <LocPinY></LocPinY> -->
+	</XForm>
+	<TextXForm>
+		<TxtPinX F="Width*0.000000"></TxtPinX>
+		<TxtPinY F="Height*0.069444"></TxtPinY>
+		<TxtWidth F="Width*1.000000"></TxtWidth>
+		<TxtHeight F="Height*0.861111"></TxtHeight>
+		<TxtLocPinX>0</TxtLocPinX>
+		<TxtLocPinY>0</TxtLocPinY>
+	</TextXForm>
+	<Misc>
+		<ObjType>1</ObjType>
+	</Misc>
+	<Line>
+		<LinePattern>1</LinePattern>
+		<LineWeight>0.014</LineWeight>
+		<LineColor>#0F7FFF</LineColor>
+		<LineColorTrans>0</LineColorTrans>
+		<Rounding>0</Rounding>
+		<LineCap>0</LineCap>
+		<EndArrow>0</EndArrow>
+		<EndArrowSize>2</EndArrowSize>
+	</Line>
+	<Fill>
+		<FillPattern>1</FillPattern>
+		<FillForegnd>1</FillForegnd>
+		<FillForegndTrans>0</FillForegndTrans>
+		<ShdwPattern>1</ShdwPattern>
+		<ShdwForegnd>0</ShdwForegnd>
+		<ShdwForegndTrans>0.25</ShdwForegndTrans>
+		<ShapeShdwType>1</ShapeShdwType>
+		<ShapeShdwOffsetX>0</ShapeShdwOffsetX>
+		<ShapeShdwOffsetY>-0.05555555555555555</ShapeShdwOffsetY>
+	</Fill>
+	<Geom/>
+	<LayerMem>
+		<LayerMember>0</LayerMember>
+	</LayerMem>
+	<TextBlock>
+		<LeftMargin>0.06944444444444445</LeftMargin>
+		<RightMargin>0.06944444444444445</RightMargin>
+		<VerticalAlign>1</VerticalAlign>
+		<DefaultTabStop>0.3888888888888889</DefaultTabStop>
+	</TextBlock>
+	<Char IX="0">
+		<Font>0</Font>
+		<Color>0</Color>
+		<Style>0</Style>
+		<Size>0.2222222222222222</Size>
+		<ColorTrans>0</ColorTrans>
+	</Char>
+	<Para IX="0">
+		<IndFirst>0</IndFirst>
+		<IndLeft>0</IndLeft>
+		<IndRight>-0</IndRight>
+		<SpLine>-1.2</SpLine>
+		<SpBefore>0</SpBefore>
+		<HorzAlign>1</HorzAlign>
+	</Para>
+	<Text><cp IX="0"/><pp IX="0"/>Hello World</Text>
+	<!-- Shape-specific Geometry added by shape instance -->
+</Shape>

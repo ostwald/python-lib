@@ -1,0 +1,2428 @@
+Nov 13, 2007 11:38:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Nov 13, 2007 11:38:34 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 13, 2007 11:38:35 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 13, 2007 11:38:35 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2091 ms
+Nov 13, 2007 11:38:35 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 13, 2007 11:38:35 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Nov 13, 2007 11:38:35 AM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Nov 13, 2007 11:38:36 AM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+Nov 13, 2007 11:38:37 AM MST NDRServlet starting
+Nov 13, 2007 11:38:37 AM MST NDRServlet: WARNING: NDR service is not enabled
+
+Nov 13, 2007 11:38:37 AM MST SetupServlet starting
+Nov 13, 2007 11:38:37 AM MST SetupServlet: collectionRecordsLocation: /global/dev/dlese_data/dcs/records/dlese_collect
+Nov 13, 2007 11:38:37 AM MST SetupServlet: collectionConfigDir: /global/dev/ttomcat-dlese-dcs/var/dcs_conf/collections
+Nov 13, 2007 11:38:37 AM MST SetupServlet: frameworkConfigDir: /global/dev/ttomcat-dlese-dcs/var/dcs_conf/frameworks
+Nov 13, 2007 11:38:37 AM MST SetupServlet: logo: DLESE_logo_sm.gif
+Nov 13, 2007 11:38:37 AM MST SetupServlet: 
+copying logo ...
+Nov 13, 2007 11:38:37 AM MST SetupServlet: 	 logoPath: /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/images/DLESE_logo_sm.gif
+Nov 13, 2007 11:38:37 AM MST SetupServlet: 	 authLogoPath: /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/auth/DLESE_logo_sm.gif
+Nov 13, 2007 11:38:37 AM MST SetupServlet completed.
+
+Nov 13, 2007 11:38:37 AM MST Initializing MetadataServlet for 'MetadataVocab'
+Nov 13, 2007 11:38:37 AM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Nov 13, 2007 11:38:40 AM MST MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Nov 13, 2007 11:38:40 AM MST Outputting debug info
+Nov 13, 2007 11:38:40 AM MST Using collection-level metadata files located at /global/dev/dlese_data/dcs/records/dlese_collect/collect
+Nov 13, 2007 11:38:40 AM MST Using ADN metadata files located at /global/dev/dlese_data/dcs/records
+Nov 13, 2007 11:38:40 AM MST Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Nov 13, 2007 11:38:40 AM MST Starting up RepositoryManager
+Nov 13, 2007 11:38:40 AM MST loading props file: RepositoryManager.properties
+Nov 13, 2007 11:38:41 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 18817 entries.
+Nov 13, 2007 11:38:42 AM MST rm.init() successful...
+Nov 13, 2007 11:38:42 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Nov 13, 2007 11:38:43 AM MST DDSServlet started.
+
+
+Nov 13, 2007 11:38:43 AM MST OAIProviderServlet starting
+Nov 13, 2007 11:38:43 AM MST OAIProviderServlet: Outputting debug info
+Nov 13, 2007 11:38:43 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 13, 2007 11:38:43 AM MST OAIProviderServlet initialized.
+Nov 13, 2007 11:38:43 AM MST SchemEditServlet starting!
+instanceName: WebTest DCS
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/dev/ttomcat-dlese-dcs/var/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+Nov 13, 2007 11:38:44 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+Nov 13, 2007 11:38:47 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+StructureWalker: Recieved an ANY element type - skipping ...
+Nov 13, 2007 11:38:52 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (8 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /global/dev/ttomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 59 files from /global/dev/ttomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with 1191523439291.xml
+CollectionRegistry: registered 1191523439291 (prefix: COLLECT-TEST)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with serc.xml
+CollectionRegistry: registered serc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with sat.xml
+CollectionRegistry: registered sat (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with testcollect.xml
+CollectionRegistry: registered testcollect (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with drc.xml
+CollectionRegistry: registered drc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with essec.xml
+CollectionRegistry: registered essec (prefix: )
+
+"collectionRegistry" initialized with 58 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+Nov 13, 2007 11:39:21 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+Nov 13, 2007 11:39:26 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+Nov 13, 2007 11:39:30 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10270 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 11 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: startAutoExportTimer
+RepositoryService: autoExport timer is scheduled to start Tue, Nov 13, 2007 5:00 PM MST, and run every 1440 minutes, 0 seconds.
+initialized repositoryService
+Nov 13, 2007 11:39:44 AM MST SchemEditServlet initialized.
+
+Nov 13, 2007 11:39:44 AM MST CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Nov 13, 2007 11:39:44 AM MST CasaaServlet: Casaa Service is disabled
+Nov 13, 2007 11:39:44 AM MST CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logoff"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logon"
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+ActionServlet: guest user set in servletContext
+
+ActionServlet: ActionServlet initialized
+
+Nov 13, 2007 11:39:45 AM MST SchemaViewerServlet starting
+Nov 13, 2007 11:39:45 AM MST SchemaViewerServlet initialized.
+Nov 13, 2007 11:39:45 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 13, 2007 11:39:45 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 13, 2007 11:39:45 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Nov 13, 2007 11:39:45 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=1/37  config=null
+Nov 13, 2007 11:39:45 AM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Nov 13, 2007 11:39:46 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 70641 ms
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4D86B7EB9C297213DDEE53B2DD50B956
+PasswordHelper: passwordHelper has not been initialized with a password file
+
+Nov 13, 2007 11:40:25 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+SessionRegistry: sessionBean is null && session is active for id: 4D86B7EB9C297213DDEE53B2DD50B956
+SessionRegistry: registered sessionBean: 4D86B7EB9C297213DDEE53B2DD50B956
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4D86B7EB9C297213DDEE53B2DD50B956
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is NULL
+AuthorizationFilter: dest: /browse/home.do
+AuthorizationFilter: contextPath: /schemedit
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+PasswordHelper: passwordHelper has not been initialized with a password file
+
+Nov 13, 2007 11:40:25 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+SessionRegistry: sessionBean is null && session is active for id: 3F18C5EF76E3D1D5AD590696D72973B6
+SessionRegistry: registered sessionBean: 3F18C5EF76E3D1D5AD590696D72973B6
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+PasswordHelper: passwordHelper has not been initialized with a password file
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+PasswordHelper: passwordHelper has not been initialized with a password file
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+PasswordHelper: passwordHelper has not been initialized with a password file
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+PasswordHelper: passwordHelper has not been initialized with a password file
+
+Nov 13, 2007 11:40:51 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: pass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+
+LogonAction: execute()
+Filtered Request Parameters
+	password: pass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: jonathan  password: pass
+FileAuth: loginException: Bad password
+LogonAction: User "jonathan" not found in database!
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:40:58 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+
+LogonAction: execute()
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: jonathan  password: mypass
+LogonAction: LogonAction: User 'jonathan' logged on in session 3F18C5EF76E3D1D5AD590696D72973B6
+LogonAction: redirecting to /browse/home.do
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:40:58 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:41:23 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/query.do
+AuthorizationFilter: 	 queryString: s=0&q=&scs=0comet
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: 	 servletPath: /browse/query.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0comet
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0comet
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 12 millis
+----------------------------------
+
+DCSQueryAction: Search results: 159
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 118 millis
+----------------------------------
+
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:41:33 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/editor/edit.do
+AuthorizationFilter: 	 queryString: command=edit&recId=COMET-mmdb
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: 	 servletPath: /editor/edit.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=COMET-mmdb
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+DCSSchemEditAction: 	 getting xmlFormat from recId
+DCSSchemEditAction:  ... xmlFormat: adn
+Filtered Request Parameters
+	recId: COMET-mmdb
+	command: edit
+DCSSchemEditAction: handleEditRequest()
+DCSSchemEditAction: 	 framework: adn
+SessionRegistry: session 3F18C5EF76E3D1D5AD590696D72973B6 attempting to lock record COMET-mmdb ... Success
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:41:44 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/editor/edit.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: 	 servletPath: /editor/edit.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: COMET-mmdb
+	xmlFormat: adn
+SessionRegistry: session 3F18C5EF76E3D1D5AD590696D72973B6 attempting to release lock on record COMET-mmdb ... Success
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:41:44 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/query.do
+AuthorizationFilter: 	 queryString: q=&s=0&scs=0comet
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: 	 servletPath: /browse/query.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&scs=0comet
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0comet
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 159
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 reused cached sort
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 3F18C5EF76E3D1D5AD590696D72973B6
+
+Nov 13, 2007 11:41:51 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logoff.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffAction: User 'jonathan' logged off in session 3F18C5EF76E3D1D5AD590696D72973B6
+SessionRegistry: unregistering Session Bean for 3F18C5EF76E3D1D5AD590696D72973B6
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:41:51 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logoff.jsp
+SessionRegistry: sessionBean is null && session is active for id: 4612116016D61CD6DBAAC63D44B5F0C3
+SessionRegistry: registered sessionBean: 4612116016D61CD6DBAAC63D44B5F0C3
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:41:56 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:01 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	submit: Submit
+	password: mypass
+	username: jonathan
+
+LogonAction: execute()
+Filtered Request Parameters
+	submit: Submit
+	password: mypass
+	username: jonathan
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: jonathan  password: mypass
+LogonAction: LogonAction: User 'jonathan' logged on in session 4612116016D61CD6DBAAC63D44B5F0C3
+LogonAction: forwarding to dcs.collections
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:01 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:05 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/userManager.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: 	 servletPath: /manage/userManager.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/userManager.do
+	requestURI: /schemedit/manage/userManager.do
+
+UserManagerForm: validate()
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:15 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/userManager.do
+AuthorizationFilter: 	 queryString: username=guest&command=delete
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: 	 servletPath: /manage/userManager.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: username=guest&command=delete
+	hasRole: manager
+	servletPath: /manage/userManager.do
+	requestURI: /schemedit/manage/userManager.do
+
+UserManagerForm: validate()
+PasswordHelper: update
+PasswordHelper: writing 14 users to /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+SessionRegistry:   ... 2 live beans, 0 dead ones
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:28 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/user/userInfo.do
+AuthorizationFilter: guarded path: /user/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/user/userInfo.do
+AuthorizationFilter: 	 queryString: command=create&referer=%2Fschemedit%2Fmanage%2FuserManager.do
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/user/userInfo.do
+AuthorizationFilter: 	 servletPath: /user/userInfo.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=create&referer=%2Fschemedit%2Fmanage%2FuserManager.do
+	hasRole: cataloger
+	servletPath: /user/userInfo.do
+	requestURI: /schemedit/user/userInfo.do
+
+UserInfoForm: validate()
+UserInfoForm: 	 command: create
+UserInfoForm: 	 username: null
+UserInfoForm: ... 0 errors found
+UserInfoAction: execute()
+Filtered Request Parameters
+	referer: /schemedit/manage/userManager.do
+	command: create
+UserInfoAction: populateUserForm() isAdmin? false  userForm.getUserHasAdminRole: false
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:49 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/user/userInfo.do
+AuthorizationFilter: guarded path: /user/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/user/userInfo.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/user/userInfo.do
+AuthorizationFilter: 	 servletPath: /user/userInfo.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /user/userInfo.do
+	requestURI: /schemedit/user/userInfo.do
+
+UserInfoForm: validate()
+UserInfoForm: 	 command: save
+UserInfoForm: 	 username: foo
+UserInfoForm: ... 0 errors found
+UserInfoAction: execute()
+Filtered Request Parameters
+	newUser: true
+	command: save
+	password2: foo
+	lastname: foo
+	referer: /schemedit/manage/userManager.do
+	password: foo
+	username: foo
+	userIsAdmin: false
+	department: DLS
+	firstname: foo
+	institution: UCAR
+UserInfoAction: handling save command
+UserInfoAction: username is foo
+UserInfoAction: NEW USER
+UserInfoAction: updating user object
+UserInfoAction: about to set admin to true for foo
+PasswordHelper: update
+PasswordHelper: read 14 users
+PasswordHelper: user doesn't exist
+PasswordHelper: adding user to users: foo:foo
+PasswordHelper: writing 15 users to /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+UserInfoAction: saving data
+UserInfoAction: populateUserForm() isAdmin? false  userForm.getUserHasAdminRole: false
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:52 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/userManager.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: 	 servletPath: /manage/userManager.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/userManager.do
+	requestURI: /schemedit/manage/userManager.do
+
+UserManagerForm: validate()
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4612116016D61CD6DBAAC63D44B5F0C3
+
+Nov 13, 2007 11:42:59 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logoff.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffAction: User 'jonathan' logged off in session 4612116016D61CD6DBAAC63D44B5F0C3
+SessionRegistry: unregistering Session Bean for 4612116016D61CD6DBAAC63D44B5F0C3
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:42:59 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logoff.jsp
+SessionRegistry: sessionBean is null && session is active for id: 68337DCB7552F724036A7CD0883EBF9F
+SessionRegistry: registered sessionBean: 68337DCB7552F724036A7CD0883EBF9F
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:00 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:10 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	submit: Submit
+	password: foo
+	username: foo
+
+LogonAction: execute()
+Filtered Request Parameters
+	submit: Submit
+	password: foo
+	username: foo
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: foo  password: foo
+LogonAction: LogonAction: User 'foo' logged on in session 68337DCB7552F724036A7CD0883EBF9F
+LogonAction: forwarding to dcs.collections
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:10 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is foo
+AuthorizationFilter: dest: /browse/home.do
+AuthorizationFilter: contextPath: /schemedit
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:10 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:13 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	submit: Submit
+	requiredRole: cataloger
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+
+LogonAction: execute()
+Filtered Request Parameters
+	submit: Submit
+	requiredRole: cataloger
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: jonathan  password: mypass
+LogonAction: LogonAction: User 'jonathan' logged on in session 68337DCB7552F724036A7CD0883EBF9F
+LogonAction: redirecting to /browse/home.do
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:13 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:18 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/userManager.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: 	 servletPath: /manage/userManager.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/userManager.do
+	requestURI: /schemedit/manage/userManager.do
+
+UserManagerForm: validate()
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:24 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/userManager.do
+AuthorizationFilter: 	 queryString: username=foo&command=edit
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: 	 servletPath: /manage/userManager.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: username=foo&command=edit
+	hasRole: manager
+	servletPath: /manage/userManager.do
+	requestURI: /schemedit/manage/userManager.do
+
+UserManagerForm: validate()
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:33 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/userManager.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/userManager.do
+AuthorizationFilter: 	 servletPath: /manage/userManager.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/userManager.do
+	requestURI: /schemedit/manage/userManager.do
+
+UserManagerForm: validate()
+SessionRegistry:   ... 2 live beans, 0 dead ones
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 68337DCB7552F724036A7CD0883EBF9F
+
+Nov 13, 2007 11:43:40 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logoff.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffAction: User 'jonathan' logged off in session 68337DCB7552F724036A7CD0883EBF9F
+SessionRegistry: unregistering Session Bean for 68337DCB7552F724036A7CD0883EBF9F
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:43:40 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logoff.jsp
+SessionRegistry: sessionBean is null && session is active for id: 143FFCF6CC1F98E64565B7B86822AC00
+SessionRegistry: registered sessionBean: 143FFCF6CC1F98E64565B7B86822AC00
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:43:41 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:43:48 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	submit: Submit
+	password: foo
+	username: foo
+
+LogonAction: execute()
+Filtered Request Parameters
+	submit: Submit
+	password: foo
+	username: foo
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: foo  password: foo
+LogonAction: LogonAction: User 'foo' logged on in session 143FFCF6CC1F98E64565B7B86822AC00
+LogonAction: forwarding to dcs.collections
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:43:48 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 143FFCF6CC1F98E64565B7B86822AC00
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is foo
+AuthorizationFilter: Filter Info:
+	user: foo
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:44:53 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/admin/admin.do
+AuthorizationFilter: 	 queryString: page=collections
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: 	 servletPath: /admin/admin.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 143FFCF6CC1F98E64565B7B86822AC00
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is foo
+AuthorizationFilter: dest: /admin/admin.do
+AuthorizationFilter: contextPath: /schemedit
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/admin/admin.do?page=collections&requiredRole=admin
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:44:54 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/admin/admin.do?page=collections&requiredRole=admin
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:44:55 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: admin
+	dest: /admin/admin.do?page=collections
+	submit: Submit
+	username: jonathan
+
+LogonAction: execute()
+Filtered Request Parameters
+	password: mypass
+	requiredRole: admin
+	dest: /admin/admin.do?page=collections
+	submit: Submit
+	username: jonathan
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: jonathan  password: mypass
+LogonAction: LogonAction: User 'jonathan' logged on in session 143FFCF6CC1F98E64565B7B86822AC00
+LogonAction: redirecting to /admin/admin.do?page=collections
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 11:44:55 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/admin/admin.do
+AuthorizationFilter: 	 queryString: page=collections
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: 	 servletPath: /admin/admin.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 143FFCF6CC1F98E64565B7B86822AC00
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=collections
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Nov 13, 2007 11:44:55 AM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: collections
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 4D86B7EB9C297213DDEE53B2DD50B956
+
+Nov 13, 2007 12:46:49 PM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 4D86B7EB9C297213DDEE53B2DD50B956
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is NULL
+AuthorizationFilter: dest: /browse/home.do
+AuthorizationFilter: contextPath: /schemedit
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+
+Nov 13, 2007 12:46:49 PM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 143FFCF6CC1F98E64565B7B86822AC00
+SessionRegistry: unregistering Session Bean for 4D86B7EB9C297213DDEE53B2DD50B956
+SessionRegistry: unregistering Session Bean for 143FFCF6CC1F98E64565B7B86822AC00
+
+AutoExportTask:  ===============================
+AutoExportTask: run()
+
+AutoExportTask: collection: adl
+AutoExportTask: 	 exportPath: adn/adl
+ExportingService: relativetDestPath: adn/adl
+
+AutoExportTask: 	 Calling exportRecords for "adl"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/adl
+AutoExportTask: 	 	 Status: _|-final-adl-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: avc
+AutoExportTask: 	 exportPath: adn/avc
+ExportingService: relativetDestPath: adn/avc
+
+AutoExportTask: 	 Calling exportRecords for "avc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/avc
+AutoExportTask: 	 	 Status: _|-final-avc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridgenoaaother
+AutoExportTask: 	 exportPath: adn/bridgenoaaother
+ExportingService: relativetDestPath: adn/bridgenoaaother
+
+AutoExportTask: 	 Calling exportRecords for "bridgenoaaother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridgenoaaother
+AutoExportTask: 	 	 Status: _|-final-bridgenoaaother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridgenoaa
+AutoExportTask: 	 exportPath: adn/bridgenoaa
+ExportingService: relativetDestPath: adn/bridgenoaa
+
+AutoExportTask: 	 Calling exportRecords for "bridgenoaa"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridgenoaa
+AutoExportTask: 	 	 Status: _|-final-bridgenoaa-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridgeother
+AutoExportTask: 	 exportPath: adn/bridgeother
+ExportingService: relativetDestPath: adn/bridgeother
+
+AutoExportTask: 	 Calling exportRecords for "bridgeother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridgeother
+AutoExportTask: 	 	 Status: _|-final-bridgeother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridge
+AutoExportTask: 	 exportPath: adn/bridge
+ExportingService: relativetDestPath: adn/bridge
+
+AutoExportTask: 	 Calling exportRecords for "bridge"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridge
+AutoExportTask: 	 	 Status: _|-final-bridge-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ccc
+AutoExportTask: 	 exportPath: dlese_anno/ccc
+ExportingService: relativetDestPath: dlese_anno/ccc
+
+AutoExportTask: 	 Calling exportRecords for "ccc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/ccc
+AutoExportTask: 	 	 Status: _|-final-ccc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: comet
+AutoExportTask: 	 exportPath: adn/comet
+ExportingService: relativetDestPath: adn/comet
+
+AutoExportTask: 	 Calling exportRecords for "comet"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/comet
+AutoExportTask: 	 	 Status: _|-final-comet-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: crs
+AutoExportTask: 	 exportPath: dlese_anno/crs
+ExportingService: relativetDestPath: dlese_anno/crs
+
+AutoExportTask: 	 Calling exportRecords for "crs"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/crs
+AutoExportTask: 	 	 Status: _|-final-crs-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: coseeother
+AutoExportTask: 	 exportPath: adn/coseeother
+ExportingService: relativetDestPath: adn/coseeother
+
+AutoExportTask: 	 Calling exportRecords for "coseeother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/coseeother
+AutoExportTask: 	 	 Status: _|-final-coseeother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: cosee
+AutoExportTask: 	 exportPath: adn/cosee
+ExportingService: relativetDestPath: adn/cosee
+
+AutoExportTask: 	 Calling exportRecords for "cosee"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/cosee
+AutoExportTask: 	 	 Status: _|-final-cosee-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: curl
+AutoExportTask: 	 exportPath: adn/curl
+ExportingService: relativetDestPath: adn/curl
+
+AutoExportTask: 	 Calling exportRecords for "curl"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/curl
+AutoExportTask: 	 	 Status: _|-final-curl-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: sercnagt
+AutoExportTask: 	 exportPath: adn/sercnagt
+ExportingService: relativetDestPath: adn/sercnagt
+
+AutoExportTask: 	 Calling exportRecords for "sercnagt"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/sercnagt
+AutoExportTask: 	 	 Status: _|-final-sercnagt-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dataclass
+AutoExportTask: 	 exportPath: adn/dataclass
+ExportingService: relativetDestPath: adn/dataclass
+
+AutoExportTask: 	 Calling exportRecords for "dataclass"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dataclass
+AutoExportTask: 	 	 Status: _|-final-dataclass-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dwel
+AutoExportTask: 	 exportPath: adn/dwel
+ExportingService: relativetDestPath: adn/dwel
+
+AutoExportTask: 	 Calling exportRecords for "dwel"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dwel
+AutoExportTask: 	 	 Status: _|-final-dwel-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ceis
+AutoExportTask: 	 exportPath: adn/ceis
+ExportingService: relativetDestPath: adn/ceis
+
+AutoExportTask: 	 Calling exportRecords for "ceis"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/ceis
+AutoExportTask: 	 	 Status: _|-final-ceis-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dcr
+AutoExportTask: 	 exportPath: dlese_collect/collect
+ExportingService: relativetDestPath: dlese_collect/collect
+
+AutoExportTask: 	 Calling exportRecords for "dcr"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_collect/collect
+AutoExportTask: 	 	 Status: _|-final-dcr-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dcc
+AutoExportTask: 	 exportPath: adn/dcc
+ExportingService: relativetDestPath: adn/dcc
+
+AutoExportTask: 	 Calling exportRecords for "dcc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dcc
+AutoExportTask: 	 	 Status: _|-final-dcc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: matters
+AutoExportTask: 	 exportPath: news_opps/matters
+ExportingService: relativetDestPath: news_opps/matters
+
+AutoExportTask: 	 Calling exportRecords for "matters"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/news_opps/matters
+AutoExportTask: 	 	 Status: _|-final-matters-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: 1191523439291
+AutoExportTask: 	 export path not defined - skipping
+
+AutoExportTask: collection: serceet
+AutoExportTask: 	 exportPath: adn/serceet
+ExportingService: relativetDestPath: adn/serceet
+
+AutoExportTask: 	 Calling exportRecords for "serceet"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/serceet
+AutoExportTask: 	 	 Status: _|-final-serceet-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: eee
+AutoExportTask: 	 exportPath: adn/eee
+ExportingService: relativetDestPath: adn/eee
+
+AutoExportTask: 	 Calling exportRecords for "eee"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/eee
+AutoExportTask: 	 	 Status: _|-final-eee-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: emvc
+AutoExportTask: 	 exportPath: adn/emvc
+ExportingService: relativetDestPath: adn/emvc
+
+AutoExportTask: 	 Calling exportRecords for "emvc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/emvc
+AutoExportTask: 	 	 Status: _|-final-emvc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: esa
+AutoExportTask: 	 exportPath: adn/esa
+ExportingService: relativetDestPath: adn/esa
+
+AutoExportTask: 	 Calling exportRecords for "esa"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/esa
+AutoExportTask: 	 	 Status: _|-final-esa-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ienother
+AutoExportTask: 	 exportPath: adn/ienother
+ExportingService: relativetDestPath: adn/ienother
+
+AutoExportTask: 	 Calling exportRecords for "ienother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/ienother
+AutoExportTask: 	 	 Status: _|-final-ienother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ien
+AutoExportTask: 	 exportPath: adn/ien
+ExportingService: relativetDestPath: adn/ien
+
+AutoExportTask: 	 Calling exportRecords for "ien"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/ien
+AutoExportTask: 	 	 Status: _|-final-ien-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: evaltlkt
+AutoExportTask: 	 exportPath: adn/evaltlkt
+ExportingService: relativetDestPath: adn/evaltlkt
+
+AutoExportTask: 	 Calling exportRecords for "evaltlkt"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/evaltlkt
+AutoExportTask: 	 	 Status: _|-final-evaltlkt-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: globe
+AutoExportTask: 	 exportPath: adn/globe
+ExportingService: relativetDestPath: adn/globe
+
+AutoExportTask: 	 Calling exportRecords for "globe"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/globe
+AutoExportTask: 	 	 Status: _|-final-globe-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dlisrother
+AutoExportTask: 	 exportPath: adn/dlisrother
+ExportingService: relativetDestPath: adn/dlisrother
+
+AutoExportTask: 	 Calling exportRecords for "dlisrother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dlisrother
+AutoExportTask: 	 	 Status: _|-final-dlisrother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dlisr
+AutoExportTask: 	 exportPath: adn/dlisr
+ExportingService: relativetDestPath: adn/dlisr
+
+AutoExportTask: 	 Calling exportRecords for "dlisr"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dlisr
+AutoExportTask: 	 	 Status: _|-final-dlisr-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nap
+AutoExportTask: 	 exportPath: adn/nap
+ExportingService: relativetDestPath: adn/nap
+
+AutoExportTask: 	 Calling exportRecords for "nap"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/nap
+AutoExportTask: 	 	 Status: _|-final-nap-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: edmall
+AutoExportTask: 	 exportPath: adn/edmall
+ExportingService: relativetDestPath: adn/edmall
+
+AutoExportTask: 	 Calling exportRecords for "edmall"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/edmall
+AutoExportTask: 	 	 Status: _|-final-edmall-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: mynasadata
+AutoExportTask: 	 exportPath: adn/mynasadata
+ExportingService: relativetDestPath: adn/mynasadata
+
+AutoExportTask: 	 Calling exportRecords for "mynasadata"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/mynasadata
+AutoExportTask: 	 	 Status: _|-final-mynasadata-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: mynasastds
+AutoExportTask: 	 exportPath: dlese_anno/mynasastds
+ExportingService: relativetDestPath: dlese_anno/mynasastds
+
+AutoExportTask: 	 Calling exportRecords for "mynasastds"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/mynasastds
+AutoExportTask: 	 	 Status: _|-final-mynasastds-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: eserev
+AutoExportTask: 	 exportPath: adn/eserev
+ExportingService: relativetDestPath: adn/eserev
+
+AutoExportTask: 	 Calling exportRecords for "eserev"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/eserev
+AutoExportTask: 	 	 Status: _|-final-eserev-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: svs
+AutoExportTask: 	 exportPath: adn/svs
+ExportingService: relativetDestPath: adn/svs
+
+AutoExportTask: 	 Calling exportRecords for "svs"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/svs
+AutoExportTask: 	 	 Status: _|-final-svs-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nyic
+AutoExportTask: 	 exportPath: adn/nyic
+ExportingService: relativetDestPath: adn/nyic
+
+AutoExportTask: 	 Calling exportRecords for "nyic"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/nyic
+AutoExportTask: 	 	 Status: _|-final-nyic-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nys
+AutoExportTask: 	 exportPath: dlese_anno/nys
+ExportingService: relativetDestPath: dlese_anno/nys
+
+AutoExportTask: 	 Calling exportRecords for "nys"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/nys
+AutoExportTask: 	 	 Status: _|-final-nys-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nocc
+AutoExportTask: 	 exportPath: news_opps/nocc
+ExportingService: relativetDestPath: news_opps/nocc
+
+AutoExportTask: 	 Calling exportRecords for "nocc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/news_opps/nocc
+AutoExportTask: 	 	 Status: _|-final-nocc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: evc
+AutoExportTask: 	 exportPath: adn/evc
+ExportingService: relativetDestPath: adn/evc
+
+AutoExportTask: 	 Calling exportRecords for "evc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/evc
+AutoExportTask: 	 	 Status: _|-final-evc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: pck
+AutoExportTask: 	 exportPath: dlese_anno/pck
+ExportingService: relativetDestPath: dlese_anno/pck
+
+AutoExportTask: 	 Calling exportRecords for "pck"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/pck
+AutoExportTask: 	 	 Status: _|-final-pck-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: thredds
+AutoExportTask: 	 exportPath: adn/thredds
+ExportingService: relativetDestPath: adn/thredds
+
+AutoExportTask: 	 Calling exportRecords for "thredds"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/thredds
+AutoExportTask: 	 	 Status: _|-final-thredds-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: simpleother
+AutoExportTask: 	 exportPath: adn/simpleother
+ExportingService: relativetDestPath: adn/simpleother
+
+AutoExportTask: 	 Calling exportRecords for "simpleother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/simpleother
+AutoExportTask: 	 	 Status: _|-final-simpleother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: simple
+AutoExportTask: 	 exportPath: adn/simple
+ExportingService: relativetDestPath: adn/simple
+
+AutoExportTask: 	 Calling exportRecords for "simple"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/simple
+AutoExportTask: 	 	 Status: _|-final-simple-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: sercstrtpt
+AutoExportTask: 	 exportPath: adn/sercstrtpt
+ExportingService: relativetDestPath: adn/sercstrtpt
+
+AutoExportTask: 	 Calling exportRecords for "sercstrtpt"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/sercstrtpt
+AutoExportTask: 	 	 Status: _|-final-sercstrtpt-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: swi
+AutoExportTask: 	 exportPath: adn/swi
+ExportingService: relativetDestPath: adn/swi
+
+AutoExportTask: 	 Calling exportRecords for "swi"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/swi
+AutoExportTask: 	 	 Status: _|-final-swi-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: tbox
+AutoExportTask: 	 exportPath: dlese_anno/tbox
+ExportingService: relativetDestPath: dlese_anno/tbox
+
+AutoExportTask: 	 Calling exportRecords for "tbox"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/tbox
+AutoExportTask: 	 	 Status: _|-final-tbox-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: tboxres
+AutoExportTask: 	 exportPath: adn/tboxres
+ExportingService: relativetDestPath: adn/tboxres
+
+AutoExportTask: 	 Calling exportRecords for "tboxres"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/tboxres
+AutoExportTask: 	 	 Status: _|-final-tboxres-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: 1189030393181
+AutoExportTask: 	 export path not defined - skipping
+
+AutoExportTask: collection: tips
+AutoExportTask: 	 exportPath: dlese_anno/tips
+ExportingService: relativetDestPath: dlese_anno/tips
+
+AutoExportTask: 	 Calling exportRecords for "tips"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/tips
+AutoExportTask: 	 	 Status: _|-final-tips-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: usgs
+AutoExportTask: 	 exportPath: adn/usgs
+ExportingService: relativetDestPath: adn/usgs
+
+AutoExportTask: 	 Calling exportRecords for "usgs"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/usgs
+AutoExportTask: 	 	 Status: _|-final-usgs-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: visionlearn
+AutoExportTask: 	 exportPath: adn/visionlearn
+ExportingService: relativetDestPath: adn/visionlearn
+
+AutoExportTask: 	 Calling exportRecords for "visionlearn"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/visionlearn
+AutoExportTask: 	 	 Status: _|-final-visionlearn-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 24EB88B13FCD3C42698F1931E2C52710
+
+Nov 14, 2007 10:01:07 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+SessionRegistry: sessionBean is null && session is active for id: 24EB88B13FCD3C42698F1931E2C52710
+SessionRegistry: registered sessionBean: 24EB88B13FCD3C42698F1931E2C52710
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 24EB88B13FCD3C42698F1931E2C52710
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is NULL
+AuthorizationFilter: dest: /browse/home.do
+AuthorizationFilter: contextPath: /schemedit
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+Nov 14, 2007 10:01:07 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.jsp
+SessionRegistry: sessionBean is null && session is active for id: 670EC32957594C1330D81E969D35B47B
+SessionRegistry: registered sessionBean: 670EC32957594C1330D81E969D35B47B
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+Nov 14, 2007 10:01:11 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+
+LogonAction: execute()
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+FileAuth: authenticate()
+FileLogin: initialize
+PasswordHelper: getInstance() with /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/passwd
+FileLogin: validateUser() username: jonathan  password: mypass
+LogonAction: LogonAction: User 'jonathan' logged on in session 670EC32957594C1330D81E969D35B47B
+LogonAction: redirecting to /browse/home.do
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+Nov 14, 2007 10:01:11 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/browse/home.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: 	 servletPath: /browse/home.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+Nov 14, 2007 10:01:18 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/collections.do
+AuthorizationFilter: 	 queryString: command=export&report=true
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: 	 servletPath: /manage/collections.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=export&report=true
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	report: true
+	command: export
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+
+Nov 14, 2007 10:01:33 AM MST AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+
+AuthorizationFilter:  Request Info:
+AuthorizationFilter: 	 requestURI: /schemedit/manage/collections.do
+AuthorizationFilter: 	 queryString: null
+AuthorizationFilter: 	 requestURL: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: 	 servletPath: /manage/collections.do
+AuthorizationFilter: 	 contextPath: /schemedit
+AuthorizationFilter: 	 pathTranslated: null
+AuthorizationFilter: 	 pathInfo: null
+AuthorizationFilter: Session: 670EC32957594C1330D81E969D35B47B
+
+AuthorizationFilter: request attributes
+AuthorizationFilter: ------------------------------
+
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+AuthorizationFilter: ---------------------
+doFilter()
+AuthorizationFilter: 	 session: 670EC32957594C1330D81E969D35B47B
+SessionRegistry: unregistering Session Bean for 24EB88B13FCD3C42698F1931E2C52710
+SessionRegistry: unregistering Session Bean for 670EC32957594C1330D81E969D35B47B
+Nov 14, 2007 1:42:40 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 14, 2007 1:42:40 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 14, 2007 1:42:41 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 16174 DcsDataRecords from cache
+Nov 14, 2007 1:42:41 PM MST SchemEditServlet stopped
+Nov 14, 2007 1:42:41 PM MST NDRServlet: destroy() ...
+Nov 14, 2007 1:42:41 PM MST NDRServlet stopped
+Nov 14, 2007 1:42:41 PM MST SetupServlet: destroy() ...
+Nov 14, 2007 1:42:41 PM MST SetupServlet stopped
+Nov 14, 2007 1:42:41 PM MST CasaaServlet: destroy() ...
+Nov 14, 2007 1:42:41 PM MST CasaaServlet stopped
+Done shutting down new vocabs checker.
+Nov 14, 2007 1:42:41 PM MST MetadataVocabServlet stopped.
+Nov 14, 2007 1:42:41 PM MST RepositoryManager destroy()
+Nov 14, 2007 1:42:41 PM MST OAIProviderServlet stopped
+Nov 14, 2007 1:42:41 PM MST RepositoryManager destroy()
+
+
+Nov 14, 2007 1:42:41 PM MST DDSServlet stopped.
+
+
+Nov 14, 2007 1:42:41 PM MST SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Nov 14, 2007 1:42:42 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 14, 2007 1:42:42 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 14, 2007 1:42:42 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

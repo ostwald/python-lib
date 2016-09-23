@@ -1,0 +1,15 @@
+.node {
+	margin:3px 5px 0px 15px;
+	border-left:thin black solid;
+}
+
+.widget, .no-widget {
+	position:relative;
+	left: -6px
+	padding:0px 5px 0px 0px;
+	width:11px;
+}
+
+.node_body {
+	/* border:1px green dashed; */
+}

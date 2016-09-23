@@ -1,0 +1,17 @@
+#!/bin/sh
+ 
+# gzips each of the log files in the specified directory
+curr_dir=`pwd`
+# base_path=${curr_dir}/$1
+
+# base_path='/Users/ostwald/tmp/mock_dds_search_log'
+# base_path='/Users/ostwald/devel/NSDL/logs/splits_output/search_queries-2013-05-23.log'
+base_path='/Users/ostwald/devel/NSDL/logs/dds_search_logs/10-23/dds_search_logs'
+
+echo base_path:  ${base_path}
+echo -------------
+ 
+for path in `find $base_path -name "*.log-*[0-9]"`; do
+    echo processing  ${path}
+    gzip ${path}
+    done

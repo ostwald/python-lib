@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dcsDataRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.dpc.ucar.edu/people/ostwald/Metadata/dcs-data/dcs-data-v1-0-0.xsd">
+  <recordID>adn-000-000-000-008</recordID>
+  <statusEntries>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>Record Created</statusNote>
+      <editor>Unknown</editor>
+      <changeDate>2007-04-20T12:21:11Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>_|-final-1177001326879-|_</status>
+      <statusNote/>
+      <editor>jonathan</editor>
+      <changeDate>2007-05-01T16:58:50Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>Moved from tmpADN collection (was tmpADN-000-000-000-001). that collection is no longer available.</statusNote>
+      <editor>ScoobyDo</editor>
+      <changeDate>2007-05-14T18:16:25Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>wowsers!</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-05-14T18:22:34Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>am i now working? yo</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-05-16T10:40:03Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Holding</status>
+      <statusNote>put in holding because i wanted to</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-05-16T10:43:02Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>_|-final-1176742803770-|_</status>
+      <statusNote>now it's done again</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-05-16T10:50:01Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>In Progress</status>
+      <statusNote>spoofy</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-06-05T10:39:40Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>In Progress</status>
+      <statusNote>but getting there</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-06-11T13:04:24Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>Moved from adn collection (was adn-000-000-000-004)</statusNote>
+      <editor/>
+      <changeDate>2007-06-13T17:02:01Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>Moved from tmpADN collection (was tmpADN-000-000-000-006)</statusNote>
+      <editor/>
+      <changeDate>2007-06-14T10:14:10Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>Moved from adn collection (was adn-000-000-000-007)</statusNote>
+      <editor/>
+      <changeDate>2007-06-14T10:47:55Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>Moved from tmpADN collection (was tmpADN-000-000-000-008)</statusNote>
+      <editor>ScoobyDo</editor>
+      <changeDate>2007-06-14T11:01:18Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2007-06-14T11:01:18Z</lastTouchDate>
+  <validationReport>NOT WELL-FORMED: Content is not allowed in prolog.</validationReport>
+  <ndrInfo>
+    <syncError></syncError>
+  </ndrInfo>
+  <ndrInfo>
+    <ndrHandle>2200/test.20070420152707449T</ndrHandle>
+    <lastSyncDate>2007-06-05T10:39:10Z</lastSyncDate>
+    <syncError/>
+  </ndrInfo>
+</dcsDataRecord>

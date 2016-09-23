@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SATWebService>
+    <SuggestedStandards>
+        <RequestInfo>
+            <RequestedAuthor>Colorado</RequestedAuthor>
+            <RequestedTopic>Science</RequestedTopic>
+            <RequestedStartGrade>-1</RequestedStartGrade>
+            <RequestedEndGrade>-1</RequestedEndGrade>
+            <MaxNumResults>5</MaxNumResults>
+        </RequestInfo>
+        <Results>
+                <Result>
+                    <LearningResourceURL>http://purl.org/ASN/resources/S1021014</LearningResourceURL>
+                    <LearningResourceContent>Students know people once thought that earth, wind, fire, and water were the basic elements that made up all matter.  Science experiments show that there are more than 100 different types of atoms, which are presented on the periodic table of the elements.</LearningResourceContent>
+                    <NumResults>5</NumResults>
+                        <Standard>
+                            <Identifier>http://purl.org/ASN/resources/S1006ADE</Identifier>
+                            <Author>Colorado</Author>
+                            <Topic>Science</Topic>
+                            <GradeLevels>5-8</GradeLevels>
+                            <Text>Standard 2: Physical Science: Students know and understand common properties, forms, and changes in matter and energy. (Focus: Physics and Chemistry): 2.1 Students know that matter has characteristic properties, which are related to its composition and structure.: </Text>
+                            <Benchmark>As students in grades 5-8 extend their knowledge, what they know and are able to do includes Â·classifying and describing matter in terms of elements, compounds, mixtures, atoms, and molecules (for example, copper is an element, water is a compound, air is a mixture); and</Benchmark>
+                        </Standard>
+                        <Standard>
+                            <Identifier>http://purl.org/ASN/resources/S1003225</Identifier>
+                            <Author>Colorado</Author>
+                            <Topic>Science</Topic>
+                            <GradeLevels>9-12</GradeLevels>
+                            <Text>Standard 2: Physical Science: Students know and understand common properties, forms, and changes in matter and energy. (Focus: Physics and Chemistry): 2.1 Students know that matter has characteristic properties, which are related to its composition and structure.: </Text>
+                            <Benchmark>As students in grades 9-12 extend their knowledge, what they know and are able to do includes Â·describing and explaining properties and composition of samples of matter using models (for example, atomic and molecular structure, the periodic table);</Benchmark>
+                        </Standard>
+                        <Standard>
+                            <Identifier>http://purl.org/ASN/resources/S1000690</Identifier>
+                            <Author>Colorado</Author>
+                            <Topic>Science</Topic>
+                            <GradeLevels>K-4</GradeLevels>
+                            <Text>Standard 4: Earth and Space Science: Students know and understand the processes and interactions of Earthâ€™s systems and the structure and dynamics of Earth and other objects in space. (Focus: Geology, Meteorology, Astronomy, Oceanography): 4.1 Students know and understand the composition of Earth, its history, and the natural processes that shape it.: </Text>
+                            <Benchmark>In grades K-4, what students know and are able to do includes Â·describing different types and uses of Earth materials (for example, rocks, soil, minerals);</Benchmark>
+                        </Standard>
+                        <Standard>
+                            <Identifier>http://purl.org/ASN/resources/S100BCDD</Identifier>
+                            <Author>Colorado</Author>
+                            <Topic>Science</Topic>
+                            <GradeLevels>K-4</GradeLevels>
+                            <Text>Standard 6: Students understand that science involves a particular way of knowing and understand common connections among scientific disciplines.: </Text>
+                            <Benchmark>In grades K-4, what students know and are able to do includes Â·recognizing that when a science experiment is repeated with the same conditions, the experiment generally works the same way;</Benchmark>
+                        </Standard>
+                        <Standard>
+                            <Identifier>http://purl.org/ASN/resources/S101C119</Identifier>
+                            <Author>Colorado</Author>
+                            <Topic>Science</Topic>
+                            <GradeLevels>K-4</GradeLevels>
+                            <Text>Standard 4: Earth and Space Science: Students know and understand the processes and interactions of Earthâ€™s systems and the structure and dynamics of Earth and other objects in space. (Focus: Geology, Meteorology, Astronomy, Oceanography): 4.3 Students know major sources of water, its uses, importance, and cyclic patterns of movement through the environment.: </Text>
+                            <Benchmark>In grades K-4, what students know and are able to do includes Â·identifying and describing the states (solid, liquid, gaseous) in which water can be found on Earth; and</Benchmark>
+                        </Standard>
+                </Result>
+        </Results>
+    </SuggestedStandards>
+</SATWebService>

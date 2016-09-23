@@ -1,0 +1,299 @@
+# NOTE:
+# DR000002 - DR000031
+# found for both technotes and ASR, but the technotes assets are mapped
+# from original DR numbers, whereas the ASR assets are NOT
+
+DR000002 - 2 results found
+	 asr / ASR-000-000-000-002
+	 technotes / TECH-NOTE-000-000-000-002 !!
+
+DR000003 - 2 results found
+	 asr / ASR-000-000-000-003
+	 technotes / TECH-NOTE-000-000-000-003 !!
+
+DR000004 - 2 results found
+	 asr / ASR-000-000-000-004
+	 technotes / TECH-NOTE-000-000-000-004 !!
+
+DR000005 - 2 results found
+	 asr / ASR-000-000-000-005
+	 technotes / TECH-NOTE-000-000-000-005
+
+DR000006 - 2 results found
+	 asr / ASR-000-000-000-006
+	 technotes / TECH-NOTE-000-000-000-006
+
+DR000007 - 2 results found
+	 asr / ASR-000-000-000-007
+	 technotes / TECH-NOTE-000-000-000-007
+
+DR000008 - 2 results found
+	 asr / ASR-000-000-000-008
+	 technotes / TECH-NOTE-000-000-000-008
+
+DR000009 - 2 results found
+	 asr / ASR-000-000-000-009
+	 technotes / TECH-NOTE-000-000-000-009
+
+DR000010 - 2 results found
+	 asr / ASR-000-000-000-010
+	 technotes / TECH-NOTE-000-000-000-010 !!
+
+DR000011 - 2 results found
+	 asr / ASR-000-000-000-011
+	 technotes / TECH-NOTE-000-000-000-011
+
+DR000012 - 2 results found
+	 asr / ASR-000-000-000-012
+	 technotes / TECH-NOTE-000-000-000-012
+
+DR000013 - 2 results found
+	 asr / ASR-000-000-000-013
+	 technotes / TECH-NOTE-000-000-000-013
+
+DR000014 - 2 results found
+	 asr / ASR-000-000-000-014
+	 technotes / TECH-NOTE-000-000-000-014
+
+DR000015 - 2 results found
+	 asr / ASR-000-000-000-015
+	 technotes / TECH-NOTE-000-000-000-015
+
+DR000016 - 2 results found
+	 asr / ASR-000-000-000-016
+	 technotes / TECH-NOTE-000-000-000-016
+
+DR000017 - 2 results found
+	 asr / ASR-000-000-000-017
+	 technotes / TECH-NOTE-000-000-000-017 !!
+
+DR000018 - 2 results found
+	 asr / ASR-000-000-000-018
+	 technotes / TECH-NOTE-000-000-000-018
+
+DR000019 - 2 results found
+	 asr / ASR-000-000-000-019
+	 technotes / TECH-NOTE-000-000-000-019
+
+DR000020 - 2 results found
+	 asr / ASR-000-000-000-020
+	 technotes / TECH-NOTE-000-000-000-020
+
+DR000021 - 2 results found
+	 asr / ASR-000-000-000-021
+	 technotes / TECH-NOTE-000-000-000-021
+
+DR000022 - 2 results found
+	 asr / ASR-000-000-000-022
+	 technotes / TECH-NOTE-000-000-000-022 !!
+
+DR000023 - 2 results found
+	 asr / ASR-000-000-000-023
+	 technotes / TECH-NOTE-000-000-000-023
+
+DR000024 - 2 results found
+	 asr / ASR-000-000-000-024
+	 technotes / TECH-NOTE-000-000-000-024
+
+DR000025 - 2 results found
+	 asr / ASR-000-000-000-025
+	 technotes / TECH-NOTE-000-000-000-025
+
+DR000026 - 2 results found
+	 asr / ASR-000-000-000-026
+	 technotes / TECH-NOTE-000-000-000-026
+
+DR000027 - 2 results found
+	 asr / ASR-000-000-000-027
+	 technotes / TECH-NOTE-000-000-000-027
+
+DR000028 - 2 results found
+	 asr / ASR-000-000-000-028
+	 technotes / TECH-NOTE-000-000-000-028
+
+DR000029 - 2 results found
+	 asr / ASR-000-000-000-029
+	 technotes / TECH-NOTE-000-000-000-029
+
+DR000030 - 2 results found
+	 asr / ASR-000-000-000-030
+	 technotes / TECH-NOTE-000-000-000-030
+
+DR000031 - 2 results found
+	 asr / ASR-000-000-000-031
+	 technotes / TECH-NOTE-000-000-000-031
+
+DR000032 - 2 results found
+	 asr / ASR-000-000-000-032
+	 technotes / TECH-NOTE-000-000-000-032
+
+DR000033 - 2 results found
+	 asr / ASR-000-000-000-033
+	 technotes / TECH-NOTE-000-000-000-033  !!
+
+DR000051 - no results found ("Beyond ALT text : making the Web easy to use for users with disabilities")
+	--> see MONOGRAPH-000-000-000-051
+
+DR000280 - Use of Conventional Surface Observations in Three-dimensional Variational Data Assimilation
+	--> see MONOGRAPH-000-000-000-280
+
+DR000355 - Atlas of simultaneous occurrence of different cloud types over the ocean.  
+    --> TECH-NOTE-000-000-000-626 ("otherAsset" for 626, 467)
+
+DR000363 - Univ. Corp. for Atmos. Research & the Nat'l Center for Atmos. Research, 1960-1970: an institutional history. Part 1.  
+	--> HIST-000-000-000-004 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-363.pdf)
+
+DR000364 - Univ. Corp. for Atmos. Research & the Nat'l Center for Atmos. Research, 1960-1970: an institutional history. Part 2.
+	--> HIST-000-000-000-004 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-364.pdf)
+
+DR000394 - The National Hail Research Experiment summer 1974 summary report. 
+	--> NHRE-000-000-000-001 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-394.pdf)
+
+DR000642 - 2 results found - Weather for outdoorsmen by Walter F. Dabberdt. Part 2.  
+	 monographs / MONOGRAPH-000-000-000-784
+	 ncar-books / NAB-000-000-000-027
+	 --> These are both legitimate and both catalog the same book!
+
+DR000670 -  Design manual for vertical gusts based on power spectral techniques / John C. Houbolt
+	--> MONOGRAPH-000-000-000-670 (??cataloged as OtherAsset??: http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-670.pdf)
+
+DR000730 - NCAR ASN Jan 77 - Mar 78 - part 2
+	--> ASR-000-000-000-017 (Asset Renamed) - Annual Scientific Report January 1977 - March 1978
+
+DR000731 -  Annual Scientific Report April 1978-March 1979. Part 1
+	--> ASR-000-000-000-018 (Asset Renamed)
+
+DR000732 -  Annual Scientific Report April 1978-March 1979. Part 2.  
+	--> ASR-000-000-000-018 (Asset Renamed)
+
+DR000733 - Annual scientific report January 1977 - March 1978. Part 1.  
+	--> ASR-000-000-000-017 (Asset Renamed)
+
+DR000734 - Annual Scientific Report January - December 1979. Part 1
+	--> ASR-000-000-000-019 (Asset Renamed)
+
+DR000735 - Annual Scientific Report January - December 1979. Part 2
+	--> ASR-000-000-000-019 (Asset Renamed)
+
+DR000740 - Annual Scientific Report January - December 1980. Part 1
+	--> ASR-000-000-000-020 (Asset Renamed)
+
+DR000741 - Annual Scientific Report January - December 1980. Part 1
+	--> ASR-000-000-000-020 (Asset Renamed)
+
+DR000742 - Annual Scientific Report January - December 1981. Part 1
+	--> ASR-000-000-000-021 (Asset Renamed)
+
+DR000743 - Annual Scientific Report January - December 1981. Part 2
+	--> ASR-000-000-000-021 (Asset Renamed)
+
+DR000744 - Annual Scientific Report January - September 1982. Part 1.
+	--> ASR-000-000-000-022 (Asset Renamed)
+
+DR000745 - Annual Scientific Report January - September 1982. Part 2.
+	--> ASR-000-000-000-022 (Asset Renamed)
+
+DR000746 - Annual Scientific Report Fiscal Year 1983. Part 1.
+	--> ASR-000-000-000-023 (Asset Renamed)
+
+DR000747 - Annual Scientific Report Fiscal Year 1983. Part 2.
+	--> ASR-000-000-000-023 (Asset Renamed)
+
+DR000748 - Annual Scientific Report Fiscal Year 1984. Part 1.
+	--> ASR-000-000-000-024 (Asset Renamed)
+
+DR000749 - Annual Scientific Report Fiscal Year 1984. Part 2.
+	--> ASR-000-000-000-024 (Asset Renamed)
+
+DR000750 - Annual Scientific Report Fiscal Year 1985. Part 1.
+	--> ASR-000-000-000-025 (Asset Renamed)
+
+DR000751 - Annual Scientific Report Fiscal Year 1985. Part 2.
+	--> ASR-000-000-000-025 (Asset Renamed)
+
+DR000752 - Annual Scientific Report Fiscal Year 1986. Part 1.
+	--> ASR-000-000-000-026 (Asset Renamed)
+
+DR000753 - Annual Scientific Report Fiscal Year 1986. Part 2.
+	--> ASR-000-000-000-026 (Asset Renamed)
+
+DR000754 - Annual Scientific Report Fiscal Year 1987. Part 1.
+	--> ASR-000-000-000-027 (Asset Renamed)
+
+DR000755 - Annual Scientific Report Fiscal Year 1987. Part 2.
+	--> ASR-000-000-000-027 (Asset Renamed)
+
+DR000756 - Annual Scientific Report Fiscal Year 1988. Part 1.
+	--> ASR-000-000-000-028 (Asset Renamed)
+
+DR000757 - Annual Scientific Report Fiscal Year 1988. Part 2.
+	--> ASR-000-000-000-028 (Asset Renamed)
+
+DR000758 - Annual Scientific Report Fiscal Year 1989. Part 1.
+	--> ASR-000-000-000-029 (Asset Renamed)
+
+DR000759 - Annual Scientific Report Fiscal Year 1989. Part 2.
+	--> ASR-000-000-000-029 (Asset Renamed)
+
+DR000760 - Annual Scientific Report Fiscal Year 1989. Part 3.
+	--> ASR-000-000-000-029 (Asset Renamed)
+
+DR000761 - Annual Scientific Report Fiscal Year 1989. Part 4.
+	--> ASR-000-000-000-029 (Asset Renamed)
+
+DR000762 - Annual Scientific Report Fiscal Year 1990. Part 1.
+	--> ASR-000-000-000-030 (Asset Renamed)
+
+DR000763 - Annual Scientific Report Fiscal Year 1990. Part 2.
+	--> ASR-000-000-000-030 (Asset Renamed)
+
+DR000764 - Annual Scientific Report Fiscal Year 1990. Part 3.
+	--> ASR-000-000-000-030 (Asset Renamed)
+
+DR000765 - Annual Scientific Report Fiscal Year 1991. Part 1.
+	--> ASR-000-000-000-031 (Asset Renamed)
+
+DR000766 - Annual Scientific Report Fiscal Year 1991. Part 2.
+	--> ASR-000-000-000-031 (Asset Renamed)
+
+DR000767 - Annual Scientific Report Fiscal Year 1991. Part 3.
+	--> ASR-000-000-000-031 (Asset Renamed)
+
+DR000768 - Annual Scientific Report Fiscal Year 1992. Part 1.
+	--> ASR-000-000-000-032 (Asset Renamed)
+
+DR000769 - Annual Scientific Report Fiscal Year 1992. Part 2.
+	--> ASR-000-000-000-032 (Asset Renamed)
+
+DR000770 - Annual Scientific Report Fiscal Year 1992. Part 3.
+	--> ASR-000-000-000-032 (Asset Renamed)
+
+DR000771 - Annual Scientific Report Fiscal Year 1993. Part 1.
+	--> ASR-000-000-000-033 (Asset Renamed)
+
+DR000772 - Annual Scientific Report Fiscal Year 1993. Part 2
+	--> ASR-000-000-000-033 (Asset Renamed)
+
+DR000773 - Annual Scientific Report Fiscal Year 1993. Part 3
+	--> ASR-000-000-000-033 (Asset Renamed)
+	
+DR000784 - 2 results found  Weather for outdoorsmen by Walter F. Dabberdt. Part 1.
+	( DUP of DUP Noted above! This is two parts, DR000784, DR000642)
+	 monographs / MONOGRAPH-000-000-000-784
+	 ncar-books / NAB-000-000-000-027
+	 
+DR000792 - no results found (THESIS) (NCAR CT - 176 - Turbulent intermittency in the Langrangian-averaged alpha model.)
+
+DR000838 -  The National Center for Atmospheric Research: an architectural masterpiece / Lucy Warner, author. Part 2. pages 15 - 30
+	--> HIST-000-000-000-003 (http://nldr.library.ucar.edu/collections/monographs/asset-000-000-000-837.pdf)
+
+DR000841 - Reports of Research and Facilities Programs 1962. 
+	--> ASR-000-000-000-002 (asset renamed to http://nldr.library.ucar.edu/collections/asr/asset-000-000-000-002.pdf)
+
+DR000842 - Reports of Research and Facilities Programs 1963.
+    --> ASR-000-000-000-003 (asset renamed)
+
+DR000843 - Reports of Research and Facilities Programs 1964.   	 
+	--> ASR-000-000-000-004 (asset renamed) 
+
+

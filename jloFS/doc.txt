@@ -1,0 +1,68 @@
+Notes
+
+fsobj----------------------------
+
+JloFSObj - generic file system object
+attributes
+- path
+- name
+methods
+- newer
+- listing
+- _sort_val - provides a value for sorting objects, 
+	based on an attribute, and possibly maniupated, e.g., strings are cast
+	to lowercase for case-insensitive ording.
+	
+JloFile (JloFSObj) - adds file-specific behaviors
+methods
+- getContent - lazily reads source into a string - NOTE, do we need to
+	implement a class or attribute for "binary"?
+- equals - compares two files by comparing their content as a string.
+
+JloDirectory (JloFSObj) - supports notion of items and recursive processing. 
+Is responsible for creating FS objects (files and directories). supports sorting
+of items by attribute and order.
+attributes
+- recursive
+- skip_names - used to determine what files are read and what 
+	directories are traversed
+methods
+- getDirectory - returns an instance of JloDirectory
+- getFile - returns an instance of JloFile - overridden to provide
+	more specific behaviours
+- hasitem - returns true if the filename is in this directory
+- getitem - returns item for filename or null
+- dir - gets a file listing.params are:
+-- attr - specifies how to calculate the  sort value
+-- acending - determines sort order
+- listing
+- _accept_file
+
+fsCmp ------------------------------------
+
+JloCompareFile (JloFile) - subclass tuned for participating in 
+comparisons
+methods
+- getcontent (adjusts for file endings)
+- write (dir) - writes the content to the specified directory
+
+WorkingDirectory (JloDirectory) - tuned to support comparisons
+	across directories
+attributes
+- flags - map from filename to flag (as determined by fileCmp())
+methods
+- setFlag
+- getFile (returns a JloCompareFile)
+
+DirectoryComparator - class to compare two directories
+attributes
+
+- workdir
+- refdir
+methods
+- _setFlags - initializes the flags for all items in workdir
+- report - tabular display of comparison
+- updateRefdir - syncs the reference directory from the work directory
+
+fileCmp - returns a flag describing the relation of the workFile to it's
+	counterpart refFile.

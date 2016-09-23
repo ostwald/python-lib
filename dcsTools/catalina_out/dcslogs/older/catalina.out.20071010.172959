@@ -1,0 +1,537 @@
+Oct 10, 2007 5:23:19 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 10, 2007 5:23:19 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:23:20 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:23:20 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2448 ms
+Oct 10, 2007 5:23:20 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 10, 2007 5:23:20 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 10, 2007 5:23:20 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 10, 2007 5:23:21 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+Oct 10, 2007 5:23:21 PM org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error starting static Resources
+java.lang.IllegalArgumentException: Document base /global/nfs/ttomcat-dlese-dcs/webapps/dcs does not exist or is not a readable directory
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:141)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:3855)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4024)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Oct 10, 2007 5:23:21 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error in resourceStart()
+Oct 10, 2007 5:23:21 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Oct 10, 2007 5:23:21 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/dcs] startup failed due to previous errors
+Oct 10, 2007 5:23:21 PM org.apache.catalina.core.StandardContext stop
+INFO: Container org.apache.catalina.core.ContainerBase.[Catalina].[localhost].[/dcs] has not been started
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:920)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:883)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:920)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:883)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 5:23:22 PM MDT NDRServlet starting
+Oct 10, 2007 5:23:22 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 5:23:22 PM MDT SetupServlet starting
+Oct 10, 2007 5:23:22 PM MDT SetupServlet: collectionRecordsLocation: /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records/dlese_collect
+Oct 10, 2007 5:23:22 PM MDT SetupServlet: master collection record does not exist, creating ...
+Oct 10, 2007 5:23:22 PM MDT SetupServlet: directory doesn't exist at /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/idFiles
+Oct 10, 2007 5:23:22 PM MDT SetupServlet: collectionConfigDir: /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/collections
+Oct 10, 2007 5:23:22 PM MDT SetupServlet: frameworkConfigDir: /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/frameworks
+Oct 10, 2007 5:23:22 PM MDT SetupServlet completed.
+
+Oct 10, 2007 5:23:22 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 5:23:22 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 5:23:26 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 5:23:26 PM MDT Outputting debug info
+Oct 10, 2007 5:23:27 PM MDT Using collection-level metadata files located at /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records/dlese_collect/collect
+Oct 10, 2007 5:23:27 PM MDT Using ADN metadata files located at /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records
+Oct 10, 2007 5:23:27 PM MDT Using index located at /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index
+Oct 10, 2007 5:23:27 PM MDT Created directory /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/repository_data
+Oct 10, 2007 5:23:27 PM MDT Starting up RepositoryManager
+Oct 10, 2007 5:23:27 PM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 5:23:27 PM MDT SimpleLuceneIndex: No index at location '/global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index/lucene_index' - creating a new one...
+Oct 10, 2007 5:23:27 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 5:23:27 PM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 5:23:27 PM MDT rm.init() successful...
+Oct 10, 2007 5:23:27 PM MDT SimpleLuceneIndex: No index at location '/global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index/dup_items_index/lucene_index' - creating a new one...
+Oct 10, 2007 5:23:27 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 5:23:28 PM MDT DDSServlet started.
+
+
+Oct 10, 2007 5:23:28 PM MDT OAIProviderServlet starting
+Oct 10, 2007 5:23:28 PM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 5:23:28 PM MDT SimpleLuceneIndex: No index at location '/global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/repository_data/web_log_index/lucene_index' - creating a new one...
+Oct 10, 2007 5:23:28 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 5:23:28 PM MDT OAIProviderServlet initialized.
+Oct 10, 2007 5:23:28 PM MDT SchemEditServlet starting!
+instanceName: DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+Oct 10, 2007 5:23:29 PM MDT FileIndexingService: synchDirectory adding 2 files and removing 0 files
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (8 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+java.lang.NullPointerException
+	at org.dlese.dpc.xml.schema.ComplexType.<init>(ComplexType.java:66)
+	at org.dlese.dpc.xml.schema.SchemaReader.getTypeDefs(SchemaReader.java:366)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:205)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.<init>(DefinitionMiner.java:97)
+	at org.dlese.dpc.xml.schema.SchemaHelper.init(SchemaHelper.java:156)
+	at org.dlese.dpc.xml.schema.SchemaHelper.<init>(SchemaHelper.java:142)
+	at org.dlese.dpc.schemedit.MetaDataFramework.loadSchemaHelper(MetaDataFramework.java:451)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.load(FrameworkRegistry.java:121)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.<init>(FrameworkRegistry.java:84)
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:127)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:920)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:883)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+NewFieldInfoMap: FieldInfoMap initialized - 6 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /global/nfs/ttomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/exported
+Oct 10, 2007 5:24:02 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry: initializeIDGenerators WARNING: collectionConfig not found for collect
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+initialized repositoryService
+Oct 10, 2007 5:24:07 PM MDT SchemEditServlet initialized.
+
+Oct 10, 2007 5:24:07 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 5:24:07 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 5:24:07 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 5:24:08 PM MDT SchemaViewerServlet starting
+Oct 10, 2007 5:24:08 PM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 5:24:08 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:24:08 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:24:08 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 10, 2007 5:24:08 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/37  config=null
+Oct 10, 2007 5:24:08 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 10, 2007 5:24:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 48396 ms
+
+Oct 10, 2007 5:24:31 PM MDT AuthorizationFilter: http://dlesetest.dlese.org/schemedit/browse/home.do
+
+AuthorizationFilter:  Request Info:
+	 requestURI: /schemedit/browse/home.do
+	 queryString: null
+	 servletPath: /browse/home.do
+
+
+SessionRegistry: sessionBean is null && session is active for id: 0D8775875EED2DCFBC82ABEC530C5700
+SessionRegistry: registered sessionBean: 0D8775875EED2DCFBC82ABEC530C5700
+SchemEditUtils: Filtered Request Parameters
+CollectionRegistry: collectionConfig for "sample" not found
+CollectionRegistry:  ... config file NOT found, using default to build new one
+CollectionRegistry: registered sample (prefix: )
+
+RepositoryService: Role not provided -- returning all sets
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+Oct 10, 2007 5:25:48 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:25:48 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:25:49 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 0 DcsDataRecords from cache
+Oct 10, 2007 5:25:49 PM MDT SchemEditServlet stopped
+Oct 10, 2007 5:25:49 PM MDT NDRServlet: destroy() ...
+Oct 10, 2007 5:25:49 PM MDT NDRServlet stopped
+Oct 10, 2007 5:25:49 PM MDT SetupServlet: destroy() ...
+Oct 10, 2007 5:25:49 PM MDT SetupServlet stopped
+Oct 10, 2007 5:25:49 PM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 5:25:49 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 10, 2007 5:25:49 PM MDT MetadataVocabServlet stopped.
+java.io.InterruptedIOException: operation interrupted
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Oct 10, 2007 5:25:49 PM MDT RepositoryManager destroy()
+Oct 10, 2007 5:25:49 PM MDT OAIProviderServlet stopped
+Oct 10, 2007 5:25:49 PM MDT RepositoryManager destroy()
+
+
+Oct 10, 2007 5:25:49 PM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 5:25:49 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: unregistering Session Bean for 0D8775875EED2DCFBC82ABEC530C5700
+SessionBean: destroying sessionBean for 0D8775875EED2DCFBC82ABEC530C5700
+SessionRegistry: destroy
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 0D8775875EED2DCFBC82ABEC530C5700 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session 0D8775875EED2DCFBC82ABEC530C5700 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+Oct 10, 2007 5:25:49 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:25:49 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:25:49 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

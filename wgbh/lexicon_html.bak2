@@ -1,0 +1,90 @@
+"""
+create an html structure that reflects the lexixon_tree.xml
+"""
+
+from JloXml import XmlRecord, XmlUtils
+from UserDict import UserDict
+from HyperText.HTML import *
+from HtmlDocument import MyDocument
+
+class LexiconHtml (XmlRecord):
+	
+	xpath_delimiter = "/"
+	
+	def __init__ (self):
+		XmlRecord.__init__ (self, path="data/lexicon_tree.xml")
+		self.categories = self.get_categories()
+		print "%d categories found" % len (self.categories)
+		self.mycat = self.catToXml (self.categories.values()[0])
+		
+	def catToXml (self, element):
+		catDiv = DIV (element.getAttribute ("text"), klass="category")
+		for child in XmlUtils.getChildElements(element):
+			self.segmentToXml (child, catDiv)
+		return catDiv
+		
+	def makeNodeHeader (text, collapsible=None):
+		pass
+		
+	def segmentToXml (self, element, domParent):
+		text = element.getAttribute ("text")
+		children = XmlUtils.getChildElements(element)
+		id = element.getAttribute ('id')
+		node = DIV (klass="node")
+		if id:
+			node_label = SPAN ("%s (%s)" % (text, id), klass="term label", id=id)
+		else:
+			node_label = SPAN (text, klass="label")
+			
+		if children:
+			node_widget = IMG(src="btnExpandClsd.gif", klass="widget")
+		else:
+			node_widget = IMG(src="clear.gif", klass="no-widget")
+			
+		node_header = DIV (node_widget, node_label)
+			
+		node.append (node_header)
+		
+		if children:
+			node_body = DIV(klass="node_body", style="display:none")
+			node.append (node_body)
+			for child in children:
+				self.segmentToXml (child, node_body)
+				
+		domParent.append (node)
+		return node
+		
+	def get_categories (self):
+		"""
+		return dict (category_text -> categoryElement
+		"""
+		categories = UserDict()
+		categoryNodes = self.selectNodes (self.dom, "wgbh_lexicon/category")
+		for node in categoryNodes:
+			text = node.getAttribute ("text")
+			categories[text] = node
+		return categories
+		
+	def makeHtmlDocument (self):
+		outpath = "html/lexicon.html"
+		# MyDocument (stylesheet=stylesheet, javascript=javascript)
+		stylesheet = "styles.css"
+		javascript = ["prototype.js", "lexicon.js"]
+		doc = MyDocument(stylesheet=stylesheet, javascript=javascript)
+		doc.body.append (self.mycat)
+		doc.writeto (outpath)
+		print "wrote to ", outpath
+		return doc
+		
+def foo():
+	lexml = LexiconHtml ()
+	outpath = "lexicon.html"
+	fp = open (outpath, 'w')
+	fp.write (lexml.mycat.__str__())
+	fp.close()
+	print "wrote html to", outpath	
+	
+if __name__ == '__main__':
+	lexml = LexiconHtml ()
+	lexml.makeHtmlDocument()
+		

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dlsciences.org/frameworks/concepts" xsi:schemaLocation="http://www.dlsciences.org/frameworks/concepts http://www.dlsciences.org/frameworks/concepts/1.0/schemas/concepts.xsd">
+  <shortTitle>June Session</shortTitle>
+  <contents object="Curriculum"></contents>
+  <recordID></recordID>
+  <longTitle>NSDL BackPack - June Session</longTitle>
+  <relations/>
+</concept>
+

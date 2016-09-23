@@ -1,0 +1,49 @@
+Mapping Notes
+
+the following collections have errors.  Otherwise, all library_dc records have
+corresponding webcat records, so if needed we can pull data from them ...
+
+---- theses ----
+
+THESES-000-000-000-786
+        MISMATCH: pdfname (None) != accessionNum (DR000786)
+        PDF does not exist for DR000786
+
+---- technotes ----
+
+TECH-NOTE-000-000-000-237
+        MISMATCH: pdfname (None) != accessionNum (DR000237)
+        PDF does not exist for DR000237
+
+TECH-NOTE-000-000-000-509
+        MISMATCH: pdfname (None) != accessionNum (DR000509)
+        PDF does not exist for DR000509
+
+TECH-NOTE-000-000-000-510
+        MISMATCH: pdfname (None) != accessionNum (DR000510)
+        PDF does not exist for DR000510
+
+TECH-NOTE-000-000-000-001
+        MISMATCH: pdfname (None) != accessionNum (dr1)
+        PDF does not exist for dr1
+
+TECH-NOTE-000-000-000-518
+        MISMATCH: pdfname (None) != accessionNum (DR000518)
+        PDF does not exist for DR000518
+
+TECH-NOTE-000-000-000-571
+        MISMATCH: pdfname (None) != accessionNum (DR000571)
+        PDF does not exist for DR000571
+
+TECH-NOTE-000-000-000-840
+        MISMATCH: pdfname (None) != accessionNum (DR000387)
+	** jlo:
+	the pdf for DR000387 contains NCAR/TN-446+STR "Coronal Magnetometry: A Feasibility Study"
+	which does not match the record title: "NCAR/TN-449+PROC - The split-stream harvesting game"
+	
+	i can't find a record containing TN-449 by searching with DCS
+	**
+
+TECH-NOTE-000-000-000-570
+        MISMATCH: pdfname (None) != accessionNum (DR000570)
+        PDF does not exist for DR000570

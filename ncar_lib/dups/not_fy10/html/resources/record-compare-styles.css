@@ -1,0 +1,109 @@
+body, td {
+	font-family:arial;
+	font-size:80%
+}
+
+H1 {
+	text-align:center;
+}
+
+#blurb {
+	border:thin black solid;
+	padding:8px;
+	margin:20px 40px 20px 40px;
+}
+
+#page-date {
+	font-size:1em;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	margin-top:10px;
+}
+
+table#side-by-side-table {
+	width:90%;
+	border-collapse:collapse;
+	/* background-color:black; */
+	border:thin red solid;
+	margin:0px 5% 0px 5%;
+}
+	
+
+table#side-by-side-table td {
+	border:thin blue solid;
+	padding:3px;
+}
+
+.edit-button, .find-button {
+	float:right;
+}
+
+/* for showing xml as pre */
+.xml-record {
+	border:blue solid 1px;
+	padding: 5px;
+	white-space: pre;
+	width:50%;
+	overflow:auto;
+}
+
+.collection-name {
+	font-size:1.3em;
+	font-weight:bold;
+}
+
+.done-status {
+	font-weight:bold;
+	background-color:#ffffcc;
+	padding:0px 2px 0px 2px;
+}
+
+/* for showing record as formatted fields */
+.cmp-record {
+	border:blue solid 1px;
+	padding: 5px;
+	overflow:auto;
+}
+
+/* displays tagname of top-level-element */
+table#side-by-side-table td.tag-row {
+	font-size:1em;
+	font-weight:bold;
+	background-color:#ccccff;
+}
+
+table#side-by-side-table td.tag-row.diff {
+	background-color:red;
+}
+
+.el-name, .attr-name {
+	font-size:.8em;
+	/* font-weight:bold; */
+	/* color:#999999; */
+	/* color:#666666; */
+	/* color:#0033cc; */
+	color:#4365c9;
+}
+
+.attr-name {
+	font-style:italic;
+}
+
+.attr-value, .el-value {
+}
+
+.level-2 {
+	margin:0px;
+	font-size:1.3em;
+	font-weight:bold;
+}
+
+.level-3 {
+	margin-left:10px;
+	font-size:1em;
+}
+
+.level-4 {
+	margin-left:20px;
+}

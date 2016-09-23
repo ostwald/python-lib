@@ -1,0 +1,568 @@
+<!--  Copyright (c) 1997 - 2003, Sirsi Corporation
+  --
+  --  Archive Orgunit Info Page; State #905; WebCat
+  -->
+
+
+<!--  Copyright (c) 1996 - 2003, Sirsi Corporation
+  --
+  --  Generic top-of-page for (almost?) all WebCat pages.
+  -->
+
+<HTML
+
+    DIR="LTR"
+>
+
+
+<HEAD>
+
+
+  <TITLE>[e-Library OPAC] WebCat at ...</TITLE>
+
+
+
+
+<!-- Set the expiration date to the past so the page will always be reloaded -->
+  <META http-equiv="Expires" content="Sun, 1 Jan 1995 08:00:00 CST">
+
+
+  <!-- Not the login page -->
+    <!-- Set the refresh to do an EXIT right before the session times out.
+      -- This will cause timed out sessions to automatically go back to the
+      -- login/first page, ready for the next user.
+      -- Since there is no way to target the _top frame, cannot do this if
+      -- any frames are used, else the refresh goes into the main frame.
+      -- Also, the URL below has to be a full URL, so cannot do this without
+      -- using the HTTP_ADDRESS.
+      -->
+    <META http-equiv="refresh"
+          content="1740; URL=http://library.ucar.edu/uhtbin/cgisirsi/bUOrTixvNs/SIRSI/74070018/58">
+
+<!--  Copyright (c) 1997 - 2004, Sirsi Corporation
+  --
+  --  JavaScript functions defined in every page.
+  -->
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function open_win(url) {
+	new_win = window.open(url,"new_win",'toolbar=1,location=1,directories=0,status=1,menubar=1,scrollbars=1,resizable=1,width=750,height=250');
+	new_win.focus();
+}
+
+function open_bare_win(url) {
+	new_b_win = window.open(url,"new_b_win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=620,height=450');
+	new_b_win.focus();
+}
+
+function open_hyperion_image_win(url) {
+	hyperion_image_win = window.open(url,"hyperion_image_win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=600,height=450,screenX=410,screenY=210');
+}
+
+function open_hyperion_info_win(url) {
+	hyperion_info_win = window.open(url,"hyperion_info_win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=400,height=450,screenX=0,screenY=210');
+}
+
+function open_win_timeout(url,timeout) {
+	new_win = window.open(url,"new_win",'toolbar=0,location=0,directories=0,status=1,menubar=1,scrollbars=1,resizable=1,width=750,height=250');
+	setTimeout("new_win.close()",timeout);
+}
+
+function open_help_win(url) {
+       new_win = window.open(url,"help_win",'toolbar=1,location=1,directories=0,status=1,menubar=1,scrollbars=1,resizable=1,width=750,height=250');
+       new_win.focus();
+}
+
+function open_bounce_win(url) {
+  new_win = window.open(url,"bounce_win",'toolbar=0,location=0,directories=0,status=1,menubar=0,scrollbars=1,resizable=1,width=620,height=450');
+}
+
+/* Function for icon-type search form action */
+function orig_form_action()
+{
+	if (!document.searchform.search_type[0].checked)
+	  {
+	  return true;
+	  }
+	else
+	  {
+          document.url_form.url.value = "" + document.searchform.searchdata1.value + "";
+          open_win(document.url_form.url.value);
+	  return false;
+	  }
+}
+
+/* Function for icon-type search form action */
+function search_form_action()
+{
+	var search_engine_checked = 0;
+	var temp_str;
+
+	for (var i = 0; i < document.searchform.search_type.length; i++)
+	  {
+	  if (document.searchform.search_type[i].value == "searchengine")
+	    if (document.searchform.search_type[i].checked)
+	      search_engine_checked = 1;
+	  }
+
+	if (!search_engine_checked)
+	  {
+	  return true;
+	  }
+	else
+	  {
+          temp_str = document.searchform.searchdata1.value;
+	  temp_str = temp_str.replace(/\s+/g,"+");
+          document.url_form.url.value = "" + temp_str + "";
+          open_win(document.url_form.url.value);
+	  return false;
+	  }
+}
+
+
+function getNonJavaHelpFileUrl(file)
+{
+	return "/iBistro_helps/English/" + file;
+}
+
+function put_help_button(file)
+{
+  document.writeln('<A HREF="javascript:open_help_win(getNonJavaHelpFileUrl(\'' + file + '\'))"><IMG SRC=/WebCat_Images/English/Buttons/Blue_oval_fade/HELP.gif BORDER=0 ALT="HELP"></A>');
+}
+
+/* Function for stripping the first character from input value */
+function stripInput(objEvent,iChar)
+{
+  var ch;
+  var objInput;
+  var value;
+
+  if (navigator.appName == 'Microsoft Internet Explorer')
+    {
+    objInput = objEvent.srcElement; 
+    }
+  else
+    {
+    objInput = objEvent.target;
+    }
+  value = objInput.value;
+
+  ch = String.fromCharCode(iChar);
+
+  if ( value.indexOf(ch) == 0)
+    {
+    objInput.value = objInput.validValue || value.substr(1);
+    objInput.focus();
+    objInput.select(); 
+    }
+  else 
+    {
+    objInput.validValue = objInput.value;
+    }
+}
+
+function sendOpenURL(inISBN,inTITLE,inISSN,inGENRE)
+{
+	aWindow = window.open('','','toolbar=1,location=1,directories=0,status=1,menubar=1,scrollbars=1,resizable=1,width=750,height=250');
+	
+	if (aWindow.document.body == null)
+	  {
+	  aBody = aWindow.document.createElement('body');
+	  aWindow.document.appendChild(aBody);
+	  }
+
+        nFORM=aWindow.document.createElement('form');
+	nFORM.action='';
+	nFORM.target="_self";
+	nFORM.method="post";
+	nFORM.name="OpenURL";
+
+	if (inISBN.length != 0)
+	  {
+	  nISBN=aWindow.document.createElement('input');
+	  nISBN.name='isbn';
+	  nISBN.value=inISBN;
+	  nISBN.type='hidden';
+
+	  nFORM.appendChild(nISBN);
+	  }
+
+	if (inTITLE.length != 0)
+	  {
+	  nTITLE=aWindow.document.createElement('input');
+	  nTITLE.name='title';
+	  nTITLE.value=inTITLE;
+	  nTITLE.type='hidden';
+
+	  nFORM.appendChild(nTITLE);
+	  } 
+
+	if (inISSN.length != 0)
+	  {
+	  nISSN=aWindow.document.createElement('input');
+	  nISSN.name='issn';
+	  nISSN.value=inISSN;
+	  nISSN.type='hidden';
+
+	  nFORM.appendChild(nISSN);
+	  }
+
+	if (inGENRE.length != 0)
+	  {
+	  nGENRE=aWindow.document.createElement('input');
+	  nGENRE.name='genre';
+	  nGENRE.value=inGENRE;
+	  nGENRE.type='hidden';
+
+	  nFORM.appendChild(nGENRE);
+	  }
+
+	aWindow.document.body.appendChild(nFORM);
+
+	nFORM.submit();
+
+	aWindow.document.body.removeChild(nFORM);
+
+}
+</SCRIPT>
+
+</HEAD>
+
+
+<!-- Start the body of the document.  WARNING:  No comments are allowed inside
+  -- of the <BODY> element's definition.
+  --  * Specify a background if configured.
+  --  * Load the toolbar frame unless this is the Login page or if toolbar
+  --    frame is not configured.  Also, unload the toolbar frame under the
+  --    same conditions.  Note that Netscape does not handle reloading the
+  --    ftoolbar frame (get Javascript error), so do not use the onUnload
+  --    event if this is not MSIE.
+  --  * If this is a download search results state (14, 62), then load the
+  --    results in a new browser window to facilitate printing.
+  --  * If this is an Archive image view state (911), then open a new window
+  --    to display the image.
+  --    in this frame.
+  --  * To help prevent premature selection of a toolbar button (i.e., before
+  --    the new toolbar is loaded), clear it when the page is unloaded.
+  -->
+<BODY
+
+  BGCOLOR = "#FFFFFF"
+
+onLoad="
+
+
+
+"
+
+onUnload="
+"
+
+> <!-- terminate BODY element -->
+
+
+<A NAME="TOP"></A>
+
+
+<!--  Copyright (c) 1997 - 2003, Sirsi Corporation
+  --
+  --  Gateway Rootbar; WebCat
+  -->
+
+
+  <!-- Display the root bar if there is not a TOC frame -->
+    <!-- Display the description if not in a Toolbar frame -->
+    <BIG><B><I>WebCat at ...</I></B></BIG>
+
+  <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
+  <TR>
+    <TD ALIGN=left>
+    <!-- "RB_IMG_", and see if there is an environment parameter named that.
+      -- If so, then it specifies an image.  Otherwise, show plain text.
+      -- Set RB_IMG to the image filename, or blank if no image.
+      -->
+
+
+      <A HREF="/uhtbin/cgisirsi/4zJEXQ42kK/SIRSI/74070018/38/6/X">
+
+      <!-- Image defined -->
+      <IMG BORDER=0 HALIGN=center HSPACE=0 VSPACE=0
+           NAME="Hyperion Relational Alias"
+           SRC="/WebCat_Images/English/Rootbar/White_blue/RBSEARCH.gif"></A>
+
+    </TD>
+
+    <TD ALIGN=left>
+    <!-- "RB_IMG_", and see if there is an environment parameter named that.
+      -- If so, then it specifies an image.  Otherwise, show plain text.
+      -- Set RB_IMG to the image filename, or blank if no image.
+      -->
+
+
+      <A HREF="/uhtbin/cgisirsi/4zJEXQ42kK/SIRSI/74070018/503/0/X/Content">
+
+      <!-- Image defined -->
+      <IMG BORDER=0 HALIGN=center HSPACE=0 VSPACE=0
+           NAME="Hyperion Hierarchy"
+           SRC="/WebCat_Images/English/Rootbar/White_blue/RBHIER.gif"></A>
+
+    </TD>
+
+  </TR>
+  </TABLE>
+
+
+
+
+<!--  Copyright (c) 1998 - 2004, Sirsi Corporation
+  --
+  --  Form for starting a new WebCat session in a new window.
+  -->
+
+
+<!-- By setting the "document.new_session.action" property to the URL for
+  -- logging into a new session at the particular page you want, a new window
+  -- will be opened and a new WebCat session will be started automatically.
+  -- Remember that many WebCat states are dependent on previous states, so only
+  -- certain "cgi types" can be opened.
+  --
+  -- Also, by setting the "document.new_session.new_gateway_db.value" property
+  -- to a gateway database name, the new session will use that gateway instead
+  -- of the user's default gateway.
+  --
+  -- Note that the use of Javascript is required to submit this form.
+  -->
+
+
+<FORM NAME="new_session" METHOD=POST
+      ACTION=/uhtbin/cgisirsi/bUOrTixvNs/SIRSI/0/57/49
+      TARGET="new_session">
+  <INPUT TYPE="hidden" NAME="user_id" VALUE="WEBSERVER">
+  <INPUT TYPE="hidden" NAME=password VALUE="">
+
+  <INPUT TYPE="hidden" NAME="new_gateway_db" VALUE="">
+</FORM>
+
+
+
+
+
+<!--  Copyright (c) 1997 - 2004, Sirsi Corporation
+  --
+  --  Buttons for Archive Print Form; WebCat
+  -->
+
+
+<A HREF=/uhtbin/cgisirsi/wqixythDWI/SIRSI/74070018/2/12>
+ <IMG SRC=/WebCat_Images/English/Buttons/Blue_oval_fade/GOBACK.gif BORDER=0 ALT="[GO BACK]"></A>
+
+<!-- Help button -->
+  <SCRIPT Language=javascript>
+    put_help_button('hfull_details.html');
+  </SCRIPT>
+
+<!-- Shopping Cart Button if configured -->
+
+
+  <A HREF=/uhtbin/cgisirsi/wqixythDWI/SIRSI/74070018/74>
+    <IMG SRC=/WebCat_Images/English/Buttons/Blue_oval_fade/PREFER.gif BORDER=0 ALT="[PREFERENCES]"></A>
+
+
+<A HREF=/uhtbin/cgisirsi/wqixythDWI/SIRSI/74070018/58
+   onClick="window.top.close();">
+  <IMG SRC=/WebCat_Images/English/Buttons/Blue_oval_fade/EXITCAT.gif BORDER=0 ALT="[EXIT]"></A>
+
+
+<H3>Metadata Information</H3>
+
+<HR>
+
+
+<TABLE>
+<TR>  <!-- Orgunit ID -->
+  <TD VALIGN="TOP" ALIGN="right">
+    Title:</TD>
+  <TD><B>NCAR/TN-1+EDD - Tests of balloon materials.</B></TD>
+</TR>
+
+<TR>  <!-- Orgunit Attribute -->
+  <TD VALIGN="TOP" ALIGN="right">
+    Item Type:</TD>
+  <TD><B>REPORT</B></TD>
+</TR>
+
+<TR>  <!-- Orgunit Access Level -->
+  <TD VALIGN="TOP" ALIGN="right">
+    Access Level:</TD>
+  <TD><B>EXTENDED PUBLIC</B></TD>
+</TR>
+
+<TR>  <!-- Orgunit Alt ID -->
+  <TD VALIGN="TOP" ALIGN="right">
+    Accession #:</TD>
+  <TD><B>DR000711</B></TD>
+</TR>
+
+<TR>  <!-- Orgunit Description -->
+  <TD VALIGN="TOP" ALIGN="right">
+    Description:</TD>
+  <TD><B>Tests of balloon materials.PDF</B></TD>
+</TR>
+
+<!-- Extended Attributes -->
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Full Title:</TD>
+  <TD><B>Tests of balloon materials ; prepared for the NCAR Scientific Balloon Facility.</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Subject:</TD>
+  <TD><B>Balloon testing.</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Subject:</TD>
+  <TD><B>Balloon materials.</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Publisher:</TD>
+  <TD><B>National Center for Atmospheric Research (U.S.).</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Publisher:</TD>
+  <TD><B>Hauser Research and Engineering Company.</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Scientific Division:</TD>
+  <TD><B>Scientific Balloon Facility.</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Date of Original:</TD>
+  <TD><B>1964</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Date Item Digitized:</TD>
+  <TD><B>2003</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Format:</TD>
+  <TD><B>PDF File, 2019 KB</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Language:</TD>
+  <TD><B>English</B></TD>
+</TR>
+<TR>
+  <TD VALIGN="TOP" ALIGN="right">
+    Copyright:</TD>
+  <TD><B>All uses of library resources, including the digitized collections, should be consistent with U.S. Copyright Law.</B></TD>
+</TR>
+
+</TABLE>
+
+
+
+<HR>
+
+<!--  Copyright (c) 1996 - 2005, SirsiDynix
+  --
+  --  Copyright statement; WebCat
+  -->
+
+
+<TABLE CELLSPACING=0 WIDTH=100%>
+<TR>
+
+  <!-- Print the copyright statement if the TOC frame is not on.  Otherwise,
+    -- the copyright will be printed in the TOC frame.
+    -->
+
+  <TD ALIGN=left NOWRAP>
+
+
+
+     <!--Not the login page-->
+
+        <IMG SRC=/WebCat_Images/English/Other/Misc/sirsi_button.gif ALIGN=bottom
+           ALT="Sirsi Corporation"><BR>
+
+      <FONT FACE="" SIZE=2>
+      <FONT COLOR="#666666">
+      </FONT>
+      <BR>Copyright &#169; 2000 - 2005, SirsiDynix
+      </FONT>
+  </TD>
+
+
+  <!-- Print the TOP button when not the TOC frame -->
+  <TD ALIGN=right>
+    <A NAME="BOTTOM" HREF="#TOP">
+       <IMG SRC=/WebCat_Images/English/Buttons/Blue_oval_fade/TOP.gif
+            BORDER=0 ALT="TOP"></A> 
+  </TD>
+
+</TR>
+</TABLE>
+
+  <P>
+<!--  Copyright (c) 1997 - 2003, Sirsi Corporation
+  --
+  --  Gateway Rootbar; WebCat
+  -->
+
+
+  <!-- Display the root bar if there is not a TOC frame -->
+    <!-- Display the description if not in a Toolbar frame -->
+    <BIG><B><I>WebCat at ...</I></B></BIG>
+
+  <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0>
+  <TR>
+    <TD ALIGN=left>
+    <!-- "RB_IMG_", and see if there is an environment parameter named that.
+      -- If so, then it specifies an image.  Otherwise, show plain text.
+      -- Set RB_IMG to the image filename, or blank if no image.
+      -->
+
+
+      <A HREF="/uhtbin/cgisirsi/4zJEXQ42kK/SIRSI/74070018/38/6/X">
+
+      <!-- Image defined -->
+      <IMG BORDER=0 HALIGN=center HSPACE=0 VSPACE=0
+           NAME="Hyperion Relational Alias"
+           SRC="/WebCat_Images/English/Rootbar/White_blue/RBSEARCH.gif"></A>
+
+    </TD>
+
+    <TD ALIGN=left>
+    <!-- "RB_IMG_", and see if there is an environment parameter named that.
+      -- If so, then it specifies an image.  Otherwise, show plain text.
+      -- Set RB_IMG to the image filename, or blank if no image.
+      -->
+
+
+      <A HREF="/uhtbin/cgisirsi/4zJEXQ42kK/SIRSI/74070018/503/0/X/Content">
+
+      <!-- Image defined -->
+      <IMG BORDER=0 HALIGN=center HSPACE=0 VSPACE=0
+           NAME="Hyperion Hierarchy"
+           SRC="/WebCat_Images/English/Rootbar/White_blue/RBHIER.gif"></A>
+
+    </TD>
+
+  </TR>
+  </TABLE>
+
+
+</HTML>
+
+</BODY>

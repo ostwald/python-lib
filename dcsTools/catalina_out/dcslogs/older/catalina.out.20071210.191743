@@ -1,0 +1,4361 @@
+Nov 14, 2007 4:23:35 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Nov 14, 2007 4:23:36 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Nov 14, 2007 4:23:37 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Nov 14, 2007 4:23:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3097 ms
+Nov 14, 2007 4:23:37 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 14, 2007 4:23:37 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Nov 14, 2007 4:23:37 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Nov 14, 2007 4:23:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/nfs/tomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+Nov 14, 2007 4:23:41 PM MST NDRServlet starting
+Nov 14, 2007 4:23:41 PM MST NDRServlet: WARNING: NDR service is not enabled
+
+Nov 14, 2007 4:23:41 PM MST SetupServlet starting
+ SetupServlet: collectionRecordsLocation: /global/nfs/dlese_data/dcs/records/dlese_collect
+ SetupServlet: collectionConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+ SetupServlet: frameworkConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+ SetupServlet: logo: DLESE_logo_sm.gif
+
+ SetupServlet: copying logo ...
+ SetupServlet: 	 logoPath: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/images/DLESE_logo_sm.gif
+ SetupServlet: 	 authLogoPath: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/auth/DLESE_logo_sm.gif
+Nov 14, 2007 4:23:41 PM MST SetupServlet completed.
+
+Nov 14, 2007 4:23:41 PM MST Initializing MetadataServlet for 'MetadataVocab'
+Nov 14, 2007 4:23:41 PM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Nov 14, 2007 4:23:46 PM MST MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Nov 14, 2007 4:23:46 PM MST Outputting debug info
+Nov 14, 2007 4:23:46 PM MST Using collection-level metadata files located at /global/nfs/dlese_data/dcs/records/dlese_collect/collect
+Nov 14, 2007 4:23:46 PM MST Using ADN metadata files located at /global/nfs/dlese_data/dcs/records
+Nov 14, 2007 4:23:46 PM MST Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Nov 14, 2007 4:23:46 PM MST Starting up RepositoryManager
+Nov 14, 2007 4:23:46 PM MST loading props file: RepositoryManager.properties
+Nov 14, 2007 4:23:47 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Nov 14, 2007 4:23:47 PM MST rm.init() successful...
+Nov 14, 2007 4:23:47 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 14, 2007 4:23:47 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+
+
+Nov 14, 2007 4:23:48 PM MST DDSServlet started.
+
+
+Nov 14, 2007 4:23:50 PM MST OAIProviderServlet starting
+Nov 14, 2007 4:23:51 PM MST OAIProviderServlet: Outputting debug info
+Nov 14, 2007 4:23:51 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 14, 2007 4:23:51 PM MST OAIProviderServlet initialized.
+Nov 14, 2007 4:23:51 PM MST SchemEditServlet starting!
+instanceName: DLESE DCS
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (8 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 59 files from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with 1191523439291.xml
+CollectionRegistry: registered 1191523439291 (prefix: COLLECT-TEST)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with serc.xml
+CollectionRegistry: registered serc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with sat.xml
+CollectionRegistry: registered sat (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with testcollect.xml
+CollectionRegistry: registered testcollect (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with drc.xml
+CollectionRegistry: registered drc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with essec.xml
+CollectionRegistry: registered essec (prefix: )
+
+"collectionRegistry" initialized with 58 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+Nov 14, 2007 4:24:32 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+IDGenerator: Current ID = 1 for DCS-COLLECTION
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: AutoExport task is not scheduled
+initialized repositoryService
+Nov 14, 2007 4:24:39 PM MST SchemEditServlet initialized.
+
+Nov 14, 2007 4:24:39 PM MST CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Nov 14, 2007 4:24:39 PM MST CasaaServlet: Casaa Service is disabled
+Nov 14, 2007 4:24:39 PM MST CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: configuring AccessManager from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/auth/access.xml
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Nov 14, 2007 4:24:40 PM MST SchemaViewerServlet starting
+Nov 14, 2007 4:24:40 PM MST SchemaViewerServlet initialized.
+Nov 14, 2007 4:24:40 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10110
+Nov 14, 2007 4:24:41 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10113
+Nov 14, 2007 4:24:41 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.102:10119
+Nov 14, 2007 4:24:41 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/53  config=null
+
+Nov 14, 2007 4:24:41 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 743D10F4EA520F542FA4F815C5FD38B9
+SessionRegistry: registered sessionBean: 743D10F4EA520F542FA4F815C5FD38B9
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+Nov 14, 2007 4:24:41 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Nov 14, 2007 4:24:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 64182 ms
+
+Nov 14, 2007 4:24:41 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 14, 2007 4:24:45 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 14, 2007 4:40:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: CAE46841AC6F9CEBA337DF5EDB4A05AC
+SessionRegistry: registered sessionBean: CAE46841AC6F9CEBA337DF5EDB4A05AC
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 14, 2007 4:40:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 14, 2007 4:41:09 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 14, 2007 4:41:28 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session CAE46841AC6F9CEBA337DF5EDB4A05AC
+
+Nov 14, 2007 4:41:28 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 14, 2007 4:41:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Nov 14, 2007 4:41:35 PM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Nov 14, 2007 4:41:43 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: Reindex All
+Nov 14, 2007 4:41:43 PM MST DCSAdminAction: Running command Reindex All
+Nov 14, 2007 4:41:43 PM MST SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/lucene_index' - creating a new one...
+Nov 14, 2007 4:41:43 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 14, 2007 4:41:43 PM MST SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/dup_items_index/lucene_index' - creating a new one...
+Nov 14, 2007 4:41:43 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 14, 2007 4:41:43 PM MST FileIndexingService: synchDirectory adding 1 files and removing 0 files
+Nov 14, 2007 4:41:50 PM MST FileIndexingService: synchDirectory adding 1 files and removing 1 files
+
+Nov 14, 2007 4:41:54 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Nov 14, 2007 4:41:56 PM MST IndexingObserver: * Indexing Completed: Completed indexing 1 directories successfully. Total time 5.729 seconds. Total number of items in index: 1 *
+Nov 14, 2007 4:41:56 PM MST IndexingObserver: Reinitializing idManager
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+IDGenerator: Current ID = 1 for DCS-COLLECTION
+Nov 14, 2007 4:41:56 PM MST DCSAdminAction: Running command showIndexingMessages
+
+Nov 14, 2007 4:42:00 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Nov 14, 2007 4:42:00 PM MST DCSAdminAction: Running command showIndexingMessages
+
+Nov 14, 2007 4:42:05 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: index
+
+Nov 14, 2007 4:42:09 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=services
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: services
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0/service_specification.html
+	 queryString: null
+	 servletPath: /services/dcsws1-0/service_specification.html
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0/service_specification.html
+	 queryString: null
+	 servletPath: /services/ddsws1-0/service_specification.html
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0/service_specification.jsp
+	 queryString: null
+	 servletPath: /services/ddsws1-0/service_specification.jsp
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0/service_specification.jsp
+	 queryString: null
+	 servletPath: /services/ddsws1-0/service_specification.jsp
+
+[ERROR] [jsp] - Servlet.service() for servlet jsp threw exception <java.net.SocketException: Connection reset>java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:313)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:680)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:625)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:645)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:957)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(Unknown Source)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspx_meth_c_005fimport_005f0(service_005fspecification_jsp.java:2521)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspService(service_005fspecification_jsp.java:122)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.dlese.dpc.schemedit.security.access.WebServicesFilter.doFilter(WebServicesFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+
+[ERROR] [jsp] - Servlet.service() for servlet jsp threw exception <java.net.SocketException: Connection reset>java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:313)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:680)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:625)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:645)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:957)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(Unknown Source)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspx_meth_c_005fimport_005f0(service_005fspecification_jsp.java:2521)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspService(service_005fspecification_jsp.java:122)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.dlese.dpc.schemedit.security.access.WebServicesFilter.doFilter(WebServicesFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+
+[ERROR] [jsp] - Servlet.service() for servlet jsp threw exception <java.net.SocketException: Connection reset>java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:313)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:680)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:625)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:645)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:957)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(Unknown Source)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspx_meth_c_005fimport_005f0(service_005fspecification_jsp.java:2521)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspService(service_005fspecification_jsp.java:122)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.dlese.dpc.schemedit.security.access.WebServicesFilter.doFilter(WebServicesFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+
+[ERROR] [jsp] - Servlet.service() for servlet jsp threw exception <java.net.SocketException: Connection reset>java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:313)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:680)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:625)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:645)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:957)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireReader(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.acquireString(Unknown Source)
+	at org.apache.taglibs.standard.tag.common.core.ImportSupport.doEndTag(Unknown Source)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspx_meth_c_005fimport_005f0(service_005fspecification_jsp.java:2521)
+	at org.apache.jsp.services.ddsws1_002d0.service_005fspecification_jsp._jspService(service_005fspecification_jsp.java:122)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:98)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:691)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:469)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:403)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:301)
+	at org.dlese.dpc.schemedit.security.access.WebServicesFilter.doFilter(WebServicesFilter.java:59)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:215)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:188)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:210)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:174)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:117)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:542)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:108)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:151)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:870)
+	at org.apache.coyote.http11.Http11BaseProtocol$Http11ConnectionHandler.processConnection(Http11BaseProtocol.java:665)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:528)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:81)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:685)
+	at java.lang.Thread.run(Thread.java:595)
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/examples/dcsws/full_example1.jsp
+	 queryString: q=ocean
+	 servletPath: /services/examples/dcsws/full_example1.jsp
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/examples/dcsws/full_example1.jsp
+	 queryString: q=ocean
+	 servletPath: /services/examples/dcsws/full_example1.jsp
+
+
+Nov 14, 2007 5:34:34 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 14, 2007 5:34:34 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 14, 2007 5:34:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: index
+
+Nov 14, 2007 5:34:46 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: Reindex All
+Nov 14, 2007 5:34:46 PM MST DCSAdminAction: Running command Reindex All
+Nov 14, 2007 5:34:47 PM MST SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/lucene_index' - creating a new one...
+Nov 14, 2007 5:34:47 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 14, 2007 5:34:47 PM MST SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/dup_items_index/lucene_index' - creating a new one...
+Nov 14, 2007 5:34:47 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 14, 2007 5:34:55 PM MST FileIndexingService: synchDirectory adding 53 files and removing 0 files
+
+Nov 14, 2007 5:35:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Nov 14, 2007 5:35:06 PM MST DCSAdminAction: Running command showIndexingMessages
+Nov 14, 2007 5:35:14 PM MST FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Nov 14, 2007 5:35:23 PM MST FileIndexingService: synchDirectory adding 1 files and removing 0 files
+Nov 14, 2007 5:35:33 PM MST FileIndexingService: synchDirectory adding 53 files and removing 53 files
+
+Nov 14, 2007 5:35:48 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Nov 14, 2007 5:35:52 PM MST DCSAdminAction: Running command showIndexingMessages
+Nov 14, 2007 5:36:20 PM MST FileIndexingService: synchDirectory adding 363 files and removing 0 files
+Nov 14, 2007 5:37:18 PM MST FileIndexingService: synchDirectory adding 452 files and removing 0 files
+Nov 14, 2007 5:37:57 PM MST FileIndexingService: synchDirectory adding 207 files and removing 0 files
+Nov 14, 2007 5:38:13 PM MST FileIndexingService: synchDirectory adding 37 files and removing 0 files
+Nov 14, 2007 5:38:25 PM MST FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Nov 14, 2007 5:38:35 PM MST FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Nov 14, 2007 5:38:45 PM MST FileIndexingService: synchDirectory adding 40 files and removing 0 files
+Nov 14, 2007 5:38:57 PM MST FileIndexingService: synchDirectory adding 15 files and removing 0 files
+Nov 14, 2007 5:39:08 PM MST FileIndexingService: synchDirectory adding 28 files and removing 0 files
+Nov 14, 2007 5:40:05 PM MST FileIndexingService: synchDirectory adding 434 files and removing 0 files
+Nov 14, 2007 5:40:36 PM MST FileIndexingService: synchDirectory adding 7 files and removing 0 files
+Nov 14, 2007 5:41:52 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:43:18 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:44:51 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:46:18 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:47:09 PM MST FileIndexingService: synchDirectory adding 192 files and removing 0 files
+Nov 14, 2007 5:47:31 PM MST FileIndexingService: synchDirectory adding 9 files and removing 0 files
+Nov 14, 2007 5:48:37 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:49:35 PM MST FileIndexingService: synchDirectory adding 295 files and removing 0 files
+Nov 14, 2007 5:50:02 PM MST FileIndexingService: synchDirectory adding 30 files and removing 0 files
+Nov 14, 2007 5:51:18 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:52:02 PM MST FileIndexingService: synchDirectory adding 163 files and removing 0 files
+Nov 14, 2007 5:52:28 PM MST FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Nov 14, 2007 5:52:55 PM MST FileIndexingService: synchDirectory adding 109 files and removing 0 files
+Nov 14, 2007 5:54:14 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:55:42 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:57:18 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 5:58:46 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:00:26 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:01:57 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+SessionRegistry: unregistering Session Bean for 314423946A5705034A52DEF330331047
+Nov 14, 2007 6:03:37 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:05:17 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:07:21 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:09:49 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:11:22 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:12:51 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:14:19 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:15:47 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:17:25 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:18:56 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:20:31 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:22:03 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:23:35 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:24:35 PM MST FileIndexingService: synchDirectory adding 141 files and removing 0 files
+SessionRegistry: unregistering Session Bean for 743D10F4EA520F542FA4F815C5FD38B9
+Nov 14, 2007 6:25:41 PM MST FileIndexingService: synchDirectory adding 219 files and removing 0 files
+Nov 14, 2007 6:26:38 PM MST FileIndexingService: synchDirectory adding 215 files and removing 0 files
+Nov 14, 2007 6:27:26 PM MST FileIndexingService: synchDirectory adding 158 files and removing 0 files
+Nov 14, 2007 6:29:01 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:29:41 PM MST FileIndexingService: synchDirectory adding 108 files and removing 0 files
+Nov 14, 2007 6:30:09 PM MST FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Nov 14, 2007 6:30:53 PM MST FileIndexingService: synchDirectory adding 160 files and removing 0 files
+Nov 14, 2007 6:32:27 PM MST FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Nov 14, 2007 6:32:58 PM MST FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Nov 14, 2007 6:33:22 PM MST FileIndexingService: synchDirectory adding 36 files and removing 0 files
+Nov 14, 2007 6:33:49 PM MST FileIndexingService: synchDirectory adding 56 files and removing 0 files
+Nov 14, 2007 6:34:33 PM MST FileIndexingService: synchDirectory adding 151 files and removing 0 files
+Nov 14, 2007 6:35:52 PM MST FileIndexingService: synchDirectory adding 363 files and removing 0 files
+Nov 14, 2007 6:36:30 PM MST FileIndexingService: synchDirectory adding 8 files and removing 0 files
+Nov 14, 2007 6:37:06 PM MST FileIndexingService: synchDirectory adding 159 files and removing 0 files
+Nov 14, 2007 6:37:49 PM MST FileIndexingService: synchDirectory adding 87 files and removing 0 files
+Nov 14, 2007 6:38:22 PM MST FileIndexingService: synchDirectory adding 72 files and removing 0 files
+Nov 14, 2007 6:38:57 PM MST FileIndexingService: synchDirectory adding 53 files and removing 0 files
+Nov 14, 2007 6:39:19 PM MST FileIndexingService: synchDirectory adding 20 files and removing 0 files
+Nov 14, 2007 6:39:36 PM MST FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Nov 14, 2007 6:39:59 PM MST FileIndexingService: synchDirectory adding 47 files and removing 0 files
+Nov 14, 2007 6:40:29 PM MST FileIndexingService: synchDirectory adding 39 files and removing 0 files
+Nov 14, 2007 6:40:51 PM MST FileIndexingService: synchDirectory adding 14 files and removing 0 files
+Nov 14, 2007 6:41:14 PM MST FileIndexingService: synchDirectory adding 31 files and removing 0 files
+Nov 14, 2007 6:41:51 PM MST FileIndexingService: synchDirectory adding 115 files and removing 0 files
+Nov 14, 2007 6:42:21 PM MST FileIndexingService: synchDirectory adding 29 files and removing 0 files
+Nov 14, 2007 6:42:48 PM MST FileIndexingService: synchDirectory adding 59 files and removing 0 files
+Nov 14, 2007 6:43:08 PM MST FileIndexingService: synchDirectory adding 10 files and removing 0 files
+Nov 14, 2007 6:43:25 PM MST FileIndexingService: synchDirectory adding 7 files and removing 0 files
+Nov 14, 2007 6:43:48 PM MST FileIndexingService: synchDirectory adding 25 files and removing 0 files
+Nov 14, 2007 6:44:09 PM MST FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Nov 14, 2007 6:44:57 PM MST FileIndexingService: synchDirectory adding 222 files and removing 0 files
+Nov 14, 2007 6:45:28 PM MST FileIndexingService: synchDirectory adding 26 files and removing 0 files
+Nov 14, 2007 6:45:48 PM MST IndexingObserver: * Indexing Completed: Completed indexing 53 directories successfully. Total time 70 minutes, 45 seconds. Total number of items in index: 18817 *
+Nov 14, 2007 6:45:48 PM MST IndexingObserver: Reinitializing idManager
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10270 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 10 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+Nov 14, 2007 6:46:13 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Nov 14, 2007 6:46:35 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+SessionRegistry: unregistering Session Bean for CAE46841AC6F9CEBA337DF5EDB4A05AC
+
+Nov 15, 2007 9:09:04 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: A0945E3365A49594F54871B5BEBB5810
+SessionRegistry: registered sessionBean: A0945E3365A49594F54871B5BEBB5810
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 15, 2007 9:09:04 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 15, 2007 9:09:07 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 15, 2007 9:09:24 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session A0945E3365A49594F54871B5BEBB5810
+
+Nov 15, 2007 9:09:24 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 15, 2007 9:09:48 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Nov 15, 2007 9:09:48 AM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Nov 15, 2007 9:09:58 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Nov 15, 2007 9:10:06 AM MST DCSAdminAction: Running command showIndexingMessages
+SessionRegistry: unregistering Session Bean for A0945E3365A49594F54871B5BEBB5810
+
+Nov 15, 2007 1:42:23 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 76B4D9A9316A46548EA702AD9BA33693
+SessionRegistry: registered sessionBean: 76B4D9A9316A46548EA702AD9BA33693
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 15, 2007 1:42:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 15, 2007 1:42:24 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 15, 2007 1:43:20 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 76B4D9A9316A46548EA702AD9BA33693
+
+Nov 15, 2007 1:43:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 15, 2007 1:43:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: AADE3E814F59F84F5802E6D863B2DE13
+SessionRegistry: registered sessionBean: AADE3E814F59F84F5802E6D863B2DE13
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 15, 2007 1:43:45 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 15, 2007 1:43:45 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 15, 2007 1:43:56 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: rootpass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: root
+LogonAction: LogonAction: User 'root' logged on in session AADE3E814F59F84F5802E6D863B2DE13
+
+Nov 15, 2007 1:44:02 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 15, 2007 1:44:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Nov 15, 2007 1:44:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+Nov 15, 2007 1:44:32 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 15, 2007 1:44:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+
+Nov 15, 2007 1:45:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+
+Nov 15, 2007 1:46:10 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=01189030393181&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 01189030393181
+	searchMode: raw
+DCSQueryAction: Search results: 8
+
+Nov 15, 2007 1:46:29 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcsstatusLabel&searchString=&vld=&scs=01189030393181&searchMode=raw&sortOrder=0
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcsstatusLabel
+	sortOrder: 0
+	searchMode: raw
+	scs: 01189030393181
+DCSQueryAction: Search results: 8
+
+Nov 15, 2007 1:46:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&searchString=&vld=&searchMode=raw&scs=01189030393181&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 1
+	scs: 01189030393181
+	searchMode: raw
+DCSQueryAction: Search results: 8
+
+Nov 15, 2007 1:46:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	recId: TEST-000-000-000-010
+	command: edit
+SessionRegistry: session 76B4D9A9316A46548EA702AD9BA33693 attempting to lock record TEST-000-000-000-010 ... Success
+
+Nov 15, 2007 1:47:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: save
+	xmlFormat: adn
+	currentPage: general
+	recId: TEST-000-000-000-010
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: TEST-000-000-000-010
+Nov 15, 2007 1:47:47 PM MST Saving record id: TEST-000-000-000-010
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 15, 2007 1:47:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: guardedExit
+	pathArg: forwardToCaller
+	xmlFormat: adn
+	currentPage: general
+	recId: TEST-000-000-000-010
+SessionRegistry: session 76B4D9A9316A46548EA702AD9BA33693 attempting to release lock on record TEST-000-000-000-010 ... Success
+
+Nov 15, 2007 1:47:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&sortField=dcslastTouchDate&searchString=&sortOrder=1&vld=&scs=01189030393181&searchMode=raw
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	sortOrder: 1
+	searchMode: raw
+	scs: 01189030393181
+	sortField: dcslastTouchDate
+
+Nov 15, 2007 1:47:55 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&s=10&searchString=&vld=&searchMode=raw
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 10
+	searchMode: raw
+DCSQueryAction: Search results: 8
+DCSQueryAction: Search results: 18764
+
+Nov 15, 2007 1:48:23 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&s=20&searchString=&searchMode=raw&vld=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 20
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+
+Nov 15, 2007 1:48:29 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&sortField=dcslastTouchDate&searchString=&searchMode=raw&vld=&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 1
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+
+Nov 15, 2007 1:48:46 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0dcc&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	resultsPerPage: 10
+	searchMode: raw
+	scs: 0dcc
+DCSQueryAction: Search results: 9641
+
+Nov 15, 2007 1:49:02 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=01189030393181&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 01189030393181
+	searchMode: raw
+DCSQueryAction: Search results: 8
+
+Nov 15, 2007 1:49:10 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&s=10&searchString=&searchMode=raw&scs=0dcc&vld=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 10
+	searchMode: raw
+	scs: 0dcc
+DCSQueryAction: Search results: 9641
+
+Nov 15, 2007 1:49:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: command=edit&recId=DLESE-000-000-001-795
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	recId: DLESE-000-000-001-795
+	command: edit
+SessionRegistry: session AADE3E814F59F84F5802E6D863B2DE13 attempting to lock record DLESE-000-000-001-795 ... Success
+
+Nov 15, 2007 1:49:21 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: guardedExit
+	pathArg: forwardToCaller
+	xmlFormat: adn
+	currentPage: general
+	recId: DLESE-000-000-001-795
+SessionRegistry: session AADE3E814F59F84F5802E6D863B2DE13 attempting to release lock on record DLESE-000-000-001-795 ... Success
+
+Nov 15, 2007 1:49:21 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: root
+	queryString: q=&s=10&searchString=&searchMode=raw&scs=0dcc&vld=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 10
+	searchMode: raw
+	scs: 0dcc
+DCSQueryAction: Search results: 9641
+
+Nov 15, 2007 1:49:42 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logoff.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffAction: User 'jonathan' logged off in session 76B4D9A9316A46548EA702AD9BA33693
+SessionRegistry: unregistering Session Bean for 76B4D9A9316A46548EA702AD9BA33693
+
+Nov 15, 2007 1:49:43 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logoff.jsp
+SessionRegistry: sessionBean is null && session is active for id: 2C48FBF0709964AB60B00E15800678DB
+SessionRegistry: registered sessionBean: 2C48FBF0709964AB60B00E15800678DB
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+SessionRegistry: unregistering Session Bean for 2C48FBF0709964AB60B00E15800678DB
+SessionRegistry: unregistering Session Bean for AADE3E814F59F84F5802E6D863B2DE13
+
+Nov 20, 2007 11:50:56 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: B0CC46583082801CC7101426ABE6CD8E
+SessionRegistry: registered sessionBean: B0CC46583082801CC7101426ABE6CD8E
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 20, 2007 11:50:56 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 20, 2007 11:50:57 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 20, 2007 11:51:01 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session B0CC46583082801CC7101426ABE6CD8E
+
+Nov 20, 2007 11:51:01 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+SessionRegistry: unregistering Session Bean for B0CC46583082801CC7101426ABE6CD8E
+
+Nov 26, 2007 10:36:19 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: D0AA11F0AA66E023B749E71843E71569
+SessionRegistry: registered sessionBean: D0AA11F0AA66E023B749E71843E71569
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 26, 2007 10:36:19 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 26, 2007 10:36:19 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 26, 2007 10:36:23 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session D0AA11F0AA66E023B749E71843E71569
+
+Nov 26, 2007 10:36:23 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 26, 2007 10:36:39 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0nocc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0nocc
+DCSQueryAction: Search results: 158
+
+Nov 26, 2007 10:37:08 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&scs=0nocc&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	scs: 0nocc
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 158
+SessionRegistry: unregistering Session Bean for D0AA11F0AA66E023B749E71843E71569
+
+Nov 28, 2007 12:09:53 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 898E33D000B4BCC6979D04E597DA81B5
+SessionRegistry: registered sessionBean: 898E33D000B4BCC6979D04E597DA81B5
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 898E33D000B4BCC6979D04E597DA81B5
+
+Nov 28, 2007 12:09:53 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:19:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 326DA777D9EDD54F41E168C3FBC48883
+SessionRegistry: registered sessionBean: 326DA777D9EDD54F41E168C3FBC48883
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 326DA777D9EDD54F41E168C3FBC48883
+
+Nov 28, 2007 12:19:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:20:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 579D00AAC4EE9449C3E8E9D07248F2BB
+SessionRegistry: registered sessionBean: 579D00AAC4EE9449C3E8E9D07248F2BB
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 28, 2007 12:20:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 28, 2007 12:20:23 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 28, 2007 12:20:26 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 579D00AAC4EE9449C3E8E9D07248F2BB
+
+Nov 28, 2007 12:20:26 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:20:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/manage/sessions.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/sessions.do
+	requestURI: /schemedit/manage/sessions.do
+
+Filtered Request Parameters
+SessionRegistry:   ... 3 live beans, 0 dead ones
+
+Nov 28, 2007 12:21:14 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+SessionRegistry: sessionBean is null && session is active for id: C9B63AA6B8E022192D3F991D16A92C86
+SessionRegistry: registered sessionBean: C9B63AA6B8E022192D3F991D16A92C86
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 28, 2007 12:21:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:22:07 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+Nov 28, 2007 12:22:13 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 12:22:26 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=01189030393181&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	resultsPerPage: 10
+	searchMode: raw
+	scs: 01189030393181
+DCSQueryAction: Search results: 8
+
+Nov 28, 2007 12:22:34 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+
+Nov 28, 2007 12:23:49 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 4EB479ACC7DCC68CE73170B23A061339
+SessionRegistry: registered sessionBean: 4EB479ACC7DCC68CE73170B23A061339
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 4EB479ACC7DCC68CE73170B23A061339
+
+Nov 28, 2007 12:23:49 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:25:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 565EECCBB82C0AE48BD55D0CD34D0128
+SessionRegistry: registered sessionBean: 565EECCBB82C0AE48BD55D0CD34D0128
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+LogonAction: LogonAction: User 'jonathan' logged on in session 565EECCBB82C0AE48BD55D0CD34D0128
+
+Nov 28, 2007 12:25:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:25:58 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+SessionRegistry: sessionBean is null && session is active for id: 4C2E3E1438989F67070775ADB033B5A5
+SessionRegistry: registered sessionBean: 4C2E3E1438989F67070775ADB033B5A5
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/view.do?id=TEST-000-000-000-010&requiredRole=cataloger
+
+Nov 28, 2007 12:29:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: E54998A0BE2C51DA0C0472D1AF37A51E
+SessionRegistry: registered sessionBean: E54998A0BE2C51DA0C0472D1AF37A51E
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session E54998A0BE2C51DA0C0472D1AF37A51E
+
+Nov 28, 2007 12:29:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:29:26 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+SessionRegistry: sessionBean is null && session is active for id: 8D0C74D131E9B7268D0A2782C1DF8258
+SessionRegistry: registered sessionBean: 8D0C74D131E9B7268D0A2782C1DF8258
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/view.do?id=TEST-000-000-000-010&requiredRole=cataloger
+
+Nov 28, 2007 12:29:54 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 1D3BEE452EBE8FBBB9B6287713638F0F
+SessionRegistry: registered sessionBean: 1D3BEE452EBE8FBBB9B6287713638F0F
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+LogonAction: LogonAction: User 'jonathan' logged on in session 1D3BEE452EBE8FBBB9B6287713638F0F
+
+Nov 28, 2007 12:29:54 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:32:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 611B4AAB836B00115F0D60A41D79A376
+SessionRegistry: registered sessionBean: 611B4AAB836B00115F0D60A41D79A376
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+LogonAction: LogonAction: User 'jonathan' logged on in session 611B4AAB836B00115F0D60A41D79A376
+
+Nov 28, 2007 12:32:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:32:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 5F0C95A1773D87BB4277368D5387F007
+SessionRegistry: registered sessionBean: 5F0C95A1773D87BB4277368D5387F007
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+LogonAction: LogonAction: User 'jonathan' logged on in session 5F0C95A1773D87BB4277368D5387F007
+
+Nov 28, 2007 12:32:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 12:32:20 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 12:32:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 243E8D2212C99924C08ECE3E5116B0B5
+SessionRegistry: registered sessionBean: 243E8D2212C99924C08ECE3E5116B0B5
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+LogonAction: LogonAction: User 'jonathan' logged on in session 243E8D2212C99924C08ECE3E5116B0B5
+
+Nov 28, 2007 12:32:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:33:02 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 0DD097C0F1C2FFACDE4D2B7985BE75B9
+SessionRegistry: registered sessionBean: 0DD097C0F1C2FFACDE4D2B7985BE75B9
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+LogonAction: LogonAction: User 'jonathan' logged on in session 0DD097C0F1C2FFACDE4D2B7985BE75B9
+
+Nov 28, 2007 12:33:02 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 12:33:02 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 12:34:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+
+Nov 28, 2007 12:34:07 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchString=&searchMode=raw&scs=01189030393181&vld=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 01189030393181
+	searchMode: raw
+DCSQueryAction: Search results: 8
+
+Nov 28, 2007 12:34:12 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+
+Nov 28, 2007 12:34:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: A14D8F6EB2C4BB766CF688D2DDA0021F
+SessionRegistry: registered sessionBean: A14D8F6EB2C4BB766CF688D2DDA0021F
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session A14D8F6EB2C4BB766CF688D2DDA0021F
+
+Nov 28, 2007 12:34:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 86064789A4C8D745E8C797C1AFBD6609
+SessionRegistry: registered sessionBean: 86064789A4C8D745E8C797C1AFBD6609
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+LogonAction: LogonAction: User 'jonathan' logged on in session 86064789A4C8D745E8C797C1AFBD6609
+
+Nov 28, 2007 12:34:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:34:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 12:34:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 0C519423474E735DFF9EBB4F95F9D91D
+SessionRegistry: registered sessionBean: 0C519423474E735DFF9EBB4F95F9D91D
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+LogonAction: LogonAction: User 'jonathan' logged on in session 0C519423474E735DFF9EBB4F95F9D91D
+
+Nov 28, 2007 12:34:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 77692B4B3CDBDAC1F6E007B9DF864F2D
+SessionRegistry: registered sessionBean: 77692B4B3CDBDAC1F6E007B9DF864F2D
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+
+Nov 28, 2007 12:34:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+LogonAction: LogonAction: User 'jonathan' logged on in session 77692B4B3CDBDAC1F6E007B9DF864F2D
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 12:34:40 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 12:34:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 12:34:40 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 12:35:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/manage/sessions.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/sessions.do
+	requestURI: /schemedit/manage/sessions.do
+
+Filtered Request Parameters
+SessionRegistry:   ... 18 live beans, 0 dead ones
+
+Nov 28, 2007 12:46:13 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 47132658235F8D00B514A6CE23C2EC50
+SessionRegistry: registered sessionBean: 47132658235F8D00B514A6CE23C2EC50
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 47132658235F8D00B514A6CE23C2EC50
+
+Nov 28, 2007 12:46:13 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: C10881BA7B9C0EDC474144CE8EB32828
+SessionRegistry: registered sessionBean: C10881BA7B9C0EDC474144CE8EB32828
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+LogonAction: LogonAction: User 'jonathan' logged on in session C10881BA7B9C0EDC474144CE8EB32828
+
+Nov 28, 2007 12:46:13 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+Nov 28, 2007 12:46:13 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+Filtered Request Parameters
+
+Nov 28, 2007 12:46:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 386287494A9AA91855A681B5AED9E1E1
+
+Nov 28, 2007 12:46:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: registered sessionBean: 386287494A9AA91855A681B5AED9E1E1
+SessionRegistry: sessionBean is null && session is active for id: 506FF16A8230D12C367BBEE736E8E8DC
+SessionRegistry: registered sessionBean: 506FF16A8230D12C367BBEE736E8E8DC
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+Filtered Request Parameters
+	dest: /browse/view.do?id=TEST-000-000-000-010
+	password: mypass
+	password: mypass
+	username: jonathan
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+LogonAction: LogonAction: User 'jonathan' logged on in session 386287494A9AA91855A681B5AED9E1E1
+LogonAction: LogonAction: User 'jonathan' logged on in session 506FF16A8230D12C367BBEE736E8E8DC
+
+Nov 28, 2007 12:46:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+
+Nov 28, 2007 12:46:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 12:46:15 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+Nov 28, 2007 12:46:15 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 12:56:34 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0bridgenoaaother
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0bridgenoaaother
+DCSQueryAction: Search results: 59
+
+Nov 28, 2007 12:59:34 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=ocean&scs=0bridgenoaaother&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchString: ocean
+	s: 0
+	resultsPerPage: 10
+	searchMode: raw
+	scs: 0bridgenoaaother
+DCSQueryAction: Search results: 13
+
+Nov 28, 2007 1:00:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=ocean
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchString: ocean
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 1668
+
+Nov 28, 2007 1:05:36 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: F45819C75831C169CCA3B392E3E5132C
+SessionRegistry: registered sessionBean: F45819C75831C169CCA3B392E3E5132C
+
+Nov 28, 2007 1:05:36 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 9D2247B6158515CA7C46BE98A5473EE6
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+SessionRegistry: registered sessionBean: 9D2247B6158515CA7C46BE98A5473EE6
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session F45819C75831C169CCA3B392E3E5132C
+LogonAction: LogonAction: User 'jonathan' logged on in session 9D2247B6158515CA7C46BE98A5473EE6
+
+Nov 28, 2007 1:05:36 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+Nov 28, 2007 1:05:36 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+Filtered Request Parameters
+
+Nov 28, 2007 1:05:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 80EDA8DC195820C82A49683552F5C30F
+SessionRegistry: registered sessionBean: 80EDA8DC195820C82A49683552F5C30F
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/view.do?id=TEST-000-000-000-010
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 80EDA8DC195820C82A49683552F5C30F
+
+Nov 28, 2007 1:05:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 1:05:39 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 1:05:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 8D62F51F9D5AFEFBD734281B6FC8E462
+SessionRegistry: registered sessionBean: 8D62F51F9D5AFEFBD734281B6FC8E462
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	dest: /browse/view.do?id=TEST-000-000-000-010
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 8D62F51F9D5AFEFBD734281B6FC8E462
+
+Nov 28, 2007 1:05:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 1:05:39 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 1:05:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: CF16660A7764DB80E8B86690F360A2EB
+SessionRegistry: registered sessionBean: CF16660A7764DB80E8B86690F360A2EB
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	searchString: ocean
+	dest: /browse/query.do?q=
+	password: mypass
+	s: 0
+	searchMode: raw
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session CF16660A7764DB80E8B86690F360A2EB
+
+Nov 28, 2007 1:05:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 43196CC6ADF928EE21CC69A26A51870F
+SessionRegistry: registered sessionBean: 43196CC6ADF928EE21CC69A26A51870F
+
+Nov 28, 2007 1:05:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	searchString: ocean
+	dest: /browse/query.do?q=
+	s: 0
+	searchMode: raw
+LogonAction: LogonAction: User 'jonathan' logged on in session 43196CC6ADF928EE21CC69A26A51870F
+
+Nov 28, 2007 1:05:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+DCSQueryAction: Search results: 18764
+DCSQueryAction: Search results: 18764
+
+Nov 28, 2007 1:06:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+
+Nov 28, 2007 1:06:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 164E5FF8B0A7E3E65F8D579EC1D437AD
+SessionRegistry: sessionBean is null && session is active for id: F4C075BF7E19F6695BA610E0EAD4A4DB
+SessionRegistry: registered sessionBean: 164E5FF8B0A7E3E65F8D579EC1D437AD
+SessionRegistry: registered sessionBean: F4C075BF7E19F6695BA610E0EAD4A4DB
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+
+Filtered Request Parameters
+Filtered Request Parameters
+	password: mypass
+	dest: /browse/home.do
+	username: jonathan
+	password: mypass
+	dest: /browse/home.do
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 164E5FF8B0A7E3E65F8D579EC1D437AD
+LogonAction: LogonAction: User 'jonathan' logged on in session F4C075BF7E19F6695BA610E0EAD4A4DB
+
+Nov 28, 2007 1:06:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+
+Nov 28, 2007 1:06:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+Filtered Request Parameters
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: BCE0E122E3422C2C346183E7BA03B91A
+SessionRegistry: registered sessionBean: BCE0E122E3422C2C346183E7BA03B91A
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+LogonAction: LogonAction: User 'jonathan' logged on in session BCE0E122E3422C2C346183E7BA03B91A
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 1:06:59 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 164FF94DCF582A96AE62503D3E3362C6
+SessionRegistry: registered sessionBean: 164FF94DCF582A96AE62503D3E3362C6
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+LogonAction: LogonAction: User 'jonathan' logged on in session 164FF94DCF582A96AE62503D3E3362C6
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 1:06:59 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: D2E7746895C61CBB81E18ED9289173E9
+SessionRegistry: registered sessionBean: D2E7746895C61CBB81E18ED9289173E9
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: CA7C9BB03C263275C1A7CFFB16CBCFD9
+SessionRegistry: registered sessionBean: CA7C9BB03C263275C1A7CFFB16CBCFD9
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	searchString: ocean
+	dest: /browse/query.do?q=
+	s: 0
+	searchMode: raw
+Filtered Request Parameters
+	searchString: ocean
+	dest: /browse/query.do?q=
+	password: mypass
+	s: 0
+	searchMode: raw
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session D2E7746895C61CBB81E18ED9289173E9
+LogonAction: LogonAction: User 'jonathan' logged on in session CA7C9BB03C263275C1A7CFFB16CBCFD9
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 1:06:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+DCSQueryAction: Search results: 18764
+DCSQueryAction: Search results: 18764
+
+Nov 28, 2007 1:08:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: F637D56C87948B152C73E5FBD64AC5BF
+SessionRegistry: registered sessionBean: F637D56C87948B152C73E5FBD64AC5BF
+
+Nov 28, 2007 1:08:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+SessionRegistry: sessionBean is null && session is active for id: A5E666A102FDB5FE9EFC02260E699D01
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+SessionRegistry: registered sessionBean: A5E666A102FDB5FE9EFC02260E699D01
+
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/home.do
+Filtered Request Parameters
+	dest: /browse/home.do
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session F637D56C87948B152C73E5FBD64AC5BF
+LogonAction: LogonAction: User 'jonathan' logged on in session A5E666A102FDB5FE9EFC02260E699D01
+
+Nov 28, 2007 1:08:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+Nov 28, 2007 1:08:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+Filtered Request Parameters
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 77B1792BAC4E9438B65A546CBF95C72F
+SessionRegistry: registered sessionBean: 77B1792BAC4E9438B65A546CBF95C72F
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 9E8224911F44CFC08F1FA69DF7FADDE2
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+SessionRegistry: registered sessionBean: 9E8224911F44CFC08F1FA69DF7FADDE2
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+	dest: /browse/view.do?id=TEST-000-000-000-010
+Filtered Request Parameters
+	dest: /browse/view.do?id=TEST-000-000-000-010
+	password: mypass
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 77B1792BAC4E9438B65A546CBF95C72F
+LogonAction: LogonAction: User 'jonathan' logged on in session 9E8224911F44CFC08F1FA69DF7FADDE2
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: id=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Filtered Request Parameters
+	id: TEST-000-000-000-010
+Nov 28, 2007 1:08:20 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+Nov 28, 2007 1:08:20 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: sessionBean is null && session is active for id: 572990CF41703F6DA4746C58E522BB16
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/auth/logon.do
+SessionRegistry: registered sessionBean: 572990CF41703F6DA4746C58E522BB16
+SessionRegistry: sessionBean is null && session is active for id: 20D089E84DCA41042AA2D6941967F678
+SessionRegistry: registered sessionBean: 20D089E84DCA41042AA2D6941967F678
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	username: jonathan
+Filtered Request Parameters
+	searchString: ocean
+	searchString: ocean
+	dest: /browse/query.do?q=
+	dest: /browse/query.do?q=
+	s: 0
+	password: mypass
+	searchMode: raw
+	s: 0
+	searchMode: raw
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 572990CF41703F6DA4746C58E522BB16
+LogonAction: LogonAction: User 'jonathan' logged on in session 20D089E84DCA41042AA2D6941967F678
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+
+Nov 28, 2007 1:08:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+Filtered Request Parameters
+DCSQueryAction: Search results: 18764
+DCSQueryAction: Search results: 18764
+
+Nov 28, 2007 1:08:48 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/manage/sessions.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/sessions.do
+	requestURI: /schemedit/manage/sessions.do
+
+Filtered Request Parameters
+SessionRegistry:   ... 40 live beans, 0 dead ones
+SessionRegistry: unregistering Session Bean for 898E33D000B4BCC6979D04E597DA81B5
+SessionRegistry: unregistering Session Bean for 326DA777D9EDD54F41E168C3FBC48883
+SessionRegistry: unregistering Session Bean for C9B63AA6B8E022192D3F991D16A92C86
+SessionRegistry: unregistering Session Bean for 4EB479ACC7DCC68CE73170B23A061339
+SessionRegistry: unregistering Session Bean for 4C2E3E1438989F67070775ADB033B5A5
+SessionRegistry: unregistering Session Bean for 565EECCBB82C0AE48BD55D0CD34D0128
+SessionRegistry: unregistering Session Bean for E54998A0BE2C51DA0C0472D1AF37A51E
+SessionRegistry: unregistering Session Bean for 8D0C74D131E9B7268D0A2782C1DF8258
+SessionRegistry: unregistering Session Bean for 1D3BEE452EBE8FBBB9B6287713638F0F
+SessionRegistry: unregistering Session Bean for 611B4AAB836B00115F0D60A41D79A376
+SessionRegistry: unregistering Session Bean for 5F0C95A1773D87BB4277368D5387F007
+SessionRegistry: unregistering Session Bean for 243E8D2212C99924C08ECE3E5116B0B5
+SessionRegistry: unregistering Session Bean for 0DD097C0F1C2FFACDE4D2B7985BE75B9
+SessionRegistry: unregistering Session Bean for 86064789A4C8D745E8C797C1AFBD6609
+SessionRegistry: unregistering Session Bean for 0C519423474E735DFF9EBB4F95F9D91D
+SessionRegistry: unregistering Session Bean for 77692B4B3CDBDAC1F6E007B9DF864F2D
+SessionRegistry: unregistering Session Bean for A14D8F6EB2C4BB766CF688D2DDA0021F
+SessionRegistry: unregistering Session Bean for C10881BA7B9C0EDC474144CE8EB32828
+SessionRegistry: unregistering Session Bean for 386287494A9AA91855A681B5AED9E1E1
+SessionRegistry: unregistering Session Bean for 506FF16A8230D12C367BBEE736E8E8DC
+SessionRegistry: unregistering Session Bean for 47132658235F8D00B514A6CE23C2EC50
+
+Nov 28, 2007 3:06:25 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 28, 2007 3:06:25 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+SessionRegistry: unregistering Session Bean for 43196CC6ADF928EE21CC69A26A51870F
+SessionRegistry: unregistering Session Bean for F45819C75831C169CCA3B392E3E5132C
+SessionRegistry: unregistering Session Bean for 8D62F51F9D5AFEFBD734281B6FC8E462
+SessionRegistry: unregistering Session Bean for 80EDA8DC195820C82A49683552F5C30F
+SessionRegistry: unregistering Session Bean for 9D2247B6158515CA7C46BE98A5473EE6
+SessionRegistry: unregistering Session Bean for CF16660A7764DB80E8B86690F360A2EB
+
+Nov 28, 2007 3:06:31 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/manage/sessions.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/sessions.do
+	requestURI: /schemedit/manage/sessions.do
+
+Filtered Request Parameters
+SessionRegistry:   ... 13 live beans, 0 dead ones
+
+Nov 28, 2007 3:06:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 3:07:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=ocean&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: ocean
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 1668
+
+Nov 28, 2007 3:07:18 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+SessionRegistry: unregistering Session Bean for 164E5FF8B0A7E3E65F8D579EC1D437AD
+SessionRegistry: unregistering Session Bean for BCE0E122E3422C2C346183E7BA03B91A
+SessionRegistry: unregistering Session Bean for CA7C9BB03C263275C1A7CFFB16CBCFD9
+SessionRegistry: unregistering Session Bean for 164FF94DCF582A96AE62503D3E3362C6
+SessionRegistry: unregistering Session Bean for D2E7746895C61CBB81E18ED9289173E9
+SessionRegistry: unregistering Session Bean for F4C075BF7E19F6695BA610E0EAD4A4DB
+SessionRegistry: unregistering Session Bean for 77B1792BAC4E9438B65A546CBF95C72F
+SessionRegistry: unregistering Session Bean for A5E666A102FDB5FE9EFC02260E699D01
+SessionRegistry: unregistering Session Bean for 9E8224911F44CFC08F1FA69DF7FADDE2
+SessionRegistry: unregistering Session Bean for F637D56C87948B152C73E5FBD64AC5BF
+SessionRegistry: unregistering Session Bean for 572990CF41703F6DA4746C58E522BB16
+SessionRegistry: unregistering Session Bean for 20D089E84DCA41042AA2D6941967F678
+
+Nov 28, 2007 3:35:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: FC61B0D5CB5CBF5FFE297BAB803CF57A
+SessionRegistry: registered sessionBean: FC61B0D5CB5CBF5FFE297BAB803CF57A
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 28, 2007 3:35:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 28, 2007 3:35:53 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 28, 2007 3:36:03 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: devaul*!
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: Holly
+LogonAction: LogonAction: User 'Holly' logged on in session FC61B0D5CB5CBF5FFE297BAB803CF57A
+
+Nov 28, 2007 3:36:06 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 3:36:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: s=0&q=&scs=0dcc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0dcc
+DCSQueryAction: Search results: 9641
+
+Nov 28, 2007 3:36:52 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: id=DLESE-000-000-010-262
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: DLESE-000-000-010-262
+
+Nov 28, 2007 3:36:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: command=edit&recId=DLESE-000-000-010-262
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-262
+SessionRegistry: session FC61B0D5CB5CBF5FFE297BAB803CF57A attempting to lock record DLESE-000-000-010-262 ... Success
+
+Nov 28, 2007 3:37:22 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: validate
+	xmlFormat: adn
+	currentPage: general
+	recId: DLESE-000-000-010-262
+
+Nov 28, 2007 3:37:25 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: save
+	xmlFormat: adn
+	currentPage: general
+	recId: DLESE-000-000-010-262
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-262
+Nov 28, 2007 3:37:25 PM MST Saving record id: DLESE-000-000-010-262
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 28, 2007 3:37:28 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: changeForm
+	xmlFormat: adn
+	nextPage: technical
+	currentPage: general
+	recId: DLESE-000-000-010-262
+
+Nov 28, 2007 3:37:43 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: changeForm
+	xmlFormat: adn
+	nextPage: educational
+	currentPage: technical
+	recId: DLESE-000-000-010-262
+
+Nov 28, 2007 3:37:57 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: newElement
+	pathArg: /itemRecord/educational/audiences/audience_1_
+	xmlFormat: adn
+	currentPage: educational
+	recId: DLESE-000-000-010-262
+DCSSchemEditAction: hash after newElement: /itemRecord/educational/audiences/audience_2_
+
+Nov 28, 2007 3:38:08 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: save
+	recId: DLESE-000-000-010-262
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-262
+Nov 28, 2007 3:38:08 PM MST Saving record id: DLESE-000-000-010-262
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 28, 2007 3:38:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: validate
+	recId: DLESE-000-000-010-262
+	xmlFormat: adn
+
+Nov 28, 2007 3:38:26 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: save
+	recId: DLESE-000-000-010-262
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-262
+Nov 28, 2007 3:38:26 PM MST Saving record id: DLESE-000-000-010-262
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 28, 2007 3:38:28 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: validate
+	recId: DLESE-000-000-010-262
+	xmlFormat: adn
+
+Nov 28, 2007 3:38:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-262
+	xmlFormat: adn
+SessionRegistry: session FC61B0D5CB5CBF5FFE297BAB803CF57A attempting to release lock on record DLESE-000-000-010-262 ... Success
+
+Nov 28, 2007 3:38:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: id=DLESE-000-000-010-262
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: DLESE-000-000-010-262
+
+Nov 28, 2007 3:38:43 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&scs=0dcc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	s: 0
+DCSQueryAction: Search results: 9641
+
+Nov 28, 2007 3:38:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/record_op/status.do
+AuthorizationFilter: guarded path: /record_op/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: command=edit&recId=DLESE-000-000-010-261
+	hasRole: cataloger
+	servletPath: /record_op/status.do
+	requestURI: /schemedit/record_op/status.do
+
+StatusForm: validate()
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-261
+SessionRegistry: session FC61B0D5CB5CBF5FFE297BAB803CF57A attempting to lock record DLESE-000-000-010-261 ... Success
+
+Nov 28, 2007 3:39:12 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/record_op/status.do
+AuthorizationFilter: guarded path: /record_op/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /record_op/status.do
+	requestURI: /schemedit/record_op/status.do
+
+StatusForm: validate()
+Filtered Request Parameters
+	command: updateStatus
+	statusNote: testing 
+	status: New
+	recId: DLESE-000-000-010-261
+
+RepositoryService: updateRecordStatus() : recId is DLESE-000-000-010-261
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-261
+Nov 28, 2007 3:39:12 PM MST Saving record id: DLESE-000-000-010-261
+SessionRegistry: session FC61B0D5CB5CBF5FFE297BAB803CF57A attempting to release lock on record DLESE-000-000-010-261 ... Success
+
+Nov 28, 2007 3:39:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&scs=0dcc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	s: 0
+DCSQueryAction: Search results: 9641
+
+Nov 28, 2007 3:39:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: id=DLESE-000-000-010-270
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: DLESE-000-000-010-270
+
+Nov 28, 2007 3:39:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: command=edit&recId=DLESE-000-000-010-270
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-270
+SessionRegistry: session FC61B0D5CB5CBF5FFE297BAB803CF57A attempting to lock record DLESE-000-000-010-270 ... Success
+
+Nov 28, 2007 3:40:04 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-270
+Nov 28, 2007 3:40:04 PM MST Saving record id: DLESE-000-000-010-270
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 28, 2007 3:40:06 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: validate
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+
+Nov 28, 2007 3:40:18 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-270
+Nov 28, 2007 3:40:18 PM MST Saving record id: DLESE-000-000-010-270
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 28, 2007 3:40:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: validate
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+
+Nov 28, 2007 3:40:22 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: changeForm
+	recId: DLESE-000-000-010-270
+	nextPage: lifecycle
+	xmlFormat: adn
+
+Nov 28, 2007 3:40:26 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: lifecycle
+	command: validate
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+
+Nov 28, 2007 3:40:28 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: lifecycle
+	command: changeForm
+	recId: DLESE-000-000-010-270
+	nextPage: metaMetadata
+	xmlFormat: adn
+
+Nov 28, 2007 3:41:22 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: metaMetadata
+	command: validate
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+
+Nov 28, 2007 3:41:25 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: metaMetadata
+	command: changeForm
+	recId: DLESE-000-000-010-270
+	nextPage: educational
+	xmlFormat: adn
+
+Nov 28, 2007 3:41:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: save
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-270
+Nov 28, 2007 3:41:35 PM MST Saving record id: DLESE-000-000-010-270
+DCSSchemEditAction:  ... returned from putRecord()
+
+Nov 28, 2007 3:41:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: validate
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+
+Nov 28, 2007 3:41:42 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: educational
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+SessionRegistry: session FC61B0D5CB5CBF5FFE297BAB803CF57A attempting to release lock on record DLESE-000-000-010-270 ... Success
+
+Nov 28, 2007 3:41:42 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: id=DLESE-000-000-010-270
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: DLESE-000-000-010-270
+
+Nov 28, 2007 3:44:21 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 3:44:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: s=0&q=&scs=0bridgenoaaother
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0bridgenoaaother
+DCSQueryAction: Search results: 59
+
+Nov 28, 2007 3:44:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&searchMode=raw&searchString=whale&scs=0bridgenoaaother&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0bridgenoaaother
+	searchMode: raw
+	searchString: whale
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 1
+
+Nov 28, 2007 3:45:04 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 3:45:12 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: s=0&q=&scs=0comet
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0comet
+	s: 0
+DCSQueryAction: Search results: 159
+
+Nov 28, 2007 3:45:23 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0comet&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0comet
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 159
+
+Nov 28, 2007 3:45:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&searchMode=raw&searchString=whale&scs=0comet&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0comet
+	searchMode: raw
+	searchString: whale
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 0
+
+Nov 28, 2007 3:45:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0comet&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0comet
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 159
+
+Nov 28, 2007 3:45:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: id=COMET-mmdb
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: COMET-mmdb
+
+Nov 28, 2007 3:46:06 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: q=&s=0&vld=&scs=0comet&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0comet
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 159
+
+Nov 28, 2007 3:46:14 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 28, 2007 3:46:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: s=0&q=&scs=0crs
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0crs
+	s: 0
+DCSQueryAction: Search results: 452
+
+Nov 28, 2007 3:46:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/view.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: id=CRS-SERC-NAGT-000-000-000-847-T-345
+	hasRole: cataloger
+	servletPath: /browse/view.do
+	requestURI: /schemedit/browse/view.do
+
+Filtered Request Parameters
+	id: CRS-SERC-NAGT-000-000-000-847-T-345
+
+Nov 28, 2007 3:47:07 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: Holly
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+SessionRegistry: unregistering Session Bean for 579D00AAC4EE9449C3E8E9D07248F2BB
+SessionRegistry: unregistering Session Bean for FC61B0D5CB5CBF5FFE297BAB803CF57A
+
+Nov 29, 2007 11:38:57 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logoff.do
+SessionRegistry: sessionBean is null && session is active for id: 6EE690A4EED3A88D63E81D6CE3A0DDBF
+SessionRegistry: registered sessionBean: 6EE690A4EED3A88D63E81D6CE3A0DDBF
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffActon: User logged off in session 6EE690A4EED3A88D63E81D6CE3A0DDBF
+SessionRegistry: unregistering Session Bean for 6EE690A4EED3A88D63E81D6CE3A0DDBF
+
+Nov 29, 2007 11:38:58 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logoff.jsp
+SessionRegistry: sessionBean is null && session is active for id: 8F43A02985C2169168F66D566E5DD157
+SessionRegistry: registered sessionBean: 8F43A02985C2169168F66D566E5DD157
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 29, 2007 11:42:23 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 5074FC2833508FF355BC4CA4DC354591
+SessionRegistry: registered sessionBean: 5074FC2833508FF355BC4CA4DC354591
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 29, 2007 11:42:23 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 29, 2007 11:42:33 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+SessionRegistry: unregistering Session Bean for 8F43A02985C2169168F66D566E5DD157
+SessionRegistry: unregistering Session Bean for 5074FC2833508FF355BC4CA4DC354591
+
+Nov 30, 2007 2:37:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 6E301CD5C04A37B407F2D43293CA3627
+SessionRegistry: registered sessionBean: 6E301CD5C04A37B407F2D43293CA3627
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Nov 30, 2007 2:37:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Nov 30, 2007 2:37:26 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Nov 30, 2007 2:37:30 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 6E301CD5C04A37B407F2D43293CA3627
+
+Nov 30, 2007 2:37:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Nov 30, 2007 2:37:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Nov 30, 2007 2:37:39 PM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Nov 30, 2007 4:07:13 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logoff.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffAction: User 'jonathan' logged off in session 6E301CD5C04A37B407F2D43293CA3627
+SessionRegistry: unregistering Session Bean for 6E301CD5C04A37B407F2D43293CA3627
+
+Nov 30, 2007 4:07:13 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logoff.jsp
+SessionRegistry: sessionBean is null && session is active for id: C46F8C4B7F6C3F631B9CEBEDE2381408
+SessionRegistry: registered sessionBean: C46F8C4B7F6C3F631B9CEBEDE2381408
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+SessionRegistry: unregistering Session Bean for C46F8C4B7F6C3F631B9CEBEDE2381408
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Reloading vocab instance 'MetadataVocab'
+Dec 10, 2007 7:01:39 PM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Error loading vocabulary:
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:157)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:387)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:522)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:231)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:304)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:321)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:813)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:765)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:690)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:934)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.load(LoadMetadataOPML.java:137)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.getMetadataVocabInstance(LoadMetadataOPML.java:95)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.loadVocabs(MetadataVocabServlet.java:100)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:87)
+Dec 10, 2007 7:01:39 PM MST about to notifyListeners via MetadataVocabOPML
+Dec 10, 2007 7:01:39 PM MST notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Reloading vocab instance 'MetadataVocab'
+Dec 10, 2007 7:05:46 PM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Dec 10, 2007 7:05:50 PM MST about to notifyListeners via MetadataVocabOPML
+Dec 10, 2007 7:05:50 PM MST notifyListeners()
+FrameworkRegistry: Registering Mui groups and re-rendering EditorPages
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry:   ... done re-rendering
+Dec 10, 2007 7:08:35 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Dec 10, 2007 7:08:35 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Dec 10, 2007 7:08:35 PM org.apache.catalina.connector.Connector pause
+SEVERE: Protocol handler pause failed
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:209)
+	at org.apache.jk.common.ChannelSocket.unLockSocket(ChannelSocket.java:492)
+	at org.apache.jk.common.ChannelSocket.pause(ChannelSocket.java:289)
+	at org.apache.jk.server.JkMain.pause(JkMain.java:681)
+	at org.apache.jk.server.JkCoyoteHandler.pause(JkCoyoteHandler.java:163)
+	at org.apache.catalina.connector.Connector.pause(Connector.java:1032)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:489)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+Dec 10, 2007 7:08:36 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 18817 DcsDataRecords from cache
+Dec 10, 2007 7:08:36 PM MST SchemEditServlet stopped
+Dec 10, 2007 7:08:36 PM MST NDRServlet: destroy() ...
+Dec 10, 2007 7:08:36 PM MST NDRServlet stopped
+ SetupServlet: destroy() ...
+Dec 10, 2007 7:08:36 PM MST SetupServlet stopped
+Dec 10, 2007 7:08:36 PM MST CasaaServlet: destroy() ...
+Dec 10, 2007 7:08:36 PM MST CasaaServlet stopped
+Done shutting down new vocabs checker.
+Dec 10, 2007 7:08:36 PM MST MetadataVocabServlet stopped.
+Dec 10, 2007 7:08:36 PM MST RepositoryManager destroy()
+Dec 10, 2007 7:08:36 PM MST OAIProviderServlet stopped
+Dec 10, 2007 7:08:36 PM MST RepositoryManager destroy()
+
+
+Dec 10, 2007 7:08:36 PM MST DDSServlet stopped.
+
+
+Dec 10, 2007 7:08:36 PM MST SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Dec 10, 2007 7:08:37 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10110
+Dec 10, 2007 7:08:37 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10113
+Dec 10, 2007 7:08:37 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

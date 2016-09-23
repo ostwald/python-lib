@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs" xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_collect/1.02/schemas/ncs-collect.xsd">
+  <general>
+    <recordID></recordID>
+    <url>http://ndr.comm.nsdl.org/cgi-bin/wiki.pl?NSDL_Data_Repository_(NDR)</url>
+    <title>NSDL Wiki</title>
+    <description>This is where the info about the NDR api is.</description>
+  </general>
+  <collection>
+    <contacts>
+      <contact name="Ostwald" email="ostwald@ucar.edu"/>
+    </contacts>
+    <date>2007-01-01</date>
+    <brandURL></brandURL>
+  </collection>
+</record>
+

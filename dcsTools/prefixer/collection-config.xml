@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collectionConfigRecord xmlns="http://dcs.dlsciences.org/collection-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dcs.dlsciences.org/collection-config http://www.dpc.ucar.edu/people/ostwald/Metadata/collection-config/dcsCollectionConfig.xsd">
+  <collectionId>1159995857662pid</collectionId>
+  <idPrefix>flabery</idPrefix>
+  <xmlFormat>oai_dc</xmlFormat>
+  <statusFlags finalStatusLabel="Final Status">
+    <statusFlag>
+      <status>in progress</status>
+      <description>i'm in progress (don't bother me)</description>
+    </statusFlag>
+    <statusFlag>
+      <status>almost done</status>
+      <description>i mean it - i'm closer than i know</description>
+    </statusFlag>
+  </statusFlags>
+  <authority>ndr</authority>
+  <ndrInfo>
+    <metadataProvider>
+      <handle>2200/test.20070411183250394T</handle>
+      <serviceDescription>
+        <title>Comet Test Collection</title>
+        <description>TEST COLLECTION IMPORT FROM DLESE</description>
+        <identifier>http://dlese.org/</identifier>
+      </serviceDescription>
+    </metadataProvider>
+    <aggregator>
+      <handle>2200/test.20070403144245218T</handle>
+      <serviceDescription>
+        <title>Resource Collection For 1159995857662pid</title>
+        <description>DLESE Collection</description>
+        <identifier>http://www.dlese.org/</identifier>
+      </serviceDescription>
+    </aggregator>
+  </ndrInfo>
+  <tuples/>
+</collectionConfigRecord>

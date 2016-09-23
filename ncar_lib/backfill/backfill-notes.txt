@@ -1,0 +1,48 @@
+DR000079	record present in DCS	GHOST Balloon Data Vol. I: Introduction
+DR000485	Scraped as TECH-NOTE-000-000-000-485	pdf downloaded
+DR000588	Scraped as TECH-NOTE-000-000-000-588	pdf downloaded
+DR000626	no record found
+DR000644	GHOST Balloon Data Vol. V:  Balloon 49R
+DR000645	GHOST Balloon Data Vol. VI:  Balloon 50D
+DR000646	GHOST Balloon Data Vol. VII:  Balloon 58G
+DR000647	GHOST Balloon Data Vol. X:  Balloon 79R
+DR000648	GHOST Balloon Data Vol. XI:  Balloon 86C
+DR000671	no record found
+DR000672	no record found
+DR000673	no record found
+DR000674	no record found
+DR000675	no record found
+DR000676	no record found
+DR000677	no record found
+DR000678	no record found
+DR000679	no record found
+DR000680	no record found
+DR000681	no record found
+DR000682	no record found
+DR000683	no record found
+DR000684	no record found
+DR000685	no record found
+DR000686	no record found
+DR000687	no record found
+DR000688	no record found
+DR000689	no record found
+DR000690	no record found
+DR000691	no record found
+DR000692	no record found
+DR000693	no record found
+DR000694	no record found
+DR000695	no record found
+DR000696	no record found
+DR000697	no record found
+DR000698	no record found
+DR000699	no record found
+DR000700	no record found
+DR000701	no record found
+DR000702	no record found
+DR000703	no record found
+DR000704	no record found
+DR000705	no record found
+DR000706	no record found
+DR000707	no record found
+DR000708	no record found
+DR000709	no record found

@@ -1,0 +1,27 @@
+
+body {
+	font-family:arial;
+	font-size:85%;
+}
+
+.title {
+	margin-top:10px;
+	font-weight:bold;
+}
+
+.pubName {
+	font-style:italic;
+}
+
+.author-list {
+	list-style-type:none;
+	margin:0px;
+}
+
+.details {
+	font-size:0.8em;
+}
+
+.image-author {
+	color:blue;
+}

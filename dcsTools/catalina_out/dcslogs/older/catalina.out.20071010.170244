@@ -1,0 +1,1398 @@
+Oct 10, 2007 1:21:36 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 10, 2007 1:21:36 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 1:21:37 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 1:21:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2170 ms
+Oct 10, 2007 1:21:37 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 10, 2007 1:21:37 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 10, 2007 1:21:37 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 10, 2007 1:21:38 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 1:21:39 PM MDT NDRServlet starting
+Oct 10, 2007 1:21:39 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 1:21:39 PM MDT SetupServlet starting
+Oct 10, 2007 1:21:39 PM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 1:21:39 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 1:21:39 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 1:21:39 PM MDT SetupServlet: creating auth config directory at /usr/local/dlese_data/dcs/dcs_conf/auth
+Oct 10, 2007 1:21:39 PM MDT SetupServlet: installed users.xml as /usr/local/dlese_data/dcs/dcs_conf/auth/users.xml
+Oct 10, 2007 1:21:39 PM MDT SetupServlet: installed access.xml as /usr/local/dlese_data/dcs/dcs_conf/auth/access.xml
+Oct 10, 2007 1:21:39 PM MDT SetupServlet completed.
+
+Oct 10, 2007 1:21:39 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 1:21:39 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 1:21:43 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 1:21:43 PM MDT Outputting debug info
+Oct 10, 2007 1:21:43 PM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 1:21:43 PM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 1:21:43 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 1:21:43 PM MDT Starting up RepositoryManager
+Oct 10, 2007 1:21:43 PM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 1:21:43 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Oct 10, 2007 1:21:44 PM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 1:21:44 PM MDT rm.init() successful...
+Oct 10, 2007 1:21:44 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 1:21:44 PM MDT DDSServlet started.
+
+
+Oct 10, 2007 1:21:44 PM MDT OAIProviderServlet starting
+Oct 10, 2007 1:21:44 PM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 1:21:44 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 1:21:44 PM MDT OAIProviderServlet initialized.
+Oct 10, 2007 1:21:44 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+Oct 10, 2007 1:21:45 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (8 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+java.lang.NullPointerException
+	at org.dlese.dpc.xml.schema.ComplexType.<init>(ComplexType.java:66)
+	at org.dlese.dpc.xml.schema.SchemaReader.getTypeDefs(SchemaReader.java:366)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:205)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.<init>(DefinitionMiner.java:97)
+	at org.dlese.dpc.xml.schema.SchemaHelper.init(SchemaHelper.java:156)
+	at org.dlese.dpc.xml.schema.SchemaHelper.<init>(SchemaHelper.java:142)
+	at org.dlese.dpc.schemedit.MetaDataFramework.loadSchemaHelper(MetaDataFramework.java:451)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.load(FrameworkRegistry.java:121)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.<init>(FrameworkRegistry.java:84)
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:127)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+NewFieldInfoMap: FieldInfoMap initialized - 6 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /prod/tools/dlesetest/devel/dcs/exported
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry: initializeIDGenerators WARNING: collectionConfig not found for collect
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+initialized repositoryService
+Oct 10, 2007 1:22:20 PM MDT SchemEditServlet initialized.
+
+Oct 10, 2007 1:22:20 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 1:22:20 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 1:22:20 PM MDT CasaaServlet completed.
+
+Oct 10, 2007 1:22:20 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+
+AccessManager: config document: 
+<paths>
+  <guarded-paths>
+    <guarded-path>
+      <path>/*</path>
+      <description>Default path - houses unguarded Actions</description>
+      <role>none</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/admin/</path>
+      <description>the admin directory</description>
+      <role>admin</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/browse/</path>
+      <description>record searching and viewing.</description>
+      <role>cataloger</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/editor/collection_config.do</path>
+      <description>Collection configuration</description>
+      <role>admin</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/editor/edit.do</path>
+      <description>Item-level metadata editing</description>
+      <role>cataloger</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/editor/framework_config.do</path>
+      <description>Framework configuration</description>
+      <role>admin</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/logoff.do</path>
+      <description>logoff - must always be unguarded</description>
+      <role>none</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/logon.do</path>
+      <description>Logon - must always be unguarded</description>
+      <role>none</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/manage/</path>
+      <description>Management Functions</description>
+      <role>manager</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/ndr/ndr.do</path>
+      <description>Ndr actions</description>
+      <role>cataloger</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/record_op/</path>
+      <description>Single and Batch record operations, including delete, move, copy, new, etc</description>
+      <role>cataloger</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/services/</path>
+      <description>Search Web Services - leave unguarded by default</description>
+      <role>none</role>
+    </guarded-path>
+    <guarded-path>
+      <path>/user/</path>
+      <description>the user directory</description>
+      <role>cataloger</role>
+    </guarded-path>
+  </guarded-paths>
+  <action-paths>
+    <action-path>
+      <path>/admin/admin</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/data-provider-info</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/editor_admin</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/oai/oaisearch</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/query</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/report</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/reporting/report</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/repository_info-validate</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/repository_info-view</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/roles/accessManager</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/admin/update_repository_info</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/browse/display</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/browse/home</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/browse/query</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/browse/static</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/browse/view</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/dcs_data/dcs_data</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/editor/collection_config</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/editor/edit</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/editor/framework_config</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/logoff</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/logon</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/manage/collectionAccessManager</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/manage/collections</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/manage/sessions</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/manage/userManager</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/ndr/ndr</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/oai2-0</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/record_op/adn</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/record_op/batch</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/record_op/single</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/record_op/status</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/schema/schema</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/services/dcsws1-0</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/services/ddsws1-0</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/services/ddsws1-1</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/services/recommend</path>
+      <description/>
+    </action-path>
+    <action-path>
+      <path>/user/userInfo</path>
+      <description/>
+    </action-path>
+  </action-paths>
+</paths>
+
+AccessManager: configureGuardedPaths()
+AccessManager: 	 processing 13 guardedPathNodes
+AccessManager: alignActionsToGuardedPaths
+
+AccessManager:  matchGuardedPath with path: "/admin/admin.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/data-provider-info.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/editor_admin.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/oai/oaisearch.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/query.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/report.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/reporting/report.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/repository_info-validate.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/repository_info-view.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/roles/accessManager.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/admin/update_repository_info.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/admin/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1133572
+
+AccessManager:  matchGuardedPath with path: "/browse/display.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/browse/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@19f8f3
+
+AccessManager:  matchGuardedPath with path: "/browse/home.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/browse/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@19f8f3
+
+AccessManager:  matchGuardedPath with path: "/browse/query.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/browse/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@19f8f3
+
+AccessManager:  matchGuardedPath with path: "/browse/static.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/browse/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@19f8f3
+
+AccessManager:  matchGuardedPath with path: "/browse/view.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/browse/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@19f8f3
+
+AccessManager:  matchGuardedPath with path: "/dcs_data/dcs_data.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1273c73
+
+AccessManager:  matchGuardedPath with path: "/editor/collection_config.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 exact match
+
+AccessManager:  matchGuardedPath with path: "/editor/edit.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 exact match
+
+AccessManager:  matchGuardedPath with path: "/editor/framework_config.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 exact match
+
+AccessManager:  matchGuardedPath with path: "/logoff.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 exact match
+
+AccessManager:  matchGuardedPath with path: "/logon.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 exact match
+
+AccessManager:  matchGuardedPath with path: "/manage/collectionAccessManager.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/manage/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f1a4a9
+
+AccessManager:  matchGuardedPath with path: "/manage/collections.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/manage/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f1a4a9
+
+AccessManager:  matchGuardedPath with path: "/manage/sessions.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/manage/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f1a4a9
+
+AccessManager:  matchGuardedPath with path: "/manage/userManager.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/manage/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f1a4a9
+
+AccessManager:  matchGuardedPath with path: "/ndr/ndr.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 exact match
+
+AccessManager:  matchGuardedPath with path: "/oai2-0.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1273c73
+
+AccessManager:  matchGuardedPath with path: "/record_op/adn.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/record_op/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@717dc9
+
+AccessManager:  matchGuardedPath with path: "/record_op/batch.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/record_op/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@717dc9
+
+AccessManager:  matchGuardedPath with path: "/record_op/single.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/record_op/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@717dc9
+
+AccessManager:  matchGuardedPath with path: "/record_op/status.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/record_op/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@717dc9
+
+AccessManager:  matchGuardedPath with path: "/schema/schema.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager:  found 1 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@1273c73
+
+AccessManager:  matchGuardedPath with path: "/services/dcsws1-0.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/services/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f953df
+
+AccessManager:  matchGuardedPath with path: "/services/ddsws1-0.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/services/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f953df
+
+AccessManager:  matchGuardedPath with path: "/services/ddsws1-1.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/services/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f953df
+
+AccessManager:  matchGuardedPath with path: "/services/recommend.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/services/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@f953df
+
+AccessManager:  matchGuardedPath with path: "/user/userInfo.do"
+AccessManager: 	 a candidate!
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 nope
+AccessManager: 	 a candidate!
+AccessManager:  found 2 matches
+
+AccessManager: bestMatch
+AccessManager: 	/(0)
+AccessManager: 	/user/(2)
+AccessManager: 	 returning org.dlese.dpc.schemedit.security.access.GuardedPath@e4bfeb
+AccessManager: accessManager intitialized
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 1:22:25 PM MDT SchemaViewerServlet starting
+Oct 10, 2007 1:22:25 PM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 1:22:25 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 1:22:25 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 1:22:25 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 10, 2007 1:22:25 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/36  config=null
+Oct 10, 2007 1:22:25 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 10, 2007 1:22:25 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 48169 ms
+Oct 10, 2007 4:45:28 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading this Context has started
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 0 DcsDataRecords from cache
+Oct 10, 2007 4:45:28 PM MDT SchemEditServlet stopped
+Oct 10, 2007 4:45:28 PM MDT NDRServlet: destroy() ...
+Oct 10, 2007 4:45:28 PM MDT NDRServlet stopped
+Oct 10, 2007 4:45:28 PM MDT SetupServlet: destroy() ...
+Oct 10, 2007 4:45:28 PM MDT SetupServlet stopped
+Oct 10, 2007 4:45:28 PM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 4:45:28 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 10, 2007 4:45:28 PM MDT MetadataVocabServlet stopped.
+java.io.InterruptedIOException: operation interrupted
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+Oct 10, 2007 4:45:28 PM MDT RepositoryManager destroy()
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Oct 10, 2007 4:45:28 PM MDT OAIProviderServlet stopped
+Oct 10, 2007 4:45:28 PM MDT RepositoryManager destroy()
+
+
+Oct 10, 2007 4:45:28 PM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 4:45:28 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 10, 2007 4:45:31 PM MDT NDRServlet starting
+Oct 10, 2007 4:45:31 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 10, 2007 4:45:31 PM MDT SetupServlet starting
+Oct 10, 2007 4:45:32 PM MDT SetupServlet: collectionRecordsLocation: /prod/tools/dlesetest/devel/dcs/records/dlese_collect
+Oct 10, 2007 4:45:32 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 10, 2007 4:45:32 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 10, 2007 4:45:32 PM MDT SetupServlet completed.
+
+Oct 10, 2007 4:45:32 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 10, 2007 4:45:32 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 10, 2007 4:45:35 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 10, 2007 4:45:35 PM MDT Outputting debug info
+Oct 10, 2007 4:45:36 PM MDT Using collection-level metadata files located at /prod/tools/dlesetest/devel/dcs/records/dlese_collect/collect
+Oct 10, 2007 4:45:36 PM MDT Using ADN metadata files located at /prod/tools/dlesetest/devel/dcs/records
+Oct 10, 2007 4:45:36 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 10, 2007 4:45:36 PM MDT Starting up RepositoryManager
+Oct 10, 2007 4:45:36 PM MDT loading props file: RepositoryManager.properties
+Oct 10, 2007 4:45:36 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 1 entries.
+Oct 10, 2007 4:45:37 PM MDT ERROR: Syntax error in context parameter 'indexingStartTime.' Indexing timer not started: Unparseable date: "2007 283 0"
+Oct 10, 2007 4:45:37 PM MDT rm.init() successful...
+Oct 10, 2007 4:45:37 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 10, 2007 4:45:37 PM MDT DDSServlet started.
+
+
+Oct 10, 2007 4:45:37 PM MDT OAIProviderServlet starting
+Oct 10, 2007 4:45:37 PM MDT OAIProviderServlet: Outputting debug info
+Oct 10, 2007 4:45:37 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 10, 2007 4:45:37 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 10, 2007 4:45:41 PM MDT OAIProviderServlet initialized.
+Oct 10, 2007 4:45:41 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (8 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+GenericType: getFirstChild failed with: <xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+java.lang.NullPointerException
+	at org.dlese.dpc.xml.schema.ComplexType.<init>(ComplexType.java:66)
+	at org.dlese.dpc.xml.schema.SchemaReader.getTypeDefs(SchemaReader.java:366)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:205)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.SchemaReader.read(SchemaReader.java:200)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.processSchemaFile(DefinitionMiner.java:447)
+	at org.dlese.dpc.xml.schema.DefinitionMiner.<init>(DefinitionMiner.java:97)
+	at org.dlese.dpc.xml.schema.SchemaHelper.init(SchemaHelper.java:156)
+	at org.dlese.dpc.xml.schema.SchemaHelper.<init>(SchemaHelper.java:142)
+	at org.dlese.dpc.schemedit.MetaDataFramework.loadSchemaHelper(MetaDataFramework.java:451)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.load(FrameworkRegistry.java:121)
+	at org.dlese.dpc.schemedit.FrameworkRegistry.<init>(FrameworkRegistry.java:84)
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:127)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3025)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:432)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1278)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+NewFieldInfoMap: FieldInfoMap initialized - 6 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /prod/tools/dlesetest/devel/dcs/exported
+Oct 10, 2007 4:46:12 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 1 collections found in index
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry: initializeIDGenerators WARNING: collectionConfig not found for collect
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+initialized repositoryService
+Oct 10, 2007 4:46:17 PM MDT SchemEditServlet initialized.
+
+Oct 10, 2007 4:46:17 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 10, 2007 4:46:17 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 10, 2007 4:46:17 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Oct 10, 2007 4:46:18 PM MDT SchemaViewerServlet starting
+Oct 10, 2007 4:46:18 PM MDT SchemaViewerServlet initialized.
+Oct 10, 2007 5:02:33 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:02:33 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:02:34 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 0 DcsDataRecords from cache
+Oct 10, 2007 5:02:34 PM MDT SchemEditServlet stopped
+Oct 10, 2007 5:02:34 PM MDT NDRServlet: destroy() ...
+Oct 10, 2007 5:02:34 PM MDT NDRServlet stopped
+Oct 10, 2007 5:02:34 PM MDT SetupServlet: destroy() ...
+Oct 10, 2007 5:02:34 PM MDT SetupServlet stopped
+Oct 10, 2007 5:02:34 PM MDT CasaaServlet: destroy() ...
+Oct 10, 2007 5:02:34 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 10, 2007 5:02:34 PM MDT MetadataVocabServlet stopped.
+java.io.InterruptedIOException: operation interrupted
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:519)
+	at java.net.Socket.connect(Socket.java:469)
+	at java.net.Socket.<init>(Socket.java:366)
+	at java.net.Socket.<init>(Socket.java:179)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:113)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:83)
+Oct 10, 2007 5:02:34 PM MDT RepositoryManager destroy()
+Oct 10, 2007 5:02:34 PM MDT OAIProviderServlet stopped
+Oct 10, 2007 5:02:34 PM MDT RepositoryManager destroy()
+
+
+Oct 10, 2007 5:02:34 PM MDT DDSServlet stopped.
+
+
+Oct 10, 2007 5:02:34 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Oct 10, 2007 5:02:35 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 10, 2007 5:02:35 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 10, 2007 5:02:35 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

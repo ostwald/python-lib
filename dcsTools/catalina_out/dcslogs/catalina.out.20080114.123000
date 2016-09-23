@@ -1,0 +1,3584 @@
+Dec 10, 2007 7:17:46 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Dec 10, 2007 7:17:46 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Dec 10, 2007 7:17:47 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Dec 10, 2007 7:17:47 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2583 ms
+Dec 10, 2007 7:17:47 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Dec 10, 2007 7:17:47 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Dec 10, 2007 7:17:47 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Dec 10, 2007 7:17:49 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/nfs/tomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+Dec 10, 2007 7:17:52 PM MST NDRServlet starting
+Dec 10, 2007 7:17:52 PM MST NDRServlet: WARNING: NDR service is not enabled
+
+Dec 10, 2007 7:17:52 PM MST SetupServlet starting
+ SetupServlet: collectionRecordsLocation: /global/nfs/dlese_data/dcs/records/dlese_collect
+ SetupServlet: collectionConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+ SetupServlet: frameworkConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+ SetupServlet: logo: DLESE_logo_sm.gif
+
+ SetupServlet: copying logo ...
+ SetupServlet: 	 logoPath: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/images/DLESE_logo_sm.gif
+ SetupServlet: 	 authLogoPath: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/auth/DLESE_logo_sm.gif
+Dec 10, 2007 7:17:52 PM MST SetupServlet completed.
+
+Dec 10, 2007 7:17:52 PM MST Initializing MetadataServlet for 'MetadataVocab'
+Dec 10, 2007 7:17:52 PM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Dec 10, 2007 7:17:56 PM MST MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Dec 10, 2007 7:17:56 PM MST Outputting debug info
+Dec 10, 2007 7:17:57 PM MST Using collection-level metadata files located at /global/nfs/dlese_data/dcs/records/dlese_collect/collect
+Dec 10, 2007 7:17:57 PM MST Using ADN metadata files located at /global/nfs/dlese_data/dcs/records
+Dec 10, 2007 7:17:57 PM MST Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Dec 10, 2007 7:17:57 PM MST Starting up RepositoryManager
+Dec 10, 2007 7:17:57 PM MST loading props file: RepositoryManager.properties
+Dec 10, 2007 7:17:57 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 18817 entries.
+Dec 10, 2007 7:18:00 PM MST rm.init() successful...
+Dec 10, 2007 7:18:00 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Dec 10, 2007 7:18:01 PM MST DDSServlet started.
+
+
+Dec 10, 2007 7:18:01 PM MST OAIProviderServlet starting
+Dec 10, 2007 7:18:01 PM MST OAIProviderServlet: Outputting debug info
+Dec 10, 2007 7:18:01 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Dec 10, 2007 7:18:01 PM MST OAIProviderServlet initialized.
+Dec 10, 2007 7:18:01 PM MST SchemEditServlet starting!
+instanceName: DLESE DCS
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+Dec 10, 2007 7:18:02 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+StructureWalker: Recieved an ANY element type - skipping ...
+Dec 10, 2007 7:18:07 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Dec 10, 2007 7:18:12 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (8 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 59 files from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with 1191523439291.xml
+CollectionRegistry: registered 1191523439291 (prefix: COLLECT-TEST)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with serc.xml
+CollectionRegistry: registered serc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with sat.xml
+CollectionRegistry: registered sat (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with testcollect.xml
+CollectionRegistry: registered testcollect (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with drc.xml
+CollectionRegistry: registered drc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with essec.xml
+CollectionRegistry: registered essec (prefix: )
+
+"collectionRegistry" initialized with 58 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+Dec 10, 2007 7:18:54 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+Dec 10, 2007 7:19:01 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+Dec 10, 2007 7:19:06 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10270 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 10 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: AutoExport task is not scheduled
+initialized repositoryService
+Dec 10, 2007 7:19:24 PM MST SchemEditServlet initialized.
+
+Dec 10, 2007 7:19:24 PM MST CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Dec 10, 2007 7:19:25 PM MST CasaaServlet: Casaa Service is disabled
+Dec 10, 2007 7:19:25 PM MST CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: configuring AccessManager from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/auth/access.xml
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Dec 10, 2007 7:19:26 PM MST SchemaViewerServlet starting
+Dec 10, 2007 7:19:26 PM MST SchemaViewerServlet initialized.
+Dec 10, 2007 7:19:26 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10110
+Dec 10, 2007 7:19:27 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10113
+Dec 10, 2007 7:19:27 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.102:10119
+Dec 10, 2007 7:19:27 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/81  config=null
+Dec 10, 2007 7:19:27 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Dec 10, 2007 7:19:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 100120 ms
+
+Dec 31, 2007 2:34:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 4CDA624EB69F099FFF3C8ED6D3686EE4
+SessionRegistry: registered sessionBean: 4CDA624EB69F099FFF3C8ED6D3686EE4
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Dec 31, 2007 2:34:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Dec 31, 2007 2:34:41 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Dec 31, 2007 2:35:03 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 4CDA624EB69F099FFF3C8ED6D3686EE4
+
+Dec 31, 2007 2:35:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:40:58 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+Dec 31, 2007 2:41:02 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Dec 31, 2007 2:41:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+
+Dec 31, 2007 2:44:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:45:18 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Dec 31, 2007 2:45:18 PM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Dec 31, 2007 2:45:23 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:45:52 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	recId: VL-TOX-1.1
+	command: edit
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to lock record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 2:46:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 2:46:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:46:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:46:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	recId: VL-TOX-1.1
+	command: edit
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to lock record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 2:51:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Dec 31, 2007 2:51:43 PM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Dec 31, 2007 2:56:33 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 2:56:33 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:56:39 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:57:31 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: VL-TOX-1.1
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to lock record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 2:57:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Dec 31, 2007 2:58:00 PM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Dec 31, 2007 2:59:23 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 2:59:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:59:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Dec 31, 2007 2:59:58 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Dec 31, 2007 3:00:09 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&vld=&searchMode=raw&searchString=&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	searchMode: raw
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 18764
+
+Dec 31, 2007 3:00:18 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: VL-TOX-1.1
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to lock record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 3:00:27 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Dec 31, 2007 3:00:27 PM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Dec 31, 2007 3:00:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 4CDA624EB69F099FFF3C8ED6D3686EE4 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Dec 31, 2007 3:00:41 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&sortOrder=1&searchMode=raw&searchString=&sortField=dcslastTouchDate
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	searchMode: raw
+	sortField: dcslastTouchDate
+	s: 0
+DCSQueryAction: Search results: 18764
+SessionRegistry: unregistering Session Bean for 4CDA624EB69F099FFF3C8ED6D3686EE4
+
+Jan 4, 2008 11:49:36 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 490CF7754CA68CFE3D70E5017582559D
+SessionRegistry: registered sessionBean: 490CF7754CA68CFE3D70E5017582559D
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 4, 2008 11:49:36 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Jan 4, 2008 11:49:38 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 4, 2008 11:49:41 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 490CF7754CA68CFE3D70E5017582559D
+
+Jan 4, 2008 11:49:41 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 11:49:47 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+Jan 4, 2008 11:49:52 AM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Jan 4, 2008 11:49:57 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 11:50:15 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=10&searchString=&vld=&searchMode=raw
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 11:50:22 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&vld=&searchMode=raw&searchString=&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	searchMode: raw
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 11:51:46 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=01189030393181&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 01189030393181
+	searchMode: raw
+DCSQueryAction: Search results: 8
+
+Jan 4, 2008 11:52:33 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+SessionRegistry: sessionBean is null && session is active for id: 01A1F0D7D34CB5349331EC7C97966885
+SessionRegistry: registered sessionBean: 01A1F0D7D34CB5349331EC7C97966885
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/query.do?q=&s=0&searchMode=raw&searchString=&scs=01189030393181&vld=&resultsPerPage=10&requiredRole=cataloger
+
+Jan 4, 2008 11:52:33 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/query.do%3fq=&s=0&searchMode=raw&searchString=&scs=01189030393181&vld=&resultsPerPage=10&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 4, 2008 11:52:48 AM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/query.do?q=
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 01A1F0D7D34CB5349331EC7C97966885
+
+Jan 4, 2008 11:52:50 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 11:53:27 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: TEST-000-000-000-010
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record TEST-000-000-000-010 ... Success
+
+Jan 4, 2008 11:53:33 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: TEST-000-000-000-010
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: TEST-000-000-000-010
+Jan 4, 2008 11:53:34 AM MST Saving record id: TEST-000-000-000-010
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 11:53:38 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: guardedExit
+	pathArg: forwardToCaller
+	xmlFormat: adn
+	currentPage: general
+	recId: TEST-000-000-000-010
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record TEST-000-000-000-010 ... Success
+
+Jan 4, 2008 11:53:38 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchString=&vld=&scs=01189030393181&searchMode=raw
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 01189030393181
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 8
+
+Jan 4, 2008 11:54:03 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0dcc&scs=01189030393181&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	resultsPerPage: 10
+	searchMode: raw
+	scs (2):
+		0dcc
+		01189030393181
+DCSQueryAction: Search results: 9649
+
+Jan 4, 2008 11:54:24 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: TEST-000-000-000-010
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record TEST-000-000-000-010 ... Success
+
+Jan 4, 2008 11:54:38 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: save
+	xmlFormat: adn
+	currentPage: general
+	recId: TEST-000-000-000-010
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: TEST-000-000-000-010
+Jan 4, 2008 11:54:38 AM MST Saving record id: TEST-000-000-000-010
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 11:54:43 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: TEST-000-000-000-010
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record TEST-000-000-000-010 ... Success
+
+Jan 4, 2008 11:54:49 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchString=&searchMode=raw&scs=0dcc&scs=01189030393181&vld=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	searchMode: raw
+	scs (2):
+		0dcc
+		01189030393181
+DCSQueryAction: Search results: 9649
+
+Jan 4, 2008 11:55:11 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 11:55:29 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=TEST-000-000-000-010
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: TEST-000-000-000-010
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record TEST-000-000-000-010 ... Success
+
+Jan 4, 2008 11:55:33 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: changeForm
+	recId: TEST-000-000-000-010
+	nextPage: metaMetadata
+	xmlFormat: adn
+
+Jan 4, 2008 11:55:39 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: metaMetadata
+	command: changeForm
+	recId: TEST-000-000-000-010
+	nextPage: general
+	xmlFormat: adn
+
+Jan 4, 2008 11:55:42 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: changeForm
+	recId: TEST-000-000-000-010
+	nextPage: metaMetadata
+	xmlFormat: adn
+
+Jan 4, 2008 11:55:45 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: metaMetadata
+	command: changeForm
+	recId: TEST-000-000-000-010
+	nextPage: general
+	xmlFormat: adn
+
+Jan 4, 2008 11:56:02 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: TEST-000-000-000-010
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: TEST-000-000-000-010
+Jan 4, 2008 11:56:03 AM MST Saving record id: TEST-000-000-000-010
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 11:56:06 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: TEST-000-000-000-010
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record TEST-000-000-000-010 ... Success
+
+Jan 4, 2008 11:56:17 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 11:57:35 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 11:57:46 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: sortSpec=numFiles
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+	sortSpec: numFiles
+
+Jan 4, 2008 11:57:54 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0svs
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0svs
+	s: 0
+DCSQueryAction: Search results: 2192
+
+Jan 4, 2008 11:58:04 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=NASA-SVS-000997
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: NASA-SVS-000997
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 11:58:08 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: NASA-SVS-000997
+Jan 4, 2008 11:58:08 AM MST Saving record id: NASA-SVS-000997
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 11:58:10 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 11:58:12 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&scs=0svs
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0svs
+	s: 0
+DCSQueryAction: Search results: 2192
+
+Jan 4, 2008 11:59:40 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: VL-TOX-1.1
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 11:59:45 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Jan 4, 2008 11:59:45 AM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 11:59:49 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 11:59:49 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 11:59:59 AM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 12:00:18 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: VL-TOX-1.1
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 12:00:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Jan 4, 2008 12:00:24 PM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 12:00:27 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 12:00:27 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 12:01:08 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 12:01:43 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=id&searchString=DLESE-*154&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: id
+	searchString: DLESE-*154
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 10
+
+Jan 4, 2008 12:01:51 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=DLESE-000-000-010-154
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-154
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record DLESE-000-000-010-154 ... Success
+
+Jan 4, 2008 12:01:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-154
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-154
+Jan 4, 2008 12:01:56 PM MST Saving record id: DLESE-000-000-010-154
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 12:02:05 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-154
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-154
+Jan 4, 2008 12:02:05 PM MST Saving record id: DLESE-000-000-010-154
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 12:02:08 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-154
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record DLESE-000-000-010-154 ... Success
+
+Jan 4, 2008 12:02:08 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=id&searchString=DLESE-*154
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: id
+	searchString: DLESE-*154
+	s: 0
+DCSQueryAction: Search results: 10
+
+Jan 4, 2008 12:02:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=id&searchString=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: id
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 12:02:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: VL-TOX-1.1
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 12:03:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Jan 4, 2008 12:03:03 PM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 12:03:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 12:03:28 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=id&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: id
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 12:04:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=id&searchString=VL-TOX-1.1+&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: id
+	searchString: VL-TOX-1.1 
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 1
+
+Jan 4, 2008 12:04:49 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=VL-TOX-1.1
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: VL-TOX-1.1
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 12:04:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: VL-TOX-1.1
+Jan 4, 2008 12:05:00 PM MST Saving record id: VL-TOX-1.1
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 12:05:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: VL-TOX-1.1
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record VL-TOX-1.1 ... Success
+
+Jan 4, 2008 12:05:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=id&searchString=VL-TOX-1.1+
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: id
+	searchString: VL-TOX-1.1 
+	s: 0
+DCSQueryAction: Search results: 1
+
+Jan 4, 2008 12:05:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 12:05:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 12:07:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=h*nasa*&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	searchString: h*nasa*
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 3485
+
+Jan 4, 2008 12:08:09 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=idvalue&vld=&searchMode=url&searchString=h*nasa*&sortOrder=0
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 0
+	searchMode: url
+	searchString: h*nasa*
+	sortField: idvalue
+DCSQueryAction: Search results: 3485
+
+Jan 4, 2008 1:40:55 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=NASA-SVS-000997
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: NASA-SVS-000997
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:41:00 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: NASA-SVS-000997
+Jan 4, 2008 1:41:00 PM MST Saving record id: NASA-SVS-000997
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:41:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:41:04 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+	resultsPerPage: 10
+
+Jan 4, 2008 1:41:04 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&scs=0svs
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0svs
+	s: 0
+DCSQueryAction: Search results: 18764
+DCSQueryAction: Search results: 2192
+
+Jan 4, 2008 1:41:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=ADL-002
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: ADL-002
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record ADL-002 ... Success
+
+Jan 4, 2008 1:41:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: ADL-002
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: ADL-002
+Jan 4, 2008 1:41:45 PM MST Saving record id: ADL-002
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:41:47 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: ADL-002
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record ADL-002 ... Success
+
+Jan 4, 2008 1:41:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:42:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=NASA-SVS-000997
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: NASA-SVS-000997
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:42:16 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: NASA-SVS-000997
+Jan 4, 2008 1:42:16 PM MST Saving record id: NASA-SVS-000997
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:42:19 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:42:21 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=940&scs=0svs
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0svs
+	s: 940
+DCSQueryAction: Search results: 2192
+
+Jan 4, 2008 1:42:47 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:43:05 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=NASA-SVS-000997
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: NASA-SVS-000997
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:43:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: NASA-SVS-000997
+Jan 4, 2008 1:43:11 PM MST Saving record id: NASA-SVS-000997
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:43:14 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:43:25 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:43:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=NASA-SVS-000997
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: NASA-SVS-000997
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:43:45 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: NASA-SVS-000997
+Jan 4, 2008 1:43:45 PM MST Saving record id: NASA-SVS-000997
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:43:48 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: NASA-SVS-000997
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record NASA-SVS-000997 ... Success
+
+Jan 4, 2008 1:43:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:44:04 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:44:22 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=ADL-002
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: ADL-002
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record ADL-002 ... Success
+
+Jan 4, 2008 1:44:28 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: ADL-002
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: ADL-002
+Jan 4, 2008 1:44:28 PM MST Saving record id: ADL-002
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:44:35 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: ADL-002
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record ADL-002 ... Success
+
+Jan 4, 2008 1:44:36 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:44:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=url&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:45:05 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=ADL-002
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: ADL-002
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record ADL-002 ... Success
+
+Jan 4, 2008 1:45:12 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: ADL-002
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: ADL-002
+Jan 4, 2008 1:45:12 PM MST Saving record id: ADL-002
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:45:14 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: ADL-002
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record ADL-002 ... Success
+
+Jan 4, 2008 1:45:25 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:45:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=ADL-002
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: ADL-002
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to lock record ADL-002 ... Success
+
+Jan 4, 2008 1:45:47 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: ADL-002
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: ADL-002
+Jan 4, 2008 1:45:48 PM MST Saving record id: ADL-002
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:45:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: ADL-002
+	xmlFormat: adn
+SessionRegistry: session 01A1F0D7D34CB5349331EC7C97966885 attempting to release lock on record ADL-002 ... Success
+
+Jan 4, 2008 1:46:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=url&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:46:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:46:43 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=ADL-002
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: ADL-002
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record ADL-002 ... Success
+
+Jan 4, 2008 1:46:52 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:47:02 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: ADL-002
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: ADL-002
+Jan 4, 2008 1:47:02 PM MST Saving record id: ADL-002
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:47:07 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: url
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:47:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: ADL-002
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record ADL-002 ... Success
+
+Jan 4, 2008 1:47:48 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 1:48:19 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0dcc&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 9641
+
+Jan 4, 2008 1:48:32 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=DLESE-000-000-010-154
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-154
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record DLESE-000-000-010-154 ... Success
+
+Jan 4, 2008 1:48:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-154
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-154
+Jan 4, 2008 1:48:38 PM MST Saving record id: DLESE-000-000-010-154
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 1:48:40 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-154
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record DLESE-000-000-010-154 ... Success
+
+Jan 4, 2008 1:48:46 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&scs=0dcc&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 9641
+
+Jan 4, 2008 1:49:17 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=url&searchString=&scs=0dcc&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	searchMode: url
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 9641
+
+Jan 4, 2008 2:24:33 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 4, 2008 2:24:33 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 2:24:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 2:24:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=DLESE-000-000-010-270
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-270
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record DLESE-000-000-010-270 ... Success
+
+Jan 4, 2008 2:25:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-270
+Jan 4, 2008 2:25:01 PM MST Saving record id: DLESE-000-000-010-270
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 2:25:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record DLESE-000-000-010-270 ... Success
+
+Jan 4, 2008 2:25:03 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 4, 2008 2:25:19 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: sortSpec=collection
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+	sortSpec: collection
+
+Jan 4, 2008 2:25:26 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0dcc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	s: 0
+DCSQueryAction: Search results: 9641
+
+Jan 4, 2008 2:25:44 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=DLESE-000-000-010-270
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-270
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record DLESE-000-000-010-270 ... Success
+
+Jan 4, 2008 2:25:49 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-270
+Jan 4, 2008 2:25:49 PM MST Saving record id: DLESE-000-000-010-270
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 2:25:50 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record DLESE-000-000-010-270 ... Success
+
+Jan 4, 2008 2:25:56 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&scs=0dcc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	scs: 0dcc
+	s: 0
+DCSQueryAction: Search results: 9641
+
+Jan 4, 2008 2:26:08 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 2:26:24 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 4, 2008 2:26:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=edit&recId=DLESE-000-000-010-270
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: edit
+	recId: DLESE-000-000-010-270
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to lock record DLESE-000-000-010-270 ... Success
+
+Jan 4, 2008 2:26:36 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: save
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-010-270
+Jan 4, 2008 2:26:36 PM MST Saving record id: DLESE-000-000-010-270
+DCSSchemEditAction:  ... returned from putRecord()
+
+Jan 4, 2008 2:26:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	currentPage: general
+	command: guardedExit
+	pathArg: forwardToCaller
+	recId: DLESE-000-000-010-270
+	xmlFormat: adn
+SessionRegistry: session 490CF7754CA68CFE3D70E5017582559D attempting to release lock on record DLESE-000-000-010-270 ... Success
+
+Jan 4, 2008 2:26:49 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&vld=&searchMode=raw&searchString=
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+DCSQueryAction: Search results: 18764
+SessionRegistry: unregistering Session Bean for 01A1F0D7D34CB5349331EC7C97966885
+SessionRegistry: unregistering Session Bean for 490CF7754CA68CFE3D70E5017582559D
+
+Jan 10, 2008 10:35:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 7B52B581B1EEF6A453577FC1382F1396
+SessionRegistry: registered sessionBean: 7B52B581B1EEF6A453577FC1382F1396
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 10, 2008 10:35:01 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Jan 10, 2008 10:35:03 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 10, 2008 10:35:06 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 7B52B581B1EEF6A453577FC1382F1396
+
+Jan 10, 2008 10:35:06 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 10, 2008 10:35:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Jan 10, 2008 10:35:15 PM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Jan 10, 2008 10:35:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Jan 10, 2008 10:35:22 PM MST DCSAdminAction: Running command showIndexingMessages
+
+Jan 10, 2008 10:40:08 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+Jan 10, 2008 10:40:13 PM MST SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+Jan 10, 2008 10:40:29 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	searchMode: raw
+	s: 0
+	resultsPerPage: 10
+DCSQueryAction: Search results: 18764
+
+Jan 10, 2008 10:41:18 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: index
+
+Jan 10, 2008 10:41:22 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: command=showIndexingMessages
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Jan 10, 2008 10:41:24 PM MST DCSAdminAction: Running command showIndexingMessages
+
+Jan 10, 2008 10:41:52 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 10, 2008 10:41:52 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 10, 2008 10:44:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 10, 2008 10:44:37 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+SessionRegistry: unregistering Session Bean for 7B52B581B1EEF6A453577FC1382F1396
+
+Jan 11, 2008 5:15:09 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+SessionRegistry: sessionBean is null && session is active for id: 21D86AB87DE44354CFCCC063B5D57707
+SessionRegistry: registered sessionBean: 21D86AB87DE44354CFCCC063B5D57707
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 11, 2008 5:15:09 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Jan 11, 2008 5:15:11 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 11, 2008 5:16:11 PM MST AuthorizationFilter: https://128.117.225.88/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /auth/  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session 21D86AB87DE44354CFCCC063B5D57707
+
+Jan 11, 2008 5:16:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 11, 2008 5:16:20 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=index
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Jan 11, 2008 5:16:20 PM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+SessionRegistry: unregistering Session Bean for 21D86AB87DE44354CFCCC063B5D57707
+Jan 14, 2008 11:07:53 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/schemedit]
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 111 DcsDataRecords from cache
+Jan 14, 2008 11:07:53 AM MST SchemEditServlet stopped
+Jan 14, 2008 11:07:53 AM MST NDRServlet: destroy() ...
+Jan 14, 2008 11:07:53 AM MST NDRServlet stopped
+ SetupServlet: destroy() ...
+Jan 14, 2008 11:07:53 AM MST SetupServlet stopped
+Jan 14, 2008 11:07:53 AM MST CasaaServlet: destroy() ...
+Jan 14, 2008 11:07:53 AM MST CasaaServlet stopped
+Done shutting down new vocabs checker.
+Jan 14, 2008 11:07:53 AM MST MetadataVocabServlet stopped.
+Jan 14, 2008 11:07:53 AM MST RepositoryManager destroy()
+Jan 14, 2008 11:07:53 AM MST OAIProviderServlet stopped
+Jan 14, 2008 11:07:53 AM MST RepositoryManager destroy()
+
+
+Jan 14, 2008 11:07:53 AM MST DDSServlet stopped.
+
+
+Jan 14, 2008 11:07:53 AM MST SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Jan 14, 2008 11:08:00 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive schemedit.war
+sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+
+Jan 14, 2008 11:08:22 AM MST SetupServlet starting
+ SetupServlet: collectionRecordsLocation: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records/dlese_collect
+ SetupServlet: master collection record does not exist, creating ...
+ SetupServlet: directory doesn't exist at /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/idFiles
+ SetupServlet: collectionConfigDir: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/collections
+ SetupServlet: frameworkConfigDir: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/frameworks
+ SetupServlet: logo: DLESE_logo_sm.gif
+Jan 14, 2008 11:08:22 AM MST SetupServlet completed.
+
+Jan 14, 2008 11:08:22 AM MST Initializing MetadataServlet for 'MetadataVocab'
+Jan 14, 2008 11:08:22 AM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Jan 14, 2008 11:08:30 AM MST MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Jan 14, 2008 11:08:30 AM MST Outputting debug info
+Jan 14, 2008 11:08:30 AM MST Using collection-level metadata files located at /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records/dlese_collect/collect
+Jan 14, 2008 11:08:30 AM MST Using ADN metadata files located at /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records
+Jan 14, 2008 11:08:30 AM MST Using index located at /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index
+Jan 14, 2008 11:08:30 AM MST Created directory /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/repository_data
+Jan 14, 2008 11:08:30 AM MST Starting up RepositoryManager
+Jan 14, 2008 11:08:30 AM MST loading props file: RepositoryManager.properties
+Jan 14, 2008 11:08:31 AM MST SimpleLuceneIndex: No index at location '/global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index/lucene_index' - creating a new one...
+Jan 14, 2008 11:08:31 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Jan 14, 2008 11:08:32 AM MST rm.init() successful...
+Jan 14, 2008 11:08:32 AM MST SimpleLuceneIndex: No index at location '/global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index/dup_items_index/lucene_index' - creating a new one...
+Jan 14, 2008 11:08:32 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Jan 14, 2008 11:08:33 AM MST DDSServlet started.
+
+
+Jan 14, 2008 11:08:33 AM MST OAIProviderServlet starting
+Jan 14, 2008 11:08:33 AM MST OAIProviderServlet: Outputting debug info
+Jan 14, 2008 11:08:33 AM MST SimpleLuceneIndex: No index at location '/global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/repository_data/web_log_index/lucene_index' - creating a new one...
+Jan 14, 2008 11:08:33 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Jan 14, 2008 11:08:33 AM MST FileIndexingService: synchDirectory adding 2 files and removing 0 files
+Jan 14, 2008 11:08:34 AM MST OAIProviderServlet initialized.
+Jan 14, 2008 11:08:34 AM MST SchemEditServlet starting!
+instanceName: DCS
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (2 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : ncs_item.xml
+MetaDataFramework: reading schema from net: http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd
+Schema Reader: WARNING: not able to create typeDef for
+<xsd:complexType xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="deprecated-inline-1"/>
+NewFieldInfoMap: FieldInfoMap initialized - 7 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered ncs_item
+
+FrameworkRegistry: Processing framework config file (8 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+"frameworkRegistry" initialized with 8 frameworks
+collectionConfigDir is /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 1 files from /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/collections
+CollectionRegistry: about to create CollectionConfig with default.xml
+"collectionRegistry" initialized with 0 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+CollectionRegistry:   ... initializeIDGenerators() no collections found, returning
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: AutoExport task is not scheduled
+initialized repositoryService
+Adding plugin: org.dlese.dpc.schemedit.ndr.writer.NdrRepositoryWriterPlugin
+Jan 14, 2008 11:09:23 AM MST SchemEditServlet initialized.
+
+Jan 14, 2008 11:09:23 AM MST CasaaServlet starting
+CollectionRegistry: collectionConfig for "collect" not found
+CollectionRegistry:  ... config file NOT found, using default to build new one
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Jan 14, 2008 11:09:23 AM MST CasaaServlet: Casaa Service is disabled
+Jan 14, 2008 11:09:23 AM MST CasaaServlet completed.
+
+Jan 14, 2008 11:09:23 AM MST NDRServlet starting
+[ERROR] schemedit] - Servlet /schemedit threw load() exception <javax.servlet.ServletException: NDRServlet not enabled: ndrServiceEnabled was not configured as "true">javax.servlet.ServletException: NDRServlet not enabled: ndrServiceEnabled was not configured as "true"
+	at org.dlese.dpc.ndr.NDRServlet.init(NDRServlet.java:141)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:825)
+	at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:714)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:490)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1206)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:293)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1306)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1570)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1579)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1559)
+	at java.lang.Thread.run(Thread.java:595)
+
+CollectionRegistry: registered collect (prefix: )
+
+DcsDataManager: creating formatDir: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records/dcs_data/dlese_collect
+DcsDataManager: creating collectDir: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/sample_records/dcs_data/dlese_collect/collect
+Jan 14, 2008 11:09:23 AM MST FileIndexingService: synchDirectory adding 2 files and removing 2 files
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: configuring AccessManager from /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config-defaults/auth/access.xml
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Jan 14, 2008 11:09:32 AM MST SchemaViewerServlet starting
+Jan 14, 2008 11:09:32 AM MST SchemaViewerServlet initialized.
+
+Jan 14, 2008 12:18:10 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+
+Jan 14, 2008 12:18:11 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+CollectionRegistry: collectionConfig for "sample" not found
+CollectionRegistry:  ... config file NOT found, using default to build new one
+CollectionRegistry: registered sample (prefix: )
+
+
+Jan 14, 2008 12:18:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/dlese_admin_styles.css
+
+Jan 14, 2008 12:18:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/styles.css
+
+Jan 14, 2008 12:18:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/lib/javascript/prototype.js
+
+Jan 14, 2008 12:18:15 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/lib/pageMenu.js
+
+Jan 14, 2008 12:18:16 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/lib/dcs-table.js
+
+Jan 14, 2008 12:18:16 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/images/DLESE_logo_sm.gif
+
+Jan 14, 2008 12:18:30 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=index
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Jan 14, 2008 12:18:30 PM MST DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Jan 14, 2008 12:18:32 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/images/file_folder2.gif
+
+Jan 14, 2008 12:18:38 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: Reindex All
+Jan 14, 2008 12:18:38 PM MST DCSAdminAction: Running command Reindex All
+Jan 14, 2008 12:18:38 PM MST SimpleLuceneIndex: No index at location '/global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index/lucene_index' - creating a new one...
+Jan 14, 2008 12:18:38 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Jan 14, 2008 12:18:38 PM MST SimpleLuceneIndex: No index at location '/global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/data/index/dup_items_index/lucene_index' - creating a new one...
+Jan 14, 2008 12:18:38 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Jan 14, 2008 12:18:39 PM MST FileIndexingService: synchDirectory adding 2 files and removing 0 files
+Jan 14, 2008 12:18:46 PM MST FileIndexingService: synchDirectory adding 2 files and removing 2 files
+Jan 14, 2008 12:18:57 PM MST FileIndexingService: synchDirectory adding 37 files and removing 0 files
+
+Jan 14, 2008 12:18:59 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: command=showIndexingMessages
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Jan 14, 2008 12:18:59 PM MST DCSAdminAction: Running command showIndexingMessages
+
+Jan 14, 2008 12:19:06 PM MST AuthorizationFilter: http://128.117.225.88/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=index
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: index
+Jan 14, 2008 12:19:07 PM MST IndexingObserver: * Indexing Completed: Completed indexing 2 directories successfully. Total time 21 seconds. Total number of items in index: 39 *
+Jan 14, 2008 12:19:07 PM MST IndexingObserver: Reinitializing idManager
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 2 collections found in index
+IDGenerator: Current ID = 0 for 
+IDGenerator: Current ID = 0 for 
+Jan 14, 2008 12:29:54 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jan 14, 2008 12:29:54 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jan 14, 2008 12:29:55 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 39 DcsDataRecords from cache
+Jan 14, 2008 12:29:55 PM MST SchemEditServlet stopped
+ SetupServlet: destroy() ...
+Jan 14, 2008 12:29:55 PM MST SetupServlet stopped
+Jan 14, 2008 12:29:55 PM MST CasaaServlet: destroy() ...
+Jan 14, 2008 12:29:55 PM MST CasaaServlet stopped
+Done shutting down new vocabs checker.
+Jan 14, 2008 12:29:55 PM MST MetadataVocabServlet stopped.
+Jan 14, 2008 12:29:55 PM MST RepositoryManager destroy()
+Jan 14, 2008 12:29:55 PM MST OAIProviderServlet stopped
+Jan 14, 2008 12:29:55 PM MST RepositoryManager destroy()
+
+
+Jan 14, 2008 12:29:55 PM MST DDSServlet stopped.
+
+
+Jan 14, 2008 12:29:55 PM MST SchemaViewerServlet stopped
+contextDestroyed()
+SessionBean: destroying sessionBean for DEABEA7D46C0D4FB2151473E91767A10
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session DEABEA7D46C0D4FB2151473E91767A10 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session DEABEA7D46C0D4FB2151473E91767A10 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+Jan 14, 2008 12:29:56 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jan 14, 2008 12:29:56 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jan 14, 2008 12:29:56 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

@@ -1,0 +1,709 @@
+Journal Articles																																
+Journ #	Author Last	Author First	Author Middle 1	Author Middle 2	Institutional Affiliation	Publication Year	Publication State (Status)	Status Date (yyyy/mm/dd)	Resource Type	"Collaboration (UCAR Only, UCAR and University, UCAR and Other, UCAR, University and Other "	Refereed? (Classification)	Article Title	Journal Name	Published via Open Access? (Yes or No)	Volume	Page Start	Page End	DOI	Notes													
+Num	Author Last	Author First	Author Middle 1	Author Middle 2	Institutional Affiliation	Publication Year	Status	Status Date 	Resource Type	Collaboration	Classification	Title	Journal Name	Open Access	Volume	Page Start	Page End	DOI	Notes													
+1	Sherwood	Steve	C		University of New South Wales	2010	published 	2010/04/13	Article-Journal	"UCAR, University and Other"	yes 	"Tropospheric water vapor, convection and climate "	Reviews of Geophysics 	No	48	1	29	10.1029/2009RG000301 														
+	Roca	Remi			Institut Pierre et Simon Laplace	2010	published 	2010/04/13	Article-Journal	"UCAR, University and Other"	yes 	"Tropospheric water vapor, convection and climate "	Reviews of Geophysics 	No	48	1	29	10.1029/2009RG000301 														
+	Weckwerth	Tammy	M		"UCAR, NCAR, EOL, RSF"	2010	published 	2010/04/13	Article-Journal	"UCAR, University and Other"	yes 	"Tropospheric water vapor, convection and climate "	Reviews of Geophysics 	No	48	1	29	10.1029/2009RG000301 														
+	Andronova	Natalia	G		University of Michigan	2010	published 	2010/04/13	Article-Journal	"UCAR, University and Other"	yes 	"Tropospheric water vapor, convection and climate "	Reviews of Geophysics 	No	48	1	29	10.1029/2009RG000301 														
+2	Bennett	Lindsay	J		University of Leeds	2010	published 	2010/07/01	Article-Journal	UCAR and University	yes 	Observations of the evolution of the nocturnal and convective boundary layers and the structure of open-celled convection on 14 June 2003	Monthly Weather Review 	No	138	2589	2607	10.1175/2010MWR3200.1 														
+	Weckwerth	Tammy			"UCAR, NCAR, EOL, RSF"	2010	published 	2010/07/01	Article-Journal	UCAR and University	yes 	Observations of the evolution of the nocturnal and convective boundary layers and the structure of open-celled convection on 14 June 2002 	Monthly Weather Review 	No	138	2589	2607	10.1175/2010MWR3200.1 														
+	Blyth	Alan	M		University of Leeds	2010	published 	2010/07/01	Article-Journal	UCAR and University	yes 	Observations of the evolution of the nocturnal and convective boundary layers and the structure of open-celled convection on 14 June 2004	Monthly Weather Review 	No	138	2589	2607	10.1175/2010MWR3200.1 														
+	Geerts	Bart			University of Wyoming	2010	published 	2010/07/01	Article-Journal	UCAR and University	yes 	Observations of the evolution of the nocturnal and convective boundary layers and the structure of open-celled convection on 14 June 2005	Monthly Weather Review 	No	138	2589	2607	10.1175/2010MWR3200.1 														
+	Miao	Qun			University of Wyoming	2010	published 	2010/07/01	Article-Journal	UCAR and University	yes 	Observations of the evolution of the nocturnal and convective boundary layers and the structure of open-celled convection on 14 June 2006	Monthly Weather Review 	No	138	2589	2607	10.1175/2010MWR3200.1 														
+	Richardson	Yvette	P		The Pennsylvania State University	2010	published 	2010/07/01	Article-Journal	UCAR and University	yes 	Observations of the evolution of the nocturnal and convective boundary layers and the structure of open-celled convection on 14 June 2007	Monthly Weather Review 	No	138	2589	2607	10.1175/2010MWR3200.1 														
+3	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part II: Experimental data "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2009JTECHA1160.1 														
+	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part II: Experimental data "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2009JTECHA1160.1 														
+	Dixon	Michael	J		"UCAR, NCAR, RAL"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part II: Experimental data "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2009JTECHA1160.1 														
+	Meymaris	Gregory			"UCAR, NCAR, RAL, AAP"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part II: Experimental data "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2009JTECHA1160.1 														
+4	Rabier	F 			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Bouchard	A			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Brun	E			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Doerenbecher	A			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Guedj	S			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Guidard	V			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Karbou	F 			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Peuch	V	H		Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	El Amraoui	L			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Puech	D			Météo-France	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Genthon	C			Laboratory of Glaciology and Geophysical Environment	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Picard	G			Laboratory of Glaciology and Geophysical Environment	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Town	M 			Laboratory of Glaciology and Geophysical Environment	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Hertzog	A			Laboratoire deMÈtÈorologie Dynamique	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Vial	F 			Laboratoire deMÈtÈorologie Dynamique	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Cocquerez	P			Centre National d'Etudes Spatiales	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Cohn	Stephen	A		"UCAR, NCAR, EOL, ISF"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Hock	Terrence			"UCAR, NCAR, EOL, ISF"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Fox	Jack			"UCAR, NCAR, EOL, DFS"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55		No longer with UCAR/NCAR													
+	Cole	Harold	L		"UCAR, NCAR, EOL, ISF"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Parsons	David			"UCAR, NCAR, EOL, ISF"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Powers	J 			"UCAR, NCAR, NESL, MMM"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Romberg	Keith			"UCAR, NCAR, EOL, CDS"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55		No longer with UCAR/NCAR													
+	VanAndel	Joseph			"UCAR, NCAR, EOL, CDS"	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Deshler	T 			University of Wyoming	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Mercer	J			University of Wyoming	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Haase	J	S		Purdue University	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Avallone	L			University of Colorado	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Kalnajs	L			University of Colorado	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Mechoso	C	R		University of California Los Angeles	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Tangborn	A			National Aeronautics and Space Administration Goddard Global Modeling and Assimilation Office	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Pellegrini	A			Programma Nazionale di Ricerche in Antartide	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Frenot	Y 			French Polar Institute	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Thepaut	J	N		European Centre for Medium-Range Weather Forecasts	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	McNally	A			European Centre for Medium-Range Weather Forecasts	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Balsamo	G			European Centre for Medium-Range Weather Forecasts	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+	Steinle	P			Centre for Australian Weather and Climate Research	2010	published 	2010/05/01	Article-Journal	"UCAR, University and Other"	yes 	Le projet Concordiasi en Antarctique 	La Meteorologie 	No	69	42	55															
+5	Mao	J			Harvard University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Jacob	D	J		Harvard University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Evans	M	J		University of Leeds	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Olson	J	R		National Aeronautics and Space Administration Langley Research Center	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Ren	X			University of Miami	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Brune	William	H		Pennsylvania State University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Clair	J	M	S	California Institute of Technology	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Crounse	J	D		California Institute of Technology	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Spencer	K 	M		California Institute of Technology	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Beaver	M	R		California Institute of Technology	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Wennberg	P 	O		California Institute of Technology	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Cubison	M	J		University of Colorado at Boulder	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Jimenez	Jose 	L		University of Colorado at Boulder	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Fried	Alan			"UCAR, NCAR, EOL, TDF"	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Weibring	Petter			"UCAR, NCAR, EOL, TDF"	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Walega	James	G		"UCAR, NCAR, EOL, TDF"	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Hall	S	R		"UCAR, NCAR, NESL, ACD"	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Weinheimer	A	J		"UCAR, NCAR, NESL, ACD"	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Cohen	R	C		University of California Berkeley	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Chen	G			National Aeronautics and Space Administration Langley Research Center	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Crawford	J	H		National Aeronautics and Space Administration Langley Research Center	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Jaegle	L 			University of Washington	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Fisher	J	A		Harvard University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Yantosca	R	M		Harvard University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Le Sager	P			Harvard University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+	Carouge	C			Harvard University	2010	published 	2010/03/01	Article-Journal	"UCAR, University and Other"	yes 	Chemistry of hydrogen oxide radicals (HOx) in the Arctic troposphere in spring 	Atmospheric Chemistry and Physics 	No	10	6955	6994	10.5194/acpd-10-6955-2010														
+6	Huang	Hsiao-Ling			National Taiwan University	2010	published 	2010/01/08	Article-Journal	UCAR and University	yes 	The role of diurnal solenoidal circulation on propagating rainfall episodes near the Eastern Tibetan Plateau 	Monthy Weather Review 	No	138	2975	2989	10.1175/2010MWR3225.1														
+	Wang	Chung-Chieh			National Taiwan Normal University	2010	published 	2010/01/08	Article-Journal	UCAR and University	yes 	The role of diurnal solenoidal circulation on propagating rainfall episodes near the Eastern Tibetan Plateau 	Monthy Weather Review 	No	138	2975	2989	10.1175/2010MWR3225.1														
+	Chen	George	T		National Taiwan University	2010	published 	2010/01/08	Article-Journal	UCAR and University	yes 	The role of diurnal solenoidal circulation on propagating rainfall episodes near the Eastern Tibetan Plateau 	Monthy Weather Review 	No	138	2975	2989	10.1175/2010MWR3225.1														
+	Carbone	Richard	E		"UCAR, NCAR, EOL, EOLAO"	2010	published 	2010/01/08	Article-Journal	UCAR and University	yes 	The role of diurnal solenoidal circulation on propagating rainfall episodes near the Eastern Tibetan Plateau 	Monthy Weather Review 	No	138	2975	2989	10.1175/2010MWR3225.1														
+7	Andreas	Edgar	L		"NorthWest Research Associates, Inc"	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+	Persson	P	O	G	National Oceanic and Atmospheric Administration	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+	Jordan	Rachel	E		"Jordan Environmental Modeling, PC"	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+	Horst	Thomas	W		"UCAR, NCAR, EOL, ISF"	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+	Guest	Peter	S		Naval Postgraduate School	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+	Grachev	Andrey	A		National Oceanic and Atmospheric Administration	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+	Fairall	Christopher	W		National Oceanic and Atmospheric Administration	2010	published 	2009/07/27	Article-Journal	"UCAR, University and Other"	yes 	Parameterizing turbulent exchange over sea ice in winter	Journal of Hydrometeorology 	No	11	87	104	10.1175/2009JHM1102.1														
+8	Pereira Filho	Augusto	J		University of Sao Paulo	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+	Carbone	Richard	E		"UCAR, NCAR, EOL, EOLAO"	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+	Janowiak	John	E		University of Maryland	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+	Arkin	Phillip			University of Maryland	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+	Joyce	Robert			University of Sao Paulo	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+	Hallak	Ricardo			University of Sao Paulo	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+	Ramos	Camila	G	M	University of Sao Paulo	2010	published 	2009/11/16	Article-Journal	UCAR and University	yes 	Satellite rainfall estimates over South America - Possible applicability to the water management of large watersheds 	Journal of the American Water Resources Association 	No	46	344	360	10.1111/j.1752-1688.2009.00406.X 														
+9	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part I: Modeling and antenna errors "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2010JTECHA1337.1														
+	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part I: Modeling and antenna errors "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2010JTECHA1337.1														
+	Dixon	Michael	J		"UCAR, NCAR, RAL"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part I: Modeling and antenna errors "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2010JTECHA1337.1														
+	Meymaris	Gregory			"UCAR, NCAR, RAL, AAP"	2010	published 	2010/04/08	Article-Journal	UCAR Only	yes 	"Modeling, error analysis and evaluation of dual polarization variables obtained from simultaneous horizontal and vertical polarization transmit radar. Part I: Modeling and antenna errors "	The Journal of Atmospheric and Oceanic Technology 	No	27	1599	1607	10.1175/2010JTECHA1337.1														
+10	Cooper	O	R		University of Colorado	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Parrish	D	D		National Oceanic and Atmospheric Administration	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Stohl	A			Norwegian Institute for Air Research	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Trainer	M			National Oceanic and Atmospheric Administration	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Nedelec	P			Centre National de la Recherche Scientifique	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Thouret	V			Centre National de la Recherche Scientifique	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Cammas	J	P		Centre National de la Recherche Scientifique	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Oltmans	S	J		National Oceanic and Atmospheric Administration	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Johnson	B	J		National Oceanic and Atmospheric Administration	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Tarasick	D			Meteorlogical Service of Canada	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Leblanc	T			California Institute of Technology	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	McDermid	I	S		California Institute of Technology	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Jaffe	D			University of Washington-Bothell	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Gao	R			National Oceanic and Atmospheric Administration	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Stith	Jeffrey			"UCAR, NCAR, EOL, RAF"	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Ryerson	T			National Oceanic and Atmospheric Administration	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Aikin	K			University of Colorado	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Campos	Teresa			"UCAR, NCAR, NESL, ACD"	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Weinheimer	Andrew	J		"UCAR, NCAR, NESL, ACD"	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+	Avery	M	A		National Aeronautics and Space Administration Langley Research Center	2010	published 	2010/01/21	Article-Journal	"UCAR, University and Other"	yes 	Increasing springtime ozone mixing ratios in the free troposphere over western North America	Nature 	No	463	344	348	10.1038/nature08708														
+11	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	2010	published 	2010/09/04	Article-Journal	UCAR Only	yes 	Water vapor estimates using simultaneous dual-wavelength radar observations 	Radio Science 	No	45	1	15	10.1029/2009RS004280 														
+	Vivekanandan 	Jothiram			"UCAR, NCAR, EOL, RSF"	2010	published 	2010/09/04	Article-Journal	UCAR Only	yes 	Water vapor estimates using simultaneous dual-wavelength radar observations 	Radio Science 	No	45	1	15	10.1029/2009RS004280 														
+12	Bell	Michael	M		"Naval Postgraduate School and UCAR, NCAR, EOL, RSF"	2010	published 	2010/03/17	Article-Journal	UCAR and University	yes 	Sheared deep vortical convection in pre-depression Hagupit during TCS08 	Geophysical Research Letters 	No	37	1	5	10.1029/2009GL042313 														
+	Montgomery	Michael	T		Naval Postgraduate School	2010	published 	2010/03/17	Article-Journal	UCAR and University	yes 	Sheared deep vortical convection in pre-depression Hagupit during TCS09	Geophysical Research Letters 	No	37	1	5	10.1029/2009GL042313 														
+13	Rabier	Florence			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Bouchard	Aurelie			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Brun 	Eric			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Doerenbecher	Alexis			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Guedj	Stephanie			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Guidard	Vincent			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Karbou	Fatima			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Peuch	Vincent-Henri			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	El Amraoui	Laaziz			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Puech	Dominique			Météo-France	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Genthon	Christophe 			Laboratory of Glaciology and Geophysical Environment	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Picard	Ghislain			Laboratory of Glaciology and Geophysical Environment	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Town	Michael			Laboratory of Glaciology and Geophysical Environment	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Hertzog	Albert			Laboratoire deMÈtÈorologie Dynamique	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Vial	Francois			Laboratoire deMÈtÈorologie Dynamique	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Cocquerez	Philippe			Centre National d'Etudes Spatiales	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Cohn	Stephen	A		"UCAR, NCAR, EOL, ISF"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Hock	Terrence			"UCAR, NCAR, EOL, ISF"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Fox	Jack			"UCAR, NCAR, EOL, DFS"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1	No longer with UCAR/NCAR													
+	Cole	Harold			"UCAR, NCAR, EOL, ISF"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Parsons	David			"UCAR, NCAR, EOL, ISF"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Powers	Jordan	G		"UCAR, NCAR, NESL, MMM"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Romberg	Keith			"UCAR, NCAR, EOL, CDS"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1	No longer with UCAR/NCAR													
+	VanAndel	Joseph			"UCAR, NCAR, EOL, CDS"	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Deshler	Terry			University of Wyoming	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Mercer	Jennifer			University of Wyoming	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Haase	Jennifer	S		Purdue University	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Avallone	Linnea			University of Colorado	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Kalnajs	Lars			University of Colorado	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Mechoso	C	R		University of California - Los Angeles	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Tangborn	Andrew			National Aeronautics and Space Administration Goddard Global Modeling and Assimilation Office	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Pellegrini	Andrea			Programma Nazionale di Ricerche in Antartide	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Frenot	Yves			French Polar Institute	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Thepaut	Jean-Noel			European Centre for Medium-Range Weather Forecasts	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	McNally	Anthony			European Centre for Medium-Range Weather Forecasts	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Balsamo	Gianpaolo			European Centre for Medium-Range Weather Forecasts	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+	Steinle	Peter			The Centre for Australian Weather and Climate Research	2010	published 	2009/07/20	Article-Journal	"UCAR, University and Other"	yes 	The Concordiasi project in Antarctica 	Bulletin of the American Meteorological Society 	No	91	69	86	10.1175/2009BAMS2764.1														
+14	Wakimoto	Roger			"UCAR, NCAR, EOL, EOLAO"	2010	published 	2009/07/14	Article-Journal	UCAR and University	yes 	Frontal and radar refractivity analyses of the dryline on 11 June 2002 during IHOP 	Monthly Weather Review 	No	138	228	241	10.1175/2009MWR2991.1														
+	Murphey	Hanne			"University of California, Los Angeles"	2010	published 	2009/07/14	Article-Journal	UCAR and University	yes 	Frontal and radar refractivity analyses of the dryline on 11 June 2002 during IHOP 	Monthly Weather Review 	No	138	228	241	10.1175/2009MWR2991.1														
+15	Wunch	D			California Institute of Technology	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Toon	G	C		California Institute of Technology	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Wennberg	P	O		California Institute of Technology	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Wofsy	S	C		Harvard University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Stephens	Britton	B		"UCAR, NCAR, EOL, RAF"	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Fischer	M	L		Lawrence Berkeley National Laboratories	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Uchino	O			National Institute for Environmental Studies	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Abshire	J	B		National Aeronautics and Space Administration Goddard Space Flight Center	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Bernath	P			University of Waterloo	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Biraud	S	C		Lawrence Berkeley National Laboratories	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Blavier	J	F		California Institute of Technology	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Boone	C			University of Waterloo	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Bowman	K	P		Texas A&M University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Browell	E	V		National Aeronautics and Space Administration Langley Research Center	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Campos	Teresa			"UCAR, NCAR, NESL, ACD"	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Connor	B	J		BC Consulting Limited	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Daube	B	C		Harvard University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Deutscher	N	M		University of Wollongong	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Diao	M			Princeton University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Elkins	J	W		National Oceanic and Atmospheric Administration	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Gerbig	C			Max-Planck-Institut fur Biogeochemie	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Gottlieb	E			Harvard University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Griffith	D	W		University of Wollongong	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Hurst	D	F		University of Colorado	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Jimenez	R			Harvard University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Keppel-Aleks	G			California Institute of Technology	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Kort	E	A		Harvard University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Macatangay	R			University of Wollongong	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Machida	T			National Institute for Environmental Studies	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Matsueda	H			Meteorological Research Institute	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Moore	F			University of Colorado	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Morino	I			National Institute for Environmental Studies	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Park	S			Harvard University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Robinson	J			National Institute of Water & Atmospheric Research	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Roehl	C	M		California Institute of Technology	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Sawa	Y			Meteorological Research Institute	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Sherlock	V			Natonal Institute of Water & Atmospheric Research	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Sweeney	C			University of Colorado	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Tanaka	T			Natonal Institute for Environmental Studies	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+	Zondlo	M	A		Princeton University	2010	published 	2010/10/06	Article-Journal	"UCAR, University and Other"	yes 	Calibration of the total carbon column observing network using aircraft profile data 	Atmospheric Measurement Techniques 	No	3	1351	1362	10.5194/amt-3-1351-2010														
+16	Mao	J			Pennsylvania State University	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Ren	X			Pennsylvania State University	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Brune	William	H		Pennsylvania State University	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Olson	J	R		National Aeronautics and Space Administration Langley Research Center	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Crawford	J	H		National Aeronautics and Space Administration Langley Research Center	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Fried	Alan			"UCAR, NCAR, EOL, TDF"	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Huey	L	G		Georgia Institute of Technology	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Cohen	R	C		University of California Berkeley	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Heikes	B			University of Rhode Island	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Singh	H	B		National Aeronautics and Space Administration Ames Research Center	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Blake	D	R		University of California Irvine	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Sachse	G	W		National Aeronautics and Space Administration Langley Research Center	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Diskin	G	S		National Aeronautics and Space Administration Langley Research Center	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Hall 	S	R		"UCAR, NCAR, NESL, ACD"	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+	Shetter	R	E		"UCAR, NCAR, NESL, ACD"	2009	published 	2009/01/12	Article-Journal	"UCAR, University and Other"	yes 	Airborne measurement of OH reactivity during INTEX-B 	Atmospheric Chemistry and Physics 	No	9	163	173	10.5194/acp-9-163-2009														
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																
+																																

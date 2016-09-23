@@ -1,0 +1,61 @@
+query to use to find records with primaryAsset of "asset-000-000-000-040"
+
+/text//record/resources/primaryAsset/@url:"asset-000-000-000-040"
+
+----------------------------------------------------------
+
+A list of DR numbers for which no asset was found
+- method: using asset_map.findUnmatchedDRNumbers, which compares the original
+list of DR numbers with a list of asset file names currently in the repository (/web/nldr)
+
+below is the list of DR numbers, and then info about them.
+
+NOTE:
+- in the NLDR, the assets corrsponding to the ASRs titled "part 1" actually have all parts merged (and their records
+are appropriately retitled in the NLDR).
+
+DR000731 - Annual Scientific Report April 1978-March 1979. Part 1. (ASR-000-000-000-018, asr/asset-000-000-000-018.pdf)
+DR000733 - Annual Scientific Report January - December 1979. Part 1 - ASR-000-000-000-019
+DR000734 - Annual scientific report January 1977 - March 1978. Part 1 - ASR-000-000-000-017
+DR000740 - Annual Scientific Report January - December 1980. Part 1 - ASR-000-000-000-020
+DR000742 - Annual Scientific Report January - December 1981. Part 1. - ASR-000-000-000-021
+DR000744 - Annual Scientific Report January - September 1982. Part 1. - ASR-000-000-000-022
+DR000746 - Annual Scientific Report Fiscal Year 1983. Part 1. - ASR-000-000-000-023
+DR000748 - Annual Scientific Report Fiscal Year 1984. Part 1. - ASR-000-000-000-024
+DR000750 - Annual Scientific Report Fiscal Year 1985. Part 1. - ASR-000-000-000-025
+DR000752 - Annual Scientific Report Fiscal Year 1986. Part 1. - ASR-000-000-000-026
+DR000754 - Annual Scientific Report Fiscal Year 1987. Part 1. - ASR-000-000-000-027
+DR000756 - Annual Scientific Report Fiscal Year 1988. Part 1. - ASR-000-000-000-028
+DR000758 - Annual Scientific Report Fiscal Year 1989. Part 1. - ASR-000-000-000-029
+DR000762 - Annual Scientific Report Fiscal Year 1990. Part 1. - ASR-000-000-000-030
+DR000765 - Annual Scientific Report Fiscal Year 1991. Part 1. - ASR-000-000-000-031
+DR000768 - Annual Scientific Report Fiscal Year 1992. Part 1. - ASR-000-000-000-032
+DR000771 - Annual Scientific Report Fiscal Year 1993. Part 1. - ASR-000-000-000-033
+DR000841 - Reports of Research and Facilities Programs 1962. - ASR-000-000-000-002
+DR000842 - Reports of Research and Facilities Programs 1963. - ASR-000-000-000-003
+DR000843 - Reports of Research and Facilities Programs 1964. - ASR-000-000-000-004
+
+----------------------------------------------------------------------------
+There are several pdf's that were missed in the original scrape and which michael found.
+see http://www.ucar.edu/library/collections/redirect.php
+
+Don't worry about this file - it does not contain any assets that are not in the library and therefore does not
+contain anything that won't be found by our DR-resolver (see below)
+
+-----------------------------------------------------------------------------
+DR_Resolver - given a DR number, find the ID of the metadata record that contains it ...
+
+After this is working, use the DR_resolver to create an XML file of these relationships that can be used by
+a servlet, such as the NldrServlet!
+
+see output/dr_2_recId_mappings.xml (created by dr_2_record_ids.py)
+
+-----------------------
+Gaps in the DRs we have mappings for. (see dr_mappings_verifier.py and missing_dr_analysis.txt)
+
+--------------------
+
+FINALLY - it turns out that mapping accession (DR) number to recordID is not
+quite enough for the needs of the NLDR URLResolver, which needs to know
+the collection as well as the recordID. So we need to do one final step:
+makeURLResolverMappings.py

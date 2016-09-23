@@ -1,0 +1,51 @@
+Scientists & Project Scientists	
+	Greg Holland
+	Christopher Davis 
+	Wojciech Grabowski                                         
+	Andrew Heymsfield
+	Joseph Klemp
+	Charles Knight 
+	Ying-Hwa (Bill) Kuo 
+	Chin-Hoh Moeng
+	Richard Rotunno 
+	William Skamarock                                           
+	Piotr Smolarkiewicz 
+	Chris Snyder 
+	Peter Sullivan 
+	Morris Weisman
+	Rebecca Morss 
+	Jielun Sun
+	Juanzhen (Jenny) Sun
+	George Bryan
+	Hugh Morrison
+	Judith Berner 
+	Hans Huang 
+	Jimy Dudhia
+	Jordan Powers
+	Thomas Auligne 
+	Jim Bresch
+	Janice Coen
+	Zhiquan Liu
+	Ned Patton
+	Stan Trier
+	James Done
+	Laura Fowler
+	Arthur Mizzi
+	Glen Romine 
+	
+Associate Scientists	
+	Aaron Bansemer
+	Yong-Run Guo 
+	Kevin Manning
+	Syed Rizvi
+	Wei Wang
+	David Ahijevych
+	Cindy Bruyere
+	Sean Burns 
+	Ming Chen
+	Hui-Chuan Lin
+	Carl Schmitt
+	So-Young Ha
+	Craig Schwartz
+	Zhuming Ying
+	Xiaoyan Zhang

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd" xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<general>
+		<recordID>!-000-000-000-000</recordID>
+		<recordDate>2011-08-25</recordDate>
+		<pubName type=""></pubName>
+		<eventName></eventName>
+		<volume></volume>
+		<issue></issue>
+		<edition></edition>
+		<pageSpan></pageSpan>
+		<pageTotal></pageTotal>
+		<pages></pages>
+		<title></title>
+		<abstract></abstract>
+		<keyword></keyword>
+	</general>
+	<contributors/>
+	<classify>
+		<language>en</language>
+		<classification>Refereed</classification>
+	</classify>
+	<coverage>
+		<fiscalYear>2011</fiscalYear>
+	</coverage>
+	<rights/>
+</record>
+

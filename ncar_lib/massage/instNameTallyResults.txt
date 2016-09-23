@@ -1,0 +1,89 @@
+Unique Values for instName and instDiv accross all collections
+
+instNames tally (19 unique values)
+-----------------------------------
+        Goddard Space Flight Center.  National Space Science Data Center
+        Reports of Research and Facilities Programs 1963.
+        United States.  Bureau of Reclamation
+        University Corporation for Atmospheric Research (UCAR)
+        Raven Industries, Inc.
+        Hauser Research and Engineering Company.
+        U.S. Weather Research Program
+        Hauser Research and Engineering Company
+        National Center for Atmospheric Research (NCAR)
+        European Centre for Medium Range Weather Forecasts
+        National Oceanic and Atmospheric Administration (NOAA)
+        Air Force Flight Dynamics Laboratory (U.S.)
+        University of Colorado
+        Los Alamos National Laboratory. (U.S.)
+        Scribner
+        Fremont, CA : Nielsen Norman Group
+        Hawaii Institute of Geophysics
+        Line Islands Critique (1967 : University of Hawaii)
+        Goddard Space Flight Center. National Space Science Data Center
+
+instDivisions tally (63 unique values)
+---------------------------------------
+        Atmospheric Analysis And Prediction Division
+        Climate And Global Dynamics Division.
+        Unidata Program Center
+        Balloon Facility
+        Laboratory of Atmospheric Sciences Division
+        Convective Storms Divison
+        Environmental and Societal Impacts Group (ESIG)
+        Laboratory of Atmospheric Sciences
+        High Altitude Observatory.
+        Mesoscale and Microscale Meteorology.
+        U.S. Monex Project Office
+        Atmosheric Analysis and Prediction Division
+        Nonlinear normal mode initialization
+        Mesoscale and Microscale Meteorology Division.
+        Atmospheric Chemistry Division.
+        Atmospheric Analysis and Prediction Division
+        Convective Storms Division
+        Mesoscale ad Microscale Meteorology Division
+        Advanced Study Program
+        Atmospheric Chemistry Division
+        Mesoscale and Microscale Meteorology Division
+        U.S. MONEX Project Office
+        Atmospheric Technology Divsion
+        Facilities Division
+        Acid Deposition Modeling Project
+        Atmospheric Science Laboratory
+        Atmospheric Chemistry and Aeronomy Division
+        High Altitude Observatory (HAO)
+        High Altutude Observatory
+        Communications Services Dept.
+        Facilities Laboratory
+        Research Applications Program
+        Atmospheric Analysis and prediction Division
+        Climate and Global Dynamics Division.
+        Climate And Global Dynamics Division
+        Atmospheric Technology Division (ATD)
+        Research Aviation Facility
+        Research Aviation Facility (RAF)
+        Scientific Computing Division.
+        Atmospheric Technology Division.
+        NCAR Scientific Balloon Facility
+        Scientific Balloon Facility.
+        Scientific Balloon Division
+        Altschuler, Bruce R.
+        Scientific Computing Division
+        Atmospheric Technology Division
+        Laboratory of Atmospheric Science
+        Computing Facility
+        Climate and Global Dynamics Division
+        Advanced Study Program.
+        Climate and Global Dynamics Division (CGD)
+        Field Observing Facility
+        Atmospheric Analysis and Prediction Division.
+        Acid Deposition and Modeling Project
+        Research Aviation Facility. Earth Observing Laboratory.
+        Mesoscale and Microscale Meteorology Division (MMM)
+        Atmospheric Quality and Modification Division
+        Advanced Study Program (ASP)
+        Computational Science Division.
+        Atmospheric Quality Division
+        Scientific Balloon Facility
+        High Altitude Observatory
+        Atmospheric Technology Research

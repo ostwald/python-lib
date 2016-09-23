@@ -1,0 +1,190 @@
+#!/usr/bin/env python
+usage = """
+DCS utility script usage:
+   arg0 is dcs - the command you typed to get here
+   arg1 is command:
+       start_jvm
+       stop_jvm
+       deploy
+       tail
+       bounce
+       update
+       check
+       config_info
+   arg2 is dcs instance name
+
+"""
+import sys, os, site
+import string
+import urllib
+from time import sleep
+
+from dcsTools import InstanceWalker
+from dcsTools.fileTools import ServerXmlTool
+
+frozen_instances = [] # ["evalcoreservices",]
+
+def showArgs ():
+	for i in range(len (sys.argv)):
+		print "arg[%d]: %s" % (i, sys.argv[i])
+
+def handleCommand (cmd, instanceName):
+	"""
+	handle the command
+	"""
+
+	handler = CommandHandler ()
+
+	# first handle commands with no instance
+	if cmd == "check_all":
+		handler.check_all()
+		sys.exit()
+
+	if cmd == "bounce":
+		handler.bounce (instanceName)
+		sys.exit()
+
+	if cmd == "config_info" and not instanceName:
+		handler.config_info()
+		sys.exit()
+
+	# commands below here require an instanceName value
+	if not instanceName:
+		print "An instance argument is required"
+		print usage
+		sys.exit()
+
+	if cmd in ["deploy", "start_jvm", "stop_jvm", "update"]:
+		if instanceName in frozen_instances:
+			print "%s is frozen" % instanceName
+			sys.exit()
+		command = "sudo -u webadmin ant %s -Ddcs.instance=%s" % (cmd, instanceName)
+
+	elif cmd == "tail":
+		instancePath = "/dpc/services/dcs/dcs.dlese.org/tomcat/" + instanceName
+		command = "tail -f -n100 %s/logs/catalina.out" % instancePath
+
+	elif cmd == "check":
+		handler.check(instanceName)
+		sys.exit()
+
+	elif cmd == "config_info":
+		instance = handler.instanceWalker.getInstance (instanceName)
+		if not instance:
+			print "instance not found: %s" % instanceName
+		else:
+			print "\nContext parameters defined in conf/server.xml"
+			print handler.instance_config_info(instance)
+		sys.exit()
+
+	else:
+		print "unrecognized command", cmd
+		sys.exit()
+
+	print command
+	os.system(command)
+
+class CommandHandler:
+
+	acceptable_error_codes = [
+		302,    # redirect
+		401,    # password required
+		]
+
+	
+	base_url = "http://dcs.dlese.org/"
+	url_opener = urllib.URLopener()	# create URLopener
+
+	tomcatDir = "/export/services/dcs/dcs.dlese.org/tomcat"
+
+
+	def __init__ (self):
+
+		self.instanceWalker = self._get_instanceWalker(self.tomcatDir)
+
+	def _get_instanceWalker (self, tomcatDir):
+		try:
+			walker = InstanceWalker (tomcatDir)
+		except:
+			msg = "Error: could not initialize InstanceWalker"
+			print "%s\n\t(%s)" % (msg, sys.exc_value)
+			sys.exit()
+		return walker
+
+	def check (self, instance_name):
+		"""
+		verify that an instance responds to an "admin/browse" request
+		""" 
+		url = self.base_url + instance_name + "/admin/browse.do"
+		state = "unknown"
+		spacer = "                   "[len(instance_name):]
+		if self._ping_url(url):
+			state = 'UP'
+		else:
+			state = 'DOWN'
+		print "%s%s%s" % (instance_name, spacer, state)
+
+	def config_info (self):
+		print "\nContext parameters defined in conf/server.xml"
+		self.instanceWalker.walk (lambda i:self.instance_config_info(i))
+
+	def bounce (self, instance_name):
+		cmd = lambda op,cmd: "sudo -u webadmin ant %s -Ddcs.instance=%s" % (op, cmd)
+		
+		op = "stop_jvm"
+		# print "cmd: %s" % cmd (op, instanceName)
+		os.system(cmd (op, instanceName))
+		sleep (5)
+		
+		op = "start_jvm"
+		# print "cmd: %s" % cmd (op, instanceName)
+		os.system(cmd (op, instanceName))
+
+	def instance_config_info (self, instance):
+		"""
+		this function is passed to the InstanceWalker and is called for each
+		instance
+		"""
+		s = ServerXml(instance)
+		print "\n%s" % s.getInfo()
+
+	def check_all (self):
+		"""
+		check all instances for availability
+		"""
+		print "DCSTester.check_all"
+		for instanceName in self.instanceWalker.instanceNames:
+			self.check (instanceName)
+
+	def _ping_url (self, url):
+		# print "checking ", url
+		try :
+			data = self.url_opener.open(url)   # open file by url
+
+		except IOError, error_code :		# catch the error
+			if error_code[0] == "http error" :
+				# print "error: ", error_code[1]
+				# print error_code				
+				return (error_code[1] in self.acceptable_error_codes)
+		return 1
+
+
+if __name__ == "__main__":
+	## showArgs()
+	# verify input (this could obviously be improved)
+	if len(sys.argv) < 2:
+		print usage
+		sys.exit()
+
+	cmd = sys.argv[1]
+	instanceName = None
+	if len(sys.argv) == 3:
+		instanceName = sys.argv[2]
+		root, ext = os.path.splitext (instanceName)
+		if ext == ".properties":
+			print ("\t(removing '.properties' suffix from instance argument)")
+			instanceName = root
+
+	handleCommand (cmd, instanceName)
+
+

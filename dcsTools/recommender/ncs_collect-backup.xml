@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs" xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_collect/1.02/schemas/ncs-collect.xsd">
+  <general>
+    <recordID>NSC-COLLECT-000-000-000-001</recordID>
+    <url>http://dlese.org</url>
+    <title>Digital Library for Earth System Education</title>
+    <description>This is a state of the art digital library.</description>
+  </general>
+  <collection>
+    <contacts>
+      <contact name="Ostwald" email="ostwald@ucar.edu"/>
+    </contacts>
+    <date>2007-01-01</date>
+    <brandURL>http://nsdl.org/brands/NSC-COLLECT-000-000-000-001.jpg</brandURL>
+  </collection>
+</record>

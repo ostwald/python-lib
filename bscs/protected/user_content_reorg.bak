@@ -1,0 +1,224 @@
+"""
+Update protected URLs in UserContent records.
+
+uses webservice to find protected urls in a User_Content repository, and
+specifically in ccs_saved_resource records for:
+- supplementary info such as Tips and Comments.
+- curricular resources (i.e., Tasks)
+- assessments
+
+Use UserContentURLSearcher to find the protected URLs
+
+The searcher's protected attribute is a mapping of Protected urls to lists of ProtectedUrlEntry
+instances, which contain the id and collection of records that contain the (protected) url
+BUT - this is a limited approach because
+
+"""
+import os, sys, re
+from repo import RepositorySearcher
+from JloXml import XmlRecord, MetaDataRecord, XmlUtils, AdnRecord
+from bscs.protected import *
+
+from url_records import urlRecordClasses
+
+class UserContentURLSearcher (RepositorySearcher):
+	"""
+	A searcher for User_Content records having a protected Url
+	
+	This searcher only looks for ccs_saved_resources for dlese_anno curriculum
+	resources, e.g., Tips.
+	
+	"""
+	
+	default_baseUrl = 'http://localhost:8070/dds/services/ddsws1-1' # purg user content
+	default_baseRepoUrl = 'http://localhost:8070/dds/services/ddsupdatews1-1' # purg user content repo update API
+	numToFetch = 10000
+	batchSize = 200
+	dowrites = 0
+	
+	url_path = '/savedResource/record/annotationRecord/annotation/content/url'
+	url_select_path = url_path
+	xmlFormat = 'ccs_saved_resource'
+
+	def __init__ (self, collection=None, baseUrl=None):
+		self.protected = {}
+		xmlFormat = self.xmlFormat
+		self.curriculumColl_path = '/savedResource/ddsRepoInfo/collectionKey'
+		RepositorySearcher.__init__(self, collection, xmlFormat, baseUrl)
+
+	def get_params (self, collection, xmlFormat):
+		"""
+		define the params used to query the search service
+		"""
+		return {
+			"q":'indexedXpaths:%s' % self.url_path,
+			"verb": "Search",
+			"xmlFormat": xmlFormat,
+			"ky" : collection
+			}
+			
+	def processResults(self):
+		"""
+		populate "self.protected" mapping from protectedUrl to ProtectedUrlEntry instances
+		"""
+		print 'processResults ...'
+		self.protected = {}
+		
+		# look in each search result for protectedUrls
+		for result in self:
+			recId = result.recId
+			
+			rec = result.payload
+			coll = result.collection
+			rec.xpath_delimiter = '/'
+			
+			if 0:
+				print rec
+				print 'url_path', self.url_path
+				return
+				
+			url = rec.getTextAtPath(self.url_select_path[1:])
+			
+			if not url or not url.startswith(base_protected_url): 
+				print 'url', url
+				continue
+			
+			## collection in CCS (curriculum) for this resource
+			currColl = rec.getTextAtPath(self.curriculumColl_path[1:])
+			
+			# add a ProtectedUrlEntry for this resource and url
+			entries = self.protected.has_key(url) and self.protected[url] or []
+			entries.append(ProtectedUrlEntry (recId, currColl, coll, url, rec))
+			self.protected[url] = entries
+		
+	def reportUrls(self):
+		urls = self.protected.keys()
+		urls.sort()
+		print '%d protected Urls' % len(urls)
+		for url in urls:
+			if 1 or len(self.protected[url]) > 1:
+				print '- %s - %d' % (url, len(self.protected[url]))		
+
+	def update (self):
+		"""
+		why aren't we updating results? - because we've selected only protected in "protected"?
+		"""
+		for url in self.protected.keys():
+			for entry in self.protected[url]:
+				if self.dowrites:
+					try:
+						self.updateRecord(entry)
+					except Exception, msg:
+						print "Update ERROR: %s" % msg
+				else:
+					print "would have updated %s" % url
+
+	def updateRecord (self, entry):
+		
+		new_url = '%s/%s/%s' % (base_protected_url, entry.currColl, entry.filename)
+		
+		if new_url == entry.url:
+			print 'already updated:', new_url
+			return
+		
+		self.updateUrl (entry.record, new_url)
+		
+		if 0:
+			print entry.record
+			print 'returning without writing metadata'
+			return
+		
+		params = {
+			'verb' : 'PutRecord',
+			'id' : entry.id,
+			'collectionKey' : entry.coll,
+			'xmlFormat' : 'ccs_saved_resource',
+			'recordXml' : str(entry.record)
+		}
+
+		client = DDSUpdateClient(self.default_baseRepoUrl)
+		response = client.getResponseDoc(params=params)
+		# print 'RESPONSE for %s' % entry.id
+		# print response
+	
+	
+	def updateUrl(self, entry, new_url):
+		entry.record.setTextAtPath (self.url_path[1:], new_url)
+	
+class UserSavesURLSearcher (UserContentURLSearcher):
+	"""
+	Looks for user_saves of nsdl_dc resources	
+	
+	url_path - used to search DDS by url_path (DDS indexes localized paths) for records potentially having
+	url_select_path - used by python XmlRecord to select identifier paths that contan urls
+	"""
+	
+	url_select_path = "/savedResource/record/nsdl_dc:nsdl_dc/dc:identifier[@xsi:type='dct:URI']"
+	url_path = "/savedResource/record/nsdl_dc/identifier"
+	xmlFormat = 'ccs_saved_resource'
+	
+	def updateUrl(self, record, new_url):
+		url_node = record.selectSingleNode(record.dom, self.url_select_path[1:])
+		XmlUtils.setText(url_node, new_url)
+	
+class AssessmentsURLSearcher (UserContentURLSearcher):
+	"""
+	Looks for user_saves of nsdl_dc resources	
+	
+	url_path - used to search DDS by url_path (DDS indexes localized paths) for records potentially having
+	url_select_path - used by python XmlRecord to select identifier paths that contan urls
+	"""
+	
+	url_select_path = "/savedResource/record/nsdl_dc:nsdl_dc/dc:identifier[@xsi:type='dct:URI']"
+	url_path = "/savedResource/record/nsdl_dc/identifier"
+	xmlFormat = 'ccs_saved_resource'
+	
+	def get_params (self, collection, xmlFormat):
+		"""
+		define the params used to query the search service
+		"""
+		url_path_1 = "/savedResource/record/assessment/question/outline/@url"
+		url_path_2 = "/savedResource/record/assessment/answer/outline/@url"
+		
+		return {
+			"q":'indexedXpaths:%s OR indexedXpaths:%s' % (url_path_1, url_path_2),
+			"verb": "Search",
+			"xmlFormat": xmlFormat,
+			"ky" : collection
+			}
+	
+	def updateUrl(self, record, new_url):
+		url_node = record.selectSingleNode(record.dom, self.url_select_path[1:])
+		XmlUtils.setText(url_node, new_url)
+	
+	
+def updateTester ():
+	repoUpdateBaseUrl = 'http://localhost:8070/dds/services/ddsupdatews1-1' # purg user content repo update API
+	recordXml = "<record><child>child text</child></record>"
+	
+	params = {
+		'verb' : 'PutRecord',
+		'id' : 'FAKE',
+		'xmlFormat' : 'emaildata',
+		'collectionKey' : 'ccsemails',
+		'recordXml' : recordXml
+	}
+	client = DDSUpdateClient(repoUpdateBaseUrl)
+	response = client.getResponseDoc(params=params)
+	print 'RESPONSE:'
+	print response
+
+if __name__ == '__main__':
+	# searcher = UserContentURLSearcher()
+	#searcher = UserSavesURLSearcher()
+	searcher = AssessmentsURLSearcher()
+	if 1:
+		searcher.reportUrls()
+	if 0:
+		searcher.update()
+	if 0:
+		entry = searcher.protected.values()[0][0]
+		searcher.updateRecord(entry)
+	if 0:
+		updateTester()
+

@@ -1,0 +1,119 @@
+source (WOS journal) 2011	Existing OSM pubName	OSM pubName to Add
+ADVANCES IN ATMOSPHERIC SCIENCES	Advances in Atmospheric Sciences	
+AEROSOL SCIENCE AND TECHNOLOGY	Aerosol Science and Technology	
+AGRICULTURAL AND FOREST METEOROLOGY	Agricultural and Forest Meteorology	
+AMERICAN JOURNAL OF AGRICULTURAL ECONOMICS	American Journal of Agricultural Economics	American Journal of Agricultural Economics
+ANNALES GEOPHYSICAE	Annales Geophysicae	
+ANNALS OF GLACIOLOGY	Annals of Glaciology	
+"ANNUAL REVIEW OF FLUID MECHANICS, VOL 43"	Annual Review of Fluid Mechanics	
+APPLIED OPTICS	Applied Optics	
+ASIA-PACIFIC JOURNAL OF ATMOSPHERIC SCIENCES	Asia-pacific Journal of Atmospheric Sciences	
+ASTRONOMISCHE NACHRICHTEN	Astronomische Nachrichten	
+ASTRONOMY & ASTROPHYSICS	Astronomy and Astrophysics	
+ASTROPHYSICAL JOURNAL	The Astrophysical Journal	
+ASTROPHYSICAL JOURNAL LETTERS	The Astrophysical Journal Letters	
+ATMOSPHERIC CHEMISTRY AND PHYSICS	Atmospheric Chemistry and Physics	
+ATMOSPHERIC ENVIRONMENT	Atmospheric Environment	
+ATMOSPHERIC MEASUREMENT TECHNIQUES	Atmospheric Measurement Techniques	
+ATMOSPHERIC RESEARCH	Atmospheric Research	
+ATMOSPHERIC SCIENCE LETTERS	Atmospheric Science Letters	
+BIOFUTUR	Biofutur	Biofutur
+BIOGEOSCIENCES	Biogeosciences	
+BOUNDARY-LAYER METEOROLOGY	Boundary-Layer Meteorolog	
+BULLETIN OF THE AMERICAN METEOROLOGICAL SOCIETY	Bulletin of the American Meteorological Society	
+CANCER EPIDEMIOLOGY BIOMARKERS & PREVENTION	Cancer Epidemiology Biomarkers &amp; Prevention	
+CHEMPHYSCHEM	Chemphyschem	
+CHINESE SCIENCE BULLETIN	Chinese Science Bulletin	
+CLIMATE RESEARCH	Climate Research	
+CLIMATE DYNAMICS	Climate Dynamics	
+COMPUTATIONAL STATISTICS & DATA ANALYSIS	Computational Statistics &amp; Data Analysis	
+COMPUTERS & FLUIDS	Computers &amp; Fluids	
+COMPUTERS & GEOSCIENCES	Computers &amp; Geosciences	
+CURRENT OPINION IN ENVIRONMENTAL SUSTAINABILITY	Current Opinion in Environmental Sustainability	
+DISEASES OF AQUATIC ORGANISMS	Diseases of Aquatic Organisms	Diseases of Aquatic Organisms
+EARTH AND PLANETARY SCIENCE LETTERS	Earth and Planetary Science Letters	
+ECOLOGICAL ECONOMICS	Ecological Economics	
+ECONOMICS LETTERS	Economics Letters	
+ELECTROCHIMICA ACTA	Electrochimica Acta	Electrochimica Acta
+ENVIRONMENTAL HEALTH PERSPECTIVES	Environmental Health Perspectives	
+ENVIRONMENTAL RESEARCH LETTERS	Environmental Research Letters	
+ENVIRONMENTAL SCIENCE & TECHNOLOGY	Environmental Science &amp; Technology	
+EPIDEMIOLOGY	Epidemiology	Epidemiology
+FRONTIERS IN ECOLOGY AND THE ENVIRONMENT	Frontiers in Ecology and the Environment	
+GEOMORPHOLOGY	Geomorphology	
+GEOPHYSICAL JOURNAL INTERNATIONAL	Geophysical Journal International	Geophysical Journal International
+GEOPHYSICAL RESEARCH LETTERS	Geophysical Research Letters	
+GEOSCIENTIFIC MODEL DEVELOPMENT	Geoscientific Model Development	
+GLOBAL ENVIRONMENTAL CHANGE-HUMAN AND POLICY DIMENSIONS	Global Environmental Change: Human and Policy Dimensions	
+HEALTH & PLACE	Health and Place	
+HUMAN ECOLOGY	Human Ecology	Human Ecology
+HYDROLOGICAL PROCESSES	Hydrological Processes	
+HYDROLOGY RESEARCH	Hydrology Research	Hydrology Research
+ICARUS	ICARUS:International Journal of Solar System Studies	
+IEEE TRANSACTIONS ON DEPENDABLE AND SECURE COMPUTING	IEEE Transactions on Dependable and Secure Computing	IEEE Transactions on Dependable and Secure Computing
+IEEE TRANSACTIONS ON PARALLEL AND DISTRIBUTED SYSTEMS	IEEE Transactions on Parallel and Distribute Systems	IEEE Transactions on Parallel and Distribute Systems
+IN VITRO CELLULAR & DEVELOPMENTAL BIOLOGY-ANIMAL	In Vitro Cellular &amp; Developmental Biology - Animal	In Vitro Cellular &amp; Developmental Biology - Animal
+INTERNATIONAL JOURNAL OF CLIMATOLOGY	International Journal of Climatology	
+JOURNAL OF APPLIED METEOROLOGY AND CLIMATOLOGY	Journal of Applied Meteorology and Climatology	
+JOURNAL OF ARID ENVIRONMENTS	Journal of Arid Environments	
+JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY	Journal of Atmospheric and Oceanic Technology	
+JOURNAL OF ATMOSPHERIC AND SOLAR-TERRESTRIAL PHYSICS	Journal of Atmospheric and Solar-terrestrial Physics	
+JOURNAL OF CLIMATE	Journal of Climate	
+JOURNAL OF COMPUTATIONAL AND GRAPHICAL STATISTICS	Journal of Computational and Graphical Statistics	
+JOURNAL OF COMPUTATIONAL PHYSICS	Journal of Computational Physics	
+JOURNAL OF FLUID MECHANICS	Journal of Fluid Mechanics	
+JOURNAL OF FLUIDS ENGINEERING-TRANSACTIONS OF THE ASME	Journal of Fluids Engineering-transactions of the Asme	
+JOURNAL OF FORESTRY	Journal of Forestry	Journal of Forestry
+JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES	Journal of Geophysical Research-Atmospheres	
+JOURNAL OF GEOPHYSICAL RESEARCH-BIOGEOSCIENCES	Journal of Geophysical Research-Biogeosciences	
+JOURNAL OF GEOPHYSICAL RESEARCH-OCEANS	Journal of Geophysical Research-Oceans	
+JOURNAL OF GEOPHYSICAL RESEARCH-SPACE PHYSICS	Journal of Geophysical Research-Space Physics	
+JOURNAL OF HYDROINFORMATICS	Journal of Hydroinformatics	Journal of Hydroinformatics
+JOURNAL OF HYDROLOGY	Journal of Hydrology	
+JOURNAL OF HYDROMETEOROLOGY	Journal of Hydrometeorology	
+JOURNAL OF PHYSICAL OCEANOGRAPHY	Journal of Physical Oceanography	
+JOURNAL OF QUANTITATIVE SPECTROSCOPY & RADIATIVE TRANSFER	Journal of Quantitative Spectroscopy and Radiative Transfer	
+JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE AND TECHNOLOGY	Journal of the American Society for Information Science and Technology	Journal of the American Society for Information Science and Technology
+JOURNAL OF THE ATMOSPHERIC SCIENCES	Journal of the Atmospheric Sciences	
+JOURNAL OF WIND ENGINEERING AND INDUSTRIAL AERODYNAMICS	Journal of Wind Engineering and Industrial Aerodynamics	
+MEASUREMENT	Measurement	
+METEOROLOGY AND ATMOSPHERIC PHYSICS	Meteorology and Atmospheric Physics	
+MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY	Monthly Notices of the Royal Astronomical Society	
+MONTHLY WEATHER REVIEW	Monthly Weather Review	
+NACHRICHTEN AUS DER CHEMIE	Nachrichten aus der Chemie	Nachrichten aus der Chemie
+NATURE	Nature	
+NATURE GEOSCIENCE	Nature Geoscience	
+NEUROSCIENCE LETTERS	Neuroscience Letters	Neuroscience Letters
+NUOVO CIMENTO DELLA SOCIETA ITALIANA DI FISICA B-BASIC TOPICS IN PHYSICS	Nuovo Cimento B	Nuovo Cimento B
+OCEAN DYNAMICS	Ocean Dynamics	
+OPTICS EXPRESS	Optics Express	
+PHILOSOPHY OF SCIENCE	Philosophy of Science	
+PHOTOCHEMICAL & PHOTOBIOLOGICAL SCIENCES	Photochemical &amp; Photobiological Sciences	Photochemical &amp; Photobiological Sciences
+PHOTOCHEMISTRY AND PHOTOBIOLOGY	Photochemistry and Photobiology	
+PHYSICA SCRIPTA	Physica Scripta	
+PHYSICAL REVIEW E	Physical Review E	
+PHYSICAL REVIEW LETTERS	Physical Review Letters	
+PHYSICS OF FLUIDS	Physics of Fluids	
+PHYSICS OF PLASMAS	Physics of Plasmas	
+PLANT ECOLOGY & DIVERSITY	Plant Ecology &amp; Diversity	Plant Ecology &amp; Diversity
+POLAR RESEARCH	Polar Research	
+POPULATION RESEARCH AND POLICY REVIEW	Population Research and Policy Review	
+PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA	Proceedings of the National Academy of Sciences of the United States of America	
+PROGRESS IN OCEANOGRAPHY	Progress in Oceanography	
+QUARTERLY JOURNAL OF THE ROYAL METEOROLOGICAL SOCIETY	Quarterly Journal of the Royal Meteorological Society	
+RADIO SCIENCE	Radio Science	
+RESOURCE AND ENERGY ECONOMICS	Resource and Energy Economics	Resource and Energy Economics
+REVIEWS OF GEOPHYSICS	Reviews of Geophysics	
+SCIENCE	Science	
+SCIENCE CHINA-EARTH SCIENCES	Science China: Earth Sciences	Science China: Earth Sciences
+SIAM JOURNAL ON SCIENTIFIC COMPUTING	Siam Journal on Scientific Computing	
+SOLAR PHYSICS	Solar Physics	
+SPACE SCIENCE REVIEWS	Space Science Reviews	
+SPACE WEATHER-THE INTERNATIONAL JOURNAL OF RESEARCH AND APPLICATIONS	Space Weather-the International Journal of Research and Applications	
+TELLUS SERIES A-DYNAMIC METEOROLOGY AND OCEANOGRAPHY	Tellus Series A-dynamic Meteorology and Oceanography	
+TELLUS SERIES B-CHEMICAL AND PHYSICAL METEOROLOGY	Tellus Series B-chemical and Physical Meteorology	
+TERRESTRIAL ATMOSPHERIC AND OCEANIC SCIENCES	Terrestrial Atmospheric and Oceanic Sciences	
+THEORETICAL AND APPLIED CLIMATOLOGY	Theoretical and Applied Climatology	
+WATER RESOURCES RESEARCH	Water Resources Research	
+WEATHER AND FORECASTING	Weather and Forecasting	
+WILEY INTERDISCIPLINARY REVIEWS-CLIMATE CHANGE	Wiley Interdisciplinary Reviews: Climate Change	

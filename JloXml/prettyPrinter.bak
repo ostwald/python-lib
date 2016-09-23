@@ -1,0 +1,94 @@
+import os, sys
+from JloXml import XmlRecord, XmlUtils, RegExUtils
+import re
+
+default_path = '/Volumes/Scratch/tmp/pp-test.xsd'
+
+class PrettyPrinter:
+	
+	def __init__ (self, path=None, xml=None):
+		self.path = path or default_path
+		self.rec = self.getRec()
+		self.xml = self.rec.__repr__()
+		self.cleanLeaves()
+
+	def getRec (self):
+		return XmlRecord (path=self.path)
+
+	def getTagPat (self):
+		tagPatStr = r"<([A-Za-z-0-9_\-\:]+).*?>"
+		return re.compile (tagPatStr, re.DOTALL)
+
+	def isLeaf (self, match):
+		"""
+		does this element have any children?
+		"""
+		tagContent = match.group(1)
+		m = self.getTagPat().search(tagContent)
+		return m is None
+
+	def fixLeaf (self, tagSetMatch):
+		content = tagSetMatch.group(1)
+	#	print "fixLeaf: content='%s'" % content
+		return tagSetMatch.group(0).replace (content, content.strip())
+
+	def write (self, path):
+		fp = open(path, 'w')
+		fp.write ('<?xml version="1.0" encoding="UTF-8" ?>\n%s' % self.cleanLeaves());
+		fp.close()
+		print "wrote to %s" %  path
+
+	def cleanLeaves (self):
+		"""
+		use 
+		"""
+		tagPat = self.getTagPat()
+		i = 0 # index into the original xml
+		s = self.xml
+		reps = 0
+		buff = ""
+		while i <= len(self.xml):
+			m = tagPat.search (s,i)
+			if m is None:
+				buff += s[i:]
+				i = len(s)
+			#	print 'pattern not found'
+				break
+
+			else:
+				j = m.start()
+				buff += s[i:j]
+
+				# print 'pattern found (%d): "%s"' % (j, m.group(1))
+##				print 'pattern found (%d): "%s"' % (j, m.group(1))				
+				tag = m.group(1)
+				tagSet = RegExUtils.getTagPattern (tag).match(s, j)
+				if tagSet:
+					# print tagSet.group(1)  # this is the content of this tagSet
+					if self.isLeaf (tagSet):
+					#	print "%s is a leaf" % tag
+						fixedLeaf = self.fixLeaf  (tagSet)
+						# print 'fixed leaf: "%s"' % fixedLeaf
+##						buff += s[j:tagSet.end()] # REALLY we would process this ...
+						buff += fixedLeaf # REALLY we would process this ...
+						i=tagSet.end()
+
+					else:
+##						print "%s is NOT a leaf" % tag
+						buff += s[j]
+						i = j + 1
+					
+##				print 'set i to %d' % i
+
+			reps += 1
+			if reps > 50000:
+				break
+		# print "\nBUFFER\n%s" % buff
+		return buff
+		
+		
+
+if __name__ == '__main__':
+	pp = PrettyPrinter('/Volumes/Scratch/tmp/pubs-state-countries.xsd')
+	pp.write ('/Volumes/Scratch/tmp/pubs-state-countries-PP.xsd')
+	

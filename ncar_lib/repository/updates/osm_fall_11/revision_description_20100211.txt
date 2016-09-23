@@ -1,0 +1,64 @@
+Jonathan
+
+It looks like my typos caused issued. So if you can make these changes.
+
+
+TAKE 2
+----------
+take
+<relation type="Has image" title="f" description="this is great"></relation>
+
+go to
+
+<description>f:this is great</description>
+
+put this description under /record/general/
+
+then relation goes away completely
+
+
+TASK 5
+-------
+different vocab terms are acted upon
+the UCAR Ownership one does not work
+this
+<copyrightNotice holder="Author" type="UCAR ownership">1966 Copyright Warren Washington</copyrightNotice>
+should go to
+<copyrightNotice holder="Author">1966 Copyright Warren Washington</copyrightNotice>
+
+TASK 6.b
+------------
+please change /record/rights/copyrighNotice/@URL to be /record/rights/copyrightNotice/@url
+
+in the notice part please change 'NCAR'  to be 'UCAR' that is use
+
+Copyright. All rights reserved. University Corporation for Atmospheric Research (UCAR). The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the UCAR Library Terms of Use.
+
+
+TASK 7
+-----------
+
+# this is same as #6, right? (for "Interactive resource")
+
+appears not to be happening at all
+so when title type =Interactive resource
+ <title type="Interactive resource">Report, Status evalution of numerical weather prediction in Communist China</title>
+
+then make the content of /record/rights/copyrightNotice/ be Copyright. All rights reserved. University Corporation for Atmospheric Research (UCAR). The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the UCAR Library Terms of Use.
+
+then make the content of /record/rights/copyrightNotice/@url be http://www.ucar.edu/legal/terms_of_use.shtml
+
+TASK 9
+---------
+make sure task 9 is back in place when the status is not represent in date, do put in a date with a status but leave the actual date empty
+
+
+TASK 11
+-------
+fix notice to say UCAR not NCAR
+
+
+If you can adjust and re-run and I will look at monday
+
+Katy
+

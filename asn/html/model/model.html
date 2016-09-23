@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<HTML>
+<HEAD>
+	<META content="HyperText package (Python)" name="generator">
+	<!-- <LINK href="styles.css" type="text/css" rel="stylesheet"> -->
+	<TITLE>TRY</TITLE>
+		<SCRIPT src="../javascript/prototype.js" type="text/javascript"></SCRIPT>
+		<SCRIPT src="javascript.js" type="text/javascript"></SCRIPT>
+	<style>
+.box {
+	border:thin black solid;
+	/* position:absolute; */
+	/* width:100% */
+	}
+	
+.base-level {
+	/* top:150; */
+	}
+	
+.level-0 {
+	border-color:blue;
+	margin-left:25px;
+	}
+	
+.std {
+	/* position:absolute; */
+}
+	
+.std-content {
+ 	position:relative;
+	top:-12;
+	left:20px;
+	margin-right:20px;
+	border:thin green dotted;
+}
+
+.widget {
+	position:relative;
+	top:5;
+	left:-5px;
+}
+	</style>
+	
+</HEAD>
+<BODY onload="formatStandards()">
+<H1>TRY</H1>
+
+<DIV class="box base-level">
+	<DIV class="std-file"><B>Source File: </B>1995-Colorado-Science.xml</DIV>
+	<DIV class="box level-0">
+		<DIV class="std">
+			<div class="widget">
+				<A href="javascript:toggleVisibility ('D100003B');"><IMG
+				src="images/opened.gif" onmouseout="border='0'" height="11" width="11" onmouseover="border='1'" border="0" id="D100003B_img"></A>
+			</div>
+			<div class="std-content">Colorado Model Content Standards for Science
+			[<SPAN class="std-id">D100003B</SPAN>]
+			</div> 
+		</DIV>
+	</DIV>
+</DIV>
+
+<input type="button" value="do it"
+	onclick="formatStandard('D100003B_img');" />
+
+</BODY></HTML>

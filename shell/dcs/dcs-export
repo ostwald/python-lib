@@ -1,0 +1,55 @@
+#!/usr/bin/env python
+
+"""
+    Performs an EXPORT operation on specified DCS instance and collection.
+	Uses DCS ExportCollection Web Service
+	Exports to the exportDir configured for the specified collection
+	Exports records having "Final" status
+	
+    arg 1 - DCS instance name
+	arg 2 - collection id to export
+
+	example call:
+	dcs-export roles serceet
+
+	outputs a message describing whether the export service was initiated.
+	if successfully initiated, the message contains a link to the export report.
+"""
+
+import sys, os, site
+import string
+
+if (sys.platform == 'win32'):
+	sys.path.append ("H:/python-lib")
+else:
+	sys.path.append ("/home/ostwald/python-lib")
+
+
+from urlparse import urlsplit, urljoin
+from dcsTools import ExportCollectionClient
+
+if __name__ == "__main__":
+	usage = """
+dcs-export usage:
+   1 - command (\'dcs-export\')
+   2 - dcs instanceName (e.g., 'news')
+   3 - collection to export (e.g., 'news')
+"""
+	# showArgs()
+	if len (sys.argv) != 3:
+		print usage
+		sys.exit()
+
+	baseUrl = "http://dcs.dlese.org/%s/services/dcsws1-0" % sys.argv[1]
+	## baseUrl = "http://128.117.126.8:8688/%s/services/dcsws1-0" % sys.argv[1]
+	collection = sys.argv[2]
+
+	params = {'verb':'ExportCollection','collection': collection}
+	client = ExportCollectionClient (baseUrl)
+	client.doExport (params)
+
+					   
+
+		
+
+	

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument xmlns="http://schemas.microsoft.com/visio/2003/core">
+    <PrintSetup>
+        <PaperWidth>8.5</PaperWidth>
+        <PaperHeight>11</PaperHeight>
+        <PrintLandscape>0</PrintLandscape>
+        <PageLeftMargin>0.25</PageLeftMargin>
+        <PageRightMargin>0.25</PageRightMargin>
+        <PageTopMargin>0.25</PageTopMargin>
+        <PageBottomMargin>0.25</PageBottomMargin>
+        <PrintCenteredH>1</PrintCenteredH>
+        <PrintCenteredV>1</PrintCenteredV>
+    </PrintSetup>
+    <Pages>
+        <Page ID="0" NameU="Canvas 1">
+            <PageSheet>
+                <PageProps>
+                    <PageScale>1</PageScale>
+                    <DrawingScale>1</DrawingScale>
+                    <PageWidth>8.5</PageWidth>
+                    <PageHeight>11</PageHeight>
+                </PageProps>
+            </PageSheet>
+            <Shapes>
+            </Shapes>
+        </Page>
+    </Pages>
+</VisioDocument>
+

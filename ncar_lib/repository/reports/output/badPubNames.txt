@@ -1,0 +1,207 @@
+OSGC-000-000-000-337		Holding		false
+OSGC-000-000-001-301		Holding	Nowak record	false
+OSGC-000-000-001-129		Holding		false
+OSGC-000-000-001-201		Holding		false
+OSGC-000-000-001-295		Holding	Nowak Record	false
+OSGC-000-000-001-121		Holding		false
+OSGC-000-000-001-176		Holding		false
+OSGC-000-000-000-552		Deaccessioned	dup of OSGC-000-000-000-158	false
+OSGC-000-000-001-190		Holding		false
+OSGC-000-000-001-200		Holding		false
+OSGC-000-000-001-128		Holding		false
+OSGC-000-000-000-334		Holding		false
+OSGC-000-000-000-232		Holding		true
+OSGC-000-000-001-337		Holding	Nowak record	false
+OSGC-000-000-001-175		Holding		false
+OSGC-000-000-000-338		Holding		false
+OSGC-000-000-000-336		Holding		false
+OSGC-000-000-001-311		Holding		false
+OSGC-000-000-000-197		Holding		true
+OSGC-000-000-001-198		Holding		false
+OSGC-000-000-001-186		Holding		false
+OSGC-000-000-001-288		Holding		false
+OSGC-000-000-000-258	13th Conference on Cloud Physics	Deaccessioned	dup of OSGC-000-000-000-257	false
+OSGC-000-000-000-233		Holding		false
+OSGC-000-000-001-246		Final	Needs pubName > 34th American Meteorological Society Conference on Radar Meteorology	true
+OSGC-000-000-001-195		Holding		false
+OSGC-000-000-001-124		Holding		false
+OSGC-000-000-000-857		Deaccessioned	This is a dup of a technical note.	true
+OSGC-000-000-000-454		Holding		false
+OSGC-000-000-001-143		Holding		false
+OSGC-000-000-001-306		Holding	Nowak record	false
+OSGC-000-000-001-179		Holding		false
+OSGC-000-000-001-340		Holding	Nowak record	false
+OSGC-000-000-001-313		Holding	Needs rights	true
+OSGC-000-000-001-192		Holding		false
+OSGC-000-000-000-339		Holding		false
+OSGC-000-000-001-125		Deaccessioned	dupe of OSGC-000-000-000-196	false
+OSGC-000-000-000-752		Deaccessioned	oops, dup of OSGC-000-000-000-149 (and TN848) I meant to say	false
+OSGC-000-000-001-338		Holding	Nowak record	false
+OSGC-000-000-001-351		Holding		false
+OSGC-000-000-001-115		Holding		false
+OSGC-000-000-001-346		Holding	Nowak Record	false
+OSGC-000-000-001-131		Holding		false
+OSGC-000-000-000-236		Holding		true
+OSGC-000-000-000-342		Holding		false
+OSGC-000-000-001-317		Holding	Nowak Record	false
+OSGC-000-000-001-379		Holding	Nowak record	false
+OSGC-000-000-000-335		Holding	Needs Rights	true
+OSGC-000-000-001-312		Deaccessioned	Dup of OSGC-000-000-001-317	false
+OSGC-000-000-001-152		Deaccessioned	dup of OSGC-000-000-001-125	false
+OSGC-000-000-000-248		Holding		true
+OSGC-000-000-001-188		Holding		false
+OSGC-000-000-001-169		Holding		false
+OSGC-000-000-001-184		Holding		false
+OSGC-000-000-001-054	Weather, Climate and Society	Deaccessioned	Duplicate of OSGC-000-000-000-879	false
+OSGC-000-000-001-234		Holding	Nowak record	false
+OSGC-000-000-001-305		Holding	Nowak record	false
+OSGC-000-000-001-117		Holding		false
+OSGC-000-000-001-335		Deaccessioned	Dup of OSGC-000-000-001-141	false
+OSGC-000-000-001-286		Holding		false
+OSGC-000-000-000-963		Final		true
+OSGC-000-000-000-343		Holding		false
+OSGC-000-000-000-238		Holding		false
+OSGC-000-000-000-748		Final Review		false
+OSGC-000-000-000-556	Quaternary Science Review	Deaccessioned	dup of OSGC-000-000-000-156	false
+OSGC-000-000-001-187		Holding		false
+OSGC-000-000-001-172		Holding		false
+OSGC-000-000-001-310		Holding		false
+OSGC-000-000-000-563	Atmosphere	Holding	needs pubName	false
+OSGC-000-000-001-325		Holding		false
+OSGC-000-000-001-358		Holding		false
+OSGC-000-000-001-383		Deaccessioned	Dup of OSGC-000-000-001-298	false
+OSGC-000-000-001-318		Holding	Nowak Record	false
+OSGC-000-000-001-289		Holding		false
+OSGC-000-000-001-104		Holding		false
+OSGC-000-000-001-113		Holding		false
+OSGC-000-000-001-237		Holding	Nowak record	false
+OSGC-000-000-001-220		Holding	Nowak Record	false
+OSGC-000-000-000-438	Journal of Meteorology and Climatology	Deaccessioned	This journal does not exist - I believe this is the same as OSGC-000-000-000-999	false
+OSGC-000-000-000-420	Weather and Forecsting	Deaccessioned	This record appears to be a duplicate of OSGC-000-000-000-123	false
+OSGC-000-000-000-243		Holding		false
+OSGC-000-000-001-199		Holding		false
+OSGC-000-000-001-316		Deaccessioned	Dup of OSGC-000-000-001-313	true
+OSGC-000-000-001-297		Holding	Nowak record	false
+OSGC-000-000-001-238		Holding	Nowak record	false
+OSGC-000-000-001-189		Holding		false
+OSGC-000-000-000-245		Holding		false
+OSGC-000-000-000-770	Environmental Science & Technology	Final		true
+OSGC-000-000-000-319		Final		true
+OSGC-000-000-001-166		Deaccessioned	dup of OSGC-000-000-001-123	false
+OSGC-000-000-001-294		Holding	Nowak Record	false
+OSGC-000-000-000-239		Holding		true
+OSGC-000-000-000-524		Holding		false
+OSGC-000-000-001-279		Holding		false
+OSGC-000-000-001-033	Journal of Soft Computing	Deaccessioned	This article was submitted for publication but ultimately rejected.	false
+OSGC-000-000-001-352		Holding		false
+OSGC-000-000-000-670		Final		true
+OSGC-000-000-001-112		Holding		false
+OSGC-000-000-000-231		Holding		false
+OSGC-000-000-001-191		Holding		false
+OSGC-000-000-001-225		Holding		false
+OSGC-000-000-001-202		Holding		false
+OSGC-000-000-001-384		Holding	Nowak record	false
+OSGC-000-000-000-717		Final		true
+OSGC-000-000-000-244		Holding		false
+OSGC-000-000-000-330		Holding		false
+OSGC-000-000-000-634		Deaccessioned	dup of OSGC-000-000-000-447	false
+OSGC-000-000-000-247		Holding		true
+OSGC-000-000-001-127		Holding		false
+OSGC-000-000-000-246		Holding		true
+OSGC-000-000-000-813	Collaborative Research: IPY – Arctic System Reanalysis Annual Report	Deaccessioned	The author indicated that this was simply a project report, and should not be included in OpenSky.	false
+OSGC-000-000-001-116		Holding		false
+OSGC-000-000-001-382		Holding	Nowak record	false
+OSGC-000-000-001-232		Holding	Nowak Record	false
+OSGC-000-000-000-332		Holding		false
+OSGC-000-000-000-235		Holding		false
+OSGC-000-000-001-299		Holding	Nowak record	false
+OSGC-000-000-000-871	Weather, Climate and Society	Deaccessioned	Duplicate of OSGC-000-000-000-565	false
+OSGC-000-000-001-170		Holding		false
+OSGC-000-000-000-329		Holding		false
+OSGC-000-000-001-126		Holding		false
+OSGC-000-000-000-417	Computing in Science & Engineering	Final		true
+OSGC-000-000-001-362		Holding		false
+OSGC-000-000-001-300		Holding	Nowak record	false
+OSGC-000-000-001-194		Holding		false
+OSGC-000-000-001-381		Holding	Nowak record	false
+OSGC-000-000-000-230		Holding		true
+OSGC-000-000-001-229		Holding	Nowak record	false
+OSGC-000-000-001-315		Holding	Nowak Record	false
+OSGC-000-000-001-197		Holding		false
+OSGC-000-000-000-333		Holding		false
+OSGC-000-000-001-284		Holding		false
+OSGC-000-000-000-856		Deaccessioned	This is an NCAR Technical Note.	false
+OSGC-000-000-001-292		Holding		false
+OSGC-000-000-001-283		Holding		false
+OSGC-000-000-001-304		Holding	Nowak record	false
+OSGC-000-000-001-122		Holding		false
+OSGC-000-000-000-816	Central Weather Bureau Annual Report	Deaccessioned	The author indicated that this was simply a project report, and should not be included in OpenSky.	false
+OSGC-000-000-001-193		Holding		false
+OSGC-000-000-000-662		Deaccessioned	Mysterious record...assumed to be submitted in error.	false
+OSGC-000-000-001-071		Holding		false
+OSGC-000-000-001-078		Final		true
+OSGC-000-000-001-182		Holding		false
+OSGC-000-000-000-969		Final		true
+OSGC-000-000-001-361		Holding		false
+OSGC-000-000-000-665		Final		true
+OSGC-000-000-000-341		Holding		false
+OSGC-000-000-001-339		Holding	Nowak record	false
+OSGC-000-000-001-298		Holding	Nowak record	true
+OSGC-000-000-001-119		Holding		false
+OSGC-000-000-001-209		Holding	Nowak Record	false
+OSGC-000-000-000-904	Environmental Science & Technology	Deaccessioned	dup of OSGC-000-000-000-141	false
+OSGC-000-000-001-168		Holding		false
+OSGC-000-000-000-237		Holding		true
+OSGC-000-000-001-378		Deaccessioned	dup of OSGC-000-000-001-131	false
+OSGC-000-000-001-302		Holding	Nowak record	false
+OSGC-000-000-000-249		Holding		false
+OSGC-000-000-000-954		Final	Requires instName Author 8.	true
+OSGC-000-000-001-154		Holding		false
+OSGC-000-000-001-218		Holding	Nowak Record	false
+OSGC-000-000-001-216		Holding	Nowak Record	false
+OSGC-000-000-000-668		Final		true
+OSGC-000-000-001-213		Holding	Nowak Record	false
+OSGC-000-000-001-211		Holding	Nowak Record	false
+OSGC-000-000-001-350		Holding		false
+OSGC-000-000-001-130		Deaccessioned	dup of OSGC-000-000-001-131	false
+OSGC-000-000-000-340		Holding		false
+OSGC-000-000-001-114		Holding		false
+OSGC-000-000-001-231		Holding	Nowak record	false
+OSGC-000-000-000-234		Holding		false
+OSGC-000-000-000-198		Holding		true
+OSGC-000-000-001-330		Holding	Nowak Record	false
+OSGC-000-000-001-303		Holding	Nowak record	false
+OSGC-000-000-001-380		Deaccessioned	dup of OSGC-000-000-001-289	false
+OSGC-000-000-001-217		Holding	Nowak Record	false
+OSGC-000-000-001-347		Holding		false
+OSGC-000-000-001-336		Holding	Nowak record	false
+OSGC-000-000-000-149		Deaccessioned	dup of OSGC-000-000-000-752 and TECH-NOTE-000-000-000-848	true
+OSGC-000-000-001-222		Holding	Nowak Record	false
+OSGC-000-000-000-648		Final		true
+OSGC-000-000-001-341		Holding	Nowak record	false
+OSGC-000-000-001-230		Holding	Nowak record	false
+OSGC-000-000-001-285		Holding		false
+OSGC-000-000-000-958		Final		true
+OSGC-000-000-001-196		Holding		false
+OSGC-000-000-001-120		Holding		false
+OSGC-000-000-001-123		Holding		false
+OSGC-000-000-001-343		Holding	Nowak record	false
+OSGC-000-000-001-319		Holding	Nowak Record	false
+OSGC-000-000-000-331		Holding		false
+OSGC-000-000-001-282		Holding		false
+OSGC-000-000-000-344		Holding		false
+OSGC-000-000-001-364		Holding		false
+OSGC-000-000-001-181		Deaccessioned	dup of OSGC-000-000-001-175	false
+OSGC-000-000-001-291		Holding		false
+OSGC-000-000-000-624		Deaccessioned	This entry cites the entire proceedings rather than an article within them. The submitter has entered records for nearly all of the other articles within this proceeding, so I suspect that this entry - of the full lot - was a mistake.	true
+OSGC-000-000-001-290		Holding		false
+OSGC-000-000-001-041	Weather, Climate and Society	Deaccessioned	Duplicate of OSGC-000-000-000-565	false
+OSGC-000-000-001-334		Holding	Nowak record	false
+OSGC-000-000-001-374		Holding		false
+OSGC-000-000-000-141	Environmental Science & Technology	Final		true
+OSGC-000-000-001-155		Holding		false
+OSGC-000-000-000-971		Final		true
+OSGC-000-000-000-406	Computational Statistics & Data Analysis	Final		true
+OSGC-000-000-001-037	Environmental & Energy Law and Policy Journal	Final		true
+OSGC-000-000-001-002	WMO International Monsoon Working Group	Final		false
+OSGC-000-000-000-044	Computers & Fluids	Final	version replaced	true

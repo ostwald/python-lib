@@ -1,0 +1,891 @@
+May 4, 2009 5:48:21 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+May 4, 2009 5:48:21 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10110
+May 4, 2009 5:48:22 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10113
+May 4, 2009 5:48:22 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3516 ms
+May 4, 2009 5:48:23 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+May 4, 2009 5:48:23 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+May 4, 2009 5:48:23 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+May 4, 2009 5:48:24 PM org.apache.catalina.session.StandardManager doLoad
+SEVERE: IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 5:48:24 PM org.apache.catalina.session.StandardManager start
+SEVERE: Exception loading sessions from persistent storage
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+sessionRegistry set as context attribute
+RecordValidationFilter initialized, debug is true
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+
+May 4, 2009 5:48:25 PM MDT SetupServlet starting
+ SetupServlet: collectionRecordsLocation: /global/nfs/dlese_data/dcs/records/dlese_collect
+
+ SetupServlet: defaultsPath: /global/nfs/tomcat-dlese-dcs/webapps/schemedit/WEB-INF/dcs-config
+ SetupServlet: dcsConfig: /global/nfs/tomcat-dlese-dcs/var/dcs_conf
+ SetupServlet: collectionConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+ SetupServlet: frameworkConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+ SetupServlet: logo: DLESE_logo_sm.gif
+
+ SetupServlet: standardsSuggestionServiceSetup() ...
+May 4, 2009 5:48:25 PM MDT SetupServlet completed.
+
+May 4, 2009 5:48:25 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+May 4, 2009 5:48:25 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Error loading vocabulary:
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:157)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:388)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:523)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:231)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:304)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:321)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:828)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:780)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:705)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:949)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.load(LoadMetadataOPML.java:138)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.getMetadataVocabInstance(LoadMetadataOPML.java:96)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.loadVocabs(MetadataVocabServlet.java:100)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.instantiateVocab(MetadataVocabServlet.java:87)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.init(MetadataVocabServlet.java:57)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:115)
+	at org.dlese.dpc.vocab.NewVocabsChecker.<init>(NewVocabsChecker.java:70)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.loadVocabs(MetadataVocabServlet.java:104)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.instantiateVocab(MetadataVocabServlet.java:87)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.init(MetadataVocabServlet.java:57)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+May 4, 2009 5:48:25 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+May 4, 2009 5:48:25 PM MDT Outputting debug info
+May 4, 2009 5:48:26 PM MDT Using collection-level metadata files located at /global/nfs/dlese_data/dcs/records/dlese_collect/collect
+May 4, 2009 5:48:26 PM MDT Using metadata files located at /global/nfs/dlese_data/dcs/records
+May 4, 2009 5:48:26 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+May 4, 2009 5:48:26 PM MDT Starting up RepositoryManager
+May 4, 2009 5:48:26 PM MDT RepositoryManager: loading props file: RepositoryManager.properties
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Search fields initialized successfully (XMLIndexerFieldsConfig)
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Adding field/analyzer from XMLIndexerFieldsConfig: dcIdentifier=org.apache.lucene.analysis.KeywordAnalyzer
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Adding field/analyzer from XMLIndexerFieldsConfig: dcPublisher=org.apache.lucene.analysis.standard.StandardAnalyzer
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Adding field/analyzer from XMLIndexerFieldsConfig: dcType=org.apache.lucene.analysis.standard.StandardAnalyzer
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Adding field/analyzer from XMLIndexerFieldsConfig: libDcCreatorContributor=org.apache.lucene.analysis.standard.StandardAnalyzer
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Adding field/analyzer from XMLIndexerFieldsConfig: libDcIssue=org.apache.lucene.analysis.KeywordAnalyzer
+May 4, 2009 5:48:29 PM MDT RepositoryManager: Adding field/analyzer from XMLIndexerFieldsConfig: libDcRights=org.apache.lucene.analysis.standard.StandardAnalyzer
+May 4, 2009 5:48:29 PM MDT RepositoryManager: perFieldAnalyzer configured as: {libDcIssue=org.apache.lucene.analysis.KeywordAnalyzer@d75415, xmlFormat=org.apache.lucene.analysis.KeywordAnalyzer@d75415, stems=org.dlese.dpc.index.analysis.SnowballAnalyzer@d16fc1, idvalue=org.apache.lucene.analysis.KeywordAnalyzer@d75415, dcPublisher=org.apache.lucene.analysis.standard.StandardAnalyzer@1eb0, itemContent=org.dlese.dpc.index.analysis.SnowballAnalyzer@d16fc1, dcslastEditor=org.dlese.dpc.index.analysis.KeywordAnalyzer@1dee400, dcsstatus=org.dlese.dpc.index.analysis.KeywordAnalyzer@1dee400, titlestems=org.dlese.dpc.index.analysis.SnowballAnalyzer@d16fc1, dcIdentifier=org.apache.lucene.analysis.KeywordAnalyzer@d75415, docdir_remove=org.apache.lucene.analysis.KeywordAnalyzer@d75415, descriptionstems=org.dlese.dpc.index.analysis.SnowballAnalyzer@d16fc1, docdir=org.apache.lucene.analysis.KeywordAnalyzer@d75415, url=org.apache.lucene.analysis.KeywordAnalyzer@d75415, libDcCreatorContributor=org.apache.lucene.analysis.standard.StandardAnalyzer@1eb0, libDcRights=org.apache.lucene.analysis.standard.StandardAnalyzer@1eb0, emailPrimary=org.dlese.dpc.index.analysis.LowerCaseWhitespaceAnalyzer@4ac216, emailAlt=org.dlese.dpc.index.analysis.LowerCaseWhitespaceAnalyzer@4ac216, dcType=org.apache.lucene.analysis.standard.StandardAnalyzer@1eb0, emailOrganization=org.dlese.dpc.index.analysis.LowerCaseWhitespaceAnalyzer@4ac216}
+May 4, 2009 5:48:29 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 19458 entries.
+May 4, 2009 5:48:33 PM MDT RepositoryManager: OAI sets mappings set to:
+  setSpec:coseeother is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/coseeother) '
+setSpec:mynasadata is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/mynasadata) '
+setSpec:usgs is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/usgs) '
+setSpec:ien is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/ien) '
+setSpec:emvc is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/emvc) '
+setSpec:bridgenoaaother is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/bridgenoaaother) '
+setSpec:thredds is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/thredds) '
+setSpec:cosee is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/cosee) '
+setSpec:1218536204261 is mapped to ' +xmlFormat:news_opps +(docdir:/global/nfs/dlese_data/dcs/records/news_opps/1218536204261) '
+setSpec:bridge is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/bridge) '
+setSpec:nys is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/nys) '
+setSpec:tboxres is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/tboxres) '
+setSpec:1228344360839 is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/1228344360839) '
+setSpec:serceet is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/serceet) '
+setSpec:esa is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/esa) '
+setSpec:crs is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/crs) '
+setSpec:mynasastds is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/mynasastds) '
+setSpec:globe is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/globe) '
+setSpec:dlisrother is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/dlisrother) '
+setSpec:1223155222298 is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/1223155222298) '
+setSpec:tbox is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/tbox) '
+setSpec:dataclass is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/dataclass) '
+setSpec:1218536203210 is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/1218536203210) '
+setSpec:dcc is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/dcc) '
+setSpec:svs is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/svs) '
+setSpec:bridgenoaa is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/bridgenoaa) '
+setSpec:1223155222462 is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/1223155222462) '
+setSpec:avc is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/avc) '
+setSpec:evaltlkt is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/evaltlkt) '
+setSpec:nyic is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/nyic) '
+setSpec:ceis is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/ceis) '
+setSpec:simpleother is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/simpleother) '
+setSpec:ccc is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/ccc) '
+setSpec:nap is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/nap) '
+setSpec:nocc is mapped to ' +xmlFormat:news_opps +(docdir:/global/nfs/dlese_data/dcs/records/news_opps/nocc) '
+setSpec:1189030393181 is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/1189030393181) '
+setSpec:adl is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/adl) '
+setSpec:dlisr is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/dlisr) '
+setSpec:sercstrtpt is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/sercstrtpt) '
+setSpec:eserev is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/eserev) '
+setSpec:dwel is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/dwel) '
+setSpec:swi is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/swi) '
+setSpec:visionlearn is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/visionlearn) '
+setSpec:ienother is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/ienother) '
+setSpec:evc is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/evc) '
+setSpec:edmall is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/edmall) '
+setSpec:tips is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/tips) '
+setSpec:comet is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/comet) '
+setSpec:simple is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/simple) '
+setSpec:curl is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/curl) '
+setSpec:eee is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/eee) '
+setSpec:bridgeother is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/bridgeother) '
+setSpec:sercnagt is mapped to ' +xmlFormat:adn +(docdir:/global/nfs/dlese_data/dcs/records/adn/sercnagt) '
+setSpec:matters is mapped to ' +xmlFormat:news_opps +(docdir:/global/nfs/dlese_data/dcs/records/news_opps/matters) '
+setSpec:pck is mapped to ' +xmlFormat:dlese_anno +(docdir:/global/nfs/dlese_data/dcs/records/dlese_anno/pck) '
+
+May 4, 2009 5:48:33 PM MDT rm.init() successful...
+May 4, 2009 5:48:33 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+May 4, 2009 5:48:33 PM org.apache.catalina.core.ApplicationContext log
+SEVERE: StandardWrapper.Throwable
+java.lang.NullPointerException
+	at org.dlese.dpc.dds.DDSServlet.setCollectionsVocabDisplay(DDSServlet.java:630)
+	at org.dlese.dpc.dds.DDSServlet.init(DDSServlet.java:381)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+May 4, 2009 5:48:33 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /schemedit threw load() exception
+java.lang.NullPointerException
+	at org.dlese.dpc.dds.DDSServlet.setCollectionsVocabDisplay(DDSServlet.java:630)
+	at org.dlese.dpc.dds.DDSServlet.init(DDSServlet.java:381)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+May 4, 2009 5:48:33 PM MDT OAIProviderServlet starting
+May 4, 2009 5:48:33 PM MDT OAIProviderServlet: Outputting debug info
+May 4, 2009 5:48:33 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+May 4, 2009 5:48:33 PM MDT OAIProviderServlet initialized.
+
+May 4, 2009 5:48:33 PM MDT SchemEditServlet starting
+instanceName: DCS
+
+ ********* Servlet initialization error: ERROR: 'MetadataVocab' not found in servleContext
+javax.servlet.ServletException: ERROR: 'MetadataVocab' not found in servleContext
+	at org.dlese.dpc.schemedit.SchemEditServlet.init(SchemEditServlet.java:96)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+May 4, 2009 5:48:33 PM MDT NDRServlet starting
+May 4, 2009 5:48:33 PM MDT NDRServlet: NDRServlet not enabled: ndrServiceEnabled was not configured as "true"
+May 4, 2009 5:48:35 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validator-rules.xml'
+May 4, 2009 5:48:35 PM org.apache.struts.validator.ValidatorPlugIn initResources
+INFO: Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: configuring AccessManager from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/auth/access.xml
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/dcs_data/dcs_data"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logoff"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logon"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/oai2-0"
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+May 4, 2009 5:48:35 PM MDT SchemaViewerServlet starting
+May 4, 2009 5:48:35 PM org.apache.catalina.core.StandardContext loadOnStartup
+SEVERE: Servlet /schemedit threw load() exception
+javax.servlet.ServletException: MetadataVocab not found in servlet context
+	at org.dlese.dpc.xml.schema.SchemaViewerServlet.init(SchemaViewerServlet.java:66)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+May 4, 2009 5:48:36 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10110
+May 4, 2009 5:48:36 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10113
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10119 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10120 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10121 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10122 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10123 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10124 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10125 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10126 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10127 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10128 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 10129 java.net.BindException: Cannot assign requested address
+May 4, 2009 5:48:37 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 10119 10129
+May 4, 2009 5:48:37 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/55  config=null
+May 4, 2009 5:48:37 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+May 4, 2009 5:48:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 14511 ms
+Reloading vocab instance 'MetadataVocab'
+May 4, 2009 5:49:25 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+May 4, 2009 5:49:31 PM MDT about to notifyListeners via MetadataVocabOPML
+May 4, 2009 5:49:31 PM MDT notifyListeners()
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:115)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:85)
+Reloading vocab instance 'MetadataVocab'
+May 4, 2009 6:02:32 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Error loading vocabulary:
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:157)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:388)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:523)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:231)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:304)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:321)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:828)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:780)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:705)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:949)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:973)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1168)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.load(LoadMetadataOPML.java:138)
+	at org.dlese.dpc.vocab.LoadMetadataOPML.getMetadataVocabInstance(LoadMetadataOPML.java:96)
+	at org.dlese.dpc.vocab.MetadataVocabServlet.loadVocabs(MetadataVocabServlet.java:100)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:89)
+May 4, 2009 6:02:32 PM MDT about to notifyListeners via MetadataVocabOPML
+May 4, 2009 6:02:32 PM MDT notifyListeners()
+
+May 4, 2009 6:06:36 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+
+May 4, 2009 6:06:46 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+
+May 4, 2009 6:06:51 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+
+May 4, 2009 6:06:57 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+
+May 4, 2009 6:07:01 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+
+May 4, 2009 6:07:07 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+
+May 4, 2009 6:07:11 PM MDT AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+May 4, 2009 6:07:13 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10110
+May 4, 2009 6:07:13 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10113
+May 4, 2009 6:07:13 PM org.apache.catalina.connector.Connector pause
+SEVERE: Protocol handler pause failed
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:209)
+	at org.apache.jk.common.ChannelSocket.unLockSocket(ChannelSocket.java:492)
+	at org.apache.jk.common.ChannelSocket.pause(ChannelSocket.java:289)
+	at org.apache.jk.server.JkMain.pause(JkMain.java:681)
+	at org.apache.jk.server.JkCoyoteHandler.pause(JkCoyoteHandler.java:163)
+	at org.apache.catalina.connector.Connector.pause(Connector.java:1032)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:489)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.SchemEditServlet.destroy(SchemEditServlet.java:444)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1360)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1688)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4350)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM MDT SchemEditServlet stopped
+May 4, 2009 6:07:14 PM MDT NDRServlet: destroy() ...
+May 4, 2009 6:07:14 PM MDT NDRServlet stopped
+ SetupServlet: destroy() ...
+May 4, 2009 6:07:14 PM MDT SetupServlet stopped
+Done shutting down new vocabs checker.
+May 4, 2009 6:07:14 PM MDT MetadataVocabServlet stopped.
+May 4, 2009 6:07:14 PM MDT RepositoryManager: RepositoryManager destroy()
+May 4, 2009 6:07:14 PM MDT OAIProviderServlet stopped
+contextDestroyed()
+SessionBean: destroying sessionBean for 0A4F166FA5AB0C676C7026CE957F55FB
+May 4, 2009 6:07:14 PM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.dlese.dpc.schemedit.SessionRegistry
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(HashMap.java:841)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:877)
+	at org.dlese.dpc.schemedit.SessionRegistry.contextDestroyed(SessionRegistry.java:62)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:3805)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4357)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session 0A4F166FA5AB0C676C7026CE957F55FB
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session 751593EB460E37680733DB1CBF11B6DB
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session 00D72F75EED269D7520AB13C4E86F9FF
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session B36D4EEB519EDC8549CC7B3719A1E436
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session 07DA737950E963F8B782D0B522C620EB
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session 79C2546B23A735A1A91555D27A25B8A4
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:14 PM org.apache.catalina.session.StandardSession writeObject
+WARNING: Cannot serialize session attribute sessionBean for session F9F4487A448C80C8A485B835E223DB2A
+java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+May 4, 2009 6:07:16 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10110
+May 4, 2009 6:07:16 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10113
+May 4, 2009 6:07:16 PM org.apache.jk.common.ChannelSocket destroy
+INFO: Error shutting down the channel 10119 java.lang.NullPointerException
+May 4, 2009 6:07:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime
+java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:520)
+	at java.net.Socket.connect(Socket.java:470)
+	at java.net.Socket.<init>(Socket.java:367)
+	at java.net.Socket.<init>(Socket.java:180)
+	at org.dlese.dpc.vocab.NewVocabsChecker.getLastUpdate(NewVocabsChecker.java:115)
+	at org.dlese.dpc.vocab.NewVocabsChecker.run(NewVocabsChecker.java:85)

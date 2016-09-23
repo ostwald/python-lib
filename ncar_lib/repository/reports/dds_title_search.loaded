@@ -1,0 +1,171 @@
+import os, sys
+from ncar_lib.repository import RepositorySearcher, SearchResult
+from ncar_lib.osm import OsmRecord
+from JloXml import XmlRecord, XmlUtils
+from UserList import UserList
+
+	
+default_baseUrl = "http://nldr.library.ucar.edu/schemedit/services/ddsws1-1"
+
+class UniqueTitleGetter (RepositorySearcher):
+
+	"""
+	optimize RepositorySearcher to collect only RecordIds from search results
+	"""
+	
+	numToFetch = 200
+	batchSize = 200
+	
+	title_path = 'DDSWebService:Search:results:record:metadata:record:general:title'
+	
+	def __init__ (self, collection=None, xmlFormat=None, baseUrl=default_baseUrl):
+		unique_titles = []
+		RepositorySearcher.__init__ (self, collection, xmlFormat, baseUrl)
+	
+	def get_result_batch (self, start, num):
+		responseDoc = self.get_response_doc (start, num)
+		responseDoc.xpath_delimiter = ":"
+		titleNodes = responseDoc.selectNodes (responseDoc.dom, self.title_path)
+		return map (lambda x:XmlUtils.getText(x), titleNodes)
+		
+	def processResults (self):
+		unique_titles = []
+		print "%d titles BEFORE filtering" % len (self)
+		for title in self:
+			if not title:
+				continue
+			if not title in unique_titles:
+				unique_titles.append (title)
+			else:
+				print title
+			
+
+		print "%d titles AFTER filtering" % len (unique_titles)
+		self.unique_titles=unique_titles
+
+
+def getUniqueTitles():
+	xmlFormat = 'osm'
+	collection = 'osgc'
+	titles = UniqueTitleGetter(collection, xmlFormat).unique_titles
+	# titles.sort()
+	return titles
+
+class Dups:
+	
+	def __init__ (self, title, results):
+		self.title = title
+		self.results = results
+		
+	def size (self):
+		return len(self.results)
+	
+class TitleSearcher (RepositorySearcher):
+	
+	# stop_collections = ["staffnotes"]
+	# stop_collections = []
+	verbose = False
+	dowrite = 0
+	
+	def __init__ (self, title, collection=None, xmlFormat='osm'):
+		print 'TitleSearcher collection: %s xmlFormat: %s' % (collection, xmlFormat)
+		self.title = title
+		self.dups = None
+		RepositorySearcher.__init__(self, collection, xmlFormat)
+		print "searched for %s" % self.title
+		
+	def get_params (self, collection, xmlFormat):
+		return {
+			"verb": "Search",
+			'q':'/key//record/general/title:"%s"' % self.title,
+			'storedContent':['dcsstatus','dcsstatusNote'],
+			"xmlFormat": xmlFormat,
+			"ky": collection,
+			's': '0',
+			'n': '100'
+		}
+
+	def processResults (self):
+		if len(self) < 2: return
+		self.dups = Dups(self.title, self.data)
+		
+	def report (self):
+		s=[];add = s.append
+		add (self.title)
+		for result in self:
+			# result fields to put in report
+			fields = ['recId', 'dcsstatus', 'dcsstatusNote']
+			values = map (lambda x:getattr(result, x), fields)
+			add ('\t'.join (values))
+		return '\n - '.join(s)
+				
+	def report1 (self):
+		print "%d results found for %s" % (len (self), self.title)
+		for result in self:
+			result.report()
+		
+class DupTitleChecker (UserList):
+	"""
+	after getting records from dds search, they are stored in self.recs
+	"""
+
+	dowrite = 1
+	
+	def __init__ (self, collection=None, xmlFormat=None, baseUrl=default_baseUrl):
+		UserList.__init__ (self)
+		## self.titles = ['Atmospheric chemistry of an Antarctic volcanic plume']
+		# self.titles = ['Overview: Oxidant and particle photochemical processes above a south-east Asian tropical rainforest (the OP3 project): Introduction, rationale, location characteristics and tools']
+		self.atitles = [
+			'Atmospheric chemistry of an Antarctic volcanic plume', 
+			'Climatological Validation of Microwave Lower Stratosphere Temperature using GPS RO Data'
+		]
+		# getter = UniqueTitleGetter ('osgc')
+		# self.titles = getter.unique_titles
+		self.titles = getUniqueTitles()[:2]
+		
+		print "processing %d unique titles" % len (self.titles)
+		
+		for title in self.titles:
+			# sys.stdout.write('.')
+			# print '.'
+			dups = TitleSearcher (title, collection, xmlFormat).dups
+			if dups:
+				self.append (dups)
+
+		self.report()
+		
+	def report (self):
+		print "\nDup Title Checker Results"
+		for dups in self:
+			print "\n%s" % dups.title
+			for result in dups.results:
+				print " - %s | %25s | %s" % (result.recId, result.dcsstatus, result.dcsstatusNote)
+
+			
+def getterTester(title):
+	# asset = "asset-000-000-000-040"
+
+	try:
+		getter = TitleSearcher(title)
+		# print getter.result
+		# getter.result.report()	
+	except:
+		print sys.exc_info()[1]
+
+def titleSearcherTester ():
+	# title = 'Atmospheric chemistry of an Antarctic volcanic plume'
+	# title = 'Climatological Validation of Microwave Lower Stratosphere Temperature using GPS RO Data'
+	# title = 'Overview: Oxidant and particle photochemical processes above a south-east Asian tropical rainforest (the OP3 project): Introduction, rationale, location characteristics and tools'
+	title = 'Forecasting skill of model averages'
+	# getterTester (title)
+	results = TitleSearcher(title)
+	size = results.dups and results.dups.size() or 0
+	print "%d results found (%d)" % (len(results), size)	
+	
+if __name__ == '__main__':
+	
+	xmlFormat = 'osm'
+	collection = 'osgc'
+	DupTitleChecker(collection, xmlFormat)
+
+

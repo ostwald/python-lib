@@ -1,0 +1,32 @@
+Steps to import and format files
+
+1. file -> open
+	NOTE: data files end in .txt, so in the "Open" dialog box you'll have to set
+	the "files of type" pulldown to "All Files (*.*)" 
+	
+2. You should get a "Text Import Wizard" dialog box
+	Step 1 of 3 - if you are bothered by weird-looking special
+	characters, select "Unicode (UTF-8)" from the "File origin" pulldown.
+	Hit "next"
+	
+	Step 2 of 3 - make sure "Tab" is chosen as the Delimiter (this is probably
+	the default). Hit "next"
+	
+	Step 3 of 3 - This step lets you choose a format for the columns of the
+	imported data. highlight the "gradeLevel" column and select the "Text"
+	button for "Column data format". If you don't do this, Excel tries to format
+	the grade ranges as dates. Hit "finish"
+	
+3. Select the "benchmark" and "text" columns, and then type Control-1 to get the
+"Format Cells" dialog. choose the "Alignment" tab and then select "Wrap text"
+under "Text Control". Hit OK.
+
+4. Adjust the width of these columns to preference.
+
+5. Select all the rows that have data in them (something like 33 of them).
+Choose Format -> Row -> Autofit to get rid of extra verical space. Then, while
+everything is still highlighted, hit Control-1 and from the "Alignment" tab
+choose "Top" under Text Alignment, Vertical.
+
+6. Freeze window panes so the NSES standards are always visible as you scroll the state standards. Select
+the row under the NSES standards row (i.e. select row#4). Select "Window -> Freeze Panes". 

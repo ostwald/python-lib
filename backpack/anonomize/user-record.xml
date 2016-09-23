@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.6.0_21" class="java.beans.XMLDecoder"> 
+ <object class="org.dlsciences.ccs.security.action.form.UserBean"> 
+  <void property="email"> 
+   <string>niess@berkeley.edu</string> 
+  </void> 
+  <void property="firstName"> 
+   <string>Andi</string> 
+  </void> 
+  <void property="grade"> 
+   <string/> 
+  </void> 
+  <void property="lastName"> 
+   <string>Niess</string> 
+  </void> 
+  <void property="organizations"> 
+   <array class="java.lang.String" length="4"> 
+    <void index="0"> 
+     <string>adv_tech</string> 
+    </void> 
+    <void index="1"> 
+     <string>eng</string> 
+    </void> 
+    <void index="2"> 
+     <string>adv_eng</string> 
+    </void> 
+    <void index="3"> 
+     <string>aero_rocketry</string> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="password"> 
+   <string>31W68tuBmbVochsZlohCmE3Zjg8=</string> 
+  </void> 
+  <void property="roles"> 
+   <array class="java.lang.String" length="1"> 
+    <void index="0"> 
+     <string>teacher</string> 
+    </void> 
+   </array> 
+  </void> 
+  <void property="schoolName"> 
+   <string/> 
+  </void> 
+  <void property="userId"> 
+   <string>1304699096169</string> 
+  </void> 
+  <void property="username"> 
+   <string>aniess</string> 
+  </void> 
+  <void property="validatorResults"> 
+   <object class="org.apache.commons.validator.ValidatorResults"/> 
+  </void> 
+ </object> 
+</java> 

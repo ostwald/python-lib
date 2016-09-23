@@ -1,0 +1,136 @@
+"""
+todo: 
+
+1 - extract a list of values from the "pubName.xsd" schema
+(ttambora.ucar.edu:/web/nldr/metadata/osm/1.0/schemas/vocabs/pubName.xsd)
+
+- PubNameXSD (path="pubName.xsd").getPubNames()
+
+2 - collect the WOS pubname values* that aren't in pubName.xsd
+* titlecase, then entity-encode '&'s, the WOS pubnames
+
+- save this list (uniqueWOSpubnames)
+
+3 - merge and alphabetize
+
+- save this list as mergedPubnames
+
+4 - make new version of pubName.xsd with complet list
+
+"""
+import string
+from JloXml import XmlRecord, XmlUtils
+from ncar_lib.citations.WOS_fieldValue_collector import WOSFieldValueCollector
+from misc.titlecase import titlecase
+
+class PubNameXSD (XmlRecord):
+	xpath_delimiter = "/"
+	
+	def getPubNames (self):
+		xpath = "xs:schema/xs:simpleType/xs:restriction/xs:enumeration"
+		# xpath = "xs:schema/xs:simpleType/xs:restriction/xs:enumeration"
+		nodes = self.getElementsByXpath (self.dom, xpath)
+		# print "%d nodes found" % len(nodes)
+		values = []
+		for node in nodes:
+			values.append (node.getAttribute("value"))
+		return values
+
+def getWOSValues ():
+	path = '../uniqueWOSvalues_pubname.txt'
+	s = open(path).read()
+	raw = s.split('\n')
+	values = []
+	for v in raw:
+		if not v.strip(): continue
+		values.append(normalize (v));
+	return values
+		
+def normalize (item):
+	s = titlecase (item.lower())
+	s = s.replace ("&", "&amp;")
+	return s.strip()
+	
+def normalizeList (l):
+	return map (lambda x: normalize(x), l)
+	
+def getPubNameXSDvalues (verbose=0):
+	rec = PubNameXSD (path="pubName.xsd")
+	pubNames = rec.getPubNames()
+	if verbose:
+		print '%d pubNames found' % len(pubNames)
+		for pn in pubNames:
+			print pn
+	return pubNames
+	
+def getNewVocab ():
+	"""
+	merge WOSvalues into PubNames
+	"""
+	pubNames = getPubNameXSDvalues()
+	wosValues = getWOSValues()
+	print "%d pubNames" % len(pubNames)
+	print "%d wosValues" % len (wosValues)
+	
+	merged = mergeLists (pubNames, wosValues)
+	print "%d merged" % len (merged)
+	print "%d pubNames" % len(pubNames)
+	return merged
+	
+def diffLists (list_1, list_2):
+	"""
+	what items are present in list_1 but not in list_2)
+	"""
+	ret = []
+	# print "ret has %d items" % len (ret)
+	list_2_lower = toLower (list_2)
+	for item in list_1:
+		if not item.lower() in list_2_lower:
+			ret.append(item)
+			# print 'non-dup: %s' % item
+	ret.sort(lambda a,b: cmp (a.lower(), b.lower()))
+	return ret
+	
+class ListWorker:
+	
+	wosValues = getWOSValues()
+	pubNames = getPubNameXSDvalues()
+	
+	newPubNames = mergeLists (pubNames, wosValues)
+	
+	def mergeLists (self, base, tomerge):
+		"""
+		add those items in tomerge that aren't present in base
+		sort by lower case
+		"""
+		# intitialze ret by copying base
+		ret = []
+		map (lambda x: ret.append(x), base)
+		
+		# print "ret has %d items" % len (ret)
+		baseLower = self.listToLower (ret)
+		for item in tomerge:
+			if not item.lower() in baseLower:
+				ret.append(item)
+				# print 'non-dup: %s' % item
+		ret.sort(self.cmp)
+		return ret
+	
+	def cmp (self, a, b):
+		return cmp (a.lower(), b.lower())
+		
+	def listToLower (self, l):
+		return map (lambda x: x.lower(), l)
+		
+def sanityCheck ():
+	newPubNames = getNewVocab()
+	wosValues = getWOSValues()
+	diff = diffLists (newPubNames, wosValues)
+	print "there are %d items in NEW pubNames that arent in WosValues" % len (diff)
+	for d in diff:
+		print d
+	
+if __name__ == '__main__':
+	sanityCheck()
+
+	

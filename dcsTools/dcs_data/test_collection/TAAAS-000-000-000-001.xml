@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<dcsDataRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd">
+  <recordID>TAAAS-000-000-000-001</recordID>
+  <isValid/>
+  <statusEntries>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>Record Created</statusNote>
+      <editor>juliahoy</editor>
+      <changeDate>2009-08-27T12:24:05Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>Record Created</statusNote>
+      <editor>carey</editor>
+      <changeDate>2009-08-27T12:24:05Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2010-03-05T10:06:39Z</lastTouchDate>
+  <ndrHandle/>
+  <validationReport>NOT VALID: Error: cvc-complex-type.2.4.a: Invalid content was found starting with element 'copyrightOwner'. One of '{&quot;http://ns.nsdl.org/ncs/res_qual&quot;:keyword, &quot;http://ns.nsdl.org/ncs/res_qual&quot;:language, &quot;http://ns.nsdl.org/ncs/res_qual&quot;:mimeType, &quot;http://ns.nsdl.org/ncs/res_qual&quot;:format}' is expected. Error: cvc-complex-type.2.4.a: Invalid content was found starting with element 'learningGoals'. One of '{&quot;http://ns.nsdl.org/ncs/res_qual&quot;:educational, &quot;http://ns.nsdl.org/ncs/res_qual&quot;:lifecycle, &quot;http://ns.nsdl.org/ncs/res_qual&quot;:contentAlignment}' is expected. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Entirely, Partially]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'resAddrGoal' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Explicitly, Not explicitly, but resource could be used to address the learning goal.]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'learnGoalEvidence' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'makeObservation' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'comprehensible' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'engaging' must have no element [children], and the value must be valid. Error: cvc-enumeration-valid: Value '' is not facet-valid with respect to enumeration '[Yes, Partially, No]'. It must be a value from the enumeration. Error: cvc-complex-type.2.2: Element 'efficient' must have no element [children], and the value must be valid.</validationReport>
+  <lastEditor>bohdan</lastEditor>
+  <ndrInfo>
+    <syncError/>
+  </ndrInfo>
+</dcsDataRecord>

@@ -1,0 +1,1275 @@
+
+=========================
+asnCheck: /dls/devel/common/asn/globe
+
+
+Checking /dls/devel/common/asn/globe
+
+
+1.4.1Science-2006-Michigan-High School Science Essential Conte.xml
+	OK
+
+1.4.1Math-1997-National Council on Economic Education (NCEE)-New Standards.xml
+	OK
+
+1.4.1Math-2005-National Assessment of Educational Progress (NAEP)-NAEP 2005 Math Framework.xml
+	OK
+
+1.4.1Math-2000-National Council of Teachers of Mathematics (NCTM)-Principles and Standards for School.xml
+	54 MISSING standards
+	http://purl.org/ASN/resources/S101152C
+	http://purl.org/ASN/resources/S100FBE3
+	http://purl.org/ASN/resources/S100F5CF
+	http://purl.org/ASN/resources/S100E795
+	http://purl.org/ASN/resources/S100C4FE
+	http://purl.org/ASN/resources/S100ACF1
+	http://purl.org/ASN/resources/S1026EF0
+	http://purl.org/ASN/resources/S1017E01
+	http://purl.org/ASN/resources/S10179E7
+	http://purl.org/ASN/resources/S1016F61
+	http://purl.org/ASN/resources/S10205D7
+	http://purl.org/ASN/resources/S10138AF
+	http://purl.org/ASN/resources/S1025819
+	http://purl.org/ASN/resources/S101C259
+	http://purl.org/ASN/resources/S101173A
+	http://purl.org/ASN/resources/S100B25B
+	http://purl.org/ASN/resources/S10092B6
+	http://purl.org/ASN/resources/S1008531
+	http://purl.org/ASN/resources/S101DD35
+	http://purl.org/ASN/resources/S10180B0
+	http://purl.org/ASN/resources/S1015EA8
+	http://purl.org/ASN/resources/S1010AD3
+	http://purl.org/ASN/resources/S100E835
+	http://purl.org/ASN/resources/S100D256
+	http://purl.org/ASN/resources/S100B896
+	http://purl.org/ASN/resources/S1008F64
+	http://purl.org/ASN/resources/S101CC5F
+	http://purl.org/ASN/resources/S1019630
+	http://purl.org/ASN/resources/S1014443
+	http://purl.org/ASN/resources/S100422B
+	http://purl.org/ASN/resources/S1023F81
+	http://purl.org/ASN/resources/S10217A9
+	http://purl.org/ASN/resources/S10208DE
+	http://purl.org/ASN/resources/S101F87B
+	http://purl.org/ASN/resources/S1002995
+	http://purl.org/ASN/resources/S100CF67
+	http://purl.org/ASN/resources/S100CC5C
+	http://purl.org/ASN/resources/S100857B
+	http://purl.org/ASN/resources/S10019E7
+	http://purl.org/ASN/resources/S101BB2A
+	http://purl.org/ASN/resources/S1019137
+	http://purl.org/ASN/resources/S1004106
+	http://purl.org/ASN/resources/S101EC3D
+	http://purl.org/ASN/resources/S101C75D
+	http://purl.org/ASN/resources/S101AAE4
+	http://purl.org/ASN/resources/S100E5AA
+	http://purl.org/ASN/resources/S100DD52
+	http://purl.org/ASN/resources/S1009A3C
+	http://purl.org/ASN/resources/S101E84D
+	http://purl.org/ASN/resources/S101A087
+	http://purl.org/ASN/resources/S1014773
+	http://purl.org/ASN/resources/S101C45C
+	http://purl.org/ASN/resources/S1004CE9
+	http://purl.org/ASN/resources/S10038D5
+
+1.4.1Geography-1994-National Geography Education Standards (NGES)-Geography for Life The National Ge.xml
+	OK
+
+1.4.1Science-2000-Michigan-Curriculum Framework Science.xml
+	OK
+
+1.4.1English-2006-Michigan-High School ELA Content Standards .xml
+	OK
+
+1.4.1Technology-2005-Michigan-Educational Technology Standards .xml
+	OK
+
+1.4.1Science-1993-American Assoc Advancement of Science Proj 2061 (AAASP)-Benchmarks for Science Literacy.xml
+	OK
+
+1.4.1Math-2004-Michigan-Math Grade Level Expectations.xml
+	OK
+
+1.4.1Geography-1997-Texas-Chapter 113 TEKS for Social Studie.xml
+	OK
+
+1.4.1Science-2007-Michigan-Science K-7 Content Expectations.xml
+	OK
+
+1.4.1Math-2006-Texas-Chapter 111  TEKS for Mathematics.xml
+	OK
+
+1.4.1Math-2006-Michigan-Mathematics v1205 Grade Level Con.xml
+	OK
+
+1.4.1Math-1996-Michigan-Curriculum Framework.xml
+	OK
+
+1.4.1Math-2006-Michigan-High School Expectations Mathematic.xml
+	OK
+
+1.4.1English-2004-Michigan-English Language Arts v1205 Grade.xml
+	72 MISSING standards
+	http://purl.org/ASN/resources/S10217DC
+	http://purl.org/ASN/resources/S1002969
+	http://purl.org/ASN/resources/S100C56C
+	http://purl.org/ASN/resources/S100899C
+	http://purl.org/ASN/resources/S102543E
+	http://purl.org/ASN/resources/S1024DB5
+	http://purl.org/ASN/resources/S101B1C7
+	http://purl.org/ASN/resources/S100FC83
+	http://purl.org/ASN/resources/S101A4D7
+	http://purl.org/ASN/resources/S1018D62
+	http://purl.org/ASN/resources/S1018B5D
+	http://purl.org/ASN/resources/S1018A70
+	http://purl.org/ASN/resources/S1013A92
+	http://purl.org/ASN/resources/S10124FA
+	http://purl.org/ASN/resources/S1021C8C
+	http://purl.org/ASN/resources/S1010F9D
+	http://purl.org/ASN/resources/S10020E3
+	http://purl.org/ASN/resources/S100C24D
+	http://purl.org/ASN/resources/S100039F
+	http://purl.org/ASN/resources/S101784F
+	http://purl.org/ASN/resources/S1013F75
+	http://purl.org/ASN/resources/S1011D88
+	http://purl.org/ASN/resources/S10085AB
+	http://purl.org/ASN/resources/S10077CA
+	http://purl.org/ASN/resources/S101954C
+	http://purl.org/ASN/resources/S1026E40
+	http://purl.org/ASN/resources/S10059A7
+	http://purl.org/ASN/resources/S1010D51
+	http://purl.org/ASN/resources/S1010608
+	http://purl.org/ASN/resources/S100F687
+	http://purl.org/ASN/resources/S100F6C8
+	http://purl.org/ASN/resources/S100B3CC
+	http://purl.org/ASN/resources/S1008AD0
+	http://purl.org/ASN/resources/S1016A46
+	http://purl.org/ASN/resources/S1014823
+	http://purl.org/ASN/resources/S101364E
+	http://purl.org/ASN/resources/S1003D96
+	http://purl.org/ASN/resources/S100174C
+	http://purl.org/ASN/resources/S1021E0A
+	http://purl.org/ASN/resources/S101B030
+	http://purl.org/ASN/resources/S100E753
+	http://purl.org/ASN/resources/S100DCED
+	http://purl.org/ASN/resources/S100CA58
+	http://purl.org/ASN/resources/S1007962
+	http://purl.org/ASN/resources/S1006DEF
+	http://purl.org/ASN/resources/S1001C24
+	http://purl.org/ASN/resources/S102596D
+	http://purl.org/ASN/resources/S1020B98
+	http://purl.org/ASN/resources/S100A580
+	http://purl.org/ASN/resources/S101F681
+	http://purl.org/ASN/resources/S101D9C8
+	http://purl.org/ASN/resources/S1016FF7
+	http://purl.org/ASN/resources/S101E4E9
+	http://purl.org/ASN/resources/S101B14E
+	http://purl.org/ASN/resources/S100DFEE
+	http://purl.org/ASN/resources/S100CFBD
+	http://purl.org/ASN/resources/S100CE78
+	http://purl.org/ASN/resources/S1002489
+	http://purl.org/ASN/resources/S1000569
+	http://purl.org/ASN/resources/S100065A
+	http://purl.org/ASN/resources/S10256F7
+	http://purl.org/ASN/resources/S101E968
+	http://purl.org/ASN/resources/S101A5EA
+	http://purl.org/ASN/resources/S10188FC
+	http://purl.org/ASN/resources/S1016056
+	http://purl.org/ASN/resources/S1013241
+	http://purl.org/ASN/resources/S1012F0C
+	http://purl.org/ASN/resources/S1012B6E
+	http://purl.org/ASN/resources/S1012256
+	http://purl.org/ASN/resources/S10056A5
+	http://purl.org/ASN/resources/S10203BC
+	http://purl.org/ASN/resources/S1019F97
+
+1.4.1Science-1997-Texas-Chapter 112 TEKS for Science.xml
+	OK
+
+1.4.1Geography-1995-Michigan-Social Studies Standards Working Dr.xml
+	OK
+	
+
+=========================
+asnCheck: /dls/devel/common/asn/v1.4.1/ASN-by-subject-2008/Science/
+
+
+Checking /dls/devel/common/asn/v1.4.1/ASN-by-subject-2008/Science/
+
+
+Science-2001-Mississippi-Science Framework.xml
+        OK
+
+Science-1997-Texas-Chapter 112 TEKS for Science.xml
+        OK
+
+Science-2006-Alaska-Content Standards Science.xml
+        OK
+
+Science-2006-Delaware-Science Content Standards.xml
+        OK
+
+Science-2005-Alabama-Course of Study Science.xml
+        OK
+
+Science-2006-Massachusetts-Science and Technology Engineering .xml
+        OK
+
+Science-2004-Connecticut-Core Science Curriculum Framework.xml
+        36 MISSING standards
+        http://purl.org/ASN/resources/S1027D01
+        http://purl.org/ASN/resources/S1027C9B
+        http://purl.org/ASN/resources/S1027C39
+        http://purl.org/ASN/resources/S1027C32
+        http://purl.org/ASN/resources/S1027C2B
+        http://purl.org/ASN/resources/S1027C95
+        http://purl.org/ASN/resources/S1027C3F
+        http://purl.org/ASN/resources/S1027CEC
+        http://purl.org/ASN/resources/S1027CFC
+        http://purl.org/ASN/resources/S1027C87
+        http://purl.org/ASN/resources/S1027C82
+        http://purl.org/ASN/resources/S1027CF6
+        http://purl.org/ASN/resources/S1027C90
+        http://purl.org/ASN/resources/S1027C8B
+        http://purl.org/ASN/resources/S1027C77
+        http://purl.org/ASN/resources/S1027CE6
+        http://purl.org/ASN/resources/S1027CCF
+        http://purl.org/ASN/resources/S1027CE0
+        http://purl.org/ASN/resources/S1027C68
+        http://purl.org/ASN/resources/S1027CDA
+        http://purl.org/ASN/resources/S1027CD5
+        http://purl.org/ASN/resources/S1027CC9
+        http://purl.org/ASN/resources/S1027CF0
+        http://purl.org/ASN/resources/S1027CC3
+        http://purl.org/ASN/resources/S1027C7D
+        http://purl.org/ASN/resources/S1027C59
+        http://purl.org/ASN/resources/S1027C55
+        http://purl.org/ASN/resources/S1027C63
+        http://purl.org/ASN/resources/S1027CAD
+        http://purl.org/ASN/resources/S1027CB3
+        http://purl.org/ASN/resources/S1027C50
+        http://purl.org/ASN/resources/S1027C49
+        http://purl.org/ASN/resources/S1027C44
+        http://purl.org/ASN/resources/S1027CA1
+        http://purl.org/ASN/resources/S1027CA7
+        http://purl.org/ASN/resources/S1027C5D
+
+Science-2007-Montana-Science Grade Level Expectations.xml
+        OK
+
+Science-2008-Indiana-Core Standards for Science.xml
+        OK
+
+Science-2003-Virginia-Science Standards of Learning for V.xml
+        OK
+
+Science-2005-Arkansas-Science Curriculum Framework .xml
+        OK
+
+Science-1999-Montana-Montana Standards for Science.xml
+        OK
+
+Science-2006-Idaho-Content Standards - Science.xml
+        OK
+
+Science-1997-Illinois-Learning Standards Science.xml
+        OK
+
+Science-2006-North Dakota-Science Content and Achievement Sta.xml
+        OK
+
+Science-2006-Kentucky-Core Content for Science.xml
+        OK
+
+Science-1995-National Science Education Standards (NSES)-National Science Education Standard.xml
+        34 MISSING standards
+        http://purl.org/ASN/resources/S1024C09
+        http://purl.org/ASN/resources/S101AB0E
+        http://purl.org/ASN/resources/S1013DEF
+        http://purl.org/ASN/resources/S10005D2
+        http://purl.org/ASN/resources/S1025BC9
+        http://purl.org/ASN/resources/S1022280
+        http://purl.org/ASN/resources/S1021D5E
+        http://purl.org/ASN/resources/S101D50F
+        http://purl.org/ASN/resources/S101AC8C
+        http://purl.org/ASN/resources/S1014C09
+        http://purl.org/ASN/resources/S1001928
+        http://purl.org/ASN/resources/S1026626
+        http://purl.org/ASN/resources/S101F7D9
+        http://purl.org/ASN/resources/S100076E
+        http://purl.org/ASN/resources/S1004E6C
+        http://purl.org/ASN/resources/S10049E4
+        http://purl.org/ASN/resources/S10047EB
+        http://purl.org/ASN/resources/S1011C55
+        http://purl.org/ASN/resources/S10219EA
+        http://purl.org/ASN/resources/S101D825
+        http://purl.org/ASN/resources/S101896E
+        http://purl.org/ASN/resources/S1012357
+        http://purl.org/ASN/resources/S1024193
+        http://purl.org/ASN/resources/S1000B33
+        http://purl.org/ASN/resources/S100E059
+        http://purl.org/ASN/resources/S100B49D
+        http://purl.org/ASN/resources/S100B2EC
+        http://purl.org/ASN/resources/S1016F6C
+        http://purl.org/ASN/resources/S10137FC
+        http://purl.org/ASN/resources/S10123F0
+        http://purl.org/ASN/resources/S1009A2A
+        http://purl.org/ASN/resources/S1007BFE
+        http://purl.org/ASN/resources/S1002937
+        http://purl.org/ASN/resources/S10180E1
+
+Science-2002-Pennsylvania-Science and Technology and Environm.xml
+        OK
+
+Science-1998-Wisconsin-Wisconsin Model Academic Standards .xml
+        OK
+
+Science-2006-Kentucky-Program of Study Science.xml
+        OK
+
+Science-2008-West Virginia-9-12 Science Content Standards.xml
+        OK
+
+Science-2008-West Virginia-21st Century Science K-8 Content St.xml
+        OK
+
+Science-2005-Missouri-Science Grade-Level Expectations.xml
+        OK
+
+Science-2008-Florida-Sunshine State Standards Science.xml
+        OK
+
+Science-2005-Nevada-K-12 Science Standards.xml
+        OK
+
+Science-1995-New Hampshire-K-12 Science Curriculum Framework.xml
+        OK
+
+Science-2002-Oklahoma-PASS for Science.xml
+        OK
+
+Science-1996-Florida-Sunshine State Standards GLE Sci.xml
+        OK
+
+Science-2000-Michigan-Curriculum Framework Science.xml
+        OK
+
+Science-1999-South Dakota-Science Standards.xml
+        OK
+
+Science-1995-Rhode Island-Science Framework.xml
+        OK
+
+Science-2002-Ohio-Academic Content Standards K-12 Sci.xml
+        OK
+
+Science-2004-Arizona-Content Standards - Science.xml
+        138 MISSING standards
+        http://purl.org/ASN/resources/S102256D
+        http://purl.org/ASN/resources/S1026424
+        http://purl.org/ASN/resources/S1015B25
+        http://purl.org/ASN/resources/S100CBE0
+        http://purl.org/ASN/resources/S1002627
+        http://purl.org/ASN/resources/S1005287
+        http://purl.org/ASN/resources/S101A656
+        http://purl.org/ASN/resources/S1019D64
+        http://purl.org/ASN/resources/S10260CB
+        http://purl.org/ASN/resources/S10138F8
+        http://purl.org/ASN/resources/S102182C
+        http://purl.org/ASN/resources/S1011621
+        http://purl.org/ASN/resources/S100E993
+        http://purl.org/ASN/resources/S10080E4
+        http://purl.org/ASN/resources/S1022D00
+        http://purl.org/ASN/resources/S102276F
+        http://purl.org/ASN/resources/S101CC88
+        http://purl.org/ASN/resources/S10176B6
+        http://purl.org/ASN/resources/S1015AF3
+        http://purl.org/ASN/resources/S1004842
+        http://purl.org/ASN/resources/S10222D1
+        http://purl.org/ASN/resources/S10201E8
+        http://purl.org/ASN/resources/S1009718
+        http://purl.org/ASN/resources/S1016665
+        http://purl.org/ASN/resources/S10140AD
+        http://purl.org/ASN/resources/S100004E
+        http://purl.org/ASN/resources/S100B9AD
+        http://purl.org/ASN/resources/S100855C
+        http://purl.org/ASN/resources/S1006CF0
+        http://purl.org/ASN/resources/S100050C
+        http://purl.org/ASN/resources/S1001A5C
+        http://purl.org/ASN/resources/S101C3CB
+        http://purl.org/ASN/resources/S1004131
+        http://purl.org/ASN/resources/S1003534
+        http://purl.org/ASN/resources/S101B8B0
+        http://purl.org/ASN/resources/S10191C0
+        http://purl.org/ASN/resources/S1018FA2
+        http://purl.org/ASN/resources/S1026925
+        http://purl.org/ASN/resources/S1025679
+        http://purl.org/ASN/resources/S101BF7C
+        http://purl.org/ASN/resources/S100449A
+        http://purl.org/ASN/resources/S100D70C
+        http://purl.org/ASN/resources/S100706E
+        http://purl.org/ASN/resources/S1006F83
+        http://purl.org/ASN/resources/S101D934
+        http://purl.org/ASN/resources/S101A107
+        http://purl.org/ASN/resources/S1026AD1
+        http://purl.org/ASN/resources/S102394B
+        http://purl.org/ASN/resources/S100477F
+        http://purl.org/ASN/resources/S100FAE7
+        http://purl.org/ASN/resources/S100EA94
+        http://purl.org/ASN/resources/S100A571
+        http://purl.org/ASN/resources/S10104AD
+        http://purl.org/ASN/resources/S100942B
+        http://purl.org/ASN/resources/S10060A2
+        http://purl.org/ASN/resources/S101E7FB
+        http://purl.org/ASN/resources/S101D0F9
+        http://purl.org/ASN/resources/S1013727
+        http://purl.org/ASN/resources/S10131AD
+        http://purl.org/ASN/resources/S1005482
+        http://purl.org/ASN/resources/S101C113
+        http://purl.org/ASN/resources/S102403D
+        http://purl.org/ASN/resources/S1010D93
+        http://purl.org/ASN/resources/S10105F1
+        http://purl.org/ASN/resources/S100CC25
+        http://purl.org/ASN/resources/S101FCD6
+        http://purl.org/ASN/resources/S1014600
+        http://purl.org/ASN/resources/S1013FA9
+        http://purl.org/ASN/resources/S1013EB7
+        http://purl.org/ASN/resources/S100579C
+        http://purl.org/ASN/resources/S101372E
+        http://purl.org/ASN/resources/S100B277
+        http://purl.org/ASN/resources/S1008FE6
+        http://purl.org/ASN/resources/S101C637
+        http://purl.org/ASN/resources/S1006A74
+        http://purl.org/ASN/resources/S101F61D
+        http://purl.org/ASN/resources/S101272F
+        http://purl.org/ASN/resources/S100475A
+        http://purl.org/ASN/resources/S1020953
+        http://purl.org/ASN/resources/S101AB87
+        http://purl.org/ASN/resources/S100C27E
+        http://purl.org/ASN/resources/S1015AF2
+        http://purl.org/ASN/resources/S1014DE9
+        http://purl.org/ASN/resources/S100EBF4
+        http://purl.org/ASN/resources/S100CC94
+        http://purl.org/ASN/resources/S101E9E4
+        http://purl.org/ASN/resources/S102656B
+        http://purl.org/ASN/resources/S1024A53
+        http://purl.org/ASN/resources/S101F297
+        http://purl.org/ASN/resources/S1010407
+        http://purl.org/ASN/resources/S1002959
+        http://purl.org/ASN/resources/S100C34D
+        http://purl.org/ASN/resources/S101B5BD
+        http://purl.org/ASN/resources/S1004F87
+        http://purl.org/ASN/resources/S1010402
+        http://purl.org/ASN/resources/S1009498
+        http://purl.org/ASN/resources/S10090F9
+        http://purl.org/ASN/resources/S101DD9A
+        http://purl.org/ASN/resources/S100021A
+        http://purl.org/ASN/resources/S100F7BE
+        http://purl.org/ASN/resources/S1007A5A
+        http://purl.org/ASN/resources/S1005999
+        http://purl.org/ASN/resources/S10016BB
+        http://purl.org/ASN/resources/S101C6CD
+        http://purl.org/ASN/resources/S10106CE
+        http://purl.org/ASN/resources/S100C79D
+        http://purl.org/ASN/resources/S101DCCD
+        http://purl.org/ASN/resources/S101B59F
+        http://purl.org/ASN/resources/S1019288
+        http://purl.org/ASN/resources/S1007FB1
+        http://purl.org/ASN/resources/S100724F
+        http://purl.org/ASN/resources/S1017C43
+        http://purl.org/ASN/resources/S1016BA9
+        http://purl.org/ASN/resources/S100ED0E
+        http://purl.org/ASN/resources/S1016A60
+        http://purl.org/ASN/resources/S101297A
+        http://purl.org/ASN/resources/S100DE3E
+        http://purl.org/ASN/resources/S100C393
+        http://purl.org/ASN/resources/S101DDEC
+        http://purl.org/ASN/resources/S102415A
+        http://purl.org/ASN/resources/S101EBFC
+        http://purl.org/ASN/resources/S100FF69
+        http://purl.org/ASN/resources/S100CE72
+        http://purl.org/ASN/resources/S100CCD3
+        http://purl.org/ASN/resources/S100B66F
+        http://purl.org/ASN/resources/S1022DE0
+        http://purl.org/ASN/resources/S101DCCF
+        http://purl.org/ASN/resources/S1007C93
+        http://purl.org/ASN/resources/S102435C
+        http://purl.org/ASN/resources/S1016CA1
+        http://purl.org/ASN/resources/S101C1E6
+        http://purl.org/ASN/resources/S1009FBE
+        http://purl.org/ASN/resources/S101AC8E
+        http://purl.org/ASN/resources/S1002DE0
+        http://purl.org/ASN/resources/S10082B8
+        http://purl.org/ASN/resources/S101E03C
+        http://purl.org/ASN/resources/S1015F87
+        http://purl.org/ASN/resources/S1005362
+
+Science-2004-Louisiana-Science Grade-Level Expectations.xml
+        OK
+
+Science-1999-Arkansas-Science Curriculum Framework.xml
+        79 MISSING standards
+        http://purl.org/ASN/resources/S1017670
+        http://purl.org/ASN/resources/S10075FE
+        http://purl.org/ASN/resources/S1022DEE
+        http://purl.org/ASN/resources/S101E934
+        http://purl.org/ASN/resources/S1015146
+        http://purl.org/ASN/resources/S1002F0F
+        http://purl.org/ASN/resources/S102191D
+        http://purl.org/ASN/resources/S101F2C0
+        http://purl.org/ASN/resources/S1008BD7
+        http://purl.org/ASN/resources/S10038DC
+        http://purl.org/ASN/resources/S1026367
+        http://purl.org/ASN/resources/S100FA8D
+        http://purl.org/ASN/resources/S10261A5
+        http://purl.org/ASN/resources/S1022AB8
+        http://purl.org/ASN/resources/S1003026
+        http://purl.org/ASN/resources/S101EC3F
+        http://purl.org/ASN/resources/S1010945
+        http://purl.org/ASN/resources/S100F23B
+        http://purl.org/ASN/resources/S1013B4B
+        http://purl.org/ASN/resources/S10013F5
+        http://purl.org/ASN/resources/S101F048
+        http://purl.org/ASN/resources/S100C1F1
+        http://purl.org/ASN/resources/S10224FF
+        http://purl.org/ASN/resources/S1015043
+        http://purl.org/ASN/resources/S1019098
+        http://purl.org/ASN/resources/S101F16D
+        http://purl.org/ASN/resources/S101E4D6
+        http://purl.org/ASN/resources/S10228BA
+        http://purl.org/ASN/resources/S100AE07
+        http://purl.org/ASN/resources/S1024E7A
+        http://purl.org/ASN/resources/S101C6B6
+        http://purl.org/ASN/resources/S101651A
+        http://purl.org/ASN/resources/S100D836
+        http://purl.org/ASN/resources/S1026AA0
+        http://purl.org/ASN/resources/S1003573
+        http://purl.org/ASN/resources/S100DB37
+        http://purl.org/ASN/resources/S101A130
+        http://purl.org/ASN/resources/S101EA02
+        http://purl.org/ASN/resources/S1015C49
+        http://purl.org/ASN/resources/S102565D
+        http://purl.org/ASN/resources/S100E1FB
+        http://purl.org/ASN/resources/S10171D0
+        http://purl.org/ASN/resources/S101E343
+        http://purl.org/ASN/resources/S1001DFA
+        http://purl.org/ASN/resources/S1019B75
+        http://purl.org/ASN/resources/S1011A8B
+        http://purl.org/ASN/resources/S100A9A7
+        http://purl.org/ASN/resources/S1000970
+        http://purl.org/ASN/resources/S100511C
+        http://purl.org/ASN/resources/S101F45B
+        http://purl.org/ASN/resources/S1020DC4
+        http://purl.org/ASN/resources/S1021980
+        http://purl.org/ASN/resources/S10113BC
+        http://purl.org/ASN/resources/S1007420
+        http://purl.org/ASN/resources/S1020608
+        http://purl.org/ASN/resources/S1013DC3
+        http://purl.org/ASN/resources/S10153E2
+        http://purl.org/ASN/resources/S1020DF8
+        http://purl.org/ASN/resources/S1010616
+        http://purl.org/ASN/resources/S10214EE
+        http://purl.org/ASN/resources/S1006AFD
+        http://purl.org/ASN/resources/S10190C4
+        http://purl.org/ASN/resources/S100C4E1
+        http://purl.org/ASN/resources/S101693E
+        http://purl.org/ASN/resources/S102484E
+        http://purl.org/ASN/resources/S100A946
+        http://purl.org/ASN/resources/S100F58B
+        http://purl.org/ASN/resources/S101B06B
+        http://purl.org/ASN/resources/S101E74F
+        http://purl.org/ASN/resources/S1019B4D
+        http://purl.org/ASN/resources/S100A51D
+        http://purl.org/ASN/resources/S100462C
+        http://purl.org/ASN/resources/S100FA4B
+        http://purl.org/ASN/resources/S100BCB9
+        http://purl.org/ASN/resources/S100F764
+        http://purl.org/ASN/resources/S100758E
+        http://purl.org/ASN/resources/S1019991
+        http://purl.org/ASN/resources/S1013FE5
+        http://purl.org/ASN/resources/S10051A0
+
+Science-2002-North Dakota-Science Content Standards and Bench.xml
+        OK
+
+Science-2000-Vermont-Vermont's Framework of Standards an.xml
+        OK
+
+Science-2006-New Hampshire-K-12 Science Literacy Curriculum Fr.xml
+        OK
+
+Science-2006-Montana-Montana Standards for Science.xml
+        OK
+
+Science-2003-New Mexico-Science Content Standards, Benchmar.xml
+        119 MISSING standards
+        http://purl.org/ASN/resources/S101349C
+        http://purl.org/ASN/resources/S100244B
+        http://purl.org/ASN/resources/S1007D82
+        http://purl.org/ASN/resources/S1023961
+        http://purl.org/ASN/resources/S100C9BC
+        http://purl.org/ASN/resources/S1004EBD
+        http://purl.org/ASN/resources/S1010D7B
+        http://purl.org/ASN/resources/S1019346
+        http://purl.org/ASN/resources/S100EBAC
+        http://purl.org/ASN/resources/S102388F
+        http://purl.org/ASN/resources/S10112D7
+        http://purl.org/ASN/resources/S10186F3
+        http://purl.org/ASN/resources/S1010876
+        http://purl.org/ASN/resources/S10082D1
+        http://purl.org/ASN/resources/S101F6F8
+        http://purl.org/ASN/resources/S101901D
+        http://purl.org/ASN/resources/S1012E93
+        http://purl.org/ASN/resources/S1012D8F
+        http://purl.org/ASN/resources/S1015342
+        http://purl.org/ASN/resources/S1011932
+        http://purl.org/ASN/resources/S101E2E1
+        http://purl.org/ASN/resources/S101A414
+        http://purl.org/ASN/resources/S101A88A
+        http://purl.org/ASN/resources/S1002E6A
+        http://purl.org/ASN/resources/S1016205
+        http://purl.org/ASN/resources/S100F61A
+        http://purl.org/ASN/resources/S101C419
+        http://purl.org/ASN/resources/S101AD3B
+        http://purl.org/ASN/resources/S1023044
+        http://purl.org/ASN/resources/S1005B19
+        http://purl.org/ASN/resources/S100D5D2
+        http://purl.org/ASN/resources/S101A59D
+        http://purl.org/ASN/resources/S10269A4
+        http://purl.org/ASN/resources/S101C82F
+        http://purl.org/ASN/resources/S10001ED
+        http://purl.org/ASN/resources/S1012879
+        http://purl.org/ASN/resources/S101121C
+        http://purl.org/ASN/resources/S1006ADB
+        http://purl.org/ASN/resources/S10064FD
+        http://purl.org/ASN/resources/S100ED91
+        http://purl.org/ASN/resources/S1012280
+        http://purl.org/ASN/resources/S1009D79
+        http://purl.org/ASN/resources/S1013F34
+        http://purl.org/ASN/resources/S1004AF7
+        http://purl.org/ASN/resources/S100D45F
+        http://purl.org/ASN/resources/S101C388
+        http://purl.org/ASN/resources/S1022DD8
+        http://purl.org/ASN/resources/S1008AB7
+        http://purl.org/ASN/resources/S1012EC3
+        http://purl.org/ASN/resources/S1019009
+        http://purl.org/ASN/resources/S1012C33
+        http://purl.org/ASN/resources/S101C68B
+        http://purl.org/ASN/resources/S101611B
+        http://purl.org/ASN/resources/S102013E
+        http://purl.org/ASN/resources/S10025FE
+        http://purl.org/ASN/resources/S1016CD0
+        http://purl.org/ASN/resources/S10081DA
+        http://purl.org/ASN/resources/S100AAD6
+        http://purl.org/ASN/resources/S101E2BB
+        http://purl.org/ASN/resources/S101681B
+        http://purl.org/ASN/resources/S101708D
+        http://purl.org/ASN/resources/S100577F
+        http://purl.org/ASN/resources/S100074F
+        http://purl.org/ASN/resources/S1017CC8
+        http://purl.org/ASN/resources/S100E6D4
+        http://purl.org/ASN/resources/S100ED6E
+        http://purl.org/ASN/resources/S100BD33
+        http://purl.org/ASN/resources/S1002722
+        http://purl.org/ASN/resources/S10095E5
+        http://purl.org/ASN/resources/S102013F
+        http://purl.org/ASN/resources/S1001778
+        http://purl.org/ASN/resources/S1010FA8
+        http://purl.org/ASN/resources/S1012FB7
+        http://purl.org/ASN/resources/S10027A1
+        http://purl.org/ASN/resources/S102321D
+        http://purl.org/ASN/resources/S1007193
+        http://purl.org/ASN/resources/S1016D66
+        http://purl.org/ASN/resources/S1004BD7
+        http://purl.org/ASN/resources/S1002FD3
+        http://purl.org/ASN/resources/S1018AF2
+        http://purl.org/ASN/resources/S10221A1
+        http://purl.org/ASN/resources/S101256C
+        http://purl.org/ASN/resources/S101703C
+        http://purl.org/ASN/resources/S1014190
+        http://purl.org/ASN/resources/S100F0FB
+        http://purl.org/ASN/resources/S10060B1
+        http://purl.org/ASN/resources/S1002F81
+        http://purl.org/ASN/resources/S101F57D
+        http://purl.org/ASN/resources/S1010160
+        http://purl.org/ASN/resources/S1015E45
+        http://purl.org/ASN/resources/S101D63D
+        http://purl.org/ASN/resources/S1013C71
+        http://purl.org/ASN/resources/S10172EF
+        http://purl.org/ASN/resources/S1012945
+        http://purl.org/ASN/resources/S1017F65
+        http://purl.org/ASN/resources/S101D0DE
+        http://purl.org/ASN/resources/S101D535
+        http://purl.org/ASN/resources/S10195A0
+        http://purl.org/ASN/resources/S1013E32
+        http://purl.org/ASN/resources/S101AD5D
+        http://purl.org/ASN/resources/S1010B4B
+        http://purl.org/ASN/resources/S101C888
+        http://purl.org/ASN/resources/S10215F6
+        http://purl.org/ASN/resources/S1025524
+        http://purl.org/ASN/resources/S1011922
+        http://purl.org/ASN/resources/S102170D
+        http://purl.org/ASN/resources/S100ECB5
+        http://purl.org/ASN/resources/S101F2DB
+        http://purl.org/ASN/resources/S10072F6
+        http://purl.org/ASN/resources/S1010985
+        http://purl.org/ASN/resources/S101D4AF
+        http://purl.org/ASN/resources/S101AB8A
+        http://purl.org/ASN/resources/S1006137
+        http://purl.org/ASN/resources/S100C3A6
+        http://purl.org/ASN/resources/S100C902
+        http://purl.org/ASN/resources/S100826F
+        http://purl.org/ASN/resources/S1014B12
+        http://purl.org/ASN/resources/S1005C2B
+        http://purl.org/ASN/resources/S102230D
+
+Science-2005-South Carolina-Science Academic Standards.xml
+        OK
+
+Science-2006-Massachusetts-Science and Technology Appendix I.xml
+        OK
+
+Science-2007-Kansas-Science Education Standards.xml
+        OK
+
+Science-1998-California-Science Content Standards.xml
+        OK
+
+Science-2001-Massachusetts-Science and Technology Engineering .xml
+        OK
+
+Science-1998-Nebraska-Nebraska Science Standards.xml
+        OK
+
+Science-2001-Alabama-Course of Study Science.xml
+        OK
+
+Science-2003-West Virginia-Science Content Standards and Objec.xml
+        OK
+
+Science-2001-Idaho-Achievement Standards Science.xml
+        OK
+
+Science-2005-Maryland-Voluntary State Curriculum for Scie.xml
+        OK
+
+Science-2009-Tennessee-Science Standards.xml
+        OK
+
+Science-2005-South Dakota-Science Content Standards.xml
+        13 MISSING standards
+        http://purl.org/ASN/resources/S102A054
+        http://purl.org/ASN/resources/S102A050
+        http://purl.org/ASN/resources/S102A04E
+        http://purl.org/ASN/resources/S102A04F
+        http://purl.org/ASN/resources/S102A055
+        http://purl.org/ASN/resources/S102A049
+        http://purl.org/ASN/resources/S102A04A
+        http://purl.org/ASN/resources/S102A04B
+        http://purl.org/ASN/resources/S102A04C
+        http://purl.org/ASN/resources/S102A04D
+        http://purl.org/ASN/resources/S102A052
+        http://purl.org/ASN/resources/S102A053
+        http://purl.org/ASN/resources/S102A057
+
+Science-1993-American Assoc Advancement of Science Proj 2061 (AAASP)-Benchmarks for Science Literacy.xml
+        OK
+
+Science-2005-Alaska-Science Performance Standards.xml
+        OK
+
+Science-2005-Washington-Essential Academic Learning Require.xml
+        OK
+
+Science-1995-Colorado-Content Standards for Science.xml
+        OK
+
+Science-2003-Minnesota-Academic Standards Science.xml
+        OK
+
+Science-2002-Illinois-Science Performance Descriptors.xml
+        OK
+
+Science-1996-New York-Elementary Science, Intermediate Sc.xml
+        1 MISSING standards
+        http://purl.org/ASN/resources/S1027543
+
+Science-2004-Georgia-Science Performance Standards.xml
+        136 MISSING standards
+        http://purl.org/ASN/resources/S101FE5A
+        http://purl.org/ASN/resources/S100A188
+        http://purl.org/ASN/resources/S101C22B
+        http://purl.org/ASN/resources/S1002169
+        http://purl.org/ASN/resources/S100A077
+        http://purl.org/ASN/resources/S1008D42
+        http://purl.org/ASN/resources/S1001CB2
+        http://purl.org/ASN/resources/S1017C3B
+        http://purl.org/ASN/resources/S1013CD1
+        http://purl.org/ASN/resources/S100427E
+        http://purl.org/ASN/resources/S101B66B
+        http://purl.org/ASN/resources/S100A8B4
+        http://purl.org/ASN/resources/S101F0D4
+        http://purl.org/ASN/resources/S10062D7
+        http://purl.org/ASN/resources/S10252AF
+        http://purl.org/ASN/resources/S1009960
+        http://purl.org/ASN/resources/S1010B6D
+        http://purl.org/ASN/resources/S102326B
+        http://purl.org/ASN/resources/S100CC61
+        http://purl.org/ASN/resources/S1004251
+        http://purl.org/ASN/resources/S100D9A5
+        http://purl.org/ASN/resources/S100D069
+        http://purl.org/ASN/resources/S101E86E
+        http://purl.org/ASN/resources/S1002E8B
+        http://purl.org/ASN/resources/S101F656
+        http://purl.org/ASN/resources/S1007A18
+        http://purl.org/ASN/resources/S1021A27
+        http://purl.org/ASN/resources/S10071E7
+        http://purl.org/ASN/resources/S101F9C5
+        http://purl.org/ASN/resources/S1006BAD
+        http://purl.org/ASN/resources/S1012399
+        http://purl.org/ASN/resources/S1016C50
+        http://purl.org/ASN/resources/S1003F6F
+        http://purl.org/ASN/resources/S102765A
+        http://purl.org/ASN/resources/S1007E7E
+        http://purl.org/ASN/resources/S1027681
+        http://purl.org/ASN/resources/S1027682
+        http://purl.org/ASN/resources/S1027672
+        http://purl.org/ASN/resources/S1027673
+        http://purl.org/ASN/resources/S1027674
+        http://purl.org/ASN/resources/S102765B
+        http://purl.org/ASN/resources/S102765C
+        http://purl.org/ASN/resources/S1027661
+        http://purl.org/ASN/resources/S102765D
+        http://purl.org/ASN/resources/S102765E
+        http://purl.org/ASN/resources/S102765F
+        http://purl.org/ASN/resources/S1027660
+        http://purl.org/ASN/resources/S1027662
+        http://purl.org/ASN/resources/S1027663
+        http://purl.org/ASN/resources/S101E2BA
+        http://purl.org/ASN/resources/S100DD12
+        http://purl.org/ASN/resources/S101584B
+        http://purl.org/ASN/resources/S1012976
+        http://purl.org/ASN/resources/S101F3D5
+        http://purl.org/ASN/resources/S1014E14
+        http://purl.org/ASN/resources/S1025B0C
+        http://purl.org/ASN/resources/S1027683
+        http://purl.org/ASN/resources/S1027684
+        http://purl.org/ASN/resources/S1027685
+        http://purl.org/ASN/resources/S1027686
+        http://purl.org/ASN/resources/S1027687
+        http://purl.org/ASN/resources/S1027688
+        http://purl.org/ASN/resources/S1002E1E
+        http://purl.org/ASN/resources/S10140A1
+        http://purl.org/ASN/resources/S1010FFE
+        http://purl.org/ASN/resources/S1027665
+        http://purl.org/ASN/resources/S1027664
+        http://purl.org/ASN/resources/S1027667
+        http://purl.org/ASN/resources/S1027668
+        http://purl.org/ASN/resources/S1027669
+        http://purl.org/ASN/resources/S102766A
+        http://purl.org/ASN/resources/S102766B
+        http://purl.org/ASN/resources/S102766D
+        http://purl.org/ASN/resources/S102766E
+        http://purl.org/ASN/resources/S1027670
+        http://purl.org/ASN/resources/S1027671
+        http://purl.org/ASN/resources/S1015C9E
+        http://purl.org/ASN/resources/S1009031
+        http://purl.org/ASN/resources/S101F5E6
+        http://purl.org/ASN/resources/S10034AB
+        http://purl.org/ASN/resources/S100B674
+        http://purl.org/ASN/resources/S1019D93
+        http://purl.org/ASN/resources/S101013F
+        http://purl.org/ASN/resources/S101AF11
+        http://purl.org/ASN/resources/S100BEEA
+        http://purl.org/ASN/resources/S1005C6A
+        http://purl.org/ASN/resources/S1004FBC
+        http://purl.org/ASN/resources/S1010141
+        http://purl.org/ASN/resources/S100673D
+        http://purl.org/ASN/resources/S1006221
+        http://purl.org/ASN/resources/S1018879
+        http://purl.org/ASN/resources/S1027651
+        http://purl.org/ASN/resources/S1027693
+        http://purl.org/ASN/resources/S1027652
+        http://purl.org/ASN/resources/S1027694
+        http://purl.org/ASN/resources/S102769A
+        http://purl.org/ASN/resources/S1027699
+        http://purl.org/ASN/resources/S1027697
+        http://purl.org/ASN/resources/S1027698
+        http://purl.org/ASN/resources/S1027696
+        http://purl.org/ASN/resources/S1027695
+        http://purl.org/ASN/resources/S102769E
+        http://purl.org/ASN/resources/S102769D
+        http://purl.org/ASN/resources/S102769C
+        http://purl.org/ASN/resources/S102768E
+        http://purl.org/ASN/resources/S1001AFF
+        http://purl.org/ASN/resources/S102768B
+        http://purl.org/ASN/resources/S102768D
+        http://purl.org/ASN/resources/S102768A
+        http://purl.org/ASN/resources/S102769B
+        http://purl.org/ASN/resources/S102A314
+        http://purl.org/ASN/resources/S102767F
+        http://purl.org/ASN/resources/S1020B53
+        http://purl.org/ASN/resources/S1002839
+        http://purl.org/ASN/resources/S1010816
+        http://purl.org/ASN/resources/S1027680
+        http://purl.org/ASN/resources/S102767A
+        http://purl.org/ASN/resources/S1027679
+        http://purl.org/ASN/resources/S102767B
+        http://purl.org/ASN/resources/S1027678
+        http://purl.org/ASN/resources/S10260EF
+        http://purl.org/ASN/resources/S10291A9
+        http://purl.org/ASN/resources/S1006F74
+        http://purl.org/ASN/resources/S10069CE
+        http://purl.org/ASN/resources/S101B1DD
+        http://purl.org/ASN/resources/S100C352
+        http://purl.org/ASN/resources/S1003EA3
+        http://purl.org/ASN/resources/S101C1DB
+        http://purl.org/ASN/resources/S1011248
+        http://purl.org/ASN/resources/S1012C65
+        http://purl.org/ASN/resources/S100A175
+        http://purl.org/ASN/resources/S101F439
+        http://purl.org/ASN/resources/S1017D93
+        http://purl.org/ASN/resources/S1009472
+        http://purl.org/ASN/resources/S1020ECF
+        http://purl.org/ASN/resources/S100F773
+
+Science-2007-Maine-Science and Technology Grade Span E.xml
+        OK
+
+Science-2006-Rhode Island-Life Science.xml
+        OK
+
+Science-2005-Louisiana-Content Standards for Science.xml
+        OK
+
+Science-2006-Rhode Island-Physical Science.xml
+        OK
+
+Science-2005-Hawaii-HCPS III Science.xml
+        OK
+
+Science-1995-Delaware-Science Curriculum Framework.xml
+        8 MISSING standards
+        http://purl.org/ASN/resources/S10001DD
+        http://purl.org/ASN/resources/S100E184
+        http://purl.org/ASN/resources/S101DA70
+        http://purl.org/ASN/resources/S101C437
+        http://purl.org/ASN/resources/S100099F
+        http://purl.org/ASN/resources/S100DA7A
+        http://purl.org/ASN/resources/S101086D
+        http://purl.org/ASN/resources/S101DAFF
+
+Science-2002-Maryland-Science Core Learning Goals.xml
+        OK
+
+Science-1997-Maine-Learning Results for Science and Te.xml
+        OK
+
+Science-2001-Tennessee-Science Curriculum Standards.xml
+        OK
+
+Science-2003-Wyoming-Science Content and Performance Sta.xml
+        OK
+
+Science-1999-Georgia-QCC Standards for Science.xml
+        OK
+
+Science-2007-Colorado-Model Content Standards Science.xml
+        OK
+
+Science-2003-Utah-Science - Utah Education Network.xml
+        OK
+
+Science-2006-Iowa-Science Core Curriculum for Iowa Hi.xml
+        OK
+
+Science-2004-Vermont-Grade Expectations for Vermont's Fr.xml
+        OK
+
+Science-2006-Georgia-Science Performance Standards.xml
+        OK
+
+Science-2002-New Jersey-Content Standards for Science.xml
+        OK
+
+Science-1999-Hawaii-Science Content Standards.xml
+        OK
+
+Science-1999-Kentucky-Core Content for Science Assessment.xml
+        OK
+
+Science-2004-North Carolina-Science Standard Course of Study an.xml
+        OK
+
+Science-2006-Michigan-High School Science Essential Conte.xml
+        OK
+
+Science-2001-Kansas-Science Education Standards.xml
+        OK
+
+Science-1997-National Council on Economic Education (NCEE)-New Standards.xml
+        OK
+
+Science-2007-Michigan-Science K-7 Content Expectations.xml
+        OK
+
+Science-2001-Oregon-Academic Content Standards - Scienc.xml
+        OK
+
+Science-2007-Rhode Island-Earth and Space Science.xml
+        OK
+
+Science-1998-Kentucky-Program of Studies Science and Heal.xml
+        OK
+
+Science-2000-South Carolina-Science Curriculum Standards.xml
+        OK
+
+Science-2000-Indiana-Academic Standards K-12 Science.xml
+        OK
+
+Science-2005-Iowa-Science Core Content Corresponding .xml
+        OK
+
+		
+
+=========================
+asnCheck: /dls/devel/common/asn/v1.4.0/science/
+
+
+Checking /dls/devel/common/asn/v1.4.0/science/
+
+
+1999-Hawaii-Science-Science Content Standards.xml
+	OK
+
+2007-Colorado-Science-Model Content Standards Science.xml
+	OK
+
+2002-Illinois-Science-Science Performance Descriptors.xml
+	OK
+
+2005-Maryland-Science-Voluntary State Curriculum for Scie.xml
+	OK
+
+2005-South Carolina-Science-Science Academic Standards.xml
+	OK
+
+2006-Iowa-Science-Science Core Curriculum for Iowa Hi.xml
+	OK
+
+2005-Washington-Science-Essential Academic Learning Require.xml
+	OK
+
+2006-Montana-Science-Montana Standards for Science.xml
+	OK
+
+1999-Montana-Science-Montana Standards for Science.xml
+	OK
+
+2003-Utah-Science-Science - Utah Education Network.xml
+	OK
+
+2002-North Dakota-Science-Science Content Standards and Bench.xml
+	OK
+
+1998-Nebraska-Science-Nebraska Science Standards.xml
+	OK
+
+1995-Delaware-Science-Science Curriculum Framework.xml
+	OK
+
+2000-Michigan-Science-Curriculum Framework Science.xml
+	OK
+
+1995-New Hampshire-Science-K-12 Science Curriculum Framework.xml
+	OK
+
+2003-West Virginia-Science-Science Content Standards and Objec.xml
+	OK
+
+2005-Missouri-Science-Science Grade-Level Expectations.xml
+	OK
+
+2005-South Dakota-Science-Science Content Standards.xml
+	OK
+
+1997-Texas-Science-Chapter 112 TEKS for Science.xml
+	OK
+
+2005-Iowa-Science-Science Core Content Corresponding .xml
+	OK
+
+1999-Kentucky-Science-Core Content for Science Assessment.xml
+	OK
+
+1998-California-Science-Science Content Standards.xml
+	OK
+
+2006-New Hampshire-Science-K-12 Science Literacy Curriculum Fr.xml
+	OK
+
+2007-Maine-Science-Science and Technology Grade Span E.xml
+	OK
+
+1995-Colorado-Science-Content Standards for Science.xml
+	OK
+
+2005-Arkansas-Science-Science Curriculum Framework .xml
+	OK
+
+2000-Indiana-Science-Academic Standards K-12 Science.xml
+	OK
+
+2006-Massachusetts-Science-Science and Technology Appendix I.xml
+	OK
+
+2004-Vermont-Science-Grade Expectations for Vermont's Fr.xml
+	OK
+
+2001-Oregon-Science-Academic Content Standards - Scienc.xml
+	OK
+
+2005-Hawaii-Science-HCPS III Science.xml
+	OK
+
+2006-Delaware-Science-Science Content Standards.xml
+	OK
+
+2002-Pennsylvania-Science-Science and Technology and Environm.xml
+	OK
+
+2006-Kentucky-Science-Program of Study Science.xml
+	OK
+
+2001-Alabama-Science-Course of Study Science.xml
+	OK
+
+1999-Georgia-Science-QCC Standards for Science.xml
+	OK
+
+2006-Michigan-Science-High School Science Essential Conte.xml
+	OK
+
+2000-Vermont-Science-Vermont's Framework of Standards an.xml
+	OK
+
+1996-New York-Science-Elementary Science, Intermediate Sc.xml
+	OK
+
+1995-Rhode Island-Science-Science Framework.xml
+	OK
+
+2002-Oklahoma-Science-PASS for Science.xml
+	OK
+
+2002-Ohio-Science-Academic Content Standards K-12 Sci.xml
+	OK
+
+2002-New Jersey-Science-Content Standards for Science.xml
+	OK
+
+2003-Minnesota-Science-Academic Standards Science.xml
+	OK
+
+2004-Connecticut-Science-Core Science Curriculum Framework.xml
+	OK
+
+1995-National Science Education Standards (NSES)-Science-National Science Education Standard.xml
+	OK
+
+2006-Massachusetts-Science-Science and Technology Engineering .xml
+	OK
+
+2005-Alaska-Science-Science Performance Standards.xml
+	OK
+
+2004-North Carolina-Science-Science Standard Course of Study an.xml
+	OK
+
+2004-Georgia-Science-Science Performance Standards.xml
+	OK
+
+2005-Alabama-Science-Course of Study Science.xml
+	OK
+
+2001-Mississippi-Science-Science Framework.xml
+	OK
+
+2006-Kentucky-Science-Core Content for Science.xml
+	OK
+
+1999-South Dakota-Science-Science Standards.xml
+	OK
+
+1999-Arkansas-Science-Science Curriculum Framework.xml
+	OK
+
+2003-New Mexico-Science-Science Content Standards, Benchmar.xml
+	OK
+
+2007-Kansas-Science-Science Education Standards.xml
+	OK
+
+2001-Kansas-Science-Science Education Standards.xml
+	OK
+
+2003-Wyoming-Science-Science Content and Performance Sta.xml
+	OK
+
+1997-Maine-Science-Learning Results for Science and Te.xml
+	OK
+
+1998-Wisconsin-Science-Wisconsin Model Academic Standards .xml
+	OK
+
+2008-West Virginia-Science-21st Century Science K-8 Content St.xml
+	OK
+
+2001-Idaho-Science-Achievement Standards Science.xml
+	OK
+
+1998-Kentucky-Science-Program of Studies Science and Heal.xml
+	OK
+
+2005-Nevada-Science-K-12 Science Standards.xml
+	OK
+
+2001-Tennessee-Science-Science Curriculum Standards.xml
+	OK
+
+2005-Louisiana-Science-Content Standards for Science.xml
+	OK
+
+1993-American Assoc Advancement of Science Proj 2061 (AAASP)-Science-Benchmarks for Science Literacy.xml
+	OK
+
+2004-Arizona-Science-Content Standards - Science.xml
+	OK
+
+2003-Virginia-Science-Science Standards of Learning for V.xml
+	OK
+
+2006-North Dakota-Science-Science Content and Achievement Sta.xml
+	OK
+
+1997-Illinois-Science-Learning Standards Science.xml
+	OK
+
+2006-Idaho-Science-Content Standards - Science.xml
+	OK
+
+2000-South Carolina-Science-Science Curriculum Standards.xml
+	OK
+
+2001-Massachusetts-Science-Science and Technology Engineering .xml
+	OK
+
+1997-National Council on Economic Education (NCEE)-Science-New Standards.xml
+	OK
+
+2004-Louisiana-Science-Science Grade-Level Expectations.xml
+	OK
+
+2006-Alaska-Science-Content Standards Science.xml
+	OK

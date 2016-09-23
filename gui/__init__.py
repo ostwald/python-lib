@@ -1,0 +1,1 @@
+from quitter import Quitter

@@ -1,0 +1,94 @@
+""" 
+bscs - 
+this package supports the task of merging BSCS repositories
+(Curriculum and UserContent).
+
+The first thing we want to do is collect IDs and then test for collisions
+
+To optimize the process we'll download IDs info files and just work with those
+
+files to generate:
+	BSCS | CCS
+		- userIds
+		- playlistIds
+		- resourceIds (we are only interested in user-contributed)
+
+"""
+import os, sys
+from repo import *
+
+class RepoInfo:
+	def __init__ (self, name, baseUrl):
+		self.name = name
+		self.baseUrl = baseUrl
+		
+# BSCS Repositories
+bscs_curriculum = RepoInfo("BSCS_Curriculum", "http://localhost:8070/curricula/services/ddsws1-1")
+bscs_user_content = RepoInfo("BSCS_User_Content", "http://localhost:8070/dds/services/ddsws1-1")
+
+# CCS Repositories - production server - requires tunneling
+ccs_curriculum = RepoInfo("CCS_Curriculum", "http://localhost:7248/dds/services/ddsws1-1")
+
+class IDSearchResult (SearchResult):
+	
+	def report(self):
+		print self.recId, self.collection, self.xmlFormat
+
+class IDSearcher (RepositorySearcher):
+	
+	searchResult_constructor = IDSearchResult
+	
+
+def getIds (repo, collection=None, xmlFormat=None):
+	results = IDSearcher(collection, xmlFormat, repo.baseUrl)
+	ids = map (lambda x:x.recId, results)
+	ids.sort()
+	return ids
+
+def cacheIds (repo, filename, collection=None, xmlFormat=None):
+	ids = getIds(repo, collection, xmlFormat)
+	baseCacheDir = os.path.join('id_cache', repo.name.split('_')[0])
+	path = os.path.join (baseCacheDir, filename)
+	fp = open(path, 'w')
+	fp.write ('\n'.join(ids))
+	fp.close()
+	print 'wrote to', path
+	
+def cacheUserIds (repo):
+	xmlFormat = 'userdata'
+	collection = 'ccsusers'
+	filename = "userIds.txt"
+	cacheIds(repo, filename, collection, xmlFormat)	
+	
+def cacheResourceIds (repo):
+	collection = 'ccsusersubmittedresources'
+	filename = "submittedResourceIds.txt"
+	cacheIds(repo, filename, collection=collection)	
+	
+def cachePlaylistIds (repo):
+	collection = 'ccsplaylists'
+	filename = "playlistIds.txt"
+	cacheIds(repo, filename, collection=collection)	
+	
+def cacheEmailds (repo):
+	collection = ' ccsemails '
+	filename = "emailIds.txt"
+	cacheIds(repo, filename, collection=collection)	
+
+if __name__ == '__main__':
+
+	# repo = bscs_user_content
+	repo = ccs_curriculum
+	if 1:
+		cacheUserIds(repo)
+	if 1:
+		cacheResourceIds(repo)
+	if 1:
+		cachePlaylistIds(repo)
+	if 0:
+		cacheEmailds(repo)		
+	if 0:
+		collection = 'ccsusersubmittedresources'
+		ids = getIds(repo, collection=collection)
+		print 'there are %d ids for %s' % (len(ids), collection)
+

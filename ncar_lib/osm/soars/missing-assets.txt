@@ -1,0 +1,102 @@
+An asset could not be found for these papers - 2010-04-26
+---------------------------------------------------------
+
+145 : The Effective Use of Qualitative Methods in Establishing Best Practices in an Academic Bridge Program
+	getAsset: no asset found for "Kelly, Resa (2001)"
+	assetID: 
+
+154 : Isoprene-Producing Bacteria in the Rhizosphere
+	getAsset: no asset found for "Wood, Yasmin (2001)"
+	assetID: 
+
+161 : Modeling wildfire behavior and analyzing emissions
+	getAsset: no asset found for "Cameron, Marques (2009)"
+	assetID: 
+
+163 : Decrease in the summer rainfall of the southern United States coast and the Caribbean due to climate change
+	getAsset: no asset found for "Cespedes, Roque (2009)"
+	assetID: 
+
+165 : A citizen science campaign encouraging urban forest professionals to engage the public in the collection of tree phenological data
+	getAsset: no asset found for "Clarke, Karl (2009)"
+	assetID: 
+
+167 : Orographic effects on rainfall induced by the passage of tropical cyclones over mountainous islands.  Part 1:  The effect of cloud microphysics
+	getAsset: no asset found for "Colon Pagan, Ian Carlos (2009)"
+	assetID: 
+
+173 : Reconsidering the role of Rossby waves in the Madden-Julian Oscillation (MJO)
+	getAsset: no asset found for "Gonzalez, Alex (2009)"
+	assetID: 
+
+175 : Eliassen-Palm fluxes of the diurnal tides from Whole Atmospheric Community Climate Model-Extended (WACCM-X)
+	getAsset: no asset found for "Jones Jr., McArthur (2009)"
+	assetID: 
+
+176 : Modeling Antarctica
+	getAsset: no asset found for "Mata, Ramiro (2008)"
+	assetID: 
+
+179 : Different ways of knowing:  Exploring traditional ecological knowledge and climate modeling for the Turtle Mountains, North Dakota
+	getAsset: no asset found for "Pauzauskie, Dana (2009)"
+	assetID: 
+
+180 : Urban transport and dispersion sensitivity ot wind direction and source location
+	getAsset: no asset found for "Rodriguez-Manzanet, Luna (2008)"
+	assetID: 
+
+182 : Analyzing soil moisture and runoff variability in the Manitou Springs Experiemental Forest
+	getAsset: no asset found for "Tahchawwickah Butler, Chahta (2008)"
+	assetID: 
+
+185 : Re-examination of Northeast United States drought trends and characteristics
+	getAsset: no asset found for "Walter, Marcus (2009)"
+	assetID: 
+
+187 : Poleward moisture transport by recurving tropical cyclones and its effect on mid-latitude precipitation
+	getAsset: no asset found for "Boone, Graylen (2009)"
+	assetID: 
+
+188 : The effects of cloud cover on photosynthesis in a sub-alpine forest ecosystem focusing on Niwot Ridge, Colorado
+	getAsset: no asset found for "Detweiler, Raymond (2009)"
+	assetID: 
+
+189 : Evaluating the effects of latent heating in tropical cyclone Sinlaku's extratroplical transition using ARW and energetics analysis
+	getAsset: no asset found for "Hernandez, Michael (2009)"
+	assetID: 
+
+190 : A higher order tracer transport scheme for icosahedral hexagonal grid
+	getAsset: no asset found for "Menchaca, Maximo (2009)"
+	assetID: 
+
+191 : Climatology of precipitation in West Africa through observational studies
+	getAsset: no asset found for "Morris, Imani (2009)"
+	assetID: 
+
+192 : The effects of convective clouds on vertical scalar transport using a numerically simulated flow field
+	getAsset: no asset found for "Ngo, Nicole (2009)"
+	assetID: 
+
+193 : Lightning activity in Atlantic tropical cyclones:  Using the Long-range Lightnin Detection Network (LLDN)
+	getAsset: no asset found for "Pardo Rodriquez, Lumari (2009)"
+	assetID: 
+
+194 : Comparison of the VORTRAC retrieved structure of Hurricane Danny (1997) to prior analyses
+	getAsset: no asset found for "Paulus, Matthew (2009)"
+	assetID: 
+
+195 : Flash floods:  a spatial and temporal analysis.  A case study of the March 2008 flash floods in southwestern Missouri
+	getAsset: no asset found for "Pollak, Daniel (2009)"
+	assetID: 
+
+196 : The reslationship between sea breezes and rainfall along western Mexico during the North American Monsoon
+	getAsset: no asset found for "Vincente, Vanessa (2009)"
+	assetID: 
+
+197 : Model analysis of 27-day solar induced variability of chemical dynamics in the equatorial upper and middle atmosphere
+	getAsset: no asset found for "Yanchilina, Anastasia (2009)"
+	assetID: 
+
+198 : Comparison of ABL heights derived from COSMIC RO and the RUC Model
+	getAsset: no asset found for "Goode, Sharome (2009)"
+	assetID: 

@@ -1,0 +1,230 @@
+Conference Proceedings																			
+Pub. #	Author Last	Author First	Author Middle 1	Author Middle 2	Institutional Affiliation	"Collaboration (UCAR Only, UCAR and University, UCAR and Other, UCAR, University and Other "	Publication Year  	Publication Type  	Publication Title  	City  	State  	Country  	Fiscal Year  	Published via Open Access?					
+Num	Author Last	Author First	Author Middle 1	Author Middle 2	Institutional Affiliation	Collaboration	Publication Year  	Publication Type  	Publication Title  	City  	State  	Country  	Fiscal Year  	Open Access	Volume	Page Start	Page End	DOI	Notes
+1	Ellis	Scott			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground clutter mitigation for S-band dual-polarimetric radars	Williamsburg 	VA 	USA 	2010	No					
+	Hubbert	John			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground clutter mitigation for S-band dual-polarimetric radars	Williamsburg 	VA 	USA 	2010	No					
+	Dixon	Michael 			"UCAR, NCAR, RAL"	UCAR Only	2009	Proceeding-Article	Ground clutter mitigation for S-band dual-polarimetric radars	Williamsburg 	VA 	USA 	2010	No					
+	Meymaris 	Gregory			"UCAR, NCAR, RAL, AAP"	UCAR Only	2009	Proceeding-Article	Ground clutter mitigation for S-band dual-polarimetric radars	Williamsburg 	VA 	USA 	2010	No					
+2	Brown 	William			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	Wind profiles with an elastic backscatter Lidar using uto and cross correlation techniques 	St Petersburg 		RUS 	2010	No					
+	Morley	Bruce			"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	Wind profiles with an elastic backscatter Lidar using uto and cross correlation techniques 	St Petersburg 		RUS 	2010	No					
+	Spuler	Scott			"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	Wind profiles with an elastic backscatter Lidar using uto and cross correlation techniques 	St Petersburg 		RUS 	2010	No					
+3	Young	Kate			"UCAR, NCAR, EOL, ISF"	UCAR Only	2009	Proceeding-Article	Consistent quality control on 13-year (1996-2008) high resolution GPS dropsonde data for hurricane research 	Delft 		NLD 	2010	No					
+	Wang	Junhong			"UCAR, NCAR, EOL, ISF"	UCAR Only	2009	Proceeding-Article	Consistent quality control on 13-year (1996-2008) high resolution GPS dropsonde data for hurricane research 	Delft 		NLD 	2010	No					
+	Arensdorf	Blake			"UCAR, NCAR, EOL, ISF"	UCAR Only	2009	Proceeding-Article	Consistent quality control on 13-year (1996-2008) high resolution GPS dropsonde data for hurricane research 	Delft 		NLD 	2010	No					
+4	Oncley	Steve			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Semmer	Steven			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Horst	Thomas	W		"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Militzer	John			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Maclean	Gordan			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Knudson	Kurt			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Golubieski	Chris			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+	Dong	Ling-Ling			"UCAR, NCAR, EOL CDS"	UCAR Only	2010	Proceeding-Article	CentNet A deployable 100-station network for surface exchange research 	Atlanta 	GA 	USA 	2010	No					
+5	Vivekanandan (Vivek)	Jothiram			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground-based and airborne weather radars and lidar for observing atmosphere 	Williamsburg 	VA 	USA 	2010	No					
+	Loew	Eric			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground-based and airborne weather radars and lidar for observing atmosphere 	Williamsburg 	VA 	USA 	2010	No					
+	Spuler	Scott			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground-based and airborne weather radars and lidar for observing atmosphere 	Williamsburg 	VA 	USA 	2010	No					
+	Lee	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground-based and airborne weather radars and lidar for observing atmosphere 	Williamsburg 	VA 	USA 	2010	No					
+	Weckwerth 	Tammy			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Ground-based and airborne weather radars and lidar for observing atmosphere 	Williamsburg 	VA 	USA 	2010	No					
+6	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+	Meyaris	Gregory			"UCAR, NCAR, RAL, AAP"	UCAR Only	2009	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+	Dixon	Michael 			"UCAR, NCAR, RAL"	UCAR Only	2009	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+7	Richter	Dirk			"UCAR, NCAR, EOL, TDF"	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Weibring	Petter			"UCAR, NCAR, EOL, TDF"	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Fried	Alan			"UCAR, NCAR, EOL, TDF"	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Rippe	Lars			Lund University	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Lewander	Marta			Lund University	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Batet	Oscar			Technical University of Catalonia	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Walega	James	G		"UCAR, NCAR, EOL, TDF"	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+	Spuler	Scott			"UCAR, NCAR, EOL, RSF"	UCAR and University	2010	Proceeding-Article	"Spectrometers: Successes, challenges, and opportunities "	San Diego 	CA 	USA 	2010	No					
+8	Lee	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Overview of ELDORA operations in The THORPEX Pacific Asian Regional Campaign	Williamsburg 	VA 	USA 	2010	No					
+	Bell	Michael 			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Overview of ELDORA operations in The THORPEX Pacific Asian Regional Campaign	Williamsburg 	VA 	USA 	2010	No					
+	Loew	Eric			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Overview of ELDORA operations in The THORPEX Pacific Asian Regional Campaign	Williamsburg 	VA 	USA 	2010	No					
+	Wolff	Cory			"UCAR, NCAR, RAL, AAP"	UCAR Only	2009	Proceeding-Article	Overview of ELDORA operations in The THORPEX Pacific Asian Regional Campaign	Williamsburg 	VA 	USA 	2010	No					
+	Cai	Huaqing			"UCAR, NCAR, RAL, HAP"	UCAR Only	2009	Proceeding-Article	Overview of ELDORA operations in The THORPEX Pacific Asian Regional Campaign	Williamsburg 	VA 	USA 	2010	No					
+9	Hsiu	Rong-Guang			National Taiwan University	UCAR and University	2009	Proceeding-Article	Mesoscale boundaries and thunderstorm initiation during Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment 	Williamsburg 	VA 	USA 	2010	No					
+	Jou	Ben	J	D	National Taiwan University	UCAR and University	2009	Proceeding-Article	Mesoscale boundaries and thunderstorm initiation during Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment 	Williamsburg 	VA 	USA 	2010	No					
+	Lee 	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	Mesoscale boundaries and thunderstorm initiation during Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment 	Williamsburg 	VA 	USA 	2010	No					
+10	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	Antenna polarization errors and biases in polarimetric variables for simultaneous horizontal and vertical transmit radar 	Sibiu 		ROU 	2010	No					
+	Ellis	Scott			"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	Antenna polarization errors and biases in polarimetric variables for simultaneous horizontal and vertical transmit radar 	Sibiu 		ROU 	2010	No					
+	Meymaris 	Gregory			"UCAR, NCAR, RAL, AAP"	UCAR Only	2010	Proceeding-Article	Antenna polarization errors and biases in polarimetric variables for simultaneous horizontal and vertical transmit radar 	Sibiu 		ROU 	2010	No					
+	Dixon	Michael 			"UCAR, NCAR, RAL"	UCAR Only	2010	Proceeding-Article	Antenna polarization errors and biases in polarimetric variables for simultaneous horizontal and vertical transmit radar 	Sibiu 		ROU 	2010	No					
+11	Weckwerth 	Tammy	M		"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	"Extended abstracts, 5th European Conference on Severe Storms"	Landshut 		DEU 	2010	No					
+	Wilson	James			"UCAR, NCAR, RAL, HAP"	UCAR Only	2009	Proceeding-Article	"Extended abstracts, 5th European Conference on Severe Storms"	Landshut 		DEU 	2010	No					
+12	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	X-band simultaneous horizontal and vertical transmit data and cross-coupling signatures	Williamsburg 	VA 	USA 	2010	No					
+	Shen	X	S		Chinese Academy of Meteorological Sciences	UCAR and University	2009	Proceeding-Article	X-band simultaneous horizontal and vertical transmit data and cross-coupling signatures	Williamsburg 	VA 	USA 	2010	No					
+	Wang	T	C		Chinese Academy of Meteorological Sciences	UCAR and University	2009	Proceeding-Article	X-band simultaneous horizontal and vertical transmit data and cross-coupling signatures	Williamsburg 	VA 	USA 	2010	No					
+	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	X-band simultaneous horizontal and vertical transmit data and cross-coupling signatures	Williamsburg 	VA 	USA 	2010	No					
+13	Zhong 	S			Michigan State University	UCAR and University	2010	Proceeding-Article	An observational study of turbulence inside a closed basin 	Keystone 	CO 	USA 	2010	No					
+	Fu	P	J			UCAR and University	2010	Proceeding-Article	An observational study of turbulence inside a closed basin 	Keystone 	CO 	USA 	2010	No					
+	Bian	X			Mc Gill University	UCAR and University	2010	Proceeding-Article	An observational study of turbulence inside a closed basin 	Keystone 	CO 	USA 	2010	No					
+	Whiteman	C	D		University of Utah	UCAR and University	2010	Proceeding-Article	An observational study of turbulence inside a closed basin 	Keystone 	CO 	USA 	2010	No					
+	Horst	T			"UCAR, NCAR, EOL, ISF"	UCAR and University	2010	Proceeding-Article	An observational study of turbulence inside a closed basin 	Keystone 	CO 	USA 	2010	No					
+14	Lee	Gyuwon			Kyungpook National University	UCAR and University	2009	Proceeding-Article	Improved precipitation nowcasting: Model errors and their correction in operational numercial weather predictions at different scales 	Williamsburg 	VA 	USA 	2010	No					
+	Zawadzki	I			Mc Gill University	UCAR and University	2009	Proceeding-Article	Improved precipitation nowcasting: Model errors and their correction in operational numercial weather predictions at different scales 	Williamsburg 	VA 	USA 	2010	No					
+	Wilson	James			"UCAR, NCAR, RAL, HAP"	UCAR and University	2009	Proceeding-Article	Improved precipitation nowcasting: Model errors and their correction in operational numercial weather predictions at different scales 	Williamsburg 	VA 	USA 	2010	No					
+	Xu	M				UCAR and University	2009	Proceeding-Article	Improved precipitation nowcasting: Model errors and their correction in operational numercial weather predictions at different scales 	Williamsburg 	VA 	USA 	2010	No					
+	Kilambi	A				UCAR and University	2009	Proceeding-Article	Improved precipitation nowcasting: Model errors and their correction in operational numercial weather predictions at different scales 	Williamsburg 	VA 	USA 	2010	No					
+	Pinto	J			University of Cologne	UCAR and University	2009	Proceeding-Article	Improved precipitation nowcasting: Model errors and their correction in operational numercial weather predictions at different scales 	Williamsburg 	VA 	USA 	2010	No					
+15	Lee 	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	Airborne radar observations of heavy precipitation systems influenced by monsoon 	Taipei 		TWN 	2010	No					
+	Liu	Ching-Hwang			Chinese Cultural University	UCAR and University	2009	Proceeding-Article	Airborne radar observations of heavy precipitation systems influenced by monsoon 	Taipei 		TWN 	2010	No					
+16	Jong-DaoJOU	Ben			National Taiwan University	UCAR and University	2009	Proceeding-Article	An overview of the Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment and its operation 	Taipei 		TWN 	2010	No					
+	Lee	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	An overview of the Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment and its operation 	Taipei 		TWN 	2010	No					
+	Johnson	Richard	H		Colorado State University	UCAR and University	2009	Proceeding-Article	An overview of the Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment and its operation 	Taipei 		TWN 	2010	No					
+17	Meitín 	José 			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	Requesting use of National Science Foundation facilities for education 	Atlanta 	GA 	USA 	2010	No					
+	Baeuerle	Brigitte			"UCAR, NCAR, EOL, ISF"	UCAR Only	2010	Proceeding-Article	Requesting use of National Science Foundation facilities for education 	Atlanta 	GA 	USA 	2010	No					
+18	Ice 	Richard	L		Wyle Information Systems	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Cate	G	S			"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Saffle	R	E			"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Sirmans	D			National Severe Storms Laboratory	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Zrnic	D	S		National Severe Storms Laboratory	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Torres	S	M		Cooperative Institute for Mesoscale Meteorological Studies	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Warde	D	A		SI International	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Ellis	Scott			"UCAR, NCAR, EOL, RSF"	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Free	A	D			"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+19	Ice 	Richard	L		Wyle Information Systems	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Cate	G	S			"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Saffle	R	E			"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Sirmans	D			National Severe Storms Laboratory	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Zrnic	D	S		National Severe Storms Laboratory	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Torres	S	M		Cooperative Institute for Mesoscale Meteorological Studies	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Warde	D	A		SI International	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+	Free	A	D			"UCAR, University and Other"	2010	Proceeding-Article	A signal processing roadmap for next-generation radar	Atlanta 	GA 	USA 	2010	No					
+20	Weckwerth 	Tammy	M		"UCAR, NCAR, EOL, RSF"	"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+	Bennett	Lindsay	J		University of Leeds	"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+	Wilson	James	W		"UCAR, NCAR, RAL, HAP"	"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+	Van Baelen	Joel			Laboratoire de Meteorologie Physique Observatoire de Physique du Globe de Clermont-Ferrand	"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+	Hagen	Martin			"Institut für Physik der Atmosphäre, DLR "	"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+	Emerson	Tracy	J		"UCAR, NCAR, EOL, RSF"	"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+	Grebe	L				"UCAR, University and Other"	2010	Proceeding-Article	Convection initiation in Convective and Orographically-induced Precipitation Study: Radar climatology and 6 August 2007 case study	Sibiu 		ROU 	2010	No					
+21	Hubbert 	John	C		"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+	Meymaris 	Gregory			"UCAR, NCAR, RAL, AAP"	UCAR Only	2010	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+	Dixon	Michael 			"UCAR, NCAR, RAL"	UCAR Only	2010	Proceeding-Article	"Cross-coupling, antenna errors and simultaneous horizontal and vertical polarization transmit data "	Williamsburg 	VA 	USA 	2010	No					
+22	Brown 	William			"UCAR, NCAR, EOL, ISF"	UCAR and University	2009	Proceeding-Article	MAPR wind profiler observations of tropical storms for the Clouds and Precipitation Study (CPS) Project 	Delft 		NLD 	2010	No					
+	Albrecht	Bruce			University of Miami	UCAR and University	2009	Proceeding-Article	MAPR wind profiler observations of tropical storms for the Clouds and Precipitation Study (CPS) Project 	Delft 		NLD 	2010	No					
+	Cohn	Stephen			"UCAR, NCAR, EOL, ISF"	UCAR and University	2009	Proceeding-Article	MAPR wind profiler observations of tropical storms for the Clouds and Precipitation Study (CPS) Project 	Delft 		NLD 	2010	No					
+	Donaher	Shaunna			University of Miami	UCAR and University	2009	Proceeding-Article	MAPR wind profiler observations of tropical storms for the Clouds and Precipitation Study (CPS) Project 	Delft 		NLD 	2010	No					
+23	Brown 	William			"UCAR, NCAR, EOL, ISF"	UCAR and University	2009	Proceeding-Article	The atmospheric response to the north atlantic gulf Stream observed by a ship-board wind profiler 	Delft 		NLD 	2010	No					
+	Edson	James			University of Connecticut	UCAR and University	2009	Proceeding-Article	The atmospheric response to the north atlantic gulf Stream observed by a ship-board wind profiler 	Delft 		NLD 	2010	No					
+24	Nguyen	Khuong	X		Clemson University	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using Advection Horizontal Array Turbulence Study field data 	Keystone 	CO 	USA 	2010	No					
+	Oncley	Steve	P		"UCAR, NCAR, EOL, ISF"	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using Advection Horizontal Array Turbulence Study field data 	Keystone 	CO 	USA 	2010	No					
+	Horst	Thomas	W		"UCAR, NCAR, EOL, ISF"	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using Advection Horizontal Array Turbulence Study field data 	Keystone 	CO 	USA 	2010	No					
+	Sullivan	Peter	P		"UCAR, NCAR, NESL, MMM"	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using Advection Horizontal Array Turbulence Study field data 	Keystone 	CO 	USA 	2010	No					
+	Tong	C			Clemson University	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using Advection Horizontal Array Turbulence Study field data 	Keystone 	CO 	USA 	2010	No					
+25	Wang	Junhong			"UCAR, NCAR, EOL, ISF"	UCAR Only	2009	Proceeding-Article	Upper-air observations from dropsondes over Pacific Ocean from THORPEX Pacific Asian Regional Campaign	Delft 		NLD 	2010	No					
+	Young	Kate			"UCAR, NCAR, EOL, ISF"	UCAR Only	2009	Proceeding-Article	Upper-air observations from dropsondes over Pacific Ocean from THORPEX Pacific Asian Regional Campaign	Delft 		NLD 	2010	No					
+	Zhang	Liangying			"UCAR, NCAR, EOL, ISF"	UCAR Only	2009	Proceeding-Article	Upper-air observations from dropsondes over Pacific Ocean from THORPEX Pacific Asian Regional Campaign	Delft 		NLD 	2010	No					
+26	Zhao	Kun			Nanjing University	UCAR and University	2009	Proceeding-Article	Single doppler radar observation of the concentric eyewall in Typhoon Saomai (2006) near landfall	Williamsburg 	VA 	USA 	2010	No					
+	Lee	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	Single doppler radar observation of the concentric eyewall in Typhoon Saomai (2006) near landfall	Williamsburg 	VA 	USA 	2010	No					
+	Jou	B	J	D		UCAR and University	2009	Proceeding-Article	Single doppler radar observation of the concentric eyewall in Typhoon Saomai (2006) near landfall	Williamsburg 	VA 	USA 	2010	No					
+27	Lindseth	Bradley			"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2009	Proceeding-Article	"A new 449 MHz wind profiler radar: evaluation of antennas, amplifiers and capabilities "	Williamsburg 	VA 	USA 	2010	No					
+	Brown 	William	O	J	"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2009	Proceeding-Article	"A new 449 MHz wind profiler radar: evaluation of antennas, amplifiers and capabilities "	Williamsburg 	VA 	USA 	2010	No					
+	Cohn	Stephen	A		"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2009	Proceeding-Article	"A new 449 MHz wind profiler radar: evaluation of antennas, amplifiers and capabilities "	Williamsburg 	VA 	USA 	2010	No					
+	Jordan	James	R		National Oceanic and Atmospheric Administration	"UCAR, University and Other"	2009	Proceeding-Article	"A new 449 MHz wind profiler radar: evaluation of antennas, amplifiers and capabilities "	Williamsburg 	VA 	USA 	2010	No					
+	Law	D				"UCAR, University and Other"	2009	Proceeding-Article	"A new 449 MHz wind profiler radar: evaluation of antennas, amplifiers and capabilities "	Williamsburg 	VA 	USA 	2010	No					
+	Hock	Terrence			"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2009	Proceeding-Article	"A new 449 MHz wind profiler radar: evaluation of antennas, amplifiers and capabilities "	Williamsburg 	VA 	USA 	2010	No					
+28	Oncley 	Steven			"UCAR, NCAR, EOL, ISF"	UCAR and University	2010	Proceeding-Article	Observations of pressure perturbations within heat devils 	Atlanta 	GA 	USA 	2010	No					
+	Hartogensis	O	K		Wageningen University 	UCAR and University	2010	Proceeding-Article	Observations of pressure perturbations within heat devils 	Atlanta 	GA 	USA 	2010	No					
+29	Baeuerle	Brigitte	G		"UCAR, NCAR, EOL, FPS"	UCAR Only	2009	Proceeding-Article	Requesting use of National Science Foundation facilities for education 	San Francisco 	CA 	USA 	2010	No					
+	Meitín	José	G		"UCAR, NCAR, EOL, FPS"	UCAR Only	2009	Proceeding-Article	Requesting use of National Science Foundation facilities for education 	San Francisco 	CA 	USA 	2010	No					
+30	Lindseth	Brad 			"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Brown 	William			"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Cohn	Steve	A		"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Jordan	James	R		National Oceanic and Atmospheric Administration	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Hock	Terry			"UCAR, NCAR, EOL, ISF"	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Lopez	Nestor				"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Hoversten	John			University of Colorado	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+	Popovic	Zoya			University of Colorado	"UCAR, University and Other"	2010	Proceeding-Article	High power amplifier design for a new 449 MHz wind profiler radar 	Boulder 	CO 	USA 	2010	No					
+31	Weckwerth 	Tammy	M		"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment observations of non-synoptically-forced convection 	Williamsburg 	VA 	USA 	2010	No					
+	Lee	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR and University	2009	Proceeding-Article	Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment observations of non-synoptically-forced convection 	Williamsburg 	VA 	USA 	2010	No					
+	Friedrich	K				UCAR and University	2009	Proceeding-Article	Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment observations of non-synoptically-forced convection 	Williamsburg 	VA 	USA 	2010	No					
+	Roberts	Rita	D		"UCAR, NCAR, RAL, HAP"	UCAR and University	2009	Proceeding-Article	Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment observations of non-synoptically-forced convection 	Williamsburg 	VA 	USA 	2010	No					
+	Wilson	James	W		"UCAR, NCAR, RAL, HAP"	UCAR and University	2009	Proceeding-Article	Southwest Monsoon Experiment/Terrain-influenced Monsoon Rainfall Experiment observations of non-synoptically-forced convection 	Williamsburg 	VA 	USA 	2010	No					
+32	Rilling	Robert			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Flanigan	Dennis	F		"UCAR, NCAR, EOL, CDS"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Miller	L	J		"UCAR, NCAR, NESL, MMM"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Burghart	Christopher	D		"UCAR, NCAR, EOL, CDS"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Vanandel	Joseph	H		"UCAR, NCAR, EOL, CDS"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Lee	Wen-Chau			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Bell	Michael 	M		"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Vivekanandan (Vivek)	Jothiram			"UCAR, NCAR, EOL, RSF"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+	Daniels	Mike	D		"UCAR, NCAR, EOL, CDS"	UCAR Only	2009	Proceeding-Article	Progress update on NCAR radar remote sensing software	Williamsburg 	VA 	USA 	2010	No					
+33	Hubbert	John	C		"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	The characterization of the effect of antenna polarization errors on simultaneous horizontal and vertical transmitt polarization data 	Atlanta 	GA 	USA 	2010	No					
+	Ellis	Scott	M		"UCAR, NCAR, EOL, RSF"	UCAR Only	2010	Proceeding-Article	The characterization of the effect of antenna polarization errors on simultaneous horizontal and vertical transmitt polarization data 	Atlanta 	GA 	USA 	2010	No					
+	Dixon	Mike			"UCAR, NCAR, RAL"	UCAR Only	2010	Proceeding-Article	The characterization of the effect of antenna polarization errors on simultaneous horizontal and vertical transmitt polarization data 	Atlanta 	GA 	USA 	2010	No					
+	Meymaris 	Gregory			"UCAR, NCAR, RAL, AAP"	UCAR Only	2010	Proceeding-Article	The characterization of the effect of antenna polarization errors on simultaneous horizontal and vertical transmitt polarization data 	Atlanta 	GA 	USA 	2010	No					
+34	Nguyen 	Khuong	X		Clemson University	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using AHATS field data 	Keystone 	CO 	USA 	2010	No					
+	Oncley	Steven	P		"UCAR, NCAR, EOL, ISF"	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using AHATS field data 	Keystone 	CO 	USA 	2010	No					
+	Horst	Thomas	W		"UCAR, NCAR, EOL, ISF"	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using AHATS field data 	Keystone 	CO 	USA 	2010	No					
+	Sullivan	P	P		"UCAR, NCAR, NESL, MMM"	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using AHATS field data 	Keystone 	CO 	USA 	2010	No					
+	Tong	C			Clemson University	UCAR and University	2010	Proceeding-Article	Investigation of subgrid-scale turbulence in the atmospheric surface layer using AHATS field data 	Keystone 	CO 	USA 	2010	No					
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			

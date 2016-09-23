@@ -1,0 +1,81 @@
+reading merged/merged-state-countries.xsd
+
+52 pubs country codes were not found in data hub
+- WF (Wallis and Futuna Islands)
+- BM (Bermuda)
+- BV (Bouvet Island)
+- JE (Jersey)
+- RE (Reunion)
+- TK (Tokelau)
+- GU (Guam)
+- GS (South Georgia and South Sandwich Islands)
+- GP (Guadeloupe)
+- GG (Guernsey)
+- GF (French Guiana)
+- GL (Greenland)
+- GI (Gibraltar)
+- HK (Hong Kong)
+- HM (Heard and McDonald Islands)
+- PR (Puerto Rico)
+- PS (Palestine)
+- SJ (Svalbard and Jan Mayen Islands)
+- PF (French Polynesia)
+- PN (Pitcairn)
+- PM (Saint Pierre and Miquelon)
+- MC (Monaco)
+- MO (Macau)
+- MT (Malta)
+- MQ (Martinique)
+- MP (Northern Mariana Islands)
+- MS (Montserrat)
+- IM (Isle of Man)
+- IO (British Indian Ocean Territory)
+- FK (Falkland Islands)
+- FO (Faroe Islands)
+- NC (New Caledonia)
+- NF (Norfolk Island)
+- ZR (ZAIRE (1971-1997))
+- NU (Niue)
+- CK (Cook Islands)
+- CC (Cocos Islands)
+- CX (Christmas Island)
+- CS (SERBIA AND MONTENEGRO (2003-2006))
+- VG (British)
+- YU (YUGOSLAVIA (1929-2003))
+- YT (Mayotte)
+- LC (Saint Lucia)
+- TC (Turks and Caicos Islands)
+- VA (Vatican City)
+- AI (Anguilla)
+- VI (U.S.)
+- AN (Netherlands Antilles)
+- AQ (Antarctica)
+- AS (American Samoa)
+- AW (Aruba)
+- AX (Aland)
+
+21 pubs country codes did not match their counterpart in data hub
+- BO
+  pubs - Bolivia
+   hub - Bolivia, Plurinational State Of
+- VE
+  pubs - Venezuela
+   hub - Venezuela, Bolivarian Republic of
+- VN
+  pubs - Vietnam
+   hub - Viet Nam
+- MD
+  pubs - Moldova
+   hub - Moldova, Republic of
+- MK
+  pubs - Macedonia
+   hub - Macedonia, the Former Yugoslav Republic Of
+- TZ
+  pubs - Tanzania
+   hub - Tanzania, United Republic of
+- SH
+  pubs - Saint Helena
+   hub - Saint Helena, Ascension and Tristan Da Cunha
+- FM
+  pubs - Micronesia
+   hub - Micronesia, Federated States Of

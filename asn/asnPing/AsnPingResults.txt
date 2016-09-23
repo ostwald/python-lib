@@ -1,0 +1,37 @@
+timestamp	url	clicks	errcode	notes
+Mon Jul 27 14:09:42 2009	http://purl.org/ASN/resources/S1046B24	0.812		
+Mon Jul 27 14:09:45 2009	http://purl.org/ASN/scheme/ASNEducationLevel/9	3.188		
+Mon Jul 27 14:09:45 2009	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.422		
+Mon Jul 27 14:09:46 2009	http://purl.org/ASN/scheme/ASNTopic/civics	0.281		
+Mon Jul 27 14:09:49 2009	http://purl.org/ASN/resources/S1046B24	0.688		
+Mon Jul 27 14:09:49 2009	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.250		
+Mon Jul 27 14:09:49 2009	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.422		
+Mon Jul 27 14:09:50 2009	http://purl.org/ASN/scheme/ASNTopic/civics	0.281		
+Mon Jul 27 14:09:53 2009	http://purl.org/ASN/resources/S1046B24	0.703		
+Mon Jul 27 14:09:54 2009	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.265		
+Mon Jul 27 14:09:54 2009	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.407		
+Mon Jul 27 14:09:54 2009	http://purl.org/ASN/scheme/ASNTopic/civics	0.265		
+Mon Jul 27 14:09:58 2009	http://purl.org/ASN/resources/S1046B24	0.687		
+Mon Jul 27 14:09:58 2009	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.266		
+Mon Jul 27 14:09:58 2009	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.406		
+Mon Jul 27 14:09:59 2009	http://purl.org/ASN/scheme/ASNTopic/civics	0.266		
+2009/07/27 14:15:20	http://purl.org/ASN/resources/S1046B24	0.687		
+2009/07/27 14:15:20	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.266		
+2009/07/27 14:15:20	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.406		
+2009/07/27 14:15:21	http://purl.org/ASN/scheme/ASNTopic/civics	0.266		
+07/27/2009 14:18:47	http://purl.org/ASN/resources/S1046B24	0.688		
+07/27/2009 14:18:47	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.250		
+07/27/2009 14:18:48	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.406		
+07/27/2009 14:18:48	http://purl.org/ASN/scheme/ASNTopic/civics	0.312		
+07/27/2009 14:18:52	http://purl.org/ASN/resources/S1046B24	0.688		
+07/27/2009 14:18:52	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.265		
+07/27/2009 14:18:53	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.422		
+07/27/2009 14:18:53	http://purl.org/ASN/scheme/ASNTopic/civics	0.250		
+07/27/2009 14:18:56	http://purl.org/ASN/resources/S1046B24	0.688		
+07/27/2009 14:18:56	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.312		
+07/27/2009 14:18:57	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.406		
+07/27/2009 14:18:57	http://purl.org/ASN/scheme/ASNTopic/civics	0.282		
+07/27/2009 14:19:00	http://purl.org/ASN/resources/S1046B24	0.703		
+07/27/2009 14:19:01	http://purl.org/ASN/scheme/ASNEducationLevel/9	0.250		
+07/27/2009 14:19:01	http://purl.org/ASN/scheme/ASNJurisdiction/NV	0.438		
+07/27/2009 14:19:01	http://purl.org/ASN/scheme/ASNTopic/civics	0.281		

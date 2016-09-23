@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dcsDataRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.dpc.ucar.edu/people/ostwald/Metadata/dcs-data/dcs-data.xsd">
+  <recordID>DATA-CLASS-000-000-000-016</recordID>
+  <isValid/>
+  <statusEntries>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>Copied from DATA-CLASS-000-000-000-002</statusNote>
+      <editor>Unknown</editor>
+      <changeDate>2007-03-28T14:22:27Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>Needs QA</status>
+      <statusNote/>
+      <editor>Bob</editor>
+      <changeDate>2007-03-28T14:39:57Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>_|-final-1158872755897-|_</status>
+      <statusNote/>
+      <editor>Mike</editor>
+      <changeDate>2007-03-29T08:42:52Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2007-03-29T08:42:36Z</lastTouchDate>
+  <validationReport/>
+  <badChars/>
+</dcsDataRecord>

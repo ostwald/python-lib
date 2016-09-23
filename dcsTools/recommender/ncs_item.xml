@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs" xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd">
+  <general>
+  	<recordID/>
+    <url>http://www.techquila.com/topicmaps/xmlschema/</url>
+    <title>W3C Schema Topic Map</title>
+    <description>A tool to browse the W3C schema spec</description>
+  </general>
+</record>

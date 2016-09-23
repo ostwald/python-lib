@@ -1,0 +1,2182 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ostwald</LastAuthor>
+  <Created>2009-12-04T23:57:34Z</Created>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10740</WindowHeight>
+  <WindowWidth>16875</WindowWidth>
+  <WindowTopX>720</WindowTopX>
+  <WindowTopY>330</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="uniqueWOSpubnames">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="710" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">caps</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AAPG BULLETIN-AMERICAN ASSOCIATION OF PETROLEUM GEOLOGISTS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACS SYMPOSIUM SERIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTA ASTRONAUTICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTA BOTANICA SINICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ACTA GEOPHYSICA SINICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN ATMOSPHERIC SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN CHEMISTRY SERIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN COLLOID AND INTERFACE SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN COMPUTATIONAL MATHEMATICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN ECOLOGICAL RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN ECONOMETRICS, VOL 14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN GEOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN GLOBAL MAGNETOSPHERIC STRUCTURE, DYNAMICS, AND REGION COUPLING, PROCEEDINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN REMOTE SENSING OF THE ATMOSPHERE FROM SPACE AND FROM THE GROUND</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN SPACE RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN SPECIFYING PLASMA TEMPERATURES AND ION COMPOSITION IN THE IONOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADVANCES IN WATER RESOURCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AEROSOL SCIENCE AND TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AEROSPACE AMERICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AFRICA TODAY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AGRICULTURAL AND FOREST ENTOMOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AGRICULTURAL AND FOREST METEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AGRICULTURAL METEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AGRICULTURE ECOSYSTEMS &amp; ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AI MAGAZINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AIAA JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AICHE JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AIP CONFERENCE PROCEEDINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMBIO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN ANTHROPOLOGIST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN INDUSTRIAL HYGIENE ASSOCIATION JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN JOURNAL OF PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN JOURNAL OF SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN JOURNAL OF TROPICAL MEDICINE AND HYGIENE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN SCIENTIST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN STATISTICIAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AMERICAN ZOOLOGIST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANALYSIS AND APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANALYTICAL CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALES DE GEOPHYSIQUE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALES GEOPHYSICAE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALES GEOPHYSICAE SERIES A-UPPER ATMOSPHERE AND SPACE SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALES GEOPHYSICAE SERIES B-TERRESTRIAL AND PLANETARY PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALES GEOPHYSICAE-ATMOSPHERES HYDROSPHERES AND SPACE SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF APPLIED STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF BOTANY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF GLACIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF GLACIOLOGY, VOL 33</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF THE AMERICAN ACADEMY OF POLITICAL AND SOCIAL SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF THE ASSOCIATION OF AMERICAN GEOGRAPHERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNALS OF THE NEW YORK ACADEMY OF SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF ASTRONOMY AND ASTROPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF EARTH AND PLANETARY SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF ENERGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF ENVIRONMENT AND RESOURCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF FLUID MECHANICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF MARINE SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANNUAL REVIEW OF PHYSICAL CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANTARCTIC AND ARCTIC MIDDLE ATMOSPHERES: THEIR DIFFERENCES AND SIMILARITIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ANTARCTIC JOURNAL OF THE UNITED STATES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">APPLIED GEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">APPLIED MATHEMATICS AND COMPUTATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">APPLIED NUMERICAL MATHEMATICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">APPLIED OPTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">APPLIED PHYSICS B-LASERS AND OPTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARCHIV FUR METEOROLOGIE GEOPHYSIK UND BIOKLIMATOLOGIE SERIE A-METEOROLOGIE UND GEOPHYSIK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARCHIV FUR METEOROLOGIE GEOPHYSIK UND BIOKLIMATOLOGIE SERIE B-KLIMATOLOGIE UMWELTMETEOROLOGIE STRAHLUNGSFORSCHUNG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARCHIVES OF BIOCHEMISTRY AND BIOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARCTIC AND ALPINE RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARCTIC ANTARCTIC AND ALPINE RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AREA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASHRAE JOURNAL-AMERICAN SOCIETY OF HEATING REFRIGERATING AND AIR-CONDITIONING ENGINEERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASIA-PACIFIC JOURNAL OF ATMOSPHERIC SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONAUTICS &amp; AERONAUTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONOMICAL JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONOMISCHE NACHRICHTEN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONOMY &amp; ASTROPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONOMY &amp; ASTROPHYSICS SUPPLEMENT SERIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONOMY AND ASTROPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTRONOMY AND ASTROPHYSICS REVIEW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTROPHYSICAL JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTROPHYSICAL JOURNAL LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTROPHYSICAL JOURNAL SUPPLEMENT SERIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTROPHYSICAL LETTERS &amp; COMMUNICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASTROPHYSICS AND SPACE SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSFERA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERE-OCEAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERIC CHEMISTRY AND PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERIC ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERIC ENVIRONMENT PART A-GENERAL TOPICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERIC ENVIRONMENT PART B-URBAN ATMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERIC RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATMOSPHERIC SCIENCE LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AUSTRALIAN JOURNAL OF PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AUSTRALIAN METEOROLOGICAL MAGAZINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BERNOULLI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOCHIMICA ET BIOPHYSICA ACTA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOGEOCHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOGEOSCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOLOGY AND FERTILITY OF SOILS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOMACROMOLECULES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOMETRICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOMETRIKA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOPHYSICAL JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOSCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOSECURITY AND BIOTERRORISM-BIODEFENSE STRATEGY PRACTICE AND SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIOTROPICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIRD STUDY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BOUNDARY-LAYER METEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BRITISH JOURNAL OF SPORTS MEDICINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BROOKHAVEN SYMPOSIA IN BIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BULLETIN OF MARINE SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BULLETIN OF THE AMERICAN METEOROLOGICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BULLETIN OF THE AMERICAN PHYSICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BULLETIN OF THE ATOMIC SCIENTISTS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BUNSEKI KAGAKU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN JOURNAL OF BOTANY-REVUE CANADIENNE DE BOTANIQUE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN JOURNAL OF CHEMISTRY-REVUE CANADIENNE DE CHIMIE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN JOURNAL OF EARTH SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN JOURNAL OF FISHERIES AND AQUATIC SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN JOURNAL OF FOREST RESEARCH-REVUE CANADIENNE DE RECHERCHE FORESTIERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN JOURNAL OF PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANADIAN MATHEMATICAL BULLETIN-BULLETIN CANADIEN DE MATHEMATIQUES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANCER EPIDEMIOLOGY BIOMARKERS &amp; PREVENTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CARBON</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHAOS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHAOS SOLITONS &amp; FRACTALS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMICAL &amp; ENGINEERING NEWS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMICAL ENGINEERING COMMUNICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMICAL PHYSICS LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMISTRY &amp; INDUSTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMISTRY AND PHYSICS OF CARBON, VOL 24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMPHYSCHEM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHEMTECH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHINESE JOURNAL OF GEOPHYSICS-CHINESE EDITION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHINESE SCIENCE BULLETIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CIRA PART III REFERENCE ATMOSPHERES - TRACE CONSTITUENT MODELS - COMPARISON WITH LATEST DATA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLIMATE DYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLIMATE OF THE PAST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLIMATE RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLIMATIC CHANGE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COLD REGIONS SCIENCE AND TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COLLOID AND POLYMER SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COLLOQUIUM MATHEMATICUM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMMUNICATIONS IN MATHEMATICAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMMUNICATIONS IN STATISTICS PART A-THEORY AND METHODS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMMUNICATIONS IN STATISTICS-SIMULATION AND COMPUTATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMMUNICATIONS IN STATISTICS-THEORY AND METHODS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMMUNICATIONS OF THE ACM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPTES RENDUS GEOSCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPTES RENDUS PHYSIQUE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTATIONAL SCIENCE - ICCS 2005, PT 1, PROCEEDINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTATIONAL SCIENCE - ICCS 2005, PT 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTATIONAL SCIENCE - ICCS 2005, PT 3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTATIONAL SCIENCE - ICCS 2006, PT 3, PROCEEDINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTER METHODS IN APPLIED MECHANICS AND ENGINEERING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTER PHYSICS COMMUNICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTER STANDARDS &amp; INTERFACES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTERS &amp; FLUIDS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTERS &amp; GEOSCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTERS &amp; MATHEMATICS WITH APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COMPUTING IN SCIENCE &amp; ENGINEERING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CONCURRENCY AND COMPUTATION-PRACTICE &amp; EXPERIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CONTEMPORARY ECONOMIC POLICY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CONTEMPORARY POLICY ISSUES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CONTINENTAL SHELF RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COSMIC DYNAMO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COSPAR INTERNATIONAL REFERENCE ATMOSPHERE (CIRA), PT III</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COUPLING AND ENERGETICS IN THE STRATOSPHERE-MESOSPHERE-THERMOSPHERE-IONOSPHERE SYSTEM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COUPLING OF THE HIGH AND LOW LATITUDE HELIOSPHERE AND ITS RELATION TO THE CORONA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COUPLING PROCESSES IN THE MLT REGION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CRYOBIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CRYSTAL GROWTH &amp; DESIGN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CURRENT CONTENTS/ENGINEERING TECHNOLOGY &amp; APPLIED SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CURRENT CONTENTS/PHYSICAL CHEMICAL &amp; EARTH SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CURRENT MICROBIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DEEP-SEA RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DEEP-SEA RESEARCH PART I-OCEANOGRAPHIC RESEARCH PAPERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DEEP-SEA RESEARCH PART II-TOPICAL STUDIES IN OCEANOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DISASTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DISCRETE AND CONTINUOUS DYNAMICAL SYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DYNAMICS OF ATMOSPHERES AND OCEANS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EAR AND HEARING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EARTH AND PLANETARY SCIENCE LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EARTH INTERACTIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EARTH MOON AND PLANETS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EARTH PLANETS AND SPACE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EARTH-SCIENCE REVIEWS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EARTHS MIDDLE ATMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOHYDROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOLOGICAL APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOLOGICAL ECONOMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOLOGICAL MODELLING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOLOGICAL MONOGRAPHS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECONOMIC GEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECONOMICS LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECOSYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ELECTRONICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENERGY JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENERGY POLICY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENT AND BEHAVIOR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENT AND PLANNING A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENT AND PLANNING C-GOVERNMENT AND POLICY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL AND ECOLOGICAL STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL CONSERVATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL FLUID MECHANICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL HEALTH PERSPECTIVES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL MANAGEMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL MODELLING &amp; SOFTWARE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL MONITORING AND ASSESSMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL POLLUTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL RESEARCH LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL SCIENCE &amp; POLICY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL SCIENCE &amp; TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMENTAL SOFTWARE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENVIRONMETRICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EPIDEMIOLOGY AND INFECTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ESA JOURNAL-EUROPEAN SPACE AGENCY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EURO-PAR 2005 PARALLEL PROCESSING, PROCEEDINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EUROPEAN PHYSICAL JOURNAL B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EUROPHYSICS LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FASEB JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FEBS LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FISHERIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FLUID DYNAMICS RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FLUID PHASE EQUILIBRIA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORBES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOREIGN AFFAIRS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOREST ECOLOGY AND MANAGEMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOREST SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOUNDATIONS OF PHYSICS LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FRONTIERS IN ECOLOGY AND THE ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GAS HYDRATES: CHALLENGES FOR THE FUTURE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOCHEMICAL JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOCHEMISTRY GEOPHYSICS GEOSYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOCHIMICA ET COSMOCHIMICA ACTA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOFORUM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOGRAPHICAL JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOLOGICAL SOCIETY OF AMERICA BULLETIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOPHYSICAL AND ASTROPHYSICAL FLUID DYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOPHYSICAL RESEARCH LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEOTIMES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GESTION Y POLITICA PUBLICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLOBAL AND PLANETARY CHANGE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLOBAL BIOGEOCHEMICAL CYCLES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLOBAL CHANGE BIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLOBAL ECOLOGY AND BIOGEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLOBAL ENVIRONMENTAL CHANGE-HUMAN AND POLICY DIMENSIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLOBAL ENVIRONMENTAL POLITICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GPS SOLUTIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GREENHOUSE GASES, OZONE, AND ELECTRODYNAMICS; THEIR CHANGES IN THE MIDDLE ATMOSPHERE AND LOWER THERMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HEALTH PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HIGH LATITUDE STUDIES AND UPPER ATMOSPHERIC PROCESSES INCLUDING CLIMATE CHANGE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HIGHLIGHTS OF ASTRONOMY, VOL 12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HOLOCENE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HRC-JOURNAL OF HIGH RESOLUTION CHROMATOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HYDROCARBON PROCESSING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HYDROLOGICAL PROCESSES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HYDROLOGICAL SCIENCES JOURNAL-JOURNAL DES SCIENCES HYDROLOGIQUES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HYDROLOGY AND EARTH SYSTEM SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HYDROPHILIC POLYMERS - PERFORMANCE WITH ENVIRONMENTAL ACCEPTANCE </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IAU SYMPOSIA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IBM JOURNAL OF RESEARCH AND DEVELOPMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ICARUS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE AEROSPACE AND ELECTRONIC SYSTEMS MAGAZINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE CONTROL SYSTEMS MAGAZINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE GEOSCIENCE AND REMOTE SENSING LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE SPECTRUM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON AEROSPACE AND ELECTRONIC SYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON COMPUTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON GEOSCIENCE AND REMOTE SENSING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON INFORMATION THEORY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON MICROWAVE THEORY AND TECHNIQUES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON PLASMA SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON SYSTEMS MAN AND CYBERNETICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IMA JOURNAL OF NUMERICAL ANALYSIS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IMPACT OF SCIENCE ON SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INDIANA UNIVERSITY MATHEMATICS JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INFLUENCE OF THE SUN'S RADIATION AND PARTICLES ON THE EARTH'S ATMOSPHERE AND CLIMATE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INFOSYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INFRARED PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INFRARED SOLAR PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INGENIERIA HIDRAULICA EN MEXICO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INITIAL REPORTS OF THE DEEP SEA DRILLING PROJECT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERDISCIPLINARY SCIENCE REVIEWS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL ENVIRONMENTAL AFFAIRS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL GEOLOGY REVIEW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN FLUIDS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF CHEMICAL KINETICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF CLIMATOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF COMPUTATIONAL METHODS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF EARTH SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF HEAT AND MASS TRANSFER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF HIGH PERFORMANCE COMPUTING APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF HIGH SPEED COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF HYGIENE AND ENVIRONMENTAL HEALTH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF MASS SPECTROMETRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF MODERN PHYSICS C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF REMOTE SENSING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF SUPERCOMPUTER APPLICATIONS AND HIGH PERFORMANCE COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF VEHICLE DESIGN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF WATER RESOURCES DEVELOPMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INTERNATIONAL JOURNAL OF WILDLAND FIRE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INVERSE PROBLEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IONOSPHERIC/THERMOSPHERIC/MESOSPHERIC COUPLING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ISOTOPES IN ENVIRONMENTAL AND HEALTH STUDIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ISSUES IN SCIENCE AND TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IZVESTIYA AKADEMII NAUK SERIYA FIZICHESKAYA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JAMA-JOURNAL OF THE AMERICAN MEDICAL ASSOCIATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL DE MATHEMATIQUES PURES ET APPLIQUEES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL DE MECANIQUE THEORIQUE ET APPLIQUEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL DE PHYSIQUE II</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF AEROSOL SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF AGRICULTURAL BIOLOGICAL AND ENVIRONMENTAL STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF AIRCRAFT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ALLERGY AND CLINICAL IMMUNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED CRYSTALLOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED MECHANICS-TRANSACTIONS OF THE ASME</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED METEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED METEOROLOGY AND CLIMATOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED PHYSIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED POLYMER SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED PROBABILITY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF APPLIED REMOTE SENSING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ARID ENVIRONMENTS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ASTROPHYSICS AND ASTRONOMY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ATMOSPHERIC AND OCEANIC TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ATMOSPHERIC AND SOLAR-TERRESTRIAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ATMOSPHERIC AND TERRESTRIAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ATMOSPHERIC CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF BIOGEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF BIOMEDICINE AND BIOTECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CHEMICAL EDUCATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CHEMICAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CHROMATOGRAPHIC SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CHROMATOGRAPHY A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CLIMATE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CLIMATE AND APPLIED METEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CLIMATOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CLINICAL ONCOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF COATINGS TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF COLLOID AND INTERFACE SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF COMPUTATIONAL AND APPLIED MATHEMATICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF COMPUTATIONAL AND GRAPHICAL STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF COMPUTATIONAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CONFLICT RESOLUTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF CRYSTAL GROWTH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF DENTAL RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF EARTH SYSTEM SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ECONOMETRICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ENGINEERING MATHEMATICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ENVIRONMENTAL MONITORING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ENVIRONMENTAL QUALITY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ENVIRONMENTAL SCIENCE AND HEALTH PART A-ENVIRONMENTAL SCIENCE AND ENGINEERING &amp; TOXIC AND HAZARDOUS SUBSTANCE CONTROL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF ENVIRONMENTAL SYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF EXPERIMENTAL ZOOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF FLUID MECHANICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF FLUIDS ENGINEERING-TRANSACTIONS OF THE ASME</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF FORECASTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOCHEMICAL EXPLORATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEODESY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEODYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOMAGNETISM AND GEOELECTRICITY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-ATMOSPHERES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-BIOGEOSCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-EARTH SURFACE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-OCEANS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-OCEANS AND ATMOSPHERES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-PLANETS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-SOLID EARTH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-SOLID EARTH AND PLANETS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICAL RESEARCH-SPACE PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GEOPHYSICS-ZEITSCHRIFT FUR GEOPHYSIK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF GLACIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF HAZARDOUS MATERIALS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF HYDROLOGIC ENGINEERING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF HYDROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF HYDROMETEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF IRRIGATION AND DRAINAGE ENGINEERING-ASCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MARINE RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MARINE SYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MATHEMATICAL ANALYSIS AND APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MATHEMATICAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MOLECULAR EVOLUTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MOLECULAR SPECTROSCOPY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF MULTIVARIATE ANALYSIS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF NON-NEWTONIAN FLUID MECHANICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PALEOLIMNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHOTOCHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY A-CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHOTOCHEMISTRY AND PHOTOBIOLOGY B-BIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICAL CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICAL CHEMISTRY A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICAL CHEMISTRY B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICAL OCEANOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICS A-MATHEMATICAL AND GENERAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICS B-ATOMIC MOLECULAR AND OPTICAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PHYSICS-CONDENSED MATTER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PLANKTON RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF PLASMA PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF POLYMER SCIENCE PART B-POLYMER PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF QUANTITATIVE SPECTROSCOPY &amp; RADIATIVE TRANSFER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF RADIOANALYTICAL CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF RHEOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF RURAL STUDIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF SCIENTIFIC COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF SEDIMENTARY RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF SOIL AND WATER CONSERVATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF SPACECRAFT AND ROCKETS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF STATISTICAL COMPUTATION AND SIMULATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF STATISTICAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF STATISTICAL PLANNING AND INFERENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF SUPERCOMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF TESTING AND EVALUATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE ACOUSTICAL SOCIETY OF AMERICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AIR &amp; WASTE MANAGEMENT ASSOCIATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AIR POLLUTION CONTROL ASSOCIATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AMERICAN CHEMICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AMERICAN SOCIETY FOR MASS SPECTROMETRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AMERICAN STATISTICAL ASSOCIATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE AMERICAN WATER RESOURCES ASSOCIATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE ATMOSPHERIC SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE CHEMICAL SOCIETY-FARADAY TRANSACTIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE CHEMICAL SOCIETY-FARADAY TRANSACTIONS II</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE CHINESE CHEMICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE GEOLOGICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE KOREAN METEOROLOGICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE KOREAN STATISTICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE METEOROLOGICAL SOCIETY OF JAPAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE OPTICAL SOCIETY OF AMERICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE OPTICAL SOCIETY OF AMERICA A-OPTICS IMAGE SCIENCE AND VISION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE ROYAL ASTRONOMICAL SOCIETY OF CANADA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE ROYAL SOCIETY INTERFACE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE ROYAL STATISTICAL SOCIETY SERIES A-STATISTICS IN SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF THE ROYAL STATISTICAL SOCIETY SERIES C-APPLIED STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF TROPICAL ECOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF TURBULENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF VEGETATION SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF VISUALIZATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF VOLCANOLOGY AND GEOTHERMAL RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOURNAL OF WIND ENGINEERING AND INDUSTRIAL AERODYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LAB ANIMAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LANDSCAPE AND URBAN PLANNING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LANGMUIR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LASER &amp; PHOTONICS REVIEWS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LECTURE NOTES IN PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LIMNOLOGY AND OCEANOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MACROMOLECULES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MAGNETOSHEATH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MAINTENANCE MANAGEMENT AND OPERATIONS SERVICES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MARINE CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MARINE MICROPALEONTOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MARINE POLICY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MARINE TECHNOLOGY SOCIETY JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MATERIALS EVALUATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MATHEMATICAL GEOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MATHEMATICS AND COMPUTERS IN SIMULATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MATHEMATICS OF COMPUTATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MEASUREMENT SCIENCE &amp; TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MEDICAL DECISION MAKING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">METEORITICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">METEOROLOGICAL APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">METEOROLOGICAL MAGAZINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">METEOROLOGISCHE RUNDSCHAU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">METEOROLOGISCHE ZEITSCHRIFT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">METEOROLOGY AND ATMOSPHERIC PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MICROFLUIDICS AND NANOFLUIDICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MICROSCOPE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MIDDLE ATMOSPHERE TEMPORAL AND SPATIAL STRUCTURES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MIDDLE EAST JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MONATSHEFTE FUR MATHEMATIK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MONTHLY NOTICES OF THE ROYAL ASTRONOMICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MONTHLY WEATHER REVIEW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURAL HAZARDS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURAL HAZARDS AND EARTH SYSTEM SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURAL HISTORY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURAL RESOURCES FORUM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURAL RESOURCES JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURE GEOSCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURE-PHYSICAL SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NATURWISSENSCHAFTEN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NEURAL NETWORKS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NEUROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NEW ENGLAND JOURNAL OF MEDICINE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NEW JOURNAL OF PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NEW SCIENTIST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NIPPON KAGAKU KAISHI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NONLINEAR PROCESSES IN GEOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NONLINEARITY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NORTHWEST ENVIRONMENTAL JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUCLEAR FUSION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUCLEAR INSTRUMENTS &amp; METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS WITH MATERIALS AND ATOMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUCLEAR PHYSICS B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUCLEIC ACIDS RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUMERICAL METHODS FOR PARTIAL DIFFERENTIAL EQUATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUOVO CIMENTO DELLA SOCIETA ITALIANA DI FISICA C-GEOPHYSICS AND SPACE PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NURSING RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NUTRIENT CYCLING IN AGROECOSYSTEMS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OCEAN &amp; COASTAL MANAGEMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OCEAN DEVELOPMENT AND INTERNATIONAL LAW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OCEAN MODELLING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OCEANOLOGICA ACTA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OCEANUS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OECOLOGIA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OFF MEDIAN PHENOMENA AND INTERNATIONAL REFERENCE IONOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OPTICAL AND QUANTUM ELECTRONICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OPTICAL ENGINEERING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OPTICS AND LASERS IN ENGINEERING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OPTICS EXPRESS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OPTICS LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORGANIC &amp; BIOMOLECULAR CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PACIFIC AFFAIRS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PALAEOGEOGRAPHY PALAEOCLIMATOLOGY PALAEOECOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PALEOCEANOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PARALLEL COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHILOSOPHICAL MAGAZINE A-PHYSICS OF CONDENSED MATTER STRUCTURE DEFECTS AND MECHANICAL PROPERTIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHILOSOPHICAL TRANSACTIONS OF THE ROYAL SOCIETY A-MATHEMATICAL PHYSICAL AND ENGINEERING SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHILOSOPHICAL TRANSACTIONS OF THE ROYAL SOCIETY OF LONDON SERIES A-MATHEMATICAL PHYSICAL AND ENGINEERING SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHILOSOPHICAL TRANSACTIONS OF THE ROYAL SOCIETY OF LONDON SERIES B-BIOLOGICAL SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHOTOCHEMISTRY AND PHOTOBIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICA A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICA A-STATISTICAL MECHANICS AND ITS APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICA D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICA D-NONLINEAR PHENOMENA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICA SCRIPTA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL CHEMISTRY CHEMICAL PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL GEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL REVIEW A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL REVIEW B</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL REVIEW D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL REVIEW E</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICAL REVIEW LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS AND CHEMISTRY OF THE EARTH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS AND CHEMISTRY OF THE EARTH PART B-HYDROLOGY OCEANS AND ATMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS AND CHEMISTRY OF THE EARTH PART C-SOLAR-TERRESTIAL AND PLANETARY SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS LETTERS A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS OF FLUIDS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS OF FLUIDS A-FLUID DYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS OF FLUIDS B-PLASMA PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS OF PLASMAS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS OF THE EARTH AND PLANETARY INTERIORS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS TODAY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYSICS WORLD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHYTOPATHOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANETARY AND SPACE SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANETARY IONOSPHERES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANETARY SYSTEMS IN THE UNIVERSE OBSERVATION, FORMATION AND EVOLUTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANT BIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANT CELL AND ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANT DISEASE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANT ECOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANT PHYSIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLANTA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">POLICY SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">POLYMER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">POLYMER INTERNATIONAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">POPULATION AND DEVELOPMENT REVIEW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">POST-SOVIET GEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRECAMBRIAN RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE AMERICAN MATHEMATICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE IEEE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE INSTITUTION OF CIVIL ENGINEERS-MARITIME ENGINEERING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE KONINKLIJKE NEDERLANDSE AKADEMIE VAN WETENSCHAPPEN SERIES A-MATHEMATICAL SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA-BIOLOGICAL SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE ROYAL SOCIETY A-MATHEMATICAL PHYSICAL AND ENGINEERING SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE ROYAL SOCIETY OF LONDON SERIES A-MATHEMATICAL PHYSICAL AND ENGINEERING SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE ROYAL SOCIETY OF LONDON SERIES B-BIOLOGICAL SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROCEEDINGS OF THE SOCIETY OF PHOTO-OPTICAL INSTRUMENTATION ENGINEERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROGRESS IN NATURAL SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROGRESS IN OCEANOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROGRESS IN ORGANIC COATINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PROGRESS IN PHYSICAL GEOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PUBLICATIONS ASTRONOMICAL SOCIETY OF AUSTRALIA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PUBLICATIONS OF THE ASTRONOMICAL SOCIETY OF AUSTRALIA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PUBLICATIONS OF THE ASTRONOMICAL SOCIETY OF JAPAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PUBLICATIONS OF THE ASTRONOMICAL SOCIETY OF THE PACIFIC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PURE AND APPLIED CHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PURE AND APPLIED GEOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUANTITATIVE DESCRIPTION OF IONOSPHERIC STORM EFFECTS AND IRREGULARITIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUANTITATIVE FINANCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUARTERLY JOURNAL OF THE ROYAL ASTRONOMICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUARTERLY JOURNAL OF THE ROYAL METEOROLOGICAL SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUARTERLY OF APPLIED MATHEMATICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUATERNARY RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QUATERNARY SCIENCE REVIEWS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RADIATION RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RADIO SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RADIOCARBON</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RECENT INSIGHTS INTO THE PHYSICS OF THE SUN AND HELIOSPHERE: HIGHLIGHTS FROM SOHO AND OTHER SPACE MISSIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REGULATED RIVERS-RESEARCH &amp; MANAGEMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REMOTE SENSING AND APPLICATIONS: EARTH, ATMOSPHERE AND OCEANS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REMOTE SENSING OF ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REMOTE SENSING: EARTH, OCEAN AND ATMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REPORTS ON PROGRESS IN PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH &amp; EXPLORATION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH AND ADVANCED TECHNOLOGY FOR DIGITAL LIBRARIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH ON CHEMICAL INTERMEDIATES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH POLICY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESULTS OF THE IASTP PROGRAM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVIEW OF ECONOMICS AND STATISTICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVIEW OF SCIENTIFIC INSTRUMENTS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVIEWS OF GEOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVIEWS OF MODERN PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVUE DE L INSTITUT FRANCAIS DU PETROLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVUE DE METALLURGIE-CAHIERS D INFORMATIONS TECHNIQUES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RISK ANALYSIS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RQ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RUSSIAN JOURNAL OF NUMERICAL ANALYSIS AND MATHEMATICAL MODELLING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SATELLITE DATA APPLICATIONS: WEATHER AND CLIMATE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENCE IN CHINA SERIES A-MATHEMATICS PHYSICS ASTRONOMY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENCE IN CHINA SERIES D-EARTH SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENCE OF THE TOTAL ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENCE TECHNOLOGY &amp; HUMAN VALUES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENCES-NEW YORK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENTIA SINICA SERIES A-MATHEMATICAL PHYSICAL ASTRONOMICAL &amp; TECHNICAL SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENTIFIC AMERICAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCIENTIST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM JOURNAL ON APPLIED MATHEMATICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM JOURNAL ON MATHEMATICAL ANALYSIS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM JOURNAL ON MATRIX ANALYSIS AND APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM JOURNAL ON NUMERICAL ANALYSIS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM JOURNAL ON SCIENTIFIC AND STATISTICAL COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM JOURNAL ON SCIENTIFIC COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SIAM REVIEW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SKY AND TELESCOPE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOCIETY &amp; NATURAL RESOURCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOCIO-ECONOMIC PLANNING SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOIL BIOLOGY &amp; BIOCHEMISTRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOIL SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOIL SCIENCE SOCIETY OF AMERICA JOURNAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOLAR AGE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOLAR ENERGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOLAR PHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOLAR WIND-MAGNETOSPHERE-IONOSPHERE DYNAMICS AND RADIATION MODELS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOLAR-TERRESTRIAL RELATIONS: PREDICTING THE EFFECTS ON THE NEAR- EARTH ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOLID-STATE MID-INFRARED LASER SOURCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOUTH AFRICAN JOURNAL OF MARINE SCIENCE-SUID-AFRIKAANSE TYDSKRIF VIR SEEWETENSKAP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOUTH AFRICAN JOURNAL OF SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPACE SCIENCE REVIEWS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPACE WEATHER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPACE WEATHER-THE INTERNATIONAL JOURNAL OF RESEARCH AND APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPECIAL LIBRARIES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPECTROCHIMICA ACTA PART A-MOLECULAR AND BIOMOLECULAR SPECTROSCOPY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPILL SCIENCE &amp; TECHNOLOGY BULLETIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STATISTICA SINICA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STATISTICAL SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STATISTICS &amp; PROBABILITY LETTERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STATISTICS AND COMPUTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SUN AND ITS ATMOSPHERE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SUN AND SIMILAR STARS/COSMIC RAY SPECTRA AND COMPOSITION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SUPERCOMPUTER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SURVEYS IN GEOPHYSICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECHNOLOGICAL FORECASTING AND SOCIAL CHANGE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECHNOLOGY AND CULTURE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECHNOLOGY FOR WATERBORNE COATINGS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECHNOLOGY IN SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECHNOLOGY REVIEW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TECHNOMETRICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TELLUS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TELLUS SERIES A-DYNAMIC METEOROLOGY AND OCEANOGRAPHY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TELLUS SERIES B-CHEMICAL AND PHYSICAL METEOROLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TERRESTRIAL ATMOSPHERIC AND OCEANIC SCIENCES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TEXAS JOURNAL OF SCIENCE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THEORETICAL AND APPLIED CLIMATOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THEORETICAL AND COMPUTATIONAL FLUID DYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERMOCHIMICA ACTA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERMOSPHERE-IONOSPHERE-MIDDLE ATMOSPHERE COUPLING AND DYNAMICS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERMOSPHERIC-IONOSPHERIC-GEOSPHERIC (TIGER) SYMPOSIUM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRANSACTIONS OF THE AMERICAN NUCLEAR SOCIETY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRANSACTIONS OF THE ASAE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRANSACTIONS OF THE INSTITUTE OF BRITISH GEOGRAPHERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRANSACTIONS-AMERICAN GEOPHYSICAL UNION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRANSPORTATION RESEARCH PART D-TRANSPORT AND ENVIRONMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRANSPORTATION RESEARCH RECORD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TREE PHYSIOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRENDS AND DIRECTIONS IN CLIMATE RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VIDE-SCIENCE TECHNIQUE ET APPLICATIONS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER AIR AND SOIL POLLUTION</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER INTERNATIONAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER RESOURCES BULLETIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER RESOURCES MANAGEMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER RESOURCES RESEARCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER SCIENCE AND TECHNOLOGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WEATHER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WEATHER AND FORECASTING</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WEATHERWISE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WIND ENERGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WORLD DEVELOPMENT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZEITSCHRIFT FUR ANGEWANDTE MATHEMATIK UND PHYSIK</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

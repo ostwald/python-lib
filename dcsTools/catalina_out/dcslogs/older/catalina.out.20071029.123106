@@ -1,0 +1,1931 @@
+Oct 29, 2007 10:38:56 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 29, 2007 10:38:56 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 10:38:57 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 10:38:57 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2305 ms
+Oct 29, 2007 10:38:57 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 29, 2007 10:38:57 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 29, 2007 10:38:57 AM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 29, 2007 10:38:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 29, 2007 10:38:59 AM MDT NDRServlet starting
+Oct 29, 2007 10:38:59 AM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 29, 2007 10:38:59 AM MDT SetupServlet starting
+Oct 29, 2007 10:38:59 AM MDT SetupServlet: collectionRecordsLocation: /usr/local/dlese_data/dcs/records/dlese_collect
+Oct 29, 2007 10:38:59 AM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 29, 2007 10:38:59 AM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 29, 2007 10:38:59 AM MDT SetupServlet completed.
+
+Oct 29, 2007 10:38:59 AM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 29, 2007 10:38:59 AM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 29, 2007 10:39:03 AM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 29, 2007 10:39:03 AM MDT Outputting debug info
+Oct 29, 2007 10:39:03 AM MDT Using collection-level metadata files located at /usr/local/dlese_data/dcs/records/dlese_collect/collect
+Oct 29, 2007 10:39:03 AM MDT Using ADN metadata files located at /usr/local/dlese_data/dcs/records
+Oct 29, 2007 10:39:03 AM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 29, 2007 10:39:03 AM MDT Starting up RepositoryManager
+Oct 29, 2007 10:39:03 AM MDT loading props file: RepositoryManager.properties
+Oct 29, 2007 10:39:04 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 15978 entries.
+Oct 29, 2007 10:39:11 AM MDT rm.init() successful...
+Oct 29, 2007 10:39:11 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 29, 2007 10:39:11 AM MDT DDSServlet started.
+
+
+Oct 29, 2007 10:39:11 AM MDT OAIProviderServlet starting
+Oct 29, 2007 10:39:11 AM MDT OAIProviderServlet: Outputting debug info
+Oct 29, 2007 10:39:11 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 29, 2007 10:39:11 AM MDT OAIProviderServlet initialized.
+Oct 29, 2007 10:39:11 AM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/adl
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/avc
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridge
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaa
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaaother
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgeother
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ceis
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/comet
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/cosee
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/coseeother
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/curl
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dataclass
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dcc
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisr
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisrother
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dwel
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/edmall
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eee
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/emvc
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/esa
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eserev
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evaltlkt
+Oct 29, 2007 10:39:12 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evc
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/globe
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ien
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ienother
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/mynasadata
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nap
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nyic
+StructureWalker: Recieved an ANY element type - skipping ...
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/serceet
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercnagt
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercstrtpt
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simple
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simpleother
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/svs
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/swi
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/thredds
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/usgs
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/visionlearn
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/ccc
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/crs
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/mynasastds
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/nys
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/pck
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/tbox
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_collect/collect
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/matters
+Oct 29, 2007 10:39:13 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/nocc
+Oct 29, 2007 10:39:14 AM MDT FileIndexingService: synchDirectory adding 1 files and removing 0 files
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/adl
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/avc
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridge
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaa
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaaother
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgeother
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ceis
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/comet
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/cosee
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/coseeother
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/curl
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dataclass
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dcc
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisr
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisrother
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dwel
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/edmall
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eee
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/emvc
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/esa
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eserev
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evaltlkt
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evc
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/globe
+Oct 29, 2007 10:39:18 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ien
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ienother
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/mynasadata
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nap
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nyic
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/serceet
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercnagt
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercstrtpt
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simple
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simpleother
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/svs
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/swi
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/thredds
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/usgs
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/visionlearn
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/ccc
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/crs
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/mynasastds
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/nys
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/pck
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/tbox
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_collect/collect
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/matters
+Oct 29, 2007 10:39:19 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/nocc
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+Oct 29, 2007 10:39:27 AM MDT FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/adl
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/avc
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridge
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaa
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaaother
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgeother
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ceis
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/comet
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/cosee
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/coseeother
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/curl
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dataclass
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dcc
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisr
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisrother
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dwel
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/edmall
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eee
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/emvc
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/esa
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eserev
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evaltlkt
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evc
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/globe
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ien
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ienother
+Oct 29, 2007 10:39:32 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/mynasadata
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nap
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nyic
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/serceet
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercnagt
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercstrtpt
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simple
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simpleother
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/svs
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/swi
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/thredds
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/usgs
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/visionlearn
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/ccc
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/crs
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/mynasastds
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/nys
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/pck
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/tbox
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_collect/collect
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/matters
+Oct 29, 2007 10:39:33 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/nocc
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+Oct 29, 2007 10:39:36 AM MDT FileIndexingService: synchDirectory adding 53 files and removing 0 files
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (8 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 60 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with dcc'.xml
+CollectionRegistry: registered dcc' (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with 1191523439291.xml
+CollectionRegistry: registered 1191523439291 (prefix: COLLECT-TEST)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with serc.xml
+CollectionRegistry: registered serc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with sat.xml
+CollectionRegistry: registered sat (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with testcollect.xml
+CollectionRegistry: registered testcollect (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with drc.xml
+CollectionRegistry: registered drc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with essec.xml
+CollectionRegistry: registered essec (prefix: )
+
+"collectionRegistry" initialized with 59 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+Oct 29, 2007 10:39:51 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/adl
+Oct 29, 2007 10:39:51 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/avc
+Oct 29, 2007 10:39:51 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridge
+Oct 29, 2007 10:39:51 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaa
+Oct 29, 2007 10:39:51 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaaother
+Oct 29, 2007 10:39:51 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgeother
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ceis
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/comet
+CollectionRegistry: 48 collections found in index
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/cosee
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/coseeother
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/curl
+IDGenerator: Current ID = 7 for ADL
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dataclass
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dcc
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisr
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisrother
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dwel
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/edmall
+IDGenerator: Current ID = 47 for CCC
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eee
+IDGenerator: Current ID = 7 for CEIS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/emvc
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/esa
+IDGenerator: Current ID = 161 for COMET
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eserev
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evaltlkt
+IDGenerator: Current ID = 2091 for COSEE
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evc
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/globe
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ien
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ienother
+IDGenerator: Current ID = 10270 for DLESE
+IDGenerator: Current ID = 83 for DLISR
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/mynasadata
+IDGenerator: Current ID = 25 for DLISR-OTHER
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nap
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nyic
+IDGenerator: Current ID = 6 for EMVC
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/serceet
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercnagt
+IDGenerator: Current ID = 232 for EVAL-TLKT
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercstrtpt
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simple
+IDGenerator: Current ID = 94 for IEN
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simpleother
+IDGenerator: Current ID = 56 for IEN-OTHER
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/svs
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/swi
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/thredds
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/usgs
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/visionlearn
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/ccc
+IDGenerator: Current ID = 0 for PCK
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/crs
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/mynasastds
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/nys
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/pck
+IDGenerator: Current ID = 29 for SWI
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/tbox
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 31 for THREDDS
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_collect/collect
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/matters
+Oct 29, 2007 10:39:52 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/nocc
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: AutoExport task is not scheduled
+initialized repositoryService
+Oct 29, 2007 10:39:52 AM MDT SchemEditServlet initialized.
+
+Oct 29, 2007 10:39:52 AM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 29, 2007 10:39:53 AM MDT CasaaServlet: Casaa Service is disabled
+Oct 29, 2007 10:39:53 AM MDT CasaaServlet completed.
+
+Oct 29, 2007 10:39:53 AM MDT FileIndexingService: synchDirectory adding 1 files and removing 1 files
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/adl
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/avc
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridge
+ActionServlet: accessManager placed in servlet context
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaa
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaaother
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgeother
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ceis
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/comet
+ActionServlet: userManager placed in servlet context
+ActionServlet: guest user set in servletContext
+
+ActionServlet: ActionServlet initialized
+
+Oct 29, 2007 10:39:58 AM MDT SchemaViewerServlet starting
+Oct 29, 2007 10:39:58 AM MDT SchemaViewerServlet initialized.
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/cosee
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/coseeother
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/curl
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dataclass
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dcc
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisr
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisrother
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dwel
+Oct 29, 2007 10:39:58 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/edmall
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eee
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/emvc
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/esa
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eserev
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evaltlkt
+Oct 29, 2007 10:39:58 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evc
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/globe
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ien
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ienother
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/mynasadata
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nap
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nyic
+Oct 29, 2007 10:39:58 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 29, 2007 10:39:58 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/47  config=null
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/serceet
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercnagt
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercstrtpt
+Oct 29, 2007 10:39:58 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simple
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simpleother
+Oct 29, 2007 10:39:59 AM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/svs
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/swi
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/thredds
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/usgs
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/visionlearn
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/ccc
+Oct 29, 2007 10:39:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 61559 ms
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/crs
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/mynasastds
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/nys
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/pck
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/tbox
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_collect/collect
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/matters
+Oct 29, 2007 10:39:59 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/nocc
+Oct 29, 2007 10:40:03 AM MDT FileIndexingService: synchDirectory adding 53 files and removing 53 files
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/adl
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/avc
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridge
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaa
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgenoaaother
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/bridgeother
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ceis
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/comet
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/cosee
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/coseeother
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/curl
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dataclass
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dcc
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisr
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dlisrother
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/dwel
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/edmall
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eee
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/emvc
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/esa
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/eserev
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evaltlkt
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/evc
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/globe
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ien
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/ienother
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/mynasadata
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nap
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/nyic
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/serceet
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercnagt
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/sercstrtpt
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simple
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/simpleother
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/svs
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/swi
+Oct 29, 2007 10:40:09 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/thredds
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/usgs
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/adn/visionlearn
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/ccc
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/crs
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/mynasastds
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/nys
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/pck
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_anno/tbox
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/dlese_collect/collect
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/matters
+Oct 29, 2007 10:40:10 AM MDT FileIndexingService ERROR: removeDirFromIndex(): could not find dirInfo for dir /usr/local/dlese_data/dds/records/news_opps/nocc
+Oct 29, 2007 10:40:16 AM MDT FileIndexingService: synchDirectory adding 54 files and removing 54 files
+
+Oct 29, 2007 10:42:42 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: 27730D463F1C3D1A0A174A004B655451
+SessionRegistry: registered sessionBean: 27730D463F1C3D1A0A174A004B655451
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 29, 2007 10:42:45 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 29, 2007 10:42:45 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 29, 2007 10:42:45 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 29, 2007 10:42:46 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 29, 2007 10:42:46 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 29, 2007 10:42:46 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 29, 2007 10:42:49 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=index
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Oct 29, 2007 10:42:49 AM MDT DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Oct 29, 2007 10:42:52 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/file_folder2.gif
+
+Oct 29, 2007 10:42:55 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: Reindex All
+Oct 29, 2007 10:42:57 AM MDT DCSAdminAction: Running command Reindex All
+Oct 29, 2007 10:42:57 AM MDT SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/lucene_index' - creating a new one...
+Oct 29, 2007 10:42:57 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 29, 2007 10:42:57 AM MDT SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/dup_items_index/lucene_index' - creating a new one...
+Oct 29, 2007 10:42:57 AM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 29, 2007 10:42:58 AM MDT FileIndexingService: synchDirectory adding 1 files and removing 0 files
+Oct 29, 2007 10:43:07 AM MDT FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Oct 29, 2007 10:43:15 AM MDT FileIndexingService: synchDirectory adding 53 files and removing 0 files
+Oct 29, 2007 10:43:21 AM MDT FileIndexingService: synchDirectory adding 1 files and removing 1 files
+Oct 29, 2007 10:43:27 AM MDT FileIndexingService: synchDirectory adding 37 files and removing 0 files
+Oct 29, 2007 10:43:32 AM MDT FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Oct 29, 2007 10:43:37 AM MDT FileIndexingService: synchDirectory adding 40 files and removing 0 files
+Oct 29, 2007 10:44:01 AM MDT FileIndexingService: synchDirectory adding 452 files and removing 0 files
+Oct 29, 2007 10:44:27 AM MDT FileIndexingService: synchDirectory adding 207 files and removing 0 files
+Oct 29, 2007 10:44:54 AM MDT FileIndexingService: synchDirectory adding 363 files and removing 0 files
+Oct 29, 2007 10:45:08 AM MDT FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Oct 29, 2007 10:45:27 AM MDT FileIndexingService: synchDirectory adding 219 files and removing 0 files
+Oct 29, 2007 10:46:12 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:46:40 AM MDT FileIndexingService: synchDirectory adding 163 files and removing 0 files
+Oct 29, 2007 10:46:57 AM MDT FileIndexingService: synchDirectory adding 72 files and removing 0 files
+Oct 29, 2007 10:47:39 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:48:36 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:49:32 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:50:29 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:51:27 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:52:25 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:53:24 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:54:23 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:55:22 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:56:24 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:57:25 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:58:25 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 10:59:26 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:00:30 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:01:32 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+
+Oct 29, 2007 11:02:27 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: command=showIndexingMessages
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Oct 29, 2007 11:02:33 AM MDT DCSAdminAction: Running command showIndexingMessages
+Oct 29, 2007 11:02:35 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:03:44 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:04:40 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:05:35 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:06:13 AM MDT FileIndexingService: synchDirectory adding 141 files and removing 0 files
+Oct 29, 2007 11:06:42 AM MDT FileIndexingService: synchDirectory adding 159 files and removing 0 files
+Oct 29, 2007 11:07:06 AM MDT FileIndexingService: synchDirectory adding 158 files and removing 0 files
+Oct 29, 2007 11:07:19 AM MDT FileIndexingService: synchDirectory adding 7 files and removing 0 files
+Oct 29, 2007 11:07:28 AM MDT FileIndexingService: synchDirectory adding 15 files and removing 0 files
+Oct 29, 2007 11:07:40 AM MDT FileIndexingService: synchDirectory adding 53 files and removing 0 files
+Oct 29, 2007 11:07:53 AM MDT FileIndexingService: synchDirectory adding 39 files and removing 0 files
+Oct 29, 2007 11:08:07 AM MDT FileIndexingService: synchDirectory adding 47 files and removing 0 files
+Oct 29, 2007 11:08:18 AM MDT FileIndexingService: synchDirectory adding 26 files and removing 0 files
+Oct 29, 2007 11:08:27 AM MDT FileIndexingService: synchDirectory adding 7 files and removing 0 files
+Oct 29, 2007 11:09:11 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:10:06 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+
+Oct 29, 2007 11:10:23 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: command=showIndexingMessages
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Oct 29, 2007 11:10:27 AM MDT DCSAdminAction: Running command showIndexingMessages
+Oct 29, 2007 11:11:03 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:12:01 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:12:37 AM MDT FileIndexingService: synchDirectory adding 192 files and removing 0 files
+Oct 29, 2007 11:12:57 AM MDT FileIndexingService: synchDirectory adding 59 files and removing 0 files
+Oct 29, 2007 11:13:07 AM MDT FileIndexingService: synchDirectory adding 10 files and removing 0 files
+Oct 29, 2007 11:13:19 AM MDT FileIndexingService: synchDirectory adding 25 files and removing 0 files
+Oct 29, 2007 11:13:30 AM MDT FileIndexingService: synchDirectory adding 20 files and removing 0 files
+Oct 29, 2007 11:13:46 AM MDT FileIndexingService: synchDirectory adding 87 files and removing 0 files
+Oct 29, 2007 11:14:36 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:14:59 AM MDT FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Oct 29, 2007 11:15:12 AM MDT FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Oct 29, 2007 11:15:22 AM MDT FileIndexingService: synchDirectory adding 14 files and removing 0 files
+Oct 29, 2007 11:15:48 AM MDT FileIndexingService: synchDirectory adding 215 files and removing 0 files
+Oct 29, 2007 11:16:43 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:17:21 AM MDT FileIndexingService: synchDirectory adding 295 files and removing 0 files
+Oct 29, 2007 11:17:43 AM MDT FileIndexingService: synchDirectory adding 31 files and removing 0 files
+Oct 29, 2007 11:17:53 AM MDT FileIndexingService: synchDirectory adding 8 files and removing 0 files
+Oct 29, 2007 11:18:13 AM MDT FileIndexingService: synchDirectory adding 151 files and removing 0 files
+Oct 29, 2007 11:18:45 AM MDT FileIndexingService: synchDirectory adding 160 files and removing 0 files
+Oct 29, 2007 11:19:38 AM MDT FileIndexingService: synchDirectory adding 434 files and removing 0 files
+Oct 29, 2007 11:20:12 AM MDT FileIndexingService: synchDirectory adding 30 files and removing 0 files
+Oct 29, 2007 11:21:00 AM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 29, 2007 11:21:26 AM MDT FileIndexingService: synchDirectory adding 108 files and removing 0 files
+Oct 29, 2007 11:21:41 AM MDT FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Oct 29, 2007 11:22:21 AM MDT FileIndexingService: synchDirectory adding 363 files and removing 0 files
+Oct 29, 2007 11:22:45 AM MDT FileIndexingService: synchDirectory adding 9 files and removing 0 files
+Oct 29, 2007 11:23:04 AM MDT FileIndexingService: synchDirectory adding 115 files and removing 0 files
+Oct 29, 2007 11:23:26 AM MDT FileIndexingService: synchDirectory adding 29 files and removing 0 files
+Oct 29, 2007 11:23:41 AM MDT FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Oct 29, 2007 11:23:59 AM MDT FileIndexingService: synchDirectory adding 56 files and removing 0 files
+Oct 29, 2007 11:24:19 AM MDT FileIndexingService: synchDirectory adding 109 files and removing 0 files
+Oct 29, 2007 11:24:34 AM MDT FileIndexingService: synchDirectory adding 36 files and removing 0 files
+Oct 29, 2007 11:25:04 AM MDT FileIndexingService: synchDirectory adding 222 files and removing 0 files
+Oct 29, 2007 11:25:28 AM MDT FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Oct 29, 2007 11:25:43 AM MDT FileIndexingService: synchDirectory adding 28 files and removing 0 files
+Oct 29, 2007 11:25:54 AM MDT IndexingObserver: * Indexing Completed: Completed indexing 53 directories successfully. Total time 42 minutes, 51 seconds. Total number of items in index: 18817 *
+Oct 29, 2007 11:25:54 AM MDT IndexingObserver: Reinitializing idManager
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10270 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 11 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+Oct 29, 2007 11:26:11 AM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 29, 2007 11:26:23 AM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+
+Oct 29, 2007 11:59:20 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: command=showIndexingMessages
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Oct 29, 2007 11:59:23 AM MDT DCSAdminAction: Running command showIndexingMessages
+
+Oct 29, 2007 11:59:56 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=index
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: index
+
+Oct 29, 2007 12:00:39 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Oct 29, 2007 12:00:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/manage-styles.css
+
+Oct 29, 2007 12:00:54 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&scs=0dcc&vld=notvalid&sss=Done
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	sss: Done
+	vld: notvalid
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 85 millis
+----------------------------------
+
+DCSQueryAction: Search results: 28
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 19 millis
+----------------------------------
+
+
+Oct 29, 2007 12:01:06 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/btnExpand.gif
+
+Oct 29, 2007 12:01:07 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/descending.gif
+
+Oct 29, 2007 12:01:07 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrow_right.gif
+
+Oct 29, 2007 12:01:09 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/display.do
+AuthorizationFilter: Filter Info:
+	queryString: fileid=DLESE-000-000-006-543&rt=validate
+	servletPath: /browse/display.do
+	requestURI: /schemedit/browse/display.do
+
+Filtered Request Parameters
+	rt: validate
+	fileid: DLESE-000-000-006-543
+
+Oct 29, 2007 12:01:36 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: Filter Info:
+	queryString: command=edit&recId=DLESE-000-000-006-543
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	recId: DLESE-000-000-006-543
+	command: edit
+SessionRegistry: session 27730D463F1C3D1A0A174A004B655451 attempting to lock record DLESE-000-000-006-543 ... Success
+
+Oct 29, 2007 12:01:46 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/autoform-styles.css
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/scriptaculous.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/builder.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/effects.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/dragdrop.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/controls.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/slider.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/metadata-editor-support.js
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrowup.gif
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/questionMarkWhite.gif
+
+Oct 29, 2007 12:01:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/closed.gif
+
+Oct 29, 2007 12:01:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/opened.gif
+
+Oct 29, 2007 12:01:50 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: changeForm
+	xmlFormat: adn
+	nextPage: viewRecord
+	currentPage: general
+	recId: DLESE-000-000-006-543
+
+Oct 29, 2007 12:02:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: changeForm
+	pathArg: /itemRecord/general/language
+	xmlFormat: adn
+	nextPage: general
+	currentPage: viewRecord
+	recId: DLESE-000-000-006-543
+
+Oct 29, 2007 12:02:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: save
+	xmlFormat: adn
+	currentPage: general
+	recId: DLESE-000-000-006-543
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+DCSSchemEditAction: DCSSchemEditAction.putRecord()
+
+DCSSchemEditAction: Calling repositoryService.saveEditedRecord()
+
+RepositoryService: saveEditedRecord ()
+schemaNS_URI: http://www.w3.org/2001/XMLSchema
+RepositoryWriter: writeRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-000-000-006-543
+Oct 29, 2007 12:02:09 PM MDT Saving record id: DLESE-000-000-006-543
+DCSSchemEditAction:  ... returned from repositoryService.saveEditedRecord()
+DCSSchemEditAction:  ... returned from putRecord()
+
+Oct 29, 2007 12:02:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/edit.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	command: guardedExit
+	pathArg: forwardToCaller
+	xmlFormat: adn
+	currentPage: general
+	recId: DLESE-000-000-006-543
+SessionRegistry: session 27730D463F1C3D1A0A174A004B655451 attempting to release lock on record DLESE-000-000-006-543 ... Success
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 46 millis
+----------------------------------
+
+
+Oct 29, 2007 12:02:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&sss=Done&vld=notvalid&scs=0dcc
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sss: Done
+	s: 0
+	scs: 0dcc
+	vld: notvalid
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 27
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 14 millis
+----------------------------------
+
+
+Oct 29, 2007 12:02:31 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0dcc&vld=&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sss: Done
+	s: 0
+	resultsPerPage: 10
+	searchMode: raw
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 59 millis
+----------------------------------
+
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 3675 millis
+----------------------------------
+
+
+Oct 29, 2007 12:02:40 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&sss=Done&searchString=&searchMode=raw&scs=0dcc&vld=&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sss: Done
+	sortOrder: 1
+	searchMode: raw
+	scs: 0dcc
+	sortField: dcslastTouchDate
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 24 millis
+----------------------------------
+
+
+Oct 29, 2007 12:03:00 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&sss=Done&searchString=&searchMode=raw&scs=0dcc&vld=&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sss: Done
+	sortOrder: 0
+	searchMode: raw
+	scs: 0dcc
+	sortField: dcslastTouchDate
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 157 millis
+----------------------------------
+
+
+Oct 29, 2007 12:03:02 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/ascending.gif
+
+Oct 29, 2007 12:03:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&sss=Done&searchString=&searchMode=raw&scs=0dcc&vld=&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sss: Done
+	sortOrder: 1
+	searchMode: raw
+	scs: 0dcc
+	sortField: dcslastTouchDate
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 148 millis
+----------------------------------
+
+
+Oct 29, 2007 12:04:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=DLESE-000-000-006-543&scs=0dcc&vld=&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: DLESE-000-000-006-543
+	s: 0
+	sss: Done
+	scs: 0dcc
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 20 millis
+----------------------------------
+
+DCSQueryAction: Search results: 1
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 0 millis
+----------------------------------
+
+
+Oct 29, 2007 12:05:01 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=&scs=0dcc&vld=&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	sss: Done
+	scs: 0dcc
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 87 millis
+----------------------------------
+
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 3804 millis
+----------------------------------
+
+
+Oct 29, 2007 12:05:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&searchString=&sss=Done&vld=&scs=0dcc&searchMode=id&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 0
+	sss: Done
+	searchMode: id
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 111 millis
+----------------------------------
+
+
+Oct 29, 2007 12:05:17 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&searchString=&vld=&sss=Done&searchMode=id&scs=0dcc&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 1
+	sss: Done
+	scs: 0dcc
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 7698
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 113 millis
+----------------------------------
+
+
+Oct 29, 2007 12:05:29 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Oct 29, 2007 12:05:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: sortSpec=format
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	sortSpec: format
+
+Oct 29, 2007 12:05:59 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&setup=true&collection=matters
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	collection: matters
+	setup: true
+
+Oct 29, 2007 12:06:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: s=0&q=&scs=0matters
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0matters
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 12 millis
+----------------------------------
+
+DCSQueryAction: Search results: 39
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 13 millis
+----------------------------------
+
+
+Oct 29, 2007 12:06:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=&scs=0matters&vld=&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sss: Done
+	s: 0
+	resultsPerPage: 10
+	searchMode: id
+	scs: 0matters
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 16 millis
+----------------------------------
+
+DCSQueryAction: Search results: 39
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 13 millis
+----------------------------------
+
+
+Oct 29, 2007 12:06:45 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Oct 29, 2007 12:06:56 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: s=0&q=&scs=0tips
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0tips
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 12 millis
+----------------------------------
+
+DCSQueryAction: Search results: 6
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 1 millis
+----------------------------------
+
+
+Oct 29, 2007 12:07:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=&scs=0tips&vld=&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	sss: Done
+	scs: 0tips
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 15 millis
+----------------------------------
+
+DCSQueryAction: Search results: 1
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 0 millis
+----------------------------------
+
+
+Oct 29, 2007 12:07:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Oct 29, 2007 12:07:30 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&setup=true&collection=tips
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	setup: true
+	collection: tips
+	command: export
+
+Oct 29, 2007 12:08:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&exportCollection=true&collection=tips&sss=_%7C-final-tips-%7C_&destPath=dlese_anno%2Ftips
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	sss: _|-final-tips-|_
+	destPath: dlese_anno/tips
+	exportCollection: true
+	collection: tips
+ExportingService: relativetDestPath: dlese_anno/tips
+
+Oct 29, 2007 12:13:46 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&exportCollection=true&collection=tips&sss=_%7C-final-tips-%7C_&destPath=dlese_anno%2Ftips
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	destPath: dlese_anno/tips
+	exportCollection: true
+	sss: _|-final-tips-|_
+	collection: tips
+	command: export
+ExportingService: relativetDestPath: dlese_anno/tips
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/tips .. attempting to create
+ExportingService: 0 files removed from dest directory
+
+Oct 29, 2007 12:13:52 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&showExportMessages=true
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	showExportMessages: true
+
+Oct 29, 2007 12:13:58 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&report=true&collection=tips
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	report: true
+	collection: tips
+	command: export
+
+Oct 29, 2007 12:16:45 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&setup=true
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	setup: true
+
+Oct 29, 2007 12:17:15 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&setup=true&collection=dcr
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	setup: true
+	collection: dcr
+	command: export
+
+Oct 29, 2007 12:17:24 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=collections
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: collections
+
+Oct 29, 2007 12:26:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/collection_config.do
+AuthorizationFilter: Filter Info:
+	queryString: collection=dcr&recId=dcr&command=edit&src=local
+	servletPath: /editor/collection_config.do
+	requestURI: /schemedit/editor/collection_config.do
+
+Filtered Request Parameters
+	command: edit
+	src: local
+	collection: dcr
+	recId: dcr
+CollectionConfigAction: handleEditRequest()
+CollectionConfigAction: getFileToEdit()
+CollectionConfigAction: collection is dcr
+CollectionConfig: setting xmlFormat to dlese_collect
+CollectionConfig: 0 collectionConfigPaths defined for dlese_collect
+CollectionConfig: updated Tuples for dcr
+SessionRegistry: session 27730D463F1C3D1A0A174A004B655451 attempting to lock record dcr ... Success
+CollectionConfigAction:   ... saving content of record before editing
+
+Oct 29, 2007 12:26:23 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/standalone/standalone-editor-support.js
+
+Oct 29, 2007 12:26:31 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/collection_config.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/collection_config.do
+	requestURI: /schemedit/editor/collection_config.do
+
+Filtered Request Parameters
+	command: save
+	currentPage: collectionConfigRecord
+	recId: dcr
+CollectionConfigAction: CollectionConfig handleSaveRequest()
+validateForm
+collection: dcr
+
+idPrefixField.getValue(): DLESE-COLLECTION
+CollectionRegistry: isDuplicatePrefix() key: dcr  prefix: DLESE-COLLECTION
+dup? false
+CollectionRegistry: isDuplicatePrefix() key: dcr  prefix: DLESE-COLLECTION
+CollectionConfigAction: Standalone saveRecord()
+CollectionConfigAction: record saved to disk at /usr/local/dlese_data/dcs/dcs_conf/collections/dcr.xml
+DcsDataManager: normaliseStatuses for dcr
+CollectionConfigAction: collection Info is updated
+
+Oct 29, 2007 12:27:24 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/collection_config.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/collection_config.do
+	requestURI: /schemedit/editor/collection_config.do
+
+Filtered Request Parameters
+	command: save
+	currentPage: collectionConfigRecord
+	recId: dcr
+CollectionConfigAction: CollectionConfig handleSaveRequest()
+validateForm
+collection: dcr
+
+idPrefixField.getValue(): DLESE-COLLECTION
+CollectionRegistry: isDuplicatePrefix() key: dcr  prefix: DLESE-COLLECTION
+dup? false
+CollectionRegistry: isDuplicatePrefix() key: dcr  prefix: DLESE-COLLECTION
+CollectionConfigAction: Standalone saveRecord()
+CollectionConfigAction: record saved to disk at /usr/local/dlese_data/dcs/dcs_conf/collections/dcr.xml
+DcsDataManager: normaliseStatuses for dcr
+CollectionConfigAction: collection Info is updated
+
+Oct 29, 2007 12:27:29 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/editor/collection_config.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /editor/collection_config.do
+	requestURI: /schemedit/editor/collection_config.do
+
+Filtered Request Parameters
+	command: guardedExit
+	pathArg: /admin/admin.do?page=collections
+	currentPage: collectionConfigRecord
+	recId: dcr
+SessionRegistry: session 27730D463F1C3D1A0A174A004B655451 attempting to release lock on record dcr ... Success
+
+Oct 29, 2007 12:27:29 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=collections
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: collections
+
+Oct 29, 2007 12:27:35 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Oct 29, 2007 12:27:55 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&setup=true&collection=dcr
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	collection: dcr
+	setup: true
+
+Oct 29, 2007 12:28:03 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&exportCollection=true&collection=dcr&sss=_%7C-final-dcr-%7C_&destPath=dlese_collect%2Fcollect
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	sss: _|-final-dcr-|_
+	destPath: dlese_collect/collect
+	exportCollection: true
+	collection: dcr
+ExportingService: relativetDestPath: dlese_collect/collect
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_collect/collect .. attempting to create
+ExportingService: 0 files removed from dest directory
+
+Oct 29, 2007 12:28:07 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&showExportMessages=true
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	showExportMessages: true
+	command: export
+
+Oct 29, 2007 12:28:10 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&report=true&collection=dcr
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	collection: dcr
+	report: true
+Oct 29, 2007 12:29:57 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 12:29:57 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 12:29:58 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 18817 DcsDataRecords from cache
+Oct 29, 2007 12:29:58 PM MDT SchemEditServlet stopped
+Oct 29, 2007 12:29:58 PM MDT NDRServlet: destroy() ...
+Oct 29, 2007 12:29:58 PM MDT NDRServlet stopped
+Oct 29, 2007 12:29:58 PM MDT SetupServlet: destroy() ...
+Oct 29, 2007 12:29:58 PM MDT SetupServlet stopped
+Oct 29, 2007 12:29:58 PM MDT CasaaServlet: destroy() ...
+Oct 29, 2007 12:29:58 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 29, 2007 12:29:58 PM MDT MetadataVocabServlet stopped.
+Oct 29, 2007 12:29:58 PM MDT RepositoryManager destroy()
+Oct 29, 2007 12:29:58 PM MDT OAIProviderServlet stopped
+Oct 29, 2007 12:29:58 PM MDT RepositoryManager destroy()
+
+
+Oct 29, 2007 12:29:58 PM MDT DDSServlet stopped.
+
+
+Oct 29, 2007 12:29:58 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: unregistering Session Bean for 27730D463F1C3D1A0A174A004B655451
+SessionBean: destroying sessionBean for 27730D463F1C3D1A0A174A004B655451
+SessionRegistry: destroy
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 27730D463F1C3D1A0A174A004B655451 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session 27730D463F1C3D1A0A174A004B655451 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute queryForm for session 27730D463F1C3D1A0A174A004B655451 <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sef for session 27730D463F1C3D1A0A174A004B655451 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.CollectionConfig>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.CollectionConfig
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute csForm for session 27730D463F1C3D1A0A174A004B655451 <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+Oct 29, 2007 12:29:58 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 12:29:58 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 12:29:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

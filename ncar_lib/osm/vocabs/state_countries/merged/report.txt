@@ -1,0 +1,336 @@
+pubsItemsMgr has 662 provItems
+dataHumItemsMgr has 4290 provItems
+
+austriaType - 7 pubs items, 9 datahub items
+comparing pubs to dataHub
+ ... 3/7 matches - 4 items need to be checked (and possibly deleted)
+ - AT-Kaer | Kaernten | Austria
+ - AT-Nied | Niederoesterreich | Austria
+ - AT-Ober | Oberoesterreich | Austria
+ - AT-Wein | Wein | Austria
+comparing dataHubs to pubs
+ ... 3/9 matches - 6 items would be added to pubs
+
+australiaType - 5 pubs items, 8 datahub items
+comparing pubs to dataHub
+ ... 5/5 matches - 0 items need to be checked (and possibly deleted)
+comparing dataHubs to pubs
+ ... 5/8 matches - 3 items would be added to pubs
+
+brazilType - 8 pubs items, 27 datahub items
+comparing pubs to dataHub
+ ... 8/8 matches - 0 items need to be checked (and possibly deleted)
+comparing dataHubs to pubs
+ ... 8/27 matches - 19 items would be added to pubs
+
+canadaType - 9 pubs items, 13 datahub items
+comparing pubs to dataHub
+ ... 9/9 matches - 0 items need to be checked (and possibly deleted)
+comparing dataHubs to pubs
+ ... 9/13 matches - 4 items would be added to pubs
+
+chinaType - 27 pubs items, 34 datahub items
+comparing pubs to dataHub
+ ... 23/27 matches - 4 items need to be checked (and possibly deleted)
+ - CN-Hong | Hong Kong | China
+ - CN-Inne | Inner Mongolia | China
+ - CN-Maca | Macau | China
+ - CN-Tibe | Tibet | China
+comparing dataHubs to pubs
+ ... 23/34 matches - 11 items would be added to pubs
+
+spainType - 36 pubs items, 52 datahub items
+comparing pubs to dataHub
+ ... 32/36 matches - 4 items need to be checked (and possibly deleted)
+ - ES-Alba | Albacate | Spain
+ - ES-La C | La Coruna | Spain
+ - ES-Leri | Lerida | Spain
+ - ES-Oren | Orense | Spain
+comparing dataHubs to pubs
+ ... 32/52 matches - 20 items would be added to pubs
+
+unitedKingdomType - 56 pubs items, 230 datahub items
+comparing pubs to dataHub
+ ... 34/56 matches - 22 items need to be checked (and possibly deleted)
+ - GB-Berk | Berkshire | United Kingdom
+ - GB-Bord | Borders | United Kingdom
+ - GB-Cent | Central | United Kingdom
+ - GB-Clev | Cleveland | United Kingdom
+ - GB-Clwy | Clwyd | United Kingdom
+ - GB-Cots | Cotswolds | United Kingdom
+ - GB-Coun | County Tyrone | United Kingdom
+ - GB-Dyfe | Dyfed | United Kingdom
+ - GB-Gram | Grampian | United Kingdom
+ - GB-Gwen | Gwent | United Kingdom
+ - GB-Gwyn | Gwynedd County | United Kingdom
+ - GB-Here | Herefordshire | United Kingdom
+ - GB-High | Highlands and Islands | United Kingdom
+ - GB-Humb | Humberside | United Kingdom
+ - GB-Lake | Lake District | United Kingdom
+ - GB-Loth | Lothian | United Kingdom
+ - GB-Mers | Merseyside | United Kingdom
+ - GB-Mid | Mid Glamorgan | United Kingdom
+ - GB-Stra | Strathclyde | United Kingdom
+ - GB-Tays | Tayside | United Kingdom
+ - GB-Tyne | Tyne and Wear | United Kingdom
+ - GB-York | Yorkshire | United Kingdom
+comparing dataHubs to pubs
+ ... 34/230 matches - 196 items would be added to pubs
+
+irelandType - 27 pubs items, 26 datahub items
+comparing pubs to dataHub
+ ... 25/27 matches - 2 items need to be checked (and possibly deleted)
+ - IE-Conn | Connemara | Ireland
+ - IE-Shan | Shannon | Ireland
+comparing dataHubs to pubs
+ ... 25/26 matches - 1 items would be added to pubs
+
+indiaType - 200 pubs items, 35 datahub items
+comparing pubs to dataHub
+ ... 29/200 matches - 171 items need to be checked (and possibly deleted)
+ - IN-Agra | Agra District | India
+ - IN-Ahme | Ahmednagar District | India
+ - IN-Aiza | Aizawl District | India
+ - IN-Ajme | Ajmer District | India
+ - IN-Akol | Akola District | India
+ - IN-Alap | Alappuzha District | India
+ - IN-Alig | Aligarh District | India
+ - IN-Alla | Allahabad District | India
+ - IN-Almo | Almora District | India
+ - IN-Alwa | Alwar District | India
+ - IN-Amar | Amaravati District | India
+ - IN-Amba | Ambala District | India
+ - IN-Amri | Amritsar District | India
+ - IN-Bagh | Baghpat District | India
+ - IN-Bala | Balasore District | India
+ - IN-Balr | Balram Pur District | India
+ - IN-Bang | Bangalore Urban District | India
+ - IN-Bank | Bankura District | India
+ - IN-Bara | Baran District | India
+ - IN-Bard | Barddhaman District | India
+ - IN-Bare | Bareilly District | India
+ - IN-Belg | Belgaum District | India
+ - IN-Bell | Bellary District | India
+ - IN-Bhar | Bharuch District | India
+ - IN-Bhav | Bhavnagar District | India
+ - IN-Bhil | Bhilwara District | India
+ - IN-Bhop | Bhopal District | India
+ - IN-Bija | Bijapur District | India
+ - IN-Bijn | Bijnor District | India
+ - IN-Bika | Bikaner District | India
+ - IN-Boka | Bokaro District | India
+ - IN-Bund | Bundi District | India
+ - IN-Calc | Calcutta District | India
+ - IN-Chen | Chennai District | India
+ - IN-Chid | Chidambaranar District | India
+ - IN-Chit | Chittoor District | India
+ - IN-Chur | Churachandpur District | India
+ - IN-Coim | Coimbatore District | India
+ - IN-Cutt | Cuttack District | India
+ - IN-Dadr | Dadra District | India
+ - IN-Daks | Dakshina Kannada District | India
+ - IN-Darj | Darjiling District | India
+ - IN-Dehr | Dehradun District | India
+ - IN-Dewa | Dewas District | India
+ - IN-Dhan | Dhanbad District | India
+ - IN-Dhar | Dharwad District | India
+ - IN-Dind | Dindigul | India
+ - IN-Dung | Dungarpur District | India
+ - IN-East | East Sikkim District | India
+ - IN-Erna | Ernakulum District | India
+ - IN-Faiz | Faizabad District | India
+ - IN-Fari | Faridabad District | India
+ - IN-Fate | Fatehgarh Sahib District | India
+ - IN-Gand | Gandhinagar District | India
+ - IN-Ganj | Ganjam District | India
+ - IN-Gaut | Gautam Budh Nagar District | India
+ - IN-Gaya | Gaya District | India
+ - IN-Ghaz | Ghaziabad District | India
+ - IN-Gora | Gorakhpur District | India
+ - IN-Grea | Greater Mumbai District | India
+ - IN-Gulb | Gulbarga District | India
+ - IN-Gunt | Guntur District | India
+ - IN-Gurg | Gurgaon District | India
+ - IN-Gwal | Gwalior District | India
+ - IN-Haor | Haora District | India
+ - IN-Hari | Haridwar District | India
+ - IN-Haza | Hazaribag District | India
+ - IN-Hisa | Hisar District | India
+ - IN-Hugl | Hugli District | India
+ - IN-Iduk | Idukki District | India
+ - IN-Imph | Imphal District | India
+ - IN-Indo | Indore District | India
+ - IN-Jaba | Jabalpur District | India
+ - IN-Jaip | Jaipur District | India
+ - IN-Jais | Jaisalmer District | India
+ - IN-Jala | Jalandhar District | India
+ - IN-Jamn | Jamnagar District | India
+ - IN-Jhar | Jharsuguda District | India
+ - IN-Jhun | Jhunjhunun District | India
+ - IN-Jind | Jind District | India
+ - IN-Jodh | Jodhpur District | India
+ - IN-Juna | Junagadh District | India
+ - IN-Jyot | Jyotiba Phule Nagar District | India
+ - IN-Kach | Kachchh District | India
+ - IN-Kala | Kalahandi District | India
+ - IN-Kama | Kamarajar District | India
+ - IN-Kamr | Kamrup District | India
+ - IN-Kang | Kangra District | India
+ - IN-Kann | Kannur District | India
+ - IN-Kanp | Kanpur Dehat District | India
+ - IN-Kapu | Kapurthala District | India
+ - IN-Karu | Karur District | India
+ - IN-Kham | Khammam District | India
+ - IN-Khed | Kheda District | India
+ - IN-Khur | Khurda District | India
+ - IN-Kolh | Kolhapur District | India
+ - IN-Koll | Kollam District | India
+ - IN-Kota | Kota District | India
+ - IN-Kott | Kottayam District | India
+ - IN-Kozh | Kozhikode District | India
+ - IN-Kris | Krishna District | India
+ - IN-Kull | Kullu District | India
+ - IN-Kush | Kushinagar District | India
+ - IN-Lada | Ladakh District | India
+ - IN-Laks | Lakshadweep Islands | India
+ - IN-Lowe | Lower Subansiri District | India
+ - IN-Luck | Lucknow District | India
+ - IN-Ludh | Ludhiana District | India
+ - IN-Madu | Madurai District | India
+ - IN-Mahe | Mahesena District | India
+ - IN-Mala | Malappuram District | India
+ - IN-Mand | Mandya District | India
+ - IN-Math | Mathura District | India
+ - IN-Meda | Medak District | India
+ - IN-Medi | Medinipur District | India
+ - IN-Meer | Meerut District | India
+ - IN-Mora | Moradabad District | India
+ - IN-Nagp | Nagpur District | India
+ - IN-Nain | Nainital District | India
+ - IN-Nash | Nashik District | India
+ - IN-Nell | Nellore District | India
+ - IN-Nilg | Nilgiri District | India
+ - IN-Pani | Panipat District | India
+ - IN-Path | Pathanamthitta District | India
+ - IN-Pati | Patiala District | India
+ - IN-Patn | Patna District | India
+ - IN-Paur | Pauri Garhwal District | India
+ - IN-Peri | Periyar District | India
+ - IN-Pith | Pithora Garh District | India
+ - IN-Prak | Prakasam District | India
+ - IN-Pune | Pune District | India
+ - IN-Purb | Purbi Singhbhum District | India
+ - IN-Puri | Puri District | India
+ - IN-Puru | Puruliya District | India
+ - IN-Raig | Raigad District | India
+ - IN-Raip | Raipur District | India
+ - IN-Rajk | Rajkot District | India
+ - IN-Rajn | Rajnandgaon District | India
+ - IN-Rama | Ramanathapuram District | India
+ - IN-Ranc | Ranchi District | India
+ - IN-Rang | Rangareddy District | India
+ - IN-Ratn | Ratnagiri District | India
+ - IN-Roht | Rohtak District | India
+ - IN-Rupn | Rupnagar District | India
+ - IN-Saha | Saharanpur District | India
+ - IN-Sale | Salem District | India
+ - IN-Sang | Sangli District | India
+ - IN-Sata | Satara District | India
+ - IN-Satn | Satna District | India
+ - IN-Sawa | Sawai Madhopur District | India
+ - IN-Sidh | Sidhi District | India
+ - IN-Sirs | Sirsa District | India
+ - IN-Sola | Solapur District | India
+ - IN-Soni | Sonitpur District | India
+ - IN-Srin | Srinagar District | India
+ - IN-Sura | Surat District | India
+ - IN-Sure | Surendranagar District | India
+ - IN-Tehr | Tehri Garhwal District | India
+ - IN-Than | Thanjavur District | India
+ - IN-Thir | Thiruvannamalai | India
+ - IN-Thri | Thrissur District | India
+ - IN-Tiru | Tirunelveli | India
+ - IN-Udha | Udham Singh Nagar District | India
+ - IN-Vado | Vadodara District | India
+ - IN-Vals | Valsad District | India
+ - IN-Vara | Varanasi District | India
+ - IN-Vilu | Viluppuram District | India
+ - IN-Vish | Vishakhapatnam District | India
+ - IN-Wara | Warangal District | India
+ - IN-Waya | Wayanad District | India
+ - IN-Yamu | Yamunanagar District | India
+comparing dataHubs to pubs
+ ... 29/35 matches - 6 items would be added to pubs
+
+Can't normalize 'Forl√¨'
+ - charMap does not have a mapping for '√' (8730)
+ - charMap does not have a mapping for '¨' (168)
+
+italyType - 82 pubs items, 110 datahub items
+comparing pubs to dataHub
+ ... 81/82 matches - 1 items need to be checked (and possibly deleted)
+ - IT-FO | Forl?? | Italy
+comparing dataHubs to pubs
+ ... 81/110 matches - 29 items would be added to pubs
+
+japanType - 40 pubs items, 47 datahub items
+comparing pubs to dataHub
+ ... 40/40 matches - 0 items need to be checked (and possibly deleted)
+comparing dataHubs to pubs
+ ... 40/47 matches - 7 items would be added to pubs
+
+Can't normalize 'Quer√©taro'
+ - charMap does not have a mapping for '√' (8730)
+ - charMap does not have a mapping for '©' (169)
+
+mexicoType - 32 pubs items, 32 datahub items
+comparing pubs to dataHub
+ ... 31/32 matches - 1 items need to be checked (and possibly deleted)
+ - MX-QRO | Quer??taro | Mexico
+comparing dataHubs to pubs
+ ... 31/32 matches - 1 items would be added to pubs
+
+malaysiaType - 14 pubs items, 16 datahub items
+comparing pubs to dataHub
+ ... 11/14 matches - 3 items need to be checked (and possibly deleted)
+ - MY-Kual | Kuala Lumpur | Malaysia
+ - MY-Pena | Penang | Malaysia
+ - MY-Putr | Putrajaya | Malaysia
+comparing dataHubs to pubs
+ ... 11/16 matches - 5 items would be added to pubs
+
+netherlandsType - 10 pubs items, 12 datahub items
+comparing pubs to dataHub
+ ... 9/10 matches - 1 items need to be checked (and possibly deleted)
+ - NL-FLD | Flevopolder | Netherlands
+comparing dataHubs to pubs
+ ... 9/12 matches - 3 items would be added to pubs
+
+newZealandType - 15 pubs items, 17 datahub items
+comparing pubs to dataHub
+ ... 13/15 matches - 2 items need to be checked (and possibly deleted)
+ - NZ-Hawk | Hawkes Bay | New Zealand
+ - NZ-Mana | Manawatu | New Zealand
+comparing dataHubs to pubs
+ ... 13/17 matches - 4 items would be added to pubs
+
+philippinesType - 32 pubs items, 82 datahub items
+comparing pubs to dataHub
+ ... 30/32 matches - 2 items need to be checked (and possibly deleted)
+ - PH-Metr | Metropolitan Manila Area | Philippines
+ - PH-Sama | Samar | Philippines
+comparing dataHubs to pubs
+ ... 30/82 matches - 52 items would be added to pubs
+
+unitedStatesOfAmericaType - 62 pubs items, 57 datahub items
+comparing pubs to dataHub
+ ... 56/62 matches - 6 items need to be checked (and possibly deleted)
+ - US-AA | Armed Forces Americas | United States of America
+ - US-AE | Armed Forces Middle East | United States of America
+ - US-AP | Armed Forces Pacific | United States of America
+ - US-FM | FEDERATED STATES OF MICRONESIA | United States of America
+ - US-MH | MARSHALL ISLANDS | United States of America
+ - US-PW | PALAU | United States of America
+comparing dataHubs to pubs
+ ... 56/57 matches - 1 items would be added to pubs
+

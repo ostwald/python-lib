@@ -1,0 +1,67 @@
+#!/usr/bin/env python
+
+"""
+identify and strip junk FILES recursively
+
+what is junk is determined by "isJunkPath"
+"""
+
+def isJunkPath (s):
+
+	dir, filename = os.path.split (s)
+	root, ext = os.path.splitext (filename)
+	
+	if filename in [".cvsignore", ".svn"]: return 0
+	
+	if filename[0] in ['.', '#']: return 1
+	if ext in ['.marks']: return 1
+
+import sys
+import os
+import string
+import shutil
+
+indent = '   '
+
+removed = []
+
+def getIndent (level):
+	if level == 0:
+		return ''
+	if level == 1:
+		return indent
+	foo = []
+	for i in range(level):
+		foo.append (indent)
+	return string.join (foo, '|')
+
+def stripJunk (dir, level=0):
+	for filename in os.listdir(dir):
+		path = os.path.join (dir, filename)
+		if (os.path.isdir(path)):
+			if isJunkPath (path):
+				print "%s* %s (JUNK)" % (getIndent(level), filename)
+			else:
+				print "%s*%s" % (getIndent(level), filename)
+			stripJunk (path, level+1)
+		else:
+			if isJunkPath (path):
+				print "%s%s" % (getIndent(level), filename)
+				os.remove (path)
+				removed.append (path)
+				
+
+if __name__ == "__main__":
+
+	path = os.getcwd()
+	if len (sys.argv) > 1:
+		path = os.path.join (path, sys.argv[1])
+	print "\n=========================\nstripJunk: %s\n" % path
+	if not os.path.isdir (path):
+		print "\nstripJunk required a DIRECTORY"
+	else:
+		stripJunk (path)
+		print "deleted files (%d)" % len(removed)
+		for p in removed:
+			print "\t%s  (%s)" % (os.path.split(p)[1], os.path.split(p)[0])
+

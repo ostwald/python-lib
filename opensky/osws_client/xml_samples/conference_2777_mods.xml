@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5"
+   xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <recordInfo>
+      <recordIdentifier source="CoBA">OSGC-000-000-020-627</recordIdentifier>
+      <recordCreationDate encoding="w3cdtf">2014-07-17</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2015-09-29</recordChangeDate>
+      <recordContentSource>NCAR Library and Archives</recordContentSource>
+      <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                        framework.</recordOrigin>
+      <recordOrigin>This record was transformed using the following
+                        files: osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                        osm-presentation-to-mods.xsl.</recordOrigin>
+      <languageOfCataloging>
+         <languageTerm type="text">English</languageTerm>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <titleInfo>
+      <title>The Community Earth System Model: Enabling high-resolution climate simulations [presentation]</title>
+   </titleInfo>
+   <name type="conference">
+      <namePart>SIAM Conference on Computational Science and Engineering</namePart>
+   </name>
+   <name type="personal" valueURI="23" authorityURI="https://people.ucar.edu"
+      authority="UCAR People Database" usage="primary">
+      <namePart type="given">Allison</namePart>
+      <namePart type="family">Bakers</namePart>
+      <displayForm>Allison Baker</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</affiliation>
+   </name>
+   <name type="personal" valueURI="24793" authorityURI="https://people.ucar.edu"
+      authority="UCAR People Database" usage="primary">
+      <namePart type="given">Thelonius</namePart>
+      <namePart type="family">Monk</namePart>
+      <displayForm>Allison Baker</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL)</affiliation>
+   </name>
+   <name type="corporate">
+      <namePart>Society for Industrial and Applied Mathematics</namePart>
+      <role>
+         <roleTerm type="text" authority="marcrelator">Author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">spn</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre>conference material</genre>
+   <originInfo>
+      <dateCreated encoding="w3cdtf" keyDate="yes">2013-03-01</dateCreated>
+      <dateOther type="meeting" encoding="w3cdtf" point="start">2013-02-25</dateOther>
+      <dateOther type="meeting" encoding="w3cdtf" point="end">2013-03-01</dateOther>
+      <place>
+         <placeTerm type="text">Boston</placeTerm>
+      </place>
+      <place>
+         <placeTerm authority="marccountry">US</placeTerm>
+      </place>
+      <place>
+         <placeTerm authority="iso3166">US-MA</placeTerm>
+      </place>
+   </originInfo>
+   <language>
+      <languageTerm type="code" authority="rfc5646">en</languageTerm>
+   </language>
+   <extension>
+      <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm"
+         >Non-refereed</osm:classification>
+   </extension>
+   <extension>
+      <osm:collaboration xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">UCAR
+         only</osm:collaboration>
+   </extension>
+   <relatedItem type="isReferencedBy">
+      <location>
+         <url>http://www.siam.org/meetings/cse13/</url>
+      </location>
+   </relatedItem>
+   <extension>
+      <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm"
+         >conference</osm:collectionKey>
+   </extension>
+   <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-020-627</identifier>
+   <identifier displayLabel="Persistent URI" type="uri">http://n2t.net/ark:/85065/d7d799r8</identifier>
+   <identifier type="ark">ark:/85065/d7d799r8</identifier>
+   <accessCondition type="use and reproduction">Copyright Author(s). This work is licensed under a
+      Creative Commons Attribution-NonCommercial 4.0 International License.</accessCondition>
+</mods>

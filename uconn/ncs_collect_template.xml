@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs" xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_collect/1.02/schemas/ncs-collect.xsd">
+    <general>
+      <recordID/>
+      <url/>
+      <title></title>
+      <alternative></alternative>
+      <description></description>
+      <subject></subject>
+      <languages>
+        <ISOcode>eng</ISOcode>
+        <RFCcode>en</RFCcode>
+      </languages>
+    </general>
+    <collection>
+      <dateTime/>
+      <brandURL>http://nsdl.org/images/brands/4743.gif</brandURL>
+      <OAIvisibility>public</OAIvisibility>
+      <setSpec/>
+      <pathway>false</pathway>
+      <collectionSubjects>
+        <collectionSubject>General Science and STEM (Science, Technology, Engineering, and Mathematics)</collectionSubject>
+      </collectionSubjects>
+      <collectionPurposes>
+        <collectionPurpose>Educators and learners</collectionPurpose>
+      </collectionPurposes>
+      <viewContexts/>
+      <LAR>Not ready</LAR>
+      <ingest>
+        <oai baseURL="http://uc.dls.ucar.edu/dcs/services/oai2-0" libraryFormat="" metadataPrefix="nsdl_dc">
+        	<set setSpec=""/>
+        </oai>
+      </ingest>
+      <contacts/>
+    </collection>
+</record>
+
+
+
+
+
+
+          
+

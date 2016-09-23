@@ -1,0 +1,19 @@
+title	recId	collection	confidence	format	status	recordDate	publishedDate	upid	lastName	firstName	middleName
+Comparison of Winds Derived From the LIMS Satellite Instrument With Rocket Observations	TECH-NOTE-000-000-000-432	technotes	3	osm	Final	2010-04-10	1984		Smith	Anne	K
+Physics and chemistry of the mesopause region	PUBS-000-000-003-493	pubs-ref	5	osm	Final	2004-01-01	2004	14678	Smith	A	
+The origin of stationary planetary waves in the upper mesosphere	PUBS-000-000-003-486	pubs-ref	5	osm	Final	2004-01-01	2004	14678	Smith	A	
+The origin of stationary planetary waves in the upper mesosphere	PUBS-NOT-FY2010-000-000-005-891	not-fy10	5	osm	Unknown	2004-01-01	2004	14678	Smith	A	
+Observation of low frequency Kelvin waves in the mesosphere	PUBS-NOT-FY2010-000-000-005-854	not-fy10	5	osm	Unknown	1999-01-01	1999	14678	Smith	A	
+Structure of the terdiurnal tide at 95 km	PUBS-NOT-FY2010-000-000-006-361	not-fy10	5	osm	Unknown	2000-01-01	2000	14678	Smith	A	
+Physics and chemistry of the mesopause region	PUBS-NOT-FY2010-000-000-005-898	not-fy10	5	osm	Unknown	2004-01-01	2004	14678	Smith	A	
+Longitudinal variations in mesospheric winds: Evidence for gravity wave filtering by planetary waves	WOS-000-000-006-031	wos	3	osm	Final	1996-01-01	1996		Smith	A	K
+Longitudinal variability of the mesopause sao	WOS-000-000-005-554	wos	3	osm	Final	1997-01-01	1997		Smith	A	K
+Particle acceleration by strong plasma turbulence .2. acceleration of nonrelativistic electrons in solar-flares	WOS-000-000-010-616	wos	1	osm	Final	1977-01-01	1977		Smith	D	F
+Wave transience and wave mean flow interaction caused by the interference of stationary and traveling waves	WOS-000-000-008-765	wos	3	osm	Final	1985-01-01	1985		Smith	A	K
+Net generation of large-scale available potential-energy by subgrid-scale processes	WOS-000-000-011-602	wos	1	osm	Final	1973-01-01	1973		Smith	P	J
+Acceleration of nonrelativistic particles in reconnecting current sheets	WOS-000-000-010-608	wos	1	osm	Final	1977-01-01	1977		Smith	D	F
+Criteria for plasma-wave losses for electrons streaming from an acceleration region	WOS-000-000-011-139	wos	1	osm	Final	1975-01-01	1975		Smith	D	F
+Towards a better dynamic theory for type-iii radio-bursts	WOS-000-000-011-586	wos	1	osm	Final	1973-01-01	1973		Smith	D	F
+Numerical-simulation of global variations of temperature, ozone, and trace species in the stratosphere	WOS-000-000-006-429	wos	3	osm	Final	1995-01-01	1995		Smith	A	K
+Plasma radiation from collisionless mhd shock-waves and astro-geophysical phenomena	WOS-000-000-011-780	wos	1	osm	Final	1972-01-01	1972		Smith	D	F
+Momentum shear instabilities in pulsar polar caps	WOS-000-000-010-339	wos	1	osm	Final	1978-01-01	1978		Smith	D	F

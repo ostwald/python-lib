@@ -1,0 +1,67 @@
+<html>
+<head>
+    <META content="HyperText package (Python)" name="generator">
+    <LINK href="styles.css" type="text/css" rel="stylesheet"><SCRIPT src="prototype.js" type="text/javascript"></SCRIPT><SCRIPT src="report_script.js" type="text/javascript"></SCRIPT>
+    <TITLE>dcs_data reports</TITLE></HEAD>
+<style>
+.reports li {
+	font-size:16pt;
+	margin-top:5px;
+	}
+</style>
+</head>
+<body>
+<div style="float:right;">Compiled 12/3/2012</div>
+<h1>DcsData Reports</h1>
+
+<div id="about-toggler" class="togglerClosed">
+	<a href="javascript:void(0);" style="font-size:10pt;font-weight:bold;"
+		 id="about-toggler-lnk">About the reports
+		<span style="font-size:9pt;font-weight:normal;"> (click to open/close)</span></a>
+</div>
+
+<div id="about-toggler-con" style="display:none">
+	<p>The structure of the reports reflects the repository structure:</p>
+	
+	<p><li style="margin-left:0px">repository</li>
+	<li style="margin-left:10px">format</li>
+	<li style="margin-left:20px">collection</li>
+	<li style="margin-left:30px">record</li></p>
+	
+	<p>The report shows only the corrupt records, and only branches that contain
+	corrupt records. E.g., if there are no corrupt dates in a particular format,
+	then that format is not shown in the report. likewise at the collection level.</p>
+	
+	<p>Each heading in the report (representing repository, format, and collection)
+	includes a number in parens. This number represents the total number of corrupt
+	record descendants "within" this heading.</p>
+	
+	<p>In the reports below, the collections and records are hyperlinked.</p>
+	<ul >
+	<li>
+		<p>
+			<span style="font-weight:bold">collection links </span> do a search for corrupt
+			records in that collection, and take you to the NCS to view the records as search results.
+		</p>
+	
+	</li>
+	
+	<li><p><span style="font-weight:bold">record links</span>
+	 take you to the NCS to view the record as a search result.</p></li>
+	</ul>
+</div>
+
+<!-- <b>the reports</b> -->
+<ul>
+	<li>
+		<a href="nsdl_prod2_dcs_data.html">NSDL MGR NCS</a>
+	</li>
+	<li>
+		<a href="lib_dcs_data.html">NCAR Lib DCS</a>
+	</li>
+	<li>		
+		<a href="dlese_dcs_data.html">DLESE DCS</a>
+	</li>
+</ul>
+</body>
+</html>

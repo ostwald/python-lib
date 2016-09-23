@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationRecord xmlns="http://www.dlese.org/Metadata/annotation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dlese.org/Metadata/annotation http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd">
+	<service>
+		<name>CCS user selected resources</name>
+		<pathway>CCS Service</pathway>
+		<recordID>CCS-ANNO-RESOURCE-1307775762681-CCS-SAVED-DL-RESOURCE-2200/test.20061004091417688T</recordID>
+		<date created="2011-10-06T17:06:16Z" modified="2011-10-06T17:06:16Z"/>
+	</service>
+	<itemID>CCS-SAVED-DL-RESOURCE-2200/test.20061004091417688T</itemID>
+	<annotation>
+		<title>CCS user's notes and tags for 'Take Off with Paper Airplanes'</title>
+		<type>Comment</type>
+		<format>Text</format>
+		<status>Completed</status>
+		<content>
+			<description/>
+		<rating>Four star</rating></content>
+		<contributors>
+			<contributor role="Author" date="2011-10-06T17:06:16Z" share="true">
+				<person>
+					<nameFirst>Guillermo</nameFirst>
+					<nameLast>Flores</nameLast>
+					<instName>Unknown</instName>
+					<email>backpack@tomorrow.org</email>
+				</person>
+			</contributor>
+			<contributor role="Author" date="2011-10-06T17:06:16Z" share="true">
+				<person>
+					<nameFirst>Ronald</nameFirst>
+					<nameLast>McDonald</nameLast>
+					<instName>Unknown</instName>
+					<email>backpack@tomorrow.org</email>
+				</person>
+			</contributor>
+		</contributors>
+	</annotation>
+	<!-- moreInfo element - Contains data and info about and from the user who selected the resource referenced by this annotation. Attribue isSelected indicates if this is a selection or just annotation data -->
+	<moreInfo>
+		<userSelection isSelected="false">
+			<originalRecordId repository="NSDL" collectionKey="928276" collectionName="TeachEngineering: Resources for K-12" xmlFormat="">2200/test.20061004091417688T</originalRecordId>
+			<user>
+				<userId>1307775762681</userId>
+			</user>
+			<!-- userContent element - 
+				Contains tags/tag elements for activities, concpets, and user/community-supplied tags for the resource annotated.
+				Contains searchKeys/key elements of form {userID}-{tag} to uniquely search the tagged resource by user ID.
+				Written by CCS middleware. Omitted if n/a. -->
+		<userContent><tags/><searchKeys/></userContent></userSelection>	
+	</moreInfo>
+</annotationRecord>

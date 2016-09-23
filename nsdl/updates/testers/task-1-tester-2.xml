@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs/msp2" xsi:schemaLocation="http://ns.nsdl.org/ncs/msp2 http://ns.nsdl.org/ncs/msp2/1.00/schemas/record.xsd">
+  <general>
+    <recordID>MSP2T-000-000-000-073</recordID>
+    <recordDate>2009-09-10</recordDate>
+    <url>http://nmsa.org/Publications/MiddleGround/Articles/February2002/Article6/tabid/203/Default.aspx</url>
+    <title>Help with homework</title>
+    <description>Effective middle level educators seek to design homework that is motivating, enriching, and relevant. Homework is part of a comprehensive effort to help students learn skills and relate new information to their prior knowledge and experiences. Examples of Benjamin Bloom's taxonomy of higher-order thinking skills and RAFT (Role, Audience, Form, Time) assignments are provided.</description>
+    <keyword>RAFT (Role, Audience, Form, Time)</keyword>
+    <keyword>homework</keyword>
+    <keyword>student motivation</keyword>
+    <subjects>
+      <educationalSubject>Assessment of students</educationalSubject>
+      <educationalSubject>Teaching strategies</educationalSubject>
+      <educationalSubject>Student populations:Middle school</educationalSubject>
+    </subjects>
+    <language>en-US</language>
+    <mimeType>application/pdf</mimeType>
+    <mimeType>text/xml</mimeType>
+  </general>
+  <educational>
+    <audience>Educator</audience>
+    <resourceType>Article</resourceType>
+  </educational>
+  <lifecycle>
+    <publicationDate>2002-02</publicationDate>
+    <access>Free access</access>
+    <contributor role="Publisher">National Middle School Association (NMSA)</contributor>
+    <contributor role="Author">Rick Wormeli</contributor>
+  </lifecycle>
+</record>

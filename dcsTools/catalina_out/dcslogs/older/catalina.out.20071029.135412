@@ -1,0 +1,1809 @@
+Oct 29, 2007 12:31:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 29, 2007 12:31:08 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 12:31:09 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 12:31:09 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2146 ms
+Oct 29, 2007 12:31:09 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 29, 2007 12:31:09 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 29, 2007 12:31:09 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 29, 2007 12:31:10 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 29, 2007 12:31:11 PM MDT NDRServlet starting
+Oct 29, 2007 12:31:11 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 29, 2007 12:31:11 PM MDT SetupServlet starting
+Oct 29, 2007 12:31:11 PM MDT SetupServlet: collectionRecordsLocation: /usr/local/dlese_data/dcs/records/dlese_collect
+Oct 29, 2007 12:31:11 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 29, 2007 12:31:11 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 29, 2007 12:31:11 PM MDT SetupServlet completed.
+
+Oct 29, 2007 12:31:11 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 29, 2007 12:31:11 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 29, 2007 12:31:15 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 29, 2007 12:31:15 PM MDT Outputting debug info
+Oct 29, 2007 12:31:15 PM MDT Using collection-level metadata files located at /usr/local/dlese_data/dcs/records/dlese_collect/collect
+Oct 29, 2007 12:31:15 PM MDT Using ADN metadata files located at /usr/local/dlese_data/dcs/records
+Oct 29, 2007 12:31:15 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 29, 2007 12:31:15 PM MDT Starting up RepositoryManager
+Oct 29, 2007 12:31:15 PM MDT loading props file: RepositoryManager.properties
+Oct 29, 2007 12:31:15 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 18817 entries.
+Oct 29, 2007 12:31:17 PM MDT rm.init() successful...
+Oct 29, 2007 12:31:17 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 29, 2007 12:31:18 PM MDT DDSServlet started.
+
+
+Oct 29, 2007 12:31:18 PM MDT OAIProviderServlet starting
+Oct 29, 2007 12:31:18 PM MDT OAIProviderServlet: Outputting debug info
+Oct 29, 2007 12:31:18 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 29, 2007 12:31:18 PM MDT OAIProviderServlet initialized.
+Oct 29, 2007 12:31:18 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+Oct 29, 2007 12:31:19 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+StructureWalker: Recieved an ANY element type - skipping ...
+Oct 29, 2007 12:31:22 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 29, 2007 12:31:27 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (8 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 60 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with dcc'.xml
+CollectionRegistry: registered dcc' (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with 1191523439291.xml
+CollectionRegistry: registered 1191523439291 (prefix: COLLECT-TEST)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with serc.xml
+CollectionRegistry: registered serc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with sat.xml
+CollectionRegistry: registered sat (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with testcollect.xml
+CollectionRegistry: registered testcollect (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with drc.xml
+CollectionRegistry: registered drc (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with essec.xml
+CollectionRegistry: registered essec (prefix: )
+
+"collectionRegistry" initialized with 59 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+Oct 29, 2007 12:31:54 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+Oct 29, 2007 12:32:00 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+Oct 29, 2007 12:32:05 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10270 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 11 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: startAutoExportTimer
+RepositoryService: autoExport timer is scheduled to start Mon, Oct 29, 2007 12:40 PM MDT, and run every 1440 minutes, 0 seconds.
+initialized repositoryService
+Oct 29, 2007 12:32:18 PM MDT SchemEditServlet initialized.
+
+Oct 29, 2007 12:32:18 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 29, 2007 12:32:18 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 29, 2007 12:32:18 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+ActionServlet: guest user set in servletContext
+
+ActionServlet: ActionServlet initialized
+
+Oct 29, 2007 12:32:19 PM MDT SchemaViewerServlet starting
+Oct 29, 2007 12:32:19 PM MDT SchemaViewerServlet initialized.
+Oct 29, 2007 12:32:19 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 12:32:19 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 12:32:19 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 29, 2007 12:32:19 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/34  config=null
+Oct 29, 2007 12:32:19 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 29, 2007 12:32:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 70430 ms
+
+AutoExportTask:  ===============================
+AutoExportTask: run()
+
+AutoExportTask: collection: adl
+AutoExportTask: 	 exportPath: adn/adl
+ExportingService: relativetDestPath: adn/adl
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/adl .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "adl"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/adl
+AutoExportTask: 	 	 Status: _|-final-adl-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: avc
+AutoExportTask: 	 exportPath: adn/avc
+ExportingService: relativetDestPath: adn/avc
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/avc .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "avc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/avc
+AutoExportTask: 	 	 Status: _|-final-avc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridgenoaaother
+AutoExportTask: 	 exportPath: adn/bridgenoaaother
+ExportingService: relativetDestPath: adn/bridgenoaaother
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/bridgenoaaother .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "bridgenoaaother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridgenoaaother
+AutoExportTask: 	 	 Status: _|-final-bridgenoaaother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridgenoaa
+AutoExportTask: 	 exportPath: adn/bridgenoaa
+ExportingService: relativetDestPath: adn/bridgenoaa
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/bridgenoaa .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "bridgenoaa"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridgenoaa
+AutoExportTask: 	 	 Status: _|-final-bridgenoaa-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridgeother
+AutoExportTask: 	 exportPath: adn/bridgeother
+ExportingService: relativetDestPath: adn/bridgeother
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/bridgeother .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "bridgeother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridgeother
+AutoExportTask: 	 	 Status: _|-final-bridgeother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: bridge
+AutoExportTask: 	 exportPath: adn/bridge
+ExportingService: relativetDestPath: adn/bridge
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/bridge .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "bridge"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/bridge
+AutoExportTask: 	 	 Status: _|-final-bridge-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ccc
+AutoExportTask: 	 exportPath: dlese_anno/ccc
+ExportingService: relativetDestPath: dlese_anno/ccc
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/ccc .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "ccc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/ccc
+AutoExportTask: 	 	 Status: _|-final-ccc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: comet
+AutoExportTask: 	 exportPath: adn/comet
+ExportingService: relativetDestPath: adn/comet
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/comet .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "comet"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/comet
+AutoExportTask: 	 	 Status: _|-final-comet-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: crs
+AutoExportTask: 	 exportPath: dlese_anno/crs
+ExportingService: relativetDestPath: dlese_anno/crs
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/crs .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "crs"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/crs
+AutoExportTask: 	 	 Status: _|-final-crs-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: coseeother
+AutoExportTask: 	 exportPath: adn/coseeother
+ExportingService: relativetDestPath: adn/coseeother
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/coseeother .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "coseeother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/coseeother
+AutoExportTask: 	 	 Status: _|-final-coseeother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: cosee
+AutoExportTask: 	 exportPath: adn/cosee
+ExportingService: relativetDestPath: adn/cosee
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/cosee .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "cosee"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/cosee
+AutoExportTask: 	 	 Status: _|-final-cosee-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: curl
+AutoExportTask: 	 exportPath: adn/curl
+ExportingService: relativetDestPath: adn/curl
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/curl .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "curl"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/curl
+AutoExportTask: 	 	 Status: _|-final-curl-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: sercnagt
+AutoExportTask: 	 exportPath: adn/sercnagt
+ExportingService: relativetDestPath: adn/sercnagt
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/sercnagt .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "sercnagt"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/sercnagt
+AutoExportTask: 	 	 Status: _|-final-sercnagt-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dataclass
+AutoExportTask: 	 exportPath: adn/dataclass
+ExportingService: relativetDestPath: adn/dataclass
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/dataclass .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "dataclass"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dataclass
+AutoExportTask: 	 	 Status: _|-final-dataclass-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dwel
+AutoExportTask: 	 exportPath: adn/dwel
+ExportingService: relativetDestPath: adn/dwel
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/dwel .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "dwel"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dwel
+AutoExportTask: 	 	 Status: _|-final-dwel-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ceis
+AutoExportTask: 	 exportPath: adn/ceis
+ExportingService: relativetDestPath: adn/ceis
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/ceis .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "ceis"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/ceis
+AutoExportTask: 	 	 Status: _|-final-ceis-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dcr
+AutoExportTask: 	 exportPath: dlese_collect/collect
+ExportingService: relativetDestPath: dlese_collect/collect
+
+AutoExportTask: 	 Calling exportRecords for "dcr"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_collect/collect
+AutoExportTask: 	 	 Status: _|-final-dcr-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dcc
+AutoExportTask: 	 exportPath: adn/dcc
+ExportingService: relativetDestPath: adn/dcc
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/dcc .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "dcc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dcc
+AutoExportTask: 	 	 Status: _|-final-dcc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: matters
+AutoExportTask: 	 exportPath: news_opps/matters
+ExportingService: relativetDestPath: news_opps/matters
+ExportingService: dest does not exist at /global/dev/dlese_data/records/news_opps/matters .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "matters"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/news_opps/matters
+AutoExportTask: 	 	 Status: _|-final-matters-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: 1191523439291
+AutoExportTask: 	 export path not defined - skipping
+
+AutoExportTask: collection: serceet
+AutoExportTask: 	 exportPath: adn/serceet
+ExportingService: relativetDestPath: adn/serceet
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/serceet .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "serceet"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/serceet
+AutoExportTask: 	 	 Status: _|-final-serceet-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: eee
+AutoExportTask: 	 exportPath: adn/eee
+ExportingService: relativetDestPath: adn/eee
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/eee .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "eee"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/eee
+AutoExportTask: 	 	 Status: _|-final-eee-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: emvc
+AutoExportTask: 	 exportPath: adn/emvc
+ExportingService: relativetDestPath: adn/emvc
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/emvc .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "emvc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/emvc
+AutoExportTask: 	 	 Status: _|-final-emvc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: esa
+AutoExportTask: 	 exportPath: adn/esa
+ExportingService: relativetDestPath: adn/esa
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/esa .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "esa"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/esa
+AutoExportTask: 	 	 Status: _|-final-esa-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ienother
+AutoExportTask: 	 exportPath: adn/ienother
+ExportingService: relativetDestPath: adn/ienother
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/ienother .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "ienother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/ienother
+AutoExportTask: 	 	 Status: _|-final-ienother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: ien
+AutoExportTask: 	 exportPath: adn/ien
+ExportingService: relativetDestPath: adn/ien
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/ien .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "ien"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/ien
+AutoExportTask: 	 	 Status: _|-final-ien-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: evaltlkt
+AutoExportTask: 	 exportPath: adn/evaltlkt
+ExportingService: relativetDestPath: adn/evaltlkt
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/evaltlkt .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "evaltlkt"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/evaltlkt
+AutoExportTask: 	 	 Status: _|-final-evaltlkt-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: globe
+AutoExportTask: 	 exportPath: adn/globe
+ExportingService: relativetDestPath: adn/globe
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/globe .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "globe"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/globe
+AutoExportTask: 	 	 Status: _|-final-globe-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dlisrother
+AutoExportTask: 	 exportPath: adn/dlisrother
+ExportingService: relativetDestPath: adn/dlisrother
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/dlisrother .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "dlisrother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dlisrother
+AutoExportTask: 	 	 Status: _|-final-dlisrother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: dlisr
+AutoExportTask: 	 exportPath: adn/dlisr
+ExportingService: relativetDestPath: adn/dlisr
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/dlisr .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "dlisr"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/dlisr
+AutoExportTask: 	 	 Status: _|-final-dlisr-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nap
+AutoExportTask: 	 exportPath: adn/nap
+ExportingService: relativetDestPath: adn/nap
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/nap .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "nap"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/nap
+AutoExportTask: 	 	 Status: _|-final-nap-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: edmall
+AutoExportTask: 	 exportPath: adn/edmall
+ExportingService: relativetDestPath: adn/edmall
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/edmall .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "edmall"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/edmall
+AutoExportTask: 	 	 Status: _|-final-edmall-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: mynasadata
+AutoExportTask: 	 exportPath: adn/mynasadata
+ExportingService: relativetDestPath: adn/mynasadata
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/mynasadata .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "mynasadata"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/mynasadata
+AutoExportTask: 	 	 Status: _|-final-mynasadata-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: mynasastds
+AutoExportTask: 	 exportPath: dlese_anno/mynasastds
+ExportingService: relativetDestPath: dlese_anno/mynasastds
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/mynasastds .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "mynasastds"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/mynasastds
+AutoExportTask: 	 	 Status: _|-final-mynasastds-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: eserev
+AutoExportTask: 	 exportPath: adn/eserev
+ExportingService: relativetDestPath: adn/eserev
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/eserev .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "eserev"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/eserev
+AutoExportTask: 	 	 Status: _|-final-eserev-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: svs
+AutoExportTask: 	 exportPath: adn/svs
+ExportingService: relativetDestPath: adn/svs
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/svs .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "svs"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/svs
+AutoExportTask: 	 	 Status: _|-final-svs-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nyic
+AutoExportTask: 	 exportPath: adn/nyic
+ExportingService: relativetDestPath: adn/nyic
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/nyic .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "nyic"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/nyic
+AutoExportTask: 	 	 Status: _|-final-nyic-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nys
+AutoExportTask: 	 exportPath: dlese_anno/nys
+ExportingService: relativetDestPath: dlese_anno/nys
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/nys .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "nys"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/nys
+AutoExportTask: 	 	 Status: _|-final-nys-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: nocc
+AutoExportTask: 	 exportPath: news_opps/nocc
+ExportingService: relativetDestPath: news_opps/nocc
+ExportingService: dest does not exist at /global/dev/dlese_data/records/news_opps/nocc .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "nocc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/news_opps/nocc
+AutoExportTask: 	 	 Status: _|-final-nocc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: evc
+AutoExportTask: 	 exportPath: adn/evc
+ExportingService: relativetDestPath: adn/evc
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/evc .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "evc"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/evc
+AutoExportTask: 	 	 Status: _|-final-evc-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: pck
+AutoExportTask: 	 exportPath: dlese_anno/pck
+ExportingService: relativetDestPath: dlese_anno/pck
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/pck .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "pck"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/pck
+AutoExportTask: 	 	 Status: _|-final-pck-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: thredds
+AutoExportTask: 	 exportPath: adn/thredds
+ExportingService: relativetDestPath: adn/thredds
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/thredds .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "thredds"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/thredds
+AutoExportTask: 	 	 Status: _|-final-thredds-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: simpleother
+AutoExportTask: 	 exportPath: adn/simpleother
+ExportingService: relativetDestPath: adn/simpleother
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/simpleother .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "simpleother"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/simpleother
+AutoExportTask: 	 	 Status: _|-final-simpleother-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: simple
+AutoExportTask: 	 exportPath: adn/simple
+ExportingService: relativetDestPath: adn/simple
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/simple .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "simple"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/simple
+AutoExportTask: 	 	 Status: _|-final-simple-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: sercstrtpt
+AutoExportTask: 	 exportPath: adn/sercstrtpt
+ExportingService: relativetDestPath: adn/sercstrtpt
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/sercstrtpt .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "sercstrtpt"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/sercstrtpt
+AutoExportTask: 	 	 Status: _|-final-sercstrtpt-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: swi
+AutoExportTask: 	 exportPath: adn/swi
+ExportingService: relativetDestPath: adn/swi
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/swi .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "swi"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/swi
+AutoExportTask: 	 	 Status: _|-final-swi-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: tbox
+AutoExportTask: 	 exportPath: dlese_anno/tbox
+ExportingService: relativetDestPath: dlese_anno/tbox
+ExportingService: dest does not exist at /global/dev/dlese_data/records/dlese_anno/tbox .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "tbox"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/tbox
+AutoExportTask: 	 	 Status: _|-final-tbox-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: tboxres
+AutoExportTask: 	 exportPath: adn/tboxres
+ExportingService: relativetDestPath: adn/tboxres
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/tboxres .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "tboxres"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/tboxres
+AutoExportTask: 	 	 Status: _|-final-tboxres-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: 1189030393181
+AutoExportTask: 	 export path not defined - skipping
+
+AutoExportTask: collection: tips
+AutoExportTask: 	 exportPath: dlese_anno/tips
+ExportingService: relativetDestPath: dlese_anno/tips
+
+AutoExportTask: 	 Calling exportRecords for "tips"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/dlese_anno/tips
+AutoExportTask: 	 	 Status: _|-final-tips-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: usgs
+AutoExportTask: 	 exportPath: adn/usgs
+ExportingService: relativetDestPath: adn/usgs
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/usgs .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "usgs"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/usgs
+AutoExportTask: 	 	 Status: _|-final-usgs-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+AutoExportTask: collection: visionlearn
+AutoExportTask: 	 exportPath: adn/visionlearn
+ExportingService: relativetDestPath: adn/visionlearn
+ExportingService: dest does not exist at /global/dev/dlese_data/records/adn/visionlearn .. attempting to create
+
+AutoExportTask: 	 Calling exportRecords for "visionlearn"
+AutoExportTask: 	 	 destDir: /global/dev/dlese_data/records/adn/visionlearn
+AutoExportTask: 	 	 Status: _|-final-visionlearn-|_
+ExportingService: 0 files removed from dest directory
+AutoExportTask: AutoExportTask completed
+
+
+Oct 29, 2007 1:36:17 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: command=export&report=true&collection=dcr
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+SessionRegistry: sessionBean is null && session is active for id: 9D913F2039A7F86AC1C4718C58C0E98F
+SessionRegistry: registered sessionBean: 9D913F2039A7F86AC1C4718C58C0E98F
+Filtered Request Parameters
+	report: true
+	collection: dcr
+	command: export
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrow_right.gif
+
+Oct 29, 2007 1:36:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrowup.gif
+
+Oct 29, 2007 1:39:06 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+
+Oct 29, 2007 1:39:06 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: 0489329549270BACF0581E5C8C9231D0
+SessionRegistry: registered sessionBean: 0489329549270BACF0581E5C8C9231D0
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 29, 2007 1:39:07 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 29, 2007 1:39:07 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 29, 2007 1:39:07 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 29, 2007 1:39:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 29, 2007 1:39:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 29, 2007 1:39:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 29, 2007 1:39:37 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+Oct 29, 2007 1:39:40 PM MDT SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+----------------------------------
+  search took 3 millis
+----------------------------------
+
+
+Oct 29, 2007 1:39:40 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/btnExpand.gif
+
+Oct 29, 2007 1:40:31 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0adl&vld=valid&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	sss: Done
+	vld: valid
+	scs: 0adl
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 17 millis
+----------------------------------
+
+DCSQueryAction: Search results: 6
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 7 millis
+----------------------------------
+
+
+Oct 29, 2007 1:40:33 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/descending.gif
+
+Oct 29, 2007 1:40:44 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0avc&vld=valid&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	sss: Done
+	vld: valid
+	scs: 0avc
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 16 millis
+----------------------------------
+
+DCSQueryAction: Search results: 26
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 15 millis
+----------------------------------
+
+
+Oct 29, 2007 1:40:46 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrow_right.gif
+
+Oct 29, 2007 1:40:55 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0avc&vld=&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	sss: Done
+	scs: 0avc
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 15 millis
+----------------------------------
+
+DCSQueryAction: Search results: 26
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 14 millis
+----------------------------------
+
+
+Oct 29, 2007 1:41:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0avc&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 0avc
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 19 millis
+----------------------------------
+
+DCSQueryAction: Search results: 26
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 14 millis
+----------------------------------
+
+
+Oct 29, 2007 1:41:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 29, 2007 1:41:28 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&scs=0bridgenoaaother&vld=valid
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	vld: valid
+	scs: 0bridgenoaaother
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 11 millis
+----------------------------------
+
+DCSQueryAction: Search results: 59
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 49 millis
+----------------------------------
+
+
+Oct 29, 2007 1:41:44 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0bridgenoaaother&vld=valid&sss=Done&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	sss: Done
+	vld: valid
+	scs: 0bridgenoaaother
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 15 millis
+----------------------------------
+
+DCSQueryAction: Search results: 58
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 26 millis
+----------------------------------
+
+
+Oct 29, 2007 1:41:55 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0bridgenoaaother&vld=valid&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	vld: valid
+	scs: 0bridgenoaaother
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 11 millis
+----------------------------------
+
+DCSQueryAction: Search results: 59
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 28 millis
+----------------------------------
+
+
+Oct 29, 2007 1:41:58 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcsstatusLabel&searchString=&vld=valid&scs=0bridgenoaaother&searchMode=raw&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcsstatusLabel
+	sortOrder: 0
+	vld: valid
+	searchMode: raw
+	scs: 0bridgenoaaother
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 59
+
+SearchHelper: SORT (sortWidget = label: Status, fieldName: dcsstatusLabel)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Status
+   ... sort took 1 millis
+----------------------------------
+
+
+Oct 29, 2007 1:41:59 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/ascending.gif
+
+Oct 29, 2007 1:42:01 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcsstatusLabel&searchString=&vld=valid&searchMode=raw&scs=0bridgenoaaother&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcsstatusLabel
+	sortOrder: 1
+	vld: valid
+	scs: 0bridgenoaaother
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 59
+
+SearchHelper: SORT (sortWidget = label: Status, fieldName: dcsstatusLabel)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Status
+   ... sort took 1 millis
+----------------------------------
+
+
+Oct 29, 2007 1:42:11 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcsstatusLabel&searchString=&vld=valid&scs=0bridgenoaaother&searchMode=raw&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcsstatusLabel
+	sortOrder: 0
+	vld: valid
+	searchMode: raw
+	scs: 0bridgenoaaother
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 59
+
+SearchHelper: SORT (sortWidget = label: Status, fieldName: dcsstatusLabel)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Status
+   ... sort took 1 millis
+----------------------------------
+
+
+Oct 29, 2007 1:42:16 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcsstatusLabel&searchString=&vld=valid&searchMode=raw&scs=0bridgenoaaother&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcsstatusLabel
+	sortOrder: 1
+	vld: valid
+	scs: 0bridgenoaaother
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 59
+
+SearchHelper: SORT (sortWidget = label: Status, fieldName: dcsstatusLabel)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Status
+   ... sort took 0 millis
+----------------------------------
+
+Oct 29, 2007 1:45:26 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 1:45:26 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 1:45:27 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 16175 DcsDataRecords from cache
+Oct 29, 2007 1:45:27 PM MDT SchemEditServlet stopped
+Oct 29, 2007 1:45:27 PM MDT NDRServlet: destroy() ...
+Oct 29, 2007 1:45:27 PM MDT NDRServlet stopped
+Oct 29, 2007 1:45:27 PM MDT SetupServlet: destroy() ...
+Oct 29, 2007 1:45:27 PM MDT SetupServlet stopped
+Oct 29, 2007 1:45:27 PM MDT CasaaServlet: destroy() ...
+Oct 29, 2007 1:45:27 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 29, 2007 1:45:27 PM MDT MetadataVocabServlet stopped.
+Oct 29, 2007 1:45:27 PM MDT RepositoryManager destroy()
+Oct 29, 2007 1:45:27 PM MDT OAIProviderServlet stopped
+Oct 29, 2007 1:45:27 PM MDT RepositoryManager destroy()
+
+
+Oct 29, 2007 1:45:27 PM MDT DDSServlet stopped.
+
+
+Oct 29, 2007 1:45:27 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: unregistering Session Bean for 0489329549270BACF0581E5C8C9231D0
+SessionBean: destroying sessionBean for 0489329549270BACF0581E5C8C9231D0
+[ERROR] schemedit] - Exception sending context destroyed event to listener instance of class org.dlese.dpc.schemedit.SessionRegistry <java.util.ConcurrentModificationException>java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(HashMap.java:841)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:877)
+	at org.dlese.dpc.schemedit.SessionRegistry.contextDestroyed(SessionRegistry.java:65)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:3805)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4357)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 0489329549270BACF0581E5C8C9231D0 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session 0489329549270BACF0581E5C8C9231D0 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute queryForm for session 0489329549270BACF0581E5C8C9231D0 <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 9D913F2039A7F86AC1C4718C58C0E98F <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute csForm for session 9D913F2039A7F86AC1C4718C58C0E98F <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+Oct 29, 2007 1:45:29 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 29, 2007 1:45:29 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 29, 2007 1:45:29 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.dlsciences.org/frameworks/concepts" xsi:schemaLocation="http://www.dlsciences.org/frameworks/concepts http://www.dlsciences.org/frameworks/concepts/1.0/schemas/concepts.xsd">
+  <shortTitle>@SHORT_TITLE@</shortTitle>
+  <contents object="Unit">
+  	<content>
+		<text/>
+	</content>
+  </contents>
+  <recordID>@RECORD_ID@</recordID>
+  <longTitle>@LONG_TITLE@</longTitle>
+  <relations/>
+</concept>

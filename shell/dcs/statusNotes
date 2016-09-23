@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import utils
+
+from tabDelimitedRecord import DCCRecords
+
+env = utils.getTransEnv ()
+# env.printenv()
+
+vitality_file = os.path.join (env.link_check_dir,"vitality-link-check.txt")
+print "** statusNotes **\n"
+rm = DCCRecords()
+rm.read (vitality_file)
+# rm.show_dups()
+print "\n"
+print (rm.report ())

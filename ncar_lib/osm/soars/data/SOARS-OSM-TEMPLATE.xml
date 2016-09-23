@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd" xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<general>
+		<recordID>OSM2-000-000-000-003</recordID>
+		<recordDate></recordDate>
+		<title type="Manuscript"></title>
+		<description>DESCRIPTION REQUIRED !!!!</description>
+	</general>
+	<resources>
+		<primaryAsset type="Has version" url="" order="1">
+			<mimeType>application/pdf</mimeType>
+		</primaryAsset>
+	</resources>
+	<contributors>
+		<person role="Author" order="1">
+			<lastName></lastName>
+			<firstName></firstName>
+			<middleName></middleName>
+			<suffix></suffix>
+			<instName>University Corporation for Atmospheric Research (UCAR)</instName>
+			<instDivision>Significant Opportunities in Atmospheric Research and Science (SOARS)</instDivision>
+		</person>
+	</contributors>
+	<classify>
+		<language>en</language>
+		<status>Unpublished</status>
+		<classification>Non-refereed</classification>
+		<collaboration>UCAR only</collaboration>
+	</classify>
+	<rights>
+		<copyrightNotice type="UCAR Open Access Policy" url="http://www.ucar.edu/legal/terms_of_use.shtml"
+		  holder="Author">The user is granted the right to use this resource for on-commercial, non-profit research, or educational purposes only, as are more fully described in the NCAR Library Terms of Use.</copyrightNotice>
+	</rights>
+	<coverage>
+		<date type="Created"></date>
+		<date type="Digitized">2010</date>
+	</coverage>
+</record>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dcsDataRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.dpc.ucar.edu/people/ostwald/Metadata/dcs-data/dcs-data.xsd">
+  <recordID>1159995857662pid-000-000-000-022</recordID>
+  <isValid/>
+  <statusEntries>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>Record Created</statusNote>
+      <editor>Unknown</editor>
+      <changeDate>2007-06-01T17:59:23Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>i dunno</status>
+      <statusNote>what is the score?</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-06-05T11:58:02Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>i dunno</status>
+      <statusNote>asdf</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-06-05T12:14:58Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>almost done</status>
+      <statusNote>what it is</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-06-05T12:19:11Z</changeDate>
+    </statusEntry>
+    <statusEntry>
+      <status>New</status>
+      <statusNote>wee</statusNote>
+      <editor>jonathan</editor>
+      <changeDate>2007-06-05T13:52:46Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2007-06-05T17:21:01Z</lastTouchDate>
+  <ndrHandle>2200/test.20070605192110033T</ndrHandle>
+  <validationReport></validationReport>
+  <badChars/>
+</dcsDataRecord>

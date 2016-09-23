@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><concept xmlns="http://www.dlsciences.org/frameworks/concepts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dlsciences.org/frameworks/concepts http://www.dlsciences.org/frameworks/concepts/1.0/schemas/concepts.xsd">
+  <shortTitle>@TITLE@</shortTitle>
+  <contents object="Chapter">
+    <content>
+      <text/>
+    </content>
+  </contents>
+  <recordID>BP-CHAPTER-000-000-000-002</recordID>
+  <longTitle>Physics Part 1</longTitle>
+  <relations/>
+</concept>

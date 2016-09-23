@@ -1,0 +1,134 @@
+# This file contains DR numbers that have not yet been mapped, either by
+# dds_asset_search, or by DR_Num_hand_mappings.
+# 
+# Cases:
+# 
+# 1 - most of these DR#s cataloged mulitple records, and therefore are not
+# associated with a asset, but rather with other DRS that ARE associated with an
+# asset (and a recordID). In this case they are associated with another DR (e.g.,
+# 81, which is short for DR000081).
+# 
+# 2 - In some cases, a DR# is associated with a RecordID in NLDR but for some
+# reason was not yet in the mappings. These cases have a full ID number (e.g.,
+# TECH-NOTE-000-000-000-023)
+# 
+# 3 - finally, some DR#s are not associated with any resource in CAT (e.g.,
+# RESOURCE NOT FOUND) or were otherwise purposely not incorporated in NLDR. In
+# these cases, no action is to be taken.
+# ----------------------------------------------------------------------------------- 
+DR000080 - 81
+DR000082 - 83
+DR000085 - 86
+DR000088 - 89
+DR000093 - 94
+DR000096 - 97
+DR000099 - 102
+DR000103 - 104
+DR000107 - 112
+DR000108 - ??
+DR000110 - 111
+DR000113 - 114
+DR000116 - 117
+DR000122 - 123
+DR000134 - 78
+DR000136 - 135
+# DR000171 - pdf and metadata saved to disk. seems like it should go with TECH-NOTE-000-000-000-671
+DR000237 - RESOURCE NOT FOUND
+DR000251 - 252
+DR000254 - 255
+DR000257 - 258
+DR000260 - 261
+DR000263 - 264
+DR000298 - 299
+DR000302 - RESOURCE NOT FOUND
+DR000303 - 304
+DR000329 - RESOURCE NOT FOUND
+DR000347 - RESOURCE NOT FOUND
+DR000389 - RESOURCE NOT FOUND
+DR000395 - RESOURCE NOT FOUND
+DR000434 - 435
+DR000441 - 439
+# DR000442 - "NCAR Technical Notes 261-280"
+DR000443 - 444 - Climat. atlas: 1950-79 surf. air temp., precip. (8 prts)
+DR000452 - 457
+DR000466 - 467
+DR000480 - 481
+DR000483 - 484
+DR000485 - 484 (why wasn't this already mapped?? (pdf is already in system)
+DR000486 - 487 
+DR000490 - 491
+DR000509 - UNAVAILABLE in electronic form
+DR000510 - RESOURCE NOT FOUND
+DR000517 - RESOURCE NOT FOUND
+DR000518 - RESOURCE NOT FOUND
+DR000538 - 539
+DR000541 - 542
+DR000544 - 545
+DR000551 - 552
+DR000555 - 556
+DR000570 - RESOURCE NOT FOUND
+DR000571 - UNAVAILABLE in electronic form
+DR000581 - RESOURCE NOT FOUND
+DR000587 - 588
+DR000588 - TECH-NOTE-000-000-000-588 - This is cataloged as TECH-NOTE-000-000-000-588, but not in mapping??
+DR000598 - RESOURCE NOT FOUND
+DR000626 - TECH-NOTE-000-000-000-626 - Cataloged as TECH-NOTE-000-000-000-626, but not in mapping??
+DR000641 - RESOURCE NOT FOUND
+DR000671 - TECH-NOTE-000-000-000-671 - Cataloged as TECH-NOTE-000-000-000-671, but not in mapping??
+DR000672 - 671
+DR000673 - 671
+DR000674 - 671
+DR000675 - 671
+DR000676 - 671
+DR000677 - 671
+DR000678 - 671
+DR000679 - 671
+DR000680 - 671
+DR000681 - 671
+DR000682 - 671
+DR000683 - 671
+DR000684 - 671
+DR000685 - 671
+DR000686 - 671
+DR000687 - 671
+DR000688 - 671
+DR000689 - 671
+DR000690 - 671
+DR000691 - 671
+DR000692 - 671
+DR000693 - 671
+DR000694 - 671
+DR000695 - 671
+DR000696 - 671
+DR000697 - 671
+DR000698 - 671
+DR000699 - 671
+DR000700 - 671
+DR000701 - 671
+DR000702 - 671
+DR000703 - 671
+DR000704 - 671
+DR000705 - 671
+DR000706 - 671
+DR000707 - 671
+DR000708 - 671
+DR000709 - 671
+DR000729 - RESOURCE NOT FOUND
+DR000774 - RESOURCE NOT FOUND
+DR000775 - RESOURCE NOT FOUND
+DR000778 - RESOURCE NOT FOUND
+DR000779 - RESOURCE NOT FOUND
+DR000780 - RESOURCE NOT FOUND
+DR000781 - RESOURCE NOT FOUND
+DR000782 - RESOURCE NOT FOUND
+DR000783 - RESOURCE NOT FOUND
+DR000785 - RESOURCE NOT FOUND
+DR000786 - "NCAR co-op thesis 175 - Effects ...:" - no electronic asset
+DR000788 - NCAR co-op thesis 175 - Effects ..." - no electronic asset
+DR000792 - "NCAR CT - 176 - Turbulent intermittency ..." - asset found (but it's a thesis and i'm ignoring)
+DR000810 - RESOURCE NOT FOUND
+DR000814 - RESOURCE NOT FOUND
+DR000816 - RESOURCE NOT FOUND
+DR000836 - 837
+DR000839 - HIST-000-000-000-006 - "The UCAR Foundation Strategic Plan : 1994 - 2000" cataloged as HIST-000-000-000-006 (library_dc)
+DR000840 - asr reports cataloged as separate resources. no mapping

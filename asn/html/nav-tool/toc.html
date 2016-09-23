@@ -1,0 +1,161 @@
+<html>
+<head>
+<style type="text/css">
+
+body, td {
+	font-family: arial;
+	font-size:80%;
+}
+
+h1 {
+	margin: 10px 0px 2px 0px;
+	text-align: center;
+}
+h3 {
+	margin-bottom:2px;
+	border-bottom:thin blue solid;
+	background-color:#e8e8fc;
+}	
+h4 {
+	margin: 10px 0px 2px 0px;
+	
+}
+
+h5 {
+	margin: 0px 0px 2px 15px;
+}
+
+.text {
+	font-size:10px;
+}
+	
+.std-id {
+	margin-left:30px;
+}
+	
+.std-id.over {
+	background-color:#f9f9d8;
+}
+
+</style>
+<SCRIPT src="../javascript/prototype.js" type="text/javascript"></SCRIPT>
+<script type="text/javascript">
+
+function pageInit () {
+	
+	document.getElementsByClassName ("std-id").each (function (std) {
+		std.observe ('click', function (evnt) {
+			if (std.hasClassName ("new"))
+				toNewStandard (Event.element(evnt).id);
+			else
+				toOldStandard (Event.element(evnt).id);
+		});
+		std.observe ('mouseover', function (evnt) {
+			std.setStyle ({cursor:'pointer'});
+			std.addClassName ("over");
+		});
+		std.observe ('mouseout', function (evnt) {
+			std.setStyle ({cursor:'default'});
+			std.removeClassName ("over");
+		});		
+	});
+}
+	
+function toNewStandard (id) {
+	var baseUrl = "http://www.dpc.ucar.edu/people/ostwald/standards/1995-NSES-v1.2.5-06012007.html"
+	toStandard (id, baseUrl)
+}
+
+function toOldStandard (id) {
+	var baseUrl = "http://www.dpc.ucar.edu/people/ostwald/standards/1995-NSES-v1.2.5-012007.html"
+	toStandard (id, baseUrl)
+}
+
+function toStandard (id, baseUrl) {
+	// alert (id);
+	var url = baseUrl + "?id=" + id
+	window.top.frames["main"].location = url;
+}
+
+Event.observe (this, 'load', pageInit);
+</script>
+
+</head>
+<body>
+
+<h2>Mappings Analysis</h2>
+
+<h3>Stats</h3>
+<div  class="text"><li>Mappings file entries -  407 (at levels 3 and 4)</li></div>
+
+<div  class="text"><li>NEW ASN standards - 383</li></div>
+
+<div  class="text"><li>OLD ASN standards - 417</li></div>
+
+<h3>Comparison with Mappings file</h3>
+
+<div class="text">Both standards documents have the SAME standards that are not found in the
+mapings file. I think these are missing from our ADN standards, and may have to
+be added to the mappings if they were mistakenly omitted from ADN vocabs.</div>
+
+<h4>Ids in NEW ASN but not in Mapping (5)</h4>
+<h5>3rd level</h5>
+<div class="std-id new" id="S102DBAE">S102DBAE</div>
+<div class="std-id new" id="S102DBAF">S102DBAF</div>
+<div class="std-id new" id="S102DBB0">S102DBB0</div>
+<div class="std-id new" id="S102DBB1">S102DBB1</div>
+<div class="std-id new" id="S102DBB2">S102DBB2</div>
+
+<h4>Ids in OLD ASN but not in Mapping (5)</h4>
+<h5>4th level</h5>
+<div class="std-id" id="S102DBAE">S102DBAE</div>
+<div class="std-id" id="S102DBAF">S102DBAF</div>
+<div class="std-id" id="S102DBB0">S102DBB0</div>
+<div class="std-id" id="S102DBB1">S102DBB1</div>
+<div class="std-id" id="S102DBB2">S102DBB2</div>
+
+<h3>Comparison between OLD and NEW ASN</h3>
+<h4>NEW ASN standards that do NOT appear in the OLD ASN document (0)</h4>
+<div class="text">There are NO NEW ASN standards that do not appear in the OLD document.</div>
+
+<h4>OLD ASN standards that do NOT appear in the NEW document (34)</h4>
+
+<h5>2nd level</h5>
+<div class="std-id" id="S10005D2">S10005D2</div>
+<div class="std-id" id="S1000B33">S1000B33</div>
+<div class="std-id" id="S1001928">S1001928</div>
+<div class="std-id" id="S1007BFE">S1007BFE</div>
+<div class="std-id" id="S1009A2A">S1009A2A</div>
+<div class="std-id" id="S100B2EC">S100B2EC</div>
+<div class="std-id" id="S1011C55">S1011C55</div>
+<div class="std-id" id="S1012357">S1012357</div>
+<div class="std-id" id="S1013DEF">S1013DEF</div>
+<div class="std-id" id="S1016F6C">S1016F6C</div>
+<div class="std-id" id="S10180E1">S10180E1</div>
+<div class="std-id" id="S101896E">S101896E</div>
+<div class="std-id" id="S101AB0E">S101AB0E</div>
+<div class="std-id" id="S101AC8C">S101AC8C</div>
+<div class="std-id" id="S101D50F">S101D50F</div>
+<div class="std-id" id="S101F7D9">S101F7D9</div>
+<div class="std-id" id="S1021D5E">S1021D5E</div>
+<div class="std-id" id="S1022280">S1022280</div>
+<div class="std-id" id="S1024C09">S1024C09</div>
+<div class="std-id" id="S1025BC9">S1025BC9</div>
+<div class="std-id" id="S1026626">S1026626</div>
+<div class="std-id" id="S102DB2B">S102DB2B</div>
+
+<h5>3rd level</h5>
+<div class="std-id" id="S100076E">S100076E</div>
+<div class="std-id" id="S1002937">S1002937</div>
+<div class="std-id" id="S10047EB">S10047EB</div>
+<div class="std-id" id="S10049E4">S10049E4</div>
+<div class="std-id" id="S1004E6C">S1004E6C</div>
+<div class="std-id" id="S100B49D">S100B49D</div>
+<div class="std-id" id="S100E059">S100E059</div>
+<div class="std-id" id="S10123F0">S10123F0</div>
+<div class="std-id" id="S10137FC">S10137FC</div>
+<div class="std-id" id="S1014C09">S1014C09</div>
+<div class="std-id" id="S101D825">S101D825</div>
+<div class="std-id" id="S10219EA">S10219EA</div>
+</body>
+</html>

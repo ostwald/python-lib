@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<record xmlns="http://ns.nsdl.org/ncs" xmlns:ncs="http://ns.nsdl.org/ncs" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_item/1.02/schemas/ncs-item.xsd"><general>
+      <recordID>PRI-000-000-000-016</recordID>
+      <url>http://www.priweb.org/ed/pgws/gas/natural_gas.html</url>
+      <title>Natural Gas</title>
+      <description>All about natural gas</description>
+      <subject>Oil isn't the only form of petroleum; Another form of petroleum is natural gas; primarily used; fuel; heat; similar to oil; Under pressure gas acts as a liquid; behaves very similarly underground as oil; where there is oil there is almost always at least some natural gas present; in many cases natural gas and oil come from the same source material; different factors determine whether oil or gas is created; amount of &quot;cooking&quot;; maturation; With just a relatively small amount of heat and pressure natural gas will be produced; With more heat and pressure natural gas will be chemically turned into oil; Another factor in this process is the source of the organic material; Organic material from the ocean, usually the tiny creatures known as diatoms and foraminifera, get turned into oil; Material from land, however, such as dead bits of plants swept into the ocean, generally become natural gas</subject>
+      <languages>
+         <RFCcode>en</RFCcode>
+      </languages>
+   </general>
+   <educational>
+      <types>
+         <dcmiType>Text</dcmiType>
+      </types>
+   </educational>
+   <contributions>
+      <publishers>
+         <publisher>PRI</publisher>
+      </publishers>
+   </contributions>
+   <rights/>
+   <relations/>
+   <technical>
+      <extent>2380 bytes</extent>
+      <mimeTypes>
+         <mimeType>text/html</mimeType>
+      </mimeTypes>
+   </technical>
+   <dates>
+      <date>
+         <W3Cdate>2001-02-15</W3Cdate>
+      </date>
+   </dates>
+   <coverages/>
+</record>
+
+
+
+
+
+
+          
+

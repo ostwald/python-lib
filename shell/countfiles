@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import sys
+import os
+import utils
+
+if __name__ == "__main__":
+
+	path = os.getcwd()
+	if len (sys.argv) > 1:
+		path = os.path.abspath (sys.argv[1])
+	print "counting all .xml files under %s ..." %  path
+	print "\t--> %d" % utils.countfiles(path)

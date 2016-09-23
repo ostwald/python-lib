@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2006 rel. 3 U (http://www.altova.com) by DPC (University Corporation for Atmospheric Research) -->
+<collectionMetadata>
+	<header>
+		<collectionPid>1159995857662pid</collectionPid>
+		<xmlFormat>oai_dc</xmlFormat>
+		<collectionName>Loaded from NDR</collectionName>
+		<collection_config>
+			<collectionConfigRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/dpc/tremor/devel/ostwald/tomcat/apache-tomcat-5.5.17-devel/webapps/schemedit/WEB-INF/metadata-frameworks/collection-config/dcsCollectionConfig.xsd">
+				<collectionId>1159995857662</collectionId>
+				<xmlFormat>oai_dc</xmlFormat>
+				<statusFlags finalStatusLabel="Final Status">
+					<statusFlag>
+						<status>in progress</status>
+						<description>i'm in progress (don't bother me)</description>
+					</statusFlag>
+					<statusFlag>
+						<status>almost done</status>
+						<description>i mean it - i'm close</description>
+					</statusFlag>
+				</statusFlags>
+			</collectionConfigRecord>
+		</collection_config>
+	</header>
+	<content>
+		<metadataWrapper>
+			<meta>
+				<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.dlese.org/Metadata/oai_dc/2.0/oai_dc-DCvocab-nolang.xsd">
+					<dc:title>title goes here</dc:title>
+					<dc:title>i go here</dc:title>
+					<dc:creator>ewrr</dc:creator>
+					<dc:subject>yo yo</dc:subject>
+					<dc:type>fooberry</dc:type>
+					<dc:language>en-us</dc:language>
+					<dc:relation>yadda</dc:relation>
+				</oai_dc:dc>
+			</meta>
+			<dcs_data>
+				<dcsDataRecord>
+					<recordID>MY-OAIDC-000-000-000-007</recordID>
+					<isValid/>
+					<statusEntries>
+						<statusEntry>
+							<status>New</status>
+							<statusNote>Record Created</statusNote>
+							<editor>Unknown</editor>
+							<changeDate>2006-10-09T16:52:23Z</changeDate>
+						</statusEntry>
+						<statusEntry>
+							<status>in progress</status>
+							<statusNote>batch changed</statusNote>
+							<editor>joe</editor>
+							<changeDate>2006-10-16T14:23:11Z</changeDate>
+						</statusEntry>
+					</statusEntries>
+					<lastTouchDate>2006-10-16T14:27:15Z</lastTouchDate>
+					<validationReport/>
+					<badChars/>
+				</dcsDataRecord>
+			</dcs_data>
+			<pid>pid-000-001</pid>
+		</metadataWrapper>
+		<metadataWrapper>
+			<meta>
+				<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.dlese.org/Metadata/oai_dc/2.0/oai_dc-DCvocab-nolang.xsd">
+					<dc:title>title goes here</dc:title>
+					<dc:creator>yada</dc:creator>
+					<dc:creator>badba</dc:creator>
+					<dc:creator>yada</dc:creator>
+					<dc:subject>fooberry</dc:subject>
+					<dc:description>i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!i am a description!</dc:description>
+					<dc:description>hello again</dc:description>
+					<dc:type>Collection</dc:type>
+					<dc:identifier>http://www.dlese.org</dc:identifier>
+					<dc:coverage>hello</dc:coverage>
+					<dc:rights>none</dc:rights>
+				</oai_dc:dc>
+			</meta>
+			<dcs_data>
+				<dcsDataRecord>
+					<recordID>MY-OAIDC-000-000-000-006</recordID>
+					<isValid/>
+					<statusEntries>
+						<statusEntry>
+							<status>New</status>
+							<statusNote>Record Created</statusNote>
+							<editor>Unknown</editor>
+							<changeDate>2006-10-05T17:05:02Z</changeDate>
+						</statusEntry>
+						<statusEntry>
+							<status>in progress</status>
+							<statusNote/>
+							<editor>Unknown</editor>
+							<changeDate>2006-10-16T10:27:04Z</changeDate>
+						</statusEntry>
+						<statusEntry>
+							<status>in progress</status>
+							<statusNote>batch changed</statusNote>
+							<editor>joe</editor>
+							<changeDate>2006-10-16T14:23:11Z</changeDate>
+						</statusEntry>
+					</statusEntries>
+					<lastTouchDate>2006-11-14T11:46:16Z</lastTouchDate>
+					<validationReport/>
+					<badChars/>
+				</dcsDataRecord>
+			</dcs_data>
+			<pid>pid-000-002</pid>
+		</metadataWrapper>
+		<metadataWrapper>
+			<meta>
+				<oai_dc:dc xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.dlese.org/Metadata/oai_dc/2.0/oai_dc-DCvocab-nolang.xsd">
+					<dc:title>my third oai dc record</dc:title>
+					<dc:creator>jonathan</dc:creator>
+					<dc:subject>testing</dc:subject>
+					<dc:description>this record is for testing</dc:description>
+					<dc:type>Text</dc:type>
+				</oai_dc:dc>
+			</meta>
+			<dcs_data>
+				<dcsDataRecord>
+					<recordID>MY-OAIDC-000-000-000-008</recordID>
+					<isValid/>
+					<statusEntries>
+						<statusEntry>
+							<status>New</status>
+							<statusNote>Record Created</statusNote>
+							<editor>Unknown</editor>
+							<changeDate>2006-11-14T10:55:39Z</changeDate>
+						</statusEntry>
+					</statusEntries>
+					<lastTouchDate>2006-11-14T10:56:40Z</lastTouchDate>
+					<validationReport/>
+					<badChars/>
+				</dcsDataRecord>
+			</dcs_data>
+			<pid>pid-000-003</pid>
+		</metadataWrapper>
+	</content>
+</collectionMetadata>

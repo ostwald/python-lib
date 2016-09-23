@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs/msp2" xsi:schemaLocation="http://ns.nsdl.org/ncs/msp2 http://ns.nsdl.org/ncs/msp2/1.00/schemas/record.xsd">
+  <general>
+    <recordID></recordID>
+    <recordDate>2009-08-03</recordDate>
+    <url>http://www.enchantedlearning.com/subjects/volcano/</url>
+    <title>MSP2 Template</title>
+    <description>my volcano record</description>
+    <description>i was written to the NDR on 3-3-2010</description>
+    <keyword>magma</keyword>
+    <subjects>
+      <scienceSubject>Earth and space science:Earth processes</scienceSubject>
+      <scienceSubject>Earth and space science:Earth processes:Volcanoes</scienceSubject>
+      <scienceSubject>Physical science</scienceSubject>
+      <scienceSubject>Physical science:Properties of materials:Physical changes</scienceSubject>
+      <scienceSubject>Physical science:Properties of materials:Physical properties</scienceSubject>
+    </subjects>
+    <language>en-US</language>
+    <mimeType>application</mimeType>
+  </general>
+  <lifecycle>
+    <publicationDate>2009</publicationDate>
+    <rights url="http://fpp.edu">hello</rights>
+    <contributor role="Author">f</contributor>
+  </lifecycle>
+  <coverage>
+    <location westLimit="-109.05" eastLimit="-102.08" southLimit="36.97" northLimit="40.96">Boulder, CO</location>
+    <location southLimit="41.01" westLimit="-73.65" northLimit="41.04" eastLimit="-73.56">Greenwich, CT</location>
+  </coverage>
+  <educational>
+    <educationLevel>Early Elementary</educationLevel>
+    <educationLevel>Kindergarten</educationLevel>
+    <educationLevel>Upper Elementary</educationLevel>
+    <educationLevel>Grade 5</educationLevel>
+    <audience>General Public</audience>
+    <resourceType>Article</resourceType>
+    <standard_ASN_ID>http://purl.org/ASN/resources/S1023DE0</standard_ASN_ID>
+    <standard_ASN_ID>http://purl.org/ASN/resources/S101E826</standard_ASN_ID>
+    <standard_ASN_ID>http://purl.org/ASN/resources/S103EC75</standard_ASN_ID>
+    <standard_ASN_ID>http://purl.org/ASN/resources/S103EC73</standard_ASN_ID>
+    <standard_ASN_ID>http://purl.org/ASN/resources/S101B5E7</standard_ASN_ID>
+    <standard_ASN_ID>http://purl.org/ASN/resources/S1019D08</standard_ASN_ID>
+  </educational>
+</record>

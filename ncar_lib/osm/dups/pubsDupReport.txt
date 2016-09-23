@@ -1,0 +1,247 @@
+
+meteorologicalinstrumentationandobservation
+
+PUBS-000-000-000-133
+-  Meteorological instrumentation and observation
+-  Carbone, R
+-  Encyclopedia of Science and Technology, 9th Edition
+
+PUBS-000-000-004-567
+-  Meteorological Instrumentation and Observation
+-  Carbone, R
+-  Encyclopedia of Science and Technology, 10th Edition
+
+weatherradargroundclutterpartiidentificationmodelingandsimulation
+
+PUBS-000-000-004-929
+-  Weather radar ground clutter. Part I: Identification, modeling and simulation
+-  Dixon, M, Ellis, S, Hubbert, J, Meymaris, G
+-  Journal of Atmospheric and Oceanic Technology
+
+PUBS-000-000-004-851
+-  Weather radar ground clutter. Part I: Identification, modeling, and simulation
+-  Dixon, M, Ellis, S, Hubbert, J, Meymaris, G
+-  Journal of Atmospheric and Oceanic Technology
+
+impactofmixingandchemicalchangeonozonetracerrelationsinthepolarvortex
+
+PUBS-000-000-003-323
+-  Impact of mixing and chemical change on ozone-tracer relations in the polar vortex
+-  Grooss, J.-U, Jost, H.-J, Konopka, P, Mueller, R, Tilmes, S
+-  Atmospheric Chemistry and Physics Discussions
+
+PUBS-000-000-001-640
+-  Impact of mixing and chemical change on ozone-tracer relations in the polar vortex
+-  Grooss, J.-U, Jost, H.-J, Konopka, P, Mueller, R, Tilmes, S
+-  Atmospheric Chemistry and Physics
+
+estimatingtheuncertaintyofusinggpsradiooccultationdataforclimatemonitoringintercomparisonofchamprefractivityclimaterecordsfrom2002to2006fromdifferentdatacenters
+
+PUBS-000-000-005-038
+-  Estimating the uncertainty of using GPS radio occultation data for climate monitoring: Intercomparison of CHAMP refractivity climate records from 2002 to 2006 from different data centers
+-  Ao, Chi, Borsche, Michael, Foelsche, Ulrich, Heise, Stefan, Ho, Shu-peng, Hunt, Douglas, Iijima, Byron, Kirchengast, Gottfried, Kuo, Ying-Hwa, Kursinski, Rob, Leroy, Stephen, Mannucci, A, Pirscher, Barbara, Ringer, Mark, Rocken, Christian, Schmidt, Torsten, Schreiner, William, Sokolovskiy, Sergey, Steiner, Andrea, Wickert, Jens, von Engeln, Axel
+-  Journal of Geophysical Research
+
+PUBS-000-000-005-034
+-  Estimating the uncertainty of using GPS radio occultation data for climate monitoring: Intercomparison of CHAMP refractivity climate records from 2002 to 2006 from different data centers
+-  Ao, C, Borsche, M, Foelsche, U, Heise, S, Ho, Shu-peng, Hunt, Douglas, Iijima, B, Kirchengast, G, Kuo, Ying, Kursinki, R, Leroy, S, Mannucci, A, Pirscher, B, Ringer, M, Rocken, Christian, Schmidt, T, Schreiner, William, Sokolovskiy, Sergey, Steiner, A, Wickert, J, von Engeln, A
+-  Journal of Geophysical Research
+
+thenorthatlanticoscillation
+
+PUBS-000-000-002-801
+-  The North Atlantic Oscillation
+-  Hurrell, J
+-  Encyclopedia of World Climatology
+
+PUBS-000-000-002-397
+-  The North Atlantic Oscillation
+-  Hurrell, J, Kushnir, Y, Visbeck, M
+-  Science
+
+reply
+
+PUBS-000-000-001-029
+-  Reply
+-  Rotunno, R, Smolarkiewicz, P
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-001-425
+-  Reply
+-  Knight, C, Laird, S, Sommerfeld, R
+-  Geophysical Research Letters
+
+PUBS-000-000-000-815
+-  Reply
+-  Knight, C, Paluch, I
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-001-991
+-  Reply
+-  Arakawa, A, Moeng, C.-H
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-000-771
+-  Reply
+-  Moeng, C.-H, Randall, D
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-000-769
+-  Reply
+-  Knight, C
+-  Journal of Geophysical Research
+
+PUBS-000-000-001-741
+-  Reply
+-  Azad, A, Latham, J
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-001-642
+-  Reply
+-  Moeng, C.-H, Wyngaard, J
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-002-979
+-  Reply
+-  Randel, W, Wu, F
+-  Journal of Climate
+
+aglobalcomparisonofcarbonmonoxideprofilesandcolumnamountsfromtroposphericemissionspectrometertesandmeasurementsofpollutioninthetropospheremopitt
+
+PUBS-000-000-005-036
+-  A global comparison of carbon monoxide profiles and column amounts from Tropospheric Emission Spectrometer (TES) and Measurements of Pollution in the Troposphere (MOPITT)
+-  Edwards, David, Gille, John, Ho, Shu-peng, Kulawik, S, Luo, M, Osterman, G, Worden, Helen
+-  Journal of Geophysical Research
+
+PUBS-000-000-005-039
+-  A global comparison of carbon monoxide profiles and column amounts from Tropospheric Emission Spectrometer (TES) and Measurements of Pollution in the Troposphere (MOPITT)
+-  Edwards, David, Gille, John, Ho, Shu-peng, Kulawik, S, Luo, Ming, Osterman, G, Worden, Helen
+-  Journal of Geophysical Research
+
+cloudphysics
+
+PUBS-000-000-000-824
+-  Cloud Physics
+-  Heymsfield, A
+-  Encyclopedia of Physical Science and Technology
+
+PUBS-000-000-001-935
+-  Cloud Physics
+-  Heymsfield, A
+-  Encyclopedia of Physical Science and Technology
+
+PUBS-000-000-000-709
+-  Cloud physics
+-  Latham, J
+-  Reports in Progress in Physics
+
+thecosmicformosat3missionearlyresults
+
+PUBS-000-000-004-141
+-  The COSMIC/FORMOSAT-3 Mission: Early Results
+-  Anthes, R, Bernhardt, P, Chen, Y, Cucurull, L, Dymond, K, Ector, D, Healy, S, Ho, S.-P, Hunt, D, Kuo, Y.-H, Liu, H, Manning, K, McCormick, C, Meehan, T, Randel, W, Rocken, C, Schreiner, W, Sokolovskiy, S, Syndergaard, S, Thompson, D, Trenberth, K, Wee, T.-K, Yen, N, Zeng, Z
+-  Bulletin of the American Meteorological Society
+
+PUBS-000-000-005-030
+-  The COSMIC/FORMOSAT-3 Mission: Early Results
+-  Anthes, R, Bernhardt, P, Chen, Y, Cucurull, L, Dymond, K, Ector, D, Healy, S, Ho, S.-P, Hunt, D, Kuo, Y.-H, Liu, H, Manning, K, McCormick, C, Meehan, T, Randel, W, Rocken, C, Schreiner, W, Sokolovskiy, S, Syndergaard, S, Thompson, D, Trenberth, K, Wee, T.-K, Yen, N, Zeng, Z
+-  Bulletin of the American Meteorological Society
+
+nitrogenandphosphorusbudgetsforatropicalwatershedimpactedbyagriculturallanduseguayasecuador
+
+PUBS-000-000-003-084
+-  Nitrogen and phosphorus budgets for a tropical watershed impacted by agricultural land use: Guayas, Ecuador
+-  Borbor-Cordova, M, Boyer, E, Hall, C, McDowell, W
+-  Biogeochemistry
+
+PUBS-000-000-003-185
+-  Nitrogen and phosphorus budgets for a tropical watershed impacted by agricultural land use: Guayas, Ecuador
+-  Borbor-Cordova, M, Boyer, E, Hall, C, McDowell, W
+-  Nitrogen Cycling in the Americas: Natural and Anthropogenic Influences and Controls
+
+testingthefidelityofclimatereconstructionmethods
+
+PUBS-000-000-002-194
+-  Testing the fidelity of climate reconstruction methods
+-  Ammann, C, Mann, M, Rutherford, S, Wahl, E
+-  Bulletin of the American Meteorological Society
+
+PUBS-000-000-001-064
+-  Testing the fidelity of climate reconstruction methods
+-  Ammann, C, Mann, M, Rutherford, S, Wahl, E
+-  Journal of Climate
+
+theextremeweathereventsof1997and1998
+
+PUBS-000-000-002-574
+-  The extreme weather events of 1997 and 1998
+-  Trenberth, K
+-  Water and Resources and Climate Change
+
+PUBS-000-000-002-579
+-  The extreme weather events of 1997 and 1998
+-  Trenberth, K
+-  Consequences: The Nature and Implications of Environmental Change
+
+observationalconstraintsonrecentincreasesintheatmosphericch4burden
+
+PUBS-000-000-005-031
+-  Observational constraints on recent increases in the atmospheric CH4 burden
+-  Bruhwiler, L, Crotwell, A, Dlugokencky, E, Emmons, L, Gatti, L, Lang, P, Masarie, K, Miller, J, Montzka, S, Novelli, P, White, J
+-  Geophysical Research Letters
+
+PUBS-000-000-004-828
+-  Observational constraints on recent increases in the atmospheric CH4 burden
+-  Bruhwiler, L, Crotwell, A, Dlugokencky, E, Emmons, L, Gatti, L, Lang, P, Masarie, K, Miller, J, Montzka, S, Novelli, P, White, J
+-  Geophysical Research Letters
+
+corrigendum
+
+PUBS-000-000-001-964
+-  CORRIGENDUM
+-  Laird, N, Miller, L, Ochs III, H, Rauber, R
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-000-203
+-  Corrigendum
+-  Bansemer, A, Field, P, Heymsfield, A
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-004-183
+-  Corrigendum
+-  Rotunno, R, Snyder, C, Tan, Z.-M, Zhang, F
+-  Journal of the Atmospheric Sciences
+
+PUBS-000-000-000-832
+-  CORRIGENDUM
+-  Rotunno, R, Takemi, T
+-  Monthly Weather Review
+
+PUBS-000-000-004-650
+-  Corrigendum
+-  Davis, C, Galarneau, T
+-  Journal of the Atmospheric Sciences
+
+modernglobalclimatechange
+
+PUBS-000-000-002-610
+-  Modern global climate change
+-  Karl, T, Trenberth, K
+-  Science
+
+PUBS-000-000-001-852
+-  Modern global climate change
+-  Karl, T, Trenberth, K
+-  Science Magazine's State of the Planet
+
+modelingorganicaerosolsduringmilagroimportanceofbiogenicsecondaryorganicaerosols
+
+PUBS-000-000-004-773
+-  Modeling organic aerosols during MILAGRO:  Importance of biogenic secondary organic aerosols
+-  Aiken, A, Bessagnet, B, Curci, G, Fast, J, Hodzic, A, Jimenez, J, Lamarque, J.-F, Madronich, S, Onasch, T, Roux, G, Schauer, J, Stone, E, Ulbrich, I
+-  Atmospheric Chemistry and Physics
+
+PUBS-000-000-005-025
+-  Modeling organic aerosols during MILAGRO: Importance of biogenic secondary organic aerosols
+-  Aiken, A, Bessagnet, B, Curci, G, Fast, J, Hodzic, A, Jimenez, J, Lamarque, J.-F, Madronich, S, Onasch, T, Roux, G, Schauer, J, Stone, E, Ulbrich, I
+-  Atmospheric Chemistry and Physics

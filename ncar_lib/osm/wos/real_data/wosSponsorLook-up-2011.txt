@@ -1,0 +1,4 @@
+sponsor (wos 2011)	Existing OSM instName	OSM instName to Add	Notes
+Inst Computational Fluid Dynamics (ICFD)	Institute Computational Fluid Dynamics	Institute Computational Fluid Dynamics	http://www.icfd.rdg.ac.uk/ does not exist in LOC
+Int Assoc Urban Climate (IAUC)	International Association for Urban Climate 	International Association for Urban Climate 	http://www.urban-climate.org/wp3/ in LOC as shown here
+"Int Soc Exposure Sci, Int Soc Environm Epidemiol"	International Society of Exposure Science and International Society for Environmental Epidemiol	International Society of Exposure Science and International Society for Environmental Epidemiol	http://www.isesweb.org/; and http://www.iseepi.org/conferences/index.html not in LOC

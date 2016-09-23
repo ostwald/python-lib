@@ -1,0 +1,249 @@
+Nov 13, 2007 10:50:23 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Nov 13, 2007 10:50:23 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 13, 2007 10:50:24 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 13, 2007 10:50:24 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2244 ms
+Nov 13, 2007 10:50:25 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 13, 2007 10:50:25 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Nov 13, 2007 10:50:25 AM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Nov 13, 2007 10:50:26 AM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+Nov 13, 2007 10:50:27 AM MST NDRServlet starting
+Nov 13, 2007 10:50:27 AM MST NDRServlet: WARNING: NDR service is not enabled
+
+Nov 13, 2007 10:50:28 AM MST SetupServlet starting
+Nov 13, 2007 10:50:28 AM MST SetupServlet: collectionRecordsLocation: /global/dev/dlese_data/dcs/records/dlese_collect
+Nov 13, 2007 10:50:28 AM MST SetupServlet: creating collection config directory at /global/dev/ttomcat-dlese-dcs/var/dcs_conf/collections
+Nov 13, 2007 10:50:28 AM MST SetupServlet: ERROR: collection config directory could not be created: reason unknown
+[ERROR] schemedit] - Servlet /schemedit threw load() exception <javax.servlet.ServletException: ERROR: collection config directory could not be created: reason unknown>javax.servlet.ServletException: ERROR: collection config directory could not be created: reason unknown
+	at org.dlese.dpc.schemedit.SetupServlet.collectionConfigSetUp(SetupServlet.java:182)
+	at org.dlese.dpc.schemedit.SetupServlet.init(SetupServlet.java:142)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+
+Nov 13, 2007 10:50:28 AM MST Initializing MetadataServlet for 'MetadataVocab'
+Nov 13, 2007 10:50:28 AM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Nov 13, 2007 10:50:32 AM MST MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Nov 13, 2007 10:50:32 AM MST Outputting debug info
+Nov 13, 2007 10:50:33 AM MST Using collection-level metadata files located at /global/dev/dlese_data/dcs/records/dlese_collect/collect
+Nov 13, 2007 10:50:33 AM MST Using ADN metadata files located at /global/dev/dlese_data/dcs/records
+Nov 13, 2007 10:50:33 AM MST Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Nov 13, 2007 10:50:33 AM MST Starting up RepositoryManager
+Nov 13, 2007 10:50:33 AM MST loading props file: RepositoryManager.properties
+Nov 13, 2007 10:50:33 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 18817 entries.
+Nov 13, 2007 10:50:35 AM MST rm.init() successful...
+Nov 13, 2007 10:50:35 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Nov 13, 2007 10:50:36 AM MST DDSServlet started.
+
+
+Nov 13, 2007 10:50:36 AM MST OAIProviderServlet starting
+Nov 13, 2007 10:50:36 AM MST OAIProviderServlet: Outputting debug info
+Nov 13, 2007 10:50:36 AM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Nov 13, 2007 10:50:36 AM MST OAIProviderServlet initialized.
+Nov 13, 2007 10:50:36 AM MST SchemEditServlet starting!
+instanceName: WebTest DCS
+catalogingInfo: 
+
+
+FrameworkRegistry:  *** ERROR: framework config directory does not exist at null ***
+
+
+"frameworkRegistry" initialized with 0 frameworks
+Nov 13, 2007 10:50:36 AM MST SchemEditServlet: WARNING: init parameter "collectionConfigDir" not found in servlet context
+
+ ********* Servlet initialization error: null
+Nov 13, 2007 10:50:36 AM MST CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Nov 13, 2007 10:50:36 AM MST CasaaServlet: Casaa Service is disabled
+Nov 13, 2007 10:50:36 AM MST CasaaServlet completed.
+
+Nov 13, 2007 10:50:37 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+AccessManager: ERROR instantiating role manager:  ERROR: AbstractConfigReader could not initialize: source file does not exist at /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/access.xml
+ActionServlet: accessManager placed in servlet context
+ActionServlet: Unable to instantiate UserManager:  ERROR: AbstractConfigReader could not initialize: source file does not exist at /global/dev/ttomcat-dlese-dcs/var/dcs_conf/auth/users.xml
+ActionServlet: userManager placed in servlet context
+[ERROR] schemedit] - StandardWrapper.Throwable <java.lang.NullPointerException>java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.ActionServlet.init(ActionServlet.java:86)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:212)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+
+[ERROR] schemedit] - Servlet /schemedit threw load() exception <java.lang.NullPointerException>java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.ActionServlet.init(ActionServlet.java:86)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:212)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1139)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:966)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:3956)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4230)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+
+Nov 13, 2007 10:50:40 AM MST SchemaViewerServlet starting
+Nov 13, 2007 10:50:40 AM MST SchemaViewerServlet initialized.
+Nov 13, 2007 10:50:40 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Nov 13, 2007 10:50:42 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 13, 2007 10:50:42 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 13, 2007 10:50:43 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Nov 13, 2007 10:50:43 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/104  config=null
+Nov 13, 2007 10:50:43 AM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Nov 13, 2007 10:50:43 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 18552 ms
+Nov 13, 2007 10:50:43 AM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Nov 13, 2007 11:29:50 AM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 13, 2007 11:29:50 AM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 13, 2007 11:29:51 AM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+java.lang.NullPointerException
+	at org.dlese.dpc.schemedit.SchemEditServlet.destroy(SchemEditServlet.java:379)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1360)
+	at org.apache.catalina.core.StandardWrapper.stop(StandardWrapper.java:1688)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4350)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+Nov 13, 2007 11:29:52 AM MST SchemEditServlet stopped
+Nov 13, 2007 11:29:52 AM MST NDRServlet: destroy() ...
+Nov 13, 2007 11:29:52 AM MST NDRServlet stopped
+Nov 13, 2007 11:29:52 AM MST CasaaServlet: destroy() ...
+Nov 13, 2007 11:29:52 AM MST CasaaServlet stopped
+Done shutting down new vocabs checker.
+Nov 13, 2007 11:29:52 AM MST MetadataVocabServlet stopped.
+Nov 13, 2007 11:29:52 AM MST RepositoryManager destroy()
+Nov 13, 2007 11:29:52 AM MST OAIProviderServlet stopped
+Nov 13, 2007 11:29:52 AM MST RepositoryManager destroy()
+
+
+Nov 13, 2007 11:29:52 AM MST DDSServlet stopped.
+
+
+Nov 13, 2007 11:29:52 AM MST SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: destroy
+Nov 13, 2007 11:29:52 AM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Nov 13, 2007 11:29:52 AM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Nov 13, 2007 11:29:52 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

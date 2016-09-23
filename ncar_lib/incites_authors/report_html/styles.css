@@ -1,0 +1,106 @@
+body {
+	font-family:arial;
+	font-size:.9em;
+}
+
+.authorTable, .headerTable {
+	border-collapse:collapse;
+	margin:0px;
+	/* outline:black 2px solid; */
+/* 	margin-left:30px; */
+}
+
+.headerTable {
+	margin:0px 0px 0px 20px;
+	outline:2px solid blue;
+}
+
+.authorTable td, .headerTable td {
+	/* border:thin grey solid; */
+	padding:2px;
+}
+
+.matchTable {
+	border-collapse:collapse;
+	/* outline:black 2px solid; */
+	margin-left:30px;
+}
+
+.matchTable td {
+	/* border:thin grey solid; */
+	padding:2px;
+}
+
+.match-name {
+	width:200px;
+}
+
+.match-upid {
+	width:75;
+	text-align:center;
+}
+
+.inCitesAuthor {
+	/* border-bottom:#414477 3px solid; */
+	/* border-top:#414477 2px solid; */
+	/* background-color:#9c9fd2; */
+}
+
+hr.divider {
+	color:#414477;
+	size:1px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.author {
+	width:200px;
+}
+
+.matches {
+	text-align:center;
+	padding-right:3px;
+	width:100px;
+}
+
+.peopleDBmatch {
+	background-color:#ebecf5;
+	border-top:1px solid #414477;
+}
+
+.peopleDBmatch.over {
+	background-color: #ffffcc;;
+	cursor:pointer;
+}
+
+
+/* TOGGLE STYLES */
+.toggler {
+	margin-bottom:3px;
+}
+
+.noTogglerClosed {
+	margin: 2px 0px 0px 20px;
+}
+	
+
+.togglerClosed {
+	background-image: url(images/arrow_right_gray.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	white-space:nowrap;
+	padding: 0px 0px 0px 10px;
+	margin: 2px 0px 0px 10px;
+	outline: 0;
+}
+.togglerOpen {
+	background-image: url(images/arrow_down_gray.gif);
+	background-image: url(images/arrow_down_gray.gif);
+	outline: 0;
+}
+
+.togglerOver {
+	cursor:pointer;
+	background-color: #ffffcc;  /* yellow */
+}

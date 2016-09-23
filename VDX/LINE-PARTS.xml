@@ -1,0 +1,12 @@
+<ShapeComponents shape="Line">
+	<XForm1D>
+	</XForm1D>
+	
+	<Layout>
+		<ConLineJumpCode>4</ConLineJumpCode>
+		<ConLineJumpStyle>0</ConLineJumpStyle>
+		<ShapeRouteStyle>0</ShapeRouteStyle>
+		<ConLineRouteExt>2</ConLineRouteExt>
+	</Layout>
+
+</ShapeComponents>

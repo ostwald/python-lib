@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<DDSWebService xmlns="http://www.dlese.org/Metadata/ddsws" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dlese.org/Metadata/ddsws http://www.dlese.org/Metadata/ddsws/1-1/ddsws.xsd">
+	<Search>
+		<resultInfo>
+			<totalNumResults>5876</totalNumResults>
+			<totalNumRecordsInLibrary>33855</totalNumRecordsInLibrary>						
+			<numReturned>5</numReturned>
+
+			<offset>235</offset>
+		</resultInfo>
+		
+
+		<results>
+		 
+			<record>
+
+	<head>
+		<id>SOARS-000-000-000-136</id> 
+		
+			
+			
+				
+			
+		
+		<xmlFormat>osm</xmlFormat>  			
+		<collection recordId="NCAR-COLLECTION-000-000-000-017" ky="soars" key="soars">Manuscripts - SOARS Papers</collection>
+
+		<fileLastModified>2010-11-21T01:49:08Z</fileLastModified> 
+		
+		
+		
+			
+						
+			
+				
+		
+	</head>
+
+
+
+
+				
+				<metadata>
+
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>SOARS-000-000-000-136</recordID>
+
+    <recordDate>2010-04-29</recordDate>
+    <title type="Manuscript">Analysis of Moist Processes using TRMM satellite data and NASA's Global Climate Model</title>
+    <abstract>Atmospheric scientists have used the global climate models for the past 35 years to obtain a better understanding of the earth’s climate. However, due to the spatial and temporal resolution or moist processes such as rain rates, clouds and cloud water, these processes have not been accurately resolved in climate models. Goddard’s Erath Observing System (GEOS) II global climate model (GCM) has a new parameterization, Microphysics of Clouds with Relaxed Arakawa-Schubert Scheme (McRAS), which better accounts for these moist processes. Rain rates and cloud water observed over the Pacific Ocean (100° to 300°) by the Tropical Rainfall Measuring Mission (TRMM) satellite were compared with output from the GEOS II GCM. The Pacific Ocean was broken up into two regions East Pacific, (200°- 300°) and West Pacific (100°- 200°) during this analysis. Using GrADS display package, cloud water versus rain rate plots were created for July 1998 TRMM data and July 1987 GEOS II GCM output. Preliminary results show similarities in relative frequencies between the TRMM data and the GEOS model output. Both the model and the TRMM data show an inverse relationship between cloud water, rain rates, and frequency: as the cloud water and rain rates in the East Pacific compared to the other two regions. This feature may indicate that the model is no accurately capturing some process in the East Pacific. This research will ultimately yield a greater understanding of cloud microphysics within models.</abstract>
+    <keyword>moist processes</keyword>
+    <keyword>rain rates</keyword>
+    <keyword>cloud water</keyword>
+
+    <keyword>parameterization</keyword>
+  </general>
+  <resources>
+    <primaryAsset order="1" type="Has version" url="http://nldr.library.ucar.edu/collections/soars/2002_Walford_Segayle.pdf">
+      <mimeType>application/pdf</mimeType>
+    </primaryAsset>
+  </resources>
+  <contributors>
+
+    <person order="1" role="Author">
+      <lastName>Walford Thompson</lastName>
+      <firstName>Segayle</firstName>
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):Corporate Affairs (CA):Education and Outreach (EO):Significant Opportunities in Atmospheric Research and Science (SOARS)</instDivision></affiliation></person>
+    <person role="Contributor">
+      <lastName>Sud</lastName>
+
+      <firstName>Yogesh</firstName>
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></person>
+    <person role="Contributor">
+      <lastName>Lau</lastName>
+      <firstName>William</firstName>
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></person>
+
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Unpublished</status>
+    <classification>Non-refereed</classification>
+    <idNumber type="CALL">03520</idNumber>
+    <collaboration>UCAR only</collaboration>
+
+  </classify>
+  <rights>
+    <copyrightNotice holder="Author" type="UCAR Open Access Policy" url="http://www.ucar.edu/legal/terms_of_use.shtml">The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the NCAR Library Terms of Use.</copyrightNotice>
+  </rights>
+  <coverage>
+    <date type="Created">2002</date>
+    <date type="Digitized">2010-04</date>
+
+  </coverage>
+</record>
+		
+				</metadata>
+				
+				
+
+
+
+	
+				
+
+
+
+
+
+				
+			</record>	
+		 
+			<record>
+
+	<head>
+		<id>SOARS-000-000-000-062</id> 
+		
+			
+			
+				
+			
+		
+		<xmlFormat>osm</xmlFormat>  			
+		<collection recordId="NCAR-COLLECTION-000-000-000-017" ky="soars" key="soars">Manuscripts - SOARS Papers</collection>
+
+		<fileLastModified>2010-11-21T01:49:08Z</fileLastModified> 
+		
+		
+		
+			
+						
+			
+				
+		
+	</head>
+
+
+
+
+				
+				<metadata>
+
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>SOARS-000-000-000-062</recordID>
+
+    <recordDate>2010-04-29</recordDate>
+    <title type="Manuscript">The Assesssment of Sand Dune Mobility from 1980 through 2004 on the Moenkopi Plateau of the Navajo Nation</title>
+    <abstract>This research is motivated by concerns about how climate change is affecting Indigenous communities across the globe. Many residents of the Navajo Nation on the southern Colorado Plateau are concerned that the future climate of the region will be warmer and drier than observed in the 20th Century. Droughts during the late 1980s through 2004 over this region have resulted in the decrease of many native plant species and an increase in sand dune mobility causing social harm, including damage to infrastructure and the loss of agricultural productivity. Effectively mitigating sand dune mobility requires understanding the annual and seasonal climate variability, which can affect sand dune development. A climatic sand dune mobility index using wind energy and effective precipitation was calculated to assess seasonal, annual, and decadal trends of potential sand dune mobility over the Moenkopi Plateau on the Navajo Nation from 1980 to 2004. The results demonstrated a large variation in seasonal and annual potential sand dune mobility. For the period from 1980 to 2004, an increasing trend in potential sand dune mobility was observed and appears correlated with a trend of decreasing effective precipitation. These results have provided a better understanding of the climatic conditions over the last 25 years over the Moenkopi Plateau, and show how these conditions relate to increased sand dune mobility. This work shows that the index can be used for other areas on the Navajo Nation, to identify locations at risk and help in planning efforts to mitigate effects from climate change.</abstract>
+    <keyword>indigenous communities</keyword>
+    <keyword>future climate</keyword>
+    <keyword>droughts</keyword>
+
+    <keyword>precipitation</keyword>
+  </general>
+  <resources>
+    <primaryAsset order="1" type="Has version" url="http://nldr.library.ucar.edu/collections/soars/2005_Thornbrugh_Casey.pdf">
+      <mimeType>application/pdf</mimeType>
+    </primaryAsset>
+  </resources>
+  <contributors>
+
+    <person order="1" role="Author">
+      <lastName>Kahn-Thornbrugh</lastName>
+      <firstName>Casey</firstName>
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):Corporate Affairs (CA):Education and Outreach (EO):Significant Opportunities in Atmospheric Research and Science (SOARS)</instDivision></affiliation></person>
+    <person role="Contributor">
+      <lastName>Hzia-Redsteer</lastName>
+
+      <firstName>Margaret</firstName>
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></person>
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Unpublished</status>
+    <classification>Non-refereed</classification>
+
+    <idNumber type="CALL">03609</idNumber>
+    <collaboration>UCAR only</collaboration>
+  </classify>
+  <rights>
+    <copyrightNotice holder="Author" type="UCAR Open Access Policy" url="http://www.ucar.edu/legal/terms_of_use.shtml">The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the NCAR Library Terms of Use.</copyrightNotice>
+  </rights>
+  <coverage>
+
+    <date type="Created">2005</date>
+    <date type="Digitized">2010-04</date>
+  </coverage>
+</record>
+		
+				</metadata>
+				
+				
+
+
+
+	
+				
+
+
+
+
+
+				
+			</record>	
+		 
+			<record>
+
+	<head>
+
+		<id>SOARS-000-000-000-055</id> 
+		
+			
+			
+				
+			
+		
+		<xmlFormat>osm</xmlFormat>  			
+		<collection recordId="NCAR-COLLECTION-000-000-000-017" ky="soars" key="soars">Manuscripts - SOARS Papers</collection>
+		<fileLastModified>2010-11-21T01:49:08Z</fileLastModified> 
+		
+		
+		
+			
+						
+			
+				
+		
+	</head>
+
+
+
+
+				
+				<metadata>
+
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>SOARS-000-000-000-055</recordID>
+    <recordDate>2010-04-29</recordDate>
+    <title type="Manuscript">Characterizing Multipath Sources at Seismic Frquencies: A Case Study for the Parkfield GPS Array</title>
+    <abstract>Multipath, the skewed positions due to signal deflections from surrounding objects, remains one of the limiting sources of error in position measurements determined by 1-Hertz Global Positioning System (GPS) data. There is currently no standard automated technique to remove multipath consequently affecting the accuracy of any geodetic or seismological application of GPS data. For GPS data to provide sub-centimeter position accuracy, multipath error must first be removed. Characterizing multipath entails identifying sources that contribute to relevant position errors for certain satellite-receiver pairs. In this study, signal-to-noise ratios (SNR) from 1-hz receivers were used to make this characterization possible. SNR recorded by the receivers are sensitive to changes in the time-varying GPS environments and are a conduit for revealing multipath. The analysis of SNR power spectra identified receiver-recording characteristics indicative of specular multipath. These included large amplitudes and high frequency or long period interference. With knowledge of the period of observed multipath, a forward model helped in predicting the distance from the theoretical horizontal reflector to the antenna. This was possible since the distance from a horizontal reflector to antenna determines, in part, the phase and frequency of multipath. Preliminary results have identified time frames and specific satellite-receiver pairs in which significant multipath occurs. This, coupled with actual photos of receiver environments, aids in predicting when, where, and why significant multipath will appear. Knowledge gained from multipath characterization can be applied toward the prevention or removal of multipath at other GPS sites with the Parkfield array as a representative model.</abstract>
+    <keyword>automated technique</keyword>
+
+    <keyword>geodetic</keyword>
+    <keyword>seismological</keyword>
+    <keyword>horizontal reflector</keyword>
+  </general>
+  <resources>
+    <primaryAsset order="1" type="Has version" url="http://nldr.library.ucar.edu/collections/soars/2005_Hernandez_Stephen.pdf">
+      <mimeType>application/pdf</mimeType>
+
+    </primaryAsset>
+  </resources>
+  <contributors>
+    <person order="1" role="Author">
+      <lastName>Hernandez</lastName>
+      <firstName>Michael</firstName>
+      <middleName>Kevin</middleName>
+
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):Corporate Affairs (CA):Education and Outreach (EO):Significant Opportunities in Atmospheric Research and Science (SOARS)</instDivision></affiliation></person>
+    <person role="Contributor">
+      <lastName>Larson</lastName>
+      <firstName>Kristine</firstName>
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></person>
+  </contributors>
+
+  <classify>
+    <language>en</language>
+    <status>Unpublished</status>
+    <classification>Non-refereed</classification>
+    <idNumber type="CALL">03609</idNumber>
+    <collaboration>UCAR only</collaboration>
+
+  </classify>
+  <rights>
+    <copyrightNotice holder="Author" type="UCAR Open Access Policy" url="http://www.ucar.edu/legal/terms_of_use.shtml">The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the NCAR Library Terms of Use.</copyrightNotice>
+  </rights>
+  <coverage>
+    <date type="Created">2005</date>
+    <date type="Digitized">2010-04</date>
+
+  </coverage>
+</record>
+		
+				</metadata>
+				
+				
+
+
+
+	
+				
+
+
+
+
+
+				
+			</record>	
+		 
+			<record>
+
+	<head>
+		<id>SOARS-000-000-000-187</id> 
+		
+			
+			
+				
+			
+		
+		<xmlFormat>osm</xmlFormat>  			
+		<collection recordId="NCAR-COLLECTION-000-000-000-017" ky="soars" key="soars">Manuscripts - SOARS Papers</collection>
+
+		<fileLastModified>2010-11-21T01:49:09Z</fileLastModified> 
+		
+		
+		
+			
+						
+			
+				
+		
+	</head>
+
+
+
+
+				
+				<metadata>
+
+<record xmlns="http://nldr.library.ucar.edu/metadata/osm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nldr.library.ucar.edu/metadata/osm http://nldr.library.ucar.edu/metadata/osm/1.1/schemas/osm.xsd">
+  <general>
+    <recordID>SOARS-000-000-000-187</recordID>
+
+    <recordDate>2010-04-29</recordDate>
+    <title type="Manuscript">Poleward moisture transport by recurving tropical cyclones and its effect on mid-latitude precipitation</title>
+    <abstract>Tropical cyclones (TCs) can cause extensive damage due to strong winds, storm surge, and rainfall. These systems are capable of torrential downpours, producing flooding and forceful winds that damage buildings. Past studies and forecasts have focused on the immediate impacts surrounding the area of a TC; however, few studies have examined the effects that TCs have away from their immediate areas. The focus of this study is to examine the moisture properties of Hurricane Ike, the properties of the storm’s pre-existing conditions, and how Ike contributed to the intensification of precipitation poleward from itself. Version 3.1 of the Advanced Research version of the Weather Research and Forecasting model (WRF-ARW) was initialized to simulate Hurricane Ike on 13 September 2008 at 0000 UTC and on 12 September 2008 at 1200 UTC, with both ending on 16 September at 0000 UTC. The WRF-ARW model was able to replicate the occurrence of Hurricane Ike in the real atmosphere. Comparisons between both simulations and observations illustrated differences in reference to each other, but the general structure of the precipitation, water vapor, and temperature fields were similar. To test the sensitivity of rainfall accumulations to the presence of Ike, another simulation was run with Ike removed at the initialization of the second simulation. Initial analysis of the Ike removal scheme revealed a decrease in the moisture parameters; however, further study is needed to quantify Ike’s impact. This study offers insight into forecasting issues with areas poleward of tropical cyclones such as Hurricane Ike.</abstract>
+    <keyword>torrential downpour</keyword>
+    <keyword>immediate impacts</keyword>
+    <keyword>moisture properties</keyword>
+
+    <keyword>intensification of precipitation</keyword>
+    <keyword>sensitivity of rainfall accumulations</keyword>
+    <keyword>simulation</keyword>
+  </general>
+  <resources>
+    <primaryAsset order="1" type="Has version" url="http://nldr.library.ucar.edu/collections/soars/2009_Boone_Graylen.pdf">
+      <mimeType>application/pdf</mimeType>
+
+    </primaryAsset>
+  </resources>
+  <contributors>
+    <person order="1" role="Author">
+      <lastName>Boone</lastName>
+      <firstName>Graylen</firstName>
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):Corporate Affairs (CA):Education and Outreach (EO):Significant Opportunities in Atmospheric Research and Science (SOARS)</instDivision></affiliation></person>
+
+    <person role="Contributor">
+      <lastName>Davis</lastName>
+      <firstName>Chris</firstName>
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></person>
+    <person role="Contributor">
+      <lastName>Schumacher</lastName>
+      <firstName>Russ</firstName>
+
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName></affiliation></person>
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Unpublished</status>
+    <classification>Non-refereed</classification>
+    <idNumber type="CALL">03668</idNumber>
+
+    <collaboration>UCAR only</collaboration>
+  </classify>
+  <rights>
+    <copyrightNotice holder="Author" type="UCAR Open Access Policy" url="http://www.ucar.edu/legal/terms_of_use.shtml">The user is granted the right to use this resource for non-commercial, non-profit research, or educational purposes only, as are more fully described in the NCAR Library Terms of Use.</copyrightNotice>
+  </rights>
+  <coverage>
+    <date type="Created">2009</date>
+
+    <date type="Digitized">2010-04</date>
+  </coverage>
+</record>
+		
+				</metadata>
+				
+				
+
+
+
+	
+				
+
+
+
+
+
+				
+			</record>	
+		 
+			<record>
+
+	<head>
+		<id>OSGC-000-000-000-369</id> 
+		
+			
+			
+				
+			
+		
+		<xmlFormat>osm</xmlFormat>  			
+		<collection recordId="DCS-COLLECTION-000-000-000-091" ky="osgc" key="osgc">OpenSky General Collection (OSGC)</collection>
+
+		<fileLastModified>2010-11-27T00:40:14Z</fileLastModified> 
+		
+		
+		
+			
+						
+			
+				
+		
+	</head>
+
+
+
+
+				
+				<metadata>
+
+  <general>
+    <recordID>OSGC-000-000-000-369</recordID>
+    <recordDate>2010-10-20</recordDate>
+
+    <pubName type="Proceedings">Solar-Stellar Dynamos as Revealed by Helio- and Asteroseismology: GONG 2008/SOHO 21</pubName>
+    <volume>416</volume>
+    <pageSpan>525-528</pageSpan>
+    <title type="Article">Axisymmetric MHD instabilities in solar/stellar tachoclines</title>
+    <abstract>We show that banded toroidal fields in the tachoclines of the Sun and other stars should be unstable to 3-D axisymmetric overturning modes if the peak toroidal field is ��100 kG or more. This instability should fragment and limit the amplitude of toroidal fields in tachoclines.</abstract>
+  </general>
+
+  <contributors>
+    <person UCARid="13515" order="1" role="Author">
+      <lastName>Dikpati</lastName>
+      <firstName>Mausumi</firstName>
+      
+      
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO):Solar Interior and Variability (SIV)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision></affiliation></person>
+    <person order="2" role="Author">
+
+      <lastName>Cally</lastName>
+      <firstName>P</firstName>
+      <middleName>S</middleName>
+      
+    <affiliation><instName>Monash University</instName></affiliation></person>
+    <person UCARid="7127" order="3" role="Author">
+      <lastName>Gilman</lastName>
+
+      <firstName>Peter</firstName>
+      <middleName>A</middleName>
+      
+      
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO):Solar Interior and Variability (SIV)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision></affiliation></person>
+    <person UCARid="906" order="4" role="Author">
+      <lastName>Miesch</lastName>
+
+      <firstName>Mark</firstName>
+      <middleName>S</middleName>
+      
+      
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO):Solar Interior and Variability (SIV)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision></affiliation></person>
+    <person UCARid="13515" order="1" role="Editor">
+      <lastName>Dikpati</lastName>
+
+      <firstName>Mausumi</firstName>
+      
+      
+      
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO):Solar Interior and Variability (SIV)</instDivision></affiliation></person>
+    <person order="2" role="Editor">
+      <lastName>Arentoft</lastName>
+      <firstName>Torben</firstName>
+
+    </person>
+    <person order="3" role="Editor">
+      <lastName>Gonzalez Hernandez</lastName>
+      <firstName>Irene</firstName>
+    </person>
+    <person order="4" role="Editor">
+      <lastName>Lindsey</lastName>
+
+      <firstName>Charles</firstName>
+    </person>
+    <person order="5" role="Editor">
+      <lastName>Hill</lastName>
+      <firstName>Frank</firstName>
+    </person>
+    <person UCARid="1657" order="1" role="Submitter">
+
+      <lastName>Knack</lastName>
+      <firstName>Amy</firstName>
+      <contactInfo email="knack@ucar.edu" phone="303-497-2174"/>
+      
+    <affiliation><instName>University Corporation for Atmospheric Research (UCAR)</instName><instDivision>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):High Altitude Observatory (HAO)</instDivision></affiliation></person>
+    <organization role="Publisher">
+      
+    <affiliation><instName>Astronomical Society of the Pacific</instName></affiliation></organization>
+
+  </contributors>
+  <classify>
+    <language>en</language>
+    <status>Published</status>
+    <classification>Non-refereed</classification>
+    <idNumber type="ISBN">978-1-58381-712-4</idNumber>
+    <collaboration>UCAR, University and Other</collaboration>
+
+  </classify>
+  <rights>
+    <copyrightNotice holder="Publisher" type="UCAR Open Access Policy">An edited version of this paper was published by the Astronomical Society of the Pacific. Copyright 2009 Astronomical Society of the Pacific.</copyrightNotice>
+  </rights>
+  <resources>
+    <relation type="Is referenced by" url="http://adsabs.harvard.edu/abs/2009ASPC..416..525D"/>
+    <relation type="Is published" url="http://aspbooks.org/custom/publications/paper/416-0525.html"/>
+  </resources>
+
+  <coverage>
+    <date type="Published">2009-12-01</date>
+    <date type="">2009</date>
+    <dateRange end="2008-08-15" start="2008-08-11" type="Meeting"/>
+    <location city="Boulder" country="US" state="US-CO" type="Meeting"/>
+  </coverage>
+</record>
+		
+				</metadata>
+
+				
+				
+
+
+
+	
+				
+
+
+
+
+
+				
+			</record>	
+		
+		</results>
+	</Search>
+</DDSWebService>
+
+

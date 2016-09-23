@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<itemRecord 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://adn.dlese.org" 
+	xsi:schemaLocation="http://www.dlese.org/Metadata/adn-item/0.7.00/record.xsd">
+  <general>
+    <language>en</language>
+    <subjects>
+      <subject>DLESE:Physics</subject>
+    </subjects>
+    <description>@DESCRIPTION@</description>
+    <title>@TITLE@</title>
+    <keywords></keywords>
+  </general>
+  <lifecycle>
+    <contributors>
+      <contributor role="Contributor">
+        <organization>
+          <instName>DLS</instName>
+        </organization>
+      </contributor>
+    </contributors>
+  </lifecycle>
+  <metaMetadata>
+    <catalogEntries>
+      <catalog entry="@RECORD_ID@"/>
+    </catalogEntries>
+    <dateInfo created="2011-04-20"/>
+    <statusOf status="Accessioned"/>
+    <scheme>ADN (ADEPT/DLESE/NASA Alexandria Digital Earth Prototype/Digital Library for Earth System Education/National Aeronautics and Space Administration)</scheme>
+    <language>en</language>
+    <copyright>UCAR Copyright?</copyright>
+    <termsOfUse/>
+  </metaMetadata>
+  <technical>
+    <online>
+      <primaryURL>@PRIMARY_URL@</primaryURL>
+      <requirements>
+        <requirement>
+          <reqType>DLESE:General:No specific technical requirements</reqType>
+        </requirement>
+      </requirements>
+    </online>
+  </technical>
+  <educational>
+    <audiences>
+      <audience>
+        <gradeRange>DLESE:Middle school</gradeRange>
+      </audience>
+    </audiences>
+    <resourceTypes>
+      <resourceType>DLESE:Learning materials:Lab activity</resourceType>
+    </resourceTypes>
+  </educational>
+  <rights>
+    <cost>DLESE:No</cost>
+    <description>easy access</description>
+  </rights>
+</itemRecord>

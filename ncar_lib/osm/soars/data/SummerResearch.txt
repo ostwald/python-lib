@@ -1,0 +1,195 @@
+ResearchID	ProtegeID	PaperTitle	Year
+5	105	Characterization of Selected Boudary Layer Convergence Zones Observed in IHOP (2002) and REFRACTT (2006)	2007
+6	122	Hurricane &Tropical Storm Impacts over the South Florida Metropolitan Area: mortality & government	2007
+7	127	Investigation of the Global Atmospheric Oxidation Chemistry by Ozone - Non-methane Hydrocarbon Corelation Analysis	2007
+8	137	"Climate influences on Harmful Algal Blooms (HABs) in Sequim Bay, Washington State"	2007
+9	138	Implementing a C++ interface for netCDF-4	2007
+10	140	Weather and the Built Environment	2007
+11	141	Large-scale Tropical Circulations Induced by Heat Sources in Two Simple Models	2007
+12	150	Utilizing COSMIC radio occultation soundings to estimate convective potentials over oceans	2007
+13	156	"The Daily Cycle of Winds at Estacion Obispo, Mexico, during the North American Monsoon"	2007
+14	173	The Effects of Purchasing Carbon Offsets on Net Household Carbon Emissions	2007
+15	177	Imrpoving Data Quality when Sampling Oxygen-18 Isotopes in Atmospheric Carbon Dioxide	2007
+16	195	Transport & Dispersion Model Sensitivity to Input Winds and Source Location	2007
+17	201	"The Effect of CO2 Stabilization on Uptake Rates in Land and Ocean Sinks as a Function of Ocean Circulation, Vegetation Type, and CO2 Fertilization"	2007
+18	202	Effects of Land Cover Characteristics on Urban Hydrological Systems- An Analysis for the Colorado Front Range	2007
+19	211	Simulation of Hurricane-Ocean Interaction for Hurrican Katrina: Coupling WRF with a 1-D Ocean Model	2007
+20	214	Using Radio Occultation Soudings to Study Mesoscale Convective Systems	2007
+21	218	Interpretation of Return Levels under a Changing Climate	2007
+22	221	Comparing Simulations to Observations of Photochemical Reactive Gaseous Pollutants Above and Downwind of Mexico City	2007
+23	222	Atmospheric Measurements aboard C-130 During the Pacific Atmospheric Sulfur Experiment	2007
+24	105	Radar andn Surface Measurements of Boundary Layer Convergence Zones	2006
+25	127	Ozone dependency of the background current in ozonesondes	2006
+26	130	A comparison of large-scale influences on tropical cyclogenesis in the Eastern Pacific	2006
+27	134	GIS-based Radar Rainfall Verification	2006
+28	137	Quasi-biennial oscillation (QBO) effect on the diurnal tide in the Whole Atmosphere Community Climate Model (WACCM)	2006
+29	138	Developing a C++ interface for netCDF-4	2006
+30	140	Characteristics of Sea Surface Temperatures (SSTs) between 23�C and 24�C West of the Galapagos Islands	2006
+31	142	Observations and Assessment of Outer Rainband Tornadoes Spawned by Hurrican Katrina	2006
+32	146	Statistical Methods for Quantifying Uncertainty in ENSO on Wind Power in the Northern Great Plains	2006
+33	150	Comparison of CHAMP Radio Occultations with Global Model Forecasts: 2005 Hurricane Season	2006
+34	161	The Modification of a Carbon Monoxide Instrument for Imrpoved Sensitivity	2006
+35	165	Correlating Atmospheric Water Vapor and Hurricane Development	2006
+36	167	The Impact of Magacities on the emission of NO2 using GOME SCIAMACHY data	2006
+37	173	Assessing the Prospects for Employment in an Expansion of U.S. Aquaculture	2006
+38	176	Sulfuric Acid in the Woods and a Connection to Aerosols	2006
+39	191	Meteorological conditions of extreme dust events in the Chihuahuan desert region of the United States and Mexico	2006
+40	195	Assessing the Precision of GPS Radio Occultation	2006
+41	202	Understanding Local Wind Circulations over White Sands Missle Range	2006
+42	211	Effect of the Gulf of Mexico's Mixed Layer Depth on Hurricane Intensity in the Warming Environment	2006
+43	219	Analyzing Ozone Formation Sensitivities in the Mexico City Metropolitan Area	2006
+44	103	A global analysis of atmospheric refrativity anomalies using CHAMP data	2005
+45	110	Using CCSM3 to Simulate Climate Changes Caused by the 8.2ka Meltwater Pulse	2005
+46	116	Synoptic analysis of 2000-2005 significant snowfall events on Mt. Kilimanjaro	2005
+47	127	Stratosphere-Troposhere Exchange via cross-tropopause mixing in the extratropics	2005
+48	130	Using GPS radio occultation data in the study of tropical cyclogenesis	2005
+49	134	A Flash Flood Risk Assessment of the Colorado Front Range using GIS	2005
+50	137	Enhancing Access to Climate Model Metadata via a Web-Accessible Database	2005
+51	138	Creating a software tool to reuse existing decoders	2005
+52	142	Water Vapor Estimates Using Simultaneous S and Ka Band Radar Measurements	2005
+53	143	Investigating Airflow Effects on the Accuracy of Cloud Particle Measurements	2005
+54	146	ENSO's Effect on the Wind Energy Production of South Dakota	2005
+55	150	Characterizing Multipath Sources at Seismic Frquencies: A Case Study for the Parkfield GPS Array	2005
+56	161	The Improvement of a Carbon Monoxide Instrument with Application to Tower Measurement of Verticle Flux	2005
+57	173	Examining Climate Influences and Economic Impacts of Harmful Algal Blooms in Massachusetts: 1993 and 2005	2005
+58	176	"Examining the Processes Occuring in Thunderstorms that Affect Soluble, Reactive Species (Chemical Resevoir Species)"	2005
+59	186	Synthetic dual-Doppler analysis of 11 June 2003 MCV during BAMEX	2005
+60	191	Characterization of dust storms sources in southwestern U.S. and northern Mexico using remote sensing imagery	2005
+61	195	Lower Tropospheric Analysis of the Daily Cycle of the Wind for the East Coast of the Gulf of California during NAME 2004	2005
+62	210	The Assesssment of Sand Dune Mobility from 1980 through 2004 on the Moenkopi Plateau of the Navajo Nation	2005
+63	219	Assessing the Impact of Climate Factors on Dengue Outbreaks in Puerto Rico	2005
+64	103	Monitoring temperature trends in Antarctica using GPS radio occultation	2004
+65	108	Oxidation Mechanisms for Toluene under Atmospheric Conditions	2004
+66	110	Investigating the Thermodynamic Environment of a Mesoscale Convective System	2004
+67	112	Characterization of Diurnal Variation of the Boundary Layer Structure in Complex Terrain	2004
+68	116	"Synoptic Analysis of 2001-2004 ""Long Rains"" on Mt. Kilimanjaro"	2004
+69	121	Reducing financial impacts on the reinsurance industry: Economic valuation of seasonal hurricane forecasts	2004
+70	124	Monitoring and Reliability System (MARS)	2004
+71	130	Evaluating various wind measurement and retrival schemes used for the Pentagon Shield Project	2004
+72	132	Carbon in the Mountains: Using wavelet analysis to understand carbon interactions	2004
+73	134	Evaluating the Convective Atmospheric Boundary Layer by using Surface Station Data	2004
+74	138	Developing a Procedure for Software Testing using Synthetic Data	2004
+75	146	Using the TIEGCM to Estimate the Equatorial Verticle E x B Drift Velocity with Ground Magnetic Perturbation	2004
+76	148	Wind structure and its impact on hail production: a VORTEX '95 study using airborne Doppler radar	2004
+77	161	The Use of Climate Information in Air Quality Management in the Denver Metropolitan Area	2004
+78	164	Measurement of atmospheric nanoparticle size distribution using the Radial Differential Mobility Analyzer (RDMA)	2004
+79	166	Improving an Automated Aerosol Optical Depth Algorithm	2004
+80	175	An Imrpoved Technique for Understanding Damage from Floods	2004
+81	186	Mesoanalysis of Bow Echo Environments during BAMEX	2004
+82	187	"MODIS Observations of Desert, Dust, Forest Fire Smoke and Anthropogenic Aerosols"	2004
+83	189	Analysis of the anthropogenic contribution to mineral aerosols	2004
+84	191	Heigth Corrections of Lower Tropospheric Wind Profiles	2004
+85	198	Climatology of Superrefraction Observed by GPS Radio Occultation	2004
+86	203	Investigating the Temperature Variability of the Middle and Upper Atmosphere over the Equator using SABER and NCAR TIME-GCM	2004
+87	224	An improved method for filtering the measured stable oxygen isotope ratios from carbon dioxide of the NOAA/CMDL Network	2004
+88	103	Exploring the Curved Dentritic Growth of Frost on Glass	2003
+89	110	Reflectivity Gradients in the Lower Troposphere Over the Tropical Pacific: A Climatology Based on Wind Profiler Data	2003
+90	112	The Effect fo Different Cloud Drop Populations on Cloud Chemistry	2003
+91	116	Using Radiosonde Data to Determine Statistical Properties of Convection	2003
+92	121	Evaluation of the Performance of the Dropsonde Humidity Sensor in Clouds	2003
+93	124	Improving the Performance of Image Based Flow Visualization	2003
+94	125	Wavelet Analysis of Recent Climate Change: Model-Observed Data Intercomparison	2003
+95	132	Multiple Tiem Scale Analysis of CO2 Exchange Between the Harvard Forest And the Atmosphere	2003
+96	134	Analyzing the Accuracy of Using Surface Data to Estimate the Water Vapor Content Throughout the Boundary Layer	2003
+97	143	Testing and Modification of Two Infrared Gas Analyzers for CO2 Measurement	2003
+98	148	Investigation of Conceptual Hail-Formation Models Using Airborne Doppler Radar	2003
+99	162	Hydrometer Habits and Their Relation to the Electrification of Two Tornadic Storms as Revealed by a Polarimetric Doppler Radar	2003
+100	164	Correlation of Deep Convection and Lightning Data with Enhanced Level of NO and NO2 in the Upper Troposphere	2003
+101	166	Improving the Method of Extracting Aerosol Optical Depth Information from Multi Spectral Solar Data	2003
+102	168	"The Design, Building and Testing of a Calibration Device for the Atmospheric Measurement of Trace Chemical Species"	2003
+103	169	Surface Current Variability in the Tropical Atlantic	2003
+104	131	Numerical Simulation of the Formation of Hurricane Gabrielle (2001)	2003
+105	175	The Remote Influence Of Tropical Atlantic Sea Surface Temperatures On The Tropical Pacific	2003
+106	186	Environments of Bow Echoes Associated with Localized vs. Widespread Straight-line Wind Damage	2003
+107	198	Comparison Between GPS Radio Occultation and Radiosonde Sounding Data	2003
+108	203	Comparison of Temperature Variations in the Earth's Mesopause	2003
+109	205	Day to Day Variability of Pollution in Mexico City	2003
+110	210	"Contributing to the Prediction of Coastal Flooding: Simulating Wave Heights and Directions along the Coast of Barrow, Alaska"	2003
+111	212	Seasonal Dependency of Diurnal and Semidiurnal Surface Wind Variations over the Tropical Pacific Ocean	2003
+112	217	Planetary Boundary Layer Heights: Lidar and Radiosonde Based Observations	2003
+113	220	Evaluating an Event-Based Approach to Workflow Services	2003
+114	224	Effects of El Niño on the isotopic characteristics of percipitation across the U.S.	2003
+115	109	Measuring Volatile Organic Compounds (VOCs) From Shrubs With a Portable Gas Chromatograph (MiniCam) and Modeling Shrubland VOCs With a Geographical Information System	2002
+116	121	Exploring the Effects of Applying a More General Radar Equation to Wind Profiler Data	2002
+117	125	A Three-Dimensional Animation of Climate Change Effects on Ocean Thermohaline Circulation	2002
+118	189	"Analysis of Ozone and Meteorological Balloon Profile Data from Summit, Greenland"	2002
+119	131	Numerical Simulation of the Transformation of the Pre-Hurricane Gabrielle (2001) Disturbance into a Warm-Core System	2002
+120	132	Designing Better Measuring Networks to Study the Global Carbon Cycle	2002
+121	143	Speciated Measurement of Peroxy Radicals Using the PerCIMS Technique	2002
+122	155	Estimating Ozone Deposition Velocities and Fluxes For the Amazon Basin	2002
+123	158	Understanding Global Positioning System and the Ionospheric Effect	2002
+124	162	Radar and Lightning Signatures in Convective Storms on the High Plains	2002
+125	169	Examination of Formaldehyde and Acetaldehyde Relationships during TRACE-P	2002
+126	172	Development of a New Meteor Radar for Measuring Upper Atmosphere Winds	2002
+127	175	Creating 3-D Jet Stream Circulation Visualizations to Investigate Present and Future Climate Conditions	2002
+128	181	Application of a Single Doppler Radar Wind Retrieval Technique to Hurricane Bret	2002
+129	186	Global Examination of the Relationship between Nitirc Oxide and Solar Variability	2002
+130	191	Analysis of Seasonal and Diurnal Trends in Surface Ozone Concentrations from Arctic Research Sites (Summit/Greenland; Barrow/Alaska)	2002
+131	199	Dependence of Oxidant Formation on NOx in the Atmosphere of Mexico City	2002
+132	203	Optimal Representation of Spectral Lines as a Linear Combination of Lines of Fixed Width	2002
+133	209	Kinematic and Microphysical Evolution of the 29 June Supercell during STEPS	2002
+134	210	"Predicting High-Wind Events impacting Barrow, Alaska through Analysis of Past Regional Sea-Level Pressure Patterns"	2002
+135	212	MODIS Observation of Global Tropospheric Aerosols in 2001	2002
+136	217	Analysis of Moist Processes using TRMM satellite data and NASA's Global Climate Model	2002
+137	220	Designing Better Measuring Networks to Study the Global Carbon Cycle	2002
+138	224	Evolution of Ozone and Peroxyacetyl Nitrate Along Air Parcel Trajectories Sampled During TOPSE in Spring 2000	2002
+139	118	Identifying Potential Precursors to Anomalous Precipitation Over Inter-America	2001
+140	125	Animations of Turbulent Eddies and Particle Dispersion in a Numerically Generated Turbulent Flow Field	2001
+141	131	Using Ensemble Forecasting to Estimate the Background Error Covariance for Data Assimilation	2001
+142	153	Differences in Nonmethane Hydrocarbon Schemes Situated Over NE Colorado	2001
+143	154	An Empirical Model of Ground Based Magnetometer Data for the Study of Electric Currents in the Ionosphere over the Polar Region	2001
+144	155	Tethered Balloon Measurements of Boundary Layer Ozone Profiles Over the Amazon Rainforest	2001
+145	157	The Effective Use of Qualitative Methods in Establishing Best Practices in an Academic Bridge Program	2001
+146	162	The Relationship Between Radar Reflectivity and Lightning Activity at Initial Stages of Convective Storms	2001
+147	169	The Daily Cycle of Low Level Winds over the Island of Nauru in the Equatorial Western Pacific	2001
+148	171	Comparing two perturbation methods for ensemble forecasting in the case of an anomaly regime shift: Part 1	2001
+149	172	MOPITT Observations of CO Near and Far From Urban/Industrial Regions	2001
+150	175	Ozone and Water Vapor: Analyzing Their Relationship Within the Mesosphere	2001
+151	181	Improving Western United States snow water equivalent (SWE) estimates from passive microwave sensors	2001
+152	190	Chemical Composition of Atmospheric Particles Using a Concentrator	2001
+153	194	Estimating Snowfall Rates using Polarimetric Radar Data	2001
+154	196	Isoprene-Producing Bacteria in the Rhizosphere	2001
+155	199	Untangling the Magnetic and Convective Contribution to the Supergranule Intensity Contrast on the Sun	2001
+156	203	Investigating Carbon Monoxide in the Stratosphere using Infrared Spectroscopy	2001
+157	209	A Preliminary Study of the 29 June Tornadic Storm during STEPS	2001
+158	210	Are America's Cities Ready for the Hot Times Ahead?	2001
+159	217	Comparing Properties of Cirrus Clouds in the Tropics and Mid-latitudes	2001
+160	111	The effects of differential rotation on 1-2 solar mass stars	2008
+161	111	Modeling wildfire behavior and analyzing emissions	2009
+162	115	Impacts of climate change on the summer rainfall of the southern Rocky Mountains	2008
+163	115	Decrease in the summer rainfall of the southern United States coast and the Caribbean due to climate change	2009
+164	119	An outline of the process needed for student understanding of hurricanes and El Nino Southern Oscillation (ENSO) events	2008
+165	119	A citizen science campaign encouraging urban forest professionals to engage the public in the collection of tree phenological data	2009
+166	122	Comparison of water vapor measurements from GPS atmospheric remote sensing techniques	2008
+167	122	Orographic effects on rainfall induced by the passage of tropical cyclones over mountainous islands.  Part 1:  The effect of cloud microphysics	2009
+168	123	Investigating the ability of CLM-CN 3.5 to accurately simulate vegitation density	2008
+169	127	Effects of meteorology on particle transport at the Storm Peak Laboratory (SPL)	2008
+170	128	"Analysis of daily monssonal wind circulations in the lower troposphere over Estacion Obispo, Mexico, using wind profilers and the Gulf Surge Index"	2008
+171	137	"Coastal nutrient and water budget assessments for Pueto Ayora, Academy Bay, Santa Cruz Island"	2008
+172	141	AN analytical study of tropical flows using an improvement of the longwave model	2008
+173	141	Reconsidering the role of Rossby waves in the Madden-Julian Oscillation (MJO)	2009
+174	156	A statistical comparison of vertical Total Electron Content (TEC) from three ionospheric models	2008
+175	156	Eliassen-Palm fluxes of the diurnal tides from Whole Atmospheric Community Climate Model-Extended (WACCM-X)	2009
+176	163	Modeling Antarctica	2008
+177	165	Hydroxyl radical and sulfuric acid concentrations in Manitou Experimental Forest	2008
+178	178	Regional climate model projections for Northeast Kansas:  Access to water on the Kickapoo Reservation	2008
+179	178	"Different ways of knowing:  Exploring traditional ecological knowledge and climate modeling for the Turtle Mountains, North Dakota"	2009
+180	195	Urban transport and dispersion sensitivity ot wind direction and source location	2008
+181	201	Mid-Pliocene (3.4-2.9 Myr) climate:  Testing the atmosphere of Pliocene sea surface temperatures (SST) revised to match proxy observations	2008
+182	208	Analyzing soil moisture and runoff variability in the Manitou Springs Experiemental Forest	2008
+183	214	Propagation of precipitating trade wind cumulus clouds using detailed radar images from the RICO Project	2008
+184	218	Application of the statistical theory of extreme values to heat waves	2008
+185	218	Re-examination of Northeast United States drought trends and characteristics	2009
+186	221	Assessing tropical cyclone contribution to annual global rainfall	2008
+187	225	Poleward moisture transport by recurving tropical cyclones and its effect on mid-latitude precipitation	2009
+188	226	"The effects of cloud cover on photosynthesis in a sub-alpine forest ecosystem focusing on Niwot Ridge, Colorado"	2009
+189	150	Evaluating the effects of latent heating in tropical cyclone Sinlaku's extratroplical transition using ARW and energetics analysis	2009
+190	228	A higher order tracer transport scheme for icosahedral hexagonal grid	2009
+191	167	Climatology of precipitation in West Africa through observational studies	2009
+192	173	The effects of convective clouds on vertical scalar transport using a numerically simulated flow field	2009
+193	177	Lightning activity in Atlantic tropical cyclones:  Using the Long-range Lightnin Detection Network (LLDN)	2009
+194	230	Comparison of the VORTRAC retrieved structure of Hurricane Danny (1997) to prior analyses	2009
+195	229	Flash floods:  a spatial and temporal analysis.  A case study of the March 2008 flash floods in southwestern Missouri	2009
+196	231	The reslationship between sea breezes and rainfall along western Mexico during the North American Monsoon	2009
+197	222	Model analysis of 27-day solar induced variability of chemical dynamics in the equatorial upper and middle atmosphere	2009
+198	227	Comparison of ABL heights derived from COSMIC RO and the RUC Model	2009

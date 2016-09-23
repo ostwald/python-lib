@@ -1,0 +1,1374 @@
+Jan 18, 2008 12:17:26 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Jan 18, 2008 12:17:26 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jan 18, 2008 12:17:27 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jan 18, 2008 12:17:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2583 ms
+Jan 18, 2008 12:17:27 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jan 18, 2008 12:17:27 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Jan 18, 2008 12:17:27 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: authentication is enabled
+
+Jan 18, 2008 12:17:29 PM MST SetupServlet starting
+ SetupServlet: collectionRecordsLocation: /global/nfs/dlese_data/dcs/records/dlese_collect
+ SetupServlet: collectionConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+ SetupServlet: frameworkConfigDir: /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+ SetupServlet: logo: DLESE_logo_sm.gif
+Jan 18, 2008 12:17:30 PM MST SetupServlet completed.
+
+Jan 18, 2008 12:17:30 PM MST Initializing MetadataServlet for 'MetadataVocab'
+Jan 18, 2008 12:17:30 PM MST Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Jan 18, 2008 12:17:34 PM MST MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Jan 18, 2008 12:17:34 PM MST Outputting debug info
+Jan 18, 2008 12:17:34 PM MST Using collection-level metadata files located at /global/nfs/dlese_data/dcs/records/dlese_collect/collect
+Jan 18, 2008 12:17:34 PM MST Using ADN metadata files located at /global/nfs/dlese_data/dcs/records
+Jan 18, 2008 12:17:34 PM MST Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Jan 18, 2008 12:17:34 PM MST Starting up RepositoryManager
+Jan 18, 2008 12:17:34 PM MST loading props file: RepositoryManager.properties
+Jan 18, 2008 12:17:34 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 19039 entries.
+Jan 18, 2008 12:17:37 PM MST rm.init() successful...
+Jan 18, 2008 12:17:37 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Jan 18, 2008 12:17:38 PM MST DDSServlet started.
+
+
+Jan 18, 2008 12:17:38 PM MST OAIProviderServlet starting
+Jan 18, 2008 12:17:38 PM MST OAIProviderServlet: Outputting debug info
+Jan 18, 2008 12:17:38 PM MST SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Jan 18, 2008 12:17:38 PM MST OAIProviderServlet initialized.
+Jan 18, 2008 12:17:38 PM MST SchemEditServlet starting!
+instanceName: DCS
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (4 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (5 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+FrameworkRegistry: Processing framework config file (6 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (8 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 54 files from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with sample.xml
+CollectionRegistry: registered sample (prefix: )
+
+"collectionRegistry" initialized with 53 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 52 collections found in index
+Jan 18, 2008 12:18:17 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 12 for TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2112 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+Jan 18, 2008 12:18:22 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10279 for DLESE
+IDGenerator: Current ID = 88 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 334 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2336 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 125 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 19 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: AutoExport task is not scheduled
+initialized repositoryService
+Adding plugin: org.dlese.dpc.schemedit.ndr.writer.NdrRepositoryWriterPlugin
+Jan 18, 2008 12:18:40 PM MST SchemEditServlet initialized.
+
+Jan 18, 2008 12:18:40 PM MST CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Jan 18, 2008 12:18:40 PM MST CasaaServlet: Casaa Service is disabled
+Jan 18, 2008 12:18:40 PM MST CasaaServlet completed.
+
+Jan 18, 2008 12:18:40 PM MST NDRServlet starting
+Jan 18, 2008 12:18:40 PM MST NDRServlet: NDRServlet not enabled: ndrServiceEnabled was not configured as "true"
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: configuring AccessManager from /global/nfs/tomcat-dlese-dcs/var/dcs_conf/auth/access.xml
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/dcs_data/dcs_data"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logoff"
+AccessManager: configureActionPaths WARNING: ActionPath not found for "/logon"
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+
+ActionServlet: ActionServlet initialized
+
+Jan 18, 2008 12:18:41 PM MST SchemaViewerServlet starting
+Jan 18, 2008 12:18:41 PM MST SchemaViewerServlet initialized.
+Jan 18, 2008 12:18:42 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jan 18, 2008 12:18:42 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jan 18, 2008 12:18:42 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.102:10119
+Jan 18, 2008 12:18:42 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/54  config=null
+
+Jan 18, 2008 12:18:43 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: USER is NULL
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/editor/edit.do&requiredRole=cataloger
+Jan 18, 2008 12:18:43 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Jan 18, 2008 12:18:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 75654 ms
+
+Jan 18, 2008 12:18:43 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/editor/edit.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 12:19:54 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is NULL
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Jan 18, 2008 12:19:55 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 12:20:02 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: ginger*!
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: Katy
+LogonAction: LogonAction: User 'Katy' logged on in session 5816A1752539E8D4291DD7ED2363C12F
+
+Jan 18, 2008 12:20:03 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 18, 2008 12:20:04 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: ginger*!
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: Katy
+LogonAction: LogonAction: User 'Katy' logged on in session 5816A1752539E8D4291DD7ED2363C12F
+
+Jan 18, 2008 12:20:06 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 18, 2008 12:20:16 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: s=0&q=&scs=0dcr
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0dcr
+DCSQueryAction: Search results: 55
+SchemEditUtils: SchemEditUtils.getDcsSetInfo(): dcsSetInfo not found for sat
+
+Jan 18, 2008 12:20:33 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: q=&s=0&searchMode=raw&searchString=teaching&scs=0dcr&vld=&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: teaching
+	s: 0
+	scs: 0dcr
+	searchMode: raw
+DCSQueryAction: Search results: 15
+
+Jan 18, 2008 12:20:41 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=edit&recId=DLESE-COLLECTION-000-000-000-070
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	recId: DLESE-COLLECTION-000-000-000-070
+	command: edit
+
+Jan 18, 2008 12:21:01 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	xmlFormat: dlese_collect
+	command: save
+	currentPage: general
+	recId: DLESE-COLLECTION-000-000-000-070
+DCSSchemEditAction: save
+
+DCSSchemEditAction:  calling putRecord()
+
+RepositoryWriter: writeRecord() id: DLESE-COLLECTION-000-000-000-070
+RepositoryWriter: calling plugin.putRecord
+RepositoryWriter: putRecord()
+Jan 18, 2008 12:21:03 PM MST Saving record id: DLESE-COLLECTION-000-000-000-070
+DCSSchemEditAction:  ... returned from putRecord()
+Jan 18, 2008 12:21:06 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+
+Jan 18, 2008 12:21:11 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/editor/edit.do
+AuthorizationFilter: guarded path: /editor/edit.do  requiredRole: cataloger
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: null
+	hasRole: cataloger
+	servletPath: /editor/edit.do
+	requestURI: /schemedit/editor/edit.do
+
+Filtered Request Parameters
+	xmlFormat: dlese_collect
+	command: guardedExit
+	currentPage: general
+	recId: DLESE-COLLECTION-000-000-000-070
+	pathArg: forwardToCaller
+DCSSchemEditAction: handleGuardedExit
+DCSSchemEditAction: forwardPath: forwardToCaller
+DCSSchemEditAction: no forward path supplied .. forward to Caller
+
+SchemEditUtils: forwardToCaller()
+SchemEditUtils: 	 forwarding to /browse/query.do?q=&s=0&searchString=teaching&vld=&scs=0dcr&searchMode=raw (redirect: false)
+
+Filtered Request Parameters
+	pathArg: forwardToCaller
+	xmlFormat: dlese_collect
+	searchString: teaching
+	command: guardedExit
+	recId: DLESE-COLLECTION-000-000-000-070
+	scs: 0dcr
+	currentPage: general
+	s: 0
+	searchMode: raw
+Jan 18, 2008 12:21:17 PM MST FileIndexingService: synchDirectory adding 0 files and removing 0 files
+
+Jan 18, 2008 12:21:29 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: null
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Jan 18, 2008 12:21:39 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&setup=true&collection=dcr
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	collection: dcr
+	setup: true
+
+Jan 18, 2008 12:21:46 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&exportCollection=true&collection=dcr&sss=_%7C-final-dcr-%7C_&destPath=dlese_collect%2Fcollect
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	sss: _|-final-dcr-|_
+	destPath: dlese_collect/collect
+	exportCollection: true
+	command: export
+	collection: dcr
+ExportingService: relativetDestPath: dlese_collect/collect
+ExportingService: 1 files removed from dest directory
+
+Jan 18, 2008 12:21:50 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&showExportMessages=true
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	showExportMessages: true
+
+Jan 18, 2008 12:22:06 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&exit=true
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	exit: true
+	command: export
+
+Jan 18, 2008 12:22:16 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&setup=true&collection=tboxres
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	collection: tboxres
+	setup: true
+
+Jan 18, 2008 12:22:22 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&exportCollection=true&collection=tboxres&sss=_%7C-final-tboxres-%7C_&destPath=adn%2Ftboxres
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	sss: _|-final-tboxres-|_
+	destPath: adn/tboxres
+	exportCollection: true
+	command: export
+	collection: tboxres
+ExportingService: relativetDestPath: adn/tboxres
+
+Jan 18, 2008 12:22:27 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&showExportMessages=true
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	showExportMessages: true
+ExportingService: 0 files removed from dest directory
+
+Jan 18, 2008 12:22:44 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&showExportMessages=true
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	command: export
+	showExportMessages: true
+
+Jan 18, 2008 12:22:51 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/manage/collections.do
+AuthorizationFilter: guarded path: /manage/  requiredRole: manager
+AuthorizationFilter: USER is Katy
+AuthorizationFilter: Filter Info:
+	user: Katy
+	queryString: command=export&exit=true
+	hasRole: manager
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+	exit: true
+	command: export
+
+Jan 18, 2008 12:22:58 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logoff.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.do
+	requestURI: /schemedit/auth/logoff.do
+	: no requiredRole to check: passing on ...
+
+[INFO] schemedit] - action: LogoffAction: User 'Katy' logged off in session 5816A1752539E8D4291DD7ED2363C12F
+
+Jan 18, 2008 12:22:58 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logoff.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logoff.jsp
+	requestURI: /schemedit/auth/logoff.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 12:24:17 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 12:52:16 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 12:52:16 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is NULL
+
+AuthorizationFilter: REDIRECTING TO /schemedit/auth/logon.jsp?dest=/browse/home.do&requiredRole=cataloger
+
+Jan 18, 2008 12:52:16 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.jsp
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: dest=/browse/home.do&requiredRole=cataloger
+	servletPath: /auth/logon.jsp
+	requestURI: /schemedit/auth/logon.jsp
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 12:52:19 PM MST AuthorizationFilter: https://dcs.dlese.org/schemedit/auth/logon.do
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /auth/logon.do
+	requestURI: /schemedit/auth/logon.do
+	: no requiredRole to check: passing on ...
+
+Filtered Request Parameters
+	password: mypass
+	requiredRole: cataloger
+	dest: /browse/home.do
+	submit: Submit
+	username: jonathan
+LogonAction: LogonAction: User 'jonathan' logged on in session A0C628D415A298A354F9B92FF38636A0
+
+Jan 18, 2008 12:52:19 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 18, 2008 12:52:30 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0dcc
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0dcc
+DCSQueryAction: Search results: 9641
+
+Jan 18, 2008 12:52:48 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&scs=0dcc&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	scs: 0dcc
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 9641
+
+Jan 18, 2008 12:53:14 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/admin/admin.do
+AuthorizationFilter: guarded path: /admin/  requiredRole: admin
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: page=services
+	hasRole: admin
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Jan 18, 2008 12:53:14 PM MST DCSAdminForm() 
+
+Jan 18, 2008 12:54:27 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&sortOrder=1&scs=0dcc&sortField=dcslastTouchDate
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	sortOrder: 1
+	scs: 0dcc
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 9641
+
+Jan 18, 2008 12:54:40 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&scs=0dcc&sortOrder=0
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 0
+	scs: 0dcc
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 9641
+
+Jan 18, 2008 12:54:51 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&scs=0dcc&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	scs: 0dcc
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 9641
+
+Jan 18, 2008 12:58:36 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0tips&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 0tips
+	searchMode: raw
+DCSQueryAction: Search results: 6
+
+Jan 18, 2008 12:58:46 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&searchString=&scs=0tips&searchMode=raw&sortOrder=0
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 0
+	searchMode: raw
+	scs: 0tips
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 6
+
+Jan 18, 2008 12:58:50 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&searchString=&searchMode=raw&scs=0tips&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	scs: 0tips
+	searchMode: raw
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 6
+
+Jan 18, 2008 1:20:09 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/
+AuthorizationFilter: guarded path: /*  requiredRole: none
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+	: no requiredRole to check: passing on ...
+
+Jan 18, 2008 1:20:09 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/home.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: null
+	hasRole: cataloger
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+
+Jan 18, 2008 1:20:17 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: s=0&q=&scs=0tips
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0tips
+DCSQueryAction: Search results: 6
+
+Jan 18, 2008 1:20:23 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&scs=0tips&sortOrder=0
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 0
+	scs: 0tips
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 6
+
+Jan 18, 2008 1:20:29 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&sortField=dcslastTouchDate&scs=0tips&sortOrder=1
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortOrder: 1
+	scs: 0tips
+	sortField: dcslastTouchDate
+DCSQueryAction: Search results: 6
+
+Jan 18, 2008 1:23:26 PM MST AuthorizationFilter: http://dcs.dlese.org/schemedit/browse/query.do
+AuthorizationFilter: guarded path: /browse/  requiredRole: cataloger
+AuthorizationFilter: USER is jonathan
+AuthorizationFilter: Filter Info:
+	user: jonathan
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0dcc&resultsPerPage=10
+	hasRole: cataloger
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 0dcc
+	searchMode: raw
+DCSQueryAction: Search results: 9641
+Jan 18, 2008 1:26:13 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jan 18, 2008 1:26:13 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jan 18, 2008 1:26:14 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 205 DcsDataRecords from cache
+Jan 18, 2008 1:26:14 PM MST SchemEditServlet stopped
+Jan 18, 2008 1:26:14 PM MST NDRServlet: destroy() ...
+Jan 18, 2008 1:26:14 PM MST NDRServlet stopped
+ SetupServlet: destroy() ...
+Jan 18, 2008 1:26:14 PM MST SetupServlet stopped
+Jan 18, 2008 1:26:14 PM MST CasaaServlet: destroy() ...
+Jan 18, 2008 1:26:14 PM MST CasaaServlet stopped
+Done shutting down new vocabs checker.
+Jan 18, 2008 1:26:14 PM MST MetadataVocabServlet stopped.
+Jan 18, 2008 1:26:14 PM MST RepositoryManager destroy()
+Jan 18, 2008 1:26:14 PM MST OAIProviderServlet stopped
+Jan 18, 2008 1:26:14 PM MST RepositoryManager destroy()
+
+
+Jan 18, 2008 1:26:14 PM MST DDSServlet stopped.
+
+
+Jan 18, 2008 1:26:14 PM MST SchemaViewerServlet stopped
+contextDestroyed()
+SessionBean: destroying sessionBean for 97D7D625DDC900C17A94D6E6144EEE76
+[ERROR] schemedit] - Exception sending context destroyed event to listener instance of class org.dlese.dpc.schemedit.SessionRegistry <java.util.ConcurrentModificationException>java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(HashMap.java:841)
+	at java.util.HashMap$KeyIterator.next(HashMap.java:877)
+	at org.dlese.dpc.schemedit.SessionRegistry.contextDestroyed(SessionRegistry.java:65)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:3805)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4357)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 97D7D625DDC900C17A94D6E6144EEE76 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session A0C628D415A298A354F9B92FF38636A0 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session A0C628D415A298A354F9B92FF38636A0 <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute queryForm for session A0C628D415A298A354F9B92FF38636A0 <java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade>java.io.NotSerializableException: org.apache.catalina.connector.RequestFacade
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session AADB661E6D705A5086CE77A99A9337DC <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 6A5FCD7C5E2626290C93C1A278AFA186 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+Jan 18, 2008 1:26:15 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10110
+Jan 18, 2008 1:26:15 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.102-10113
+Jan 18, 2008 1:26:15 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

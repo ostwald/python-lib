@@ -1,0 +1,54 @@
+
+!Current collection key
+<ams>AMS Oral History</ams>
+<asr>Annual Reports</asr>
+<atd>Atmos. Tech. Div. Records</atd>
+<comm>Communications</comm>
+<fgge>FGGE Records</fgge>
+<gate>GATE Records</gate>
+<hao>High Altitude Observ. Records</hao>
+<ipcc>IPCC Collection</ipcc>
+<info>Information Releases</info>
+<jkuettner>Kuettner Papers</jkuettner>
+<lie>Line Islands Exp. Records</lie>
+<mesalab>Mesa Lab History</mesalab>
+<unpc>NCAR Newsletters</unpc>
+<unoh>NCAR/UCAR Oral History</unoh>
+<natlballoonfac>Nat’l Balloon Fac. Records</natlballoonfac>
+<nhre>Nat’l Hail Research Exp. Records</nhre>
+<scdnewsletter>Scientific Comp. Div. Records</scdnewsletter>
+<srm>Solar Research Memos</srm>
+<staff>Staff Notes</staff>
+<twerle>TWERLE Records</twerle>
+<cimg>UCAR Image Gallery</cimg>
+<ucar>UCAR Records</ucar>
+<unid>Unidata Records</unid>
+<vinlally>Vin Lally Papers</vinlally>
+<wwashington>W. Washington Papers</wwashington>
+<wor>Walt Roberts Papers</wor>
+
+!(new) keys for research materials
+<books>Books & Bk Chapters</books>
+<dcerc>DCERC Collection</dcerc>
+<dataviz>Data Visualizations</dataviz>
+<articles>Journal Articles</articles>
+<technotes>NCAR Technical Notes</technotes>
+<conference>Posters & Presentations</conference>
+<proceedings>Published Proceedings</proceedings>
+<siparcs>SIParCS Collection</siparcs>
+<soars>SOARS Collection</soars>
+<manuals>User Guides & Manuscripts</manuals>
+
+!language
+<zh>Chinese</zh>
+<nl>Dutch</nl>
+<en>English</en>
+<fr>French</fr>
+<de>German</de>
+<it>Italian</it>
+<es>Spanish</es>
+
+!(new) keys for archives
+<gtpr>Geophysical Turbulence Records</gtpr>
+<ucarbd>UCAR Members Meeting Records</ucarbd>
+<wcas>Weather/Climate Assessment Records</wcas>

@@ -1,0 +1,3 @@
+Bad Term	Good Term
+"Aeronautical Research Associates of Princeton, Inc."	Aeronautical Research Associates of Princeton
+

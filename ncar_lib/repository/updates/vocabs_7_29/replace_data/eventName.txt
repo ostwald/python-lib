@@ -1,0 +1,8 @@
+Bad Term	Good Term
+80st AMS Annual Meeting	80th AMS Annual Meeting
+90st AMS Annual Meeting	90th AMS Annual Meeting
+2006 AGU Fall Meeting	AGU Fall Meeting 2006
+2007 AGU Fall Meeting	AGU Fall Meeting 2007
+2008 AGU Fall Meeting	AGU Fall Meeting 2008
+2009 AGU Fall Meeting	AGU Fall Meeting 2009
+2010 AGU Fall Meeting	AGU Fall Meeting 2010

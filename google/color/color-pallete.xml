@@ -1,0 +1,58 @@
+<table class="goog-palette-table" cellspacing="0" cellpadding="0">
+<tbody class="goog-palette-body">
+<tr class="goog-palette-row" role="row">
+<td id="goog-palette-cell-0" class="goog-palette-cell" role="gridcell" aria-label="RGB (204, 51, 51)" />
+<td id="goog-palette-cell-1" class="goog-palette-cell" role="gridcell" aria-label="RGB (221, 68, 119)" />
+<td id="goog-palette-cell-2" class="goog-palette-cell" role="gridcell" aria-label="RGB (153, 68, 153)" />
+<td id="goog-palette-cell-3" class="goog-palette-cell" role="gridcell" aria-label="RGB (102, 51, 204)" />
+<td id="goog-palette-cell-4" class="goog-palette-cell" role="gridcell" aria-label="RGB (51, 102, 153)" />
+<td id="goog-palette-cell-5" class="goog-palette-cell goog-palette-cell-selected" role="gridcell" aria-label="RGB (51, 102, 204)" />
+<td id="goog-palette-cell-6" class="goog-palette-cell" role="gridcell" aria-label="RGB (34, 170, 153)" />
+</tr>
+<tr class="goog-palette-row" role="row">
+<td id="goog-palette-cell-7" class="goog-palette-cell" role="gridcell" aria-label="RGB (50, 146, 98)" />
+<td id="goog-palette-cell-8" class="goog-palette-cell" role="gridcell" aria-label="RGB (16, 150, 24)" />
+<td id="goog-palette-cell-9" class="goog-palette-cell" role="gridcell" aria-label="RGB (102, 170, 0)" />
+<td id="goog-palette-cell-10" class="goog-palette-cell" role="gridcell" aria-label="RGB (170, 170, 17)" />
+<td id="goog-palette-cell-11" class="goog-palette-cell" role="gridcell" aria-label="RGB (214, 174, 0)" />
+<td id="goog-palette-cell-12" class="goog-palette-cell" role="gridcell" aria-label="RGB (238, 136, 0)" />
+<td id="goog-palette-cell-13" class="goog-palette-cell" role="gridcell" aria-label="RGB (221, 85, 17)" />
+</tr>
+<tr class="goog-palette-row" role="row">
+<td id="goog-palette-cell-14" class="goog-palette-cell" role="gridcell" aria-label="RGB (168, 112, 112)" />
+<td id="goog-palette-cell-15" class="goog-palette-cell" role="gridcell" aria-label="RGB (140, 109, 140)" />
+<td id="goog-palette-cell-16" class="goog-palette-cell" role="gridcell" aria-label="RGB (98, 116, 135)" />
+<td id="goog-palette-cell-17" class="goog-palette-cell" role="gridcell" aria-label="RGB (112, 131, 168)" />
+<td id="goog-palette-cell-18" class="goog-palette-cell" role="gridcell" aria-label="RGB (92, 141, 135)" />
+<td id="goog-palette-cell-19" class="goog-palette-cell" role="gridcell" aria-label="RGB (137, 137, 81)" />
+<td id="goog-palette-cell-20" class="goog-palette-cell" role="gridcell" aria-label="RGB (176, 139, 89)" />
+</tr>
+<tr class="goog-palette-row" role="row">
+<td id="goog-palette-cell-21" class="goog-palette-cell" role="gridcell" aria-label="RGB (159, 53, 1)" />
+<td id="goog-palette-cell-22" class="goog-palette-cell" role="gridcell" aria-label="RGB (138, 45, 56)" />
+<td id="goog-palette-cell-23" class="goog-palette-cell" role="gridcell" aria-label="RGB (150, 33, 129)" />
+<td id="goog-palette-cell-24" class="goog-palette-cell" role="gridcell" aria-label="RGB (64, 33, 117)" />
+<td id="goog-palette-cell-25" class="goog-palette-cell" role="gridcell" aria-label="RGB (48, 72, 126)" />
+<td id="goog-palette-cell-26" class="goog-palette-cell" role="gridcell" aria-label="RGB (24, 33, 134)" />
+<td id="goog-palette-cell-27" class="goog-palette-cell" role="gridcell" aria-label="RGB (31, 117, 60)" />
+</tr>
+<tr class="goog-palette-row" role="row">
+<td id="goog-palette-cell-28" class="goog-palette-cell" role="gridcell" aria-label="RGB (61, 130, 21)" />
+<td id="goog-palette-cell-29" class="goog-palette-cell" role="gridcell" aria-label="RGB (90, 154, 8)" />
+<td id="goog-palette-cell-30" class="goog-palette-cell" role="gridcell" aria-label="RGB (129, 145, 11)" />
+<td id="goog-palette-cell-31" class="goog-palette-cell" role="gridcell" aria-label="RGB (157, 112, 0)" />
+<td id="goog-palette-cell-32" class="goog-palette-cell" role="gridcell" aria-label="RGB (170, 90, 0)" />
+<td id="goog-palette-cell-33" class="goog-palette-cell" role="gridcell" aria-label="RGB (141, 69, 0)" />
+<td id="goog-palette-cell-34" class="goog-palette-cell" role="gridcell" aria-label="RGB (116, 53, 0)" />
+</tr>
+<tr class="goog-palette-row" role="row">
+<td id="goog-palette-cell-35" class="goog-palette-cell" role="gridcell" aria-label="RGB (135, 11, 80)" />
+<td id="goog-palette-cell-36" class="goog-palette-cell" role="gridcell" aria-label="RGB (112, 35, 127)" />
+<td id="goog-palette-cell-37" class="goog-palette-cell" role="gridcell" aria-label="RGB (37, 97, 125)" />
+<td id="goog-palette-cell-38" class="goog-palette-cell" role="gridcell" aria-label="RGB (81, 81, 81)" />
+<td id="goog-palette-cell-39" class="goog-palette-cell" role="gridcell" aria-label="RGB (34, 127, 99)" />
+<td id="goog-palette-cell-40" class="goog-palette-cell" role="gridcell" aria-label="RGB (165, 145, 20)" />
+<td id="goog-palette-cell-41" class="goog-palette-cell" role="gridcell" aria-label="RGB (135, 17, 17)" />
+</tr>
+</tbody>
+</table>

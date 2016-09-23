@@ -1,0 +1,2373 @@
+Oct 22, 2007 1:40:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib
+Oct 22, 2007 1:40:58 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 22, 2007 1:40:59 PM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 22, 2007 1:40:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2351 ms
+Oct 22, 2007 1:40:59 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Oct 22, 2007 1:40:59 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.23
+Oct 22, 2007 1:40:59 PM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Oct 22, 2007 1:41:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+WARNING: A docBase /global/dev/ttomcat-dlese-dcs/webapps/schemedit inside the host appBase has been specified, and will be ignored
+[ERROR] ManagerBase - IOException while loading persisted sessions: java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[ERROR] ManagerBase - Exception loading sessions from persistent storage <java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1309)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1908)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1832)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1719)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1305)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:348)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1402)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:931)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:394)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:321)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:637)
+	at org.apache.catalina.core.ContainerBase.setManager(ContainerBase.java:432)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4160)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:626)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:553)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:488)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1138)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177)
+Caused by: java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+SessionRegistry: sessionRegistry set as context attribute
+WebServicesFilter: init()
+AuthorizationFilter: init()
+AuthorizationFilter: WARNING: authentication system is NOT enabled
+Oct 22, 2007 1:41:02 PM MDT NDRServlet starting
+Oct 22, 2007 1:41:02 PM MDT NDRServlet: WARNING: NDR service is not enabled
+
+Oct 22, 2007 1:41:02 PM MDT SetupServlet starting
+Oct 22, 2007 1:41:02 PM MDT SetupServlet: collectionRecordsLocation: /usr/local/dlese_data/dcs/records/dlese_collect
+Oct 22, 2007 1:41:02 PM MDT SetupServlet: collectionConfigDir: /usr/local/dlese_data/dcs/dcs_conf/collections
+Oct 22, 2007 1:41:02 PM MDT SetupServlet: frameworkConfigDir: /usr/local/dlese_data/dcs/dcs_conf/frameworks
+Oct 22, 2007 1:41:02 PM MDT SetupServlet completed.
+
+Oct 22, 2007 1:41:02 PM MDT Initializing MetadataServlet for 'MetadataVocab'
+Oct 22, 2007 1:41:02 PM MDT Loading OPML from base loader at http://www.dlese.org/Metadata/CurrentMetadataUI.xml
+Oct 22, 2007 1:41:06 PM MDT MetadataVocabServlet initialized, with MetadataVocab stored as 'MetadataVocab'
+Oct 22, 2007 1:41:06 PM MDT Outputting debug info
+Oct 22, 2007 1:41:06 PM MDT Using collection-level metadata files located at /usr/local/dlese_data/dcs/records/dlese_collect/collect
+Oct 22, 2007 1:41:06 PM MDT Using ADN metadata files located at /usr/local/dlese_data/dcs/records
+Oct 22, 2007 1:41:06 PM MDT Using index located at /usr/local/dlese_data/dcs/indexes_and_settings/index
+Oct 22, 2007 1:41:06 PM MDT Starting up RepositoryManager
+Oct 22, 2007 1:41:06 PM MDT loading props file: RepositoryManager.properties
+Oct 22, 2007 1:41:06 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 18815 entries.
+Oct 22, 2007 1:41:08 PM MDT rm.init() successful...
+Oct 22, 2007 1:41:08 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+
+
+Oct 22, 2007 1:41:09 PM MDT DDSServlet started.
+
+
+Oct 22, 2007 1:41:09 PM MDT OAIProviderServlet starting
+Oct 22, 2007 1:41:09 PM MDT OAIProviderServlet: Outputting debug info
+Oct 22, 2007 1:41:09 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 22, 2007 1:41:09 PM MDT OAIProviderServlet initialized.
+Oct 22, 2007 1:41:09 PM MDT SchemEditServlet starting!
+instanceName: WebTest DCS
+logo: DLESE_logo_sm.gif
+catalogingInfo: 
+FrameworkRegistry: Loading Framework Registry from /usr/local/dlese_data/dcs/dcs_conf/frameworks
+FrameworkRegistry: Processing framework config file (1 of 8) : dlese_anno.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/annotation/1.0.00/annotation.xsd
+StructureWalker: Recieved an ANY element type - skipping ...
+Oct 22, 2007 1:41:11 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+NewFieldInfoMap: FieldInfoMap initialized - 41 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_anno
+
+FrameworkRegistry: Processing framework config file (2 of 8) : adn.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/adn-item/0.6.50/record.xsd
+Oct 22, 2007 1:41:15 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 22, 2007 1:41:20 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+NewFieldInfoMap: FieldInfoMap initialized - 262 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered adn
+
+FrameworkRegistry: Processing framework config file (3 of 8) : dcs_data.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/dcs-data/dcs-data.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dcs_data
+
+FrameworkRegistry: Processing framework config file (4 of 8) : framework_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/framework-config/dcsFrameworkConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered framework_config
+
+FrameworkRegistry: Processing framework config file (5 of 8) : dlese_collect_item.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (6 of 8) : news_opps.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/news-opps/1.0.00/news-opps.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 53 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered news_opps
+
+FrameworkRegistry: Processing framework config file (7 of 8) : dlese_collect.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/collection/1.0.00/collection.xsd
+NewFieldInfoMap: FieldInfoMap initialized - 4 fields files read
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered dlese_collect
+
+FrameworkRegistry: Processing framework config file (8 of 8) : collection_config.xml
+MetaDataFramework: reading schema from net: http://www.dlese.org/Metadata/dcs/collection-config/dcsCollectionConfig.xsd
+MetaDataFramework:  ... metadata editor pages written
+FrameworkRegistry: registered collection_config
+
+"frameworkRegistry" initialized with 7 frameworks
+collectionConfigDir is /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: 
+
+ Initializing Collection Registry ... 
+	about to read 56 files from /usr/local/dlese_data/dcs/dcs_conf/collections
+CollectionRegistry: about to create CollectionConfig with mynasadata.xml
+CollectionRegistry: registered mynasadata (prefix: MYND)
+
+CollectionRegistry: about to create CollectionConfig with bridgeother.xml
+CollectionRegistry: registered bridgeother (prefix: BRIDGE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with crs.xml
+CollectionRegistry: registered crs (prefix: CRS)
+
+CollectionRegistry: about to create CollectionConfig with mynasastds.xml
+CollectionRegistry: registered mynasastds (prefix: MY-STDS)
+
+CollectionRegistry: about to create CollectionConfig with ccc.xml
+CollectionRegistry: registered ccc (prefix: CCC)
+
+CollectionRegistry: about to create CollectionConfig with ceis.xml
+CollectionRegistry: registered ceis (prefix: CEIS)
+
+CollectionRegistry: about to create CollectionConfig with dlisr.xml
+CollectionRegistry: registered dlisr (prefix: DLISR)
+
+CollectionRegistry: about to create CollectionConfig with usgs.xml
+CollectionRegistry: registered usgs (prefix: USGS-ED)
+
+CollectionRegistry: about to create CollectionConfig with pck.xml
+CollectionRegistry: registered pck (prefix: PCK)
+
+CollectionRegistry: about to create CollectionConfig with dcc.xml
+CollectionRegistry: registered dcc (prefix: DLESE)
+
+CollectionRegistry: about to create CollectionConfig with matters.xml
+CollectionRegistry: registered matters (prefix: MATTERS)
+
+CollectionRegistry: about to create CollectionConfig with swi.xml
+CollectionRegistry: registered swi (prefix: SWI)
+
+CollectionRegistry: about to create CollectionConfig with nys.xml
+CollectionRegistry: registered nys (prefix: NYS)
+
+CollectionRegistry: about to create CollectionConfig with evaltlkt.xml
+CollectionRegistry: registered evaltlkt (prefix: EVAL-TLKT)
+
+CollectionRegistry: about to create CollectionConfig with cosee.xml
+CollectionRegistry: registered cosee (prefix: COSEE)
+
+CollectionRegistry: about to create CollectionConfig with tboxres.xml
+CollectionRegistry: registered tboxres (prefix: TBOXR)
+
+CollectionRegistry: about to create CollectionConfig with nap.xml
+CollectionRegistry: registered nap (prefix: NAP)
+
+CollectionRegistry: about to create CollectionConfig with dataclass.xml
+CollectionRegistry: registered dataclass (prefix: DATA-CLASS)
+
+CollectionRegistry: about to create CollectionConfig with sercnagt.xml
+CollectionRegistry: registered sercnagt (prefix: SERC-NAGT)
+
+CollectionRegistry: about to create CollectionConfig with serceet.xml
+CollectionRegistry: registered serceet (prefix: SERC-EET)
+
+CollectionRegistry: about to create CollectionConfig with coseeother.xml
+CollectionRegistry: registered coseeother (prefix: COSEE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with visionlearn.xml
+CollectionRegistry: registered visionlearn (prefix: VL)
+
+CollectionRegistry: about to create CollectionConfig with adl.xml
+CollectionRegistry: registered adl (prefix: ADL)
+
+CollectionRegistry: about to create CollectionConfig with nocc.xml
+CollectionRegistry: registered nocc (prefix: NEWS-OPPS)
+
+CollectionRegistry: about to create CollectionConfig with ien.xml
+CollectionRegistry: registered ien (prefix: IEN)
+
+CollectionRegistry: about to create CollectionConfig with dcc'.xml
+CollectionRegistry: registered dcc' (prefix: )
+
+CollectionRegistry: about to create CollectionConfig with 1191523439291.xml
+CollectionRegistry: registered 1191523439291 (prefix: COLLECT-TEST)
+
+CollectionRegistry: about to create CollectionConfig with eee.xml
+CollectionRegistry: registered eee (prefix: EARTHQUAKE)
+
+CollectionRegistry: about to create CollectionConfig with simple.xml
+CollectionRegistry: registered simple (prefix: SIMPLE)
+
+CollectionRegistry: about to create CollectionConfig with bridge.xml
+CollectionRegistry: registered bridge (prefix: BRIDGE)
+
+CollectionRegistry: about to create CollectionConfig with default.xml
+CollectionRegistry: about to create CollectionConfig with eserev.xml
+CollectionRegistry: registered eserev (prefix: NASA-ESERevProd)
+
+CollectionRegistry: about to create CollectionConfig with nyic.xml
+CollectionRegistry: registered nyic (prefix: NYIC)
+
+CollectionRegistry: about to create CollectionConfig with tbox.xml
+CollectionRegistry: registered tbox (prefix: TBOX)
+
+CollectionRegistry: about to create CollectionConfig with evc.xml
+CollectionRegistry: registered evc (prefix: EVC)
+
+CollectionRegistry: about to create CollectionConfig with sercstrtpt.xml
+CollectionRegistry: registered sercstrtpt (prefix: SERC-STARTINGPOINT)
+
+CollectionRegistry: about to create CollectionConfig with dwel.xml
+CollectionRegistry: registered dwel (prefix: DWEL)
+
+CollectionRegistry: about to create CollectionConfig with dcr.xml
+CollectionRegistry: registered dcr (prefix: DLESE-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with esa.xml
+CollectionRegistry: registered esa (prefix: ESA)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaa.xml
+CollectionRegistry: registered bridgenoaa (prefix: BRIDGE-NOAA)
+
+CollectionRegistry: about to create CollectionConfig with collect.xml
+CollectionRegistry: registered collect (prefix: DCS-COLLECTION)
+
+CollectionRegistry: about to create CollectionConfig with 1189030393181.xml
+CollectionRegistry: registered 1189030393181 (prefix: TEST)
+
+CollectionRegistry: about to create CollectionConfig with tips.xml
+CollectionRegistry: registered tips (prefix: TIPS)
+
+CollectionRegistry: about to create CollectionConfig with emvc.xml
+CollectionRegistry: registered emvc (prefix: EMVC)
+
+CollectionRegistry: about to create CollectionConfig with thredds.xml
+CollectionRegistry: registered thredds (prefix: THREDDS)
+
+CollectionRegistry: about to create CollectionConfig with globe.xml
+CollectionRegistry: registered globe (prefix: GLOBE)
+
+CollectionRegistry: about to create CollectionConfig with comet.xml
+CollectionRegistry: registered comet (prefix: COMET)
+
+CollectionRegistry: about to create CollectionConfig with simpleother.xml
+CollectionRegistry: registered simpleother (prefix: SIMPLE-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with ienother.xml
+CollectionRegistry: registered ienother (prefix: IEN-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with edmall.xml
+CollectionRegistry: registered edmall (prefix: NASA-Edmall)
+
+CollectionRegistry: about to create CollectionConfig with curl.xml
+CollectionRegistry: registered curl (prefix: CURL)
+
+CollectionRegistry: about to create CollectionConfig with dlisrother.xml
+CollectionRegistry: registered dlisrother (prefix: DLISR-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with bridgenoaaother.xml
+CollectionRegistry: registered bridgenoaaother (prefix: BRIDGE-NOAA-OTHER)
+
+CollectionRegistry: about to create CollectionConfig with avc.xml
+CollectionRegistry: registered avc (prefix: AVC)
+
+CollectionRegistry: about to create CollectionConfig with svs.xml
+CollectionRegistry: registered svs (prefix: NASA-SVS)
+
+CollectionRegistry: about to create CollectionConfig with sample.xml
+CollectionRegistry: registered sample (prefix: )
+
+"collectionRegistry" initialized with 55 collections
+OAI SET INITIALIZATION DISABLED
+set 'RemoteSearcher' in servlet context
+dcsDataManager initialized
+ExportingService: WARNING: exportBaseDir doe not exist at /usr/local/dlese_data/dcs/exported
+CollectionRegistry: initializing idGenerators
+Oct 22, 2007 1:41:46 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+Oct 22, 2007 1:41:51 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 22, 2007 1:41:57 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+IDGenerator: Current ID = 10265 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 10 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+RepositoryWriter: init: RepositoryWriter.init()
+RepositoryWriter: RepositoryWriter initialized
+RepositoryService: AutoExport task is not scheduled
+initialized repositoryService
+Oct 22, 2007 1:42:10 PM MDT SchemEditServlet initialized.
+
+Oct 22, 2007 1:42:10 PM MDT CasaaServlet starting
+AsfToAdnMapper: 304 items found
+AsfToAdnMapper: idMap initialized with 304 items
+AsfToAdnMapper: adnTextMap initialized with 304 items
+Oct 22, 2007 1:42:10 PM MDT CasaaServlet: Casaa Service is disabled
+Oct 22, 2007 1:42:10 PM MDT CasaaServlet completed.
+
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+[INFO] ValidatorPlugIn - Loading validation rules file from '/WEB-INF/validation.xml'
+ActionServlet: accessManager placed in servlet context
+ActionServlet: userManager placed in servlet context
+ActionServlet: guest user set in servletContext
+
+ActionServlet: ActionServlet initialized
+
+Oct 22, 2007 1:42:11 PM MDT SchemaViewerServlet starting
+Oct 22, 2007 1:42:11 PM MDT SchemaViewerServlet initialized.
+Oct 22, 2007 1:42:11 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 22, 2007 1:42:11 PM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 22, 2007 1:42:11 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /128.117.224.96:10119
+Oct 22, 2007 1:42:11 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/33  config=null
+Oct 22, 2007 1:42:11 PM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Oct 22, 2007 1:42:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 72164 ms
+
+Oct 22, 2007 1:43:58 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: 4F54227B892A267E28C2782207537899
+SessionRegistry: registered sessionBean: 4F54227B892A267E28C2782207537899
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 22, 2007 1:44:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 1:44:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 1:44:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 1:44:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 1:44:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 22, 2007 1:44:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 22, 2007 1:44:14 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=index
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Oct 22, 2007 1:44:14 PM MDT DCSAdminForm() 
+Filtered Request Parameters
+	page: index
+
+Oct 22, 2007 1:44:25 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: Reindex All
+Oct 22, 2007 1:44:29 PM MDT DCSAdminAction: Running command Reindex All
+Oct 22, 2007 1:44:29 PM MDT SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/lucene_index' - creating a new one...
+Oct 22, 2007 1:44:29 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 22, 2007 1:44:29 PM MDT SimpleLuceneIndex: No index at location '/usr/local/dlese_data/dcs/indexes_and_settings/index/dup_items_index/lucene_index' - creating a new one...
+Oct 22, 2007 1:44:29 PM MDT SimpleLuceneIndex: Index initialized successfully. The index contains 0 entries.
+Oct 22, 2007 1:44:30 PM MDT FileIndexingService: synchDirectory adding 1 files and removing 0 files
+Oct 22, 2007 1:44:41 PM MDT FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Oct 22, 2007 1:44:51 PM MDT FileIndexingService: synchDirectory adding 53 files and removing 0 files
+Oct 22, 2007 1:44:56 PM MDT FileIndexingService: synchDirectory adding 1 files and removing 1 files
+Oct 22, 2007 1:45:02 PM MDT FileIndexingService: synchDirectory adding 37 files and removing 0 files
+Oct 22, 2007 1:45:07 PM MDT FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Oct 22, 2007 1:45:13 PM MDT FileIndexingService: synchDirectory adding 40 files and removing 0 files
+Oct 22, 2007 1:45:37 PM MDT FileIndexingService: synchDirectory adding 452 files and removing 0 files
+
+Oct 22, 2007 1:46:03 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: command=showIndexingMessages
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Oct 22, 2007 1:46:03 PM MDT FileIndexingService: synchDirectory adding 207 files and removing 0 files
+Oct 22, 2007 1:46:05 PM MDT DCSAdminAction: Running command showIndexingMessages
+
+Oct 22, 2007 1:46:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 1:46:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 1:46:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 1:46:06 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 1:46:06 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+Oct 22, 2007 1:46:30 PM MDT FileIndexingService: synchDirectory adding 363 files and removing 0 files
+Oct 22, 2007 1:46:45 PM MDT FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Oct 22, 2007 1:47:04 PM MDT FileIndexingService: synchDirectory adding 219 files and removing 0 files
+Oct 22, 2007 1:47:48 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:48:16 PM MDT FileIndexingService: synchDirectory adding 163 files and removing 0 files
+Oct 22, 2007 1:48:33 PM MDT FileIndexingService: synchDirectory adding 72 files and removing 0 files
+Oct 22, 2007 1:49:13 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:50:09 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:51:05 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:52:01 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:52:59 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:53:56 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+
+Oct 22, 2007 1:54:28 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: command=showIndexingMessages
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	command: showIndexingMessages
+Oct 22, 2007 1:54:32 PM MDT DCSAdminAction: Running command showIndexingMessages
+
+Oct 22, 2007 1:54:32 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 1:54:32 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 1:54:32 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 1:54:32 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 1:54:32 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+Oct 22, 2007 1:54:55 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:55:55 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:56:52 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:57:54 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:58:56 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 1:59:57 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:01:06 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:02:12 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:03:18 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:04:42 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:06:04 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:07:04 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:07:58 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:08:36 PM MDT FileIndexingService: synchDirectory adding 139 files and removing 0 files
+Oct 22, 2007 2:09:05 PM MDT FileIndexingService: synchDirectory adding 159 files and removing 0 files
+Oct 22, 2007 2:09:28 PM MDT FileIndexingService: synchDirectory adding 158 files and removing 0 files
+Oct 22, 2007 2:09:42 PM MDT FileIndexingService: synchDirectory adding 7 files and removing 0 files
+Oct 22, 2007 2:09:51 PM MDT FileIndexingService: synchDirectory adding 15 files and removing 0 files
+Oct 22, 2007 2:10:04 PM MDT FileIndexingService: synchDirectory adding 53 files and removing 0 files
+Oct 22, 2007 2:10:20 PM MDT FileIndexingService: synchDirectory adding 39 files and removing 0 files
+Oct 22, 2007 2:10:32 PM MDT FileIndexingService: synchDirectory adding 47 files and removing 0 files
+Oct 22, 2007 2:10:44 PM MDT FileIndexingService: synchDirectory adding 26 files and removing 0 files
+Oct 22, 2007 2:10:54 PM MDT FileIndexingService: synchDirectory adding 7 files and removing 0 files
+Oct 22, 2007 2:11:37 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:12:38 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:13:39 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:14:35 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:15:10 PM MDT FileIndexingService: synchDirectory adding 192 files and removing 0 files
+Oct 22, 2007 2:15:33 PM MDT FileIndexingService: synchDirectory adding 59 files and removing 0 files
+Oct 22, 2007 2:15:45 PM MDT FileIndexingService: synchDirectory adding 10 files and removing 0 files
+Oct 22, 2007 2:15:56 PM MDT FileIndexingService: synchDirectory adding 25 files and removing 0 files
+Oct 22, 2007 2:16:07 PM MDT FileIndexingService: synchDirectory adding 20 files and removing 0 files
+Oct 22, 2007 2:16:25 PM MDT FileIndexingService: synchDirectory adding 87 files and removing 0 files
+Oct 22, 2007 2:17:15 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:17:38 PM MDT FileIndexingService: synchDirectory adding 54 files and removing 0 files
+Oct 22, 2007 2:17:52 PM MDT FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Oct 22, 2007 2:18:02 PM MDT FileIndexingService: synchDirectory adding 14 files and removing 0 files
+Oct 22, 2007 2:18:28 PM MDT FileIndexingService: synchDirectory adding 215 files and removing 0 files
+Oct 22, 2007 2:19:26 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:20:07 PM MDT FileIndexingService: synchDirectory adding 295 files and removing 0 files
+Oct 22, 2007 2:20:34 PM MDT FileIndexingService: synchDirectory adding 31 files and removing 0 files
+Oct 22, 2007 2:20:46 PM MDT FileIndexingService: synchDirectory adding 8 files and removing 0 files
+Oct 22, 2007 2:21:08 PM MDT FileIndexingService: synchDirectory adding 151 files and removing 0 files
+Oct 22, 2007 2:21:49 PM MDT FileIndexingService: synchDirectory adding 160 files and removing 0 files
+Oct 22, 2007 2:22:43 PM MDT FileIndexingService: synchDirectory adding 434 files and removing 0 files
+Oct 22, 2007 2:23:18 PM MDT FileIndexingService: synchDirectory adding 30 files and removing 0 files
+Oct 22, 2007 2:24:07 PM MDT FileIndexingService: synchDirectory2 adding 500 files and removing 0 files
+Oct 22, 2007 2:24:32 PM MDT FileIndexingService: synchDirectory adding 108 files and removing 0 files
+Oct 22, 2007 2:24:50 PM MDT FileIndexingService: synchDirectory adding 6 files and removing 0 files
+Oct 22, 2007 2:25:29 PM MDT FileIndexingService: synchDirectory adding 363 files and removing 0 files
+Oct 22, 2007 2:25:56 PM MDT FileIndexingService: synchDirectory adding 9 files and removing 0 files
+Oct 22, 2007 2:26:14 PM MDT FileIndexingService: synchDirectory adding 115 files and removing 0 files
+Oct 22, 2007 2:26:32 PM MDT FileIndexingService: synchDirectory adding 29 files and removing 0 files
+Oct 22, 2007 2:26:46 PM MDT FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Oct 22, 2007 2:27:02 PM MDT FileIndexingService: synchDirectory adding 56 files and removing 0 files
+Oct 22, 2007 2:27:24 PM MDT FileIndexingService: synchDirectory adding 109 files and removing 0 files
+Oct 22, 2007 2:27:40 PM MDT FileIndexingService: synchDirectory adding 36 files and removing 0 files
+Oct 22, 2007 2:28:09 PM MDT FileIndexingService: synchDirectory adding 222 files and removing 0 files
+Oct 22, 2007 2:28:29 PM MDT FileIndexingService: synchDirectory adding 42 files and removing 0 files
+Oct 22, 2007 2:28:48 PM MDT FileIndexingService: synchDirectory adding 28 files and removing 0 files
+Oct 22, 2007 2:29:00 PM MDT IndexingObserver: * Indexing Completed: Completed indexing 53 directories successfully. Total time 44 minutes, 25 seconds. Total number of items in index: 18815 *
+Oct 22, 2007 2:29:00 PM MDT IndexingObserver: Reinitializing idManager
+CollectionRegistry: initializing idGenerators
+CollectionRegistry: 53 collections found in index
+IDGenerator: Current ID = 10 for TEST
+IDGenerator: Current ID = 1 for COLLECT-TEST
+IDGenerator: Current ID = 7 for ADL
+IDGenerator: Current ID = 115 for AVC
+IDGenerator: Current ID = 2111 for BRIDGE
+IDGenerator: Current ID = 2033 for BRIDGE-NOAA
+IDGenerator: Current ID = 2073 for BRIDGE-NOAA-OTHER
+IDGenerator: Current ID = 2119 for BRIDGE-OTHER
+IDGenerator: Current ID = 47 for CCC
+IDGenerator: Current ID = 7 for CEIS
+IDGenerator: Current ID = 68 for DCS-COLLECTION
+IDGenerator: Current ID = 161 for COMET
+IDGenerator: Current ID = 2091 for COSEE
+IDGenerator: Current ID = 2092 for COSEE-OTHER
+IDGenerator: Current ID = 0 for CRS
+IDGenerator: Current ID = 3853 for CURL
+IDGenerator: Current ID = 16 for DATA-CLASS
+IDGenerator: Current ID = 10265 for DLESE
+IDGenerator: Current ID = 85 for DLESE-COLLECTION
+IDGenerator: Current ID = 83 for DLISR
+IDGenerator: Current ID = 25 for DLISR-OTHER
+IDGenerator: Current ID = 491 for DWEL
+IDGenerator: Current ID = 2884 for NASA-Edmall
+IDGenerator: Current ID = 13515 for EARTHQUAKE
+IDGenerator: Current ID = 6 for EMVC
+IDGenerator: Current ID = 56 for ESA
+IDGenerator: Current ID = 99 for NASA-ESERevProd
+IDGenerator: Current ID = 232 for EVAL-TLKT
+IDGenerator: Current ID = 25 for EVC
+IDGenerator: Current ID = 707 for GLOBE
+IDGenerator: Current ID = 94 for IEN
+IDGenerator: Current ID = 56 for IEN-OTHER
+IDGenerator: Current ID = 42 for MATTERS
+IDGenerator: Current ID = 36 for MYND
+IDGenerator: Current ID = 39 for MY-STDS
+IDGenerator: Current ID = 10949 for NAP
+IDGenerator: Current ID = 2258 for NEWS-OPPS
+IDGenerator: Current ID = 74 for NYIC
+IDGenerator: Current ID = 44 for NYS
+IDGenerator: Current ID = 0 for PCK
+IDGenerator: Current ID = 29 for SERC-EET
+IDGenerator: Current ID = 893 for SERC-NAGT
+IDGenerator: Current ID = 657 for SERC-STARTINGPOINT
+IDGenerator: Current ID = 20 for SIMPLE
+IDGenerator: Current ID = 7 for SIMPLE-OTHER
+IDGenerator: Current ID = 3160 for NASA-SVS
+IDGenerator: Current ID = 29 for SWI
+IDGenerator: Current ID = 213 for TBOX
+IDGenerator: Current ID = 114 for TBOXR
+IDGenerator: Current ID = 31 for THREDDS
+IDGenerator: Current ID = 10 for TIPS
+IDGenerator: Current ID = 161 for USGS-ED
+IDGenerator: Current ID = 0 for VL
+Oct 22, 2007 2:29:17 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+Oct 22, 2007 2:29:27 PM MDT FileIndexingService: synchDirectory adding 0 files and removing 0 files
+
+Oct 22, 2007 2:32:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+Oct 22, 2007 2:32:21 PM MDT SimpleLuceneIndex ERROR: doSearchDocs() 3 caught exception after 0 tries: org.apache.lucene.queryParser.ParseException: Cannot parse '': Encountered "<EOF>" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    "[" ...
+    "{" ...
+    <NUMBER> ...
+    
+
+----------------------------------
+  search took 3 millis
+----------------------------------
+
+
+Oct 22, 2007 2:32:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 2:32:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 2:32:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 2:32:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 2:32:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 22, 2007 2:33:13 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 69 millis
+----------------------------------
+
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 8608 millis
+----------------------------------
+
+
+Oct 22, 2007 2:33:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&searchString=&vld=&searchMode=raw&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 1
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 56 millis
+----------------------------------
+
+
+Oct 22, 2007 2:34:12 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&searchString=&vld=&searchMode=raw&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 409 millis
+----------------------------------
+
+
+Oct 22, 2007 2:34:21 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastEditorName&searchString=&vld=&searchMode=raw&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastEditorName
+	sortOrder: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Last Editor, fieldName: dcslastEditorName)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Editor
+   ... sort took 58 millis
+----------------------------------
+
+
+Oct 22, 2007 2:34:32 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=10&sortField=dcslastEditorName&searchString=&sortOrder=0&vld=&searchMode=raw
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastEditorName
+	sortOrder: 0
+	s: 10
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Last Editor, fieldName: dcslastEditorName)
+SearchHelper: 	 reused cached sort
+
+Oct 22, 2007 2:34:36 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrow_left.gif
+
+Oct 22, 2007 2:34:48 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&searchString=&vld=&searchMode=raw&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	sortOrder: 1
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 427 millis
+----------------------------------
+
+
+Oct 22, 2007 2:35:01 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=idvalue&searchString=&vld=&searchMode=raw&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: idvalue
+	sortOrder: 1
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 56 millis
+----------------------------------
+
+
+Oct 22, 2007 2:35:08 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=idvalue&searchString=&vld=&searchMode=raw&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: idvalue
+	sortOrder: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 401 millis
+----------------------------------
+
+
+Oct 22, 2007 2:35:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=Orthorectified+&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: Orthorectified 
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 33 millis
+----------------------------------
+
+DCSQueryAction: Search results: 2
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 1 millis
+----------------------------------
+
+
+Oct 22, 2007 3:06:34 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&scs=0dcc&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 0dcc
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 50 millis
+----------------------------------
+
+DCSQueryAction: Search results: 9639
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 4816 millis
+----------------------------------
+
+
+Oct 22, 2007 3:06:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 3:06:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 3:06:43 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 3:06:44 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 3:06:44 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 22, 2007 3:06:49 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=idvalue&searchString=&scs=0dcc&searchMode=raw&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: idvalue
+	sortOrder: 1
+	searchMode: raw
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 9639
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 200 millis
+----------------------------------
+
+
+Oct 22, 2007 3:07:38 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=DLESE-000-000-010-249&scs=0dcc&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: DLESE-000-000-010-249
+	s: 0
+	scs: 0dcc
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 44 millis
+----------------------------------
+
+DCSQueryAction: Search results: 1
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 0 millis
+----------------------------------
+
+
+Oct 22, 2007 3:07:46 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/record_op/status.do
+AuthorizationFilter: Filter Info:
+	queryString: command=edit&recId=DLESE-000-000-010-249
+	servletPath: /record_op/status.do
+	requestURI: /schemedit/record_op/status.do
+
+StatusForm: validate()
+Filtered Request Parameters
+	recId: DLESE-000-000-010-249
+	command: edit
+SessionRegistry: session 4F54227B892A267E28C2782207537899 attempting to lock record DLESE-000-000-010-249 ... Success
+
+Oct 22, 2007 3:07:50 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/record_op/status.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /record_op/status.do
+	requestURI: /schemedit/record_op/status.do
+
+StatusForm: validate()
+Filtered Request Parameters
+	status: _|-final-dcc-|_
+	recId: DLESE-000-000-010-249
+	command: exit
+SessionRegistry: session 4F54227B892A267E28C2782207537899 attempting to release lock on record DLESE-000-000-010-249 ... Success
+
+Oct 22, 2007 3:07:50 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=DLESE-000-000-010-249&scs=0dcc&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: DLESE-000-000-010-249
+	s: 0
+	scs: 0dcc
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 1
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 reused cached sort
+
+Oct 22, 2007 3:08:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=&scs=0dcc&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	scs: 0dcc
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 49 millis
+----------------------------------
+
+DCSQueryAction: Search results: 9639
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 4629 millis
+----------------------------------
+
+
+Oct 22, 2007 3:08:39 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=id&searchString=volcano&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: volcano
+	s: 0
+	searchMode: id
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 44 millis
+----------------------------------
+
+DCSQueryAction: Search results: 0
+
+Oct 22, 2007 3:08:50 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=volcano&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: volcano
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 38 millis
+----------------------------------
+
+DCSQueryAction: Search results: 367
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 236 millis
+----------------------------------
+
+
+Oct 22, 2007 3:09:12 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastEditorName&searchString=volcano&vld=&searchMode=raw&sortOrder=0
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastEditorName
+	searchString: volcano
+	sortOrder: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 367
+
+SearchHelper: SORT (sortWidget = label: Last Editor, fieldName: dcslastEditorName)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Editor
+   ... sort took 6 millis
+----------------------------------
+
+
+Oct 22, 2007 3:09:26 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=dcslastTouchDate&searchString=volcano&vld=&searchMode=raw&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: dcslastTouchDate
+	searchString: volcano
+	sortOrder: 1
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 367
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 6 millis
+----------------------------------
+
+
+Oct 22, 2007 3:14:45 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 68 millis
+----------------------------------
+
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Last Touch, fieldName: dcslastTouchDate)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Last Touch
+   ... sort took 9165 millis
+----------------------------------
+
+
+Oct 22, 2007 3:15:01 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&sortField=idvalue&searchString=&searchMode=raw&sortOrder=1
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	sortField: idvalue
+	sortOrder: 1
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 using CANNED search
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 46 millis
+----------------------------------
+
+
+Oct 22, 2007 3:18:18 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=f&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: f
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 38 millis
+----------------------------------
+
+DCSQueryAction: Search results: 69
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 35 millis
+----------------------------------
+
+
+Oct 22, 2007 3:18:23 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 3:18:23 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 3:18:23 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 3:18:23 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 3:18:23 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 22, 2007 3:18:29 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 71 millis
+----------------------------------
+
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 8615 millis
+----------------------------------
+
+
+Oct 22, 2007 3:18:46 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=f&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	searchString: f
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 38 millis
+----------------------------------
+
+DCSQueryAction: Search results: 69
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 34 millis
+----------------------------------
+
+
+Oct 22, 2007 3:18:54 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: q=&s=0&searchMode=raw&searchString=&vld=&resultsPerPage=10
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	resultsPerPage: 10
+	s: 0
+	searchMode: raw
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 70 millis
+----------------------------------
+
+DCSQueryAction: Search results: 18762
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 8649 millis
+----------------------------------
+
+
+Oct 22, 2007 3:24:31 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 22, 2007 3:54:59 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=services
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: services
+
+Oct 22, 2007 3:55:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 3:55:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 3:55:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 3:55:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 3:55:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47laimx46news*+OR+urlMirrorsEncoded:httpx58x47x47laimx46news*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+Oct 22, 2007 4:39:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 reused cached sort
+
+Oct 22, 2007 4:39:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 22, 2007 4:39:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 22, 2007 4:39:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 22, 2007 4:39:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 22, 2007 4:39:51 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47testingx46redirect*+OR+urlMirrorsEncoded:httpx58x47x47testingx46redirect*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=GetId&collection=tips
+	 servletPath: /services/dcsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=PutRecord&recordXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CannotationRecord+xmlns%3D%22http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fannotation%22+xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22+xsi%3AschemaLocation%3D%22http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fannotation+http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fannotation%2F1.0.00%2Fannotation.xsd%22%3E%0A%09%3Cservice%3E%0A%09%09%3Cname%3EDLESE+Annotation+Service%3C%2Fname%3E%0A%09%09%3CrecordID%3ETIPS-000-000-000-011%3C%2FrecordID%3E%0A%09%09%3Cdate+created%3D%222007-10-22%22%2F%3E%0A%09%3C%2Fservice%3E%0A%09%3CitemID%3EDWEL-000-000-000-109%3C%2FitemID%3E%0A%09%3Cannotation%3E%0A%09%09%3Ctitle%3EComment+on+Down+the+Drain%3A+How+Much+Water+Do+You+Use%3F%3C%2Ftitle%3E%0A%09%09%3Ctype%3EComment%3C%2Ftype%3E%0A%09%09%3Cformat%3EText%3C%2Fformat%3E%0A%09%09%3Cstatus%3ECompleted%3C%2Fstatus%3E%0A%09%09%3Ccontent%3E%0A%09%09%09%3Cdescription%3ETEST%21%21+-+this+tip+was+submitted+from+webtest%3C%2Fdescription%3E%0A%09%09%3C%2Fcontent%3E%0A%09%09%3Ccontributors%3E%0A%09%09%09%3Ccontributor+role%3D%22Publisher%22+date%3D%222007-10-22%22+share%3D%22true%22%3E%0A%09%09%09%09%3Corganization%3E%0A%09%09%09%09%09%3CinstName%3EUniversity+Corporation+for+Atmospheric+Research%3C%2FinstName%3E%0A%09%09%09%09%09%3Cemail%3Esupport%40dlese.org%3C%2Femail%3E%0A%09%09%09%09%09%3CinstDept%3EDigital+Library+for+Earth+Systems+Education%3C%2FinstDept%3E%0A%09%09%09%09%3C%2Forganization%3E%0A%09%09%09%3C%2Fcontributor%3E%0A%09%09%3Ccontributor+role%3D%22Author%22+share%3D%22true%22+date%3D%222007-10-22%22%3E%3Cperson%3E%3CnameFirst%3EJonathan%3C%2FnameFirst%3E%3CnameLast%3EOstwald%3C%2FnameLast%3E%3Cemail%3Eostwald%40ucar.edu%3C%2Femail%3E%3CinstName%3EUCAR%3C%2FinstName%3E%3C%2Fperson%3E%3C%2Fcontributor%3E%3C%2Fcontributors%3E%0A%09%3C%2Fannotation%3E%0A%3C%2FannotationRecord%3E&xmlFormat=dlese_anno&collection=tips&id=TIPS-000-000-000-011&dcsStatus=Imported&dcsStatusNote=The+comment+has+been+suggested+via+the+SuggestComment+service.
+	 servletPath: /services/dcsws1-0
+
+
+DCSServicesAction: doPutRecord()
+SessionRegistry: unregistering Session Bean for B7F3B332D86A65B5984550840360FABE
+SessionRegistry: unregistering Session Bean for 4F54227B892A267E28C2782207537899
+SessionRegistry: unregistering Session Bean for 5A7311FDB03F17D01943699AA76EF78A
+SessionRegistry: unregistering Session Bean for B79796DC1C5DB91FD8FECE8F6464A6E9
+SessionRegistry: unregistering Session Bean for 7517C069AE6B1CBE706F91759ABC0B10
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47jlox46testx46com*+OR+urlMirrorsEncoded:httpx58x47x47jlox46testx46com*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=GetId&collection=dcc
+	 servletPath: /services/dcsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=PutRecord&recordXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CitemRecord+xmlns%3D%22http%3A%2F%2Fadn.dlese.org%22+xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22+xsi%3AschemaLocation%3D%22http%3A%2F%2Fadn.dlese.org+http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fadn-item%2F0.6.50%2Frecord.xsd%22%3E%0A%09%3Cgeneral%3E%0A%09%09%3Ctitle%3ETEST%3C%2Ftitle%3E%0A%09%09%3Cdescription%3Ethis+suggestion+comes+from+webtest%3C%2Fdescription%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Csubjects%3E%0A%09%09%09%3Csubject%3EDLESE%3ATo+be+supplied%3C%2Fsubject%3E%0A%09%09%3C%2Fsubjects%3E%0A%09%3C%2Fgeneral%3E%0A%09%3Clifecycle%2F%3E%0A%09%3CmetaMetadata%3E%0A%09%09%3CcatalogEntries%3E%0A%09%09%09%3Ccatalog+entry%3D%22DLESE-000-000-010-266%22%2F%3E%0A%09%09%3C%2FcatalogEntries%3E%0A%09%09%3CdateInfo+created%3D%222007-10-23%22%2F%3E%0A%09%09%3CstatusOf+status%3D%22Accessioned%22%2F%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Cscheme%3EADN+%28ADEPT%2FDLESE%2FNASA+Alexandria+Digital+Earth+Prototype%2FDigital+Library+for+Earth+System+Education%2FNational+Aeronautics+and+Space+Administration%29%3C%2Fscheme%3E%0A%09%09%3Ccopyright%3ECopyright+%28c%29+2005+UCAR+%28University+Corporation+for+Atmospheric+Research%29%3C%2Fcopyright%3E%0A%09%09%3CtermsOfUse+URI%3D%22http%3A%2F%2Fwww.dlese.org%2Fdocuments%2Fpolicy%2Fterms_use_full.html%22%3ETerms+of+use+consistent+with+DLESE+%28Digital+Library+for+Earth+System+Education%29+policy.%3C%2FtermsOfUse%3E%0A%09%09%3Ccontributors%3E%0A%09%09%09%3Ccontributor+date%3D%222007-10-23%22+role%3D%22Creator%22%3E%0A%09%09%09%09%3Cperson%3E%0A%09%09%09%09%09%3CnameFirst%3EJonathan%3C%2FnameFirst%3E%0A%09%09%09%09%09%3CnameLast%3EOstwald%3C%2FnameLast%3E%0A%09%09%09%09%09%3CemailPrimary%3Eostwald%40ucar.edu%3C%2FemailPrimary%3E%0A%09%09%09%09%09%3CinstName%3EUCAR%3C%2FinstName%3E%0A%09%09%09%09%3C%2Fperson%3E%0A%09%09%09%3C%2Fcontributor%3E%0A%09%09%3C%2Fcontributors%3E%0A%09%3C%2FmetaMetadata%3E%0A%09%3Ctechnical%3E%0A%09%09%3Conline%3E%0A%09%09%09%3CprimaryURL%3Ehttp%3A%2F%2Fjlo.test.com%3C%2FprimaryURL%3E%0A%09%09%09%3Crequirements%3E%0A%09%09%09%09%3Crequirement%3E%0A%09%09%09%09%09%3CreqType%3EDLESE%3ATo+be+supplied%3C%2FreqType%3E%0A%09%09%09%09%3C%2Frequirement%3E%0A%09%09%09%3C%2Frequirements%3E%0A%09%09%3C%2Fonline%3E%0A%09%3C%2Ftechnical%3E%0A%09%3Ceducational%3E%0A%09%09%3Caudiences%3E%3Caudience%3E%3CgradeRange%3EDLESE%3AGeneral+public%3C%2FgradeRange%3E%3C%2Faudience%3E%3C%2Faudiences%3E%0A%09%09%3CresourceTypes%3E%0A%09%09%09%3CresourceType%3EDLESE%3ATo+be+supplied%3C%2FresourceType%3E%0A%09%09%3C%2FresourceTypes%3E%0A%09%3C%2Feducational%3E%0A%09%3Crights%3E%0A%09%09%3Ccost%3EDLESE%3ATo+be+supplied%3C%2Fcost%3E%0A%09%09%3Cdescription%3EPut+resource+copyright+or+resource+terms+of+use+here.%3C%2Fdescription%3E%0A%09%3C%2Frights%3E%0A%3C%2FitemRecord%3E&xmlFormat=adn&collection=dcc&id=DLESE-000-000-010-266&dcsStatus=Imported&dcsStatusNote=The+resource+has+been+suggested+for+inclusion+in+the+library.
+	 servletPath: /services/dcsws1-0
+
+
+DCSServicesAction: doPutRecord()
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47onex46morex46time*+OR+urlMirrorsEncoded:httpx58x47x47onex46morex46time*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=GetId&collection=dcc
+	 servletPath: /services/dcsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=PutRecord&recordXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CitemRecord+xmlns%3D%22http%3A%2F%2Fadn.dlese.org%22+xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22+xsi%3AschemaLocation%3D%22http%3A%2F%2Fadn.dlese.org+http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fadn-item%2F0.6.50%2Frecord.xsd%22%3E%0A%09%3Cgeneral%3E%0A%09%09%3Ctitle%3EANOTHER+TEST%3C%2Ftitle%3E%0A%09%09%3Cdescription%3Eanother+one+from+webtest+...%3C%2Fdescription%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Csubjects%3E%0A%09%09%09%3Csubject%3EDLESE%3ATo+be+supplied%3C%2Fsubject%3E%0A%09%09%3C%2Fsubjects%3E%0A%09%3C%2Fgeneral%3E%0A%09%3Clifecycle%2F%3E%0A%09%3CmetaMetadata%3E%0A%09%09%3CcatalogEntries%3E%0A%09%09%09%3Ccatalog+entry%3D%22DLESE-000-000-010-267%22%2F%3E%0A%09%09%3C%2FcatalogEntries%3E%0A%09%09%3CdateInfo+created%3D%222007-10-23%22%2F%3E%0A%09%09%3CstatusOf+status%3D%22Accessioned%22%2F%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Cscheme%3EADN+%28ADEPT%2FDLESE%2FNASA+Alexandria+Digital+Earth+Prototype%2FDigital+Library+for+Earth+System+Education%2FNational+Aeronautics+and+Space+Administration%29%3C%2Fscheme%3E%0A%09%09%3Ccopyright%3ECopyright+%28c%29+2005+UCAR+%28University+Corporation+for+Atmospheric+Research%29%3C%2Fcopyright%3E%0A%09%09%3CtermsOfUse+URI%3D%22http%3A%2F%2Fwww.dlese.org%2Fdocuments%2Fpolicy%2Fterms_use_full.html%22%3ETerms+of+use+consistent+with+DLESE+%28Digital+Library+for+Earth+System+Education%29+policy.%3C%2FtermsOfUse%3E%0A%09%09%3Ccontributors%3E%0A%09%09%09%3Ccontributor+date%3D%222007-10-23%22+role%3D%22Creator%22%3E%0A%09%09%09%09%3Cperson%3E%0A%09%09%09%09%09%3CnameFirst%3EJonathan%3C%2FnameFirst%3E%0A%09%09%09%09%09%3CnameLast%3EOstwald%3C%2FnameLast%3E%0A%09%09%09%09%09%3CemailPrimary%3Eostwald%40ucar.edu%3C%2FemailPrimary%3E%0A%09%09%09%09%09%3CinstName%3EUCAR%3C%2FinstName%3E%0A%09%09%09%09%3C%2Fperson%3E%0A%09%09%09%3C%2Fcontributor%3E%0A%09%09%3C%2Fcontributors%3E%0A%09%3C%2FmetaMetadata%3E%0A%09%3Ctechnical%3E%0A%09%09%3Conline%3E%0A%09%09%09%3CprimaryURL%3Ehttp%3A%2F%2Fone.more.time%3C%2FprimaryURL%3E%0A%09%09%09%3Crequirements%3E%0A%09%09%09%09%3Crequirement%3E%0A%09%09%09%09%09%3CreqType%3EDLESE%3ATo+be+supplied%3C%2FreqType%3E%0A%09%09%09%09%3C%2Frequirement%3E%0A%09%09%09%3C%2Frequirements%3E%0A%09%09%3C%2Fonline%3E%0A%09%3C%2Ftechnical%3E%0A%09%3Ceducational%3E%0A%09%09%3Caudiences%3E%3Caudience%3E%3CgradeRange%3EDLESE%3AGeneral+public%3C%2FgradeRange%3E%3C%2Faudience%3E%3C%2Faudiences%3E%0A%09%09%3CresourceTypes%3E%0A%09%09%09%3CresourceType%3EDLESE%3ATo+be+supplied%3C%2FresourceType%3E%0A%09%09%3C%2FresourceTypes%3E%0A%09%3C%2Feducational%3E%0A%09%3Crights%3E%0A%09%09%3Ccost%3EDLESE%3ATo+be+supplied%3C%2Fcost%3E%0A%09%09%3Cdescription%3EPut+resource+copyright+or+resource+terms+of+use+here.%3C%2Fdescription%3E%0A%09%3C%2Frights%3E%0A%3C%2FitemRecord%3E&xmlFormat=adn&collection=dcc&id=DLESE-000-000-010-267&dcsStatus=Imported&dcsStatusNote=The+resource+has+been+suggested+for+inclusion+in+the+library.
+	 servletPath: /services/dcsws1-0
+
+
+DCSServicesAction: doPutRecord()
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47yetx46anotherx46test*+OR+urlMirrorsEncoded:httpx58x47x47yetx46anotherx46test*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=GetId&collection=dcc
+	 servletPath: /services/dcsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=PutRecord&recordXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CitemRecord+xmlns%3D%22http%3A%2F%2Fadn.dlese.org%22+xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22+xsi%3AschemaLocation%3D%22http%3A%2F%2Fadn.dlese.org+http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fadn-item%2F0.6.50%2Frecord.xsd%22%3E%0A%09%3Cgeneral%3E%0A%09%09%3Ctitle%3ETEST+AGAIN%3C%2Ftitle%3E%0A%09%09%3Cdescription%3Eyet+another+test+from+webtest.+this+one+will+also+fail+with+id%3Dnull.%3C%2Fdescription%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Csubjects%3E%0A%09%09%09%3Csubject%3EDLESE%3ATo+be+supplied%3C%2Fsubject%3E%0A%09%09%3C%2Fsubjects%3E%0A%09%3C%2Fgeneral%3E%0A%09%3Clifecycle%2F%3E%0A%09%3CmetaMetadata%3E%0A%09%09%3CcatalogEntries%3E%0A%09%09%09%3Ccatalog+entry%3D%22DLESE-000-000-010-268%22%2F%3E%0A%09%09%3C%2FcatalogEntries%3E%0A%09%09%3CdateInfo+created%3D%222007-10-23%22%2F%3E%0A%09%09%3CstatusOf+status%3D%22Accessioned%22%2F%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Cscheme%3EADN+%28ADEPT%2FDLESE%2FNASA+Alexandria+Digital+Earth+Prototype%2FDigital+Library+for+Earth+System+Education%2FNational+Aeronautics+and+Space+Administration%29%3C%2Fscheme%3E%0A%09%09%3Ccopyright%3ECopyright+%28c%29+2005+UCAR+%28University+Corporation+for+Atmospheric+Research%29%3C%2Fcopyright%3E%0A%09%09%3CtermsOfUse+URI%3D%22http%3A%2F%2Fwww.dlese.org%2Fdocuments%2Fpolicy%2Fterms_use_full.html%22%3ETerms+of+use+consistent+with+DLESE+%28Digital+Library+for+Earth+System+Education%29+policy.%3C%2FtermsOfUse%3E%0A%09%09%3Ccontributors%3E%0A%09%09%09%3Ccontributor+date%3D%222007-10-23%22+role%3D%22Creator%22%3E%0A%09%09%09%09%3Cperson%3E%0A%09%09%09%09%09%3CnameFirst%3EJonathan%3C%2FnameFirst%3E%0A%09%09%09%09%09%3CnameLast%3EOstwald%3C%2FnameLast%3E%0A%09%09%09%09%09%3CemailPrimary%3Eostwald%40ucar.edu%3C%2FemailPrimary%3E%0A%09%09%09%09%09%3CinstName%3EUCAR%3C%2FinstName%3E%0A%09%09%09%09%3C%2Fperson%3E%0A%09%09%09%3C%2Fcontributor%3E%0A%09%09%3C%2Fcontributors%3E%0A%09%3C%2FmetaMetadata%3E%0A%09%3Ctechnical%3E%0A%09%09%3Conline%3E%0A%09%09%09%3CprimaryURL%3Ehttp%3A%2F%2Fyet.another.test%3C%2FprimaryURL%3E%0A%09%09%09%3Crequirements%3E%0A%09%09%09%09%3Crequirement%3E%0A%09%09%09%09%09%3CreqType%3EDLESE%3ATo+be+supplied%3C%2FreqType%3E%0A%09%09%09%09%3C%2Frequirement%3E%0A%09%09%09%3C%2Frequirements%3E%0A%09%09%3C%2Fonline%3E%0A%09%3C%2Ftechnical%3E%0A%09%3Ceducational%3E%0A%09%09%3Caudiences%3E%3Caudience%3E%3CgradeRange%3EDLESE%3APrimary+elementary%3C%2FgradeRange%3E%3C%2Faudience%3E%3C%2Faudiences%3E%0A%09%09%3CresourceTypes%3E%0A%09%09%09%3CresourceType%3EDLESE%3ATo+be+supplied%3C%2FresourceType%3E%0A%09%09%3C%2FresourceTypes%3E%0A%09%3C%2Feducational%3E%0A%09%3Crights%3E%0A%09%09%3Ccost%3EDLESE%3ATo+be+supplied%3C%2Fcost%3E%0A%09%09%3Cdescription%3EPut+resource+copyright+or+resource+terms+of+use+here.%3C%2Fdescription%3E%0A%09%3C%2Frights%3E%0A%3C%2FitemRecord%3E&xmlFormat=adn&collection=dcc&id=DLESE-000-000-010-268&dcsStatus=Imported&dcsStatusNote=The+resource+has+been+suggested+for+inclusion+in+the+library.
+	 servletPath: /services/dcsws1-0
+
+
+DCSServicesAction: doPutRecord()
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47wwwx46tuftsx46edux47as*+OR+urlMirrorsEncoded:httpx58x47x47wwwx46tuftsx46edux47as*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+Oct 23, 2007 10:46:34 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: 72326A388123B6FEBDBD3D304A54E396
+SessionRegistry: registered sessionBean: 72326A388123B6FEBDBD3D304A54E396
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 23, 2007 10:46:39 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 23, 2007 10:46:39 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 23, 2007 10:46:39 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 23, 2007 10:46:39 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 23, 2007 10:46:39 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 23, 2007 10:46:39 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 23, 2007 10:46:42 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=services
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Oct 23, 2007 10:46:42 AM MDT DCSAdminForm() 
+Filtered Request Parameters
+	page: services
+
+Oct 23, 2007 10:47:02 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: trustedWsIps=128.117.*&command=setTrustedIps&config=&button=Set+IP+Addresses
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	button: Set IP Addresses
+	command: setTrustedIps
+	trustedWsIps: 128.117.*
+Oct 23, 2007 10:47:06 AM MDT DCSAdminAction: Running command setTrustedIps
+
+Oct 23, 2007 10:47:10 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/admin.do
+AuthorizationFilter: Filter Info:
+	queryString: page=services
+	servletPath: /admin/admin.do
+	requestURI: /schemedit/admin/admin.do
+
+Filtered Request Parameters
+	page: services
+
+Oct 23, 2007 10:47:18 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47lastx46test*+OR+urlMirrorsEncoded:httpx58x47x47lastx46test*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=GetId&collection=dcc
+	 servletPath: /services/dcsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=PutRecord&recordXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CitemRecord+xmlns%3D%22http%3A%2F%2Fadn.dlese.org%22+xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22+xsi%3AschemaLocation%3D%22http%3A%2F%2Fadn.dlese.org+http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fadn-item%2F0.6.50%2Frecord.xsd%22%3E%0A%09%3Cgeneral%3E%0A%09%09%3Ctitle%3ELAST+TEST+for+now%3C%2Ftitle%3E%0A%09%09%3Cdescription%3Eduh+-+these+test+suggestions+from+webtest+are+directed+at+dcs.dlese.org%2Fschemedit%2C+but+are+landing+in+the+dcs+running+on+webtest%21+we+will+have+to+sort+this+stuff+out+once+we+are+up+and+running+on+the+live+servers+...%3C%2Fdescription%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Csubjects%3E%0A%09%09%09%3Csubject%3EDLESE%3ATo+be+supplied%3C%2Fsubject%3E%0A%09%09%3C%2Fsubjects%3E%0A%09%3C%2Fgeneral%3E%0A%09%3Clifecycle%2F%3E%0A%09%3CmetaMetadata%3E%0A%09%09%3CcatalogEntries%3E%0A%09%09%09%3Ccatalog+entry%3D%22DLESE-000-000-010-269%22%2F%3E%0A%09%09%3C%2FcatalogEntries%3E%0A%09%09%3CdateInfo+created%3D%222007-10-23%22%2F%3E%0A%09%09%3CstatusOf+status%3D%22Accessioned%22%2F%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Cscheme%3EADN+%28ADEPT%2FDLESE%2FNASA+Alexandria+Digital+Earth+Prototype%2FDigital+Library+for+Earth+System+Education%2FNational+Aeronautics+and+Space+Administration%29%3C%2Fscheme%3E%0A%09%09%3Ccopyright%3ECopyright+%28c%29+2005+UCAR+%28University+Corporation+for+Atmospheric+Research%29%3C%2Fcopyright%3E%0A%09%09%3CtermsOfUse+URI%3D%22http%3A%2F%2Fwww.dlese.org%2Fdocuments%2Fpolicy%2Fterms_use_full.html%22%3ETerms+of+use+consistent+with+DLESE+%28Digital+Library+for+Earth+System+Education%29+policy.%3C%2FtermsOfUse%3E%0A%09%09%3Ccontributors%3E%0A%09%09%09%3Ccontributor+date%3D%222007-10-23%22+role%3D%22Creator%22%3E%0A%09%09%09%09%3Cperson%3E%0A%09%09%09%09%09%3CnameFirst%3EJonathan%3C%2FnameFirst%3E%0A%09%09%09%09%09%3CnameLast%3EOstwald%3C%2FnameLast%3E%0A%09%09%09%09%09%3CemailPrimary%3Eostwald%40ucar.edu%3C%2FemailPrimary%3E%0A%09%09%09%09%09%3CinstName%3EUCAR%3C%2FinstName%3E%0A%09%09%09%09%3C%2Fperson%3E%0A%09%09%09%3C%2Fcontributor%3E%0A%09%09%3C%2Fcontributors%3E%0A%09%3C%2FmetaMetadata%3E%0A%09%3Ctechnical%3E%0A%09%09%3Conline%3E%0A%09%09%09%3CprimaryURL%3Ehttp%3A%2F%2Flast.test%3C%2FprimaryURL%3E%0A%09%09%09%3Crequirements%3E%0A%09%09%09%09%3Crequirement%3E%0A%09%09%09%09%09%3CreqType%3EDLESE%3ATo+be+supplied%3C%2FreqType%3E%0A%09%09%09%09%3C%2Frequirement%3E%0A%09%09%09%3C%2Frequirements%3E%0A%09%09%3C%2Fonline%3E%0A%09%3C%2Ftechnical%3E%0A%09%3Ceducational%3E%0A%09%09%3Caudiences%3E%3Caudience%3E%3CgradeRange%3EDLESE%3AGeneral+public%3C%2FgradeRange%3E%3C%2Faudience%3E%3C%2Faudiences%3E%0A%09%09%3CresourceTypes%3E%0A%09%09%09%3CresourceType%3EDLESE%3ATo+be+supplied%3C%2FresourceType%3E%0A%09%09%3C%2FresourceTypes%3E%0A%09%3C%2Feducational%3E%0A%09%3Crights%3E%0A%09%09%3Ccost%3EDLESE%3ATo+be+supplied%3C%2Fcost%3E%0A%09%09%3Cdescription%3EPut+resource+copyright+or+resource+terms+of+use+here.%3C%2Fdescription%3E%0A%09%3C%2Frights%3E%0A%3C%2FitemRecord%3E&xmlFormat=adn&collection=dcc&id=DLESE-000-000-010-269&dcsStatus=Imported&dcsStatusNote=The+resource+has+been+suggested+for+inclusion+in+the+library.
+	 servletPath: /services/dcsws1-0
+
+
+DCSServicesAction: doPutRecord()
+DCSServicesAction: params validated
+DCSServicesAction: status record for imported record
+DCSServicesAction: 
+<dcsDataRecord>
+  <recordID>DLESE-000-000-010-269</recordID>
+  <isValid/>
+  <statusEntries>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>The resource has been suggested for inclusion in the library.</statusNote>
+      <editor>Unknown</editor>
+      <changeDate>2007-10-23T10:49:39Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2007-10-23T10:49:39Z</lastTouchDate>
+  <ndrHandle/>
+  <validationReport>NOT VALID: Error: cvc-complex-type.2.4.b: The content of element 'lifecycle' is not complete. One of '{"http://adn.dlese.org":version, "http://adn.dlese.org":description, "http://adn.dlese.org":contributors}' is expected.</validationReport>
+</dcsDataRecord>
+
+Oct 23, 2007 10:49:39 AM MDT Saving record id: DLESE-000-000-010-269
+DCSServicesAction: putRecord has succeeded and is returning
+
+Oct 23, 2007 10:49:56 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: s=0&q=&scs=0dcc
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 35 millis
+----------------------------------
+
+DCSQueryAction: Search results: 9640
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 5409 millis
+----------------------------------
+
+
+Oct 23, 2007 10:56:52 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+
+Oct 23, 2007 10:56:53 AM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=ListGradeRanges
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=ListSubjects
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=ListResourceTypes
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=ListCollections
+	 servletPath: /services/ddsws1-0
+
+
+Oct 23, 2007 11:28:46 AM MDT removing coll cache key: ListCollectionsResponse10
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=ListContentStandards
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: s=0&n=5&xmlFormat=adn-localized&client=DLISR&dcsStatus=Done&dcsStatus=To+DLESE&verb=UserSearch&q=(+((collection%3a0dlisr+OR+collection%3a0dlisrother))+)+AND+(+(+(+%0a%09%09%09%09(traditional+knowledge)+OR+TEK+OR+elders+OR+reciprocity%0a%09%09%09+)++)+)
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: s=5&n=5&xmlFormat=adn-localized&client=DLISR&dcsStatus=Done&dcsStatus=To+DLESE&verb=UserSearch&q=(+((collection%3a0dlisr+OR+collection%3a0dlisrother))+)+AND+(+(+(+%0a%09%09%09%09(traditional+knowledge)+OR+TEK+OR+elders+OR+reciprocity%0a%09%09%09+)++)+)
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: s=10&n=5&xmlFormat=adn-localized&client=DLISR&dcsStatus=Done&dcsStatus=To+DLESE&verb=UserSearch&q=(+((collection%3a0dlisr+OR+collection%3a0dlisrother))+)+AND+(+(+(+%0a%09%09%09%09(traditional+knowledge)+OR+TEK+OR+elders+OR+reciprocity%0a%09%09%09+)++)+)
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: s=5&n=5&xmlFormat=adn-localized&client=DLISR&dcsStatus=Done&dcsStatus=To+DLESE&verb=UserSearch&q=(+((collection%3a0dlisr+OR+collection%3a0dlisrother))+)+AND+(+(+(+%0a%09%09%09%09(traditional+knowledge)+OR+TEK+OR+elders+OR+reciprocity%0a%09%09%09+)++)+)
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: s=0&n=5&xmlFormat=adn-localized&client=DLISR&dcsStatus=Done&dcsStatus=To+DLESE&verb=UserSearch&q=(+((collection%3a0dlisr+OR+collection%3a0dlisrother))+)+AND+(+(+(+%0a%09%09%09%09(climate+change)+OR+(global+warming)+OR+(desertification)+%0a%09%09%09+)++)+)
+	 servletPath: /services/ddsws1-0
+
+
+SessionRegistry: unregistering Session Bean for 6B2167114C2BD7C1FFF4DE5EC34F2A04
+SessionRegistry: unregistering Session Bean for 406988FF2B277A41919E76E73470645D
+SessionRegistry: unregistering Session Bean for 7BA9AE86F36D074293C469140A51C876
+SessionRegistry: unregistering Session Bean for 19C53CCF4C26BE70FAD0FD3A863F7670
+SessionRegistry: unregistering Session Bean for 4B08CC97B47F10FD3E3389D769273EF5
+SessionRegistry: unregistering Session Bean for C88677AF0D4867B10D0DB29A34707B33
+SessionRegistry: unregistering Session Bean for C45F79C54D4CB6787339F683628E87A9
+SessionRegistry: unregistering Session Bean for A435A97EF2B0E711E286D553B6B18826
+SessionRegistry: unregistering Session Bean for 39BFFF9C20D6D026408334BDCE2550BA
+SessionRegistry: unregistering Session Bean for 213813C6F20584C1A1CA23B9AFC5B70F
+SessionRegistry: unregistering Session Bean for 336A29DEBC170744D872D70171CEDEF8
+SessionRegistry: unregistering Session Bean for C2CBF1253DC875C6CDA05275BA9372D1
+SessionRegistry: unregistering Session Bean for 76245151602E6F505D1432BD1688039F
+SessionRegistry: unregistering Session Bean for 72326A388123B6FEBDBD3D304A54E396
+SessionRegistry: unregistering Session Bean for C8A73CD347A4370C5A292BBD82928DCA
+SessionRegistry: unregistering Session Bean for F3C1F5EC1AE4138DFCC9F083AA34E7A9
+SessionRegistry: unregistering Session Bean for 4967D452385D673B055740ECD1020263
+SessionRegistry: unregistering Session Bean for D0B27406758E4F8E83A39BB35FB582B1
+SessionRegistry: unregistering Session Bean for 40B0FE777E7EC7F4AA9B9BCA588A62AD
+SessionRegistry: unregistering Session Bean for 20A7936DC46E4301C127F0CA08C7FC8B
+SessionRegistry: unregistering Session Bean for E13700F5045DF06AD6E18BA4FE52962D
+SessionRegistry: unregistering Session Bean for 97BB94250BBA6EC13DA1733A5CA37B22
+SessionRegistry: unregistering Session Bean for 503D853F851F53B4BE80797431E2EAD8
+SessionRegistry: unregistering Session Bean for 18B48CFD997F044D27DDB06C5A724EA1
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47hellox46world*+OR+urlMirrorsEncoded:httpx58x47x47hellox46world*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=GetId&collection=dcc
+	 servletPath: /services/dcsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/dcsws1-0
+	 queryString: verb=PutRecord&recordXml=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22UTF-8%22%3F%3E%0A%3CitemRecord+xmlns%3D%22http%3A%2F%2Fadn.dlese.org%22+xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22+xsi%3AschemaLocation%3D%22http%3A%2F%2Fadn.dlese.org+http%3A%2F%2Fwww.dlese.org%2FMetadata%2Fadn-item%2F0.6.50%2Frecord.xsd%22%3E%0A%09%3Cgeneral%3E%0A%09%09%3Ctitle%3Easdf%3C%2Ftitle%3E%0A%09%09%3Cdescription%3Easdf%3C%2Fdescription%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Csubjects%3E%0A%09%09%09%3Csubject%3EDLESE%3ATo+be+supplied%3C%2Fsubject%3E%0A%09%09%3C%2Fsubjects%3E%0A%09%3C%2Fgeneral%3E%0A%09%3Clifecycle%2F%3E%0A%09%3CmetaMetadata%3E%0A%09%09%3CcatalogEntries%3E%0A%09%09%09%3Ccatalog+entry%3D%22DLESE-000-000-010-270%22%2F%3E%0A%09%09%3C%2FcatalogEntries%3E%0A%09%09%3CdateInfo+created%3D%222007-10-23%22%2F%3E%0A%09%09%3CstatusOf+status%3D%22Accessioned%22%2F%3E%0A%09%09%3Clanguage%3Een%3C%2Flanguage%3E%0A%09%09%3Cscheme%3EADN+%28ADEPT%2FDLESE%2FNASA+Alexandria+Digital+Earth+Prototype%2FDigital+Library+for+Earth+System+Education%2FNational+Aeronautics+and+Space+Administration%29%3C%2Fscheme%3E%0A%09%09%3Ccopyright%3ECopyright+%28c%29+2005+UCAR+%28University+Corporation+for+Atmospheric+Research%29%3C%2Fcopyright%3E%0A%09%09%3CtermsOfUse+URI%3D%22http%3A%2F%2Fwww.dlese.org%2Fdocuments%2Fpolicy%2Fterms_use_full.html%22%3ETerms+of+use+consistent+with+DLESE+%28Digital+Library+for+Earth+System+Education%29+policy.%3C%2FtermsOfUse%3E%0A%09%09%3Ccontributors%3E%0A%09%09%09%3Ccontributor+date%3D%222007-10-23%22+role%3D%22Creator%22%3E%0A%09%09%09%09%3Cperson%3E%0A%09%09%09%09%09%3CnameFirst%3Easdf%3C%2FnameFirst%3E%0A%09%09%09%09%09%3CnameLast%3Easdfsadf%3C%2FnameLast%3E%0A%09%09%09%09%09%3CemailPrimary%3Easdf%40asdf%3C%2FemailPrimary%3E%0A%09%09%09%09%09%3CinstName%3Easdf%3C%2FinstName%3E%0A%09%09%09%09%3C%2Fperson%3E%0A%09%09%09%3C%2Fcontributor%3E%0A%09%09%3C%2Fcontributors%3E%0A%09%3C%2FmetaMetadata%3E%0A%09%3Ctechnical%3E%0A%09%09%3Conline%3E%0A%09%09%09%3CprimaryURL%3Ehttp%3A%2F%2Fhello.world%3C%2FprimaryURL%3E%0A%09%09%09%3Crequirements%3E%0A%09%09%09%09%3Crequirement%3E%0A%09%09%09%09%09%3CreqType%3EDLESE%3ATo+be+supplied%3C%2FreqType%3E%0A%09%09%09%09%3C%2Frequirement%3E%0A%09%09%09%3C%2Frequirements%3E%0A%09%09%3C%2Fonline%3E%0A%09%3C%2Ftechnical%3E%0A%09%3Ceducational%3E%0A%09%09%3Caudiences%3E%3Caudience%3E%3CgradeRange%3EDLESE%3APrimary+elementary%3C%2FgradeRange%3E%3C%2Faudience%3E%3C%2Faudiences%3E%0A%09%09%3CresourceTypes%3E%0A%09%09%09%3CresourceType%3EDLESE%3ATo+be+supplied%3C%2FresourceType%3E%0A%09%09%3C%2FresourceTypes%3E%0A%09%3C%2Feducational%3E%0A%09%3Crights%3E%0A%09%09%3Ccost%3EDLESE%3ATo+be+supplied%3C%2Fcost%3E%0A%09%09%3Cdescription%3EPut+resource+copyright+or+resource+terms+of+use+here.%3C%2Fdescription%3E%0A%09%3C%2Frights%3E%0A%3C%2FitemRecord%3E&xmlFormat=adn&collection=dcc&id=DLESE-000-000-010-270&dcsStatus=Imported&dcsStatusNote=The+resource+has+been+suggested+for+inclusion+in+the+library.
+	 servletPath: /services/dcsws1-0
+
+
+DCSServicesAction: doPutRecord()
+DCSServicesAction: params validated
+DCSServicesAction: status record for imported record
+DCSServicesAction: 
+<dcsDataRecord>
+  <recordID>DLESE-000-000-010-270</recordID>
+  <isValid/>
+  <statusEntries>
+    <statusEntry>
+      <status>Imported</status>
+      <statusNote>The resource has been suggested for inclusion in the library.</statusNote>
+      <editor>Unknown</editor>
+      <changeDate>2007-10-23T15:44:06Z</changeDate>
+    </statusEntry>
+  </statusEntries>
+  <lastTouchDate>2007-10-23T15:44:06Z</lastTouchDate>
+  <ndrHandle/>
+  <validationReport>NOT VALID: Error: cvc-complex-type.2.4.b: The content of element 'lifecycle' is not complete. One of '{"http://adn.dlese.org":version, "http://adn.dlese.org":description, "http://adn.dlese.org":contributors}' is expected.</validationReport>
+</dcsDataRecord>
+
+Oct 23, 2007 3:44:06 PM MDT Saving record id: DLESE-000-000-010-270
+DCSServicesAction: putRecord has succeeded and is returning
+
+Oct 23, 2007 3:46:39 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: 192C74502BC9611732EC7DEECBC5F5AF
+SessionRegistry: registered sessionBean: 192C74502BC9611732EC7DEECBC5F5AF
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 23, 2007 3:46:41 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 23, 2007 3:46:41 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 23, 2007 3:46:41 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 23, 2007 3:46:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 23, 2007 3:46:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 23, 2007 3:46:42 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 23, 2007 3:46:58 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: s=0&q=&scs=0dcc
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 40 millis
+----------------------------------
+
+DCSQueryAction: Search results: 9641
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 5396 millis
+----------------------------------
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47hellox46world*+OR+urlMirrorsEncoded:httpx58x47x47hellox46world*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47hellox46world*+OR+urlMirrorsEncoded:httpx58x47x47hellox46world*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit//services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47hellox46world*+OR+urlMirrorsEncoded:httpx58x47x47hellox46world*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+
+WebServicesFilter: ---------------------
+doFilter()
+
+WebServicesFilter:  Request Info:
+	 requestURI: /schemedit/services/ddsws1-0
+	 queryString: verb=Search&q=(urlenc:httpx58x47x47hellox46world*+OR+urlMirrorsEncoded:httpx58x47x47hellox46world*)+AND+collection:0dcc&s=0&n=500
+	 servletPath: /services/ddsws1-0
+
+
+SessionRegistry: unregistering Session Bean for 0A8ADFF511381D3F356B294C9E9FEE76
+SessionRegistry: unregistering Session Bean for 94D7C8EB6A0754940BC2BFD01365C7A2
+SessionRegistry: unregistering Session Bean for C9E7F9C7BEEA17EE60DB6331CF2262A7
+SessionRegistry: unregistering Session Bean for 4F23CB2782F04C1CE0B9D31C1C4D8F86
+SessionRegistry: unregistering Session Bean for 9D975C1981175A7D13E5BEE5C15A9046
+SessionRegistry: unregistering Session Bean for 192C74502BC9611732EC7DEECBC5F5AF
+SessionRegistry: unregistering Session Bean for 3D7FF92110879793FA1C1DACE184FF64
+
+Oct 25, 2007 8:03:15 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+
+Oct 25, 2007 8:03:16 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: A137FF265ABAD0DEE5CEBA54A4A3793B
+SessionRegistry: registered sessionBean: A137FF265ABAD0DEE5CEBA54A4A3793B
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 25, 2007 8:03:18 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 25, 2007 8:03:18 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 25, 2007 8:03:18 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 25, 2007 8:03:18 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 25, 2007 8:03:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 25, 2007 8:03:19 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 25, 2007 8:04:12 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/query.do
+AuthorizationFilter: Filter Info:
+	queryString: s=0&q=&scs=0dcc
+	servletPath: /browse/query.do
+	requestURI: /schemedit/browse/query.do
+
+Filtered Request Parameters
+	s: 0
+	scs: 0dcc
+
+SearchHelper: SEARCH
+SearchHelper: 	 doing NEW search
+
+----------------------------------
+  search took 34 millis
+----------------------------------
+
+DCSQueryAction: Search results: 9641
+
+SearchHelper: SORT (sortWidget = label: Record ID, fieldName: idvalue)
+SearchHelper: 	 performing NEW sort
+
+----------------------------------
+using DcsFieldComparator to sort RESULT_DOCs on Record ID
+   ... sort took 4889 millis
+----------------------------------
+
+
+Oct 25, 2007 8:04:20 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/btnExpand.gif
+
+Oct 25, 2007 8:04:20 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/descending.gif
+
+Oct 25, 2007 8:04:20 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/arrow_right.gif
+
+Oct 25, 2007 8:04:44 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/collections.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/collections.do
+	requestURI: /schemedit/manage/collections.do
+
+Filtered Request Parameters
+
+Oct 25, 2007 8:04:47 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/manage-styles.css
+
+Oct 25, 2007 8:04:57 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 25, 2007 8:05:03 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/record_op/adn.do
+AuthorizationFilter: Filter Info:
+	queryString: collection=adl&command=new
+	servletPath: /record_op/adn.do
+	requestURI: /schemedit/record_op/adn.do
+
+Filtered Request Parameters
+	command: new
+	collection: adl
+
+Oct 25, 2007 8:08:22 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+
+Oct 25, 2007 8:08:22 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 25, 2007 8:08:37 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /index.jsp
+	requestURI: /schemedit/
+
+Oct 25, 2007 8:08:37 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+SessionRegistry: unregistering Session Bean for A137FF265ABAD0DEE5CEBA54A4A3793B
+
+Oct 28, 2007 4:56:02 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/browse/home.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /browse/home.do
+	requestURI: /schemedit/browse/home.do
+
+SessionRegistry: sessionBean is null && session is active for id: 162F2F95535FB795C5723C377D2A4179
+SessionRegistry: registered sessionBean: 162F2F95535FB795C5723C377D2A4179
+Filtered Request Parameters
+DCSBrowseAction: getUserRolesMap()
+DCSBrowseAction: 	user is null
+
+Oct 28, 2007 4:56:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/admin/dlese_admin_styles.css
+
+Oct 28, 2007 4:56:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/styles.css
+
+Oct 28, 2007 4:56:04 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/javascript/prototype.js
+
+Oct 28, 2007 4:56:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/pageMenu.js
+
+Oct 28, 2007 4:56:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/lib/dcs-table.js
+
+Oct 28, 2007 4:56:05 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/images/DLESE_logo_sm.gif
+
+Oct 28, 2007 4:56:13 PM MDT AuthorizationFilter: http://128.117.224.96:10110/schemedit/manage/sessions.do
+AuthorizationFilter: Filter Info:
+	queryString: null
+	servletPath: /manage/sessions.do
+	requestURI: /schemedit/manage/sessions.do
+
+Filtered Request Parameters
+SessionRegistry:   ... 1 live beans, 0 dead ones
+Oct 28, 2007 4:56:48 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 28, 2007 4:56:48 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 28, 2007 4:56:49 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+destroy() ...
+DcsDataManager: destroy()
+DcsDataManager:   ... clearing 18817 DcsDataRecords from cache
+Oct 28, 2007 4:56:50 PM MDT SchemEditServlet stopped
+Oct 28, 2007 4:56:50 PM MDT NDRServlet: destroy() ...
+Oct 28, 2007 4:56:50 PM MDT NDRServlet stopped
+Oct 28, 2007 4:56:50 PM MDT SetupServlet: destroy() ...
+Oct 28, 2007 4:56:50 PM MDT SetupServlet stopped
+Oct 28, 2007 4:56:50 PM MDT CasaaServlet: destroy() ...
+Oct 28, 2007 4:56:50 PM MDT CasaaServlet stopped
+Done shutting down new vocabs checker.
+Oct 28, 2007 4:56:50 PM MDT MetadataVocabServlet stopped.
+Oct 28, 2007 4:56:50 PM MDT RepositoryManager destroy()
+Oct 28, 2007 4:56:50 PM MDT OAIProviderServlet stopped
+Oct 28, 2007 4:56:50 PM MDT RepositoryManager destroy()
+
+
+Oct 28, 2007 4:56:50 PM MDT DDSServlet stopped.
+
+
+Oct 28, 2007 4:56:50 PM MDT SchemaViewerServlet stopped
+SessionRegistry: contextDestroyed()
+SessionRegistry: unregistering Session Bean for 162F2F95535FB795C5723C377D2A4179
+SessionBean: destroying sessionBean for 162F2F95535FB795C5723C377D2A4179
+SessionRegistry: destroy
+[WARN] schemedit] - Cannot serialize session attribute sessionBean for session 162F2F95535FB795C5723C377D2A4179 <java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper>java.io.NotSerializableException: org.dlese.dpc.schemedit.SearchHelper
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+[WARN] schemedit] - Cannot serialize session attribute browseForm for session 162F2F95535FB795C5723C377D2A4179 <java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog>java.io.NotSerializableException: org.dlese.dpc.schemedit.config.ErrorLog
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1081)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1375)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1347)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1290)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1079)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:302)
+	at org.apache.catalina.session.StandardSession.writeObject(StandardSession.java:1478)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:948)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:517)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:463)
+	at org.apache.catalina.session.StandardManager.stop(StandardManager.java:667)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4363)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:893)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:1180)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:1151)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:313)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1055)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1067)
+	at org.apache.catalina.core.StandardEngine.stop(StandardEngine.java:448)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:510)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.catalina.startup.Bootstrap.stop(Bootstrap.java:307)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.commons.daemon.support.DaemonLoader.stop(DaemonLoader.java:200)
+
+Oct 28, 2007 4:56:50 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10110
+Oct 28, 2007 4:56:50 PM org.apache.coyote.http11.Http11BaseProtocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-128.117.224.96-10113
+Oct 28, 2007 4:56:50 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Failed shutdown of Apache Portable Runtime

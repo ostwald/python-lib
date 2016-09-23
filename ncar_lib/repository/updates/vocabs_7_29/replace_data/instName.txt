@@ -1,0 +1,89 @@
+Bad Term	Good Term
+"Aeronautical Research Associates of Princeton, Inc."	Aeronautical Research Associates of Princeton
+Amer Assoc Artificial Intell	American Association for Artificial Intelligence
+American Assoc. of Petroleum Geologists	American Association of Petroleum Geologists
+The American Astronomical Society	American Astronomical Society
+American chemical society	American Chemical Society
+The American Physical Society	American Physical Society
+American Society of Testing and Materials	American Society for Testing and Materials
+The American Society of Tropical Medicine and Hygiene	American Society of Tropical Medicine and Hygiene
+Asgard Verlag	Asgard-Verlag
+Birkhauser	Birkhäuser Verlag
+Blackwell Publishing	Blackwell Publishing Ltd.
+Bureau of Meteorology Research Centre	"Bureau of Meteorology Research Centre (Melbourne, Australia)"
+Butterworth Publishers	Butterworths
+Centre for Ecology & Hydrology (Great Britain)	Centre for Ecology and Hydrology (Great Britain)
+Chapman and Hall / CRC	Chapman & Hall/CRC Press
+Clivar Project Office	Climate Variability and Predictability Programme
+Consiglio Nazionale Delle Ricerche (CNR)	Consiglio nazionale delle ricerche (Italy)
+Cooperative Research Centre for Southern Hemisphere Meteorology	Cooperative Research Centre for Southern Hemisphere Meteorology (Australia)
+"D. Van Nostrand Company, Inc."	D. Van Nostrand Company
+Danish Meteorlogical Institute	Danmarks meteorologiske institut
+Educause	EDUCAUSE
+Earth System Research Laboratory (ESRL)	Earth System Research Laboratory
+European Centre for Medium Range Weather Forecasts (ECMWF)	European Centre for Medium Range Weather Forecasts
+"Florida State University, Tallahassee"	Florida State University
+NASA-Marshall Space Flight Center	George C. Marshall Space Flight Center
+World Meteorological Organization Global Ozone Research and Monitoring Project	Global Ozone Research and Monitoring Project
+NASA Goddard Space Flight Center (GSFC)	Goddard Space Flight Center
+Gordon and Breach Publishing	Gordon and Breach Science Publishers
+Met Office	Great Britain Meteorological Office
+University of Gothenburg (Sweden)	Göteborgs universitet
+University of Helsinki	Helsingin yliopisto
+Imperial College London	"Imperial College, London"
+Institut Pierre-Simone Laplace	Institut Pierre-Simon Laplace
+Institute of Physics and IOP Publishing	Institute of Physics Publishing
+Will Print	International Conference on Numerical Methods for Fluid Dynamics
+NASA Jet Propulsion Laboratory	Jet Propulsion Laboratory
+John Wiley and Sons	John Wiley & Sons
+"Kluwer, Dordrecht"	Kluwer Academic Publishers
+Royal Netherlands Meteorological Institute	Koninklijk Nederlands Meteorologisch Instituut
+University of Kuopio	Kuopion yliopisto
+NASA Langley Research Center	Langley Research Center
+Lawrence Berkeley Laboratory	Lawrence Berkeley National Laboratory
+MIT Press	M.I.T. Press
+Max-Planck-Institute für Meteorologie	Max-Planck-Institut für Meteorologie
+McGraw-Hill	McGraw-Hill Companies
+National Center for Atmospheric Research (NCAR)	National Center for Atmospheric Research
+National Centers for Environmental Prediction (NCEP)	National Centers for Environmental Prediction
+National Oceanic and Atmospheric Administration (NOAA)	National Oceanic and Atmospheric Administration
+National Research Council	National Research Council (U.S.)
+"New Age International, Ltd."	New Age International (P) Ltd.
+Norwegian Institute for Air Research	Norsk institutt for luftforskning
+Northwest Research Associates	"NorthWest Research Associates, Inc."
+Pacific Northwest National Laboratory (PNNL)	Pacific Northwest National Laboratory
+Rough Guides	"Rough Guides, Ltd."
+Society for Sedimentary Geology	SEPM (Society for Sedimentary Geology)
+Society of Photo-Optical Instrumentation Engineers	SPIE
+SAGE Publications	"Sage Publications, Inc."
+Memorie S.A.It.	Società astronomica italiana
+University of Stockholm	Stockholms universitet
+Terrapub	TERRAPUB (Terra Scientific Publishing Company)
+Texas A&M University	Texas A & M University
+The Climate Change Science Program and the Subcommittee on Global Change Research	U.S. Climate Change Science Program
+Department of Energy	U.S. Department of Energy
+US Environmental Protection Agency	U.S. Environmental Protection Agency
+United States Geological Survey	U.S. Geological Survey
+US JGOFS Planning Office	U.S. Joint Global Ocean Flux Study
+US Naval Postgraduate School	U.S. Naval Postgraduate School
+Naval Research Laboratory	U.S. Naval Research Laboratory
+Office of Naval Research	U.S. Office of Naval Research
+U.S. Weather Research Program (USWRP)	U.S. Weather Research Program
+University of Bergen (Norway)	Universitetet i Bergen
+University Corporation for Atmospheric Research (UCAR)	University Corporation for Atmospheric Research
+University of California at Berkeley	"University of California, Berkeley"
+UCLA Institute of the Environment	"University of California, Los Angeles. Institute of the Environment"
+The University of Chicago Press	University of Chicago Press
+"University of Chicago, Cloud Physics Laboratory"	University of Chicago. Cloud Physics Laboratory
+University of Colorado at Boulder	"University of Colorado, Boulder"
+University of Hawaii	University of Hawaii at Manoa
+University of Maryland	"University of Maryland, College Park"
+University of Missouri	University of Missouri--Kansas City
+University of Wisconsin-Madison	University of Wisconsin--Madison
+University of Warsaw	Uniwersytet Warszawski
+Uppsala Universitet (Sweden)	Uppsala universitet
+W. H. Freeman	W.H. Freeman and Company
+"Washington State University, Pullman"	Washington State University
+Canada Institute	Woodrow Wilson International Center for Scholars
+The World Bank	World Bank
+World Climate Research Project	World Climate Research Programme

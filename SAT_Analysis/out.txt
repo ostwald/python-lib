@@ -1,0 +1,53 @@
+standardsWithAnyHits
+	threshold: 1
+	group: Inquiry
+	rank: None
+standardsWithAnyHits
+	threshold: 2
+	group: Inquiry
+	rank: None
+standardsWithAnyHits
+	threshold: 3
+	group: Inquiry
+	rank: None
+standardsWithAnyHits
+	threshold: 1
+	group: Subject
+	rank: None
+standardsWithAnyHits
+	threshold: 2
+	group: Subject
+	rank: None
+standardsWithAnyHits
+	threshold: 3
+	group: Subject
+	rank: None
+standardsWithAnyHits
+	threshold: 1
+	group: Applied
+	rank: None
+standardsWithAnyHits
+	threshold: 2
+	group: Applied
+	rank: None
+standardsWithAnyHits
+	threshold: 3
+	group: Applied
+	rank: None
+standardsWithAnyHits
+	threshold: 1
+	group: 
+	rank: None
+standardsWithAnyHits
+	threshold: 2
+	group: 
+	rank: None
+standardsWithAnyHits
+	threshold: 3
+	group: 
+	rank: None
+group	1	2	3
+Applied	12	13	16
+	41	43	46
+Inquiry	5	6	6
+Subject	24	24	24

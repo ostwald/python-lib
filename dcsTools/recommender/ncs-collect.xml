@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.nsdl.org/ncs" xsi:schemaLocation="http://ns.nsdl.org/ncs http://ns.nsdl.org/ncs/ncs_collect/1.02/schemas/ncs-collect.xsd">
+  <general>
+    <recordID>NSC-COLLECT-000-000-000-004</recordID>
+    <url>sell</url>
+    <title>The Mud collection</title>
+    <description>Let's muddy the waters a bit</description>
+  </general>
+  <collection>
+    <dateTime>2007-01-01T00:00:00</dateTime>
+    <brandURL>http://mud.brand</brandURL>
+    <imageWidth>150</imageWidth>
+    <imageHeight>50</imageHeight>
+    <altText>Mud are us</altText>
+    <ingest>
+      <direct restricted="true"></direct>
+    </ingest>
+    <agents/>
+  </collection>
+</record>

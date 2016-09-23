@@ -1,0 +1,38 @@
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.5"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+
+   <name type="personal" valueURI="12837" authorityURI="https://people.ucar.edu" authority="UCAR People Database">
+      <namePart type="given">No&#233;mi</namePart>
+      <namePart type="family">Sarkadi</namePart>
+      <displayForm>No&#233;mi Sarkadi</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+   </name>
+   <name type="personal">
+      <namePart type="given">Istv&#225;n</namePart>
+      <namePart type="family">Geresdi</namePart>
+      <displayForm>Istv&#225;n Geresdi</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+   </name>
+   <name usage="fooberry" type="personal" valueURI="12215" authorityURI="https://people.ucar.edu" authority="UCAR People Database">
+      <namePart type="given">Gregory</namePart>
+      <namePart type="family">Thompson</namePart>
+      <displayForm>Gregory Thompson</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Research Applications Laboratory (RAL):Hydrometeorological Applications Program (HAP)</affiliation>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="marcgt">article</genre>
+
+</mods>

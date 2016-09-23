@@ -1,0 +1,81 @@
+body {
+	font-family:arial, sans;
+	font-size:85%;
+}
+
+.repository {
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.format {
+	font-size:1.0em;
+	font-weight:bold;
+	color:blue;
+	padding-top:15px;
+	/* margin-left:25px; */
+}
+
+.collection {
+	font-size:1.2em;
+	font-weight:bold;
+	padding-top:10px;
+	/* margin-left:25px; */
+}
+
+.record {
+	font-size:1.0em;
+	font-weight:bold;
+	padding-top:5px;
+	/* margin-left:25px; */
+}
+
+.current-status, .corrupt-status {
+	font-wieght:bold;
+}
+
+.corrupt-status {
+	color:red;
+}
+
+.status-entry {
+	font-size:.8em;
+	margin-bottom:2px;
+}
+
+.status {
+	font-weight:bold;
+}
+
+.statusNote {
+	margin-left: 10px;
+	
+}
+
+.indent {
+	margin-left:15px;
+}
+
+
+.togglerClosed {
+	background-image: url(images/arrow_right_gray.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	white-space:nowrap;
+	padding-left: 12px;
+	outline: 0;
+}
+.togglerOpen {
+	background-image: url(images/arrow_down_gray.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	white-space:nowrap;
+	padding-left: 12px;
+	outline: 0;
+}
+
+#about-toggler-con {
+	border:blue solid .5px;
+	margin:5px 20px 20px 20px;
+	padding:10px;
+}
