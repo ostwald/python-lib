@@ -3,13 +3,21 @@ self-transform path on Clone: sites/all/modules/islandora_xml_forms/builder/self
 """
 from opensky.xsl import transform, ET
 
-xml = 'foo.xml'
-xsl = 'cleanup_mods.xsl'
-# # xsl = 'islandora_cleanup_mods_extended.xsl'
-#
-# # xml = 'no-ns.xml'
-# # xsl = 'no-ns.xsl'
+if __name__ == '__main__':
+	xml = '/Users/ostwald/Downloads/articles18555_cloneDOI+testmasterIIINoSelfTrans.xml'
+	# xsl = 'cleanup_mods.xsl'
+	xsl = '/Users/ostwald/devel/github/libroot/utils/osm/xslt/opensky/ncarcleanup_mods.xsl'
+	# # xsl = 'islandora_cleanup_mods_extended.xsl'
+	#
+	# # xml = 'no-ns.xml'
+	# # xsl = 'no-ns.xsl'
 
-transformed = transform(xml, xsl)
+	print '*'*80
+	print "self transform"
+	print ' - XML:',xml
+	print ' - TRANSFORM:',xsl
+	print '\n'
 
-print(ET.tostring(transformed, pretty_print=True))
+	transformed = transform(xml, xsl)
+
+	print(ET.tostring(transformed, pretty_print=True))

@@ -7,7 +7,7 @@ from Reporter import ReportSearcher, Reporter, ReportResultMixin
 
 class OsmReportResult (OsmSearchResult, ReportResultMixin):
 	"""
-	Exposeds OsmSearchResult attributes as well as those defined here
+	Exposes OsmSearchResult attributes as well as those defined here
 	"""
 	# default_payload_constructor = XmlRecord 
 	verbose=0

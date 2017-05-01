@@ -30,8 +30,8 @@ class RepositorySearcher (UserList):
 	def __init__ (self, collection=None, xmlFormat=None, baseUrl=None):
 		UserList.__init__ (self)
 		baseUrl = baseUrl or self.default_baseUrl
-		if self.verbose:
-			print 'baseUrl:', baseUrl
+		# if self.verbose:
+		# 	print 'baseUrl:', baseUrl
 		self.timing = {}
 		self.params = self.get_params(collection, xmlFormat)
 		self.service_client = ServiceClient (baseUrl)
@@ -65,7 +65,7 @@ class RepositorySearcher (UserList):
 			"ky": collection,
 			"storedContent":['dcsstatus', 'dcsstatusNote', 'dcsisValid']
 			}
-		
+
 	def filterResults(self):
 		"""
 		self.filter_predicate is applied to each results, and the data for this searcher
@@ -101,7 +101,7 @@ class RepositorySearcher (UserList):
 		results = []
 		# print "getting %d of %d records" % (numToGet, self.numRecords)
 		while s < numToGet:
-			thisBatch = min (self.batchSize, numToGet - len(results))
+			thisBatch = min (self.batchSize, numToGet - len(self.data))
 			results = self.get_result_batch (s, thisBatch)
 			if self.delay:
 				if self.verbose:
@@ -133,8 +133,8 @@ class RepositorySearcher (UserList):
 		client = self.service_client
 		self.params.update ({"s":str(start), "n":str(num)})
 		request = client.setRequest (self.params)
-		if self.verbose:
-			print request.getUrl()
+		# if self.verbose:
+		# 	print request.getUrl()
 		response = client.getResponse()
 		# print response.doc
 		

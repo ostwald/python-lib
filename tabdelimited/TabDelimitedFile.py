@@ -132,7 +132,7 @@ class TabDelimitedFile (UserList):
 		entries by instantiating the TabDelimitedFileEntry class specified by the 'address_class'
 		attribute.
 		"""
-		print 'READING', path
+		# print 'READING', path
 		# sys.exit()
 		self.data = []
 		# print "*** path: %s***" % path
@@ -142,7 +142,9 @@ class TabDelimitedFile (UserList):
 		s = codecs.open(path,'r', self.encoding).read()
 		## s = unicode(f.read(),'utf-8')
 		s = self.preprocess (s)
+
 		lines = split (s, self.linesep)
+		# print '%d lines' % len(lines)
 		firstLine = self.splitline(lines[0])
 		# print 'lines[0]: ', lines[0]
 		self.schema = self.makeSchema(firstLine)
@@ -155,6 +157,7 @@ class TabDelimitedFile (UserList):
 				# print 'skipping line (%d)' % i
 				continue
 			fields = self.splitline(lines[i])
+			# print '%s' % self.entry_class.__name__
 			item = self.entry_class (fields, self)
 			if self.accept (item):
 				self.add (item)

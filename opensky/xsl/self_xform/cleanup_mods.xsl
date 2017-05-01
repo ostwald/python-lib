@@ -14,7 +14,8 @@
     </xsl:template>
 
 
-    <!-- put osm namespace declaration on the root element (thus removing it from descendents) -->
+    <!-- put osm namespace declaration on the root element
+         (thus removing local osm declaration from descendent elements) -->
     <xsl:template match="/mods:mods">
         <mods xmlns="http://www.loc.gov/mods/v3"
               xmlns:osm="http://nldr.library.ucar.edu/metadata/osm"
@@ -33,7 +34,7 @@
         </name>
     </xsl:template>
 
-    <!-- make sure no other name has usage attribute -->
+    <!-- make sure no other name has useage attribute -->
     <xsl:template match="/mods:mods/mods:name[position()>1]">
         <name>
             <xsl:copy-of select="@*[name()!='usage']"/>

@@ -16,6 +16,7 @@ class QueryUtil:
 		self.url = url
 		self.parse = urlparse(url)
 		self.params = parse_qs(self.parse.query)
+		self.path = self.parse[2]
 	
 	def report (self, params=None):
 		if params is None:
@@ -25,6 +26,14 @@ class QueryUtil:
 			print '\n- %s' % key
 			for item in self.params[key]:
 				print ' - %s' % item
+
+	def getParameter (self, param):
+		val = self.params[param]
+		if val is None or len(val) == 0:
+			return None
+		if len(val) == 1:
+			return val[0]
+		return val
 				
 	def makeQueryStr (self, params=None, filterFn=None):
 		queryList = []

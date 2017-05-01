@@ -37,7 +37,7 @@ class NCSCollectRecord (MetaDataRecord):
 		'libraryFormat' : 'record:collection:ingest:oai:@libraryFormat',
 		'metadataPrefix' : 'record:collection:ingest:oai:@metadataPrefix',
 		'collSetSpec' : 'record:collection:setSpec',
-		'oaiSetSpec' : 'record:collection:ingest:oai:set:@setSpec'
+		'oaiSetSpec' : 'record:collection:ingest:oai:set:@setSpec',
 	}
 
 	key_path = "collectionRecord:access:key"
