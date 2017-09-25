@@ -72,6 +72,9 @@ class GenericDB:
 		cursor = self.getCursor()
 		cursor.execute(query)
 
+	def doUpdate (self, query):
+		cursor = self.getCursor()
+		cursor.execute(query)
 		
 if __name__ == "__main__":
 	# print WebTestDB().doCount(None)
