@@ -3,6 +3,7 @@
 from mysql import GenericDB, TableRow
 import MySQLdb
 from UserDict import UserDict
+import codecs
 
 class ArchivesSpaceDB (GenericDB):
 	
@@ -19,11 +20,19 @@ class ArchivesSpaceDB (GenericDB):
 		return MySQLdb.connect(host=self.host, user=self.user, passwd=self.password, db=self.db)
 		
 normalize_mappings = [
-	['\xe2\x80\x9a\xc3\x84\xc3\xba','\xe2\x80\x9c'],  # left-double quotes
-	['\xe2\x80\x9a\xc3\x84\xc3\xb9','\xe2\x80\x9d'],   # right-double quotes
-	["'",u"\u2019".encode('utf8')],
-	['\xe2\x80\x9a\xc3\x84\xc3\xac','-'],
-	['\xe2\x80\x9a\xc3\x84\xc3\xb4',u"\u2019".encode('utf8')]
+	# ['\xe2\x80\x9a\xc3\x84\xc3\xba','\xe2\x80\x9c'],  # left-double quotes
+	# ['\xe2\x80\x9a\xc3\x84\xc3\xb9','\xe2\x80\x9d'],   # right-double quotes
+	
+	# ["'",u"\u2019".encode('utf8')],
+	# ['\xe2\x80\x9a\xc3\x84\xc3\xb4',u"\u2019".encode('utf8')]
+	
+	['\xe2\x80\x9a\xc3\x84\xc3\xba','"'],  	 # left-double quotes -> straight
+	['\xe2\x80\x9a\xc3\x84\xc3\xb9','"'],    # right-double quotes -> straight
+	[' \xe2\x80\x9a\xc3\x84\xc3\xac',':'],   # – - was a dash, turn into colon!
+	["'", "\\'"],
+	['\xe2\x80\x9a\xc3\x84\xc3\xb4',"\\'"],  # apos (’s)
+	['\xe2\x80\x9a\xc3\x84\xc2\xb6', ''],    # unknown: … - only 3 of these. eliminate them
+	# ['\xe2\x80\x9a', ''],					 # non-displaying junk - eliminate
 ]
 		
 class DigitalObjects (UserDict):
@@ -31,12 +40,6 @@ class DigitalObjects (UserDict):
 	wrapper for table
 	"""
 	table = 'archival_object'
-	
-	# search_str = '%“%'  # works - but doesn't find all like this??
-	search_str = '%\xe2\x80\x9c%'  # works
-	# search_str = '%Construction%'  # works
-	
-	#search_str = '%,%'  # works
 	schema = ["id", "title", "display_string"]
 		   
 	def __init__ (self, db):
@@ -89,12 +92,19 @@ class DigitalObjects (UserDict):
 			return None
 		return results[0]
 			
-	def search (self, search_str):
+	def search (self, search_str, match="anywhere"):
+		if match == 'anywhere':
+			search_str = '%'+search_str+'%'
+		elif match == 'start':
+			search_str = search_str+'%'
+		elif match == 'end':
+			search_str = '%'+search_str
+		elif match == 'exact':
+			pass
 		query = """SELECT %s
 	           FROM %s
 			   WHERE title LIKE '%s'""" % (','.join (self.schema), self.table, search_str)		
 		return self.get_results(query)
-		
 		
 		
 	def get_record_title (self, id):
@@ -114,7 +124,45 @@ class DigitalObjects (UserDict):
 def normalize_str (str):
 	for mapping in normalize_mappings:
 		str = str.replace(mapping[0], mapping[1])
-	return str
+	return str.strip()
+		
+def make_update_script (table):
+	dowrites = 1
+	
+	# search_str = '\xe2\x80\x9a\xc3\x84\xc3\xb4' # apos (’s)
+	# search_str = '\xe2\x80\x9a\xc3\x84\xc3\xac' # – - converted to colon
+	
+	# search_str ='\xe2\x80\x9a\xc3\x84\xc3\xba' # 135 done
+	
+	search_str = '\xe2\x80\x9a' # 210
+	
+	# search_str = '\xe2\x80\x9a\xc3\x84\xc2\xb6' # unknown: … there are 3 of these and it looks like they
+												# should simply be eliminated ....
+	
+	results = table.search(search_str)
+	# print results[0]   # see raw sample
+	# table.show_results (results)
+	records = map (lambda x: table.to_table_row (x, table.schema), results)
+	print '{} records found'.format(len(records))
+	sql_lines = [];add = sql_lines.append
+	for rec in records:
+		# print rec['id'], rec['display_string']
+		# print table.make_normalize_script(rec)
+		add (table.make_normalize_script(rec))
+		# break
+	sql = '\n'.join (sql_lines)
+	print sql
+	
+	if dowrites:
+		sql_path = '/Users/ostwald/Documents/Archivesspace_migration/data_cleanup_9-2017/normalize.sql'
+		if 0:
+			fp = codecs.open(sql_path, 'w', 'utf-8')
+			fp.write(sql.decode('utf-8'))
+		if 1:
+			fp = open(sql_path, 'w')
+			fp.write(sql)
+		fp.close
+		print 'wrote to ', sql_path
 		
 if __name__ == "__main__":
 	# print WebTestDB().doCount(None)
@@ -123,8 +171,20 @@ if __name__ == "__main__":
 	
 	# objs.normalize_record(3266)
 	
+	make_update_script (objs)
+	
 	if 0:
-		id = 3152
+		results = objs.search ('\xe2\x80\x9a\xc3\x84\xc3\xba') # 140
+		# results = table.search ('\xe2\x80\x9a') # 210
+		# table.show_results (results)
+		for result in results:
+			print result[0], result[1]
+			print '   ', result
+
+	
+	if 1:
+		# id = 12446 # …  
+		id = 3047
 		rec = objs.get_record(id)
 		print rec
 		title = objs.get_record_title(id)
@@ -132,13 +192,5 @@ if __name__ == "__main__":
 		print 'NORMALIZED: {}'.format(normalize_str(title))
 		# print 'table schema: {}'.format(objs.table_schema)
 	
-	if 1:
-		# results = objs.search ('%\xe2\x80\x9a\xc3\x84\xc3\xba%') # 140
-		results = objs.search ('%\xe2\x80\x9a%') # 210
-		# objs.show_results (results)
-		records = map (lambda x: objs.to_table_row (x, objs.schema), results)
-		print '{} records found'.format(len(records))
-		for rec in records:
-			# print rec['id'], rec['display_string']
-			print objs.make_normalize_script(rec)
+
 
