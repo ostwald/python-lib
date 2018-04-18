@@ -21,7 +21,8 @@ object_not_found_pat = re.compile(not_found_str)
 # pattern: (tag, pattern_to_find)
 patterns = (
     ('Start up', 'INFO: Starting service Catalina'),
-    ('Shut down', 'INFO: Stopping service Catalina'),
+    # ('Shut down', 'INFO: Stopping service Catalina'),
+    ('Shut down', 'INFO: Pausing Coyote HTTP/1.1 on http-8080'),
     ('Out of Memory', 'java.lang.OutOfMemoryError: Java heap space'),
     ('Adder','{add=['),
     ('Broken Pipe','ClientAbortException:  java.net.SocketException: Broken pipe'),
@@ -43,6 +44,7 @@ def make_header():
         'end_ts',
         'startup',
         'shutdown',
+        'crash_ts',
     ]:
         add (attr)
 
@@ -103,6 +105,7 @@ class TallyRun (UserDict):
         self.start_ts = None  # first date
         self.start_day = None
         self.end_ts = None  # last date
+        self.crash_ts = ''
         self.startup = '-' # tomcat startup timestamp
         self.shutdown = '-' # tomcat shutdown timestamp
         self.data = {}
@@ -110,9 +113,21 @@ class TallyRun (UserDict):
             if pat[0] not in ['Start up', 'Shut down']:
                 self[pat[0]] = 0
 
-    def tally (self, tag):
+        self.last_tag = {'tag':None, 'ts': None}
+
+    def tally (self, tag, ts):
         count = self.data.has_key(tag) and self[tag] or 0
         self[tag] = count + 1
+        self.last_tag = {'tag':tag, 'ts':ts}
+
+    def register_shutdown(self, ts):
+        self.shutdown = 'X'
+        if self.last_tag['tag'] == 'Out of Memory':
+            self.crash_ts = self.last_tag['ts']
+        elif self.last_tag['ts'] is not None:
+            delta = get_delta(ts, self.last_tag['ts'])
+            if delta > datetime.timedelta(minutes=10):
+                self.crash_ts = self.last_tag['ts']
 
     def report (self):
         print '\n%s (%d - %d)' % (self.filename, self.start_line, self.end_line)
@@ -137,6 +152,7 @@ class TallyRun (UserDict):
             'end_ts',
             'startup',
             'shutdown',
+            'crash_ts',
         ]:
             add (getattr(self, attr))
 
@@ -206,9 +222,9 @@ class GrepTally (UserDict):
 
                     self.handle_start_up(i, ct)
                 elif tag == 'Shut down':
-                    self.cur_run.shutdown = 'X'
+                    self.cur_run.register_shutdown(ct)
                 else:
-                    self.cur_run.tally(tag)
+                    self.cur_run.tally(tag, ct)
 
         self.cur_run.end_line = i
         self.cur_run.end_ts = ct
@@ -245,7 +261,7 @@ def write_data (outpath="/Users/ostwald/tmp/MASTER_LOG_GREP.txt"):
     data_dir = '/Users/ostwald/Documents/OpenSky/logs/osstage2'
 
     # for filename in ['catalina.out-4_8-4_16',]:
-    for filename in os.listdir(data_dir ):
+    for filename in os.listdir(data_dir):
         path = os.path.join (data_dir, filename)
         if not filename.startswith('catalina.out') or os.path.isdir(path) or filename[-1] == '~':
             continue
@@ -258,13 +274,10 @@ def write_data (outpath="/Users/ostwald/tmp/MASTER_LOG_GREP.txt"):
 if __name__ == '__main__':
 
     if 0:
-        path = '/Users/ostwald/Documents/OpenSky/logs/osstage2/catalina.out-4_8-4_16'
+        path = '/Users/ostwald/Documents/OpenSky/logs/osstage2/catalina.out-4_2-4_8'
         tally = GrepTally (path)
         # tally.report()
         print tally.asTabDelimited()
 
     elif 1:
         write_data()
-    else:
-        line = 'dk.defxws.fedoragsearch.server.errors.FedoraObjectNotFoundException: Thu Apr 12 13:50:42 MDT 2018 Fedora Object articles:21423 not found at FgsRepos; nested exception is:'
-        print 'not found tag: "%s"' % get_not_found_tag(line)

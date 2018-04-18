@@ -20,13 +20,14 @@ object_not_found_pat = re.compile(not_found_str)
 patterns = (
     # ('Start up', 'INFO: Starting service Catalina'),
     # ('Shut down', 'INFO: Stopping service Catalina'),
-    ('Out of Memory', 'java.lang.OutOfMemoryError: Java heap space'),
-    ('Adder','{add=['),
-    ('Broken Pipe','ClientAbortException:  java.net.SocketException: Broken pipe'),
-    ('Connection Reset','ClientAbortException:  java.net.SocketException: Connection reset'),
+    ('Shut down', 'INFO: Pausing Coyote HTTP/1.1 on http-8080'),
+    # ('Out of Memory', 'java.lang.OutOfMemoryError: Java heap space'),
+    # ('Adder','{add=['),
+    # ('Broken Pipe','ClientAbortException:  java.net.SocketException: Broken pipe'),
+    # ('Connection Reset','ClientAbortException:  java.net.SocketException: Connection reset'),
     # ('Commit Flush','end_commit_flush'),
-    ('OSWS Request', 'client=OpenSky+Web+Service'),
-    ('OpenSky UI', '.keyDate.facet.date.gap'),
+    # ('OSWS Request', 'client=OpenSky+Web+Service'),
+    # ('OpenSky UI', '.keyDate.facet.date.gap'),
     # ('NotFoundError', 'dk.defxws.fedoragsearch.server.errors.FedoraObjectNotFoundException'),
 )
 
@@ -57,7 +58,7 @@ def get_ts(line):
         return None
 
 def find_matched_pattern(line):
-    for i, pat in enumerate(patterns):
+    for i, pat in enumerate(patterns):f
         if line.find (pat[1]) > -1:
             return i
     return -1
@@ -124,7 +125,7 @@ def write_data (data, outpath="HEAP_LOG_DATA.txt"):
 
 if __name__ == '__main__':
 
-    if 1:
+    if 0:
         path = '/Users/ostwald/Documents/OpenSky/logs/osstage2/catalina.out-4_8-4_16'
         data = process (path)
         # print 'data is %d lines' % len (data)
@@ -136,6 +137,15 @@ if __name__ == '__main__':
         # outpath = 'output/' + os.path.splitext(os.path.basename(path))[0] +'.txt'
         # outpath = 'output/' + os.path.basename(path) +'.txt'
         # write_data(data, outpath)
+    elif 1:
+        ts1 = 'Apr 12, 2018 6:00:01 AM'
+        ts2 = 'Apr 12, 2018 7:00:02 AM'
+        delta = get_delta (ts1, ts2)
+        print 'delta: ', delta
+        if delta > datetime.timedelta(hours=1):
+            print 'bigger than an hour'
+        else:
+            print 'smaller than an hour'
     else:
         line = 'dk.defxws.fedoragsearch.server.errors.FedoraObjectNotFoundException: Thu Apr 12 13:50:42 MDT 2018 Fedora Object articles:21423 not found at FgsRepos; nested exception is:'
         print 'not found tag: "%s"' % get_not_found_tag(line)
