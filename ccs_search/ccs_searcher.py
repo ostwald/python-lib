@@ -1,5 +1,5 @@
 """
-ccs-test searcher
+playlist searcher
 """
 import sys, os, re
 from ncar_lib import RepositorySearcher, SearchResult
@@ -9,7 +9,7 @@ class PlaylistSearcher (RepositorySearcher):
 	""" 
 	find all playlists for given userId
 	"""
-	default_baseUrl = "http://acornvm.dls.ucar.edu:17248/dds/services/ddsws1-1"
+	default_baseUrl = "http://localhost:7248/dds/services/ddsws1-1"
 	verbose = False
 
 	def __init__ (self, userId):
@@ -30,7 +30,7 @@ class ResourceSearcher (RepositorySearcher):
 	""" 
 	find all resources with given resourceId
 	"""
-	default_baseUrl = "http://acornvm.dls.ucar.edu:17248/dds/services/ddsws1-1"
+	default_baseUrl = "http://localhost:7248/dds/services/ddsws1-1"
 	verbose = False
 
 	def __init__ (self, resourceIds):

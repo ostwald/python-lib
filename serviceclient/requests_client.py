@@ -5,10 +5,9 @@ leaves simple client alone as much as possible but uses
 request to get the data
 """
 
-import os, sys, urllib, urllib2, demjson, time, codecs
+import os, sys, urllib, urllib2, time, codecs
 import ssl
 from urlparse import urljoin
-from JloXml import XmlRecord
 
 import requests
 from simple_client import SimpleClient, SimpleClientError

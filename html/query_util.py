@@ -48,7 +48,8 @@ class QueryUtil:
 		return '&'.join(queryList)
 			
 if __name__ == '__main__':
-	url = """http://foo.com/foo?facet=on&facet.field=/key//record/contributors/person/affiliation/instDivision&facet.field=/key//record/coverage/date/@type&facet.field=/relation.memberOfCollection//key//collectionRecord/additionalMetadata/collectionRecord/key&facet.field=/key//record/general/pubName/@type&facet.field=/key//record/general/title/@type&facet.field=/key//record/classify/classification&facet.field=/key//record/classify/collaboration&verb=Search&ky=info&ky=technotes&ky=monographs&ky=manuscripts&ky=asr&ky=staffnotes&ky=mesalab&ky=ncar-books&ky=scd&ky=osgc&ky=soars&ky=image&ky=wwashington&ky=vinlally&ky=natlballoonfac&ky=jkuettner&ky=gate&ky=scdnewsletter&ky=nhre&ky=unav&ky=unhistory&ky=hao&ky=dls&ky=wsw&ky=ipcc&ky=atd&ky=srm&ky=ucar&ky=twerle&ky=siparcs&ky=comm&ky=wor&ky=lie&ky=unpc&ky=ams&ky=unoh&dcsStatus=Done&s=0&n=20"""
+	# url = """http://foo.com/foo?facet=on&facet.field=/key//record/contributors/person/affiliation/instDivision&facet.field=/key//record/coverage/date/@type&facet.field=/relation.memberOfCollection//key//collectionRecord/additionalMetadata/collectionRecord/key&facet.field=/key//record/general/pubName/@type&facet.field=/key//record/general/title/@type&facet.field=/key//record/classify/classification&facet.field=/key//record/classify/collaboration&verb=Search&ky=info&ky=technotes&ky=monographs&ky=manuscripts&ky=asr&ky=staffnotes&ky=mesalab&ky=ncar-books&ky=scd&ky=osgc&ky=soars&ky=image&ky=wwashington&ky=vinlally&ky=natlballoonfac&ky=jkuettner&ky=gate&ky=scdnewsletter&ky=nhre&ky=unav&ky=unhistory&ky=hao&ky=dls&ky=wsw&ky=ipcc&ky=atd&ky=srm&ky=ucar&ky=twerle&ky=siparcs&ky=comm&ky=wor&ky=lie&ky=unpc&ky=ams&ky=unoh&dcsStatus=Done&s=0&n=20"""
+	url = "http://localhost:3001/search?utf8=%E2%9C%93&op%5B%5D=&q%5B%5D=washington&limit=&field%5B%5D=&from_year%5B%5D=&to_year%5B%5D=&commit=Search"
 	qu = QueryUtil(url)
 	# qu.report()
 	
@@ -57,6 +58,6 @@ if __name__ == '__main__':
 	print '\nMY_PARAMS'
 	qu.report(myParams)
 	
-	del (myParams['ky'])
+	# del (myParams['ky'])
 	
 	print qu.makeQueryStr(myParams)

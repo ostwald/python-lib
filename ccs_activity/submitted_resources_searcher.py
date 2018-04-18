@@ -10,7 +10,7 @@ class SubmittedResourceResult (SearchResult):
 	in addition to fields exposed by SearchResult, exposes:
 		- pubName
 		- pubNameType
-		- payload (OsmRecord instance)
+		- payload (ADN instance)
 	"""
 	default_payload_constructor = AdnRecord
 	

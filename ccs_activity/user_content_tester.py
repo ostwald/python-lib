@@ -14,15 +14,52 @@ import os, sys, re
 from user_content_searcher import DleseAnnoRecord, UserContentResult
 from ncar_lib.repository import RepositorySearcher, SearchResult
 from JloXml import MetaDataRecord, XmlUtils
+from model import *
 
 ddswsBaseUrlForUserContent = "http://acorn.dls.ucar.edu:17248/dds/services/ddsws1-1"
 purgBaseUrlForUserContent = "http://localhost:8070/dds/services/ddsws1-1"
 ccsDevDDS = "http://acorn.dls.ucar.edu:17248/dds/services/ddsws1-1"
+prodDDS = "http://localhost:7248/dds/services/ddsws1-1"
+
+class TesterUserContentResult (SearchResult):
+
+	"""
+	in addition to fields exposed by SearchResult, exposes:
+		- pubName
+		- pubNameType
+		- payload (OsmRecord instance)
+	"""
+	default_payload_constructor = DleseAnnoRecord
+
+	def __init__ (self, element, payload_constructor=None):
+		SearchResult.__init__ (self, element, payload_constructor)
+
+
+	def get_payload (self):
+		metadata = self.selectSingleNode (self.dom, "record:metadata")
+		children = XmlUtils.getChildElements(metadata)
+		if not children:
+			raise Exception, "Could not find payload"
+		if len(children) != 1:
+			raise Exception, "Found multiple payload elements"
+		print 'payload tag:', children[0].tagName
+		constructor_class = self.get_payload_contructor(children[0].tagName)
+		return  constructor_class (xml=children[0].toxml())
+
+	def get_payload_contructor (self, tagName):
+		switcher = {
+			'playList' : PlaylistRecord,
+			'savedResource' : SavedResource,
+			'itemRecord' : AdnRecord,
+		}
+		default = XmlRecord
+		return switcher.get(tagName, default)
+
 
 class UserContentTester (RepositorySearcher):
 	
-	default_baseUrl = purgBaseUrlForUserContent
-	searchResult_constructor = UserContentResult
+	default_baseUrl = prodDDS
+	searchResult_constructor = TesterUserContentResult
 	
 	verbose=True
 	numToFetch=10000
@@ -79,6 +116,7 @@ class UserContentTester (RepositorySearcher):
 def getSelectedUserResources (userId):
 	"""
 	returns a UserContentTester instance, which provides list api to results
+	results are of class UserContentResult
 	"""
 	searcher = UserContentTester(userId=userId)
 	# print searcher.data[0]

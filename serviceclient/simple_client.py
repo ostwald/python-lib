@@ -7,11 +7,11 @@ baseUrl = "http://asn.jesandco.org/api/1/jurisdictions"
 params = {}
 postData = {}
 client = SimpleClient (baseUrl)
-data = client.getData(params, postData)
-responseDoc = client.getResponseDoc
+data = client.getData(params, postData) # returns response as string
+responseDoc = client.getResponseDoc(params, postData) # returns response as JloXml.XmlRecord
 	
 """
-import os, sys, urllib, urllib2, demjson, time, codecs
+import os, sys, urllib, urllib2, json, time, codecs
 import ssl
 from urlparse import urljoin
 from JloXml import XmlRecord

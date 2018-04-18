@@ -166,9 +166,11 @@ class RepositorySearcher (UserList):
 		responseDoc.xpath_delimiter = ":"
 		
 		# print "searchResult_constructor:", self.searchResult_constructor.__name__
-		return map (self.searchResult_constructor, 
-				    responseDoc.selectNodes(responseDoc.dom, "DDSWebService:Search:results:record"))
-			
+		return self.instantiate_results(responseDoc)
+
+	def instantiate_results (self,  responseDoc):
+		return map (self.searchResult_constructor,
+			responseDoc.selectNodes(responseDoc.dom, "DDSWebService:Search:results:record"))
 		
 	def showParams (self):
 		print '\nParams:'
