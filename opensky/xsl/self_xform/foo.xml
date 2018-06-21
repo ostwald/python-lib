@@ -75,7 +75,7 @@
       <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">articles</osm:collectionKey>
    </extension>
    <relatedItem type="isReferencedBy">
-      <identifier type="uri">http://dx.doi.org/10.1016/j.atmosres.2016.04.010</identifier>
+      <identifier type="uri">https://doi.org/10.1016/j.atmosres.2016.04.010</identifier>
    </relatedItem>
    <identifier type="ark">ark:/85065/d7jd4zf5</identifier>
    <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-022-999</identifier>
