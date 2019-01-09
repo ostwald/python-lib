@@ -77,6 +77,8 @@ class DigitalObjects (UserDict):
 		  WHERE id=%s""" % (self.table, normalized_title, id)
 		  
 		print update_title_query
+
+		# WHATS GOING ON HERE??
 		return
 		
 		self.db.doUpdate(update_title_query)
@@ -127,7 +129,7 @@ def normalize_str (str):
 	return str.strip()
 		
 def make_update_script (table):
-	dowrites = 1
+	dowrites = 0
 	
 	# search_str = '\xe2\x80\x9a\xc3\x84\xc3\xb4' # apos (’s)
 	# search_str = '\xe2\x80\x9a\xc3\x84\xc3\xac' # – - converted to colon

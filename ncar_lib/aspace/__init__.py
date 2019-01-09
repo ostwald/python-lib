@@ -2,55 +2,29 @@
 
 import requests
 from UserDict import UserDict
-from model import SearchResponse, SearchResult
+from model import SearchResponse, SearchResult, ArchivalObject, TopContainer
 import json
 
-# baseurl = "http://localhost:4567/repositories/2/search"
-# r = requests.get(baseurl, auth=('admin','admin'))
+from archival_object_container import batch_container_update, batch_delete_empty_top_containers, get_archival_objects_to_update
+from aspace_db import report_top_containers
 
-class AspaceProxy:
 
-	baseurl = 'http://localhost:4567'
-
-	def __init__ (self, user='admin', passwd='admin'):
-		self.user = user
-		self.passwd = passwd
-		self._token = None
-
-	def get_token(self):
-		if self._token is None:
-			endpoint = '%s/users/%s/login' % (self.baseurl, self.user)
-			r = requests.post(endpoint, data={'password':self.passwd})
-			# print 'status: %s' % r.status_code
-			resp_json = r.json()
-			# print resp_json
-			self._token = resp_json['session']
-		return self._token
-
-	def search (self, q='washington'):
-
-		TOKEN = self.get_token()
-		print 'TOKEN: %s' % TOKEN
-		endpoint = '%s/repositories/2/search' % self.baseurl
-		params = {
-			'page': '1',
-			# 'q':'title:"%s"' % q
-			'q':'text:"%s"' % q
-		}
-		headers = {
-			'X-ArchivesSpace-Session': TOKEN
-		}
-		r = requests.get(endpoint, headers=headers, params=params)
-		print 'status: %s' % r.status_code
-		resp_json = r.json()
-		# print resp_json
-		return SearchResponse(resp_json)
+def show_objects_to_update(root_record_id, component_id):
+    objects = get_archival_objects_to_update (root_record_id, component_id)
 
 if __name__ == "__main__":
-	proxy = AspaceProxy()
-	response = proxy.search("warren washington")
-	for result in response.results:
-		print '\n'
-		print result.title
-		print '(%s)' % result.resource_type
-		# print '\n\t', result.summary
+
+    indicator = "6"
+    created_for_collection = "77"
+    top_container_id = "1231"
+    # component_id =
+    root_record_id = created_for_collection
+
+    report_top_containers (indicator, created_for_collection)
+    # batch_delete_empty_top_containers (indicator, created_for_collection)
+
+    # batch_container_update (root_record_id, component_id, top_container_id)
+
+    # ONE OFF
+    # top_container_id =
+    # set_top_container (archival_record_id, top_container_id)
