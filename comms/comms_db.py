@@ -61,8 +61,6 @@ def get_checksum(path):
 
 class CommsDBTable:
 
-    # sqlite_file = '/Users/ostwald/tmp/comms_db.sqlite'
-    sqlite_file = '/Users/ostwald/tmp/test_db.sqlite'
     table_name = 'comms_files'
     schema_spec = [
         ['file_name', 'TEXT', lambda x:x.name],
@@ -78,9 +76,11 @@ class CommsDBTable:
         ['notes', 'TEXT', ''],
     ]
 
-    def __init__(self):
+    def __init__(self, sqlite_file):
+        self.sqlite_file = sqlite_file
         self.schema = Schema(self.schema_spec)
-        self.db_setup()
+        if not self.table_exists():
+            self.db_setup()
 
     def table_exists (self):
         conn = sqlite3.connect(self.sqlite_file)
@@ -138,6 +138,8 @@ def show_file(path):
 
 if __name__ == '__main__':
 
+    sqlite_file = '/Users/ostwald/tmp/comms_db.sqlite'
+
     if 0:
         if not table_exists(table_name):
             db_setup()
@@ -153,7 +155,7 @@ if __name__ == '__main__':
         show_file(path)
 
     if 1:
-        table = CommsDBTable()
+        table = CommsDBTable(sqlite_file)
         path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk2/staff.jpg'
         obj = JloFile(path)
         print table.add_record(obj)

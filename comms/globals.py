@@ -3,7 +3,7 @@ SKIP_DIR_NAMES = [
 ]
 
 SKIP_DIR_NAME_FRAGS = [
-    'iMovie'
+    'iMovie', 'Application Support', '.Trash'
 ]
 
 SKIP_DIR_PATHS = [

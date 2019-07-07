@@ -230,7 +230,8 @@ class PrettyTagsMixIn:
 		s = [myindent, self.start_tag()]
 		for c in self.content:
 			try: s.append(apply(c.__str__, (indent+perlevel, perlevel)))
-			except: s.append(str(c))
+			# except: s.append(str(c))
+			except: s.append(unicode(c))
 		s.append(self.end_tag())
 		return join(s,'')
 

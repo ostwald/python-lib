@@ -36,6 +36,9 @@ class Walker:
                 path = os.path.join (root, name)
                 ext = os.path.splitext(name)[1]
 
+                if os.path.islink(path):
+                    continue
+
                 if not ext.lower() in globals.KNOWN_EXTENSIONS and not ext.lower() in self.unknown_extensions:
                     self.unknown_extensions.append(ext)
 
@@ -53,11 +56,11 @@ class Walker:
 
     def accept_dir(self, path):
         dirname = os.path.basename(path)
-        print ' --- ', dirname
+        # print ' --- ', dirname
         if dirname in globals.SKIP_DIR_NAMES:
             return 0
         for frag in globals.SKIP_DIR_NAME_FRAGS:
-            if frag in dirname:
+            if frag.lower() in dirname.lower():
                 return 0
         return 1
 

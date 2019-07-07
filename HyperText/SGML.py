@@ -31,7 +31,9 @@ class Markup:
 
     def __str__(self, indent=0, perlevel=0):
 	# we don't actually indent here, it's for later.
+
 	c = map(str, self.content)
+
 	return join([self.start_tag()]+c+[self.end_tag()],'')
 
 
