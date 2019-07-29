@@ -1,9 +1,13 @@
+import os, sys
+
+# during initial disk scan, we can use these to halt the traversal (and not descend into
+# these dirs. But after stuff is in the database we can concat them together to filter.
 SKIP_DIR_NAMES = [
-    'Fonts', 'Links', '_notes'
+    'Fonts', 'Links', '_notes', 'Previews', 'Thumbnails'
 ]
 
 SKIP_DIR_NAME_FRAGS = [
-    'iMovie', 'Application Support', '.Trash'
+    'iMovie', 'Application Support', '.Trash', 'Applications','Caches','Mail', 'System', 'Library'
 ]
 
 SKIP_DIR_PATHS = [
@@ -21,12 +25,33 @@ IMAGE_EXTENSIONS = [
     '.jpe',
     '.jpeg',
     '.jpg',
-    '.jsp',
+    # '.jsp',
     '.nef',
     '.png',
     '.tif',
     '.tiff',
+    '.pict',
 ]
+
+db_folder_names = [
+    'CarlyeMainDisk1',
+    'CarlyeMainDisk2',
+    'CIC-ExternalDisk1',
+    'CIC-ExternalDisk2',
+    'CIC-ExternalDisk4',
+    'CIC-ExternalDisk6',
+    'CIC-ExternalDisk7',
+]
+
+def isImage(filename):
+    try:
+        return os.path.splitext(filename)[1].lower() in IMAGE_EXTENSIONS
+    except:
+        print 'isImage error: {}'.format(sys.exc_info()[1])
+        return False
+
+def get_dir_iamges (dirname):
+    return filter (isImage, os.listdir(dirname))
 
 
 KNOWN_EXTENSIONS = [
@@ -36,7 +61,7 @@ KNOWN_EXTENSIONS = [
     '.db', '.save', '.bak', '.ps', '.ppsx', '.ppt', '.xls', '.redirect', '.00',
     '.01', '.02', '.old', '.99', '.tar', '.after', '.20091012', '.new', '.sorted',
     '.pm', '.bogus', '.03', '.04', '.05', '.06', '.07', '.08', '.final', '.dbx',
-    '.dwt', '.000511', '.orig', '.wmz', '.mso', '.jpeg', '.GIF', '.lbi', '.tiff',
+    '.dwt', '.000511', '.orig', '.wmz', '.mso', '.jpeg', 'JPEG','.GIF', '.lbi', '.tiff',
     '.docx', '.flv', '.jsp#', '.', '.avi', '.mp3', '.mpeg', '.spring', '.php~',
     '.html~', '.phpYY', '.inc', '.bak2', '.php#', '.tld', '.properties', '.class', '.jar',
     '.CR2', '.xmp', '.CRW',
@@ -51,7 +76,7 @@ KNOWN_EXTENSIONS = [
     '.prl', '.conf', '.colorFillLayerPreset', '.EPS', '.AFM', '.bom', '.gz', '.info',
     '.DAT', '.PSD', '.advisory', '.dot', '.fp7', '.log', '.qxd', '.pg', '.1', '.qt',
     '.09', '.Green', '.jpe', '.mno', '.ase', '.aiff', '.par', '.srt', '.LW', '.recordphp',
-    '.json', '.odt', '.sub', '.tmp', '.sit', '.mxp', '.PDF', '.img'
+    '.json', '.odt', '.sub', '.tmp', '.sit', '.mxp', '.PDF', '.img', '.PICT'
 
 ]
 

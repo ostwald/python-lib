@@ -2,7 +2,9 @@ import os, sys, time
 import globals
 
 class Walker:
-
+    """
+    Abstract version of walker. Concrete instances overwrite process_image, etc
+    """
 
     def __init__ (self, start_dir):
         self.start_dir = start_dir
@@ -39,7 +41,7 @@ class Walker:
                 if os.path.islink(path):
                     continue
 
-                if not ext.lower() in globals.KNOWN_EXTENSIONS and not ext.lower() in self.unknown_extensions:
+                if not ext in globals.KNOWN_EXTENSIONS and not ext in self.unknown_extensions:
                     self.unknown_extensions.append(ext)
 
                 self.file_cnt += 1
@@ -56,6 +58,8 @@ class Walker:
 
     def accept_dir(self, path):
         dirname = os.path.basename(path)
+        if dirname[0] == '.':
+            return 0
         # print ' --- ', dirname
         if dirname in globals.SKIP_DIR_NAMES:
             return 0

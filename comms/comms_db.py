@@ -128,6 +128,46 @@ class CommsDBTable:
         conn.commit()
         conn.close()
 
+    def delete_record (self, where_condition):
+        """
+        DELETE FROM table_name WHERE condition;
+        """
+        conn = sqlite3.connect(self.sqlite_file)
+        c = conn.cursor()
+
+        query = "DELETE from {} WHERE {}".format(self.table_name, where_condition)
+
+        # print query
+
+        c.execute(query)
+        # print 'records affected: {}'.format(conn.total_changes)
+        conn.commit()
+
+    def select_all_records (self):
+        conn = sqlite3.connect(self.sqlite_file)
+        c = conn.cursor()
+
+        query = "SELECT * from {}".format(self.table_name)
+
+        c.execute(query)
+        rows = c.fetchall()
+        # return map(lambda x:x[0], rows)
+        return rows
+
+    def select (self, fields, where_clause=None):
+        conn = sqlite3.connect(self.sqlite_file)
+        c = conn.cursor()
+
+        if where_clause is None:
+            where_clause = ''
+        query = "SELECT {} FROM {} {}".format(fields, self.table_name, where_clause)
+
+        # print query
+
+        c.execute(query)
+        rows = c.fetchall()
+        return rows
+
 def show_file(path):
     obj = JloFile (path)
     print 'name: {} ({})'.format(obj.name, type(obj.name))
