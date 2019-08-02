@@ -55,7 +55,7 @@ class Reaper(DupAnalyzer):
         print 'records affected: {}'.format(conn.total_changes)
         conn.commit()
 
-    def dedup (self):
+    def dedup_1 (self):
         """
         the dup_sets found by find_disk_1_dups all have at least one ExternalDisk1 version
         - first delete the
@@ -64,7 +64,6 @@ class Reaper(DupAnalyzer):
         dup_sets = self.find_disk_1_dups()
 
         disc_pat = re.compile ("CIC-ExternalDisk1/disc [0-9]*")
-
 
         for key in dup_sets:
 
@@ -114,7 +113,41 @@ class Reaper(DupAnalyzer):
                 for path in self.dup_map[key]:
                     if not path in to_keep:
                         print '     x', path
-                        self.delete_record (path)
+                        # self.delete_record (path)
+
+    def dedup_2 (self):
+        """
+        We are looking for chances to delete non-CIC-ExternalDisk1 dups. So if there is
+        a CIC-ExternalDisk1, then delete all the non-CIC-ExternalDisk1 dups in the dupset
+        """
+        dup_sets = self.find_disk_1_dups()
+
+        disc_pat = re.compile ("CIC-ExternalDisk1/disc [0-9]*")
+
+        total_to_delete = 0
+
+        for key in dup_sets:
+
+            externalDisk1_dups = [] # these contain CIC-ExternalDisk1
+            other_dups = []  # these do NOT have CIC-ExternalDisk1
+
+            # print all in the set
+            print '\n{}'.format(key)
+            for path in self.dup_map[key]:
+                print '- {}'.format(path)
+                if "CIC-ExternalDisk1/" in path:
+                    externalDisk1_dups.append (path)
+                else:
+                    other_dups.append(path)
+
+            if len(other_dups) > 0 and len(externalDisk1_dups) > 0:
+                print '\n - to delete'
+                for dup in other_dups:
+                    print '  -', dup
+                    total_to_delete += 1
+                    self.delete_record (dup)
+
+        print 'total to delete: {}'.format(total_to_delete)
 
 
     def is_ignorable (self, path):
@@ -137,4 +170,4 @@ if __name__ == '__main__':
 
     reaper = Reaper (dup_data, sqlite_file)
     # reaper.filter_by_paths()
-    reaper.dedup()
+    reaper.dedup_2()

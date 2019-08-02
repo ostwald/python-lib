@@ -176,6 +176,17 @@ def non_dup_report (da):
             for nd in non_dups:
                 print nd
 
+def find_paths (da, needle, verbose=1):
+    path_map = da._get_path_map()
+    found = []
+    for path in path_map.keys():
+        if needle in path:
+            found.append(path)
+    print '{} found'.format(len(found))
+    found.sort()
+    if verbose:
+        for p in found:
+            print '-', p
 
 if __name__ == '__main__':
     # foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/ignore these/predict'
@@ -192,9 +203,8 @@ if __name__ == '__main__':
 
     path_map = da._get_path_map()
     print '{} paths in path_map'.format(len(path_map))
-    # for path in path_map.keys():
-    #     if 'CIC-ExternalDisk4' in path:
-    #         print path
+
+    find_paths(da, 'CarlyeMainDisk1/')
 
     if 0:
         # base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/archived/'
@@ -210,7 +220,7 @@ if __name__ == '__main__':
     if 0:
         non_dup_report (da)
 
-    if 1:
+    if 0:
         sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/composite.sqlite'
         root_path = "/Volumes/archives/CommunicationsImageCollection/"
         folder = 'CIC-ExternalDisk7'

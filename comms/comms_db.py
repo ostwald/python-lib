@@ -3,6 +3,7 @@ from jloFS import JloFile
 from UserDict import UserDict
 from UserList import UserList
 import hashlib
+import globals
 
 import sqlite3
 
@@ -168,6 +169,34 @@ class CommsDBTable:
         rows = c.fetchall()
         return rows
 
+    def list_dir (self, path):
+        """
+        like os.listdir, return list of names - images and directories, both derived from comms_files paths
+        """
+        if not path.endswith('/'):
+            path += '/'
+        candidates = self.select('*', "WHERE path LIKE '{}%'".format(path))
+        # print '{} found'.format(len(candidates))
+        filenames = []
+        splits = path.split('/')
+        # print 'path has {} segments'.format(len(splits))
+        for row in candidates:
+            mypath = row[1]
+            segments = mypath.split('/')
+            # print '\n{} ({})'.format(mypath, len(segments))
+            if len(segments) == len(splits):
+                filenames.append (segments[-1])
+            elif len(segments) > len(splits):
+                filename = segments[len(splits)-1]
+                if not filename in filenames:
+                    filenames.append (filename)
+        return filenames
+
+
+    # def list_img_spans (self, path):
+
+
+
 def show_file(path):
     obj = JloFile (path)
     print 'name: {} ({})'.format(obj.name, type(obj.name))
@@ -178,7 +207,7 @@ def show_file(path):
 
 if __name__ == '__main__':
 
-    sqlite_file = '/Users/ostwald/tmp/comms_db.sqlite'
+    sqlite_file = globals.composite_sqlite_file
 
     if 0:
         if not table_exists(table_name):
@@ -196,6 +225,7 @@ if __name__ == '__main__':
 
     if 1:
         table = CommsDBTable(sqlite_file)
-        path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk2/staff.jpg'
-        obj = JloFile(path)
-        print table.add_record(obj)
+        path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/spark calendar'
+        filenames = table.list_dir(path)
+        for f in filenames:
+            print '- ',f

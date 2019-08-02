@@ -85,11 +85,30 @@ def folder_report (base_dir, level=0):
     for p in subdirs:
         folder_report(p, level+1)
 
+def list_spans_from_blob(blob):
+    paths = filter (None, map (lambda x:x.strip(), blob.split('\n')))
+    for path in paths:
+        print '\n{}'.format(path)
+        print list_img_spans(path)
+
+
+
 if __name__ == '__main__':
-    disc_num = 6
-    foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc {}'.format(disc_num)
-    folder_report(foo)
-    # for filename in os.listdir(foo):
-    #     path = os.path.join (foo, filename)
-    #     if os.path.isdir(path):
-    #         folder_report(path)
+    if 0:
+        disc_num = 6
+        foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc {}'.format(disc_num)
+        folder_report(foo)
+        # for filename in os.listdir(foo):
+        #     path = os.path.join (foo, filename)
+        #     if os.path.isdir(path):
+        #         folder_report(path)
+    if 0:
+        blob = """/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2/NCAR digital photos/need to be archived/SOARS-13/soars&mentors/alejandro & andy/alejandro
+    /Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2/NCAR digital photos/need to be archived/SOARS-2013/alejandro & andy/alejandro
+    /Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/photos/need to be archived/SOARS-13/soars&mentors/alejandro & andy/alejandro
+    /Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/photos/need to be archived/SOARS-2013/alejandro & andy/alejandro"""
+        list_spans_from_blob (blob)
+
+    if 1:
+        foo = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2'
+        folder_report(foo)
