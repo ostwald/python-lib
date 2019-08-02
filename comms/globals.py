@@ -1,5 +1,8 @@
 import os, sys
 
+composite_sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/composite.sqlite'
+
+
 # during initial disk scan, we can use these to halt the traversal (and not descend into
 # these dirs. But after stuff is in the database we can concat them together to filter.
 SKIP_DIR_NAMES = [
