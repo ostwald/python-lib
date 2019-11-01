@@ -16,6 +16,10 @@ SKIP_DIR_NAME_FRAGS = [
 SKIP_DIR_PATHS = [
 ]
 
+def make_path (frag):
+    base_path = '/Volumes/archives/CommunicationsImageCollection/'
+    return os.path.join (base_path, frag)
+
 IMAGE_EXTENSIONS = [
     '.2jpg',
     '.cr2',

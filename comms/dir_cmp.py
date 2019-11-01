@@ -67,6 +67,10 @@ class DirCmp:
         return map (lambda x:os.path.join (path, x), child_names)
 
     def top_level_compare (self, dirA, dirB):
+
+        dc.compare (dirA, dirB)
+        dc.compare (dirB, dirA)
+
         subDirsA = self.get_sub_dirs(dirA)
         subDirsB = self.get_sub_dirs(dirB)
 
@@ -117,8 +121,10 @@ if __name__ == '__main__':
             print os.path.basename(s)
 
     if 1:   # compare directories
-        dirA = os.path.join(base_dir, 'CarlyeMainDisk2/NCAR digital photos/need to be archived/')
-        dirB = os.path.join(base_dir, 'CIC-ExternalDisk1/photos/need to be archived/')
+        # dirA = os.path.join(base_dir, 'CarlyeMainDisk2/NCAR digital photos/need to be archived/')
+        # dirB = os.path.join(base_dir, 'CIC-ExternalDisk1/photos/need to be archived/')
+        dirA = os.path.join(base_dir, 'CIC-ExternalDisk7/bob%27s photos exported/katharine hayhoe - WOR lecture/')
+        dirB = os.path.join(base_dir, 'CIC-ExternalDisk7/bob%27s photos exported/Katharine Hayhoe-WOR lecture-9.5.14/')
         sqlite_file = globals.composite_sqlite_file
         # sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/Before Dedup-1/composite-BEFORE-DEDUP.sqlite'
         dc = DirCmp(sqlite_file)

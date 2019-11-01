@@ -1,8 +1,5 @@
 import os, sys, re
 
-base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1'
-
-disc_num = '6'
 
 def list_disk_dir (disc_num):
     path = os.path.join (base_dir, 'disc {}'.format(disc_num))
@@ -24,7 +21,7 @@ class ImageRange:
         else:
             return '{}-{}'.format(self.start,self.end)
 
-def get_num (filename):
+def get_num_old (filename):
     if filename[0] == '.':
         return None
     root = os.path.splitext(filename)[0]
@@ -35,12 +32,30 @@ def get_num (filename):
     else:
         return None
 
+def get_num (filename):
+    if filename[0] == '.':
+        return None
+    root = os.path.splitext(filename)[0]
+    pat = re.compile("([0-9]+)")
+    m = pat.findall (root)
+    m.sort (key=lambda x: -int(x))
+
+    if m and len(m[0]) > 3:
+        return m[0]
+    else:
+        return None
+
+def get_file_names (path):
+    names = os.listdir(path)
+    return filter (lambda x:os.path.isfile(os.path.join (path, x)), names)
+
 def list_img_spans (path):
 
     ranges = []
     last = None
 
-    file_nums = filter (None, map (get_num, os.listdir (path)))
+    # file_nums = filter (None, map (get_num, os.listdir (path)))
+    file_nums = filter (None, map (get_num, get_file_names(path)))
     file_nums.sort()
 
     # print file_nums
@@ -64,8 +79,11 @@ def list_img_spans (path):
 
     return ', '.join (map (lambda x: str(x), ranges))
 
+INDENT = '   '
 
 def folder_report (base_dir, level=0):
+
+    INDENT = level*'   '
 
     if level == 0:
         print base_dir
@@ -79,8 +97,10 @@ def folder_report (base_dir, level=0):
         if os.path.isdir(path):
             subdirs.append(path)
 
-    print '\n{}{}'.format(level*'\t', os.path.split(base_dir)[1])
-    print '{}{}'.format(level*'\t',list_img_spans (base_dir))
+    print '\n{}{}'.format(INDENT, os.path.split(base_dir)[1])
+    img_spans = list_img_spans (base_dir)
+    if len(img_spans.strip()) > 0:
+        print '{}{}'.format(INDENT,img_spans)
 
     for p in subdirs:
         folder_report(p, level+1)
@@ -94,11 +114,20 @@ def list_spans_from_blob(blob):
 
 
 if __name__ == '__main__':
-    if 0:
-        disc_num = 6
-        foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc {}'.format(disc_num)
-        folder_report(foo)
-        # for filename in os.listdir(foo):
+
+    # base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1'
+    # from CommandLIne:
+    # % p dir_lister.py 6 > listings/disc_6.txt
+
+    if len(sys.argv) > 1:
+        disc_num = sys.argv[1]
+    else:
+        print 'disc_num required'
+
+    if 1: # MAIN PATH
+        path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc {}'.format(disc_num)
+        folder_report(path)
+        # for filename in os.listdir(path):
         #     path = os.path.join (foo, filename)
         #     if os.path.isdir(path):
         #         folder_report(path)
@@ -109,6 +138,10 @@ if __name__ == '__main__':
     /Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/photos/need to be archived/SOARS-2013/alejandro & andy/alejandro"""
         list_spans_from_blob (blob)
 
-    if 1:
-        foo = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2'
-        folder_report(foo)
+    if 0:
+        path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 17/Mesa Lab Nature Trail/'
+        folder_report(path)
+
+    if 0:
+        filename = '877_7701.JPG'
+        print get_num_new(filename)

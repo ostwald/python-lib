@@ -92,6 +92,9 @@ class DupAnalyzer:
         """
         (recursively) lists the files in specified folder that have dups, and
          list the dups themselvesx
+
+         NOTE and TODO - uses file system. Should be modified to use DataBase only!
+
         """
         files = []
         dirs = []
@@ -132,16 +135,29 @@ class DupAnalyzer:
         """
         question: how many dups have at least one copy on CIC-ExternalDisk1?
         """
+        # dup_set_keys = sorted(self.dup_map.keys())
+        #
+        # selected_dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
+        # for checksum in dup_set_keys:
+        #     dup_set = self.dup_map[checksum]
+        #     for dup in dup_set:
+        #         if "CIC-ExternalDisk1" in dup:
+        #             selected_dup_sets.append (checksum)
+        #             break
+        # return  selected_dup_sets
+        return self.find_dups_with_substring('CIC-ExternalDisk1')
+
+    def find_dups_with_substring (self, substr):
         dup_set_keys = sorted(self.dup_map.keys())
 
         selected_dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
         for checksum in dup_set_keys:
             dup_set = self.dup_map[checksum]
             for dup in dup_set:
-                if "CIC-ExternalDisk1" in dup:
+                if substr in dup:
                     selected_dup_sets.append (checksum)
                     break
-        return  selected_dup_sets
+        return selected_dup_sets
 
     def find_non_dups_for_directory (self, path, sqlite_file):
         """
@@ -176,13 +192,19 @@ def non_dup_report (da):
             for nd in non_dups:
                 print nd
 
+def filter_dups (da, filter_fn):
+    path_map = da._get_path_map()
+    found = filter (filter_fn, path_map.keys())
+    found.sort (key=lambda x: x.upper())
+    return found
+
 def find_paths (da, needle, verbose=1):
     path_map = da._get_path_map()
     found = []
     for path in path_map.keys():
         if needle in path:
             found.append(path)
-    print '{} found'.format(len(found))
+    print '{} dups found containing "{}"'.format(len(found), needle)
     found.sort()
     if verbose:
         for p in found:
@@ -202,9 +224,23 @@ if __name__ == '__main__':
     # da.report_dir_map()
 
     path_map = da._get_path_map()
-    print '{} paths in path_map'.format(len(path_map))
+    # print '{} paths in path_map'.format(len(path_map))
+    #
+    if 1:
+        filter_fn = lambda x: 'CIC-ExternalDisk6' in x
 
-    find_paths(da, 'CarlyeMainDisk1/')
+        def my_filter (x):
+            if not 'CIC-ExternalDisk7' in x:
+                return False
+            if 'CIC-ExternalDisk2/video clips' in x:
+                return False
+            if 'CIC-ExternalDisk2/WORK FILES RESTORE' in x:
+                return False
+            return True
+        found = filter_dups(da, filter_fn)
+        print '{} found matey'.format(len (found))
+        for p in found:
+            print '-', p
 
     if 0:
         # base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/archived/'
@@ -217,6 +253,19 @@ if __name__ == '__main__':
         selected_dups = da.find_disk_1_dups()
         print 'total dup_sets: {}, dup_sets with at least one in ExternalDisk1: {}'.format(total_cnt, len(selected_dups))
 
+    if 0:  # find dupsets with at least one member in target_disc
+        target_disc = 'Lower-priority pix--removed from Bob%27s hard drive (all by BH, (c) UCAR)/VORTEX2 6.09'
+        selected_dups = da.find_dups_with_substring(target_disc)
+        print '{} dupsets found'.format(selected_dups)
+        i = 0
+        for checksum in selected_dups:
+            dups = da.dup_map[checksum]
+            print ''
+            for dup in dups:
+                print dup
+                if target_disc in dup:
+                    i += 1
+        print '\n{} total dups for {}'.format(i, target_disc)
     if 0:
         non_dup_report (da)
 

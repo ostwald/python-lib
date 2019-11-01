@@ -169,6 +169,19 @@ class CommsDBTable:
         rows = c.fetchall()
         return rows
 
+    def count_selected (self, where_clause=None):
+        conn = sqlite3.connect(self.sqlite_file)
+        c = conn.cursor()
+
+        if where_clause is None:
+            where_clause = ''
+        query = "SELECT COUNT(*) FROM {} {}".format(self.table_name, where_clause)
+
+        # print query
+
+        c.execute(query)
+        return c.fetchone()[0]
+
     def list_dir (self, path):
         """
         like os.listdir, return list of names - images and directories, both derived from comms_files paths
@@ -225,7 +238,8 @@ if __name__ == '__main__':
 
     if 1:
         table = CommsDBTable(sqlite_file)
-        path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/spark calendar'
+        # path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/spark calendar'
+        path = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2'
         filenames = table.list_dir(path)
         for f in filenames:
             print '- ',f
