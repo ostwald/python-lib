@@ -7,7 +7,7 @@ from UserDict import UserDict
 from comms_db import CommsDBTable
 import globals
 # from dir_lister import list_img_spans
-from dir_lister_class import DBDirLister
+from dir_lister import DBDirLister
 
 __verbose__ = False
 

@@ -50,6 +50,11 @@ class CompositDB (CommsDBTable):
         conn.close()
 
     def ingestDB (self, db_path):
+        """
+        add all records in specified database
+        :param db_path: path that specifies a database file
+        :return:
+        """
         db = CommsDBTable(db_path)
         rows = db.select_all_records()
         print '{} rows returned'.format(len(rows))
@@ -64,11 +69,17 @@ class CompositDB (CommsDBTable):
 
 
 if __name__ == '__main__':
-    composite_sqlite_File = '/Users/ostwald/Documents/Comms/Composite_DB/composite.sqlite'
+    composite_sqlite_File = globals.composite_sqlite_file
     c = CompositDB(composite_sqlite_File)
 
-    if 1:
+    if 0:
         c.ingest_all()
+
+    if 1:
+        for name in ['Field Projects', 'VideoEditingDisk1', 'VideoEditingDisk2']:
+            path = '/Users/ostwald/Documents/Comms/{}/{}.sqlite'.format(name, name)
+            print path
+            c.ingestDB (path)
 
     if 0:
         disk1_path = '/Users/ostwald/Documents/Comms/CIC-ExternalDisk1/CIC-ExternalDisk1.sqlite'

@@ -44,7 +44,8 @@ class Schema (UserDict):
         for field in self.fields:
             val = field.get_value(obj)
             if type(val) == type(''):
-                row_value_list.append("'{}'".format(val.replace ("'", "%27")))
+                # row_value_list.append("'{}'".format(val.replace ("'", "%27")))
+                row_value_list.append("'{}'".format(val))
             if type(val) == type(1) or type(val) == type(1.5):
                 row_value_list.append(str(val))
         quoted_values = ','.join(row_value_list)
@@ -69,7 +70,8 @@ class CommsDBTable:
         ['extension', 'TEXT', lambda x:x.ext],
         ['image_type', 'TEXT', ''],  # jpg and JPG are both JPEG, cr2 and crw are both RAW
         ['size', 'INTEGER', lambda x:x.size],
-        ['check_sum', 'TEXT', lambda x:get_checksum(x.path)],
+        # ['check_sum', 'TEXT', lambda x:get_checksum(x.path)],
+        ['check_sum', 'TEXT', lambda x:'0'],
         # ['date_created', 'FLOAT', lambda x:x.ctime],
         ['date_created', 'TEXT', lambda x:get_time_str(x.ctime)],
         # ['date_modified', 'FLOAT', lambda x:x.modtime],
@@ -131,7 +133,7 @@ class CommsDBTable:
 
     def delete_record (self, where_condition):
         """
-        DELETE FROM table_name WHERE condition;
+        DELETE FROM table_name WHERE condition (e.g., "path LIKE '%BOGUS%'";
         """
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
@@ -144,11 +146,19 @@ class CommsDBTable:
         # print 'records affected: {}'.format(conn.total_changes)
         conn.commit()
 
-    def select_all_records (self):
+    def select_all_records (self, sort_spec=None):
+        """
+        sort_spec example: path ASC
+        :param sort_spec:
+        :return:
+        """
+
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
 
         query = "SELECT * from {}".format(self.table_name)
+        if sort_spec is not None:
+            query += ' ORDER BY {}'.format(sort_spec)
 
         c.execute(query)
         rows = c.fetchall()
@@ -170,6 +180,11 @@ class CommsDBTable:
         return rows
 
     def count_selected (self, where_clause=None):
+        """
+
+        :param where_clause: e.g., WHERE path LIKE '%foo%'"
+        :return:
+        """
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
 

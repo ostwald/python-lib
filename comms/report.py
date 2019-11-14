@@ -214,12 +214,15 @@ def report_sqlite_dbs ():
         reporter.write_extension_report()
 
 def report_db (sqlite_file, report_dir=None):
+    print 'report_db'
+    print 'sqlite_file:', sqlite_file
+    print 'report_dir:', report_dir
     if report_dir is None:
         report_dir = os.path.dirname(sqlite_file)
-        reporter = TableReporter(sqlite_file, report_dir)
+    reporter = TableReporter(sqlite_file, report_dir)
 
-        reporter.write_dup_reports()
-        reporter.write_extension_report()
+    reporter.write_dup_reports()
+    reporter.write_extension_report()
 
 
 def report_composite ():
@@ -242,11 +245,13 @@ if __name__ == '__main__':
     if 0:
         report_sqlite_dbs()
 
-    if 1:
+    if 0:
         report_composite()
 
-    if 0:
-        report_db ('/Users/ostwald/Documents/Comms/CIC-ExternalDisk1/CIC-ExternalDisk1.sqlite')
+    if 1:
+        report_dir = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped-reports'
+        sqlite_file= '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped.sqlite'
+        report_db (sqlite_file, report_dir)
 
     if 0:
         sqlite_file = '/Users/ostwald/tmp/comms_db.sqlite'

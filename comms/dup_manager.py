@@ -10,16 +10,16 @@ which have different names (if any_?
 """
 import os, sys, json
 import globals
-
+from comms_db import CommsDBTable
 
 # def num_images_in_dir (dirname):
 #     return len (globals.get_dir_iamges(dirname))
 
-class DupAnalyzer:
+class DupManager:
 
     def __init__ (self, dup_data_path):
         """
-        DupAnalyzer reads a json file containing a mapping from checksum to paths. So all the paths
+        DupManager reads a json file containing a mapping from checksum to paths. So all the paths
         for a particular checksum are dups.
 
         path_map - built as a side effect:( - maps the path of a file to it's checksum
@@ -27,10 +27,9 @@ class DupAnalyzer:
         :param dup_data_path:
         """
         self.dup_map = json.loads(open(dup_data_path,'r').read())
-        print '{} dup entries found'.format(len (self.dup_map))
+        # print '{} dup entries found'.format(len (self.dup_map))
 
         self.path_map = None
-
         self.dir_map = None
 
     def _get_dir_map (self):
@@ -131,6 +130,9 @@ class DupAnalyzer:
         dups.remove(path)
         return dups
 
+    def find_dups_for_checksum(self, checksum):
+        return self.dup_map[checksum]
+
     def find_disk_1_dups (self):
         """
         question: how many dups have at least one copy on CIC-ExternalDisk1?
@@ -192,6 +194,28 @@ def non_dup_report (da):
             for nd in non_dups:
                 print nd
 
+def deleteMatchingDups (da, hit_pat):
+    dupsets = da.find_dups_with_substring(hit_pat)
+    print '{} dupsets found'.format(len(dupsets))
+
+    hit_list = [] # we're going to delete these
+    for checksum in dupsets:
+        ds = da.find_dups_for_checksum(checksum)
+        set_hit_list = []
+        for path in ds:
+            if hit_pat in path:
+                set_hit_list.append(path)
+        if len(ds) > len(set_hit_list):
+            hit_list = hit_list + set_hit_list
+
+
+    db = CommsDBTable (globals.composite_sqlite_file)
+    print '\nhit_list\n'
+    for h in sorted(hit_list):
+        # print '-',h
+        db.delete_record("path = '{}'".format(h))
+
+
 def filter_dups (da, filter_fn):
     path_map = da._get_path_map()
     found = filter (filter_fn, path_map.keys())
@@ -214,19 +238,30 @@ if __name__ == '__main__':
     # foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/ignore these/predict'
     # print num_images_in_dir(foo)
 
-    # dup_data = '/Users/ostwald/Documents/Comms/CIC-ExternalDisk6/dups/check_sum_dups.json'
-    # dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
-    # dup_data = '/Users/ostwald/tmp/TEST_composite/dups/check_sum_dups.json'
-    # dup_data = '/Users/ostwald/Documents/Comms/CIC-ExternalDisk1/dups/check_sum_dups.json'
-    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
 
-    da = DupAnalyzer (dup_data)
+    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
+    print dup_data
+    da = DupManager (dup_data)
     # da.report_dir_map()
 
     path_map = da._get_path_map()
     # print '{} paths in path_map'.format(len(path_map))
     #
+
     if 1:
+        dup_map = da.dup_map
+        checksums = dup_map.keys()
+        total_cnt = 0
+        print 'there are {} dup sets'.format(len(checksums))
+        for i, key in enumerate(checksums):
+            print '\n{} - {}'.format(i, key)
+            cnt = len(dup_map[key])
+            print '- {}'.format(cnt)
+            total_cnt += cnt - 1
+        print 'total to be deleted: {}'.format(total_cnt)
+
+
+    if 0:
         filter_fn = lambda x: 'CIC-ExternalDisk6' in x
 
         def my_filter (x):
@@ -249,24 +284,6 @@ if __name__ == '__main__':
 
 
     if 0:
-        total_cnt = len(da.dup_map)
-        selected_dups = da.find_disk_1_dups()
-        print 'total dup_sets: {}, dup_sets with at least one in ExternalDisk1: {}'.format(total_cnt, len(selected_dups))
-
-    if 0:  # find dupsets with at least one member in target_disc
-        target_disc = 'Lower-priority pix--removed from Bob%27s hard drive (all by BH, (c) UCAR)/VORTEX2 6.09'
-        selected_dups = da.find_dups_with_substring(target_disc)
-        print '{} dupsets found'.format(selected_dups)
-        i = 0
-        for checksum in selected_dups:
-            dups = da.dup_map[checksum]
-            print ''
-            for dup in dups:
-                print dup
-                if target_disc in dup:
-                    i += 1
-        print '\n{} total dups for {}'.format(i, target_disc)
-    if 0:
         non_dup_report (da)
 
     if 0:
@@ -280,3 +297,5 @@ if __name__ == '__main__':
         if 1:
             for nd in non_dups:
                 print nd
+
+
