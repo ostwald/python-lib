@@ -16,6 +16,16 @@ SKIP_DIR_NAME_FRAGS = [
 SKIP_DIR_PATHS = [
 ]
 
+def make_path (frag):
+    base_path = '/Volumes/archives/CommunicationsImageCollection/'
+    return os.path.join (base_path, frag)
+
+def normalize_db_path(path):
+    return path.replace("'", "''").replace (u'\u2019', "''")
+
+def normalize_file_path(path):
+    return path.replace ("%27", "'")
+
 IMAGE_EXTENSIONS = [
     '.2jpg',
     '.cr2',
@@ -83,27 +93,58 @@ KNOWN_EXTENSIONS = [
 
 ]
 
-IMAGE_EXTENSIONS_OLD = [
-    '.jsp',
-    '.jpg',
-    '.gif',
-    '.tif',
-    '.eps',
-    '.JPG',
-    '.png',
-    '.jfif',
-    '.jpeg',
-    '.GIF',
-    '.tiff',
-    '.CR2',
-    '.CRW',
-
-    '.2jpg',
-    '.TIF',
-    '.gif3',
-    '.PNG',
-    '.NEF',
-    '.dng',
+VIDEO_EXTENSIONS = [
+    '.afm',
+    '.ai',
+    '.aiff',
+    '.aif',
+    '.avi',
+    '.avi',
+    '.cpi',
     '.cr2',
+    '.cr2',
+    '.crw',
+    '.dng',
+    '.dv',
+    '.dwt',
+    '.dylib',
+    '.fla',
+    '.flv',
+    '.fp7',
+    '.h3r',
+    '.imovieproj',
+    '.ivr',
+    '.jfif',
     '.jpe',
+    '.lw',
+    '.m2v',
+    '.m4v',
+    '.mov',
+    '.mov',
+    '.mp3',
+    '.mp4',
+    '.mpeg',
+    '.mpg',
+    '.mts',
+    '.nef',
+    '.odt',
+    '.otf',
+    '.par',
+    '.pg',
+    '.pm',
+    '.png',
+    '.psd',
+    '.qt',
+    '.qxd',
+    '.rtf',
+    '.svg',
+    '.swf',
+    '.thm',
+    '.tid',
+    '.ttc',
+    '.ttf',
+    '.ttf',
+    '.wav',
+    '.wmv',
+    '.wmz',
 ]

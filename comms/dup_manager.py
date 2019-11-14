@@ -10,16 +10,16 @@ which have different names (if any_?
 """
 import os, sys, json
 import globals
-
+from comms_db import CommsDBTable
 
 # def num_images_in_dir (dirname):
 #     return len (globals.get_dir_iamges(dirname))
 
-class DupAnalyzer:
+class DupManager:
 
     def __init__ (self, dup_data_path):
         """
-        DupAnalyzer reads a json file containing a mapping from checksum to paths. So all the paths
+        DupManager reads a json file containing a mapping from checksum to paths. So all the paths
         for a particular checksum are dups.
 
         path_map - built as a side effect:( - maps the path of a file to it's checksum
@@ -27,10 +27,9 @@ class DupAnalyzer:
         :param dup_data_path:
         """
         self.dup_map = json.loads(open(dup_data_path,'r').read())
-        print '{} dup entries found'.format(len (self.dup_map))
+        # print '{} dup entries found'.format(len (self.dup_map))
 
         self.path_map = None
-
         self.dir_map = None
 
     def _get_dir_map (self):
@@ -92,6 +91,9 @@ class DupAnalyzer:
         """
         (recursively) lists the files in specified folder that have dups, and
          list the dups themselvesx
+
+         NOTE and TODO - uses file system. Should be modified to use DataBase only!
+
         """
         files = []
         dirs = []
@@ -128,20 +130,36 @@ class DupAnalyzer:
         dups.remove(path)
         return dups
 
+    def find_dups_for_checksum(self, checksum):
+        return self.dup_map[checksum]
+
     def find_disk_1_dups (self):
         """
         question: how many dups have at least one copy on CIC-ExternalDisk1?
         """
+        # dup_set_keys = sorted(self.dup_map.keys())
+        #
+        # selected_dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
+        # for checksum in dup_set_keys:
+        #     dup_set = self.dup_map[checksum]
+        #     for dup in dup_set:
+        #         if "CIC-ExternalDisk1" in dup:
+        #             selected_dup_sets.append (checksum)
+        #             break
+        # return  selected_dup_sets
+        return self.find_dups_with_substring('CIC-ExternalDisk1')
+
+    def find_dups_with_substring (self, substr):
         dup_set_keys = sorted(self.dup_map.keys())
 
         selected_dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
         for checksum in dup_set_keys:
             dup_set = self.dup_map[checksum]
             for dup in dup_set:
-                if "CIC-ExternalDisk1" in dup:
+                if substr in dup:
                     selected_dup_sets.append (checksum)
                     break
-        return  selected_dup_sets
+        return selected_dup_sets
 
     def find_non_dups_for_directory (self, path, sqlite_file):
         """
@@ -176,13 +194,41 @@ def non_dup_report (da):
             for nd in non_dups:
                 print nd
 
+def deleteMatchingDups (da, hit_pat):
+    dupsets = da.find_dups_with_substring(hit_pat)
+    print '{} dupsets found'.format(len(dupsets))
+
+    hit_list = [] # we're going to delete these
+    for checksum in dupsets:
+        ds = da.find_dups_for_checksum(checksum)
+        set_hit_list = []
+        for path in ds:
+            if hit_pat in path:
+                set_hit_list.append(path)
+        if len(ds) > len(set_hit_list):
+            hit_list = hit_list + set_hit_list
+
+
+    db = CommsDBTable (globals.composite_sqlite_file)
+    print '\nhit_list\n'
+    for h in sorted(hit_list):
+        # print '-',h
+        db.delete_record("path = '{}'".format(h))
+
+
+def filter_dups (da, filter_fn):
+    path_map = da._get_path_map()
+    found = filter (filter_fn, path_map.keys())
+    found.sort (key=lambda x: x.upper())
+    return found
+
 def find_paths (da, needle, verbose=1):
     path_map = da._get_path_map()
     found = []
     for path in path_map.keys():
         if needle in path:
             found.append(path)
-    print '{} found'.format(len(found))
+    print '{} dups found containing "{}"'.format(len(found), needle)
     found.sort()
     if verbose:
         for p in found:
@@ -192,30 +238,50 @@ if __name__ == '__main__':
     # foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/ignore these/predict'
     # print num_images_in_dir(foo)
 
-    # dup_data = '/Users/ostwald/Documents/Comms/CIC-ExternalDisk6/dups/check_sum_dups.json'
-    # dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
-    # dup_data = '/Users/ostwald/tmp/TEST_composite/dups/check_sum_dups.json'
-    # dup_data = '/Users/ostwald/Documents/Comms/CIC-ExternalDisk1/dups/check_sum_dups.json'
-    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
 
-    da = DupAnalyzer (dup_data)
+    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
+    print dup_data
+    da = DupManager (dup_data)
     # da.report_dir_map()
 
     path_map = da._get_path_map()
-    print '{} paths in path_map'.format(len(path_map))
+    # print '{} paths in path_map'.format(len(path_map))
+    #
 
-    find_paths(da, 'CarlyeMainDisk1/')
+    if 1:
+        dup_map = da.dup_map
+        checksums = dup_map.keys()
+        total_cnt = 0
+        print 'there are {} dup sets'.format(len(checksums))
+        for i, key in enumerate(checksums):
+            print '\n{} - {}'.format(i, key)
+            cnt = len(dup_map[key])
+            print '- {}'.format(cnt)
+            total_cnt += cnt - 1
+        print 'total to be deleted: {}'.format(total_cnt)
+
+
+    if 0:
+        filter_fn = lambda x: 'CIC-ExternalDisk6' in x
+
+        def my_filter (x):
+            if not 'CIC-ExternalDisk7' in x:
+                return False
+            if 'CIC-ExternalDisk2/video clips' in x:
+                return False
+            if 'CIC-ExternalDisk2/WORK FILES RESTORE' in x:
+                return False
+            return True
+        found = filter_dups(da, filter_fn)
+        print '{} found matey'.format(len (found))
+        for p in found:
+            print '-', p
 
     if 0:
         # base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/archived/'
         base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/design and work files'
         da.report_dups_in_folder(base_dir)
 
-
-    if 0:
-        total_cnt = len(da.dup_map)
-        selected_dups = da.find_disk_1_dups()
-        print 'total dup_sets: {}, dup_sets with at least one in ExternalDisk1: {}'.format(total_cnt, len(selected_dups))
 
     if 0:
         non_dup_report (da)
@@ -231,3 +297,5 @@ if __name__ == '__main__':
         if 1:
             for nd in non_dups:
                 print nd
+
+
