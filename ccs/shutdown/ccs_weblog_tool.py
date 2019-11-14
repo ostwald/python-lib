@@ -82,7 +82,8 @@ def make_tally():
     """
     print out unique ip visitors over log
     """
-    path = '/Users/ostwald/tmp/ccs-nov-dec.log'
+    # path = '/Users/ostwald/tmp/ccs/ccs-nov-dec.log'
+    path = '/Users/ostwald/tmp/ccs/ccs.dls.ucar.edu_access_log'
     lf = LogFile(path)
 
     entries = filter (None, filter (lambda x:x.get_query_param('uuid'), lf.data))
@@ -101,11 +102,44 @@ def make_tally():
     for id in uuids:
         print '-',id
 
-    
+def make_tally_2():
+    """
+    print out unique ip visitors over log and their last visit
+    """
+    # path = '/Users/ostwald/tmp/ccs/ccs-nov-dec.log'
+    path = '/Users/ostwald/tmp/ccs/ccs.dls.ucar.edu_access_log'
+    lf = LogFile(path)
+
+    entries = filter (None, filter (lambda x:x.get_query_param('uuid'), lf.data))
+
+    # entries.sort(key = lambda x:x.get_query_param('uuid'))
+
+    tally = {}
+
+    for entry in entries:
+        id = entry.get_query_param('uuid')
+        tally[id] = entry.date
+    return tally
+
+def write_tabdelimited_tally():
+    tally = make_tally_2()
+    lines = [];add=lines.append
+    add (['id', 'timestamp'])
+    keys = sorted(tally.keys())
+    print 'unique UUIds (%d)' % len(keys)
+    for id in keys:
+        # print '- %s - %s' % (id, tally[id])
+        add ([id, tally[id]])
+    outpath = 'TALLY.txt'
+    fp = open (outpath, 'w')
+    fp.write('\n'.join (map (lambda x:'\t'.join(x), lines)))
+    print 'wrote to ', outpath
+
+
 if __name__ == '__main__':
     # path = '/Users/ostwald/tmp/ccs-nov-dec.log'
     # lf = LogFile(path)
-    make_tally()
-    # LogFileTester()
+    # tally = make_tally_2()
+    write_tabdelimited_tally()
 
     
