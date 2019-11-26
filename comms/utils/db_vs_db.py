@@ -3,8 +3,8 @@ compares 2 DBs
 """
 
 import os, sys
-import globals
-from comms_db import CommsDBTable
+import comms.globals
+from comms.comms_db import CommsDBTable
 
 class DB_Comparator:
 

@@ -1,4 +1,4 @@
-import sys, os, re, time
+import sys, os, re, time, traceback
 from jloFS import JloFile
 from UserDict import UserDict
 from UserList import UserList
@@ -125,8 +125,11 @@ class CommsDBTable:
         try:
             c.execute("INSERT INTO {tn} ({fn}) VALUES ({fv})" \
                       .format(tn=self.table_name, fn=quoted_schema, fv=quoted_values))
-        except:
-            print('ERROR: {}'.format(sys.exc_info()))
+        except Exception, msg:
+            print('ERROR: {}'.format(msg))
+            traceback.print_stack()
+            print 'QUOTED VALS: {}'.format(quoted_values)
+            sys.exit(1)
 
         conn.commit()
         conn.close()
