@@ -2,8 +2,8 @@ import os
 
 from comms_db import CommsDBTable
 
-if 0:
-    for disc_num in range(245,286):
+if 1:
+    for disc_num in range(173,174):
         command = 'python dir_lister_utils.py {} > listings/disc_{}.txt'.format(disc_num, disc_num)
         # command = 'python dir_lister.py \'{} \' > listings/disc_{}.txt'.format(disc_num, disc_num)
         print command
@@ -33,7 +33,7 @@ if 0: # comms video loader
     loader = AutoLoader()
     loader.process()
 
-if 1:
+if 0:
 
     class Normalizer:
 

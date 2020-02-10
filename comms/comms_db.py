@@ -45,11 +45,12 @@ class Schema (UserDict):
             val = field.get_value(obj)
             if type(val) == type(''):
                 # row_value_list.append("'{}'".format(val.replace ("'", "%27")))
+                val = val.replace ("'", "''")  # escape apos
                 row_value_list.append("'{}'".format(val))
             if type(val) == type(1) or type(val) == type(1.5):
                 row_value_list.append(str(val))
-        quoted_values = ','.join(row_value_list)
 
+        quoted_values = ','.join(row_value_list)
         return quoted_values
 
 def get_time_str(secs):
@@ -70,8 +71,8 @@ class CommsDBTable:
         ['extension', 'TEXT', lambda x:x.ext],
         ['image_type', 'TEXT', ''],  # jpg and JPG are both JPEG, cr2 and crw are both RAW
         ['size', 'INTEGER', lambda x:x.size],
-        # ['check_sum', 'TEXT', lambda x:get_checksum(x.path)],
-        ['check_sum', 'TEXT', lambda x:'0'],
+        ['check_sum', 'TEXT', lambda x:get_checksum(x.path)],
+        # ['check_sum', 'TEXT', lambda x:'0'],
         # ['date_created', 'FLOAT', lambda x:x.ctime],
         ['date_created', 'TEXT', lambda x:get_time_str(x.ctime)],
         # ['date_modified', 'FLOAT', lambda x:x.modtime],
@@ -120,7 +121,6 @@ class CommsDBTable:
 
         # put data list together to match with schema fields
         quoted_values = self.schema.obj_to_data_values(file_obj)
-        # print quoted_values
 
         try:
             c.execute("INSERT INTO {tn} ({fn}) VALUES ({fv})" \
@@ -254,10 +254,15 @@ if __name__ == '__main__':
         path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk2/staff.jpg'
         show_file(path)
 
-    if 1:
+    if 0:
         table = CommsDBTable(sqlite_file)
         # path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/spark calendar'
         path = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2'
         filenames = table.list_dir(path)
         for f in filenames:
             print '- ',f
+
+    if 1:   # checksum tester
+        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 10/rick anthes/weather chan interview/IMG_5622.tif'
+        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 6/film crew/IMG_5622.tif'
+        print get_checksum(path)

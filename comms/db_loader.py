@@ -101,6 +101,9 @@ if __name__ == '__main__':
                 print sys.exc_info()[1]
 
     if 1: #
-        sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped-VERIFY.sqlite'
-        root = '/Volumes/cic-de-duped'
+        sqlite_file = '/Users/ostwald/Documents/Comms/Staging/Staging.sqlite'
+        root = '/Volumes/archives/CommunicationsImageCollection/Staging'
+        # root = '/Volumes/archives/CommunicationsImageCollection/Staging/Field Project-DC3-FP22/Disc 1'
+        if os.path.exists(sqlite_file):
+            os.remove (sqlite_file)
         load_db_from_path(root, sqlite_file)

@@ -245,10 +245,10 @@ if __name__ == '__main__':
     if 0:
         report_sqlite_dbs()
 
-    if 0:
+    if 1:
         report_composite()
 
-    if 1:
+    if 0:
         report_dir = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped-reports'
         sqlite_file= '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped.sqlite'
         report_db (sqlite_file, report_dir)

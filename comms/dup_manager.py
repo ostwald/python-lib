@@ -234,6 +234,35 @@ def find_paths (da, needle, verbose=1):
         for p in found:
             print '-', p
 
+def report_staging_dups (dup_manager):
+    """
+    for each dup set, if there is at least one member NOT from Staging, the delete the dups from Staging.
+    :param dup_manager:
+    :return:
+    """
+    dup_map = da.dup_map
+    checksums = dup_map.keys()
+    to_delete = []
+    print 'there are {} dup sets'.format(len(checksums))
+    for i, key in enumerate(checksums):
+        stagers = []
+        non_stagers = []
+        paths = dup_map[key]
+        for path in paths:
+            if path.startswith ("/Volumes/archives/CommunicationsImageCollection/Staging"):
+                stagers.append (path)
+            else:
+                non_stagers.append (path)
+
+        if len (non_stagers) > 0:
+            to_delete = to_delete + stagers
+
+    to_delete.sort()
+    print 'To Delete ({})'.format(len (to_delete))
+    # for p in to_delete:
+    #     print '-',p
+
+
 if __name__ == '__main__':
     # foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/ignore these/predict'
     # print num_images_in_dir(foo)
@@ -249,6 +278,9 @@ if __name__ == '__main__':
     #
 
     if 1:
+        report_staging_dups(da)
+
+    if 0:
         dup_map = da.dup_map
         checksums = dup_map.keys()
         total_cnt = 0
