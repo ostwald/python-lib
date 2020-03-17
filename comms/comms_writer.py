@@ -32,7 +32,7 @@ class Writer:
 
         if self.start_with_frest_dest_sqlite_file:
             if os.path.exists(self.dest_sqlite_file):
-                print 'deleting exstingi db file at: {}'.format(self.dest_sqlite_file)
+                print 'deleting exsting db file at: {}'.format(self.dest_sqlite_file)
                 os.remove(self.dest_sqlite_file)
 
         self.src_db = CommsDBTable(self.src_sqlite_file)

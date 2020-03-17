@@ -20,7 +20,7 @@ def accept (s):
     return True
 
 
-def hollys_report():
+def hollys_human_readable_report():
     """
     IN the original de-duping, we sometimes tossed a file with a human-readable name and kept
     the dup with camera-given name.
@@ -61,9 +61,33 @@ def hollys_report():
                 filename = os.path.split(path)[1]
                 print '- {}  ({})'.format(filename, path_frag)
 
+def hollys_path_report(path):
+    """
+    Given a path, make a report that lists it's dupset and which file actually exists
+    -
+
+    In this report we try to find those instances....
+    """
+    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/master_check_sum_dups.json'
+    print dup_data
+    da = DupManager (dup_data)
+
+    da.report_dups_in_folder(path)
+
+
 if __name__ == '__main__':
 
-    hollys_report()
+    # hollys_human_readable_report()
+
+    base_path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1'
+    path_frag = 'disc 17/GLOBE 2003 '
+    path_frag = 'disc 27/killeen'
+    # path_frag = 'disc 7/holidayparty04'
+    path = os.path.join (base_path, path_frag)
+
+
+    comp_parth = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 17/GLOBE 2003 '
+    hollys_path_report(path)
 
     if 0:
         filename = 'suzyq 349.png'

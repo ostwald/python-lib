@@ -5,12 +5,20 @@ import sqlite3
 from comms_db import CommsDBTable
 
 def get_num (filename):
+    """
+
+    :param filename:
+    :return:
+    """
+
     if filename[0] == '.':
         return None
     root = os.path.splitext(filename)[0]
     pat = re.compile("([0-9]+)")
     m = pat.findall (root)
     m.sort (key=lambda x: -int(x))
+
+    print m
 
     if m and len(m[0]) > 3:
         return m[0]
@@ -30,6 +38,10 @@ class ImageRange:
             return '{}-{}'.format(self.start,self.end)
 
 class DirLister:
+
+    """
+    Does listing and reporting over File Directories
+    """
 
     def __init__ (self, base_dir, level=0, recursive=True):
         self.base_dir = base_dir
@@ -131,7 +143,10 @@ dup_manager = DupManager('/Users/ostwald/Documents/Comms/Composite_DB/dups/check
 def is_dup (path):
     return dup_manager._get_path_map().has_key(path)
 
-class DBDirLister (DirLister):
+class  (DirLister):
+    """
+    Provides Listing tools operating over a DB (rather than a file system)
+    """
 
     def __init__ (self, base_dir, level=0, recursive=True):
         DirLister.__init__ (self, base_dir, level, recursive)
@@ -169,7 +184,7 @@ class DBDirLister (DirLister):
 
 if __name__ == '__main__':
 
-    if 1: # DEFAULT - called by __init__.py
+    if 0: # DEFAULT - called by __init__.py
         if len(sys.argv) > 1:
             disc_num = sys.argv[1]
             path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc {}'.format(disc_num)
@@ -192,3 +207,8 @@ if __name__ == '__main__':
 
         where_clause = "WHERE path LIKE '{}%'".format(path)
         print "TOTAL FILES: {}".format(lister.db.count_selected(where_clause))
+
+    if 1:
+        num_str = "08x }'97dgy238742.JPG"
+        num = get_num("08972.JPG")
+        print '- num_str: "{}" get_num: "{}" ({})'.format(num_str, num, type (num))

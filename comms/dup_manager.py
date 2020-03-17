@@ -8,12 +8,42 @@ do all dups have same size (we better hope so)
 which have different names (if any_?
 
 """
-import os, sys, json
+import os, sys, json, traceback
 import globals
 from comms_db import CommsDBTable
+from UserList import UserList
 
 # def num_images_in_dir (dirname):
 #     return len (globals.get_dir_iamges(dirname))
+
+class DupSet (UserList):
+
+    def __init__(self, checksum, duplist):
+        self.checksum = checksum
+        self.duplist = duplist
+        self.file = None # self.set_dup_file()
+
+
+    def set_dup_file (self):
+        """
+        Doesn't make sense before pruning, since there will be a file for each dup
+        :return:
+        """
+        self.file = None
+        for path in self.duplist:
+            if os.path.exists (path):
+                # integrity check for single file?
+                if self.file is not None:
+                    # raise Exception, "found extra dup for {} - {}".format(self.checksum, path)
+                    pass
+                self.file = path
+
+    def find_items_with_substring(self, substr):
+        found = []
+        for path in self.duplist:
+            if substr in path:
+                found.append (path)
+        return found
 
 class DupManager:
 
@@ -26,11 +56,15 @@ class DupManager:
 
         :param dup_data_path:
         """
+        self.data_path = dup_data_path
         self.dup_map = json.loads(open(dup_data_path,'r').read())
         # print '{} dup entries found'.format(len (self.dup_map))
 
         self.path_map = None
         self.dir_map = None
+
+    def get_dup_set (self, checksum):
+        return DupSet (checksum, self.dup_map[checksum])
 
     def _get_dir_map (self):
         """
@@ -63,6 +97,23 @@ class DupManager:
                     path_map[path] = chksum
             self.path_map = path_map
         return self.path_map
+
+    def get_dupset (self, img_path=None, checksum=None):
+        # print 'get_dupset'
+        # print ' - img_path: {}'.format(img_path)
+        # print ' - checksum: {}'.format(checksum)
+        try:
+            path_checksum = None
+            if img_path is not None:
+                path_checksum = self._get_path_map()[img_path]
+
+            if checksum is not None and path_checksum is not None and path_checksum != checksum:
+                raise Exception, "given check sum {} does not match derived checksum {}".format(checksum, path_checksum)
+            dup_list = self.dup_map[checksum]
+            return DupSet (checksum, dup_list)
+        except:
+            traceback.print_exc()
+            sys.exit()
 
     def report_dir_map(self, verbose=True):
         """
@@ -137,19 +188,14 @@ class DupManager:
         """
         question: how many dups have at least one copy on CIC-ExternalDisk1?
         """
-        # dup_set_keys = sorted(self.dup_map.keys())
-        #
-        # selected_dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
-        # for checksum in dup_set_keys:
-        #     dup_set = self.dup_map[checksum]
-        #     for dup in dup_set:
-        #         if "CIC-ExternalDisk1" in dup:
-        #             selected_dup_sets.append (checksum)
-        #             break
-        # return  selected_dup_sets
         return self.find_dups_with_substring('CIC-ExternalDisk1')
 
     def find_dups_with_substring (self, substr):
+        """
+
+        :param substr:
+        :return: List of checksums representing the dupsets containing the given substr
+        """
         dup_set_keys = sorted(self.dup_map.keys())
 
         selected_dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
@@ -161,6 +207,30 @@ class DupManager:
                     break
         return selected_dup_sets
 
+    def find_dup_items_with_substring (self, substr):
+        """
+
+        :param substr:
+        :return: List of checksums representing the dupsets containing the given substr
+        """
+        # dup_set_keys = sorted(self.dup_map.keys())
+        #
+        # dup_items = [] # these will have at least one copy on CIC-ExternalDisk1
+        # for checksum in dup_set_keys:
+        #     dup_set = DupSet (checksum, self.dup_map[checksum])
+        #     print '-', checksum
+        #     dup_items += dup_set.find_items_with_substring(substr)
+
+        dup_items = []
+        path_map = self._get_path_map()
+
+        for path in path_map:
+            if substr in path:
+                dup_items.append(path)
+
+        return dup_items
+
+
     def find_non_dups_for_directory (self, path, sqlite_file):
         """
         By finding the non_dups in a given directory we can get an idea
@@ -171,7 +241,7 @@ class DupManager:
         # print 'path:', path
         # print 'sqlite_file', sqlite_file
         all_paths = map(lambda x:x[0], db.select('path', "WHERE path LIKE '{}%'".format(path)))
-        print 'all paths: {}'.format(len(all_paths))
+        print ' - all paths: {} ({})'.format(len(all_paths), path)
         # non_dups = filter (lambda x: self.path_map.has_key(x), all_paths)
 
         non_dups = []
@@ -268,7 +338,8 @@ if __name__ == '__main__':
     # print num_images_in_dir(foo)
 
 
-    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
+    # dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/checksum_dups.json'
+    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/master_checksum_dups.json'
     print dup_data
     da = DupManager (dup_data)
     # da.report_dir_map()
@@ -277,7 +348,9 @@ if __name__ == '__main__':
     # print '{} paths in path_map'.format(len(path_map))
     #
 
-    if 1:
+
+
+    if 0:
         report_staging_dups(da)
 
     if 0:

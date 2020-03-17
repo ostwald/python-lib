@@ -204,6 +204,7 @@ class CommsDBTable:
         """
         like os.listdir, return list of names - images and directories, both derived from comms_files paths
         """
+        path = path.replace ("'", "''")
         if not path.endswith('/'):
             path += '/'
         candidates = self.select('*', "WHERE path LIKE '{}%'".format(path))
