@@ -17,78 +17,107 @@ Next, we have to
 
 """
 import os, sys, re
-from tabdelimited import CsvFile, CsvRecord
+from UserList import UserList
+from tabdelimited import CsvFile, CsvRecord, FieldList
+import csv
 
-def get_doi_pid_map ():
 
-    pid_doi_path = '/Users/ostwald/tmp/RAL_pubs.csv'
+def get_pid_list (path):
+    """
+    extract pids from a file created by ncarlibadmin/report/lab_pub_reporter.py
+    :return:
+    """
+
     csv = CsvFile ()
-    csv.read(pid_doi_path)
+    csv.read(path)
     print '{} records read'.format(len(csv.data))
-    doi_map = {}
-    for rec in csv:
-        if rec['doi'] is None or rec['doi'].strip() == '':
-            # print '{} has no doi'.format(rec['pid'])
-            pass
-        else:
-            doi_map[rec['doi']] = rec['pid']
-    return doi_map
+    pid_list = map (lambda x:x['pid'], csv.data)
+    return pid_list
 
-class RawCsv(CsvFile):
+class MyCsvReader (UserList):
 
-    def __init__ (self):
-        CsvFile.__init__ (self)
-        self.read ('/Users/ostwald/Downloads/08012018_publication_data_raw.csv')
-        print 'raw file contains {} records'.format(len (self.data))
+    def __init__ (self, affiliation):
+        self.affiliation = affiliation
+        self.report_path = '/Users/ostwald/downloads/{}anyauthor 20140101topresent.csv'.format(self.affiliation)
+        self.data = []
+        self.schema = None
+        with open(self.report_path, 'rb') as csvfile:
+            spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
+            for row in spamreader:
+                if self.schema is None:
+                    self.schema = self.makeSchema(row)
+                else:
+                    self.data.append(CsvRecord (row, self))
 
-    def get_doi_map (self):
-        doi_map = {}
+        self.filter_pid_list = get_pid_list('/Users/ostwald/tmp/{}_pubs.csv'.format(self.affiliation))
+
+    def makeSchema (self, data):
+		"""
+		override for CVS, etc
+		"""
+		# print 'schema line: ', data
+		return FieldList(data)
+
+    def get_pid_map (self):
+        pid_map = {}
         for rec in self.data:
-            if rec['DOI'] is None or rec['DOI'].strip() == '':
+            if rec['pid'] is None or rec['pid'].strip() == '':
                 continue
-            doi_map[rec['DOI']] = rec
-        return doi_map
+            pid_map[rec['pid']] = rec
+        return pid_map
 
-    def make_pid_csv (self):
+    def filter_by_pid_list (self):
         lines = [];add=lines.append
-        header = list(rc.schema.data)   # make a clone
-        header.insert (0, 'PID')
+        header = list(self.schema.data)   # make a clone
         add (header)
-
-        doi_pid_map = get_doi_pid_map()
-        doi_rec_map = self.get_doi_map()
-
-        pid_map_keys = doi_pid_map.keys()
-        for doi in pid_map_keys:
-            if not doi_rec_map.has_key(doi):
-                # print 'doi_rec_map does not have {}'.format(doi)
-                print '{} - {}'.format(doi_pid_map[doi], doi)
-                continue
-            data = list(doi_rec_map[doi].data)  # make a clone
-            data.insert(0, doi_pid_map[doi])
-            add (data)
+        pid_map = self.get_pid_map()
+        for pid in  self.filter_pid_list:
+            rec = pid_map[pid]
+            add (rec.data)
 
         return '\n'.join (map (lambda x:'\t'.join(x), lines))
 
+    def write_filtered (self, path=None):
+        if path is None:
+            path = '/Users/ostwald/tmp/{}_first_authors.txt'.format(self.affiliation)
+        fp = open (path, 'w')
+        fp.write (self.filter_by_pid_list())
+        fp.close()
+        print 'wrote to {}'.format(path)
+
 if __name__ == '__main__':
 
-    # print dm['10.1029/2017EO088041']
+    affiliation = 'MMM'
+    # pid_data = '/Users/ostwald/tmp/{}_pubs.csv'.format(affiliation)
+    # pid_list = get_pid_list(pid_data)
+    # print '{} pids read'.format(len(pid_list))
 
-    rc = RawCsv()
+    # rc = RawCsv()
 
-    if 0:
-        doi_pid_map = get_doi_pid_map()
-        doi_rec_map = rc.get_doi_map()
+    if 1:
+        report_path = '/Users/ostwald/downloads/{}anyauthor 20140101topresent.csv'.format(affiliation)
+        reader = MyCsvReader(affiliation)
+        print '{} records read'.format(len(reader.data))
+        # pid_map = reader.get_pid_map()
+        # print '{} pids in map'.format(len(pid_map))
 
-        doi = '10.1002/2013JD021227'
+        # keys = pid_map.keys()
+        # for pid in pid_list:
+        #     if not pid in keys:
+        #         print '{} not in keys'.format(pid)
+        #     else:
+        #         print '{}'.format(pid)
 
-        if doi_pid_map.has_key(doi):
-            print 'doi_pid_map has key {}'.format(doi)
 
-        if doi_rec_map.has_key(doi):
-            print 'doi_rec_map has key {}'.format(doi)
 
-    else:
+        # filtered = reader.make_pid_csv(pid_list)
+        # print 'filtered has {} records'.format(len(filtered))
+        # print 'filtered is a {}'.format(type(filtered))
+        # print filtered
+
+        reader.write_filtered()
+
+    elif 0:
         tabdelimited = rc.make_pid_csv()
         path = '/Users/ostwald/tmp/NEW_PUBS.txt'
         fp = open (path, 'w')

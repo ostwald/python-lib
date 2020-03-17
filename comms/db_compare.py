@@ -3,6 +3,10 @@ import sqlite3
 
 from comms_db import CommsDBTable
 
+"""
+compares DBs with directories on disk
+"""
+
 class CompDB (CommsDBTable):
 
     def __init__ (self, sqlite_file, base_dir):

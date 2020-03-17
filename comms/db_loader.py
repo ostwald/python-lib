@@ -26,7 +26,7 @@ def load_db_from_path (root, sqlitefile):
     walker = LoadingWalker(root, sqlitefile)
     walker.walk()
     print '\n{}'.format(root)
-    print 'files: {}   imnage files: {}   dirs: {}  elapsed: {}'.format(walker.file_cnt, walker.image_cnt, walker.dir_cnt, walker.elapsed)
+    print 'files: {}   image files: {}   dirs: {}  elapsed: {}'.format(walker.file_cnt, walker.image_cnt, walker.dir_cnt, walker.elapsed)
     print 'unknown_extensions:', walker.unknown_extensions
     if 0:
         print 'skipped directories'
@@ -48,7 +48,8 @@ class AutoLoader:
                     os.mkdir (db_dir)
                 sqlite_file = os.path.join (db_dir, filename+'.sqlite')
                 try:
-                    load_db_from_path(path, sqlite_file)
+                    # load_db_from_path(path, sqlite_file)
+                    print 'path: {}, sqlite_file: {}'.format(path, sqlite_file)
                 except AlreadyExistsError:
                     print sys.exc_info()[1]
 
@@ -59,7 +60,8 @@ class AutoLoader:
         name = os.path.basename(path)
         if name.endswith('Try'):
             return False
-        return name.startswith ('Carlye') or name.startswith ('CIC')
+        # return name.startswith ('Carlye') or name.startswith ('CIC')
+        return True
 
 if __name__ == '__main__':
 
@@ -75,7 +77,33 @@ if __name__ == '__main__':
         # root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 9/courtney - daycare/'
         load_db_from_path(root, sqlite_file)
 
-    if 1:
+    if 0:
         loader = AutoLoader()
         loader.process()
         # print loader.accept_top_level_dir('/Volumes/archives/CommunicationsImageCollection/CIC-ExternallDisk1SecondTry/')
+
+
+    if 0:  # load a list of dirs
+        dir_names = ['Field Projects', 'VideoEditingDisk1','VideoEditingDisk2']
+        comms_dir = '/Users/ostwald/Documents/Comms'
+        data_dir = '/Volumes/archives/CommunicationsImageCollection'
+
+        for dir_name in dir_names:
+            root = os.path.join (data_dir, dir_name)
+            sqlite_file = os.path.join (comms_dir, dir_name, dir_name + '.sqlite')
+
+            print '\n',root
+            print ' - ',sqlite_file
+
+            try:
+                load_db_from_path(root, sqlite_file)
+            except AlreadyExistsError:
+                print sys.exc_info()[1]
+
+    if 1: #
+        sqlite_file = '/Users/ostwald/Documents/Comms/Staging/Staging.sqlite'
+        root = '/Volumes/archives/CommunicationsImageCollection/Staging'
+        # root = '/Volumes/archives/CommunicationsImageCollection/Staging/Field Project-DC3-FP22/Disc 1'
+        if os.path.exists(sqlite_file):
+            os.remove (sqlite_file)
+        load_db_from_path(root, sqlite_file)

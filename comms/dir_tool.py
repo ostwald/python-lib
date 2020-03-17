@@ -7,11 +7,15 @@ from UserDict import UserDict
 from comms_db import CommsDBTable
 import globals
 # from dir_lister import list_img_spans
-from dir_lister_class import DBDirLister
+from dir_lister import DBDirLister
 
 __verbose__ = False
 
 class FileEntry:
+
+    """
+    A FileEntry instance encapsulates a DB Record
+    """
 
     def __init__ (self, file_data):
         self.path = file_data[0]
@@ -23,6 +27,11 @@ class FileEntry:
 class DirEntry:
     
     def __init__ (self, file_entry):
+        """
+        _filename_map maps from a file name to a FileEntry instance.
+
+        :param file_entry:
+        """
         self.path = os.path.dirname(file_entry.path)
         self.dirname = os.path.basename(self.path)
         self.files = []
@@ -197,6 +206,10 @@ class DirTool:
     skip_dir_names = ['jpgs', 'raw files', 'extras', 'images', 'Untitled', 'tifs', 'tif files']
 
     def __init__ (self, sqlite_file):
+        """
+        An API to the DB
+        :param sqlite_file:
+        """
         self.sqlite_file = sqlite_file
 
         conn = sqlite3.connect(self.sqlite_file)
@@ -207,11 +220,13 @@ class DirTool:
         self._path_map = None     # from path to FileEntry
 
     def get_file_entry (self, path):
-        return self.get_path_mao()[path]
+        return self.get_path_map()[path]
 
     def get_dirname_map (self):
         """
-        Build a map of all directory names to the FileEntries directly contained in the dir
+        Build a map of all directory NAMES to the FileEntries directly contained in the dir
+
+        So that we canb find Entries by name
         :return:
         """
         if self._dirname_map is None:
@@ -228,7 +243,15 @@ class DirTool:
     def get_dir_entry (self, path):
         return self.get_dirpath_map()[path]
 
+
     def get_dirpath_map (self):
+        """
+        Build a map of all directory PATHS to the FileEntries directly contained in the dir
+
+        So we can find Entries by path
+        :return:
+        """
+
         if self._dirpath_map is None:
             _dirpath_map = {}
             dirname_map = self.get_dirname_map()
@@ -305,7 +328,7 @@ class DirTool:
 
     def report_multies(self, filter_fn=None, display_fn=None):
         """
-        only report mulities that have at least on dir that satsifies filter
+        only report mulities that have at least one dir that satsifies filter
         :return:
         """
         multies = self.get_multies(filter_fn=filter_fn)

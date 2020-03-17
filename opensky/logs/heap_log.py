@@ -21,10 +21,10 @@ patterns = (
     # ('Start up', 'INFO: Starting service Catalina'),
     # ('Shut down', 'INFO: Stopping service Catalina'),
     ('Shut down', 'INFO: Pausing Coyote HTTP/1.1 on http-8080'),
-    # ('Out of Memory', 'java.lang.OutOfMemoryError: Java heap space'),
-    # ('Adder','{add=['),
-    # ('Broken Pipe','ClientAbortException:  java.net.SocketException: Broken pipe'),
-    # ('Connection Reset','ClientAbortException:  java.net.SocketException: Connection reset'),
+    ('Out of Memory', 'java.lang.OutOfMemoryError: Java heap space'),
+    ('Adder','{add=['),
+    ('Broken Pipe','ClientAbortException:  java.net.SocketException: Broken pipe'),
+    ('Connection Reset','ClientAbortException:  java.net.SocketException: Connection reset'),
     # ('Commit Flush','end_commit_flush'),
     # ('OSWS Request', 'client=OpenSky+Web+Service'),
     # ('OpenSky UI', '.keyDate.facet.date.gap'),
@@ -58,7 +58,7 @@ def get_ts(line):
         return None
 
 def find_matched_pattern(line):
-    for i, pat in enumerate(patterns):f
+    for i, pat in enumerate(patterns):
         if line.find (pat[1]) > -1:
             return i
     return -1
@@ -71,7 +71,7 @@ def process(path):
     print '%d lines read' % (len(lines))
 
     ct = None
-    max_lines = 5000
+    max_lines = 5000000
 
     lines_to_process = min(len(lines), max_lines)
 
@@ -125,18 +125,18 @@ def write_data (data, outpath="HEAP_LOG_DATA.txt"):
 
 if __name__ == '__main__':
 
-    if 0:
-        path = '/Users/ostwald/Documents/OpenSky/logs/osstage2/catalina.out-4_8-4_16'
+    if 1:
+        path = '/Users/ostwald/Documents/OpenSky/logs/osstage2/catalina.out-5_6-5_14'
         data = process (path)
         # print 'data is %d lines' % len (data)
         # print data
-        print '%d lines selected' % len (data)
+        # print '%d lines selected' % len (data)
         # for d in data:
         #     print d
 
         # outpath = 'output/' + os.path.splitext(os.path.basename(path))[0] +'.txt'
-        # outpath = 'output/' + os.path.basename(path) +'.txt'
-        # write_data(data, outpath)
+        outpath = 'output/' + os.path.basename(path) +'.txt'
+        write_data(data, outpath)
     elif 1:
         ts1 = 'Apr 12, 2018 6:00:01 AM'
         ts2 = 'Apr 12, 2018 7:00:02 AM'

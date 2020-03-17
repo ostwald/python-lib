@@ -7,15 +7,15 @@ on a copy of composite:
 """
 import os,sys,json, re
 import globals
-from dup_analysis import DupAnalyzer
+from dup_manager import DupManager
 from comms_db import CommsDBTable
 from sql_filter import SqlFilter
 import sqlite3
 
-class Reaper(DupAnalyzer):
+class Reaper(DupManager):
 
     def __init__ (self, dup_data_path, sqlite_file):
-        DupAnalyzer.__init__(self, dup_data_path)
+        DupManager.__init__(self, dup_data_path)
         self.db = CommsDBTable(sqlite_file)
 
 
@@ -151,6 +151,7 @@ class Reaper(DupAnalyzer):
 
 
     def is_ignorable (self, path):
+
         ignorables = [
             'design and work files',
             'work files',
@@ -163,11 +164,84 @@ class Reaper(DupAnalyzer):
                 return 1
         return 0
 
-if __name__ == '__main__':
-    sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/composite.sqlite'
-    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
+    def dedup_4 (self):
+        """
+        After this round there will be no more dups in the database.
 
+        For each dupset,
+
+        - if a disk num is found, keep the lowest
+        - else, sort paths and keep the first
+        """
+        dup_set_keys = sorted(self.dup_map.keys())
+
+        dup_sets = [] # these will have at least one copy on CIC-ExternalDisk1
+        for checksum in dup_set_keys:
+            dup_sets.append(self.dup_map[checksum])
+
+        disc_pat = re.compile ("CIC-ExternalDisk1/disc ([0-9]+)")
+
+        total_to_delete = 0
+        dowrites = 0
+
+        print '{} dupsets'.format(len(dup_sets))
+
+        for dup_set in dup_sets:
+            dup_to_keep = None
+
+            # print all in the set
+            dup_set.sort()
+            for path in dup_set:
+                #print u'- {}'.format(path)
+
+                m = disc_pat.search(path)
+                if m:
+                    dup_to_keep = path
+                    break
+
+            # if we haven't found a disc N dup, then just pick one
+            if dup_to_keep is None:
+                dup_to_keep = dup_set[0]
+
+            dups_to_kill = filter (lambda x:x != dup_to_keep, dup_set)
+
+            for dup in dups_to_kill:
+                print 'x  -', dup
+                total_to_delete += 1
+                if dowrites:
+                    self.delete_record (dup)
+
+            if 1:  # VERBOSE
+                print ' - ', dup_to_keep
+                for d in dups_to_kill:
+                    print '  x  ', d
+
+            break
+
+        print 'total to delete: {}'.format(total_to_delete)
+
+    def dedup_5 (self):
+        """
+        After this round there will be no more dups in the database.
+
+        For each dupset,
+
+        - if a disk num is found, keep the lowest
+        - else, sort paths and keep the first
+        """
+        self.dedup_4()
+
+
+
+
+if __name__ == '__main__':
+    # sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/composite.sqlite'
+    # dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
+
+
+    sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped.sqlite'
+    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped-reports/dups/check_sum_dups.json'
 
     reaper = Reaper (dup_data, sqlite_file)
     # reaper.filter_by_paths()
-    reaper.dedup_2()
+    reaper.dedup_4()

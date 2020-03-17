@@ -1,4 +1,4 @@
-import sys, os, re, time
+import sys, os, re, time, traceback
 from jloFS import JloFile
 from UserDict import UserDict
 from UserList import UserList
@@ -44,11 +44,13 @@ class Schema (UserDict):
         for field in self.fields:
             val = field.get_value(obj)
             if type(val) == type(''):
-                row_value_list.append("'{}'".format(val.replace ("'", "%27")))
+                # row_value_list.append("'{}'".format(val.replace ("'", "%27")))
+                val = val.replace ("'", "''")  # escape apos
+                row_value_list.append("'{}'".format(val))
             if type(val) == type(1) or type(val) == type(1.5):
                 row_value_list.append(str(val))
-        quoted_values = ','.join(row_value_list)
 
+        quoted_values = ','.join(row_value_list)
         return quoted_values
 
 def get_time_str(secs):
@@ -70,6 +72,7 @@ class CommsDBTable:
         ['image_type', 'TEXT', ''],  # jpg and JPG are both JPEG, cr2 and crw are both RAW
         ['size', 'INTEGER', lambda x:x.size],
         ['check_sum', 'TEXT', lambda x:get_checksum(x.path)],
+        # ['check_sum', 'TEXT', lambda x:'0'],
         # ['date_created', 'FLOAT', lambda x:x.ctime],
         ['date_created', 'TEXT', lambda x:get_time_str(x.ctime)],
         # ['date_modified', 'FLOAT', lambda x:x.modtime],
@@ -118,20 +121,22 @@ class CommsDBTable:
 
         # put data list together to match with schema fields
         quoted_values = self.schema.obj_to_data_values(file_obj)
-        # print quoted_values
 
         try:
             c.execute("INSERT INTO {tn} ({fn}) VALUES ({fv})" \
                       .format(tn=self.table_name, fn=quoted_schema, fv=quoted_values))
-        except:
-            print('ERROR: {}'.format(sys.exc_info()))
+        except Exception, msg:
+            print('ERROR: {}'.format(msg))
+            traceback.print_stack()
+            print 'QUOTED VALS: {}'.format(quoted_values)
+            sys.exit(1)
 
         conn.commit()
         conn.close()
 
     def delete_record (self, where_condition):
         """
-        DELETE FROM table_name WHERE condition;
+        DELETE FROM table_name WHERE condition (e.g., "path LIKE '%BOGUS%'";
         """
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
@@ -144,11 +149,19 @@ class CommsDBTable:
         # print 'records affected: {}'.format(conn.total_changes)
         conn.commit()
 
-    def select_all_records (self):
+    def select_all_records (self, sort_spec=None):
+        """
+        sort_spec example: path ASC
+        :param sort_spec:
+        :return:
+        """
+
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
 
         query = "SELECT * from {}".format(self.table_name)
+        if sort_spec is not None:
+            query += ' ORDER BY {}'.format(sort_spec)
 
         c.execute(query)
         rows = c.fetchall()
@@ -170,6 +183,11 @@ class CommsDBTable:
         return rows
 
     def count_selected (self, where_clause=None):
+        """
+
+        :param where_clause: e.g., WHERE path LIKE '%foo%'"
+        :return:
+        """
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
 
@@ -186,6 +204,7 @@ class CommsDBTable:
         """
         like os.listdir, return list of names - images and directories, both derived from comms_files paths
         """
+        path = path.replace ("'", "''")
         if not path.endswith('/'):
             path += '/'
         candidates = self.select('*', "WHERE path LIKE '{}%'".format(path))
@@ -236,10 +255,15 @@ if __name__ == '__main__':
         path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk2/staff.jpg'
         show_file(path)
 
-    if 1:
+    if 0:
         table = CommsDBTable(sqlite_file)
         # path = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/spark calendar'
         path = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2'
         filenames = table.list_dir(path)
         for f in filenames:
             print '- ',f
+
+    if 1:   # checksum tester
+        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 10/rick anthes/weather chan interview/IMG_5622.tif'
+        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 6/film crew/IMG_5622.tif'
+        print get_checksum(path)

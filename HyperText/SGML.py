@@ -14,7 +14,10 @@ class Markup:
 
     start_tag_string = "<!%s "
 
-    def append(self, *items): map(self.content.append, items)
+    # def append(self, *items): map(self.content.append, items)
+    def append(self, *items):
+		map(self.content.append, items)
+		return self
 
     def start_tag(self): return self.start_tag_string % self.name
 
