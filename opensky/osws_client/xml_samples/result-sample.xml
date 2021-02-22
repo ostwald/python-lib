@@ -188,7 +188,7 @@
                     >articles</osm:collectionKey>
             </extension>
             <relatedItem type="isReferencedBy">
-                <identifier type="uri">http://dx.doi.org/10.3201/eid2102.141035</identifier>
+                <identifier type="uri">https://doi.org/10.3201/eid2102.141035</identifier>
             </relatedItem>
             <identifier type="uri" displayLabel="Legacy citable URL"
                 >http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-021-469</identifier>
