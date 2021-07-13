@@ -1,7 +1,8 @@
 import os
 
-from comms_db import CommsDBTable
+from comms_db import CommsDBTable, get_checksum
 import globals
+from dup_manager import DupManager
 
 if 0:
     for disc_num in range(173,174):

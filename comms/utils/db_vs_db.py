@@ -37,9 +37,8 @@ class DB_Comparator:
                 print '- {}'.format(path)
 
 if __name__ == '__main__':
-    sqlite_A = '/Users/ostwald/Documents/Comms/Composite_DB/composite.sqlite'
+    sqlite_A = '/Users/ostwald/Documents/Comms/Composite_DB/field_projects_duped.sqlite'
     sqlite_B = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped.sqlite'
 
     cmp = DB_Comparator(sqlite_A, sqlite_B)
     cmp.report()
-

@@ -1,4 +1,4 @@
-import os, sys,shutil
+import os, sys, shutil, traceback
 from comms_db import CommsDBTable
 import globals
 import sqlite3
@@ -24,9 +24,15 @@ class Writer:
     src_base_dir = '/Volumes/archives/CommunicationsImageCollection'
     dest_base_dir = '/Volumes/cic-de-duped'
     start_with_frest_dest_sqlite_file = False
-
+    dowrites = 1
 
     def __init__ (self, src_sqlite_file, dest_sqlite_file, path_pat=None):
+        """
+
+        :param src_sqlite_file: database file from which records are selected
+        :param dest_sqlite_file: the database to which records are added
+        :param path_pat: used to select the records that will be written
+        """
         self.src_sqlite_file = src_sqlite_file
         self.dest_sqlite_file = dest_sqlite_file
 
@@ -51,7 +57,11 @@ class Writer:
             return self.src_db.select('*', "WHERE path LIKE '%{}%'".format(path_pat))
 
     def get_dest_path (self, src_path):
-        dest_path = src_path.replace (self.src_base_dir, self.dest_base_dir)
+        dest_rel_path = src_path.replace(self.src_base_dir, '')
+        if dest_rel_path.startswith('/Staging'):
+            dest_rel_path = dest_rel_path.replace ('/Staging', '/Field Projects')
+        # dest_path = src_path.replace (self.src_base_dir, self.dest_base_dir)
+        dest_path = self.dest_base_dir + dest_rel_path
         return dest_path
 
     def write_all_records (self, start=0):
@@ -61,28 +71,40 @@ class Writer:
         for rec in self.records[start:]:
             self.write_record(rec)
             i += 1
-            if i > 0 and i % 1000 == 0:
+            if i > 0 and i % 100 == 0:
                 print u'{}/{}'.format(i, num_recs)
 
-
     def write_record (self, rec):
-        rec = list(rec)
-        src_path = rec[1]
+        """
+
+        :param rec: a db_record
+        :return:
+        """
+        rec = list(rec)  # to clone row of data
+        src_path = rec[1] # path is the second field
         dest_path = self.get_dest_path(src_path)
 
-        rec[1] = dest_path.replace ("%27", "''")
+        # escape quote for sql
+        rec[1] = dest_path.replace ("'", "''")
         if not self.db_rec_exists(rec[1]):
             self.add_dest_record(rec)
 
         dest_file_path = globals.normalize_file_path(dest_path)
         src_file_path = globals.normalize_file_path(src_path)
-        if not os.path.exists(os.path.dirname(dest_file_path)):
-            os.makedirs(os.path.dirname(dest_file_path))
-        if not os.path.exists(dest_file_path):
-            shutil.copy (src_file_path, dest_file_path)
+        if self.dowrites:
+            if not os.path.exists(os.path.dirname(dest_file_path)):
+                os.makedirs(os.path.dirname(dest_file_path))
+            if not os.path.exists(dest_file_path):
+                shutil.copy2 (src_file_path, dest_file_path)
+        else:
+            if not os.path.exists(dest_file_path):
+                print ' - would have copied from ', src_file_path
         print u' - {} ({})'.format(dest_file_path, rec[4])
 
     def db_rec_exists (self, path):
+        """
+        return True if this path exists in the Destination DB
+        """
         try:
             normalized = globals.normalize_db_path(path)
             # print 'normalized: {}'.format(normalized)
@@ -100,7 +122,7 @@ class Writer:
         quoted_schema = self.dest_db.schema.quoted_schema
 
         # put data list together to match with schema fields
-        quoted_values = ','.join(map (lambda x:u"'{}'".format(x), row))  # current
+        quoted_values = ','.join(map (lambda x:u"'{}'".format(str (x).replace("'", "''")), row))  # current
 
         try:
             c.execute("INSERT INTO {tn} ({fn}) VALUES ({fv})" \
@@ -120,10 +142,10 @@ if __name__ == '__main__':
     sqlite_file = globals.composite_sqlite_file
     dest_sqlite_file = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped.sqlite'
 
-    # path_pat = 'disc 1/360 lobby tour/IMG_2613.JPG'
-    path_pat = None
+    path_pat = 'Field Project-PREDICT-FP17 (2011)/Disc 8/'
+    # path_pat = None
     writer = Writer(globals.composite_sqlite_file, dest_sqlite_file, path_pat)
-    start = 18000
+    start = 0
     writer.write_all_records(start=start)
 
 

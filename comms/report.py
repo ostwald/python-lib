@@ -230,7 +230,7 @@ def report_composite ():
     # report_dir = '/Users/ostwald/Documents/Comms/Composite_DB'
 
     db_name = 'composite'
-    report_dir = '/Users/ostwald/Documents/Comms/Composite_DB/'
+    report_dir = '/Users/ostwald/Documents/Comms/Composite_DB'
 
     sqlite_file = os.path.join(report_dir, db_name + '.sqlite')
 
@@ -251,14 +251,22 @@ if __name__ == '__main__':
     if 0:
         report_dir = '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped-reports'
         sqlite_file= '/Users/ostwald/Documents/Comms/Composite_DB/cic-de-duped.sqlite'
+
         report_db (sqlite_file, report_dir)
 
     if 0:
-        sqlite_file = '/Users/ostwald/tmp/comms_db.sqlite'
-        report_dir = '/Users/ostwald/tmp/reporter'
+        # sqlite_file = '/Users/ostwald/tmp/comms_db.sqlite'
+        # report_dir = '/Users/ostwald/tmp/reporter'
+
+        # sqlite_file = '/Users/ostwald/Documents/Comms/Small_Images/PC_Disk_Small_Images.sqlite'
+        # report_dir = '/Users/ostwald/Documents/Comms/Small_Images/'
+
+        sqlite_file = '/Users/ostwald/Documents/Comms/Stragglers/composite-merged.sqlite'
+        report_dir = '/Users/ostwald/Documents/Comms/Stragglers/'
+
         reporter = TableReporter(sqlite_file, report_dir)
 
-        # reporter.write_dup_reports()
+        reporter.write_dup_reports()
         reporter.write_extension_report()
 
 

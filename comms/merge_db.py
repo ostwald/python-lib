@@ -77,6 +77,7 @@ class CompositDB (CommsDBTable):
 
 if __name__ == '__main__':
     composite_sqlite_File = globals.composite_sqlite_file
+    # composite_sqlite_File = '/Users/ostwald/Documents/Comms/Stragglers/composite.sqlite'
     c = CompositDB(composite_sqlite_File)
 
     # We "merge" various DB's by ingesting them into Composite
@@ -99,5 +100,5 @@ if __name__ == '__main__':
         c.ingestDB (disk7_path)
 
     if 1:
-        stage_path = '/Users/ostwald/Documents/Comms/Staging/Staging.sqlite'
-        c.ingestDB(stage_path)
+        new_path = '/Users/ostwald/Documents/Comms/Composite_DB/Stragglers.sqlite'
+        c.ingestDB(new_path)

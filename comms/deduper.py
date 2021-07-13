@@ -9,7 +9,6 @@ import os,sys,json, re
 import globals
 from dup_manager import DupManager
 from comms_db import CommsDBTable
-from sql_filter import SqlFilter
 import sqlite3
 
 class Reaper(DupManager):

@@ -11,7 +11,7 @@ class LoadingWalker (Walker):
 
     def __init__ (self, start_dir, sqlitefile):
 
-        if os.path.exists (sqlitefile):
+        if 0 and os.path.exists (sqlitefile):
             raise AlreadyExistsError, '\nERROR: sqlite_file already exists at {}\n'.format(sqlitefile)
 
         Walker.__init__(self, start_dir)
@@ -65,17 +65,17 @@ class AutoLoader:
 
 if __name__ == '__main__':
 
-    if 0:
-        # sqlite_file = '/Users/ostwald/tmp/CarlyeMainDisk2.sqlite'
-        sqlite_file = '/Users/ostwald/Documents/Comms/CIC-ExternalDisk1/CIC-ExternalDisk1.sqlite'
+    if 1:
+        sqlite_file = '/Users/ostwald/Documents/Comms/de-dup-snapshot.sqlite'
+        # root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 164'
+        root = '/Volumes/cic-de-duped/Field Projects'
+        if 0:  # start with clean DB
+            if os.path.exists(sqlite_file):
+                os.remove (sqlite_file)
 
-        root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/'
-        # root = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2'
-        # root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternallDisk1SecondTry/'
-        # root = '/Users/ostwald/tmp/test_comms_file_structure/'
-        # root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 5'
-        # root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 9/courtney - daycare/'
         load_db_from_path(root, sqlite_file)
+        # for filename in os.listdir(root):
+        #     print filename
 
     if 0:
         loader = AutoLoader()
@@ -100,9 +100,11 @@ if __name__ == '__main__':
             except AlreadyExistsError:
                 print sys.exc_info()[1]
 
-    if 1: #
-        sqlite_file = '/Users/ostwald/Documents/Comms/Staging/Staging.sqlite'
-        root = '/Volumes/archives/CommunicationsImageCollection/Staging'
+    if 0: #
+
+        sqlite_file = '/Users/ostwald/Documents/Comms/Stragglers/Stragglers.sqlite'
+        root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/disc 164'
+
         # root = '/Volumes/archives/CommunicationsImageCollection/Staging/Field Project-DC3-FP22/Disc 1'
         if os.path.exists(sqlite_file):
             os.remove (sqlite_file)

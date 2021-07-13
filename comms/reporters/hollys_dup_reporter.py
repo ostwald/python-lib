@@ -1,5 +1,5 @@
 import sys, os, re
-from dup_manager import DupManager
+from comms.dup_manager import DupManager
 
 accept_pat = re.compile('[a-zA-Z]{2}') #require four ajacent letters
 stop_phrases = ["IMG", "CR2", 'jpg', 'tif','tiff', "JPG",]

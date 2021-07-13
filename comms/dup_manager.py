@@ -38,6 +38,11 @@ class DupSet (UserList):
                     pass
                 self.file = path
 
+    def get_dup_file (self):
+        if self.file is None:
+            self.set_dup_file()
+        return self.file
+
     def find_items_with_substring(self, substr):
         found = []
         for path in self.duplist:
@@ -174,7 +179,7 @@ class DupManager:
         try:
             checksum = self._get_path_map()[path]
         except KeyError:
-            print 'WARN: find_dups_for_file: path does not exist at {}'.format(path)
+            print 'WARN: find_dups_for_file: dups not found for {}'.format(path)
             return []
 
         dups = self.dup_map[checksum]
@@ -224,6 +229,10 @@ class DupManager:
         dup_items = []
         path_map = self._get_path_map()
 
+        # print 'find_dup_items_with_substring'
+        # print '  substring:', substr
+        # print '  path_map: {}'.format(len(path_map))
+
         for path in path_map:
             if substr in path:
                 dup_items.append(path)
@@ -241,7 +250,7 @@ class DupManager:
         # print 'path:', path
         # print 'sqlite_file', sqlite_file
         all_paths = map(lambda x:x[0], db.select('path', "WHERE path LIKE '{}%'".format(path)))
-        print ' - all paths: {} ({})'.format(len(all_paths), path)
+        # print ' - all paths: {} ({})'.format(len(all_paths), path)
         # non_dups = filter (lambda x: self.path_map.has_key(x), all_paths)
 
         non_dups = []
@@ -286,7 +295,12 @@ def deleteMatchingDups (da, hit_pat):
         db.delete_record("path = '{}'".format(h))
 
 
-def filter_dups (da, filter_fn):
+def filter_dup_sets (da, filter_fn):
+    found = filter (filter_fn, da.dup_map.keys())
+    found.sort (key=lambda x: x.upper())
+    return found
+
+def filter_dup_paths (da, filter_fn):
     path_map = da._get_path_map()
     found = filter (filter_fn, path_map.keys())
     found.sort (key=lambda x: x.upper())
@@ -337,18 +351,22 @@ if __name__ == '__main__':
     # foo = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/ignore these/predict'
     # print num_images_in_dir(foo)
 
+    # dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json'
+    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/master_check_sum_dups.json'
 
-    # dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/dups/checksum_dups.json'
-    dup_data = '/Users/ostwald/Documents/Comms/Composite_DB/master_checksum_dups.json'
+
     print dup_data
     da = DupManager (dup_data)
     # da.report_dir_map()
 
-    path_map = da._get_path_map()
-    # print '{} paths in path_map'.format(len(path_map))
-    #
 
-
+    if 0:
+        path_map = da._get_path_map()
+        # print '{} paths in path_map'.format(len(path_map))
+        staging_dir = '/Volumes/archives/CommunicationsImageCollection/Staging'
+        checksum = path_map[os.path.join(staging_dir, 'Field Project-RICO-FP4 (2005)/Gordon Farguharson/2005_01_04/IMG_0079.JPG')]
+        for p in da.dup_map[checksum]:
+            print '-',p
 
     if 0:
         report_staging_dups(da)
@@ -364,23 +382,6 @@ if __name__ == '__main__':
             print '- {}'.format(cnt)
             total_cnt += cnt - 1
         print 'total to be deleted: {}'.format(total_cnt)
-
-
-    if 0:
-        filter_fn = lambda x: 'CIC-ExternalDisk6' in x
-
-        def my_filter (x):
-            if not 'CIC-ExternalDisk7' in x:
-                return False
-            if 'CIC-ExternalDisk2/video clips' in x:
-                return False
-            if 'CIC-ExternalDisk2/WORK FILES RESTORE' in x:
-                return False
-            return True
-        found = filter_dups(da, filter_fn)
-        print '{} found matey'.format(len (found))
-        for p in found:
-            print '-', p
 
     if 0:
         # base_dir = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk6/archived/'
@@ -402,5 +403,6 @@ if __name__ == '__main__':
         if 1:
             for nd in non_dups:
                 print nd
+
 
 

@@ -20,11 +20,8 @@ def merge_dups (master_dup_mgr, new_dup_mgr):
     master_checksums = master_dups.keys()
     print '{} master_dup keys'.format(len(master_checksums))
 
-    stage_dup_checksums = new_dup_mgr.find_dups_with_substring ('/Volumes/archives/CommunicationsImageCollection/Staging')
-    print '{} stage_dups found'.format(len(stage_dup_checksums))
-
     if 1:
-        for checksum in stage_dup_checksums:
+        for checksum in new_dup_mgr.dup_map.keys():
             if master_dups.has_key(checksum):
                 # print "collision"
                 # print "Master Paths"
@@ -47,7 +44,7 @@ def merge_dups (master_dup_mgr, new_dup_mgr):
             else:
                 master_dups[checksum] = new_dup_mgr.dup_map[checksum]
 
-    merged_dups_path = '/Users/ostwald/Documents/Comms/Composite_DB/dup_merger/MERGED_check_sum_dups.json'
+    merged_dups_path = '/Users/ostwald/Documents/Comms/Composite_DB/tmp/MERGED_check_sum_dups.json'
     fp = open(merged_dups_path, 'w')
     fp.write (json.dumps(master_dups, indent=3))
     fp.close()
@@ -56,40 +53,12 @@ def merge_dups (master_dup_mgr, new_dup_mgr):
 
 
 if __name__ == "__main__":
-    master_dup_mgr = DupManager('/Users/ostwald/Documents/Comms/Composite_DB/dup_merger/master_check_sum_dups.json')
+    master_dup_mgr = DupManager('/Users/ostwald/Documents/Comms/Composite_DB/tmp/master_check_sum_dups.json')
 
     master_dups = master_dup_mgr.dup_map
     master_checksums = master_dups.keys()
     print '{} master_dup keys'.format(len(master_checksums))
 
-
-
-    new_dup_mgr = DupManager('/Users/ostwald/Documents/Comms/Composite_DB/dup_merger/check_sum_dups.json')
+    new_dup_mgr = DupManager('/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json')
+    print '{} new_dup keys'.format(len(new_dup_mgr.dup_map.keys()))
     merge_dups (master_dup_mgr, new_dup_mgr)
-
-    # stage_dup_checksums = new_dup_mgr.find_dups_with_substring ('/Volumes/archives/CommunicationsImageCollection/Staging')
-    # print '{} stage_dups found'.format(len(stage_dup_checksums))
-    #
-    # if 1:
-    #     for checksum in stage_dup_checksums:
-    #         if master_dups.has_key(checksum):
-    #             print "collision"
-    #             print "Master Paths"
-    #             master_paths = master_dups[checksum]
-    #             for p in master_paths:
-    #                 print '- {}'.format(p)
-    #
-    #             print "Stage Paths"
-    #             for p in new_dup_mgr.dup_map[checksum]:
-    #                 print '- {}'.format(p)
-    #
-    #                 if not p in master_paths:
-    #                     master_paths.append(p)
-    #
-    #             master_dups[checksum] = master_paths
-    #
-    #             print "MERGED PATHS"
-    #             for p in master_paths:
-    #                 print '- {}'.format(p)
-    #
-    #

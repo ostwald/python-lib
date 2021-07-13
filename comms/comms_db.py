@@ -112,9 +112,15 @@ class CommsDBTable:
         conn.commit()
         conn.close()
 
-    def add_record (self,file_obj):
+    def add_record (self,file_obj, overwrite=0):
         conn = sqlite3.connect(self.sqlite_file)
         c = conn.cursor()
+
+        if not overwrite:
+            rows = self.select ('path', "WHERE path = '{}'".format(globals.normalize_db_path(file_obj.path)))
+            if len (rows) > 0:
+                print 'refusing to overwrite {}'.format(self.path)
+                return
 
         # quoted_schema = ','.join(map (lambda x:"'%s'" % x, HOSTS_SCHEMA_SPEC))
         quoted_schema = self.schema.quoted_schema
@@ -200,6 +206,51 @@ class CommsDBTable:
         c.execute(query)
         return c.fetchone()[0]
 
+    def update (self, update_dict, where_clause):
+        """
+        SQL Update syntax:
+            UPDATE table_name
+            SET column1 = value1, column2 = value2, ...
+            WHERE condition;
+
+        :param update_dict: {col_1 : val_1, col_2 : val2}
+        :param where_clause: WHERE x=foo - NOTE: if where clause is empty, all records will be updated
+        :return:
+        """
+        conn = sqlite3.connect(self.sqlite_file)
+        c = conn.cursor()
+
+        if where_clause is None:
+            where_clause = ''
+
+        col_val_items = []
+        for key in update_dict.keys():
+            col_val_items.append ("{} = '{}'".format(key, update_dict[key]))
+        col_val_clause = ', '.join(col_val_items)
+        query = "UPDATE {} SET {} {}".format(self.table_name, col_val_clause, where_clause)
+
+        # print query
+        c.execute(query)
+        conn.commit()
+
+    def sum_size_for_selected (self, where_clause=None):
+        """
+
+        :param where_clause: e.g., WHERE path LIKE '%foo%'"
+        :return:
+        """
+        conn = sqlite3.connect(self.sqlite_file)
+        c = conn.cursor()
+
+        if where_clause is None:
+            where_clause = ''
+        query = "SELECT SUM (`size`) FROM {} {}".format(self.table_name, where_clause)
+
+        # print query
+
+        c.execute(query)
+        return c.fetchone()[0]
+
     def list_dir (self, path):
         """
         like os.listdir, return list of names - images and directories, both derived from comms_files paths
@@ -263,7 +314,25 @@ if __name__ == '__main__':
         for f in filenames:
             print '- ',f
 
-    if 1:   # checksum tester
-        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 10/rick anthes/weather chan interview/IMG_5622.tif'
-        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 6/film crew/IMG_5622.tif'
+    if 0:   # checksum tester
+        # path = '/Volumes/cic-de-duped/Field Projects/Field Project-BAMEX-FP1/BAMEX3/IMG_7890.JPG'
+        # print get_checksum(path)
+        #
+        # path = '/Volumes/cic-de-duped/Field Projects/Field Project-BAMEX-FP1/BAMEX2a/IMG_7890.JPG'
+        # print get_checksum(path)
+
+        path = '/Users/ostwald/tmp/IMG_7890_ACORN.JPG'
         print get_checksum(path)
+
+        path = '/Users/ostwald/tmp/IMG_7890_ACORN_2.JPG'
+        print get_checksum(path)
+
+        path = '/Users/ostwald/tmp/IMG_7890_ACORN_3.JPG'
+        print get_checksum(path)
+
+    if 1: # update tester
+        table = CommsDBTable(sqlite_file)
+        update_spec = {'notes':'your mammy'}
+        checksum = '7bdb6578206e198b447f263f7ea05a74'
+        where_clause = "WHERE check_sum = '{}'".format(checksum)
+        table.update (update_spec, where_clause)

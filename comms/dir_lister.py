@@ -18,7 +18,7 @@ def get_num (filename):
     m = pat.findall (root)
     m.sort (key=lambda x: -int(x))
 
-    print m
+    # print m
 
     if m and len(m[0]) > 3:
         return m[0]
@@ -83,7 +83,6 @@ class DirLister:
 
         if file_names is None:
             file_names = self.get_file_names()
-
         # file_nums = filter (None, map (get_num, os.listdir (path)))
         file_nums = filter (None, map (get_num, file_names))
         file_nums.sort()
@@ -138,12 +137,7 @@ class DirLister:
             for p in self.get_subdirs():
                 self.__class__(p, level=self.level+1, recursive=self.recursive).report()
 
-from dup_manager import DupManager
-dup_manager = DupManager('/Users/ostwald/Documents/Comms/Composite_DB/dups/check_sum_dups.json')
-def is_dup (path):
-    return dup_manager._get_path_map().has_key(path)
-
-class  (DirLister):
+class  DBDirLister (DirLister):
     """
     Provides Listing tools operating over a DB (rather than a file system)
     """
@@ -192,8 +186,9 @@ if __name__ == '__main__':
         else:
             print 'disc_num required'
 
-    if 0:
-        path = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2/NCAR digital photos/1-archived/ASP/'
+    if 1:
+        # path = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2/NCAR digital photos/1-archived/ASP/'
+        path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc 143/NWSC-6-4-12 (Part 3)'
         DirLister(path).report()
     if 0:
         # path = '/Volumes/archives/CommunicationsImageCollection/CarlyeMainDisk2/NCAR digital photos/1-archived/ASP/'
@@ -208,7 +203,7 @@ if __name__ == '__main__':
         where_clause = "WHERE path LIKE '{}%'".format(path)
         print "TOTAL FILES: {}".format(lister.db.count_selected(where_clause))
 
-    if 1:
+    if 0:
         num_str = "08x }'97dgy238742.JPG"
         num = get_num("08972.JPG")
         print '- num_str: "{}" get_num: "{}" ({})'.format(num_str, num, type (num))

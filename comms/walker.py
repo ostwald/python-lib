@@ -56,7 +56,7 @@ class Walker:
 
         self.elapsed = time.time() - tics
 
-    def accept_dir(self, path):
+    def accept_dir_strict(self, path):
         dirname = os.path.basename(path)
         if dirname[0] == '.':
             return 0
@@ -68,6 +68,11 @@ class Walker:
                 return 0
         return 1
 
+    def accept_dir(self, path):
+        dirname = os.path.basename(path)
+        if dirname[0] == '.':
+            return 0
+        return 1
 
 if __name__ == '__main__':
     root = '/Volumes/archives/CommunicationsImageCollection/CIC-ExternalDisk1/photos/'

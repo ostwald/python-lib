@@ -3,6 +3,7 @@ Use comms writer to write Staging files to "Field Projects" in de-duped
 """
 
 from comms_writer import Writer
+import globals
 
 class StageWriter (Writer):
 
@@ -19,6 +20,7 @@ if __name__ == '__main__':
     # path_pat = 'disc 1/360 lobby tour/IMG_2613.JPG'
     path_pat = '/Volumes/archives/CommunicationsImageCollection/Staging'
     # path_pat = None
-    writer = Writer(globals.composite_sqlite_file, dest_sqlite_file, path_pat)
-    start = 18000
+    writer = StageWriter(globals.composite_sqlite_file, dest_sqlite_file, path_pat)
+    writer.dowrites = True
+    start = 16500 # 6900
     writer.write_all_records(start=start)
