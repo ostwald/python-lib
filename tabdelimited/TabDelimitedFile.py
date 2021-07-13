@@ -47,7 +47,7 @@ class FieldList (UserList):
 			return -1
 			
 	def asTabDelimitedListing (self):
-		return string.join (self.data, '\t')
+		return '\t'.join (self.data)
 		
 	def __repr__ (self):
 		s=[];add=s.append
