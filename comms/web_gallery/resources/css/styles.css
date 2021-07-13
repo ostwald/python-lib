@@ -1,3 +1,41 @@
 body {
-    background:bbbbbb;
+    background:ccc;
+}
+
+#wrapper-thumb, #wrapper-large {
+	text-align:left;
+	width: 807px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wrapper-thumb {
+    width: 615px !important;
+    border:thin red solid;
+}
+
+ul.pagination {
+    list-style-type:none;
+    border-collapse:collapse;
+}
+
+ul.pagination li {
+    display:inline-block;
+    border:thin dotted black;
+    padding:3px;
+    margin:0px;
+}
+
+ul.pagination li.current {
+    background:lightyellow;
+    font-weight:bold;
+}
+
+.pagination {
+    float:right;
+}
+
+.pagination .previous {
+    margin-left:25px;
 }

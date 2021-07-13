@@ -32,7 +32,7 @@ class WebGalleryHtmlWriter (WebGalleryFolder):
         image_names.sort()
         for i, img_name in enumerate(image_names):
             if current_page is None:
-                current_page = WebGalleryPage(len(self.pages)+1, self)
+                current_page = WebGalleryPage(len(self.pages), self)
             wgi = WebGalleryImage(img_name, self)
             current_page.append(wgi)
             if len(current_page) == (MAX_ROWS * MAX_COLS):
@@ -41,24 +41,20 @@ class WebGalleryHtmlWriter (WebGalleryFolder):
             elif i == len(image_names) -1:
                 self.pages.append(current_page)
 
-    def get_page_nav_old (self, current_page):
-        t = table(_class="page-nav")
+    def get_pagination (self, current_page):
+        t = ul(_class="pagination")
         for page in self.pages:
-            page_link = a(page.num, href=page.page_name, _class="fooberry")
-            if page == current_page:
-                # page_link['class'] = page_link['class'] + " current"
-                page_link['class'] += " currently"
-            t += td(page_link)
-        return t
 
-    def get_page_nav (self, current_page):
-        t = ul(_class="page-nav")
-        for page in self.pages:
-            page_link = a(page.num, href=page.page_name, _class="fooberry")
             if page == current_page:
-                # page_link['class'] = page_link['class'] + " current"
-                page_link['class'] += " currently"
-            t += li(page_link)
+                page_link = page.num
+                item = li(page_link, _class="current")
+            else:
+                page_link = a(page.num, href=page.page_name)
+                item = li(page_link)
+            t += item
+        prev_item, next_item = current_page.get_prev_next_nav()
+        t += prev_item
+        t += next_item
         return t
 
     def write_index_pages(self):
@@ -87,10 +83,11 @@ class WebGalleryPage (collections.UserList):
     defined by MAX_ROWS and MAX_COLS
     """
 
-    def __init__ (self, num, writer):
+    def __init__ (self, index, writer):
         self.writer = writer
         self.data = []
-        self.num = num
+        self.index = index
+        self.num = self.index + 1
         self.page_name = self.make_page_name()
 
     def make_page_name (self):
@@ -114,10 +111,9 @@ class WebGalleryPage (collections.UserList):
             tab+= row
         return tab
 
-    def get_pev_next_nav(self):
-        t = table(_class='navbar')
-        i = self.writer.pages.index(self)
-        print ("index: ", i)
+    def get_prev_next_nav(self):
+
+        i = self.index
         prev_link = 'Previous'
         if i > 0:
             prev_page = self.writer.pages[i-1].page_name
@@ -128,9 +124,9 @@ class WebGalleryPage (collections.UserList):
             next_page = self.writer.pages[i+1].page_name
             next_link = a(next_link, href=next_page)
 
-        t += td(prev_link)
-        t += td(next_link)
-        return t
+        prev_item =  li(prev_link, _class="previous")
+        next_item = li(next_link, _class="next")
+        return prev_item, next_item
 
     def as_html_page (self):
         """
@@ -143,9 +139,12 @@ class WebGalleryPage (collections.UserList):
             link(rel='stylesheet', href='resources/css/styles.css')
             script(type='text/javascript', src='resources/js/script.js')
 
-        d.body+= self.get_pev_next_nav()
-        d.body.add (self.get_thumb_table())
-        d.body+= self.writer.get_page_nav (self)
+        # d.body+= self.get_pev_next_nav()
+        wrapper = div(id='wrapper-thumb')
+        d.body.add(wrapper)
+
+        wrapper+= (self.get_thumb_table())
+        wrapper+= self.writer.get_pagination (self)
 
         return d
 
@@ -159,8 +158,10 @@ if __name__ == '__main__':
     writer = WebGalleryHtmlWriter (src_path)
     if 0:
         for page in writer.pages:
-            print (page)
-            print (str(page.get_thumb_table()))
+            # print (page)
+            # print (str(page.get_thumb_table()))
+            print ("num: ", page.num)
+            print ("index: ", page.index)
 
 
     writer.write_index_pages()
