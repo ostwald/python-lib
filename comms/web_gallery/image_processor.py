@@ -1,3 +1,7 @@
+"""
+Convert images to the accessibility format (TIF, x pixels on a side),
+and produce thumbnails
+"""
 import sys, os, re
 import rawpy
 from PIL import Image
@@ -43,6 +47,8 @@ class WebGalleryImageProcessor (WebGalleryFolder):
     """
     how to pass in metadata?
     """
+    def __init__ (self, src_path):
+        WebGalleryFolder.__init__(self, sr_path)
 
     def process_images(self):
         for img_name in os.listdir(self.src_path):

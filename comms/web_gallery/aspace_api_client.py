@@ -1,16 +1,24 @@
+"""
+interact with the ArchivesSpace API
+- https://archivesspace.github.io/archivesspace/api/
+"""
 import sys, os, re, traceback
 import json
 import requests
 
-# ASPACE_API_BASE_URL = 'http://osws-p.ucar.edu:7089'
-ASPACE_API_BASE_URL = 'https://aspace-p-api.ucar.edu'
+# ASPACE_API_BASE_URL = 'http://osws-t2-api.dls.ucar.edu'
+# ASPACE_API_BASE_URL = 'https://aspace-p-api.ucar.edu'
+
+# ASPACE_API_BASE_URL = 'http://osws-p.ucar.edu:7089' # works
+ASPACE_API_BASE_URL = 'http://libdev2.cloud.ucar.edu:7089' # works
 CONFIG_PATH = 'config.json'
 
 def pp (obj):
     print (json.dumps(obj, indent=2))
 
 def get_config ():
-    return json.loads (open (CONFIG_PATH, 'r').read())
+    content = open (CONFIG_PATH, 'r').read()
+    return json.loads (content)
 
 def update_config(config):
     fp = open(CONFIG_PATH, 'w')
@@ -23,27 +31,35 @@ def refresh_session_token ():
     url = os.path.join (ASPACE_API_BASE_URL,
                         'users/{}/login'.format(config['user']))
     resp = requests.post (url, params)
-    print ("REFRESH")
-    pp (resp.json())
+    # print ("REFRESH")
+    # pp (resp.json())
     session = resp.json()['session']
     config['session'] = session
     update_config(config)
     return config
 
-def get_object (obj_path):
-    url = os.path.join (ASPACE_API_BASE_URL, 'repositories/2', obj_path)
+def get_object (obj_id):
+    """
+
+    :param obj_id: e.g., archival_object/22578
+    :return: json response from ArchivesSpace API
+    """
+    url = os.path.join (ASPACE_API_BASE_URL, 'repositories/2', obj_id)
     return get_api_resp(url)
 
 def get_api_resp(url, params=None):
     config = get_config()
+    # pp (config)
     headers = {
         'X-ArchivesSpace-Session' : config['session']
     }
     resp = requests.get (url, headers=headers, params=params)
     resp_json = resp.json()
+    # print (url)
+    # pp (resp_json)
     if 'error' in resp_json:
         print ('ERROR in resp_json')
-        # pp (resp_json)
+        pp (resp_json)
         if 'code' in resp_json and resp_json['code'] == "SESSION_GONE":
             print ('refreshing token')
             config = refresh_session_token()
@@ -56,8 +72,13 @@ def get_api_resp(url, params=None):
             raise Exception ("Aspace API Error: {}".format(resp_json['error']))
     return resp.json()
 
-def get_children (obj_path):
-    url = os.path.join (ASPACE_API_BASE_URL, 'repositories/2', obj_path, 'children')
+def get_children (obj_id):
+    """
+
+    :param obj_id: e.g., archival_object/22578
+    :return: json response from ArchivesSpace API
+    """
+    url = os.path.join (ASPACE_API_BASE_URL, 'repositories/2', obj_id, 'children')
     return get_api_resp(url)
 
 
@@ -67,7 +88,12 @@ if __name__ == '__main__':
     # get_session_token()
     # config = get_config()
     # print (config)
-    id = 'archival_objects/22578'
+
+    # id = 'archival_objects/22578' # has children
+    id = 'archival_objects/2294' # has ark
+    # id = 'resources/67' # has ark but not good example?
+    # id = 'digital_objects/813' # digital object
+
     obj = get_object(id)
     # obj = get_children('archival_objects/22578')
     pp (obj)

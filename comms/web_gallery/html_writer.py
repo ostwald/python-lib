@@ -23,7 +23,9 @@ MAX_ROWS = 3
 MAX_COLS = 3
 
 class WebGalleryHtmlWriter (WebGalleryFolder):
-
+    """
+    writes the HTML for a webgallery folder
+    """
     def __init__ (self, src_path):
         WebGalleryFolder.__init__(self, src_path)
         self.pages = []
