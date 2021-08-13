@@ -1,5 +1,9 @@
 {
-  "session": "19385ddf863ad4c1fca66b1aa4381a39fd019e1a214689eba4c253523bb2d653",
   "user": "webservice",
-  "password": "api-client"
+  "password": "api-client",
+  "src_img_filesystem_base": "/Volumes/cic-de-duped/CIC-ExternalDisk1",
+  "dest_img_webgallery_base": "/Users/ostwald/tmp/COMMS_DEST",
+  "aspace_api_base_url" : "http://libdev2.cloud.ucar.edu:7089",
+  "config_path" : "config.json:",
+  "session_token_path" : "_session_token"
 }

@@ -1,8 +1,9 @@
 body {
     background:ccc;
+    fonbt-family:arial;
 }
 
-#wrapper-thumb, #wrapper-large {
+#wrapper-thumb {
 	text-align:left;
 	width: 807px;
 	margin: 0 auto;
@@ -10,14 +11,23 @@ body {
 	padding-right: 10px;
 }
 
+#wrapper-large-image {
+    clear:right;
+    text-align:center;
+}
+
 #wrapper-thumb {
     width: 615px !important;
     border:thin red solid;
 }
 
-ul.pagination {
+ul.pagination, ul.item-navbar {
     list-style-type:none;
     border-collapse:collapse;
+}
+
+ul.item-navbar li {
+    display:inline-block;
 }
 
 ul.pagination li {
@@ -32,10 +42,28 @@ ul.pagination li.current {
     font-weight:bold;
 }
 
+.item-navbar {
+    padding:2px;
+    margin:0;
+    text-align:center;
+    background:transparent;
+}
+
 .pagination {
     float:right;
 }
 
 .pagination .previous {
     margin-left:25px;
+}
+
+#page-layout {
+    margin: 0 auto;
+    width: 1200px;
+    /*background:yellow;*/
+}
+
+#wrapper-large-image img {
+    max-width:900px;
+    max-height:700px;
 }

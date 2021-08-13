@@ -3,9 +3,20 @@ This module depends on python 3.9.x
 """
 import os, sys, re
 import shutil
+import json
+
+def get_config ():
+    CONFIG_PATH = 'config.json'
+    content = open (CONFIG_PATH, 'r').read()
+    return json.loads (content)
 
 SRC_PATH_BASE = '/Volumes/cic-de-duped/CIC-ExternalDisk1'
 DST_PATH_BASE = '/Users/ostwald/tmp/COMMS_DEST'
+
+def update_config(config):
+    fp = open(CONFIG_PATH, 'w')
+    fp.write(json.dumps (config, indent=2))
+    fp.close()
 
 class WebGalleryFolder:
     """
@@ -44,7 +55,7 @@ class WebGalleryFolder:
         :param src_path:
         """
         self.src_path = src_path
-        self.images_dir = self.large_image_dir = self.thumb_image_dir = None
+        self.images_dir = self.large_image_dir = self.tiff_image_dir = self.thumb_image_dir = None
         self.dst_path = self.src_path.replace (SRC_PATH_BASE, DST_PATH_BASE)
         self.init_file_structure()
 
@@ -68,6 +79,10 @@ class WebGalleryFolder:
         self.large_image_dir = os.path.join (self.images_dir, 'large')
         if not os.path.exists (self.large_image_dir):
             os.mkdir (self.large_image_dir)
+
+        self.tiff_image_dir = os.path.join (self.images_dir, 'tiff')
+        if not os.path.exists (self.tiff_image_dir):
+            os.mkdir (self.tiff_image_dir)
 
         self.thumb_image_dir = os.path.join (self.images_dir, 'thumb')
         if not os.path.exists (self.thumb_image_dir):
