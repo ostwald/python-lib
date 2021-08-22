@@ -75,10 +75,10 @@ class WebGalleryHtmlWriter (WebGalleryImageProcessor):
 
             if page == current_page:
                 page_link = page.num
-                item = li(page_link, _class="current")
+                item = li(page_link, _class="button current")
             else:
                 page_link = a(page.num, href=page.page_name)
-                item = li(page_link)
+                item = li(page_link, _class="button")
             t += item
         prev_item, next_item = current_page.get_prev_next_nav()
         t += prev_item
@@ -89,12 +89,18 @@ class WebGalleryHtmlWriter (WebGalleryImageProcessor):
         if archival_object is None:
             archival_object = self.archival_object
 
-        wrapper = div(_class='file-metadata-wrapper')
-        md_table = wrapper.add (table (_class="metadata-display-table"))
-        md_table += tr (th ('title'), td(archival_object.title))
-        md_table += tr (th ('description'), td(archival_object.description))
-        md_table += tr (th ('date'), td(archival_object.date))
+        # wrapper = div(_class='file-metadata-wrapper')
+        # md_table = wrapper.add (table (_class="metadata-display-table"))
+        # md_table += tr (th ('title'), td(archival_object.title))
+        # md_table += tr (th ('description'), td(archival_object.description))
+        # md_table += tr (th ('date'), td(archival_object.date))
 
+        wrapper = div(_class='resource-metadata')
+        if archival_object.level == "file":
+            wrapper += div ('Digital photographs, 2000-2018', _class="series-title")
+        wrapper += div (archival_object.title, _class="resource-title")
+        wrapper += div (archival_object.description, _class="resource-description")
+        wrapper += div (archival_object.date, _class="resource-date")
         return wrapper
 
     def write_index_pages(self):
@@ -192,7 +198,7 @@ class WebGalleryImagePage:
 
         index_page_name = self.image.index_page.page_name
         index_link = a("Index", href='../' + index_page_name)
-        index_item = li(index_link)
+        index_item = li(index_link, _class="button")
 
         i = self.writer.images.index(self.image)
         prev_link = 'Previous'
@@ -205,8 +211,8 @@ class WebGalleryImagePage:
             next_image_href = self.writer.images[i+1].image_name + '.html'
             next_link = a(next_link, href=next_image_href)
 
-        prev_item =  li(prev_link, _class="previous")
-        next_item = li(next_link, _class="next")
+        prev_item =  li(prev_link, _class="previous button")
+        next_item = li(next_link, _class="next button")
 
         t = ul(_class='item-navbar')
         t += prev_item
@@ -265,8 +271,8 @@ class WebGalleryIndexPage (collections.UserList):
             next_page = self.writer.pages[i+1].page_name
             next_link = a(next_link, href=next_page)
 
-        prev_item =  li(prev_link, _class="previous")
-        next_item = li(next_link, _class="next")
+        prev_item =  li(prev_link, _class="previous button")
+        next_item = li(next_link, _class="next button")
         return prev_item, next_item
 
     # def get_metadata_display (self):

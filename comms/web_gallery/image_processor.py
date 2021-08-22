@@ -12,7 +12,7 @@ from web_gallery import WebGalleryFolder, get_config
 
 RAW_EXTENSIONS = ['.CR2', '.CRW']
 LARGE_IMAGE_SIZE = (1200, 1200)
-THUMB_IMAGE_SIZE = (200, 200)
+THUMB_IMAGE_SIZE = (500, 500)
 
 def raw_to_tiff (path):
     """

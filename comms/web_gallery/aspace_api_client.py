@@ -57,6 +57,15 @@ def get_archival_object_data (obj_id):
     url = os.path.join (ASPACE_API_BASE_URL, 'repositories/2', obj_id)
     return get_api_resp(url)
 
+def get_digital_objects ():
+    """
+    see https://archivesspace.github.io/archivesspace/api/#get-an-archival-object-by-id
+    :param obj_id: e.g., archival_object/22578
+    :return: json response from ArchivesSpace API
+    """
+    url = os.path.join (ASPACE_API_BASE_URL, 'repositories/2/digital/objects')
+    return get_api_resp(url)
+
 def get_api_resp(url, params=None):
     config = get_config()
     headers = {
@@ -101,15 +110,15 @@ if __name__ == '__main__':
     # session = get_session()
     # print ("session: ", session)
 
-    id = 'archival_objects/22578' # has children
-    # id = 'archival_objects/2294' # has ark
-    # id = 'resources/67' # has ark but not good example?
-    # id = 'digital_objects/813' # digital object
-
-    obj = get_archival_object_data(id)
-    # obj = get_children(id)
-    pp (obj)
-    if 1: #write obj to disk
+    if 0: # get an archival object
+        id = 'archival_objects/22578' # has children
+        # id = 'archival_objects/2294' # has ark
+        # id = 'resources/67' # has ark but not good example?
+        # id = 'digital_objects/813' # digital object
+        obj = get_archival_object_data(id)
+        # obj = get_children(id)
+        pp (obj)
+    if 0: #write obj to disk
         path = '/Users/ostwald/tmp/{}.json'.format(id.replace ('/','_'))
         fp = open(path, 'w')
         fp.write (json.dumps(obj, indent=2))

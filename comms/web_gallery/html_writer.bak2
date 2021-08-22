@@ -1,0 +1,74 @@
+"""
+Create the html pages for the images in the given directory
+
+----- Available Metadata -------------
+folder_src_path (e.g., as cataloged in ASpace)
+aspace recource URL (e.g., https://aspace.archives.ucar.edu/repositories/2/archival_objects/22449)
+folder_dest_path (from which we can derive the rest given the structure above)
+folder title
+folder description
+dates?? (each image has date information. we could show the span?)
+
+todo: investigate how to obtain metadata directly from ASpace via webservice
+"""
+import collections
+
+import sys, os, re
+# from UserList import UserList
+from web_gallery import WebGalleryFolder
+
+MAX_ROWS = 3
+MAX_COLS = 3
+
+class WebGalleryHtmlWriter (WebGalleryFolder):
+
+    def __init__ (self, src_path):
+        WebGalleryFolder.__init__(self, src_path)
+        self.pages = []
+        current_page = None
+        image_names = os.listdir(self.large_image_dir)
+        image_names.sort()
+        for i, img_name in enumerate(image_names):
+            if current_page is None:
+                current_page = WebGalleryPage(len(self.pages)+1, self)
+            current_page.append(img_name)
+            if len(current_page) == (MAX_ROWS * MAX_COLS):
+                self.pages.append (current_page)
+                current_page = None
+            elif i == len(image_names) -1:
+                self.pages.append(current_page)
+
+class WebGalleryImage:
+
+    def __init__ (self, large_image_name, writer):
+        self.large_image_name = large_image_name
+        self.image_name, self.large_image_suffix = os.path.splitext(large_image_name)
+        self.thumb_name = self.image_name + '.jpg'
+
+class WebGalleryPage (collections.UserList):
+
+    def __init__ (self, num, writer):
+        self.data = []
+        self.num = num
+        self.page_name = self.make_page_name()
+
+    def make_page_name (self):
+        page_name = 'index'
+        if self.num > 1:
+            page_name += '_' + str(self.num)
+        return page_name + '.html'
+
+    def get_thumb_table (self):
+        pass
+
+
+    def __repr__ (self):
+        s = self.page_name
+        s += '\n{}'.format(self.data)
+        return s
+
+if __name__ == '__main__':
+    src_path = '/Volumes/cic-de-duped/CIC-ExternalDisk1/disc1/center_green'
+    writer = WebGalleryHtmlWriter (src_path)
+    for page in writer.pages:
+        print (page)
