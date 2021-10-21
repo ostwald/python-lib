@@ -89,7 +89,10 @@ class WebGalleryFolder:
             os.mkdir (self.thumb_image_dir)
 
         # resources
-        self.resources_dir = os.path.join (self.dst_path, 'resources')
-        if os.path.exists (self.resources_dir):
-            shutil.rmtree(self.resources_dir)
-        shutil.copytree('resources', self.resources_dir)
+        self.resources_dir = os.path.join (DST_PATH_BASE, 'resources')
+        if 0: # old way but we don't want to write these over and over
+            if os.path.exists (self.resources_dir):
+                shutil.rmtree(self.resources_dir)
+            shutil.copytree('resources', self.resources_dir)
+        elif not os.path.exists (self.resources_dir):
+            shutil.copytree('resources', self.resources_dir)

@@ -69,9 +69,9 @@ if __name__ == '__main__':
 
         archives_file_ids = [
             'archival_objects/22578', # vanilla (test)
-            'archival_objects/23123', # singleton (prod) no filename
-            'archival_objects/23057', # singleton (prod) filename no suffix
-            'archival_objects/23115' # singleton (prod) not published
+            # 'archival_objects/23123', # singleton (prod) no filename
+            # 'archival_objects/23057', # singleton (prod) filename no suffix
+            # 'archival_objects/23115' # singleton (prod) not published
             # 'archival_objects/22262' # nested (prod?)
         ]
 

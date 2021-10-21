@@ -78,38 +78,33 @@ class WebGalleryHtmlWriter (WebGalleryImageProcessor):
         t += next_item
         return t
 
-    def get_metadata_display (self, archival_object=None, finding_aid_uri=None):
+    def get_metadata_display (self):
         # print ("get_metadata_display: {}".format(self.archival_object.uri))
         # if archival_object is not None:
         #     print (" - provided: {}".format(archival_object.uri))
         CONFIG = get_config()
-        if archival_object is None:
-            archival_object = self.archival_object
-            # print (" archival_object is: {}".format(archival_object.uri))
 
-        # print (json.dumps (self.archival_object.data, indent=2))
+        series_name = 'Digital photographs, 2000-2018'
+        series_uri = CONFIG['aspace_base_url'] + self.archival_object.parent_uri
+        series_title_link = a (series_name, href=series_uri)
+
+        title_name = self.archival_object.title
+        title_uri = CONFIG['aspace_base_url'] + self.archival_object.uri
+        title_link = a(title_name, href=title_uri)
 
         wrapper = div(_class='resource-metadata')
-        series_name = 'Digital photographs, 2000-2018'
-        if archival_object.level == "file":
-            # href = CONFIG['aspace_base_url'] + self.archival_object.parent_uri
-            if finding_aid_uri is not None:
-                href = CONFIG['aspace_base_url'] + finding_aid_uri
-            else:
-                href = CONFIG['aspace_base_url'] + self.archival_object.uri
-            # print ("  - href: " + self.archival_object.uri)
-            series_aspace_link = a ("Back to Finding Aid", href=href, _class="button")
-            floater = div (series_aspace_link, _class="parent-aspace-link")
-            wrapper += floater
-            wrapper += (div (series_name, _class="series-title"))
+        wrapper += div (series_title_link, _class="series-title")
 
-        # title link: ' CONFIG['aspace_base_url'] + self.archival_object.rel_path
-        wrapper += div (archival_object.title, _class="resource-title")
-        wrapper += div (archival_object.description, _class="resource-description")
-        if archival_object.creator:
-            wrapper += div ('Creator: ', get_person_name(archival_object.creator), _class="resource-creator")
-        wrapper += div (archival_object.date, _class="resource-date")
+        # wrapper +=  div (archival_object.title, _class="resource-title")
+        wrapper += div (title_link, _class="resource-title")
+        wrapper += div (self.archival_object.description, _class="resource-description")
+
+        if self.archival_object.creator:
+            wrapper += div ('Creator: ', get_person_name(self.archival_object.creator), _class="resource-creator")
+        wrapper += div (self.archival_object.date, _class="resource-date")
+
         return wrapper
+
 
     def write_index_pages(self):
         """
@@ -173,36 +168,51 @@ class WebGalleryImagePage:
         d = document(title=self.image.image_name)
 
         with d.head:
-            link(rel='stylesheet', href='../resources/css/styles.css')
-            script(type='text/javascript', src='../resources/js/script.js')
+            link(rel='stylesheet', href='../../../resources/css/styles.css')
+            script(type='text/javascript', src='../../../resources/js/script.js')
 
-        # d.body+= self.get_pev_next_nav()
-        # d.body.add (self.writer.get_metadata_display())
-        #
-        # d.body.add (self.get_item_navbar())
+        header = div(id="page-header")
+        with header:
+            header_inner = div (id="header-inner")
+            with header_inner:
+                img(id="logo", src="../../../resources/logo.png")
+                img(id="slogan", src="../../../resources/slogan_0075BF.png")
 
         layout = div(id='page-layout')
-
-        finding_aid_uri = self.archival_object is not None and self.archival_object.uri or None
-        layout.add (self.writer.get_metadata_display(finding_aid_uri=finding_aid_uri))
-        layout.add (self.get_item_navbar())
-
-        wrapper = div(id='wrapper-large-image')
-        wrapper += img(src='images/large/'+self.image.large_image_name)
-
-        layout.add (wrapper)
+        with layout:
+            self.writer.get_metadata_display()
+            self.get_item_navbar()
+            div(id='wrapper-large-image')\
+                .add(img(src='images/large/'+self.image.large_image_name))
 
         if self.archival_object is not None:
             print (".. calling metaeata_display with {}".format(self.writer.archival_object.uri))
-            layout.add (self.writer.get_metadata_display(self.archival_object))
+            # layout.add (self.writer.get_metadata_display(self.archival_object))
+            layout.add (self.get_item_metadata_display())
 
-        d.body.add(layout)
-
-        # wrapper+= (self.get_thumb_table())
-
-        # wrapper+= self.writer.get_pagination (self)
+        d.body += header
+        d.body += layout
 
         return d
+
+    def get_item_metadata_display (self):
+        # print ("get_metadata_display: {}".format(self.archival_object.uri))
+        # if archival_object is not None:
+        #     print (" - provided: {}".format(archival_object.uri))
+        CONFIG = get_config()
+
+        wrapper = div(_class='resource-metadata')
+
+        title_url = CONFIG['aspace_base_url'] + self.archival_object.uri
+        title_link = a(self.archival_object.title, href=title_url)
+        wrapper += div (title_link, _class="resource-title")
+        # wrapper += div (self.archival_object.title, _class="resource-title")
+        wrapper += div (self.archival_object.description, _class="resource-description")
+        if self.archival_object.creator:
+            wrapper += div ('Creator: ', get_person_name(self.archival_object.creator), _class="resource-creator")
+        wrapper += div (self.archival_object.date, _class="resource-date")
+        return wrapper
+
 
     def get_item_navbar(self):
 
@@ -328,18 +338,25 @@ class WebGalleryIndexPage (collections.UserList):
         d = document(title=os.path.basename(self.writer.src_path))
 
         with d.head:
-            link(rel='stylesheet', href='resources/css/styles.css')
-            script(type='text/javascript', src='resources/js/script.js')
+            link(rel='stylesheet', href='../../resources/css/styles.css')
+            script(type='text/javascript', src='../../resources/js/script.js')
 
-        # d.body+= self.get_pev_next_nav()
+        header = div(id="page-header")
+        with header:
+            header_inner = div (id="header-inner")
+            with header_inner:
+                img(id="logo", src="../../resources/logo.png")
+                img(id="slogan", src="../../resources/slogan_0075BF.png")
+
+        thumb_wrapper = div(id='wrapper-thumb')
+        thumb_wrapper += (self.get_thumb_table())
+        thumb_wrapper += self.writer.get_pagination (self)
+
         page_layout = div(id="page-layout")
-        d.body.add (page_layout)
-        page_layout.add (self.writer.get_metadata_display())
-        wrapper = div(id='wrapper-thumb')
-        page_layout.add(wrapper)
+        page_layout += self.writer.get_metadata_display()
+        page_layout += thumb_wrapper
 
-        wrapper+= (self.get_thumb_table())
-        wrapper+= self.writer.get_pagination (self)
+        d.body.add (header, page_layout)
 
         return d
 
