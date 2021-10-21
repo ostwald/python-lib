@@ -1,0 +1,154 @@
+body {
+    background:ccc;
+    font-family:arial;
+}
+
+#wrapper-thumb {
+	text-align:left;
+	width: 900px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#wrapper-large-image {
+    clear:right;
+    text-align:center;
+}
+
+#wrapper-thumb {
+    width: 100% !important;
+    /*border:thin red solid;*/
+}
+
+#thumb-table {
+    /*border:black solid thin;*/
+    border-collapse:collapse;
+    width:900px;
+    margin:auto;
+}
+
+#thumb-table td {
+    text-align:center;
+    valign:middle;
+    border:black solid thin;
+    padding:10px;
+    width:300px;
+    height:200px;
+}
+
+#thumb-table img {
+    max-width:300px;
+    max-height:300px;
+}
+
+ul.pagination, ul.item-navbar {
+    list-style-type:none;
+    border-collapse:collapse;
+}
+
+/* NAV BUTTONS */
+.button {
+    padding:3px 8px;
+    border-radius:7px;
+    margin: 0px 10px;
+    color: #fff;
+    background-color: #337ab7;
+    border:thin solid black;
+    border-color: #2e6da4;
+
+    font-weight:bold;
+}
+
+.button:hover {
+   background-color: grey;
+}
+
+.button a {
+    color:white;
+    text-decoration:none;
+}
+
+.button.disabled {
+    background-color: grey;
+}
+
+.button.disabled:hover {
+    border-color: grey;
+}
+
+ul.item-navbar li {
+    display:inline-block;
+}
+
+ul.item-navbar li:hover {
+    border-color: orange;
+}
+
+ul.pagination li {
+    display:inline-block;
+/*    border:thin dotted black;
+    padding:3px;
+    margin:0px;*/
+}
+
+ul.pagination li.current {
+    color:black;
+/*    background:white;
+    font-weight:bold;
+    color:black;
+    border-color:black;*/
+}
+
+.item-navbar {
+    padding:2px;
+    margin:0;
+    text-align:center;
+    background:transparent;
+}
+
+.pagination {
+    float:right;
+}
+
+.pagination .previous {
+    margin-left:25px;
+}
+
+#page-layout {
+    margin: 0 auto;
+    width: 950px;
+    /*background:yellow;*/
+}
+
+#wrapper-large-image img {
+    max-width:900px;
+    max-height:700px;
+    margin:20px;
+}
+
+.parent-aspace-link {
+    float:right;
+}
+
+
+.series-title {
+    font-weight:bold;
+    font-size:1.2em;
+    border-bottom:thick grey solid;
+}
+
+.resource-title {
+    font-weight:bold;
+    font-size:1.5em;
+    color:grey;
+}
+
+.resource-metadata div {
+    margin:0px auto 10px auto;
+
+/*    background:yellow;
+    border:thin orange solid;*/
+
+
+}

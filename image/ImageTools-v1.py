@@ -10,7 +10,7 @@
 	   thumnail1
 	   thumnailN	   
 """
-	
+
 
 import Image
 import os
@@ -21,7 +21,7 @@ class ImageTool:
 		"@sig public ImageLoader(java.lang.String infile, java.lang.String collectionDir)"
 		
 		self.infile = infile
-		print "ImageTool for ", infile
+		print ("ImageTool for ", infile)
 		self.dir, self.filename = os.path.split(infile)
 		self.name, self.ext = os.path.splitext (self.filename)
 		self.im = self.get_image()
@@ -29,10 +29,10 @@ class ImageTool:
 	def get_image (self):
 		try:
 			im = Image.open(self.infile)
-			print self.filename, im.format, "%dx%d" % im.size, im.mode
+			print (self.filename, im.format, "%dx%d" % im.size, im.mode)
 			return im
 		except IOError:
-			print "couldn't recognize %s as an image"
+			print ("couldn't recognize %s as an image")
 			return
 		
 class JpegConverter (ImageTool):
@@ -46,7 +46,7 @@ class JpegConverter (ImageTool):
 			try:
 				im.save (os.path.join (self.dir, self.name+".jpg"))
 			except IOError:
-				print "couldn't save %s as a JPEG image" % self.infile
+				print ("couldn't save %s as a JPEG image" % self.infile)
 				return
 
 class Thumbnailer (ImageTool):
@@ -56,7 +56,7 @@ class Thumbnailer (ImageTool):
 
 		format = im.format
 		if format == "TIFF":
-			print "WARNING: Original image is of format %s which makes bad thumbnails" % format
+			print ("WARNING: Original image is of format %s which makes bad thumbnails" % format)
 
 		try:
 			thumbsize = 200, 200
@@ -64,10 +64,10 @@ class Thumbnailer (ImageTool):
 			im.thumbnail(thumbsize)
 			im.save(thumbpath, "JPEG")
 		except IOError:
-			print "cannot create thumbnail for", self.filename
+			print ("cannot create thumbnail for", self.filename)
 
 if __name__ == "__main__":
 	
-	path = "/Users/ostwald/Desktop/sunset.tif"
-	## Thumbnailer (path).thumbnailer()
-	JpegConverter (path).converter()
+	path = "/Users/ostwald/Documents/Comms/web_gallery/Test_1/energy saving/scratch/IMG_1699.CR2"
+	Thumbnailer (path).thumbnailer()
+	# JpegConverter (path).converter()
