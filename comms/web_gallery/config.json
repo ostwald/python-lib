@@ -1,9 +1,13 @@
 {
-  "user": "webservice",
-  "password": "api-client",
+  "user_off": "webservice",
+  "password_off": "api-client",
+  "user": "admin",
+  "password": "tornado",
   "src_img_filesystem_base": "/Volumes/cic-de-duped/CIC-ExternalDisk1",
   "dest_img_webgallery_base": "/Users/ostwald/tmp/COMMS_DEST",
-  "aspace_api_base_url" : "http://libdev2.cloud.ucar.edu:7089",
   "config_path" : "config.json:",
-  "session_token_path" : "_session_token"
+  "session_token_path" : "_session_token",
+  "aspace_base_url" : "https://aspace-t2.dls.ucar.edu",
+  "aspace_api_base_url" : "http://libdev2.cloud.ucar.edu:7089",
+  "aspace_api_base_url_off" : "http://aspace-p.ucar.edu:7089"
 }

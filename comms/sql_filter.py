@@ -25,6 +25,7 @@ class SqlFilter:
         self.cursor = conn.cursor()
 
     def make_path_filter_clause (self):
+        # q = "NOT (" + " OR ".join (map (lambda x:"LOWER(path) like '%{}%'".format(x), self.path_frag_filter)) + ")"
         q = "NOT (" + " OR ".join (map (lambda x:"LOWER(path) like '%{}%'".format(x), self.path_frag_filter)) + ")"
         return q
 
@@ -63,7 +64,7 @@ if __name__ == '__main__':
 
     print "SELECT * {}".format(sql_filter.tail_clause)
 
-    if 0:
+    if 1:
         rows = sql_filter.select_filtered ()
         print '{} rows selected'.format(len(rows))
 

@@ -54,7 +54,7 @@ class WebGalleryImageProcessor (WebGalleryFolder):
 
     def process_images(self, safe=False):
         """
-        consider a safe mode, where existing files would not be overriden
+        when safe is True, existing files are not be overwritten
         :return:
         """
         img_names = os.listdir(self.src_path)
@@ -80,6 +80,7 @@ class WebGalleryImageProcessor (WebGalleryFolder):
         root, ext = os.path.splitext(os.path.basename (image_path))
         tiff_image_path = os.path.join (self.tiff_image_dir, root+'.tiff')
         large_image_path = os.path.join (self.large_image_dir, root+'.jpg')
+        # large_image_path = tiff_image_path
         if safe and os.path.exists(large_image_path):
             # print ('  -  skipped {}'.format(os.path.basename(image_path)))
             return
@@ -99,7 +100,8 @@ class WebGalleryImageProcessor (WebGalleryFolder):
                 image.save (os.path.join (self.thumb_image_dir, root+'.jpg'))
         except Exception as err:
             traceback.print_exc()
-            raise ImageProcessingError (sys.exc_info()[1]) from err
+            # raise ImageProcessingError (sys.exc_info()[1]) from err
+            raise ImageProcessingError (sys.exc_info()[1])
 
 if __name__ == '__main__':
     CONFIG = get_config()
