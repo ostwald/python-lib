@@ -153,7 +153,7 @@
                         >articles</osm:collectionKey>
                   </extension>
                   <relatedItem type="isReferencedBy">
-                     <identifier type="uri">http://dx.doi.org/10.1002/asi.21437</identifier>
+                     <identifier type="uri">https://doi.org/10.1002/asi.21437</identifier>
                   </relatedItem>
                   <identifier type="uri" displayLabel="Legacy citable URL"
                      >http://nldr.library.ucar.edu/repository/collections/OSGC-000-000-003-570</identifier>

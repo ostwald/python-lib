@@ -164,7 +164,7 @@ Doppler lidar measurements of vertical velocity spectra in the convective planet
 Doppler lidar measurements of vertical velocity spectra in the convective planetary boundary layer	WOS-000-000-000-027	Final	
 Dynamic error estimation for radio occultation bending angles retrieved by the full spectrum inversion technique	OSGC-000-000-001-236	Holding	Nowak record
 Dynamic error estimation for radio occultation bending angles retrieved by the full spectrum inversion technique	WOS-000-000-001-575	Final	
-Dynamically adaptive spectral-element simulations of 2D incompressible Navier-Stokes vortex decays	OSGC-000-000-000-049	Final	If/when preprint located, enter into copyright statement: "This is an electronic version of an article published in Geophysical & Astrophysical Fluid Dynamics, Volume 103, Issue 2 & 3 April 2009, pages 245 - 268. This article is available online at: http://dx.doi.org/10.1080/03091920802684665."
+Dynamically adaptive spectral-element simulations of 2D incompressible Navier-Stokes vortex decays	OSGC-000-000-000-049	Final	If/when preprint located, enter into copyright statement: "This is an electronic version of an article published in Geophysical & Astrophysical Fluid Dynamics, Volume 103, Issue 2 & 3 April 2009, pages 245 - 268. This article is available online at: https://doi.org/10.1080/03091920802684665."
 Dynamically adaptive spectral-element simulations of 2D incompressible Navier-Stokes vortex decays	PUBS-NOT-FY2010-000-000-007-326	Unknown	
 Dynamics of the small scales in magnetohydrodynamic turbulence	OSGC-000-000-000-054	Final	Rights QA by Jones.
 Dynamics of the small scales in magnetohydrodynamic turbulence	PUBS-000-000-004-274	Final	
